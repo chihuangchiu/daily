@@ -1,7 +1,7 @@
 # Daily run: 「今天，誰改變了世界」
 
-Every morning one ~4-minute vertical video about a person or event tied to today's date,
-posted to the Facebook page 「今天，誰改變了世界」 at 20:00 Taiwan time.
+Every morning (run starts ~06:00 Taiwan time) one ~4-minute vertical video about a person or event tied to
+today's date, posted to the Facebook page 「今天，誰改變了世界」 at 07:00 Taiwan time.
 
 Fixed facts
 - Repo: chihuangchiu/daily (public). Video files are never committed to main; they pass briefly through the `media` branch (step 8).
@@ -57,7 +57,7 @@ pipeline/build.sh episodes/YYYY-MM-DD video
 Expect `video.mp4`, 720x1280, 225–250 s, under 40 MB. Grab 3 frames with ffmpeg and look at them.
 
 ## 7. Write `episodes/YYYY-MM-DD/post.txt`
-First line `標題：<title>` (≤ 40 chars, hook + name). Then the article: the narration rewritten as
+First line `標題：<title>` (≤ 40 chars, hook + name; it is also the video title and the first line of the post). Then the article: the narration rewritten as
 readable paragraphs, plain text only (no #, **, --- or other markdown), then
 `歡迎在留言分享你的答案。`, then `本片旁白為AI合成語音，影片由AI協作製作。內容如有錯誤，歡迎留言指正。`,
 then 6–10 hashtags on one line, always including #歷史上的今天 #今天誰改變了世界.
@@ -75,9 +75,10 @@ curl -sI https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4   # ex
 1. Postiz `uploadFromUrlTool` with `https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4` → `{id, path}`.
 2. Clear the branch right away: commit only README.md on a fresh orphan `media` and `git push -f origin media`.
 3. Postiz `integrationSchedulePostTool`:
-   type `schedule`, date `D T12:00:00Z` (20:00 Taipei; if that has passed, now + 15 min),
+   type `schedule`, date = 07:00 Taipei on D = `(D minus 1 day)T23:00:00Z` (if that has passed, now + 10 min),
    integrationId above, isPremium false, shortLink false,
-   content = the article with every line wrapped in `<p>…</p>` (blank lines become `<p></p>`, HTML-escape the text),
+   content = the title as the first line, a blank line, then the article; every line wrapped in `<p>…</p>`
+   (blank lines become `<p></p>`, HTML-escape the text),
    attachments `[path]`, settings `[{key:"post_type", value:"post"}, {key:"title", value:<title>}]`.
 4. Confirm with Postiz `postsListTool` that the post is listed for the right time and channel.
 
@@ -87,7 +88,7 @@ Append `| D | person | event |` to `covered.md`; commit `episodes/D/episode.json
 
 ## 10. Report
 Send the user one short message: who/what, title, scheduled time, Postiz preview link, sources,
-and anything dropped or uncertain. Remind them they can delete it in Postiz before 20:00.
+and anything dropped or uncertain. Remind them they can delete it in Postiz before 07:00.
 
 ## If something fails
 Never post a partial or unchecked video. If pushing the media branch is refused, or Postiz cannot fetch the

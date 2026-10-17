@@ -480,10 +480,11 @@ def b_title(c):
     els = []
     if dark:
         cov = cover_img(d["image"], d.get("image_label", AI_LABEL))
-        els.append(El(cov, 0, 0, max(0.0, c.t() - 0.8), None, "fade", 0.6))
+        # already fully visible on frame 0 (the first frame doubles as the thumbnail)
+        els.append(El(cov, 0, 0, -1.0, None, "fade", 0.6))
     els += [
-        place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), muted + (255,)), 360, 262, c.t()),
-        place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, c.t(None, 0.25)),
+        place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), muted + (255,)), 360, 262, -1.0),
+        place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, -1.0),
     ]
     if d.get("sub"):
         els.append(rule_el(170, 550, 540, c.t(d.get("sub_at", 1)), (214, 96, 84) if dark else RED))
@@ -787,8 +788,6 @@ def frame_at(t):
     dark = Image.new("RGB", (W, H), (20, 16, 12))
     if t > TOTAL - 1.2:
         fr = Image.blend(fr, dark, min(1, (t - (TOTAL - 1.2)) / 1.2))
-    if t < 0.5:
-        fr = Image.blend(dark, fr, t / 0.5)
     return fr
 
 

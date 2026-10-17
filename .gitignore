@@ -1,0 +1,8 @@
+*.mp4
+*.wav
+episodes/*/check/
+episodes/*/.work/
+episodes/*/timeline.json
+__pycache__/
+*.log
+ffmpeg2pass*

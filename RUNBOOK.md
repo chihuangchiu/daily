@@ -4,7 +4,7 @@ Every morning one ~4-minute vertical video about a person or event tied to today
 posted to the Facebook page 「今天，誰改變了世界」 at 20:00 Taiwan time.
 
 Fixed facts
-- Repo: chihuangchiu/daily (public). Video files are never committed; they go through a GitHub Release and are deleted afterwards.
+- Repo: chihuangchiu/daily (public). Video files are never committed to main; they pass briefly through the `media` branch (step 8).
 - Postiz integration: id `cmvbzqyvs0002s67fq0dzr53e`, name 「今天，誰改變了世界」, platform facebook.
 - Timezone: Asia/Taipei. "Today" = the Taipei date at run time (get it from the current-time tool).
 
@@ -63,18 +63,23 @@ readable paragraphs, plain text only (no #, **, --- or other markdown), then
 then 6–10 hashtags on one line, always including #歷史上的今天 #今天誰改變了世界.
 
 ## 8. Publish through Postiz
+GitHub Releases cannot be created from Claude sessions, and branch deletion is blocked, so the video goes
+through a throw-away `media` branch that only ever holds one file (force-pushed each time):
 ```
-cp episodes/D/video.mp4 /tmp/D.mp4
-gh release create ep-D /tmp/D.mp4 -R chihuangchiu/daily --title "ep-D" --notes "temporary upload for Postiz"
+M=$(mktemp -d) && cd $M && git init -q -b media
+cp <repo>/episodes/D/video.mp4 D.mp4 && echo "Temporary media for Postiz." > README.md
+git add -A && git commit -qm "media D" && git remote add origin https://github.com/chihuangchiu/daily.git
+git push -f origin media
+curl -sI https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4   # expect 200 and the right size
 ```
-URL: `https://github.com/chihuangchiu/daily/releases/download/ep-D/D.mp4`
-1. Postiz `uploadFromUrlTool` with that URL → `{id, path}`.
-2. Postiz `integrationSchedulePostTool`:
+1. Postiz `uploadFromUrlTool` with `https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4` → `{id, path}`.
+2. Clear the branch right away: commit only README.md on a fresh orphan `media` and `git push -f origin media`.
+3. Postiz `integrationSchedulePostTool`:
    type `schedule`, date `D T12:00:00Z` (20:00 Taipei; if that has passed, now + 15 min),
    integrationId above, isPremium false, shortLink false,
-   content = the article with every line wrapped in `<p>…</p>` (blank lines become `<p></p>`), attachments `[path]`,
-   settings `[{key:"post_type", value:"post"}, {key:"title", value:<title>}]`.
-3. After Postiz has the file: `gh release delete ep-D -R chihuangchiu/daily --cleanup-tag -y`.
+   content = the article with every line wrapped in `<p>…</p>` (blank lines become `<p></p>`, HTML-escape the text),
+   attachments `[path]`, settings `[{key:"post_type", value:"post"}, {key:"title", value:<title>}]`.
+4. Confirm with Postiz `postsListTool` that the post is listed for the right time and channel.
 
 ## 9. Record
 Append `| D | person | event |` to `covered.md`; commit `episodes/D/episode.json`, `episodes/D/post.txt`,
@@ -85,5 +90,6 @@ Send the user one short message: who/what, title, scheduled time, Postiz preview
 and anything dropped or uncertain. Remind them they can delete it in Postiz before 20:00.
 
 ## If something fails
-Never post a partial or unchecked video. If Postiz cannot fetch the GitHub URL, keep the release and send
-the user the URL and post text so they can upload by hand. Report the exact error.
+Never post a partial or unchecked video. If pushing the media branch is refused, or Postiz cannot fetch the
+URL, send the user the video file (SendUserFile, it is under 30 MB) and the post text, and ask them to upload
+it in Postiz; when they reply, schedule the post as in step 8. Report the exact error.

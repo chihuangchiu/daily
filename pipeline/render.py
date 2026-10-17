@@ -661,7 +661,7 @@ def make_bg():
 
 def make_overlay(dark=False):
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    hi = text_img("歷史上的今天", F("serif-bold", 30), ((226, 120, 104) if dark else RED) + (255,))
+    hi = text_img("今天，誰改變了世界", F("serif-bold", 30), ((226, 120, 104) if dark else RED) + (255,))
     ov.paste(hi, (60, 72 - hi.height // 2), hi)
     hr = text_img(EP["mmdd"], F("serif-black", 34), (CREAM if dark else INK) + (255,))
     ov.paste(hr, (660 - hr.width, 72 - hr.height // 2), hr)

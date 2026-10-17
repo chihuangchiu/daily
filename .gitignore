@@ -6,3 +6,4 @@ episodes/*/timeline.json
 __pycache__/
 *.log
 ffmpeg2pass*
+episodes/*/*.png

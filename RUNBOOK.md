@@ -42,6 +42,21 @@ Follow `TEMPLATES.md`; copy the structure of the most recent episode.
   `python3 -c "import sys;sys.path.insert(0,'pipeline');from tts import BakerProcessor as B;p=B(data_dir=None,loaded_mapper_path='pipeline/models/baker_mapper.json');print(p.text_to_phone('要檢查的句子'))"`
   and, if a reading is wrong, rewrite only the spoken field (homophone characters are fine).
 
+## 4b. Opening image (required)
+Every video opens on at least one AI-generated picture, made with the Image MCP:
+1. `create-image` with `size: "1024x1536"`, `quality: "high"`, `output_format: "png"`. Prompt in English:
+   vertical composition; main subject in the lower half (the title sits over the upper half);
+   style "warm sepia ink-wash illustration, soft paper texture, cream and brown palette with small touches of deep red";
+   always end with "No text, no letters, no logos, no watermarks."
+2. Real people: never attempt a realistic portrait or likeness of a real, identifiable person. Show the place,
+   era, objects or event, or the person from behind, in silhouette, or small in the distance.
+3. The tool returns a download URL (valid 24 h). Save it: `curl -sSf -o episodes/D/opening.png "<url>"`.
+4. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces,
+   anachronisms, anything gory or offensive, or does not fit the story.
+5. Set `"image": "opening.png"` in the title scene's `data`. A second picture may be used later as a stack
+   item `{type:"image", src, caption}`. The on-screen label `AI 生成示意圖` is added automatically; keep it.
+6. If the download keeps failing (network allowlist), continue without the image and say so in the report.
+
 ## 5. Check
 ```
 pipeline/build.sh episodes/YYYY-MM-DD check

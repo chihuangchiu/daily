@@ -230,6 +230,46 @@ STYLES = {
 }
 
 
+LIGHT = (232, 222, 204)
+AI_LABEL = "AI 生成示意圖"
+
+
+def load_photo(src, w, h, sepia=0.3):
+    """cover-crop an image from the episode dir to w x h, lightly warmed to match the paper palette"""
+    path = src if os.path.isabs(src) else os.path.join(EP_DIR, src)
+    im = Image.open(path).convert("RGB")
+    sc = max(w / im.width, h / im.height)
+    im = im.resize((max(w, int(im.width * sc + 0.5)), max(h, int(im.height * sc + 0.5))), Image.LANCZOS)
+    l, t = (im.width - w) // 2, (im.height - h) // 2
+    im = im.crop((l, t, l + w, t + h))
+    if sepia:
+        g = np.array(im.convert("L")).astype(np.float32)[..., None] / 255.0
+        tone = np.array([[[255, 236, 205]]], np.float32) * g
+        im = Image.fromarray(np.clip(np.array(im).astype(np.float32) * (1 - sepia) + tone * sepia, 0, 255).astype(np.uint8))
+    return im
+
+
+def label_img(text=AI_LABEL, color=LIGHT, alpha=210):
+    ti = text_img(text, F("sans-med", 20), color + (alpha,))
+    bg = Image.new("RGBA", (ti.width + 20, ti.height + 10), (20, 16, 12, 120 if color == LIGHT else 0))
+    bg.paste(ti, (10, 5), ti)
+    return bg
+
+
+def cover_img(src, label=AI_LABEL):
+    im = load_photo(src, W, H, 0.25).convert("RGBA")
+    yy = np.linspace(0, 1, H, dtype=np.float32)[:, None]
+    a = 0.40 + 0.18 * (1 - np.clip(yy / 0.12, 0, 1)) + 0.35 * np.clip((yy - 0.62) / 0.38, 0, 1) ** 1.3
+    shade = np.zeros((H, W, 4), np.uint8)
+    shade[..., :3] = (18, 14, 10)
+    shade[..., 3] = (np.clip(a, 0, 0.92) * 255).astype(np.uint8).repeat(W, 1)
+    im.alpha_composite(Image.fromarray(shade, "RGBA"))
+    if label:
+        lb = label_img(label)
+        im.alpha_composite(lb, (W - 60 - lb.width, 128))
+    return im
+
+
 def item_imgs(it):
     """returns list of (img, dx, dy, at, delay, anim) relative to item box, and box (w,h)"""
     typ = it.get("type", "text")
@@ -365,6 +405,26 @@ def item_imgs(it):
                 im.paste(si, ((280 - si.width) // 2, 128), si)
             out.append((im, k * 320, 0, cd.get("at"), cd.get("delay", 0), "rise"))
         return out, (320 * len(cs) - 40, 200)
+    if typ == "image":
+        h = it.get("height", 420)
+        w = it.get("width", 560)
+        ph = load_photo(it["src"], w, h, it.get("sepia", 0.3)).convert("RGBA")
+        if it.get("label", AI_LABEL):
+            lb = label_img(it.get("label", AI_LABEL))
+            ph.alpha_composite(lb, (w - lb.width - 8, h - lb.height - 8))
+        fr = Image.new("RGBA", (w + 36, h + 36), (0, 0, 0, 0))
+        sh = Image.new("RGBA", fr.size, (0, 0, 0, 0))
+        ImageDraw.Draw(sh).rectangle((10, 12, fr.width - 2, fr.height - 2), fill=(60, 40, 20, 70))
+        fr.alpha_composite(sh.filter(ImageFilter.GaussianBlur(6)))
+        ImageDraw.Draw(fr).rectangle((0, 0, w + 23, h + 23), fill=PAPER_LT + (255,), outline=INK + (120,), width=1)
+        fr.paste(ph, (12, 12), ph)
+        out = [(fr, 0, 0, None, 0, "rise")]
+        hh = fr.height
+        if it.get("caption"):
+            cp = fit_text(it["caption"], "sans-med", 26, MUTED, w)
+            out.append((cp, (w + 36 - cp.width) // 2, hh + 4, None, 0.3, "rise"))
+            hh += cp.height + 8
+        return out, (w + 36, hh)
     raise ValueError(f"unknown item type {typ}")
 
 
@@ -415,28 +475,46 @@ def b_stack(c):
 
 def b_title(c):
     d, ep = c.d, EP
-    els = [
-        place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), MUTED + (255,)), 360, 262, c.t()),
-        place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, INK, 640), 360, 410, c.t(None, 0.25)),
+    dark = bool(d.get("image"))
+    ink, muted = (CREAM, LIGHT) if dark else (INK, MUTED)
+    els = []
+    if dark:
+        cov = cover_img(d["image"], d.get("image_label", AI_LABEL))
+        els.append(El(cov, 0, 0, max(0.0, c.t() - 0.8), None, "fade", 0.6))
+    els += [
+        place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), muted + (255,)), 360, 262, c.t()),
+        place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, c.t(None, 0.25)),
     ]
     if d.get("sub"):
-        els.append(rule_el(170, 550, 540, c.t(d.get("sub_at", 1))))
-        els.append(place(fit_text(d["sub"], "serif-med", 40, INK), 360, 592, c.t(d.get("sub_at", 1), 0.2)))
+        els.append(rule_el(170, 550, 540, c.t(d.get("sub_at", 1)), (214, 96, 84) if dark else RED))
+        els.append(place(fit_text(d["sub"], "serif-med", 40, ink), 360, 592, c.t(d.get("sub_at", 1), 0.2)))
     for m in d.get("middle", []):
         t0, t1 = c.t(m.get("at", 0), m.get("delay", 0)), c.until(m.get("until"))
         if m.get("type", "text") == "text":
-            els.append(place(fit_text(m["text"], "serif-med", 40, col(m.get("color"), INK)), 360, 700, t0, t1))
+            els.append(place(fit_text(m["text"], "serif-med", 40, ink if dark else col(m.get("color"), INK)), 360, 700, t0, t1))
         else:
-            parts, (w, h) = item_imgs({"type": "pills", "items": m["items"]})
+            if dark:
+                f = F("serif-black", 38)
+                parts, x = [], 0
+                for k, s_ in enumerate(m["items"]):
+                    w_ = int(f.getlength(s_)) + 64
+                    im = box_img(w_, 72, None, CREAM, 3, 36)
+                    ti = text_img(s_, f, CREAM + (255,))
+                    im.paste(ti, ((w_ - ti.width) // 2, (72 - ti.height) // 2), ti)
+                    parts.append((im, x, 0, None, 0.25 * k, "rise"))
+                    x += w_ + 20
+                w, h = x - 20, 72
+            else:
+                parts, (w, h) = item_imgs({"type": "pills", "items": m["items"]})
             for im, dx, dy, _, delay, anim in parts:
                 els.append(El(im, (W - w) / 2 + dx, 700 - h / 2 + dy, t0 + delay, t1, anim))
     if d.get("name"):
         ta = c.t(d.get("name_at", len(c.tl["lines"]) - 1))
-        nm = fit_text(d["name"], "serif-black", 112, INK, 420)
+        nm = fit_text(d["name"], "serif-black", 112, ink, 420)
         cx = 330 if d.get("seal") else 360
         els.append(place(nm, cx, 712, ta))
         if d.get("name_years"):
-            els.append(place(text_img(d["name_years"], F("sans-med", 30), MUTED + (255,)), cx, 800, ta + 0.3))
+            els.append(place(text_img(d["name_years"], F("sans-med", 30), muted + (255,)), cx, 800, ta + 0.3))
         if d.get("seal"):
             im = seal_img(d["seal"], 52 if len(d["seal"]) <= 3 else 44, None, -7)
             els.append(place(im, min(650, cx + nm.width / 2 + 60), 722, ta + 0.6, None, "stamp", 0.35))
@@ -581,15 +659,15 @@ def make_bg():
     return Image.fromarray(np.clip(base, 0, 255).astype(np.uint8))
 
 
-def make_overlay():
+def make_overlay(dark=False):
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    hi = text_img("歷史上的今天", F("serif-bold", 30), RED + (255,))
+    hi = text_img("歷史上的今天", F("serif-bold", 30), ((226, 120, 104) if dark else RED) + (255,))
     ov.paste(hi, (60, 72 - hi.height // 2), hi)
-    hr = text_img(EP["mmdd"], F("serif-black", 34), INK + (255,))
+    hr = text_img(EP["mmdd"], F("serif-black", 34), (CREAM if dark else INK) + (255,))
     ov.paste(hr, (660 - hr.width, 72 - hr.height // 2), hr)
-    ImageDraw.Draw(ov).line((60, 108, 660, 108), fill=INK + (90,), width=1)
+    ImageDraw.Draw(ov).line((60, 108, 660, 108), fill=(CREAM if dark else INK) + (90,), width=1)
     if EP.get("footer"):
-        ft = fit_text(EP["footer"], "sans", 21, MUTED, 640)
+        ft = fit_text(EP["footer"], "sans", 21, LIGHT if dark else MUTED, 640)
         ov.paste(ft, ((W - ft.width) // 2, 1196), ft)
     return ov
 
@@ -642,6 +720,7 @@ TL = TLJ["scenes"]
 TOTAL = TLJ["total"]
 BG = make_bg()
 OVER = make_overlay()
+OVER_DARK = make_overlay(True)
 
 SCN = []
 for sc, tl in zip(EP["scenes"], TL):
@@ -654,7 +733,8 @@ for sc, tl in zip(EP["scenes"], TL):
     for e in sc.get("effects", []):
         if e["type"] == "rain":
             fx.append(("rain", c.t(e.get("from", 0)), c.until(e.get("to")) or tl["end"]))
-    SCN.append((tl, els, fx))
+    dark = sc["template"] == "title" and bool(sc.get("data", {}).get("image"))
+    SCN.append((tl, els, fx, dark))
 
 SUBS = []
 for tl in TL:
@@ -666,7 +746,7 @@ XF = 0.35
 
 
 def scene_frame(idx, t):
-    tl, els, fx = SCN[idx]
+    tl, els, fx, _ = SCN[idx]
     fr = BG.copy()
     for el in els:
         el.draw(fr, t)
@@ -685,15 +765,16 @@ def scene_frame(idx, t):
 
 def frame_at(t):
     idx = 0
-    for i, (tl, _, _) in enumerate(SCN):
-        if t >= tl["start"] - (XF if i else 0):
+    for i, s_ in enumerate(SCN):
+        if t >= s_[0]["start"] - (XF if i else 0):
             idx = i
     tl = SCN[idx][0]
     fr = scene_frame(idx, t)
     if idx > 0 and t < tl["start"] + XF:
         k = max(0, min(1, (t - (tl["start"] - XF)) / (2 * XF)))
         fr = Image.blend(scene_frame(idx - 1, t), fr, k * k * (3 - 2 * k))
-    fr.paste(OVER, (0, 0), OVER)
+    ov = OVER_DARK if SCN[idx][3] else OVER
+    fr.paste(ov, (0, 0), ov)
     ImageDraw.Draw(fr).rectangle((0, 0, int(W * min(1, t / TOTAL)), 5), fill=RED)
     for s0, s1, im in SUBS:
         if s0 <= t < s1:
@@ -714,7 +795,7 @@ def frame_at(t):
 def check_times():
     """one frame just before each element disappears, plus each scene's final state"""
     ts = []
-    for tl, els, _ in SCN:
+    for tl, els, _, _ in SCN:
         ends = sorted({e.t1 for e in els if e.t1 is not None and tl["start"] < e.t1 <= tl["end"] + 0.5})
         ts += [x - 0.3 for x in ends] + [tl["end"] - 0.5]
     return ts

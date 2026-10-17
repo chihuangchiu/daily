@@ -1,11 +1,13 @@
 # Daily run: 「今天，誰改變了世界」
 
-Every morning (run starts ~06:00 Taiwan time) one ~4-minute vertical video about a person or event tied to
-today's date, posted to the Facebook page 「今天，誰改變了世界」 at 07:00 Taiwan time.
+Every morning (run starts ~06:00 Taiwan time) one vertical video of just under 3 minutes (so YouTube treats it as a Short) about a person or event tied to
+today's date, posted at 07:00 Taiwan time to both the Facebook page 「今天，誰改變了世界」 and the YouTube channel 「今天 誰改變了世界」.
 
 Fixed facts
 - Repo: chihuangchiu/daily (public). Video files are never committed to main; they pass briefly through the `media` branch (step 8).
-- Postiz integration: id `cmvbzqyvs0002s67fq0dzr53e`, name 「今天，誰改變了世界」, platform facebook.
+- Postiz integrations:
+  - Facebook: id `cmvbzqyvs0002s67fq0dzr53e`, name 「今天，誰改變了世界」.
+  - YouTube: id `cmvc7njup0001s673xhqhp5s8`, name 「今天 誰改變了世界」.
 - Timezone: Asia/Taipei. "Today" = the Taipei date at run time (get it from the current-time tool).
 
 ## 1. Setup
@@ -34,8 +36,9 @@ drop anything that is not. Quote only well-documented sayings. Keep a source lis
 
 ## 4. Write `episodes/YYYY-MM-DD/episode.json`
 Follow `TEMPLATES.md`; copy the structure of the most recent episode.
-- Traditional Chinese, Taiwan usage. ~950–1050 characters of narration, 10–11 scenes, ~75–90 lines.
-- Shape: opening hook (title template, ~6 lines, ends with the name) → 7–8 chapters (timeline, document,
+- Traditional Chinese, Taiwan usage. ~650–720 characters of narration (spoken field), 8–9 scenes, ~55–65 lines.
+  The video must stay under 180 s: aim for 165–175 s.
+- Shape: opening hook (title template, ~6 lines, ends with the name) → 5–6 chapters (timeline, document,
   tiles, stack…) → legacy today → one question for the viewer → end scene.
 - Spoken text: Chinese numerals, no Latin letters/digits. Subtitle text may use digits.
 - Pronunciation: check names and polyphones with
@@ -69,13 +72,14 @@ pipeline/build.sh episodes/YYYY-MM-DD check
 ```
 pipeline/build.sh episodes/YYYY-MM-DD video
 ```
-Expect `video.mp4`, 720x1280, 225–250 s, under 40 MB. Grab 3 frames with ffmpeg and look at them.
+Expect `video.mp4`, 720x1280, 160–178 s (never 180 s or more, or YouTube will not count it as a Short), under 30 MB. Grab 3 frames with ffmpeg and look at them.
 
 ## 7. Write `episodes/YYYY-MM-DD/post.txt`
 First line `標題：<title>` (≤ 40 chars, hook + name; it is also the video title and the first line of the post). Then the article: the narration rewritten as
 readable paragraphs, plain text only (no #, **, --- or other markdown), then
 `歡迎在留言分享你的答案。`, then `本片旁白為AI合成語音，影片由AI協作製作。內容如有錯誤，歡迎留言指正。`,
 then 6–10 hashtags on one line, always including #歷史上的今天 #今天誰改變了世界.
+The same text is used on Facebook and YouTube (step 8). Keep the whole post under 4,500 characters (YouTube limit 5,000).
 
 ## 8. Publish through Postiz
 GitHub Releases cannot be created from Claude sessions, and branch deletion is blocked, so the video goes
@@ -89,23 +93,29 @@ curl -sI https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4   # ex
 ```
 1. Postiz `uploadFromUrlTool` with `https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4` → `{id, path}`.
 2. Clear the branch right away: commit only README.md on a fresh orphan `media` and `git push -f origin media`.
-3. Postiz `integrationSchedulePostTool`:
-   type `schedule`, date = 07:00 Taipei on D = `(D minus 1 day)T23:00:00Z` (if that has passed, now + 10 min),
-   integrationId above, isPremium false, shortLink false,
-   content = the title as the first line, a blank line, then the article; every line wrapped in `<p>…</p>`
-   (blank lines become `<p></p>`, HTML-escape the text),
-   attachments `[path]`, settings `[{key:"post_type", value:"post"}, {key:"title", value:<title>}]`.
-4. Confirm with Postiz `postsListTool` that the post is listed for the right time and channel.
+3. One Postiz `integrationSchedulePostTool` call with two items in `socialPost`, both type `schedule`,
+   date = 07:00 Taipei on D = `(D minus 1 day)T23:00:00Z` (if that has passed, now + 10 min),
+   isPremium false, shortLink false, attachments `[path]` (the same uploaded video). Every line of content is
+   wrapped in `<p>…</p>` (blank lines become `<p></p>`, HTML-escape the text).
+   - Facebook (`cmvbzqyvs0002s67fq0dzr53e`): content = the title as the first line, a blank line, then the
+     article (post.txt with `標題：` removed; post.txt already has the blank line, do not add another);
+     settings `[{key:"post_type", value:"post"}, {key:"title", value:<title>}]`.
+   - YouTube (`cmvc7njup0001s673xhqhp5s8`): content = the article only (no title line), with `#Shorts`
+     added at the start of the hashtag line; settings `[{key:"title", value:<title> + " #Shorts"} (≤ 100 chars),
+     {key:"type", value:"public"}, {key:"selfDeclaredMadeForKids", value:"no"},
+     {key:"tags", value:[{value,label}, …]}]` with 5–6 tags: Shorts, 歷史上的今天, 今天誰改變了世界, the person, 1–2 topics.
+4. Confirm with Postiz `postsListTool` that both posts are listed for the right time and channels. If only one
+   of them was created, do not schedule the other again blindly: check the list first, then add only the missing one.
 
 ## 9. Record
 Append `| D | person | event |` to `covered.md`; commit `episodes/D/episode.json`, `episodes/D/post.txt`,
 `covered.md` (never the mp4/wav/check files; .gitignore covers them) and push to main.
 
 ## 10. Report
-Send the user one short message: who/what, title, scheduled time, Postiz preview link, sources,
+Send the user one short message: who/what, title, scheduled time, both Postiz preview links (Facebook and YouTube), sources,
 and anything dropped or uncertain. Remind them they can delete it in Postiz before 07:00.
 
 ## If something fails
 Never post a partial or unchecked video. If pushing the media branch is refused, or Postiz cannot fetch the
 URL, send the user the video file (SendUserFile, it is under 30 MB) and the post text, and ask them to upload
-it in Postiz; when they reply, schedule the post as in step 8. Report the exact error.
+it in Postiz; when they reply, schedule both posts as in step 8. Report the exact error.

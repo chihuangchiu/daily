@@ -1,6 +1,6 @@
 # episode.json schema
 
-Full working example: `episodes/2026-10-17/episode.json`.
+Full working example (3-minute format): `episodes/2026-10-17-short/episode.json`.
 
 ```json
 {

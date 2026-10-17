@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Usage:
 #   pipeline/build.sh EP_DIR check   -> narration.wav, timeline.json, check/sheet_*.png (review before rendering)
-#   pipeline/build.sh EP_DIR video   -> EP_DIR/video.mp4 (720x1280, ~4 min, < 30 MB)
+#   pipeline/build.sh EP_DIR video   -> EP_DIR/video.mp4 (720x1280, under 3 min, < 30 MB)
 set -euo pipefail
 EP="$(cd "$1" && pwd)"
 MODE="${2:-video}"
 HERE="$(cd "$(dirname "$0")" && pwd)"
-TARGET="${TARGET:-238}"
+TARGET="${TARGET:-170}"
 
 if [ "$MODE" = "check" ]; then
   python3 "$HERE/narrate.py" "$EP" --target "$TARGET"

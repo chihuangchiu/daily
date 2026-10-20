@@ -68,26 +68,44 @@ Follow `TEMPLATES.md`; copy the structure of the most recent episode.
   `python3 -c "import sys;sys.path.insert(0,'pipeline');from tts import BakerProcessor as B;p=B(data_dir=None,loaded_mapper_path='pipeline/models/baker_mapper.json');print(p.text_to_phone('要檢查的句子'))"`
   and, if a reading is wrong, rewrite only the spoken field (homophone characters are fine).
 
-## 4b. Opening image (required)
-Every video opens on at least one AI-generated picture, made with the Image MCP:
-1. `create-image` with `size: "1024x1536"`, `quality: "high"`, `output_format: "png"`. Prompt in English:
-   vertical composition; main subject in the lower half (the title sits over the upper half);
-   style "warm sepia ink-wash illustration, soft paper texture, cream and brown palette with small touches of deep red";
-   always end with "No text, no letters, no logos, no watermarks."
-2. Real people: never attempt a realistic portrait or likeness of a real, identifiable person. Show the place,
-   era, objects or event, or the person from behind, in silhouette, or small in the distance.
-3. The tool returns a download URL (valid 24 h). Save it: `curl -sSf -o episodes/D/opening.png "<url>"`.
-4. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces,
-   anachronisms, anything gory or offensive, or does not fit the story.
-5. Set `"image": "opening.png"` in the title scene's `data`. No on-screen AI label is shown (Nathan 2026-10-20: the pictures are clearly hand-drawn; AI use is disclosed in the post text, which must keep its AI sentence).
-6. If any picture cannot be made (Image MCP not connected after the retries, generation or download keeps failing,
+## 4b. Opening image (required) — portrait from a real photo when possible (Nathan 2026-10-20)
+Goal: the opening shows the person, drawn by hand from a real photograph, instead of only a background or a figure seen
+from behind. Flow: find a photo → Image MCP redraws it as a drawing → Calywood animates that drawing (4d).
+
+1. Find the photo. WebSearch with `allowed_domains: ["commons.wikimedia.org"]` for "<person name in English> portrait"
+   (also try the Chinese name). Use only files on Wikimedia Commons whose page says Public domain, CC0, CC BY or CC BY-SA
+   (Nathan 2026-10-20: both are fine). Prefer an old portrait photo taken in the person's lifetime, face clearly visible.
+   Never use a photo of a living person. Record the file page URL, photographer/author and licence.
+   The original file URL is `https://upload.wikimedia.org/wikipedia/commons/<h0>/<h0h1>/<File_name>` where h = md5 of the
+   file name with spaces replaced by `_` (`python3 -c "import hashlib;f='File_name.jpg';h=hashlib.md5(f.encode()).hexdigest();print(h[0],h[:2])"`).
+   The cloud workspace cannot download from Wikimedia (upload.wikimedia.org is blocked by the egress proxy, 2026-10-20).
+2. Redraw it with Image MCP `edit-image` (photo as `image`), `size: "1024x1536"`, `quality: "high"`. Prompt in English:
+   "Redraw this photograph as a hand-drawn portrait illustration: warm sepia ink-wash and pencil sketch, soft paper
+   texture, cream and brown palette with small touches of deep red. Keep the person's recognizable features, hairstyle
+   and clothing. Vertical composition: the person from the chest up in the lower half of the frame, with a faint
+   <era/place> background; the upper half is plain soft paper (the title sits there). No text, no letters, no logos,
+   no watermarks." It must look hand-drawn, never like a photo.
+   STATUS 2026-10-20: `edit-image` in cloud mode only accepts base64 image data, not a URL, and the photo cannot be
+   downloaded here, so this step cannot run yet. Until Nathan adds image-URL input to `edit-image` (or allows
+   upload.wikimedia.org in this environment's network settings), go straight to step 3.
+3. Fallback (no usable photo, or step 2 not possible): `create-image` with `size: "1024x1536"`, `quality: "high"`,
+   `output_format: "png"`, an English prompt with the same style line, main subject in the lower half; real people only
+   from behind, in silhouette or small in the distance (no invented face without a photo).
+4. Keep the download URL the tool returns (valid 24 h; 4d needs it) and save the file: `curl -sSf -o episodes/D/opening.png "<url>"`.
+5. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces,
+   anachronisms, anything gory or offensive, a photo-realistic look, or does not fit the story. For a portrait, also
+   compare it with what the sources say about the person (age, beard, clothing of the era).
+6. Set `"image": "opening.png"` in the title scene's `data`. No on-screen AI label is shown (Nathan 2026-10-20: the pictures are clearly hand-drawn; AI use is disclosed in the post text, which must keep its AI sentence).
+   If a CC BY / CC BY-SA photo was used, add one line before the AI sentence in post.txt:
+   `開場畫像依據 Wikimedia Commons 照片改繪（作者：<author>，授權：<licence>）。` (not needed for public domain / CC0).
+7. If no picture can be made at all (Image MCP not connected after the retries, generation or download keeps failing,
    or 3 tries still give an unusable picture), STOP: do not build, upload or publish anything. Notify the user with
    which picture failed and the exact error (Nathan 2026-10-20).
 
 ## 4c. Chapter images (required: 1–2 more pictures)
 Besides the opening image, every video shows 1–2 more AI pictures inside the chapters, at the story's key moments
 (for example the place where it happened, the defining object or act, the legacy).
-1. Same `create-image` call, rules and checks as 4b (style line, "No text, no letters, no logos, no watermarks.",
+1. Same `create-image` call, rules and checks as 4b step 3 and 5 (style line, "No text, no letters, no logos, no watermarks.",
    no realistic likeness of real people, Read every file, max 3 tries each), but `size: "1536x1024"` (landscape)
    because it is shown in a 560x420 frame. Keep the subject centred; edges get cropped.
 2. Save as `episodes/D/img1.png`, `episodes/D/img2.png` (curl the download URL, same as 4b).
@@ -96,28 +114,31 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
    At most one short text item next to it (the frame is ~460 px tall; the visual area is 677 px). Show it for at
    least 2 subtitle lines. Do not put two images in the same scene.
 4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
-   stop exactly as in 4b.6; never publish a video with fewer pictures than required.
+   stop exactly as in 4b.7; never publish a video with fewer pictures than required.
 
-## 4d. Opening clip (Calywood, 3 s)
-Active since 2026-10-20 (tested on the 10-20 episode). A Calywood clip costs about NT$13.
+## 4d. Opening clip (Calywood image-to-video, 3 s)
+Since 2026-10-20 the clip animates opening.png itself (tested 2026-10-20: keeps the drawing and its style; about NT$13).
 
-When active, the opening is a 3-second AI clip that plays full-screen under the title, then cross-fades to opening.png:
-1. Calywood `generate_video` with `duration: 4` (the minimum), `resolution: "720p"`, and an English prompt built from the
-   opening image prompt: same scene, era and style ("warm sepia ink-wash illustration, soft paper texture, cream and brown
-   palette with small touches of deep red"), vertical 9:16 framing, slow gentle camera move or small natural motion,
-   main subject in the lower half, no realistic likeness or identifiable face of a real person, "No text, no letters,
-   no logos, no watermarks." Calywood is text-to-video only: it cannot animate opening.png itself.
-2. Poll `get_task` (about every 30 s, up to 10 min) until it succeeds (a 4 s clip took about 4 min). The link it
-   returns (volces.com) is blocked here; a copy appears a few minutes later at
+1. Calywood `generate_video_from_image` with `image_url` = the Image MCP download URL of opening.png (from 4b step 4),
+   `duration: 4` (the minimum), `resolution: "720p"`, and a short English `prompt`: slow gentle camera push-in plus one
+   or two small natural motions that fit the picture (a lamp flickers, the person blinks or slightly turns the head,
+   cloth moves), "Keep the hand-drawn sepia ink-wash style. No text."
+   Do not use `generate_video_multimodal`: its results are not copied to the storage bucket below (2026-10-20), so they
+   cannot be downloaded here.
+2. Poll `get_task` (about every 30 s, up to 10 min; a 4 s clip took about 4 min). The link it returns (volces.com) is
+   blocked here; a copy appears a few minutes later at
    `https://storage.googleapis.com/alchemy-dance-media-cacafly-nathan-project/videos/<task_id>.mp4`.
    Retry `curl -sSf -o episodes/D/opening.mp4 "<that url>"` every minute for up to 10 min (403 = not there yet), then
-   check it with ffprobe (video stream, at least 3 s; a "Vertical 9:16 portrait video." prompt gave 720x1280).
-3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.4 (no text, no warped hands
-   or faces, no anachronisms, nothing offensive). Retry with a revised prompt, max 3 tries.
+   check it with ffprobe (video stream, at least 3 s; image-to-video keeps the picture's 2:3 shape, about 786x1178, which
+   render.py crops to 720x1280).
+3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.5 (no text, no warped hands
+   or faces, the face must stay the same person, no anachronisms, nothing offensive). Retry with a revised prompt, max 3 tries.
+   If image-to-video keeps failing, one last try with text-to-video `generate_video` (prompt starting
+   "Vertical 9:16 portrait video.", same scene and style) before stopping.
 4. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3` (keep `"image": "opening.png"`; the clip
    needs it). render.py crops the clip to 720x1280, gives it the same sepia and darkening as the still, plays seconds 0–3 and fades to the still over the last 0.5 s.
 5. If the clip cannot be made (Calywood not connected after the usual retries, the task fails, the download keeps
-   failing, or 3 tries are all unusable), STOP exactly as in 4b.6 (Nathan 2026-10-20): nothing is built or published,
+   failing, or 3 tries are all unusable), STOP exactly as in 4b.7 (Nathan 2026-10-20): nothing is built or published,
    and the notification says the opening clip failed, with the exact error.
 
 ## 5. Check

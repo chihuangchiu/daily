@@ -51,7 +51,9 @@
     "name_years": "1859 – 1952",
     "seal": "教育",
     "name_at": 5,
-    "image": "opening.png"
+    "image": "opening.png",
+    "video": "opening.mp4",
+    "video_secs": 3
    }
   },
   {
@@ -243,27 +245,13 @@
       "until": 2,
       "items": [
        {
-        "text": "1919.4.30",
-        "style": "big",
-        "size": 88
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1919 年春天的上海碼頭（示意）"
        },
        {
-        "text": "抵達上海",
-        "style": "head",
-        "delay": 0.6
-       },
-       {
-        "type": "rule",
-        "width": 420,
-        "color": "ink",
-        "at": 1
-       },
-       {
-        "type": "pair",
-        "left": "老師　杜威",
-        "right": "學生　胡適",
-        "at": 1,
-        "right_at": 1
+        "text": "1919.4.30　抵達上海",
+        "style": "mid"
        }
       ]
      },
@@ -321,7 +309,7 @@
     "phases": [
      {
       "at": 0,
-      "until": 4,
+      "until": 3,
       "items": [
        {
         "text": "學生　陶行知",
@@ -341,16 +329,26 @@
           "at": 2
          }
         ]
-       },
-       {
-        "text": "走進鄉村辦學",
-        "style": "mid",
-        "at": 3
        }
       ]
      },
      {
-      "at": 4,
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "鄉村裡的學校（示意）"
+       },
+       {
+        "text": "走進鄉村辦學",
+        "style": "mid"
+       }
+      ]
+     },
+     {
+      "at": 5,
       "items": [
        {
         "text": "影響許多地方的教室",
@@ -361,7 +359,7 @@
         "style": "huge",
         "size": 150,
         "color": "red",
-        "at": 5
+        "delay": 0.3
        }
       ]
      }

@@ -56,7 +56,7 @@ Every video opens on at least one AI-generated picture, made with the Image MCP:
 3. The tool returns a download URL (valid 24 h). Save it: `curl -sSf -o episodes/D/opening.png "<url>"`.
 4. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces,
    anachronisms, anything gory or offensive, or does not fit the story.
-5. Set `"image": "opening.png"` in the title scene's `data`. The on-screen label `AI 生成示意圖` is added automatically; keep it.
+5. Set `"image": "opening.png"` in the title scene's `data`. No on-screen AI label is shown (Nathan 2026-10-20: the pictures are clearly hand-drawn; AI use is disclosed in the post text, which must keep its AI sentence).
 6. If any picture cannot be made (Image MCP not connected after the retries, generation or download keeps failing,
    or 3 tries still give an unusable picture), STOP: do not build, upload or publish anything. Notify the user with
    which picture failed and the exact error (Nathan 2026-10-20).
@@ -92,8 +92,7 @@ When active, the opening is a 3-second AI clip that plays full-screen under the 
 3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.4 (no text, no warped hands
    or faces, no anachronisms, nothing offensive). Retry with a revised prompt, max 3 tries.
 4. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3` (keep `"image": "opening.png"`; the clip
-   needs it). render.py crops the clip to 720x1280, gives it the same sepia and darkening as the still, keeps the
-   `AI 生成示意圖` label, plays seconds 0–3 and fades to the still over the last 0.5 s.
+   needs it). render.py crops the clip to 720x1280, gives it the same sepia and darkening as the still, plays seconds 0–3 and fades to the still over the last 0.5 s.
 5. If the clip cannot be made (Calywood not connected after the usual retries, the task fails, the download keeps
    failing, or 3 tries are all unusable), STOP exactly as in 4b.6 (Nathan 2026-10-20): nothing is built or published,
    and the notification says the opening clip failed, with the exact error.

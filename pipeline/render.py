@@ -231,7 +231,7 @@ STYLES = {
 
 
 LIGHT = (232, 222, 204)
-AI_LABEL = "AI 生成示意圖"
+AI_LABEL = ""  # no on-screen AI label (Nathan 2026-10-20: hand-drawn style, AI use is disclosed in the post text)
 
 
 def load_photo(src, w, h, sepia=0.3):

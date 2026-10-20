@@ -33,7 +33,7 @@ optional `delay` (seconds after that line starts), optional `until` = line index
 `middle`: list of `{type:"text", text, at, until}` or `{type:"pills", items:[...], at, until}` shown at y≈700,
 `name`, `name_years`, `seal` (2–4 chars red seal), `name_at`,
 `image` (file in the episode folder, e.g. `"opening.png"`): shown full-screen behind the title, darkened, with all
-title text switched to light colours; `image_label` defaults to `AI 生成示意圖` (keep it).
+title text switched to light colours; `image_label` is empty by default (no on-screen AI label since 2026-10-20).
 `video` (e.g. `"opening.mp4"`, needs `image` too) + `video_secs` (default 3): a clip played full-screen over the
 still from t=0, cropped to 720x1280 with the same sepia/darkening and label, then faded to the still (RUNBOOK 4d).
 
@@ -63,7 +63,7 @@ Item types:
 - `{type:"film", main, sub}` film-strip frame
 - `{type:"barred", small, big}` text behind prison bars
 - `{type:"checks", items:[...]}` list with red check marks
-- `{type:"image", src, height, width, caption, label}` framed picture (default 560x420, label `AI 生成示意圖`)
+- `{type:"image", src, height, width, caption, label}` framed picture (default 560x420, no label)
 Phase extras: `seal: {chars, grid:[2,2], size, at, x, y, angle}`, `stamp: {top, main, at, y}` (diagonal red stamp), `bg: {char, color}` faint glyph.
 
 ### end

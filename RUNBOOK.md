@@ -76,9 +76,7 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
    stop exactly as in 4b.6; never publish a video with fewer pictures than required.
 
 ## 4d. Opening clip (Calywood, 3 s)
-STATUS: NOT ACTIVE YET. Downloads from storage.googleapis.com work since 2026-10-20, but Calywood `generate_video`
-fails on its server side ("'User' object has no attribute 'execute'"). Skip 4d entirely until a test clip has been made
-and this STATUS line has been removed.
+Active since 2026-10-20 (tested on the 10-20 episode). A Calywood clip costs about NT$13.
 
 When active, the opening is a 3-second AI clip that plays full-screen under the title, then cross-fades to opening.png:
 1. Calywood `generate_video` with `duration: 4` (the minimum), `resolution: "720p"`, and an English prompt built from the
@@ -86,8 +84,11 @@ When active, the opening is a 3-second AI clip that plays full-screen under the 
    palette with small touches of deep red"), vertical 9:16 framing, slow gentle camera move or small natural motion,
    main subject in the lower half, no realistic likeness or identifiable face of a real person, "No text, no letters,
    no logos, no watermarks." Calywood is text-to-video only: it cannot animate opening.png itself.
-2. Poll `get_task` (about every 20 s, up to 10 min) until it succeeds; save the video link with
-   `curl -sSf -o episodes/D/opening.mp4 "<url>"` and check it with ffprobe (has a video stream, at least 3 s).
+2. Poll `get_task` (about every 30 s, up to 10 min) until it succeeds (a 4 s clip took about 4 min). The link it
+   returns (volces.com) is blocked here; a copy appears a few minutes later at
+   `https://storage.googleapis.com/alchemy-dance-media-cacafly-nathan-project/videos/<task_id>.mp4`.
+   Retry `curl -sSf -o episodes/D/opening.mp4 "<that url>"` every minute for up to 10 min (403 = not there yet), then
+   check it with ffprobe (video stream, at least 3 s; a "Vertical 9:16 portrait video." prompt gave 720x1280).
 3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.4 (no text, no warped hands
    or faces, no anachronisms, nothing offensive). Retry with a revised prompt, max 3 tries.
 4. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3` (keep `"image": "opening.png"`; the clip

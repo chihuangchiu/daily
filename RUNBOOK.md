@@ -76,8 +76,9 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
    stop exactly as in 4b.6; never publish a video with fewer pictures than required.
 
 ## 4d. Opening clip (Calywood, 3 s)
-STATUS: NOT ACTIVE YET. The clip download host (storage.googleapis.com) is blocked by this environment's network
-allowlist. Skip 4d entirely until Nathan has allowed that domain and this STATUS line has been removed.
+STATUS: NOT ACTIVE YET. Downloads from storage.googleapis.com work since 2026-10-20, but Calywood `generate_video`
+fails on its server side ("'User' object has no attribute 'execute'"). Skip 4d entirely until a test clip has been made
+and this STATUS line has been removed.
 
 When active, the opening is a 3-second AI clip that plays full-screen under the title, then cross-fades to opening.png:
 1. Calywood `generate_video` with `duration: 4` (the minimum), `resolution: "720p"`, and an English prompt built from the

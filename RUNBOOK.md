@@ -75,6 +75,27 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
 4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
    stop exactly as in 4b.6; never publish a video with fewer pictures than required.
 
+## 4d. Opening clip (Calywood, 3 s)
+STATUS: NOT ACTIVE YET. The clip download host (storage.googleapis.com) is blocked by this environment's network
+allowlist. Skip 4d entirely until Nathan has allowed that domain and this STATUS line has been removed.
+
+When active, the opening is a 3-second AI clip that plays full-screen under the title, then cross-fades to opening.png:
+1. Calywood `generate_video` with `duration: 4` (the minimum), `resolution: "720p"`, and an English prompt built from the
+   opening image prompt: same scene, era and style ("warm sepia ink-wash illustration, soft paper texture, cream and brown
+   palette with small touches of deep red"), vertical 9:16 framing, slow gentle camera move or small natural motion,
+   main subject in the lower half, no realistic likeness or identifiable face of a real person, "No text, no letters,
+   no logos, no watermarks." Calywood is text-to-video only: it cannot animate opening.png itself.
+2. Poll `get_task` (about every 20 s, up to 10 min) until it succeeds; save the video link with
+   `curl -sSf -o episodes/D/opening.mp4 "<url>"` and check it with ffprobe (has a video stream, at least 3 s).
+3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.4 (no text, no warped hands
+   or faces, no anachronisms, nothing offensive). Retry with a revised prompt, max 3 tries.
+4. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3` (keep `"image": "opening.png"`; the clip
+   needs it). render.py crops the clip to 720x1280, gives it the same sepia and darkening as the still, keeps the
+   `AI 生成示意圖` label, plays seconds 0–3 and fades to the still over the last 0.5 s.
+5. If the clip cannot be made (Calywood not connected after the usual retries, the task fails, the download keeps
+   failing, or 3 tries are all unusable), STOP exactly as in 4b.6 (Nathan 2026-10-20): nothing is built or published,
+   and the notification says the opening clip failed, with the exact error.
+
 ## 5. Check
 ```
 pipeline/build.sh episodes/YYYY-MM-DD check

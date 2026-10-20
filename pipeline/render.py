@@ -256,18 +256,68 @@ def label_img(text=AI_LABEL, color=LIGHT, alpha=210):
     return bg
 
 
-def cover_img(src, label=AI_LABEL):
-    im = load_photo(src, W, H, 0.25).convert("RGBA")
-    yy = np.linspace(0, 1, H, dtype=np.float32)[:, None]
-    a = 0.40 + 0.18 * (1 - np.clip(yy / 0.12, 0, 1)) + 0.35 * np.clip((yy - 0.62) / 0.38, 0, 1) ** 1.3
-    shade = np.zeros((H, W, 4), np.uint8)
-    shade[..., :3] = (18, 14, 10)
-    shade[..., 3] = (np.clip(a, 0, 0.92) * 255).astype(np.uint8).repeat(W, 1)
-    im.alpha_composite(Image.fromarray(shade, "RGBA"))
+_SHADE = None
+
+
+def cover_finish(im, label=AI_LABEL):
+    """darken a full-screen W x H picture so the light title text reads on top, and add the AI label"""
+    global _SHADE
+    if _SHADE is None:
+        yy = np.linspace(0, 1, H, dtype=np.float32)[:, None]
+        a = 0.40 + 0.18 * (1 - np.clip(yy / 0.12, 0, 1)) + 0.35 * np.clip((yy - 0.62) / 0.38, 0, 1) ** 1.3
+        shade = np.zeros((H, W, 4), np.uint8)
+        shade[..., :3] = (18, 14, 10)
+        shade[..., 3] = (np.clip(a, 0, 0.92) * 255).astype(np.uint8).repeat(W, 1)
+        _SHADE = Image.fromarray(shade, "RGBA")
+    im = im.convert("RGBA")
+    im.alpha_composite(_SHADE)
     if label:
         lb = label_img(label)
         im.alpha_composite(lb, (W - 60 - lb.width, 128))
     return im
+
+
+def cover_img(src, label=AI_LABEL):
+    return cover_finish(load_photo(src, W, H, 0.25), label)
+
+
+def sepia_arr(a, sepia=0.25):
+    g = a.astype(np.float32).mean(axis=2, keepdims=True) / 255.0
+    tone = np.array([[[255, 236, 205]]], np.float32) * g
+    return np.clip(a.astype(np.float32) * (1 - sepia) + tone * sepia, 0, 255).astype(np.uint8)
+
+
+class VideoCover:
+    """full-screen opening clip (title scene `video`): plays from t0 for `secs` seconds, then fades out
+    over the last `fade` seconds to reveal the still opening image underneath. Frames are decoded lazily,
+    only by the process that renders that time range."""
+
+    def __init__(self, src, t0, secs, label=AI_LABEL, fade=0.5):
+        self.path = src if os.path.isabs(src) else os.path.join(EP_DIR, src)
+        self.t0, self.secs, self.label, self.fade = t0, secs, label, fade
+        self.t1 = t0 + secs
+        self.frames = None
+
+    def _load(self):
+        vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}"
+        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", self.path, "-t", str(self.secs), "-vf", vf,
+                              "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
+        n = len(raw) // (W * H * 3)
+        if n == 0:
+            raise SystemExit(f"opening video {self.path} has no frames")
+        self.frames = np.frombuffer(raw[: n * W * H * 3], np.uint8).reshape(n, H, W, 3)
+
+    def draw(self, frame, t):
+        if t < self.t0 - 1.0 or t >= self.t1:
+            return
+        if self.frames is None:
+            self._load()
+        k = min(len(self.frames) - 1, max(0, int((t - self.t0) * FPS)))
+        im = cover_finish(Image.fromarray(sepia_arr(self.frames[k])), self.label)
+        a = min(1.0, (self.t1 - t) / self.fade)
+        if a < 0.999:
+            im.putalpha(im.getchannel("A").point(lambda v, a=a: int(v * a)))
+        frame.paste(im, (0, 0), im)
 
 
 def item_imgs(it):
@@ -482,6 +532,9 @@ def b_title(c):
         cov = cover_img(d["image"], d.get("image_label", AI_LABEL))
         # already fully visible on frame 0 (the first frame doubles as the thumbnail)
         els.append(El(cov, 0, 0, -1.0, None, "fade", 0.6))
+        if d.get("video"):
+            # a short AI clip plays over the still image first (frame 0 = video frame 0)
+            els.append(VideoCover(d["video"], 0.0, float(d.get("video_secs", 3)), d.get("image_label", AI_LABEL)))
     els += [
         place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), muted + (255,)), 360, 262, -1.0),
         place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, -1.0),

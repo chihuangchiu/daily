@@ -34,6 +34,8 @@ optional `delay` (seconds after that line starts), optional `until` = line index
 `name`, `name_years`, `seal` (2–4 chars red seal), `name_at`,
 `image` (file in the episode folder, e.g. `"opening.png"`): shown full-screen behind the title, darkened, with all
 title text switched to light colours; `image_label` defaults to `AI 生成示意圖` (keep it).
+`video` (e.g. `"opening.mp4"`, needs `image` too) + `video_secs` (default 3): a clip played full-screen over the
+still from t=0, cropped to 720x1280 with the same sepia/darkening and label, then faded to the still (RUNBOOK 4d).
 
 ### timeline
 `bg_char` (one faint big glyph, optional), `nodes`: up to 5 × `{big, small, at, delay, color}`.

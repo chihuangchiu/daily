@@ -78,17 +78,18 @@ from behind. Flow: find a photo → Image MCP redraws it as a drawing → Calywo
    Never use a photo of a living person. Record the file page URL, photographer/author and licence.
    The original file URL is `https://upload.wikimedia.org/wikipedia/commons/<h0>/<h0h1>/<File_name>` where h = md5 of the
    file name with spaces replaced by `_` (`python3 -c "import hashlib;f='File_name.jpg';h=hashlib.md5(f.encode()).hexdigest();print(h[0],h[:2])"`).
-   The cloud workspace cannot download from Wikimedia (upload.wikimedia.org is blocked by the egress proxy, 2026-10-20).
-2. Redraw it with Image MCP `edit-image` (photo as `image`), `size: "1024x1536"`, `quality: "high"`. Prompt in English:
+   The cloud workspace itself cannot download from Wikimedia (upload.wikimedia.org is blocked by the egress proxy), so pass the URL to the tool.
+2. Redraw it with Image MCP `edit-image`: `image` = the original file URL from step 1 (Image MCP fetches URLs itself;
+   tested 2026-10-20 with a Commons photo of Nobel), `size: "1024x1536"`, `quality: "high"`. Prompt in English:
    "Redraw this photograph as a hand-drawn portrait illustration: warm sepia ink-wash and pencil sketch, soft paper
    texture, cream and brown palette with small touches of deep red. Keep the person's recognizable features, hairstyle
-   and clothing. Vertical composition: the person from the chest up in the lower half of the frame, with a faint
-   <era/place> background; the upper half is plain soft paper (the title sits there). No text, no letters, no logos,
-   no watermarks." It must look hand-drawn, never like a photo.
-   STATUS 2026-10-20: `edit-image` in cloud mode only accepts base64 image data, not a URL, and the photo cannot be
-   downloaded here, so this step cannot run yet. Until Nathan adds image-URL input to `edit-image` (or allows
-   upload.wikimedia.org in this environment's network settings), go straight to step 3.
-3. Fallback (no usable photo, or step 2 not possible): `create-image` with `size: "1024x1536"`, `quality: "high"`,
+   and clothing. Composition is critical: the top half of the image (from the top edge down to 50% of the height) is
+   completely empty plain soft paper with only a very faint hint of <era/place background>; the top of the head starts
+   at about 50% of the image height, the face is centered at about 62–65% of the height, and the shoulders and chest
+   fill the bottom of the frame. It must look hand-drawn, not like a photograph. No text, no letters, no logos,
+   no watermarks." (Without these numbers the face lands behind the big date and title.)
+   If the tool says the URL did not return HTTP 200, check the file name and md5 path, or try another photo.
+3. Fallback (no usable photo, or step 2 keeps failing): `create-image` with `size: "1024x1536"`, `quality: "high"`,
    `output_format: "png"`, an English prompt with the same style line, main subject in the lower half; real people only
    from behind, in silhouette or small in the distance (no invented face without a photo).
 4. Keep the download URL the tool returns (valid 24 h; 4d needs it) and save the file: `curl -sSf -o episodes/D/opening.png "<url>"`.
@@ -120,7 +121,7 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
 Since 2026-10-20 the clip animates opening.png itself (tested 2026-10-20: keeps the drawing and its style; about NT$13).
 
 1. Calywood `generate_video_from_image` with `image_url` = the Image MCP download URL of opening.png (from 4b step 4),
-   `duration: 4` (the minimum), `resolution: "720p"`, and a short English `prompt`: slow gentle camera push-in plus one
+   `duration: 4` (the minimum), `resolution: "720p"`, and a short English `prompt`: a very slight, slow camera push-in (a strong zoom pushes the face up behind the title) plus one
    or two small natural motions that fit the picture (a lamp flickers, the person blinks or slightly turns the head,
    cloth moves), "Keep the hand-drawn sepia ink-wash style. No text."
    Do not use `generate_video_multimodal`: its results are not copied to the storage bucket below (2026-10-20), so they

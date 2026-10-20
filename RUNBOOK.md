@@ -1,14 +1,37 @@
 # Daily run: 「今天，誰改變了世界」
 
-Every morning (run starts ~06:00 Taiwan time) one vertical video of just under 3 minutes (so YouTube treats it as a Short) about a person or event tied to
-today's date, posted at 07:00 Taiwan time to both the Facebook page 「今天，誰改變了世界」 and the YouTube channel 「今天 誰改變了世界」.
+One vertical video of just under 3 minutes (so YouTube treats it as a Short) per day, about a person or event tied to
+that day's date, posted at 06:00 Taiwan time to both the Facebook page 「今天，誰改變了世界」 and the YouTube channel 「今天 誰改變了世界」.
+
+Rolling buffer (Nathan 2026-10-20): the run starts every evening (~19:50 Taiwan time) and makes sure the next
+WINDOW days are already scheduled in Postiz. WINDOW = 3 for now (tomorrow, the day after, and the day after that);
+Nathan plans to raise it to 7 once this is stable — only this number changes. Each video is made for its own
+target date D (the publish date), never for the run date.
 
 Fixed facts
 - Repo: chihuangchiu/daily (public). Video files are never committed to main; they pass briefly through the `media` branch (step 8).
 - Postiz integrations:
   - Facebook: id `cmvbzqyvs0002s67fq0dzr53e`, name 「今天，誰改變了世界」.
   - YouTube: id `cmvc7njup0001s673xhqhp5s8`, name 「今天 誰改變了世界」.
-- Timezone: Asia/Taipei. "Today" = the Taipei date at run time (get it from the current-time tool).
+- Timezone: Asia/Taipei. Get the run date from the current-time tool. In every step below, D = the target
+  (publish) date of the video being made: its month/day drives the topic, the "N年前的今天" years, the folder
+  episodes/D, the media file name and the publish time.
+
+## 0. Plan the run
+1. Target dates = run date + 1 … run date + WINDOW.
+2. Postiz `postsListTool` from (first target date − 1 day)T16:00:00 to (last target date)T16:00:00 UTC. For each target
+   date D, look for posts at 06:00 Taipei on D on each channel (Facebook `cmvbzqyvs0002s67fq0dzr53e`, YouTube
+   `cmvc7njup0001s673xhqhp5s8`); ignore errored/deleted ones.
+   - Both channels have a post → D is covered, skip it.
+   - Only one channel has a post → do not make a new video: schedule the missing channel only, reusing that post's
+     attachment path and `episodes/D/post.txt` (step 8.3 for that channel alone).
+   - Neither → D needs a video.
+3. Make the missing videos one at a time, earliest date first, each through steps 2–9 completely before starting the
+   next (finished and scheduled before the next one starts, so a later failure never loses an earlier video).
+4. Topics: besides covered.md, also avoid the people already scheduled for the other dates in the window.
+5. If a video fails (any STOP rule below, or a check it cannot pass), stop the whole run there: keep what was already
+   scheduled, do not start later dates, and notify the user (which date failed, why, which dates are still covered).
+   The next evening's run will try again.
 
 ## 1. Setup
 ```
@@ -17,8 +40,8 @@ pip install --break-system-packages -q -r requirements.txt
 which ffmpeg && fc-list | grep -q "Noto Serif CJK" && echo ok
 ```
 
-## 2. Choose today's subject
-Search the web for today's month/day ("M月D日 歷史上的今天", "M月D日 台灣歷史", "On this day <Month D>").
+## 2. Choose the subject for D
+Search the web for D's month/day ("M月D日 歷史上的今天", "M月D日 台灣歷史", "On this day <Month D>").
 Pick ONE, in this order of preference:
 1. Taiwan history: a person (born, died, or did the defining act on this exact date) or an event centred on a person.
 2. A person or event that changed the world (science, medicine, democracy, human rights, culture, technology, exploration).
@@ -134,7 +157,7 @@ after the Postiz upload, `git rm D.mp4`, commit, `git push origin media` (the br
 1. Postiz `uploadFromUrlTool` with `https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4` → `{id, path}`.
 2. Clear the branch right away: commit only README.md on a fresh orphan `media` and `git push -f origin media`.
 3. One Postiz `integrationSchedulePostTool` call with two items in `socialPost`, both type `schedule`,
-   date = 07:00 Taipei on D = `(D minus 1 day)T23:00:00Z` (if that has passed, now + 10 min),
+   date = 06:00 Taipei on D = `(D minus 1 day)T22:00:00Z` (if that has passed, now + 10 min),
    isPremium false, shortLink false, attachments `[path]` (the same uploaded video). Every line of content is
    wrapped in `<p>…</p>` (blank lines become `<p></p>`, HTML-escape the text).
    - Facebook (`cmvbzqyvs0002s67fq0dzr53e`): content = the title as the first line, a blank line, then the
@@ -148,12 +171,15 @@ after the Postiz upload, `git rm D.mp4`, commit, `git push origin media` (the br
    of them was created, do not schedule the other again blindly: check the list first, then add only the missing one.
 
 ## 9. Record
-Append `| D | person | event |` to `covered.md`; commit `episodes/D/episode.json`, `episodes/D/post.txt`,
+As soon as D is scheduled (not when it is published), append `| D | person | event |` to `covered.md` (keep the
+table in date order); commit `episodes/D/episode.json`, `episodes/D/post.txt`,
 `covered.md` (never the mp4/wav/check files; .gitignore covers them) and push to main.
 
 ## 10. Report
-Send the user one short message: who/what, title, scheduled time, both Postiz preview links (Facebook and YouTube), sources,
-and anything dropped or uncertain. Remind them they can delete it in Postiz before 07:00.
+Only when the run made or fixed something, or failed: send the user one short message listing, per date in the window,
+either "already scheduled" or what was made (who/what, title, length, publish time 06:00, both Postiz preview links,
+sources, anything dropped or uncertain). Remind them each post can be deleted in Postiz before its 06:00 publish time.
+If every date in the window was already covered, finish silently.
 
 ## If something fails
 Never post a partial or unchecked video. If pushing the media branch is refused, or Postiz cannot fetch the

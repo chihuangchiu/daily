@@ -57,7 +57,9 @@ Every video opens on at least one AI-generated picture, made with the Image MCP:
 4. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces,
    anachronisms, anything gory or offensive, or does not fit the story.
 5. Set `"image": "opening.png"` in the title scene's `data`. The on-screen label `AI 生成示意圖` is added automatically; keep it.
-6. If the download keeps failing (network allowlist), continue without the image and say so in the report.
+6. If any picture cannot be made (Image MCP not connected after the retries, generation or download keeps failing,
+   or 3 tries still give an unusable picture), STOP: do not build, upload or publish anything. Notify the user with
+   which picture failed and the exact error (Nathan 2026-10-20).
 
 ## 4c. Chapter images (required: 1–2 more pictures)
 Besides the opening image, every video shows 1–2 more AI pictures inside the chapters, at the story's key moments
@@ -70,8 +72,8 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
    `{"at": N, "until": M, "items": [{"type":"image","src":"img1.png","caption":"<≤ 16 字說明>"}, {"text":"<short line>","style":"mid"}]}`.
    At most one short text item next to it (the frame is ~460 px tall; the visual area is 677 px). Show it for at
    least 2 subtitle lines. Do not put two images in the same scene.
-4. Check the sheets (step 5) for overlap or clipping around the pictures. If image generation or download fails,
-   the video may go out with only the opening image (or none, per 4b.6); say so in the report.
+4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
+   stop exactly as in 4b.6; never publish a video with fewer pictures than required.
 
 ## 5. Check
 ```

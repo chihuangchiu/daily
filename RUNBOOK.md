@@ -56,9 +56,22 @@ Every video opens on at least one AI-generated picture, made with the Image MCP:
 3. The tool returns a download URL (valid 24 h). Save it: `curl -sSf -o episodes/D/opening.png "<url>"`.
 4. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces,
    anachronisms, anything gory or offensive, or does not fit the story.
-5. Set `"image": "opening.png"` in the title scene's `data`. A second picture may be used later as a stack
-   item `{type:"image", src, caption}`. The on-screen label `AI 生成示意圖` is added automatically; keep it.
+5. Set `"image": "opening.png"` in the title scene's `data`. The on-screen label `AI 生成示意圖` is added automatically; keep it.
 6. If the download keeps failing (network allowlist), continue without the image and say so in the report.
+
+## 4c. Chapter images (required: 1–2 more pictures)
+Besides the opening image, every video shows 1–2 more AI pictures inside the chapters, at the story's key moments
+(for example the place where it happened, the defining object or act, the legacy).
+1. Same `create-image` call, rules and checks as 4b (style line, "No text, no letters, no logos, no watermarks.",
+   no realistic likeness of real people, Read every file, max 3 tries each), but `size: "1536x1024"` (landscape)
+   because it is shown in a 560x420 frame. Keep the subject centred; edges get cropped.
+2. Save as `episodes/D/img1.png`, `episodes/D/img2.png` (curl the download URL, same as 4b).
+3. Put each picture in its own phase of a stack scene, near the line that tells that moment:
+   `{"at": N, "until": M, "items": [{"type":"image","src":"img1.png","caption":"<≤ 16 字說明>"}, {"text":"<short line>","style":"mid"}]}`.
+   At most one short text item next to it (the frame is ~460 px tall; the visual area is 677 px). Show it for at
+   least 2 subtitle lines. Do not put two images in the same scene.
+4. Check the sheets (step 5) for overlap or clipping around the pictures. If image generation or download fails,
+   the video may go out with only the opening image (or none, per 4b.6); say so in the report.
 
 ## 5. Check
 ```
@@ -91,6 +104,9 @@ git add -A && git commit -qm "media D" && git remote add origin https://github.c
 git push -f origin media
 curl -sI https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4   # expect 200 and the right size
 ```
+If the force-push is refused, use a normal push on top of the existing branch instead:
+`git clone --depth 1 -b media https://github.com/chihuangchiu/daily.git m && cd m`, add `D.mp4`, commit, `git push origin media`;
+after the Postiz upload, `git rm D.mp4`, commit, `git push origin media` (the branch tip again holds only README.md).
 1. Postiz `uploadFromUrlTool` with `https://raw.githubusercontent.com/chihuangchiu/daily/media/D.mp4` → `{id, path}`.
 2. Clear the branch right away: commit only README.md on a fresh orphan `media` and `git push -f origin media`.
 3. One Postiz `integrationSchedulePostTool` call with two items in `socialPost`, both type `schedule`,

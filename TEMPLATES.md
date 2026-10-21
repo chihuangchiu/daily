@@ -36,7 +36,7 @@ optional `delay` (seconds after that line starts), optional `until` = line index
 title text switched to light colours; `image_label` is empty by default (no on-screen AI label since 2026-10-20).
 `image_shift` (0–0.4): moves the picture (and the clip) down by that fraction of the height so the face sits
 below the title (RUNBOOK 4b step 6).
-`video` (e.g. `"opening.mp4"`, needs `image` too) + `video_secs` (default 3) + `video_align`: a clip played full-screen
+`video` (e.g. `"opening.mp4"`, needs `image` too) + `video_secs` (default 3; use 5) + `video_align`: a clip played full-screen
 over the still from t=0, cropped to 720x1280 with the same sepia/darkening and label, then handed over to the still.
 `video_align: "end"` (use this; RUNBOOK 4d) plays the clip's last `video_secs` seconds, whose last frame is opening.png,
 with a 0.25 s cross-fade; the default `"start"` plays its first seconds with a 0.5 s fade (older episodes).

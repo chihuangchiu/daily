@@ -137,7 +137,7 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
 4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
    stop exactly as in 4b.8; never publish a video with fewer pictures than required.
 
-## 4d. Opening clip (Calywood first/last-frame video that ENDS on opening.png, 3 s) — Nathan 2026-10-21 (v2)
+## 4d. Opening clip (Calywood first/last-frame video that ENDS on opening.png, 5 s) — Nathan 2026-10-21 (v2)
 The clip must end exactly on opening.png, so the hand-over from the clip to the still is seamless (no jump), and it
 must show real, natural action, not just a zoom. So opening.png is the LAST frame, and a matching START frame is drawn
 from it: the same scene a few seconds earlier, with the person in a different pose.
@@ -152,7 +152,7 @@ from it: the same scene a few seconds earlier, with the person in a different po
    Save it as `episodes/D/start.png` (curl), Read it next to opening.png: same scene, framing, face and tone; only the
    pose differs. Max 3 tries.
 2. Calywood `generate_video_from_image` with `image_url` = start.png's download URL, `last_frame_url` = opening.png's
-   download URL, `duration: 4` (the minimum), `resolution: "720p"`, English `prompt` describing the action that leads
+   download URL, `duration: 5`, `resolution: "720p"`, English `prompt` describing the action that leads
    from the start pose to the final pose, with natural, realistic body motion (hands, head, shoulders, hair, cloth) and
    one or two small background motions (flames flicker, people in the background move, steam or smoke drifts), e.g.
    "The pianist plays a final chord, lifts his hands, raises his head and turns his face and shoulders toward the
@@ -163,18 +163,18 @@ from it: the same scene a few seconds earlier, with the person in a different po
    (text-to-video) or `generate_video_multimodal` (results are not copied to the bucket below).
    Without a photo (4b fallback, person from behind), the action is still a real one (e.g. he lowers the lens and leans
    back; she walks to the window); the face stays hidden.
-3. Poll `get_task` (about every 30 s, up to 10 min; a 4 s clip takes about 4–6 min). The link it returns (volces.com)
+3. Poll `get_task` (about every 30 s, up to 10 min; a 4–5 s clip takes about 4–6 min). The link it returns (volces.com)
    is blocked here; a copy appears a few minutes later at
    `https://storage.googleapis.com/alchemy-dance-media-cacafly-nathan-project/videos/<task_id>.mp4`.
    Retry `curl -sSf -o episodes/D/opening.mp4 "<that url>"` every minute for up to 10 min (403 = not there yet), then
-   check it with ffprobe (video stream, at least 3 s; about 786x1178, render.py crops it to 720x1280).
+   check it with ffprobe (video stream, at least 4.9 s; about 786x1178, render.py crops it to 720x1280).
    A task can fail with "output audio may be related to copyright restrictions": just retry (it worked on the next try).
-4. Grab frames at 1.0, 2.0, 3.0 s and the last frame (`ffmpeg -sseof -0.1 -i opening.mp4 -frames:v 1 last.png`) and
+4. Grab frames at 1.0, 2.5, 4.0 s and the last frame (`ffmpeg -sseof -0.1 -i opening.mp4 -frames:v 1 last.png`) and
    Read them next to opening.png: the person must stay the same, the motion must look natural (no warped limbs or
    faces), the colours must stay those of opening.png, and the last frame must match opening.png. Retry with a revised
    prompt, max 3 tries.
-5. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3, "video_align": "end"` (keep `"image"` and
-   `"image_shift"`). With `video_align: "end"` render.py plays the LAST 3 s of the clip (ending on opening.png), crops
+5. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 5, "video_align": "end"` (keep `"image"` and
+   `"image_shift"`). With `video_align: "end"` render.py plays the LAST 5 s of the clip (Nathan 2026-10-21: 5 s opening) (ending on opening.png), crops
    it to 720x1280, shifts it like the still, applies the same sepia and darkening, and hands over to the still with a
    0.25 s cross-fade.
 6. If the clip cannot be made (start frame or clip fails after the usual retries, Calywood not connected, the download

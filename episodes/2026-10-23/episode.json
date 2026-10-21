@@ -53,7 +53,9 @@
     "name_at": 5,
     "image": "opening.png",
     "video": "opening.mp4",
-    "video_secs": 3
+    "video_secs": 5,
+    "video_align": "end",
+    "image_shift": 0.32
    }
   },
   {
@@ -159,7 +161,7 @@
        {
         "type": "image",
         "src": "img1.png",
-        "caption": "黃金準備（示意）"
+        "caption": "黃金準備"
        },
        {
         "text": "發行兩億元　黃金八十萬兩",
@@ -285,7 +287,7 @@
        {
         "type": "image",
         "src": "img2.png",
-        "caption": "1960 年代的港口（示意）"
+        "caption": "1960 年代的港口"
        },
        {
         "text": "工廠蓋起來　貨輪送出去",

@@ -54,7 +54,8 @@
     "image": "opening.png",
     "image_shift": 0.26,
     "video": "opening.mp4",
-    "video_secs": 3
+    "video_secs": 5,
+    "video_align": "end"
    }
   },
   {
@@ -194,7 +195,7 @@
        {
         "type": "image",
         "src": "img1.png",
-        "caption": "1840 年代的音樂廳（示意）"
+        "caption": "1840 年代的音樂廳"
        },
        {
         "text": "1840.6.9　倫敦",
@@ -442,7 +443,7 @@
        {
         "type": "image",
         "src": "img2.png",
-        "caption": "他的鋼琴課（示意）"
+        "caption": "他的鋼琴課"
        },
        {
         "text": "不收學費",

@@ -54,7 +54,8 @@
     "image": "opening.png",
     "image_shift": 0.07,
     "video": "opening.mp4",
-    "video_secs": 3
+    "video_secs": 5,
+    "video_align": "end"
    }
   },
   {
@@ -187,7 +188,7 @@
        {
         "type": "image",
         "src": "img1.png",
-        "caption": "一滴水裡的小生物（示意）"
+        "caption": "一滴水裡的小生物"
        },
        {
         "text": "他叫牠們「小動物」",
@@ -271,7 +272,7 @@
        {
         "type": "image",
         "src": "img2.png",
-        "caption": "皇家學會的學者（示意）"
+        "caption": "皇家學會的學者"
        },
        {
         "text": "親自檢驗　證實",

@@ -277,8 +277,25 @@ def cover_finish(im, label=AI_LABEL):
     return im
 
 
-def cover_img(src, label=AI_LABEL):
-    return cover_finish(load_photo(src, W, H, 0.25), label)
+def shift_down(im, shift):
+    """move a full-screen W x H picture down by `shift` x H (title scene `image_shift`, 0-0.4) so the face sits
+    below the title; the freed top band is filled with the picture's own top-edge colour, blended in softly"""
+    s = int(H * max(0.0, min(0.4, float(shift or 0))))
+    if s <= 0:
+        return im
+    a = np.array(im.convert("RGB")).astype(np.float32)
+    top = a[: max(4, H // 40)].mean(axis=(0, 1))
+    out = np.empty_like(a)
+    out[:s] = top
+    out[s:] = a[: H - s]
+    blend = min(120, H - s)
+    w = np.linspace(0, 1, blend, dtype=np.float32)[:, None, None]
+    out[s:s + blend] = top * (1 - w) + out[s:s + blend] * w
+    return Image.fromarray(np.clip(out, 0, 255).astype(np.uint8))
+
+
+def cover_img(src, label=AI_LABEL, shift=0):
+    return cover_finish(shift_down(load_photo(src, W, H, 0.25), shift), label)
 
 
 def sepia_arr(a, sepia=0.25):
@@ -292,9 +309,9 @@ class VideoCover:
     over the last `fade` seconds to reveal the still opening image underneath. Frames are decoded lazily,
     only by the process that renders that time range."""
 
-    def __init__(self, src, t0, secs, label=AI_LABEL, fade=0.5):
+    def __init__(self, src, t0, secs, label=AI_LABEL, fade=0.5, shift=0):
         self.path = src if os.path.isabs(src) else os.path.join(EP_DIR, src)
-        self.t0, self.secs, self.label, self.fade = t0, secs, label, fade
+        self.t0, self.secs, self.label, self.fade, self.shift = t0, secs, label, fade, shift
         self.t1 = t0 + secs
         self.frames = None
 
@@ -313,7 +330,7 @@ class VideoCover:
         if self.frames is None:
             self._load()
         k = min(len(self.frames) - 1, max(0, int((t - self.t0) * FPS)))
-        im = cover_finish(Image.fromarray(sepia_arr(self.frames[k])), self.label)
+        im = cover_finish(shift_down(Image.fromarray(sepia_arr(self.frames[k])), self.shift), self.label)
         a = min(1.0, (self.t1 - t) / self.fade)
         if a < 0.999:
             im.putalpha(im.getchannel("A").point(lambda v, a=a: int(v * a)))
@@ -529,12 +546,13 @@ def b_title(c):
     ink, muted = (CREAM, LIGHT) if dark else (INK, MUTED)
     els = []
     if dark:
-        cov = cover_img(d["image"], d.get("image_label", AI_LABEL))
+        cov = cover_img(d["image"], d.get("image_label", AI_LABEL), d.get("image_shift", 0))
         # already fully visible on frame 0 (the first frame doubles as the thumbnail)
         els.append(El(cov, 0, 0, -1.0, None, "fade", 0.6))
         if d.get("video"):
             # a short AI clip plays over the still image first (frame 0 = video frame 0)
-            els.append(VideoCover(d["video"], 0.0, float(d.get("video_secs", 3)), d.get("image_label", AI_LABEL)))
+            els.append(VideoCover(d["video"], 0.0, float(d.get("video_secs", 3)), d.get("image_label", AI_LABEL),
+                                  shift=d.get("image_shift", 0)))
     els += [
         place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), muted + (255,)), 360, 262, -1.0),
         place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, -1.0),

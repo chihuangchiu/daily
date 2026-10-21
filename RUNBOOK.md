@@ -68,79 +68,97 @@ Follow `TEMPLATES.md`; copy the structure of the most recent episode.
   `python3 -c "import sys;sys.path.insert(0,'pipeline');from tts import BakerProcessor as B;p=B(data_dir=None,loaded_mapper_path='pipeline/models/baker_mapper.json');print(p.text_to_phone('要檢查的句子'))"`
   and, if a reading is wrong, rewrite only the spoken field (homophone characters are fine).
 
-## 4b. Opening image (required) — portrait from a real photo when possible (Nathan 2026-10-20)
-Goal: the opening shows the person, drawn by hand from a real photograph, instead of only a background or a figure seen
-from behind. Flow: find a photo → Image MCP redraws it as a drawing → Calywood animates that drawing (4d).
+## 4b. Opening image (required) — the real person, face visible, in a scene of the era (Nathan 2026-10-21)
+Goal: a scene with context (place, objects, era) like the earlier openings, but with the person facing the viewer and
+looking like the real person. The likeness comes from a real photograph used as a face reference. Only when no usable
+photo exists does the person appear from behind / in silhouette / small in the distance (no invented face).
 
 1. Find the photo. WebSearch with `allowed_domains: ["commons.wikimedia.org"]` for "<person name in English> portrait"
    (also try the Chinese name). Use only files on Wikimedia Commons whose page says Public domain, CC0, CC BY or CC BY-SA
-   (Nathan 2026-10-20: both are fine). Prefer an old portrait photo taken in the person's lifetime, face clearly visible.
+   (Nathan 2026-10-20: all fine). Prefer a photo taken in the person's lifetime with the face clearly visible.
    Never use a photo of a living person. Record the file page URL, photographer/author and licence.
    The original file URL is `https://upload.wikimedia.org/wikipedia/commons/<h0>/<h0h1>/<File_name>` where h = md5 of the
    file name with spaces replaced by `_` (`python3 -c "import hashlib;f='File_name.jpg';h=hashlib.md5(f.encode()).hexdigest();print(h[0],h[:2])"`).
-   The cloud workspace itself cannot download from Wikimedia (upload.wikimedia.org is blocked by the egress proxy), so pass the URL to the tool.
-2. Redraw it with Image MCP `edit-image`: `image` = the original file URL from step 1 (Image MCP fetches URLs itself;
-   tested 2026-10-20 with a Commons photo of Nobel), `size: "1024x1536"`, `quality: "high"`. Prompt in English:
-   "Redraw this photograph as a hand-drawn portrait illustration: warm sepia ink-wash and pencil sketch, soft paper
-   texture, cream and brown palette with small touches of deep red. Keep the person's recognizable features, hairstyle
-   and clothing. Composition is critical: the top half of the image (from the top edge down to 50% of the height) is
-   completely empty plain soft paper with only a very faint hint of <era/place background>; the top of the head starts
-   at about 50% of the image height, the face is centered at about 62–65% of the height, and the shoulders and chest
-   fill the bottom of the frame. It must look hand-drawn, not like a photograph. No text, no letters, no logos,
-   no watermarks." (Without these numbers the face lands behind the big date and title.)
-   If the tool says the URL did not return HTTP 200, check the file name and md5 path, or try another photo.
+   The cloud workspace itself cannot download from Wikimedia (upload.wikimedia.org is blocked by the egress proxy);
+   Image MCP fetches the URL itself.
+2. Draw the scene with Image MCP `edit-image`: `image` = the original file URL, `size: "1024x1536"`, `quality: "high"`.
+   Prompt in English (fill in the scene of the story's key place and era):
+   "Use the person in this photograph only as the face and likeness reference, and create a full scene illustration
+   of them. Scene: <place, era, objects, light>. The person, in <period clothing>, <stands/sits> <where>, facing the
+   viewer, seen from the waist up, <one natural action>, calm expression. Their face must clearly match the person in
+   the photograph: same face shape, eyes, nose, hairline, hairstyle and <beard/glasses…>. Vertical composition: the
+   upper part is the quieter background (sky, wall, window), the person in the middle and lower part. " + STYLE.
+   It must look hand-drawn, never like a photo. (Tested 2026-10-21 with Nobel: clear likeness, full lab scene.)
 3. Fallback (no usable photo, or step 2 keeps failing): `create-image` with `size: "1024x1536"`, `quality: "high"`,
-   `output_format: "png"`, an English prompt with the same style line, main subject in the lower half; real people only
-   from behind, in silhouette or small in the distance (no invented face without a photo).
+   `output_format: "png"`, the same kind of scene + STYLE; the person only from behind, in silhouette or small in the
+   distance (no invented face without a photo).
 4. Keep the download URL the tool returns (valid 24 h; 4d needs it) and save the file: `curl -sSf -o episodes/D/opening.png "<url>"`.
-5. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces,
-   anachronisms, anything gory or offensive, a photo-realistic look, or does not fit the story. For a portrait, also
-   compare it with what the sources say about the person (age, beard, clothing of the era).
-6. Set `"image": "opening.png"` in the title scene's `data`. No on-screen AI label is shown (Nathan 2026-10-20: the pictures are clearly hand-drawn; AI use is disclosed in the post text, which must keep its AI sentence).
-   If a CC BY / CC BY-SA photo was used, add one line before the AI sentence in post.txt:
-   `開場畫像依據 Wikimedia Commons 照片改繪（作者：<author>，授權：<licence>）。` (not needed for public domain / CC0).
-7. If no picture can be made at all (Image MCP not connected after the retries, generation or download keeps failing,
+5. Open it with Read. Reject and regenerate (max 3 tries) if it has text or letters, warped hands or faces, a face that
+   does not match the photo, a photo-realistic look, anachronisms, anything gory or offensive, a tone that differs from
+   the house style (see "One tone" below), or it does not fit the story.
+6. In the title scene's `data` set `"image": "opening.png"` and `"image_shift"`: the image model ignores "put the face
+   low", and the title text covers the top 60% of the frame, so render.py moves the picture down by image_shift x
+   height (0–0.4; the freed top band is filled with the picture's top-edge colour). Estimate where the face centre is in
+   opening.png as a fraction of its height (f) and set image_shift = round(0.60 − f, 2), at least 0 (Nobel: face at
+   ~0.35 → 0.25). The clip (4d) is shifted the same way. Then check check/sheet_00.png: the face must be visible between
+   the name line and the subtitle box.
+7. No on-screen AI label is shown (Nathan 2026-10-20). If a CC BY / CC BY-SA photo was used, add one line before the
+   AI sentence in post.txt: `開場畫像依據 Wikimedia Commons 照片繪製（作者：<author>，授權：<licence>）。`
+   (not needed for public domain / CC0).
+8. If no picture can be made at all (Image MCP not connected after the retries, generation or download keeps failing,
    or 3 tries still give an unusable picture), STOP: do not build, upload or publish anything. Notify the user with
    which picture failed and the exact error (Nathan 2026-10-20).
+
+### One tone for every picture and the clip (Nathan 2026-10-21)
+All pictures of an episode (opening, chapter images) and the opening clip must look like one set:
+- STYLE, word for word, at the end of every image prompt: "Style: warm sepia ink-wash illustration with fine pencil
+  lines, soft paper texture, cream and brown palette with small touches of deep red. Hand-drawn look, not
+  photographic. No text, no letters, no logos, no watermarks."
+- No other colour words in the prompts (no "blue sky", "green field", "golden light" — describe light as warm/dim/soft).
+- After saving all pictures, look at them side by side (e.g. `ffmpeg -i opening.png -i img1.png -i img2.png -filter_complex "[0]scale=-1:400[a];[1]scale=-1:400[b];[2]scale=-1:400[c];[a][b][c]hstack=3" tones.png`, then Read)
+  and regenerate any picture whose colour, brightness or line style stands out.
+- The clip is made only from opening.png (image-to-video, 4d), never from a text prompt, so it has the same tone.
 
 ## 4c. Chapter images (required: 1–2 more pictures)
 Besides the opening image, every video shows 1–2 more AI pictures inside the chapters, at the story's key moments
 (for example the place where it happened, the defining object or act, the legacy).
-1. Same `create-image` call, rules and checks as 4b step 3 and 5 (style line, "No text, no letters, no logos, no watermarks.",
-   no realistic likeness of real people, Read every file, max 3 tries each), but `size: "1536x1024"` (landscape)
-   because it is shown in a 560x420 frame. Keep the subject centred; edges get cropped.
+1. `create-image` with `size: "1536x1024"` (landscape; shown in a 560x420 frame, keep the subject centred, edges get
+   cropped), `quality: "high"`, `output_format: "png"`, prompt ending with STYLE. Scenes, places and objects; if the
+   person appears and a photo was found in 4b, you may use `edit-image` with the photo URL as face reference instead
+   (same wording as 4b step 2, landscape size); without a photo, people only from behind or far away. Read every file,
+   max 3 tries each, same rejection rules as 4b step 5, and check the tone against opening.png.
 2. Save as `episodes/D/img1.png`, `episodes/D/img2.png` (curl the download URL, same as 4b).
 3. Put each picture in its own phase of a stack scene, near the line that tells that moment:
    `{"at": N, "until": M, "items": [{"type":"image","src":"img1.png","caption":"<≤ 16 字說明>"}, {"text":"<short line>","style":"mid"}]}`.
    At most one short text item next to it (the frame is ~460 px tall; the visual area is 677 px). Show it for at
    least 2 subtitle lines. Do not put two images in the same scene.
 4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
-   stop exactly as in 4b.7; never publish a video with fewer pictures than required.
+   stop exactly as in 4b.8; never publish a video with fewer pictures than required.
 
-## 4d. Opening clip (Calywood image-to-video, 3 s)
-Since 2026-10-20 the clip animates opening.png itself (tested 2026-10-20: keeps the drawing and its style; about NT$13).
+## 4d. Opening clip (Calywood image-to-video from opening.png, 3 s)
+The clip animates opening.png itself, so it has the same drawing and tone (Nathan 2026-10-21: video only from the image).
 
-1. Calywood `generate_video_from_image` with `image_url` = the Image MCP download URL of opening.png (from 4b step 4),
-   `duration: 4` (the minimum), `resolution: "720p"`, and a short English `prompt`: a very slight, slow camera push-in (a strong zoom pushes the face up behind the title) plus one
-   or two small natural motions that fit the picture (a lamp flickers, the person blinks or slightly turns the head,
-   cloth moves), "Keep the hand-drawn sepia ink-wash style. No text."
-   Do not use `generate_video_multimodal`: its results are not copied to the storage bucket below (2026-10-20), so they
-   cannot be downloaded here.
-2. Poll `get_task` (about every 30 s, up to 10 min; a 4 s clip took about 4 min). The link it returns (volces.com) is
-   blocked here; a copy appears a few minutes later at
+1. Calywood `generate_video_from_image` with `image_url` = the Image MCP download URL of opening.png (4b step 4),
+   `duration: 4` (the minimum), `resolution: "720p"`, and a short English `prompt` that only describes motion:
+   "Very slight slow camera push-in. <one or two small natural motions: the person's eyes stay open and the gaze
+   slowly shifts toward the viewer / a lamp flickers / smoke or steam drifts / cloth moves>. Silent, no music. Keep the
+   hand-drawn sepia ink-wash style and colours exactly as in the image. No text."
+   Avoid "blink" (one test kept the eyes closed for 2 s). Do not use `generate_video` (text-to-video: a different
+   picture and tone) or `generate_video_multimodal` (its results are not copied to the bucket below).
+2. Poll `get_task` (about every 30 s, up to 10 min; a 4 s clip takes about 4–6 min). The link it returns (volces.com)
+   is blocked here; a copy appears a few minutes later at
    `https://storage.googleapis.com/alchemy-dance-media-cacafly-nathan-project/videos/<task_id>.mp4`.
    Retry `curl -sSf -o episodes/D/opening.mp4 "<that url>"` every minute for up to 10 min (403 = not there yet), then
-   check it with ffprobe (video stream, at least 3 s; image-to-video keeps the picture's 2:3 shape, about 786x1178, which
-   render.py crops to 720x1280).
-3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.5 (no text, no warped hands
-   or faces, the face must stay the same person, no anachronisms, nothing offensive). Retry with a revised prompt, max 3 tries.
-   If image-to-video keeps failing, one last try with text-to-video `generate_video` (prompt starting
-   "Vertical 9:16 portrait video.", same scene and style) before stopping.
-4. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3` (keep `"image": "opening.png"`; the clip
-   needs it). render.py crops the clip to 720x1280, gives it the same sepia and darkening as the still, plays seconds 0–3 and fades to the still over the last 0.5 s.
-5. If the clip cannot be made (Calywood not connected after the usual retries, the task fails, the download keeps
-   failing, or 3 tries are all unusable), STOP exactly as in 4b.7 (Nathan 2026-10-20): nothing is built or published,
-   and the notification says the opening clip failed, with the exact error.
+   check it with ffprobe (video stream, at least 3 s; about 786x1178, render.py crops it to 720x1280).
+   A task can fail with "output audio may be related to copyright restrictions": just retry (it worked on the next try).
+3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.5, the face must stay the
+   same person, and the colours must stay those of opening.png. Retry with a revised prompt, max 3 tries.
+4. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3` (keep `"image"` and `"image_shift"`).
+   render.py crops the clip to 720x1280, shifts it like the still, gives it the same sepia and darkening, plays
+   seconds 0–3 and fades to the still over the last 0.5 s.
+5. If the clip cannot be made (Calywood not connected after the usual retries, the task keeps failing, the download
+   keeps failing, or 3 tries are all unusable), STOP exactly as in 4b.8 (Nathan 2026-10-20): nothing is built or
+   published, and the notification says the opening clip failed, with the exact error.
 
 ## 5. Check
 ```

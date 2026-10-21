@@ -1,6 +1,7 @@
 """episode.json -> narration.wav + timeline.json
 
 Usage: python3 narrate.py EPISODE_DIR [--target 238]
+episode.json "lang": "zh" (default, Baker FastSpeech2) or "en" (Kokoro af_heart, English channel).
 Synthesises every subtitle line (comma phrases separately), auto-tunes the
 speaking speed so the whole narration lands near --target seconds, and writes
 per-line timings that render.py uses for subtitles and reveals.
@@ -12,14 +13,44 @@ from scipy.io import wavfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import onnxruntime as ort
-from tts import BakerProcessor
 
 SR = 24000
 LEAD, SUB_GAP, LINE_GAP, SCENE_GAP, TAIL = 0.8, 0.18, 0.40, 1.1, 2.5
 
 
+KOKORO_DIR = os.path.join(HERE, "models", "kokoro-multi-lang-v1_0")
+KOKORO_URL = "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2"
+EN_VOICE = 3  # af_heart (Kokoro v1.0): warm US female voice, used for every English episode
+
+
+class EnTTS:
+    """English narration (lang "en"): Kokoro via sherpa-onnx, one call per subtitle line."""
+    def __init__(self):
+        import sherpa_onnx
+        if not os.path.exists(os.path.join(KOKORO_DIR, "model.onnx")):
+            print("downloading Kokoro (~350 MB) ...", flush=True)
+            os.system(f'cd "{os.path.dirname(KOKORO_DIR)}" && curl -sSfL "{KOKORO_URL}" | tar xj')
+        d = KOKORO_DIR + "/"
+        cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
+            kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(
+                model=d + "model.onnx", voices=d + "voices.bin", tokens=d + "tokens.txt",
+                data_dir=d + "espeak-ng-data", dict_dir=d + "dict",
+                lexicon=d + "lexicon-us-en.txt,lexicon-zh.txt"), num_threads=4))
+        self.tts = sherpa_onnx.OfflineTts(cfg)
+
+    def phrase(self, text, speed=1.0):
+        # narrate.py's speed is a duration ratio (>1 = slower, as in FastSpeech2); Kokoro's speed is a rate
+        a = self.tts.generate(text, sid=EN_VOICE, speed=1.0 / speed)
+        x = np.asarray(a.samples, np.float32)
+        if a.sample_rate != SR:
+            n = int(len(x) * SR / a.sample_rate)
+            x = np.interp(np.linspace(0, len(x) - 1, n), np.arange(len(x)), x).astype(np.float32)
+        return x
+
+
 class TTS:
     def __init__(self):
+        from tts import BakerProcessor
         m = os.path.join(HERE, "models")
         self.proc = BakerProcessor(data_dir=None, loaded_mapper_path=os.path.join(m, "baker_mapper.json"))
         so = ort.SessionOptions()
@@ -54,7 +85,11 @@ def norm_line(ln):
     return disp, spoken
 
 
-def spoken_parts(spoken):
+def spoken_parts(spoken, lang="zh"):
+    if lang == "en":
+        # one natural phrase per subtitle line: Kokoro keeps the intonation, commas become its own short pauses
+        sp = re.sub(r"[\"“”«»()\[\]]", "", spoken).strip()
+        return [sp] if sp else []
     spoken = re.sub(r"[「」〈〉《》『』──…\"“”‘’'()（）]", "", spoken)
     return [p for p in re.split(r"[，、；：。！？,;:!?]", spoken) if p.strip()]
 
@@ -69,14 +104,14 @@ def check_digits(scenes):
     return bad
 
 
-def synth(tts, scenes, speed):
+def synth(tts, scenes, speed, lang="zh"):
     cache, out, t = {}, [np.zeros(int(LEAD * SR), np.float32)], LEAD
     timeline, speech = [], 0.0
     for si, sc in enumerate(scenes):
         s0, lines = t, []
         for li, ln in enumerate(sc["lines"]):
             disp, spoken = norm_line(ln)
-            parts = spoken_parts(spoken)
+            parts = spoken_parts(spoken, lang)
             start = t
             for pi, p in enumerate(parts):
                 key = (p, speed)
@@ -104,19 +139,20 @@ def main():
     ap.add_argument("--target", type=float, default=238.0)
     a = ap.parse_args()
     ep = json.load(open(os.path.join(a.episode_dir, "episode.json")))
-    bad = check_digits(ep["scenes"])
+    lang = ep.get("lang", "zh")
+    bad = check_digits(ep["scenes"]) if lang == "zh" else []
     if bad:
         print("ERROR: spoken text must use Chinese numerals / no Latin letters:", *bad, sep="\n  ")
         sys.exit(2)
-    tts = TTS()
-    audio, tl, speech, total = synth(tts, ep["scenes"], 1.0)
+    tts = EnTTS() if lang == "en" else TTS()
+    audio, tl, speech, total = synth(tts, ep["scenes"], 1.0, lang)
     fixed = total - speech
     speed = (a.target - fixed) / speech
     if not 0.85 <= speed <= 1.15:
         print(f"WARNING: script length off target (needs speed {speed:.2f}); clamped. "
               f"At speed 1.0 the narration is {total:.1f}s; adjust the script length.")
     speed = min(1.15, max(0.85, speed))
-    audio, tl, speech, total = synth(tts, ep["scenes"], speed)
+    audio, tl, speech, total = synth(tts, ep["scenes"], speed, lang)
     audio = audio / (np.max(np.abs(audio)) + 1e-9) * 0.89
     wavfile.write(os.path.join(a.episode_dir, "narration.wav"), SR, (audio * 32767).astype(np.int16))
     json.dump(dict(total=round(total, 3), speed=round(speed, 3), scenes=tl),

@@ -1,0 +1,514 @@
+{
+ "lang": "en",
+ "date": "2026-10-24",
+ "mmdd": "10.24",
+ "person": "Antonie van Leeuwenhoek",
+ "event": "Born in Delft (1632)",
+ "title": "394 Years Ago Today, a Cloth Seller Saw a Hidden World | Leeuwenhoek",
+ "footer": "Antonie van Leeuwenhoek 1632–1723  |  394th birth anniversary",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "On this day, October 24.",
+     "On this day, October twenty-fourth."
+    ],
+    [
+     "394 years ago today,",
+     "Three hundred ninety-four years ago today,"
+    ],
+    "a boy was born in Delft, in the Dutch Republic.",
+    "He was not a scientist. He sold cloth.",
+    "Yet he was the first to see the world hidden in a drop of water.",
+    [
+     "His name: Antonie van Leeuwenhoek.",
+     "His name, Antonie van Layvenhook."
+    ]
+   ],
+   "data": {
+    "big": "10.24",
+    "sub": "1632  —  2026",
+    "sub_at": 1,
+    "middle": [
+     {
+      "type": "text",
+      "text": "Delft, the Dutch Republic",
+      "at": 2,
+      "until": 3
+     },
+     {
+      "type": "pills",
+      "items": [
+       "Cloth seller",
+       "One drop"
+      ],
+      "at": 3,
+      "until": 5
+     }
+    ],
+    "name": "Leeuwenhoek",
+    "name_years": "Antonie van Leeuwenhoek · 1632 – 1723",
+    "name_at": 5,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Chapter 1  The cloth merchant",
+   "lines": [
+    [
+     "He was born in Delft on October 24, 1632.",
+     "He was born in Delft on October twenty-fourth, sixteen thirty-two."
+    ],
+    "At sixteen, he became an apprentice in a cloth shop in Amsterdam.",
+    [
+     "In 1654, he came home to Delft",
+     "In sixteen fifty-four, he came home to Delft"
+    ],
+    "and opened a shop of his own.",
+    "He also held a post at the city hall, for almost forty years."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1632",
+      "small": "Born in Delft",
+      "at": 0
+     },
+     {
+      "big": "Age 16",
+      "small": "Apprentice in Amsterdam",
+      "at": 1
+     },
+     {
+      "big": "1654",
+      "small": "His own cloth shop",
+      "at": 2
+     },
+     {
+      "big": "~40 years",
+      "small": "A post at city hall",
+      "at": 4
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Making his own lenses",
+   "lines": [
+    "A cloth seller needs to see the threads clearly,",
+    "but the magnifying glasses of his day were not sharp enough.",
+    "He had no formal training in science,",
+    "so he taught himself to make lenses.",
+    "He kept his best methods a secret for the rest of his life.",
+    "Over his life, he made more than five hundred of them.",
+    "His best microscope magnified about two hundred seventy-five times."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "To see the threads",
+        "style": "head"
+       },
+       {
+        "text": "Lenses too weak",
+        "style": "title",
+        "size": 74,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "text": "No formal training",
+        "style": "mid"
+       },
+       {
+        "text": "He made his own",
+        "style": "title",
+        "size": 72,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "and kept the secret",
+        "style": "mid",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "500+",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "lenses",
+        "style": "mid",
+        "delay": 0.4
+       },
+       {
+        "text": "about 275×",
+        "style": "head",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A world in a drop",
+   "lines": [
+    "He pointed his lens at water taken from a lake,",
+    "and saw countless tiny creatures swimming around.",
+    "He called them little animals, animalcules.",
+    "He described them so carefully that many can still be identified.",
+    "Later, he even saw bacteria.",
+    "For the first time, people learned",
+    "that invisible life is all around us."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Tiny life in a drop of water"
+       },
+       {
+        "text": "“Animalcules”",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "He even saw",
+        "style": "head"
+       },
+       {
+        "text": "Bacteria",
+        "style": "title",
+        "size": 110,
+        "color": "red",
+        "delay": 0.4
+       },
+       {
+        "text": "Invisible life everywhere",
+        "style": "mid",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Doubt in London",
+   "lines": [
+    [
+     "In 1673, a doctor named Regnier de Graaf",
+     "In sixteen seventy-three, a doctor named Rayneer de Grahf"
+    ],
+    "sent his observations to the Royal Society in London.",
+    "He knew no Latin, so he wrote all his letters in Dutch.",
+    [
+     "In 1676, he described the tiny creatures in water,",
+     "In sixteen seventy-six, he described the tiny creatures in water,"
+    ],
+    "and the scholars found it hard to believe.",
+    "The Society checked for itself, and found that he was right.",
+    [
+     "In 1680, the cloth merchant became a Fellow of the Royal Society.",
+     "In sixteen eighty, the cloth merchant became a Fellow of the Royal Society."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1673",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "To the Royal Society",
+        "style": "head",
+        "at": 1
+       },
+       {
+        "text": "Letters in Dutch",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "The Royal Society, London"
+       },
+       {
+        "text": "Checked. Confirmed.",
+        "style": "head",
+        "color": "red",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "1680",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "A cloth merchant",
+        "style": "head",
+        "delay": 0.4
+       },
+       {
+        "text": "Royal Society Fellow",
+        "style": "title",
+        "size": 64,
+        "color": "red",
+        "delay": 0.9
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  About 190 letters",
+   "lines": [
+    "He sent the Royal Society about one hundred ninety letters.",
+    "He studied red blood cells, fleas and weevils.",
+    "He showed that these small insects hatch from eggs,",
+    "they do not simply appear from dust or grain.",
+    "He became famous. Peter the Great of Russia came to meet him.",
+    "He kept on working and writing letters until the very end.",
+    [
+     "He died in Delft on August 26, 1723,",
+     "He died in Delft on August twenty-sixth, seventeen twenty-three,"
+    ],
+    "at the age of ninety."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "~190 letters",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "type": "pills",
+        "items": [
+         "Blood cells",
+         "Fleas",
+         "Weevils"
+        ],
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Born from eggs",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       },
+       {
+        "text": "not from dust",
+        "style": "head",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 6,
+      "items": [
+       {
+        "text": "A visitor",
+        "style": "head"
+       },
+       {
+        "text": "Peter the Great",
+        "style": "title",
+        "size": 72,
+        "color": "red",
+        "delay": 0.4
+       },
+       {
+        "text": "Letters to the end",
+        "style": "mid",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "1723.8.26",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Died in Delft",
+        "style": "head",
+        "delay": 0.5
+       },
+       {
+        "text": "aged 90",
+        "style": "mid",
+        "at": 7
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 6  Your answer",
+   "lines": [
+    "Today, he is called the father of microbiology.",
+    "Scientists who followed him through that door",
+    "found the germs that make us sick.",
+    "Our fight against disease began with seeing this tiny life.",
+    "Now, far stronger microscopes stand in every hospital and lab.",
+    "A cloth seller's curiosity opened a whole new world.",
+    "So here is his question for you:",
+    "What around you is worth a closer look?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 6,
+      "items": [
+       {
+        "text": "Father of",
+        "style": "head"
+       },
+       {
+        "text": "Microbiology",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "delay": 0.3
+       },
+       {
+        "text": "It began with seeing",
+        "style": "mid",
+        "at": 3
+       },
+       {
+        "type": "rule",
+        "color": "ink",
+        "at": 5
+       },
+       {
+        "text": "Curiosity opens worlds",
+        "style": "mid",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question for you",
+        "style": "kicker"
+       },
+       {
+        "text": "What around you",
+        "style": "head",
+        "size": 58,
+        "at": 7
+       },
+       {
+        "text": "deserves a closer look?",
+        "style": "head",
+        "size": 54,
+        "color": "red",
+        "at": 7,
+        "delay": 1.2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "On this day, October 24,",
+     "On this day, October twenty-fourth,"
+    ],
+    [
+     "we remember Antonie van Leeuwenhoek.",
+     "we remember Antonie van Layvenhook."
+    ]
+   ],
+   "data": {
+    "name": "Leeuwenhoek",
+    "years": "Antonie van Leeuwenhoek · 1632 – 1723"
+   }
+  }
+ ]
+}

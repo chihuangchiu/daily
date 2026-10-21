@@ -7,3 +7,4 @@ __pycache__/
 *.log
 ffmpeg2pass*
 episodes/*/*.png
+pipeline/models/kokoro-multi-lang-v1_0/

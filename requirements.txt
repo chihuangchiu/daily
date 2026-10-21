@@ -3,3 +3,4 @@ scipy
 pillow
 pypinyin
 onnxruntime
+sherpa-onnx

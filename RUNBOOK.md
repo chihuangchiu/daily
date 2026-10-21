@@ -13,6 +13,8 @@ Fixed facts
 - Postiz integrations:
   - Facebook: id `cmvbzqyvs0002s67fq0dzr53e`, name 「今天，誰改變了世界」.
   - YouTube: id `cmvc7njup0001s673xhqhp5s8`, name 「今天 誰改變了世界」.
+  - YouTube (English): id `cmvibixcp000ms67kkplrbxb1`, name "Who Changed the World Today" — see section E
+    (Nathan 2026-10-22). Publishes at 00:00 Taipei on D = `(D minus 1 day)T16:00:00Z`.
 - Timezone: Asia/Taipei. Get the run date from the current-time tool. In every step below, D = the target
   (publish) date of the video being made: its month/day drives the topic, the "N年前的今天" years, the folder
   episodes/D, the media file name and the publish time.
@@ -26,6 +28,9 @@ Fixed facts
    - Only one channel has a post → do not make a new video: schedule the missing channel only, reusing that post's
      attachment path and `episodes/D/post.txt` (step 8.3 for that channel alone).
    - Neither → D needs a video.
+   - Also look for a post on the English channel (`cmvibixcp000ms67kkplrbxb1`) at 00:00 Taipei on D
+     (`(D−1)T16:00:00Z`; list from (first D − 1)T15:00:00Z). No post → D needs an English video (section E).
+     If that slot is less than 90 minutes away, skip it (too late) and say so in the report.
 3. Make the missing videos one at a time, earliest date first, each through steps 2–9 completely before starting the
    next (finished and scheduled before the next one starts, so a later failure never loses an earlier video).
 4. Topics: besides covered.md, also avoid the people already scheduled for the other dates in the window.
@@ -80,7 +85,9 @@ photo exists does the person appear from behind / in silhouette / small in the d
    The original file URL is `https://upload.wikimedia.org/wikipedia/commons/<h0>/<h0h1>/<File_name>` where h = md5 of the
    file name with spaces replaced by `_` (`python3 -c "import hashlib;f='File_name.jpg';h=hashlib.md5(f.encode()).hexdigest();print(h[0],h[:2])"`).
    The cloud workspace itself cannot download from Wikimedia (upload.wikimedia.org is blocked by the egress proxy);
-   Image MCP fetches the URL itself.
+   Image MCP fetches the URL itself. If Image MCP answers "Image URL did not return HTTP 200" for upload.wikimedia.org
+   URLs, use `https://commons.wikimedia.org/wiki/Special:FilePath/<File_name>?width=800` instead (worked 2026-10-22
+   when every upload.wikimedia.org URL, including thumbnails, failed).
 2. Draw the scene with Image MCP `edit-image`: `image` = the original file URL, `size: "1024x1536"`, `quality: "high"`.
    Prompt in English (fill in the scene of the story's key place and era):
    "Use the person in this photograph only as the face and likeness reference, and create a full scene illustration
@@ -236,9 +243,56 @@ As soon as D is scheduled (not when it is published), append `| D | person | eve
 table in date order); commit `episodes/D/episode.json`, `episodes/D/post.txt`,
 `covered.md` (never the mp4/wav/check files; .gitignore covers them) and push to main.
 
+## E. English channel "Who Changed the World Today" (Nathan 2026-10-22)
+An all-English YouTube Shorts channel for a worldwide audience: one video per day D, published at 00:00 Taipei on D
+(`(D−1)T16:00:00Z`), only on YouTube `cmvibixcp000ms67kkplrbxb1`.
+
+Subject
+- If the Chinese video of D is about someone who is not Taiwanese / not mainly Taiwan history, the English video
+  shares it: the same person and story, retold in English, reusing that episode's pictures and opening clip
+  (opening.png, img1/img2.png, opening.mp4: copy them from episodes/D, no new pictures and no Calywood cost).
+  Pictures are not kept in git (episodes/*/*.png and *.mp4 are ignored), so make the English video in the same run
+  as the Chinese one, right after it. If the pictures are gone (made in an earlier run), make new ones (4b–4d).
+- If the Chinese subject is Taiwanese (Taiwan history, a person known mainly for Taiwan; e.g. 蔣渭水, 楊逵, 嚴家淦),
+  choose a different person for D from world history: born, died or did the defining act on D's month/day, a lasting
+  positive contribution, recognisable to a global audience, the same 偉人 rules as step 2. Not in covered-en.md within
+  365 days, and not anyone scheduled on the other days of the window (either channel). Make all pictures and the clip
+  new (4b–4d), and verify every fact with two sources (step 3).
+
+Episode: `episodes/D-en/episode.json` with `"lang": "en"` (render.py then shows the header "Who Changed the World
+Today", the kicker "On This Day", the end kicker "On This Day · MM.DD"; narrate.py uses the English Kokoro voice
+af_heart, downloaded automatically on first use, ~350 MB, needs `pip install sherpa-onnx`).
+- Copy the shape of `episodes/2026-10-24-en/episode.json`: title → 5–6 chapters → legacy → one question → end;
+  8 scenes, ~45–50 lines, ~430–460 spoken words; chapter labels like "Chapter 1  The cloth merchant".
+- One line = one subtitle = one TTS call, so each line must be a complete clause (do not cut a sentence in the middle
+  of a phrase) and at most ~68 characters (subtitles wrap to two rows of 36 px; longer lines give a WARNING).
+- Spoken text may use plain English; write years as words in the spoken field ("sixteen thirty-two"), and respell
+  hard names phonetically in the spoken field only (Leeuwenhoek → "Layvenhook", Regnier de Graaf → "Rayneer de Grahf").
+- Names on screen: a long full name does not fit the 420 px title name slot; use the surname as `name` and put the
+  full name in `name_years` ("Antonie van Leeuwenhoek · 1632 – 1723"). No `seal` (Chinese seal characters).
+- Pills and on-screen texts short (title pills ≤ ~14 characters each), captions ≤ ~32 characters, in English.
+- Same length rules: `TARGET=170 pipeline/build.sh episodes/D-en check`, speed 0.92–1.10, final video 160–178 s.
+  Optional pronunciation check: SenseVoice ASR with `language="en"` (see the stock-video tasks) — names may come out
+  oddly spelled, everything else should match.
+- Read every check sheet as for the Chinese video.
+
+post.txt (English): first line `Title: <title>` (≤ 90 characters, e.g. "394 Years Ago Today, a Cloth Seller Saw a
+Hidden World | Leeuwenhoek"), a blank line, the article (narration rewritten as plain paragraphs), then
+`Tell us your answer in the comments.`, then `The narration is an AI voice, and this video was made with the help of AI.
+If you spot a mistake, please let us know in the comments.`, then one hashtag line with 5–8 tags always including
+#OnThisDay #WhoChangedTheWorldToday. If a CC BY / CC BY-SA photo was used for the opening, add before the AI line:
+`Opening portrait drawn from a Wikimedia Commons photo (author: …, licence: …).`
+
+Publish: media file name `D-en.mp4` (same media-branch steps as step 8), then one `integrationSchedulePostTool` call
+with one item: integrationId `cmvibixcp000ms67kkplrbxb1`, type schedule, date `(D−1)T16:00:00Z`, content = the article
+only with `#Shorts` added at the start of the hashtag line, settings title = <title> + " #Shorts" (≤ 100 chars),
+type public, selfDeclaredMadeForKids no, tags (5–6): Shorts, On This Day, Who Changed the World Today, the person,
+1–2 topics. Confirm with postsListTool. Then add `| D | person | event | shared? |` to `covered-en.md` and commit
+`episodes/D-en/episode.json`, `episodes/D-en/post.txt` and covered-en.md to main.
+
 ## 10. Report
-Only when the run made or fixed something, or failed: send the user one short message listing, per date in the window,
-either "already scheduled" or what was made (who/what, title, length, publish time 06:00, both Postiz preview links,
+Only when the run made or fixed something, or failed: send the user one short message listing, per date in the window
+and per channel group (FB+YT 06:00, English YT 00:00), either "already scheduled" or what was made (who/what, title, length, publish time 06:00, both Postiz preview links,
 sources, anything dropped or uncertain). Remind them each post can be deleted in Postiz before its 06:00 publish time.
 If every date in the window was already covered, finish silently.
 

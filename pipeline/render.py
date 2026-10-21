@@ -559,7 +559,7 @@ def b_title(c):
             els.append(VideoCover(d["video"], 0.0, float(d.get("video_secs", 3)), d.get("image_label", AI_LABEL),
                                   fade=0.25 if align == "end" else 0.5, shift=d.get("image_shift", 0), align=align))
     els += [
-        place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), muted + (255,)), 360, 262, -1.0),
+        place(fit_text(d.get("kicker", TXT["kicker"]), "serif-med", 44, muted, 640), 360, 262, -1.0),
         place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, -1.0),
     ]
     if d.get("sub"):
@@ -640,7 +640,7 @@ def b_document(c):
     dr = ImageDraw.Draw(card)
     dr.rounded_rectangle((0, 0, 600, h), 8, fill=PAPER_LT + (255,), outline=INK + (255,), width=2)
     dr.rectangle((10, 10, 590, h - 10), outline=INK + (110,), width=1)
-    hd = fit_text(" ".join(d["title"]) if len(d["title"]) <= 5 else d["title"], "serif-black", 54, INK, 520)
+    hd = fit_text(" ".join(d["title"]) if len(d["title"]) <= 5 and LANG == "zh" else d["title"], "serif-black", 54, INK, 520)
     card.paste(hd, ((600 - hd.width) // 2, 28), hd)
     if d.get("subtitle"):
         sb = fit_text(d["subtitle"], "sans", 21, MUTED, 540)
@@ -710,7 +710,7 @@ def b_end(c):
         els.append(place(text_img(d["years"], F("sans-med", 34), MUTED + (255,)), 360, 500, s + 0.4))
     if d.get("seal"):
         els.append(place(seal_img(d["seal"], 62 if len(d["seal"]) <= 3 else 50, None, -5), 360, 655, s + 1.0, None, "stamp", 0.35))
-    els.append(place(text_img(d.get("kicker", f"歷史上的今天　{EP['mmdd']}"), F("serif-bold", 36), RED + (255,)), 360, 820, s + 1.6))
+    els.append(place(fit_text(d.get("kicker", TXT["end_kicker"]), "serif-bold", 36, RED, 640), 360, 820, s + 1.6))
     return els
 
 
@@ -738,7 +738,7 @@ def make_bg():
 
 def make_overlay(dark=False):
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    hi = text_img("今天，誰改變了世界", F("serif-bold", 30), ((226, 120, 104) if dark else RED) + (255,))
+    hi = text_img(TXT["header"], F("serif-bold", 30 if LANG == "zh" else 27), ((226, 120, 104) if dark else RED) + (255,))
     ov.paste(hi, (60, 72 - hi.height // 2), hi)
     hr = text_img(EP["mmdd"], F("serif-black", 34), (CREAM if dark else INK) + (255,))
     ov.paste(hr, (660 - hr.width, 72 - hr.height // 2), hr)
@@ -753,11 +753,33 @@ def clean_sub(s):
     return re.sub(r"[，、；：。]", "　", s).strip("　 ")
 
 
+def wrap_en(s, f, maxw=600):
+    """balanced two-row word wrap for English subtitles"""
+    s = re.sub(r"\s+", " ", s).strip()
+    if f.getlength(s) <= maxw:
+        return [s]
+    words = s.split(" ")
+    best = None
+    for k in range(1, len(words)):
+        a, b = " ".join(words[:k]), " ".join(words[k:])
+        m = max(f.getlength(a), f.getlength(b))
+        if best is None or m < best[0]:
+            best = (m, [a, b])
+    return best[1]
+
+
 def sub_img(s):
-    f = F("sans-med", 40)
-    s = clean_sub(s)
-    lines = [s]
-    if f.getlength(s) > 600:
+    if LANG == "en":
+        f = F("sans-med", 36)
+        lines = wrap_en(s, f)
+        for ln in lines:
+            if f.getlength(ln) > 640:
+                WARN.append(f"subtitle line too long: {ln}")
+    else:
+        f = F("sans-med", 40)
+        s = clean_sub(s)
+        lines = [s]
+    if LANG == "zh" and f.getlength(s) > 600:
         sp = [i for i, ch in enumerate(s) if ch == "　"]
         mid = len(s) / 2
         cut = min(sp, key=lambda i: abs(i - mid)) if sp else int(mid)
@@ -792,6 +814,10 @@ def rain(frame, t, t0, t1):
 # ---------------------------------------------------------------- load
 EP_DIR = sys.argv[1]
 EP = json.load(open(os.path.join(EP_DIR, "episode.json")))
+LANG = EP.get("lang", "zh")
+# zh: Facebook 「今天，誰改變了世界」 + YouTube 「今天 誰改變了世界」; en: YouTube "Who Changed the World Today"
+TXT = dict(zh=dict(header="今天，誰改變了世界", kicker="歷史上的今天", end_kicker=f"歷史上的今天　{EP['mmdd']}"),
+           en=dict(header="Who Changed the World Today", kicker="On This Day", end_kicker=f"On This Day · {EP['mmdd']}"))[LANG]
 TLJ = json.load(open(os.path.join(EP_DIR, "timeline.json")))
 TL = TLJ["scenes"]
 TOTAL = TLJ["total"]

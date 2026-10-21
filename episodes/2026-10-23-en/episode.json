@@ -1,0 +1,459 @@
+{
+ "lang": "en",
+ "date": "2026-10-23",
+ "mmdd": "10.23",
+ "person": "Gertrude Ederle",
+ "event": "Born in New York City (1905)",
+ "title": "121 Years Ago Today, She Swam Faster Than Every Man | Gertrude Ederle",
+ "footer": "Gertrude Ederle 1905–2003  |  121st birth anniversary",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "On this day, October 23.",
+     "On this day, October twenty-third."
+    ],
+    [
+     "121 years ago today,",
+     "One hundred twenty-one years ago today,"
+    ],
+    "a girl was born in New York City.",
+    "Many people believed no woman could swim the English Channel.",
+    "She did it, and she beat every man who had tried before her.",
+    [
+     "Her name: Gertrude Ederle.",
+     "Her name, Gertrude Ederly."
+    ]
+   ],
+   "data": {
+    "big": "10.23",
+    "sub": "1905  —  2026",
+    "sub_at": 1,
+    "middle": [
+     {
+      "type": "text",
+      "text": "New York City",
+      "at": 2,
+      "until": 3
+     },
+     {
+      "type": "pills",
+      "items": [
+       "The Channel",
+       "A new record"
+      ],
+      "at": 3,
+      "until": 5
+     }
+    ],
+    "name": "Ederle",
+    "name_years": "Gertrude Ederle · 1905 – 2003",
+    "name_at": 5,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Chapter 1  A butcher's daughter",
+   "lines": [
+    [
+     "She was born on October 23, 1905, in New York City.",
+     "She was born on October twenty-third, nineteen-oh-five, in New York City."
+    ],
+    "Her father ran a butcher shop in Manhattan.",
+    "She learned to swim in New Jersey,",
+    "at a beach where her family spent its summers.",
+    "A childhood illness left her with weak hearing,",
+    "but in the water, she felt completely at home.",
+    "As a teenager, she joined the Women's Swimming Association",
+    "and began to set one record after another."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1905",
+      "small": "Born in New York City",
+      "at": 0
+     },
+     {
+      "big": "Summers",
+      "small": "Learning to swim in New Jersey",
+      "at": 2
+     },
+     {
+      "big": "Teenager",
+      "small": "Women's Swimming Association",
+      "at": 6
+     },
+     {
+      "big": "Records",
+      "small": "One after another",
+      "at": 7
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Paris, 1924",
+   "lines": [
+    [
+     "In 1924, she swam for the United States",
+     "In nineteen twenty-four, she swam for the United States"
+    ],
+    "at the Olympic Games in Paris.",
+    "She won a gold medal in the relay,",
+    "and two bronze medals in her own races.",
+    "But she was dreaming of something much bigger:",
+    "the English Channel, between France and England."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "text": "Paris 1924",
+        "style": "title",
+        "size": 84
+       },
+       {
+        "text": "Gold · relay",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       },
+       {
+        "text": "Two bronze medals",
+        "style": "mid",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "A bigger dream",
+        "style": "head"
+       },
+       {
+        "text": "The English Channel",
+        "style": "title",
+        "size": 72,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The first try",
+   "lines": [
+    [
+     "In 1925, she made her first attempt to cross the Channel.",
+     "In nineteen twenty-five, she made her first attempt to cross the Channel."
+    ],
+    "Halfway across, she was pulled out of the water,",
+    "and disqualified on a technicality.",
+    "Many people said that was the end of it.",
+    "But she did not give up.",
+    "She knew she could do it, and she wanted another chance.",
+    "She went home, trained harder, and came back a year later."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1925",
+        "style": "big",
+        "size": 96
+       },
+       {
+        "text": "Pulled from the water",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "Disqualified",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "“The end”?",
+        "style": "head"
+       },
+       {
+        "text": "She came back",
+        "style": "title",
+        "size": 76,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  August 6, 1926",
+   "lines": [
+    [
+     "On the morning of August 6, 1926,",
+     "On the morning of August sixth, nineteen twenty-six,"
+    ],
+    "she walked into the sea at Cap Gris-Nez, in France.",
+    "She had coated her body with grease to keep out the cold.",
+    "The waves were rough, and the weather turned stormy.",
+    "Her support boat followed close beside her, all day long.",
+    "Hour after hour, she kept swimming, stroke after stroke.",
+    "After about fourteen and a half hours,",
+    "she came ashore at Kingsdown, in England.",
+    "She was the first woman ever to swim the English Channel,",
+    "and she beat the men's record by nearly two hours."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "The English Channel, August 1926"
+       },
+       {
+        "text": "France → England",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "until": 8,
+      "items": [
+       {
+        "text": "About 14½ hours",
+        "style": "title",
+        "size": 76
+       },
+       {
+        "text": "Kingsdown, England",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 8,
+      "items": [
+       {
+        "text": "The first woman",
+        "style": "title",
+        "size": 76,
+        "color": "red"
+       },
+       {
+        "text": "Nearly 2 hours faster",
+        "style": "head",
+        "at": 9
+       },
+       {
+        "text": "than the men's record",
+        "style": "mid",
+        "at": 9,
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  A hero's welcome",
+   "lines": [
+    "Back in New York, huge crowds filled the streets",
+    "for a ticker-tape parade in her honour.",
+    "Newspapers around the world told her story.",
+    "Her swim showed the world what women athletes could do.",
+    "She later performed in swimming shows and even appeared in a film.",
+    "Her hearing grew worse over the years, until she was almost deaf.",
+    "So she spent much of her life teaching deaf children to swim.",
+    [
+     "She died on November 30, 2003, at the age of ninety-eight.",
+     "She died on November thirtieth, two thousand three, at the age of ninety-eight."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Ticker-tape parade, New York, 1926"
+       },
+       {
+        "text": "What women can do",
+        "style": "head",
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "until": 7,
+      "items": [
+       {
+        "text": "Almost deaf",
+        "style": "head"
+       },
+       {
+        "text": "She taught deaf children",
+        "style": "title",
+        "size": 56,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "to swim",
+        "style": "head",
+        "at": 6,
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 7,
+      "items": [
+       {
+        "text": "2003.11.30",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "aged 98",
+        "style": "mid",
+        "delay": 0.5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 6  Your answer",
+   "lines": [
+    "They said it could not be done, and she showed them it could.",
+    "She did not wait for anyone's permission.",
+    "She simply swam, stroke by stroke, all the way to the other side.",
+    "And when she lost her hearing, she gave her gift to others.",
+    "So here is her question for you:",
+    "what are people telling you that you cannot do?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "text": "“It can't be done”",
+        "style": "head"
+       },
+       {
+        "text": "She did it",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 0,
+        "delay": 0.8
+       },
+       {
+        "type": "rule",
+        "color": "ink",
+        "at": 3
+       },
+       {
+        "text": "Then she gave it to others",
+        "style": "mid",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question for you",
+        "style": "kicker"
+       },
+       {
+        "text": "What do people say",
+        "style": "head",
+        "size": 54,
+        "at": 5
+       },
+       {
+        "text": "you cannot do?",
+        "style": "head",
+        "size": 60,
+        "color": "red",
+        "at": 5,
+        "delay": 1.2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "On this day, October 23,",
+     "On this day, October twenty-third,"
+    ],
+    [
+     "we remember Gertrude Ederle.",
+     "we remember Gertrude Ederly."
+    ]
+   ],
+   "data": {
+    "name": "Gertrude Ederle",
+    "years": "1905 – 2003"
+   }
+  }
+ ]
+}

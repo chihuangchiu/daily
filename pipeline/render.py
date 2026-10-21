@@ -738,6 +738,12 @@ def make_bg():
 
 def make_overlay(dark=False):
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    if dark:
+        # soft dark band behind the header so it stays readable on light opening pictures
+        band = np.zeros((150, W, 4), np.uint8)
+        band[..., :3] = (20, 14, 10)
+        band[..., 3] = (np.linspace(1, 0, 150) ** 1.3 * 120).astype(np.uint8)[:, None]
+        ov.alpha_composite(Image.fromarray(band, "RGBA"), (0, 0))
     hi = text_img(TXT["header"], F("serif-bold", 30 if LANG == "zh" else 27), ((226, 120, 104) if dark else RED) + (255,))
     ov.paste(hi, (60, 72 - hi.height // 2), hi)
     hr = text_img(EP["mmdd"], F("serif-black", 34), (CREAM if dark else INK) + (255,))
@@ -769,7 +775,7 @@ def wrap_en(s, f, maxw=600):
 
 
 def sub_img(s):
-    if LANG == "en":
+    if LANG != "zh":
         f = F("sans-med", 36)
         lines = wrap_en(s, f)
         for ln in lines:
@@ -817,7 +823,8 @@ EP = json.load(open(os.path.join(EP_DIR, "episode.json")))
 LANG = EP.get("lang", "zh")
 # zh: Facebook 「今天，誰改變了世界」 + YouTube 「今天 誰改變了世界」; en: YouTube "Who Changed the World Today"
 TXT = dict(zh=dict(header="今天，誰改變了世界", kicker="歷史上的今天", end_kicker=f"歷史上的今天　{EP['mmdd']}"),
-           en=dict(header="Who Changed the World Today", kicker="On This Day", end_kicker=f"On This Day · {EP['mmdd']}"))[LANG]
+           en=dict(header="Who Changed the World Today", kicker="On This Day", end_kicker=f"On This Day · {EP['mmdd']}"),
+           es=dict(header="¿Quién cambió el mundo hoy?", kicker="Un día como hoy", end_kicker=f"Un día como hoy · {EP['mmdd']}"))[LANG]
 TLJ = json.load(open(os.path.join(EP_DIR, "timeline.json")))
 TL = TLJ["scenes"]
 TOTAL = TLJ["total"]

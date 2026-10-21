@@ -291,6 +291,24 @@ type public, selfDeclaredMadeForKids no, tags (5–6): Shorts, On This Day, Who 
 1–2 topics. Confirm with postsListTool. Then add `| D | person | event | shared? |` to `covered-en.md` and commit
 `episodes/D-en/episode.json`, `episodes/D-en/post.txt` and covered-en.md to main.
 
+## S. Spanish channel "¿Quién cambió el mundo hoy?" (Nathan 2026-10-22)
+Same person and story as the English video of D (translated, not word for word), 06:00 Taipei on D, YouTube
+`cmvic8oq3000os67kdsemvo3t`. Folder `episodes/D-es`, `"lang": "es"` (render.py: header "¿Quién cambió el mundo hoy?",
+kicker "Un día como hoy"; narrate.py: Kokoro ef_dora, sid 28, `lang="es"`, no lexicon — tested 2026-10-22, Whisper
+check passes). Copy opening.png/start.png/img1/img2/opening.mp4 from `episodes/D-en`. Copy `episodes/2026-10-22-es`.
+- Spanish lines run longer: keep each line ≤ ~62 characters or the subtitle WARNS; translate every on-screen text,
+  including timeline `big`/`small` and captions.
+- Pronunciation check: sherpa-onnx Whisper base (`sherpa-onnx-whisper-base.tar.bz2`, `from_whisper(..., language="es")`).
+- post.txt starts `Título: …`; record in `covered-es.md`; media file `D-es.mp4`.
+
+## Calywood refusals (2026-10-22)
+- "輸入的參考圖被 BytePlus 偵測為含真人臉部": the drawing looks too much like a photo. Redraw opening.png (and start.png)
+  as a clearly drawn illustration: add to the 4b prompt "render it clearly as a drawing: loose pen-and-ink lines,
+  visible cross-hatching on the face and clothes, slightly simplified features, flat washes of ink, like an
+  illustration in an old printed history book". Worked for Ederle.
+- "output video may be related to copyright restrictions" three times in a row for Pelé (a famous modern athlete):
+  pick another person for that channel/day; prefer people who died before ~1980 or are less of a modern celebrity.
+
 ## 10. Report
 Only when the run made or fixed something, or failed: send the user one short message listing, per date in the window
 and per channel group (中文 FB+YT, English YT, Spanish YT; all 06:00), either "already scheduled" or what was made (who/what, title, length, publish time 06:00, both Postiz preview links,

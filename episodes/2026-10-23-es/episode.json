@@ -1,0 +1,460 @@
+{
+ "lang": "es",
+ "date": "2026-10-23",
+ "mmdd": "10.23",
+ "person": "Gertrude Ederle",
+ "event": "Nacimiento en Nueva York (1905)",
+ "title": "Hace 121 años nació la mujer que nadó más rápido que todos los hombres | Gertrude Ederle",
+ "footer": "Gertrude Ederle 1905–2003  |  121 años de su nacimiento",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Un día como hoy, 23 de octubre.",
+     "Un día como hoy, veintitrés de octubre."
+    ],
+    [
+     "Hace 121 años,",
+     "Hace ciento veintiún años,"
+    ],
+    "nació una niña en la ciudad de Nueva York.",
+    "Se creía que ninguna mujer podía cruzar a nado la Mancha.",
+    "Ella lo logró, y superó a todos los hombres que lo intentaron.",
+    [
+     "Su nombre: Gertrude Ederle.",
+     "Su nombre, Gertrud Éderli."
+    ]
+   ],
+   "data": {
+    "big": "10.23",
+    "sub": "1905  —  2026",
+    "sub_at": 1,
+    "middle": [
+     {
+      "type": "text",
+      "text": "Nueva York",
+      "at": 2,
+      "until": 3
+     },
+     {
+      "type": "pills",
+      "items": [
+       "La Mancha",
+       "Más rápida"
+      ],
+      "at": 3,
+      "until": 5
+     }
+    ],
+    "name": "Ederle",
+    "name_years": "Gertrude Ederle · 1905 – 2003",
+    "name_at": 5,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Capítulo 1  La hija del carnicero",
+   "lines": [
+    [
+     "Nació el 23 de octubre de 1905, en Nueva York.",
+     "Nació el veintitrés de octubre de mil novecientos cinco, en Nueva York."
+    ],
+    "Su padre tenía una carnicería en Manhattan.",
+    "Aprendió a nadar en Nueva Jersey,",
+    "en una playa donde su familia pasaba los veranos.",
+    "Una enfermedad de niña le dejó el oído débil,",
+    "pero en el agua se sentía como en casa.",
+    "De adolescente, entró en la Asociación de Natación Femenina",
+    "y empezó a batir un récord tras otro."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1905",
+      "small": "Nace en Nueva York",
+      "at": 0
+     },
+     {
+      "big": "Veranos",
+      "small": "Aprende a nadar en Nueva Jersey",
+      "at": 2
+     },
+     {
+      "big": "Adolescente",
+      "small": "Asociación de Natación Femenina",
+      "at": 6
+     },
+     {
+      "big": "Récords",
+      "small": "Uno tras otro",
+      "at": 7
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  París, 1924",
+   "lines": [
+    [
+     "En 1924, nadó por Estados Unidos",
+     "En mil novecientos veinticuatro, nadó por Estados Unidos"
+    ],
+    "en los Juegos Olímpicos de París.",
+    "Ganó una medalla de oro en el relevo,",
+    "y dos medallas de bronce en sus pruebas individuales.",
+    "Pero soñaba con algo mucho más grande:",
+    "el canal de la Mancha, entre Francia e Inglaterra."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "text": "París 1924",
+        "style": "title",
+        "size": 84
+       },
+       {
+        "text": "Oro · relevo",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       },
+       {
+        "text": "Dos bronces",
+        "style": "mid",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Un sueño mayor",
+        "style": "head"
+       },
+       {
+        "text": "El canal de la Mancha",
+        "style": "title",
+        "size": 64,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  El primer intento",
+   "lines": [
+    [
+     "En 1925, hizo su primer intento de cruzar el canal.",
+     "En mil novecientos veinticinco, hizo su primer intento de cruzar el canal."
+    ],
+    "A mitad del camino, la sacaron del agua,",
+    "y la descalificaron por un tecnicismo.",
+    "Muchos dijeron que ese era el final.",
+    "Pero ella no se rindió.",
+    "Sabía que podía lograrlo, y quería otra oportunidad.",
+    "Volvió a casa, entrenó más duro y regresó un año después."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1925",
+        "style": "big",
+        "size": 96
+       },
+       {
+        "text": "Sacada del agua",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "Descalificada",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "¿El final?",
+        "style": "head"
+       },
+       {
+        "text": "Volvió",
+        "style": "title",
+        "size": 76,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  6 de agosto de 1926",
+   "lines": [
+    [
+     "En la mañana del 6 de agosto de 1926,",
+     "En la mañana del seis de agosto de mil novecientos veintiséis,"
+    ],
+    "entró al mar en el cabo Gris-Nez, en Francia.",
+    "Se había cubierto el cuerpo de grasa para protegerse del frío.",
+    "Las olas eran fuertes, y el tiempo se volvió tormentoso.",
+    "Su barco de apoyo la siguió de cerca todo el día.",
+    "Hora tras hora, siguió nadando, brazada tras brazada.",
+    "Tras unas catorce horas y media,",
+    "llegó a la orilla en Kingsdown, Inglaterra.",
+    "Fue la primera mujer en cruzar a nado el canal de la Mancha,",
+    "y batió el récord masculino por casi dos horas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "El canal de la Mancha, agosto de 1926"
+       },
+       {
+        "text": "Francia → Inglaterra",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "until": 8,
+      "items": [
+       {
+        "text": "Unas 14½ horas",
+        "style": "title",
+        "size": 76
+       },
+       {
+        "text": "Kingsdown, Inglaterra",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 8,
+      "items": [
+       {
+        "text": "La primera mujer",
+        "style": "title",
+        "size": 76,
+        "color": "red"
+       },
+       {
+        "text": "Casi 2 horas más rápida",
+        "style": "head",
+        "at": 9,
+        "size": 50
+       },
+       {
+        "text": "que el récord masculino",
+        "style": "mid",
+        "at": 9,
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Recibida como heroína",
+   "lines": [
+    "De vuelta en Nueva York, enormes multitudes llenaron las calles",
+    "para un desfile de serpentinas en su honor.",
+    "Periódicos de todo el mundo contaron su historia.",
+    "Su hazaña mostró al mundo lo que podían hacer las deportistas.",
+    "Después actuó en espectáculos acuáticos y hasta en una película.",
+    "Con los años perdió el oído, hasta quedar casi sorda.",
+    "Dedicó gran parte de su vida a enseñar a nadar a niños sordos.",
+    [
+     "Murió el 30 de noviembre de 2003, a los noventa y ocho años.",
+     "Murió el treinta de noviembre de dos mil tres, a los noventa y ocho años."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Desfile en Nueva York, 1926"
+       },
+       {
+        "text": "Lo que pueden hacer ellas",
+        "style": "head",
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "until": 7,
+      "items": [
+       {
+        "text": "Casi sorda",
+        "style": "head"
+       },
+       {
+        "text": "Enseñó a niños sordos",
+        "style": "title",
+        "size": 56,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "a nadar",
+        "style": "head",
+        "at": 6,
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 7,
+      "items": [
+       {
+        "text": "2003.11.30",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "a los 98 años",
+        "style": "mid",
+        "delay": 0.5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 6  Tu respuesta",
+   "lines": [
+    "Decían que era imposible, y ella demostró que no lo era.",
+    "No esperó el permiso de nadie.",
+    "Simplemente nadó, brazada a brazada, hasta la otra orilla.",
+    "Y cuando perdió el oído, compartió su don con los demás.",
+    "Así que esta es su pregunta para ti:",
+    "¿Qué te dicen los demás que no puedes hacer?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "text": "«Es imposible»",
+        "style": "head"
+       },
+       {
+        "text": "Ella lo hizo",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 0,
+        "delay": 0.8
+       },
+       {
+        "type": "rule",
+        "color": "ink",
+        "at": 3
+       },
+       {
+        "text": "Y luego lo compartió",
+        "style": "mid",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta para ti",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Qué te dicen",
+        "style": "head",
+        "size": 54,
+        "at": 5
+       },
+       {
+        "text": "que no puedes hacer?",
+        "style": "head",
+        "size": 60,
+        "color": "red",
+        "at": 5,
+        "delay": 1.2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Un día como hoy, 23 de octubre,",
+     "Un día como hoy, veintitrés de octubre,"
+    ],
+    [
+     "recordamos a Gertrude Ederle.",
+     "recordamos a Gertrud Éderli."
+    ]
+   ],
+   "data": {
+    "name": "Gertrude Ederle",
+    "years": "1905 – 2003"
+   }
+  }
+ ]
+}

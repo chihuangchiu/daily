@@ -1,0 +1,517 @@
+{
+ "lang": "es",
+ "date": "2026-10-24",
+ "mmdd": "10.24",
+ "person": "Antonie van Leeuwenhoek",
+ "event": "Nacimiento en Delft (1632)",
+ "title": "Hace 394 años nació el vendedor de telas que vio un mundo oculto | Leeuwenhoek",
+ "footer": "Antonie van Leeuwenhoek 1632–1723  |  394 años de su nacimiento",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Un día como hoy, 24 de octubre.",
+     "Un día como hoy, veinticuatro de octubre."
+    ],
+    [
+     "Hace 394 años,",
+     "Hace trescientos noventa y cuatro años,"
+    ],
+    "nació un niño en Delft, en la República Neerlandesa.",
+    "No era científico. Vendía telas.",
+    "Pero fue el primero en ver el mundo oculto en una gota de agua.",
+    [
+     "Su nombre: Antonie van Leeuwenhoek.",
+     "Su nombre, Antoni van Leuvenjuk."
+    ]
+   ],
+   "data": {
+    "big": "10.24",
+    "sub": "1632  —  2026",
+    "sub_at": 1,
+    "middle": [
+     {
+      "type": "text",
+      "text": "Delft, República Neerlandesa",
+      "at": 2,
+      "until": 3
+     },
+     {
+      "type": "pills",
+      "items": [
+       "Telas",
+       "Una gota"
+      ],
+      "at": 3,
+      "until": 5
+     }
+    ],
+    "name": "Leeuwenhoek",
+    "name_years": "Antonie van Leeuwenhoek · 1632 – 1723",
+    "name_at": 5,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Capítulo 1  El comerciante de telas",
+   "lines": [
+    [
+     "Nació en Delft el 24 de octubre de 1632.",
+     "Nació en Delft el veinticuatro de octubre de mil seiscientos treinta y dos."
+    ],
+    "A los dieciséis años, fue aprendiz en Ámsterdam.",
+    [
+     "En 1654, volvió a Delft",
+     "En mil seiscientos cincuenta y cuatro, volvió a Delft"
+    ],
+    "y abrió su propia tienda.",
+    "Y trabajó casi cuarenta años en el ayuntamiento."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1632",
+      "small": "Nace en Delft",
+      "at": 0
+     },
+     {
+      "big": "16 años",
+      "small": "Aprendiz en Ámsterdam",
+      "at": 1
+     },
+     {
+      "big": "1654",
+      "small": "Su propia tienda",
+      "at": 2
+     },
+     {
+      "big": "~40 años",
+      "small": "Cargo en el ayuntamiento",
+      "at": 4
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Sus propias lentes",
+   "lines": [
+    "Un vendedor de telas necesita ver bien los hilos,",
+    "pero las lupas de su época no eran lo bastante nítidas.",
+    "No tenía formación científica,",
+    "así que aprendió solo a fabricar lentes.",
+    "Guardó en secreto sus mejores métodos durante toda su vida.",
+    "A lo largo de su vida, fabricó más de quinientas.",
+    [
+     "Su mejor microscopio aumentaba unas 275 veces.",
+     "Su mejor microscopio aumentaba unas doscientas setenta y cinco veces."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Ver los hilos",
+        "style": "head"
+       },
+       {
+        "text": "Lupas débiles",
+        "style": "title",
+        "size": 74,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "text": "Sin formación",
+        "style": "mid"
+       },
+       {
+        "text": "Hizo las suyas",
+        "style": "title",
+        "size": 72,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "y guardó el secreto",
+        "style": "mid",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "500+",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "lentes",
+        "style": "mid",
+        "delay": 0.4
+       },
+       {
+        "text": "unas 275×",
+        "style": "head",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Un mundo en una gota",
+   "lines": [
+    "Apuntó su lente al agua tomada de un lago,",
+    "y vio incontables criaturas diminutas nadando.",
+    "Las llamó animálculos, pequeños animales.",
+    "Las describió tan bien que muchas aún se pueden identificar.",
+    "Más tarde, llegó a ver bacterias.",
+    "Por primera vez, la gente supo",
+    "que la vida invisible está por todas partes."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Vida diminuta en una gota de agua"
+       },
+       {
+        "text": "«Animálculos»",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Incluso vio",
+        "style": "head"
+       },
+       {
+        "text": "Bacterias",
+        "style": "title",
+        "size": 110,
+        "color": "red",
+        "delay": 0.4
+       },
+       {
+        "text": "Vida invisible por todas partes",
+        "style": "mid",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Dudas en Londres",
+   "lines": [
+    [
+     "En 1673, un médico llamado Regnier de Graaf",
+     "En mil seiscientos setenta y tres, un médico llamado Reinier de Graf"
+    ],
+    "envió sus observaciones a la Royal Society de Londres.",
+    "No sabía latín, así que escribía todas sus cartas en neerlandés.",
+    [
+     "En 1676, describió las criaturas diminutas del agua,",
+     "En mil seiscientos setenta y seis, describió las criaturas diminutas del agua,"
+    ],
+    "y a los sabios les costó creerlo.",
+    "La Sociedad lo comprobó por sí misma, y vio que tenía razón.",
+    [
+     "En 1680, el comerciante de telas ingresó en la Royal Society.",
+     "En mil seiscientos ochenta, el comerciante de telas ingresó en la Royal Society."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1673",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "A la Royal Society",
+        "style": "head",
+        "at": 1
+       },
+       {
+        "text": "Cartas en neerlandés",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "La Royal Society, Londres"
+       },
+       {
+        "text": "Comprobado.",
+        "style": "head",
+        "color": "red",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "1680",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Un vendedor de telas",
+        "style": "head",
+        "delay": 0.4
+       },
+       {
+        "text": "Miembro de la Royal Society",
+        "style": "title",
+        "size": 64,
+        "color": "red",
+        "delay": 0.9
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Unas 190 cartas",
+   "lines": [
+    "Envió a la Royal Society unas ciento noventa cartas.",
+    "Estudió los glóbulos rojos, las pulgas y los gorgojos.",
+    "Demostró que estos pequeños insectos nacen de huevos,",
+    "y que no surgen sin más del polvo o del grano.",
+    "Se hizo famoso. Pedro el Grande de Rusia fue a conocerlo.",
+    "Siguió trabajando y escribiendo cartas hasta el final.",
+    [
+     "Murió en Delft el 26 de agosto de 1723,",
+     "Murió en Delft el veintiséis de agosto de mil setecientos veintitrés,"
+    ],
+    "a los noventa años."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "~190 cartas",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "type": "pills",
+        "items": [
+         "Glóbulos",
+         "Pulgas",
+         "Gorgojos"
+        ],
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Nacen de huevos",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       },
+       {
+        "text": "no del polvo",
+        "style": "head",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 6,
+      "items": [
+       {
+        "text": "Una visita",
+        "style": "head"
+       },
+       {
+        "text": "Pedro el Grande",
+        "style": "title",
+        "size": 72,
+        "color": "red",
+        "delay": 0.4
+       },
+       {
+        "text": "Cartas hasta el final",
+        "style": "mid",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "1723.8.26",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Muere en Delft",
+        "style": "head",
+        "delay": 0.5
+       },
+       {
+        "text": "a los 90 años",
+        "style": "mid",
+        "at": 7
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 6  Tu respuesta",
+   "lines": [
+    "Hoy se le considera el padre de la microbiología.",
+    "Los científicos que cruzaron esa puerta después de él",
+    "encontraron los gérmenes que nos enferman.",
+    "La lucha contra las enfermedades empezó al ver esa vida diminuta.",
+    "Hoy hay microscopios mucho más potentes en cada hospital.",
+    "La curiosidad de un vendedor de telas abrió un mundo nuevo.",
+    "Así que esta es su pregunta para ti:",
+    "¿Qué hay a tu alrededor que merezca una mirada más de cerca?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 6,
+      "items": [
+       {
+        "text": "Padre de la",
+        "style": "head"
+       },
+       {
+        "text": "Microbiología",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "delay": 0.3
+       },
+       {
+        "text": "Todo empezó al ver",
+        "style": "mid",
+        "at": 3
+       },
+       {
+        "type": "rule",
+        "color": "ink",
+        "at": 5
+       },
+       {
+        "text": "La curiosidad abre mundos",
+        "style": "mid",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta para ti",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Qué hay a tu alrededor",
+        "style": "head",
+        "size": 58,
+        "at": 7
+       },
+       {
+        "text": "que merezca mirarse?",
+        "style": "head",
+        "size": 54,
+        "color": "red",
+        "at": 7,
+        "delay": 1.2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Un día como hoy, 24 de octubre,",
+     "Un día como hoy, veinticuatro de octubre,"
+    ],
+    [
+     "recordamos a Antonie van Leeuwenhoek.",
+     "recordamos a Antoni van Leuvenjuk."
+    ]
+   ],
+   "data": {
+    "name": "Leeuwenhoek",
+    "years": "Antonie van Leeuwenhoek · 1632 – 1723"
+   }
+  }
+ ]
+}

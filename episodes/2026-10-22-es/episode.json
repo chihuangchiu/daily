@@ -1,0 +1,546 @@
+{
+ "lang": "es",
+ "date": "2026-10-22",
+ "mmdd": "10.22",
+ "person": "Franz Liszt",
+ "event": "Nacimiento en Raiding (1811)",
+ "title": "Hace 215 años, un hombre llenó solo todo un concierto | Franz Liszt",
+ "footer": "Franz Liszt 1811–1886  |  215 años de su nacimiento",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Un día como hoy, 22 de octubre.",
+     "Un día como hoy, veintidós de octubre."
+    ],
+    [
+     "Hace 215 años,",
+     "Hace doscientos quince años,"
+    ],
+    "nació un niño en un pequeño pueblo de Hungría.",
+    "Él convirtió el piano en la única estrella del escenario,",
+    "y toda Europa enloqueció por él.",
+    "Su nombre: Franz Liszt."
+   ],
+   "data": {
+    "big": "10.22",
+    "sub": "1811  —  2026",
+    "sub_at": 1,
+    "middle": [
+     {
+      "type": "text",
+      "text": "Un pueblo de Hungría",
+      "at": 2,
+      "until": 3
+     },
+     {
+      "type": "pills",
+      "items": [
+       "El piano",
+       "Toda Europa"
+      ],
+      "at": 3,
+      "until": 5
+     }
+    ],
+    "name": "Franz Liszt",
+    "name_years": "1811 – 1886",
+    "name_at": 5,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Capítulo 1  Un niño prodigio",
+   "lines": [
+    [
+     "Nació el 22 de octubre de 1811,",
+     "Nació el veintidós de octubre de mil ochocientos once,"
+    ],
+    "en el pueblo de Raiding, en el Reino de Hungría.",
+    "Hoy, ese pueblo pertenece a Austria.",
+    "Desde muy pequeño mostró un talento asombroso para la música.",
+    "Su familia se mudó a Viena, donde estudió piano con Czerny",
+    "y composición con Salieri.",
+    [
+     "En 1823, la familia se trasladó a París.",
+     "En mil ochocientos veintitrés, la familia se trasladó a París."
+    ]
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1811",
+      "small": "Nace en Raiding",
+      "at": 0
+     },
+     {
+      "big": "Viena",
+      "small": "Czerny y Salieri",
+      "at": 4
+     },
+     {
+      "big": "1823",
+      "small": "Rumbo a París",
+      "at": 6
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  El violín que lo sacudió",
+   "lines": [
+    "Hacia los veinte años, en París,",
+    "escuchó tocar al violinista Niccolò Paganini.",
+    "Aquella técnica deslumbrante lo sacudió profundamente.",
+    "Volvió a su piano y practicó día y noche.",
+    "Quería llevar el piano adonde nadie había llegado antes.",
+    "Muchas de las obras que escribió después",
+    "siguen siendo hoy un gran desafío para los pianistas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "París",
+        "style": "mid"
+       },
+       {
+        "text": "Paganini",
+        "style": "title",
+        "size": 86,
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "el violinista que lo sacudió",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "Día y noche",
+        "style": "head"
+       },
+       {
+        "text": "frente al piano",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Todavía un desafío",
+        "style": "title",
+        "size": 64,
+        "color": "red"
+       },
+       {
+        "text": "para los pianistas de hoy",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  El primer recital",
+   "lines": [
+    [
+     "El 9 de junio de 1840, en Londres,",
+     "El nueve de junio de mil ochocientos cuarenta, en Londres,"
+    ],
+    "su actuación fue llamada un recital de piano.",
+    "Antes de eso, casi nadie había sostenido solo un concierto entero.",
+    "Él lo logró.",
+    "Un hombre y un piano eran todo el escenario."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Una sala de conciertos, Londres, 1840"
+       },
+       {
+        "text": "Un recital de piano",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Un hombre",
+        "style": "title",
+        "size": 84
+       },
+       {
+        "text": "Un piano",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "delay": 0.4
+       },
+       {
+        "text": "Todo el escenario",
+        "style": "head",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Lisztomanía",
+   "lines": [
+    "Recorrió toda Europa, de Irlanda a Rusia,",
+    "y adondequiera que iba, el público enloquecía.",
+    [
+     "En 1844, el poeta Heinrich Heine le dio un nombre a esta locura:",
+     "En mil ochocientos cuarenta y cuatro, el poeta Jainrij Jaine le dio un nombre a esta locura:"
+    ],
+    "Lisztomanía.",
+    "También donó gran parte de sus ganancias a obras benéficas.",
+    [
+     "En 1847, en la cima de su fama, dejó de hacer giras.",
+     "En mil ochocientos cuarenta y siete, en la cima de su fama, dejó de hacer giras."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Irlanda → Rusia",
+        "style": "head"
+       },
+       {
+        "text": "El público enloquecía",
+        "style": "mid",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1844 · Heine",
+        "style": "mid"
+       },
+       {
+        "text": "Lisztomanía",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "Sus ganancias",
+        "style": "head"
+       },
+       {
+        "text": "para quienes lo necesitaban",
+        "style": "mid",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1847",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Dejó las giras",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Maestro de capilla en Weimar",
+   "lines": [
+    [
+     "En 1848, se estableció en Weimar, Alemania, como maestro de capilla.",
+     "En mil ochocientos cuarenta y ocho, se estableció en Vaimar, Alemania, como maestro de capilla."
+    ],
+    "Creó el poema sinfónico, una historia contada por una orquesta.",
+    [
+     "En 1850, en Weimar, dirigió el estreno",
+     "En mil ochocientos cincuenta, en Vaimar, dirigió el estreno"
+    ],
+    "de la ópera Lohengrin, de Richard Wagner.",
+    "Wagner vivía en el exilio y no pudo estar presente.",
+    "Liszt usó su propia fama para abrir camino a la música de otro."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1848 · Weimar",
+        "style": "head"
+       },
+       {
+        "text": "Poema sinfónico",
+        "style": "title",
+        "size": 76,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "text": "1850",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Lohengrin de Wagner",
+        "style": "head",
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "Wagner en el exilio",
+        "style": "mid",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Su fama",
+        "style": "head"
+       },
+       {
+        "text": "abrió camino",
+        "style": "title",
+        "size": 70,
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 6  Un maestro que no cobraba",
+   "lines": [
+    "En sus últimos años, dedicó más tiempo a sus alumnos.",
+    "Jóvenes pianistas llegaban a sus clases desde todas partes,",
+    "y él les enseñaba sin cobrarles nada.",
+    [
+     "En 1865, recibió las órdenes menores, y lo llamaron el abate Liszt.",
+     "En mil ochocientos sesenta y cinco, recibió las órdenes menores, y lo llamaron el abate Liszt."
+    ],
+    [
+     "En 1875, pasó a presidir la academia de música de Budapest.",
+     "En mil ochocientos setenta y cinco, pasó a presidir la academia de música de Budapest."
+    ],
+    [
+     "Murió en Bayreuth el 31 de julio de 1886, a los setenta y cuatro años.",
+     "Murió en Bairoit el treinta y uno de julio de mil ochocientos ochenta y seis, a los setenta y cuatro años."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Su clase de piano"
+       },
+       {
+        "text": "Sin cobrar",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "1865 · Abate Liszt",
+        "style": "head"
+       },
+       {
+        "text": "1875 · Budapest",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1886.7.31",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Muere en Bayreuth",
+        "style": "head",
+        "delay": 0.5
+       },
+       {
+        "text": "a los 74 años",
+        "style": "mid",
+        "delay": 1.0
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 7  Tu respuesta",
+   "lines": [
+    "Hoy, cada recital de piano todavía lleva su sombra.",
+    "Demostró que un solo instrumento puede llenar todo un escenario,",
+    "y que el talento puede iluminar el camino de los demás.",
+    "Así que esta es su pregunta para ti:",
+    "si solo pudieras llevar una cosa al escenario, ¿cuál sería?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Cada recital",
+        "style": "head"
+       },
+       {
+        "text": "lleva su sombra",
+        "style": "mid",
+        "delay": 0.4
+       },
+       {
+        "type": "rule",
+        "color": "ink",
+        "at": 1
+       },
+       {
+        "text": "El talento ilumina",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta para ti",
+        "style": "kicker"
+       },
+       {
+        "text": "Solo una cosa en el escenario",
+        "style": "head",
+        "size": 44,
+        "at": 4
+       },
+       {
+        "text": "¿Cuál sería?",
+        "style": "head",
+        "size": 58,
+        "color": "red",
+        "at": 4,
+        "delay": 1.2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Un día como hoy, 22 de octubre,",
+     "Un día como hoy, veintidós de octubre,"
+    ],
+    "recordamos a Franz Liszt."
+   ],
+   "data": {
+    "name": "Franz Liszt",
+    "years": "1811 – 1886"
+   }
+  }
+ ]
+}

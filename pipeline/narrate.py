@@ -1,7 +1,7 @@
 """episode.json -> narration.wav + timeline.json
 
 Usage: python3 narrate.py EPISODE_DIR [--target 238]
-episode.json "lang": "zh" (default, Baker FastSpeech2) or "en" (Kokoro af_heart, English channel).
+episode.json "lang": "zh" (default, Baker FastSpeech2), "en" (Kokoro af_heart) or "es" (Kokoro ef_dora).
 Synthesises every subtitle line (comma phrases separately), auto-tunes the
 speaking speed so the whole narration lands near --target seconds, and writes
 per-line timings that render.py uses for subtitles and reveals.
@@ -21,11 +21,13 @@ LEAD, SUB_GAP, LINE_GAP, SCENE_GAP, TAIL = 0.8, 0.18, 0.40, 1.1, 2.5
 KOKORO_DIR = os.path.join(HERE, "models", "kokoro-multi-lang-v1_0")
 KOKORO_URL = "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2"
 EN_VOICE = 3  # af_heart (Kokoro v1.0): warm US female voice, used for every English episode
+ES_VOICE = 28  # ef_dora (Kokoro v1.0): Spanish female voice, used for every Spanish episode
 
 
 class EnTTS:
-    """English narration (lang "en"): Kokoro via sherpa-onnx, one call per subtitle line."""
-    def __init__(self):
+    """English / Spanish narration (lang "en" / "es"): Kokoro via sherpa-onnx, one call per subtitle line."""
+    def __init__(self, lang="en"):
+        self.sid = ES_VOICE if lang == "es" else EN_VOICE
         import sherpa_onnx
         if not os.path.exists(os.path.join(KOKORO_DIR, "model.onnx")):
             print("downloading Kokoro (~350 MB) ...", flush=True)
@@ -35,12 +37,13 @@ class EnTTS:
             kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(
                 model=d + "model.onnx", voices=d + "voices.bin", tokens=d + "tokens.txt",
                 data_dir=d + "espeak-ng-data", dict_dir=d + "dict",
-                lexicon=d + "lexicon-us-en.txt,lexicon-zh.txt"), num_threads=4))
+                lexicon=("" if lang == "es" else d + "lexicon-us-en.txt,lexicon-zh.txt"),
+                lang=("es" if lang == "es" else "")), num_threads=4))
         self.tts = sherpa_onnx.OfflineTts(cfg)
 
     def phrase(self, text, speed=1.0):
         # narrate.py's speed is a duration ratio (>1 = slower, as in FastSpeech2); Kokoro's speed is a rate
-        a = self.tts.generate(text, sid=EN_VOICE, speed=1.0 / speed)
+        a = self.tts.generate(text, sid=self.sid, speed=1.0 / speed)
         x = np.asarray(a.samples, np.float32)
         if a.sample_rate != SR:
             n = int(len(x) * SR / a.sample_rate)
@@ -86,7 +89,7 @@ def norm_line(ln):
 
 
 def spoken_parts(spoken, lang="zh"):
-    if lang == "en":
+    if lang != "zh":
         # one natural phrase per subtitle line: Kokoro keeps the intonation, commas become its own short pauses
         sp = re.sub(r"[\"“”«»()\[\]]", "", spoken).strip()
         return [sp] if sp else []
@@ -144,7 +147,7 @@ def main():
     if bad:
         print("ERROR: spoken text must use Chinese numerals / no Latin letters:", *bad, sep="\n  ")
         sys.exit(2)
-    tts = EnTTS() if lang == "en" else TTS()
+    tts = EnTTS(lang) if lang != "zh" else TTS()
     audio, tl, speech, total = synth(tts, ep["scenes"], 1.0, lang)
     fixed = total - speech
     speed = (a.target - fixed) / speech

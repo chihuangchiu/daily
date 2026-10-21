@@ -36,8 +36,10 @@ optional `delay` (seconds after that line starts), optional `until` = line index
 title text switched to light colours; `image_label` is empty by default (no on-screen AI label since 2026-10-20).
 `image_shift` (0–0.4): moves the picture (and the clip) down by that fraction of the height so the face sits
 below the title (RUNBOOK 4b step 6).
-`video` (e.g. `"opening.mp4"`, needs `image` too) + `video_secs` (default 3): a clip played full-screen over the
-still from t=0, cropped to 720x1280 with the same sepia/darkening and label, then faded to the still (RUNBOOK 4d).
+`video` (e.g. `"opening.mp4"`, needs `image` too) + `video_secs` (default 3) + `video_align`: a clip played full-screen
+over the still from t=0, cropped to 720x1280 with the same sepia/darkening and label, then handed over to the still.
+`video_align: "end"` (use this; RUNBOOK 4d) plays the clip's last `video_secs` seconds, whose last frame is opening.png,
+with a 0.25 s cross-fade; the default `"start"` plays its first seconds with a 0.5 s fade (older episodes).
 
 ### timeline
 `bg_char` (one faint big glyph, optional), `nodes`: up to 5 × `{big, small, at, delay, color}`.
@@ -65,7 +67,7 @@ Item types:
 - `{type:"film", main, sub}` film-strip frame
 - `{type:"barred", small, big}` text behind prison bars
 - `{type:"checks", items:[...]}` list with red check marks
-- `{type:"image", src, height, width, caption, label}` framed picture (default 560x420, no label)
+- `{type:"image", src, height, width, caption, label}` framed picture (default 560x420, no label; caption without 「示意」)
 Phase extras: `seal: {chars, grid:[2,2], size, at, x, y, angle}`, `stamp: {top, main, at, y}` (diagonal red stamp), `bg: {char, color}` faint glyph.
 
 ### end

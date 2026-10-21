@@ -305,19 +305,23 @@ def sepia_arr(a, sepia=0.25):
 
 
 class VideoCover:
-    """full-screen opening clip (title scene `video`): plays from t0 for `secs` seconds, then fades out
+    """full-screen opening clip (title scene `video`): plays from t0 for `secs` seconds (its first or, with align="end", its last seconds), then fades out
     over the last `fade` seconds to reveal the still opening image underneath. Frames are decoded lazily,
     only by the process that renders that time range."""
 
-    def __init__(self, src, t0, secs, label=AI_LABEL, fade=0.5, shift=0):
+    def __init__(self, src, t0, secs, label=AI_LABEL, fade=0.5, shift=0, align="start"):
         self.path = src if os.path.isabs(src) else os.path.join(EP_DIR, src)
         self.t0, self.secs, self.label, self.fade, self.shift = t0, secs, label, fade, shift
+        # align="end": play the LAST `secs` seconds of the clip (its last frame is opening.png itself,
+        # RUNBOOK 4d), so the hand-over to the still is seamless
+        self.align = align
         self.t1 = t0 + secs
         self.frames = None
 
     def _load(self):
         vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}"
-        raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", self.path, "-t", str(self.secs), "-vf", vf,
+        seek = ["-sseof", f"-{self.secs + 0.05:.2f}"] if self.align == "end" else []
+        raw = subprocess.run(["ffmpeg", "-loglevel", "error", *seek, "-i", self.path, "-t", str(self.secs), "-vf", vf,
                               "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
         n = len(raw) // (W * H * 3)
         if n == 0:
@@ -551,8 +555,9 @@ def b_title(c):
         els.append(El(cov, 0, 0, -1.0, None, "fade", 0.6))
         if d.get("video"):
             # a short AI clip plays over the still image first (frame 0 = video frame 0)
+            align = d.get("video_align", "start")
             els.append(VideoCover(d["video"], 0.0, float(d.get("video_secs", 3)), d.get("image_label", AI_LABEL),
-                                  shift=d.get("image_shift", 0)))
+                                  fade=0.25 if align == "end" else 0.5, shift=d.get("image_shift", 0), align=align))
     els += [
         place(text_img(d.get("kicker", "歷史上的今天"), F("serif-med", 44), muted + (255,)), 360, 262, -1.0),
         place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, -1.0),

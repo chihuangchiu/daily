@@ -117,7 +117,7 @@ All pictures of an episode (opening, chapter images) and the opening clip must l
 - No other colour words in the prompts (no "blue sky", "green field", "golden light" — describe light as warm/dim/soft).
 - After saving all pictures, look at them side by side (e.g. `ffmpeg -i opening.png -i img1.png -i img2.png -filter_complex "[0]scale=-1:400[a];[1]scale=-1:400[b];[2]scale=-1:400[c];[a][b][c]hstack=3" tones.png`, then Read)
   and regenerate any picture whose colour, brightness or line style stands out.
-- The clip is made only from opening.png (image-to-video, 4d), never from a text prompt, so it has the same tone.
+- The clip is made only from opening.png and a start frame drawn from it (first/last-frame video, 4d), never from a text prompt, so it has the same tone.
 
 ## 4c. Chapter images (required: 1–2 more pictures)
 Besides the opening image, every video shows 1–2 more AI pictures inside the chapters, at the story's key moments
@@ -130,33 +130,54 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
 2. Save as `episodes/D/img1.png`, `episodes/D/img2.png` (curl the download URL, same as 4b).
 3. Put each picture in its own phase of a stack scene, near the line that tells that moment:
    `{"at": N, "until": M, "items": [{"type":"image","src":"img1.png","caption":"<≤ 16 字說明>"}, {"text":"<short line>","style":"mid"}]}`.
+   The caption names the place, moment or object (e.g. 「1840 年代倫敦的音樂廳」); never add 「示意」「示意圖」「AI 生成」
+   or similar labels — every picture is plainly a drawing (Nathan 2026-10-21).
    At most one short text item next to it (the frame is ~460 px tall; the visual area is 677 px). Show it for at
    least 2 subtitle lines. Do not put two images in the same scene.
 4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
    stop exactly as in 4b.8; never publish a video with fewer pictures than required.
 
-## 4d. Opening clip (Calywood image-to-video from opening.png, 3 s)
-The clip animates opening.png itself, so it has the same drawing and tone (Nathan 2026-10-21: video only from the image).
+## 4d. Opening clip (Calywood first/last-frame video that ENDS on opening.png, 3 s) — Nathan 2026-10-21 (v2)
+The clip must end exactly on opening.png, so the hand-over from the clip to the still is seamless (no jump), and it
+must show real, natural action, not just a zoom. So opening.png is the LAST frame, and a matching START frame is drawn
+from it: the same scene a few seconds earlier, with the person in a different pose.
 
-1. Calywood `generate_video_from_image` with `image_url` = the Image MCP download URL of opening.png (4b step 4),
-   `duration: 4` (the minimum), `resolution: "720p"`, and a short English `prompt` that only describes motion:
-   "Very slight slow camera push-in. <one or two small natural motions: the person's eyes stay open and the gaze
-   slowly shifts toward the viewer / a lamp flickers / smoke or steam drifts / cloth moves>. Silent, no music. Keep the
-   hand-drawn sepia ink-wash style and colours exactly as in the image. No text."
-   Avoid "blink" (one test kept the eyes closed for 2 s). Do not use `generate_video` (text-to-video: a different
-   picture and tone) or `generate_video_multimodal` (its results are not copied to the bucket below).
-2. Poll `get_task` (about every 30 s, up to 10 min; a 4 s clip takes about 4–6 min). The link it returns (volces.com)
+1. Start frame: Image MCP `edit-image` with `image` = the download URL of opening.png (4b step 4), `size: "1024x1536"`,
+   `quality: "high"`, prompt:
+   "Show this exact same scene a few seconds earlier, as the first frame of a short film that ends on this picture.
+   Keep everything identical: the same <place>, <objects>, the same person with the same face, hair and clothes, the
+   same camera position and framing, the same drawing style and colours. Change only his/her pose: <an earlier moment
+   of one clear action — e.g. bent over the piano keys playing / looking down into the microscope / writing at the desk /
+   turned toward the window / walking in from the side>. " + STYLE.
+   Save it as `episodes/D/start.png` (curl), Read it next to opening.png: same scene, framing, face and tone; only the
+   pose differs. Max 3 tries.
+2. Calywood `generate_video_from_image` with `image_url` = start.png's download URL, `last_frame_url` = opening.png's
+   download URL, `duration: 4` (the minimum), `resolution: "720p"`, English `prompt` describing the action that leads
+   from the start pose to the final pose, with natural, realistic body motion (hands, head, shoulders, hair, cloth) and
+   one or two small background motions (flames flicker, people in the background move, steam or smoke drifts), e.g.
+   "The pianist plays a final chord, lifts his hands, raises his head and turns his face and shoulders toward the
+   viewer, settling into a calm gaze with eyes open, exactly as in the last frame. The audience stirs, candle flames
+   flicker. Natural, realistic body motion; the camera stays almost still. Silent, no music. Keep the hand-drawn sepia
+   ink-wash style and colours exactly as in the images. No text."
+   No camera zoom/push-in as the main motion; avoid "blink" (eyes can stay closed). Do not use `generate_video`
+   (text-to-video) or `generate_video_multimodal` (results are not copied to the bucket below).
+   Without a photo (4b fallback, person from behind), the action is still a real one (e.g. he lowers the lens and leans
+   back; she walks to the window); the face stays hidden.
+3. Poll `get_task` (about every 30 s, up to 10 min; a 4 s clip takes about 4–6 min). The link it returns (volces.com)
    is blocked here; a copy appears a few minutes later at
    `https://storage.googleapis.com/alchemy-dance-media-cacafly-nathan-project/videos/<task_id>.mp4`.
    Retry `curl -sSf -o episodes/D/opening.mp4 "<that url>"` every minute for up to 10 min (403 = not there yet), then
    check it with ffprobe (video stream, at least 3 s; about 786x1178, render.py crops it to 720x1280).
    A task can fail with "output audio may be related to copyright restrictions": just retry (it worked on the next try).
-3. Grab frames at 0.5, 1.5 and 2.5 s with ffmpeg and look at them with Read: same rules as 4b.5, the face must stay the
-   same person, and the colours must stay those of opening.png. Retry with a revised prompt, max 3 tries.
-4. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3` (keep `"image"` and `"image_shift"`).
-   render.py crops the clip to 720x1280, shifts it like the still, gives it the same sepia and darkening, plays
-   seconds 0–3 and fades to the still over the last 0.5 s.
-5. If the clip cannot be made (Calywood not connected after the usual retries, the task keeps failing, the download
+4. Grab frames at 1.0, 2.0, 3.0 s and the last frame (`ffmpeg -sseof -0.1 -i opening.mp4 -frames:v 1 last.png`) and
+   Read them next to opening.png: the person must stay the same, the motion must look natural (no warped limbs or
+   faces), the colours must stay those of opening.png, and the last frame must match opening.png. Retry with a revised
+   prompt, max 3 tries.
+5. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 3, "video_align": "end"` (keep `"image"` and
+   `"image_shift"`). With `video_align: "end"` render.py plays the LAST 3 s of the clip (ending on opening.png), crops
+   it to 720x1280, shifts it like the still, applies the same sepia and darkening, and hands over to the still with a
+   0.25 s cross-fade.
+6. If the clip cannot be made (start frame or clip fails after the usual retries, Calywood not connected, the download
    keeps failing, or 3 tries are all unusable), STOP exactly as in 4b.8 (Nathan 2026-10-20): nothing is built or
    published, and the notification says the opening clip failed, with the exact error.
 

@@ -14,7 +14,9 @@ Fixed facts
   - Facebook: id `cmvbzqyvs0002s67fq0dzr53e`, name 「今天，誰改變了世界」.
   - YouTube: id `cmvc7njup0001s673xhqhp5s8`, name 「今天 誰改變了世界」.
   - YouTube (English): id `cmvibixcp000ms67kkplrbxb1`, name "Who Changed the World Today" — see section E
-    (Nathan 2026-10-22). Publishes at 00:00 Taipei on D = `(D minus 1 day)T16:00:00Z`.
+    (Nathan 2026-10-22). Publishes at 06:00 Taipei on D, like every channel (Nathan 2026-10-22).
+  - YouTube (Spanish): id `cmvic8oq3000os67kdsemvo3t`, name "¿Quién cambió el mundo hoy?" — same person as the
+    English video of D, 06:00 Taipei on D (details in the scheduled task prompt until a section is added here).
 - Timezone: Asia/Taipei. Get the run date from the current-time tool. In every step below, D = the target
   (publish) date of the video being made: its month/day drives the topic, the "N年前的今天" years, the folder
   episodes/D, the media file name and the publish time.
@@ -28,9 +30,8 @@ Fixed facts
    - Only one channel has a post → do not make a new video: schedule the missing channel only, reusing that post's
      attachment path and `episodes/D/post.txt` (step 8.3 for that channel alone).
    - Neither → D needs a video.
-   - Also look for a post on the English channel (`cmvibixcp000ms67kkplrbxb1`) at 00:00 Taipei on D
-     (`(D−1)T16:00:00Z`; list from (first D − 1)T15:00:00Z). No post → D needs an English video (section E).
-     If that slot is less than 90 minutes away, skip it (too late) and say so in the report.
+   - Also look for posts on the English (`cmvibixcp000ms67kkplrbxb1`) and Spanish (`cmvic8oq3000os67kdsemvo3t`)
+     channels at the same 06:00 Taipei slot. No post → D needs that language's video (section E).
 3. Make the missing videos one at a time, earliest date first, each through steps 2–9 completely before starting the
    next (finished and scheduled before the next one starts, so a later failure never loses an earlier video).
 4. Topics: besides covered.md, also avoid the people already scheduled for the other dates in the window.
@@ -244,8 +245,8 @@ table in date order); commit `episodes/D/episode.json`, `episodes/D/post.txt`,
 `covered.md` (never the mp4/wav/check files; .gitignore covers them) and push to main.
 
 ## E. English channel "Who Changed the World Today" (Nathan 2026-10-22)
-An all-English YouTube Shorts channel for a worldwide audience: one video per day D, published at 00:00 Taipei on D
-(`(D−1)T16:00:00Z`), only on YouTube `cmvibixcp000ms67kkplrbxb1`.
+An all-English YouTube Shorts channel for a worldwide audience: one video per day D, published at 06:00 Taipei on D
+(`(D−1)T22:00:00Z`, the same time as every other channel), only on YouTube `cmvibixcp000ms67kkplrbxb1`.
 
 Subject
 - If the Chinese video of D is about someone who is not Taiwanese / not mainly Taiwan history, the English video
@@ -284,7 +285,7 @@ If you spot a mistake, please let us know in the comments.`, then one hashtag li
 `Opening portrait drawn from a Wikimedia Commons photo (author: …, licence: …).`
 
 Publish: media file name `D-en.mp4` (same media-branch steps as step 8), then one `integrationSchedulePostTool` call
-with one item: integrationId `cmvibixcp000ms67kkplrbxb1`, type schedule, date `(D−1)T16:00:00Z`, content = the article
+with one item: integrationId `cmvibixcp000ms67kkplrbxb1`, type schedule, date `(D−1)T22:00:00Z`, content = the article
 only with `#Shorts` added at the start of the hashtag line, settings title = <title> + " #Shorts" (≤ 100 chars),
 type public, selfDeclaredMadeForKids no, tags (5–6): Shorts, On This Day, Who Changed the World Today, the person,
 1–2 topics. Confirm with postsListTool. Then add `| D | person | event | shared? |` to `covered-en.md` and commit
@@ -292,7 +293,7 @@ type public, selfDeclaredMadeForKids no, tags (5–6): Shorts, On This Day, Who 
 
 ## 10. Report
 Only when the run made or fixed something, or failed: send the user one short message listing, per date in the window
-and per channel group (FB+YT 06:00, English YT 00:00), either "already scheduled" or what was made (who/what, title, length, publish time 06:00, both Postiz preview links,
+and per channel group (中文 FB+YT, English YT, Spanish YT; all 06:00), either "already scheduled" or what was made (who/what, title, length, publish time 06:00, both Postiz preview links,
 sources, anything dropped or uncertain). Remind them each post can be deleted in Postiz before its 06:00 publish time.
 If every date in the window was already covered, finish silently.
 

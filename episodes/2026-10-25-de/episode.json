@@ -1,0 +1,341 @@
+{
+ "lang": "de",
+ "date": "2026-10-25",
+ "mmdd": "10.25",
+ "person": "Johann Strauss (Sohn)",
+ "event": "Geboren in Wien (1825)",
+ "title": "Johann Strauss: Vor 201 Jahren geboren – ihm war Musik verboten, er wurde Walzerkönig",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Musik war ihm verboten. Er wurde der Walzerkönig.",
+    [
+     "An diesem Tag, am 25. Oktober.",
+     "An diesem Tag, am fünfundzwanzigsten Oktober."
+    ],
+    [
+     "Vor 201 Jahren kam in Wien ein Junge zur Welt.",
+     "Vor zweihunderteins Jahren kam in Wien ein Junge zur Welt."
+    ],
+    "Eines Tages würde die ganze Welt zu seiner Musik tanzen.",
+    "Sein Name: Johann Strauss, der Sohn."
+   ],
+   "data": {
+    "hook": "Musik verboten –\nder Walzerkönig",
+    "sub": "1825  —  2026",
+    "sub_at": 2,
+    "name": "Strauss",
+    "name_years": "Johann Strauss (Sohn) · 1825 – 1899",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Die heimliche Geige",
+   "lines": [
+    [
+     "Er wurde am 25. Oktober 1825 in Wien geboren.",
+     "Er wurde am fünfundzwanzigsten Oktober achtzehnhundertfünfundzwanzig in Wien geboren."
+    ],
+    "Sein Vater war ein berühmter Musiker in Wien,",
+    "doch sein Sohn sollte kein Musiker werden.",
+    "Der Junge sollte Bankkaufmann werden.",
+    "Eine Zeit lang arbeitete er sogar in einer Bank.",
+    "Also nahm er heimlich Geigenunterricht.",
+    "Als der Vater es merkte, soll er ihn verprügelt haben.",
+    "Doch der Junge legte die Geige nie weg."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1825",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Wien",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "text": "Keine Musik!",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Heimlicher Geigenunterricht"
+       },
+       {
+        "text": "Er gab nie auf",
+        "style": "head",
+        "color": "red",
+        "at": 7
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Das erste Konzert",
+   "lines": [
+    [
+     "Im Oktober 1844, mit neunzehn Jahren,",
+     "Im Oktober achtzehnhundertvierundvierzig, mit neunzehn Jahren,"
+    ],
+    "dirigierte er zum ersten Mal sein eigenes Orchester,",
+    "im Casino Dommayer bei Wien.",
+    "Er schrieb die Musik und dirigierte sie selbst,",
+    "und bald kannte ganz Wien seinen Namen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1844",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Erstes Konzert",
+        "style": "title",
+        "size": 70,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Komponist und Dirigent",
+        "style": "title",
+        "size": 56,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der Donauwalzer",
+   "lines": [
+    [
+     "Am 15. Februar 1867 wurde in Wien",
+     "Am fünfzehnten Februar achtzehnhundertsiebenundsechzig wurde in Wien"
+    ],
+    "sein Walzer An der schönen blauen Donau uraufgeführt.",
+    "Er ging um die ganze Welt.",
+    "Vielleicht ist er der berühmteste Walzer überhaupt.",
+    "In Österreich gilt er als heimliche Hymne."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "15.02.1867",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Uraufführung in Wien",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Donauwalzer",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Über tausend Musiker",
+   "lines": [
+    [
+     "1872 wurde er nach Boston in die USA eingeladen.",
+     "Achtzehnhundertzweiundsiebzig wurde er nach Boston in die USA eingeladen."
+    ],
+    "Bei einem riesigen Musikfest, dem World's Peace Jubilee,",
+    "dirigierte er mehr als tausend Musiker und Sänger",
+    "im Donauwalzer.",
+    "Man nannte es das Monsterkonzert.",
+    "In seinem Leben schrieb er rund fünfhundert Tanzstücke,",
+    "und Operetten wie Die Fledermaus."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "World's Peace Jubilee, Boston, 1872"
+       },
+       {
+        "text": "Über 1.000 Musiker",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "~500",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Tanzstücke",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Seine Frage",
+   "lines": [
+    [
+     "Er starb am 3. Juni 1899 in Wien, mit 73 Jahren.",
+     "Er starb am dritten Juni achtzehnhundertneunundneunzig in Wien, mit dreiundsiebzig Jahren."
+    ],
+    "Er wurde auf dem Wiener Zentralfriedhof begraben.",
+    "Bis heute spielt das Neujahrskonzert in Wien",
+    "seine Walzer.",
+    "Ein verbotener Geiger brachte die Welt zum Tanzen.",
+    "Seine Frage an dich:",
+    "Was würdest du weitermachen, auch wenn andere Nein sagen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1825 – 1899",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Neujahrskonzert",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "Die Welt tanzt",
+        "style": "title",
+        "size": 66,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage an dich",
+        "style": "kicker"
+       },
+       {
+        "text": "Was würdest du weitermachen?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "An diesem Tag, am 25. Oktober,",
+     "An diesem Tag, am fünfundzwanzigsten Oktober,"
+    ],
+    "erinnern wir an Johann Strauss."
+   ],
+   "data": {
+    "name": "Johann Strauss",
+    "years": "1825 – 1899"
+   }
+  }
+ ]
+}

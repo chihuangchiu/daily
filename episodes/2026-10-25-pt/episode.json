@@ -1,0 +1,347 @@
+{
+ "lang": "pt",
+ "date": "2026-10-25",
+ "mmdd": "10.25",
+ "person": "Johann Strauss II",
+ "event": "Nascimento em Viena (1825)",
+ "title": "Strauss: há 201 anos nascia o menino proibido de tocar que virou o rei da valsa",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Proibido de tocar, ele virou o rei da valsa.",
+    [
+     "Um dia como hoje, 25 de outubro.",
+     "Um dia como hoje, vinte e cinco de outubro."
+    ],
+    [
+     "Há 201 anos, nascia um menino em Viena.",
+     "Há duzentos e um anos, nascia um menino em Viena."
+    ],
+    "Um dia, o mundo inteiro dançaria com a sua música.",
+    [
+     "Seu nome: Johann Strauss II.",
+     "Seu nome, Johann Strauss segundo."
+    ]
+   ],
+   "data": {
+    "hook": "Proibido de tocar,\nvirou rei da valsa",
+    "sub": "1825  —  2026",
+    "sub_at": 2,
+    "name": "Strauss",
+    "name_years": "Johann Strauss II · 1825 – 1899",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O violino secreto",
+   "lines": [
+    [
+     "Ele nasceu em 25 de outubro de 1825, em Viena.",
+     "Ele nasceu em vinte e cinco de outubro de mil oitocentos e vinte e cinco, em Viena."
+    ],
+    "Seu pai era um músico famoso em Viena,",
+    "mas não queria que o filho fosse músico.",
+    "Queria que o menino fosse banqueiro.",
+    "Por um tempo, chegou a trabalhar num banco.",
+    "Então o menino teve aulas de violino escondido.",
+    "Dizem que, quando o pai descobriu, deu-lhe uma surra.",
+    "Mas o menino nunca largou o violino."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1825",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Viena",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "text": "Nada de música!",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Aulas de violino escondido"
+       },
+       {
+        "text": "Nunca desistiu",
+        "style": "head",
+        "color": "red",
+        "at": 7
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  O primeiro concerto",
+   "lines": [
+    [
+     "Em outubro de 1844, aos dezenove anos,",
+     "Em outubro de mil oitocentos e quarenta e quatro, aos dezenove anos,"
+    ],
+    "regeu pela primeira vez a sua própria orquestra,",
+    "no Cassino Dommayer, perto de Viena.",
+    "Ele compunha a música e também a regia,",
+    "e logo toda Viena conhecia o seu nome."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1844",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Primeiro concerto",
+        "style": "title",
+        "size": 70,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Compositor e regente",
+        "style": "title",
+        "size": 60,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  O Danúbio Azul",
+   "lines": [
+    [
+     "Em 15 de fevereiro de 1867, em Viena,",
+     "Em quinze de fevereiro de mil oitocentos e sessenta e sete, em Viena,"
+    ],
+    "estreou a sua valsa O Danúbio Azul.",
+    "Com o tempo, ela correu o mundo inteiro.",
+    "Talvez seja a valsa mais famosa já escrita.",
+    "Na Áustria, é amada como um hino não oficial."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "15.02.1867",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Estreia em Viena",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "O Danúbio Azul",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Mais de mil músicos",
+   "lines": [
+    [
+     "Em 1872, foi convidado a Boston, nos Estados Unidos.",
+     "Em mil oitocentos e setenta e dois, foi convidado a Boston, nos Estados Unidos."
+    ],
+    "Num enorme festival, o Jubileu Mundial da Paz,",
+    "ele regeu mais de mil músicos e cantores",
+    "em O Danúbio Azul.",
+    "Chamaram aquilo de Concerto Monstro.",
+    "Na vida, escreveu cerca de quinhentas peças de dança,",
+    "e operetas como O Morcego."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Jubileu da Paz, Boston, 1872"
+       },
+       {
+        "text": "Mais de 1.000 músicos",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "~500",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "peças de dança",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  A pergunta dele",
+   "lines": [
+    [
+     "Morreu em Viena em 3 de junho de 1899, aos 73 anos.",
+     "Morreu em Viena em três de junho de mil oitocentos e noventa e nove, aos setenta e três anos."
+    ],
+    "Foi sepultado no Cemitério Central de Viena.",
+    "Hoje, o Concerto de Ano Novo de Viena",
+    "ainda toca as suas valsas.",
+    "Um menino proibido de tocar fez o mundo dançar.",
+    "A pergunta dele para você:",
+    "o que você continuaria fazendo, mesmo se dissessem não?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1825 – 1899",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Concerto de Ano Novo",
+        "style": "title",
+        "size": 60,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "O mundo dança",
+        "style": "title",
+        "size": 66,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele para você",
+        "style": "kicker"
+       },
+       {
+        "text": "O que você continuaria fazendo?",
+        "style": "head",
+        "size": 44,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Um dia como hoje, 25 de outubro,",
+     "Um dia como hoje, vinte e cinco de outubro,"
+    ],
+    [
+     "lembramos Johann Strauss II.",
+     "lembramos Johann Strauss segundo."
+    ]
+   ],
+   "data": {
+    "name": "Johann Strauss II",
+    "years": "1825 – 1899"
+   }
+  }
+ ]
+}

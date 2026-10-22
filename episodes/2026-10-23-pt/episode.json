@@ -1,0 +1,344 @@
+{
+ "lang": "pt",
+ "date": "2026-10-23",
+ "mmdd": "10.23",
+ "person": "Gertrude Ederle",
+ "event": "Nascimento em Nova York (1905)",
+ "title": "Há 121 anos nascia a mulher que nadou mais rápido que os homens | Gertrude Ederle",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ela nadou mais rápido que todos os homens.",
+    [
+     "Um dia como hoje, 23 de outubro.",
+     "Um dia como hoje, vinte e três de outubro."
+    ],
+    [
+     "Há 121 anos, nascia uma menina em Nova York.",
+     "Há cento e vinte e um anos, nascia uma menina em Nova York."
+    ],
+    "Diziam que nenhuma mulher cruzaria o Canal da Mancha.",
+    [
+     "Seu nome: Gertrude Ederle.",
+     "Seu nome, Gertrude Éderle."
+    ]
+   ],
+   "data": {
+    "hook": "Mais rápida que\ntodos os homens",
+    "sub": "1905  —  2026",
+    "sub_at": 2,
+    "name": "Ederle",
+    "name_years": "Gertrude Ederle · 1905 – 2003",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Capítulo 1  A filha do açougueiro",
+   "lines": [
+    "Seu pai tinha um açougue em Manhattan.",
+    "Ela aprendeu a nadar numa praia de Nova Jersey.",
+    "Uma doença na infância enfraqueceu sua audição,",
+    "mas na água ela se sentia em casa.",
+    "Ainda adolescente, começou a bater recordes."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1905",
+      "small": "Nova York",
+      "at": 0
+     },
+     {
+      "big": "Recordes",
+      "small": "Ainda adolescente",
+      "at": 4
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  A primeira derrota",
+   "lines": [
+    [
+     "Em 1924, nadou nos Jogos Olímpicos de Paris.",
+     "Em mil novecentos e vinte e quatro, nadou nos Jogos Olímpicos de Paris."
+    ],
+    "Ganhou um ouro no revezamento e dois bronzes.",
+    "Mas seu sonho era o Canal da Mancha.",
+    [
+     "Em 1925, tentou pela primeira vez.",
+     "Em mil novecentos e vinte e cinco, tentou pela primeira vez."
+    ],
+    "No meio do caminho, foi tirada da água.",
+    "Muitos disseram que era o fim.",
+    "Ela treinou ainda mais e voltou um ano depois."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1924 · Paris",
+        "style": "head"
+       },
+       {
+        "text": "1 ouro · 2 bronzes",
+        "style": "title",
+        "size": 64,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "O Canal da Mancha",
+        "style": "title",
+        "size": 70,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "text": "1925",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Desclassificada",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "Não desistiu",
+        "style": "title",
+        "size": 78,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  6 de agosto de 1926",
+   "lines": [
+    [
+     "Em 6 de agosto de 1926, ela entrou no mar na França.",
+     "Em seis de agosto de mil novecentos e vinte e seis, ela entrou no mar na França."
+    ],
+    "Tinha o corpo coberto de graxa contra o frio.",
+    "As ondas eram fortes, e veio a tempestade.",
+    "Mas ela nadou hora após hora.",
+    [
+     "Depois de 14 horas e meia, chegou à Inglaterra.",
+     "Depois de catorze horas e meia, chegou à Inglaterra."
+    ],
+    "Foi a primeira mulher a cruzar o Canal da Mancha.",
+    "E bateu o recorde dos homens em quase duas horas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "O Canal da Mancha, agosto de 1926"
+       },
+       {
+        "text": "França → Inglaterra",
+        "style": "mid",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 6,
+      "items": [
+       {
+        "text": "14½ horas",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "A primeira mulher",
+        "style": "head",
+        "color": "red",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "−2 horas",
+        "style": "big",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "o recorde dos homens",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Um dom compartilhado",
+   "lines": [
+    "Em Nova York, multidões lotaram as ruas por ela.",
+    "Jornais do mundo inteiro contaram sua história.",
+    "Com os anos, ela ficou quase surda.",
+    "E passou a ensinar crianças surdas a nadar.",
+    [
+     "Morreu em 2003, aos 98 anos.",
+     "Morreu em dois mil e três, aos noventa e oito anos."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Desfile em Nova York, 1926"
+       },
+       {
+        "text": "Uma heroína",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Quase surda",
+        "style": "head"
+       },
+       {
+        "text": "Aulas para crianças surdas",
+        "style": "mid",
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1905 – 2003",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  A pergunta dela",
+   "lines": [
+    "Diziam que era impossível. Ela provou que não era.",
+    "E quando perdeu a audição, compartilhou seu dom.",
+    "A pergunta dela para você:",
+    "o que dizem que você não consegue fazer?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Impossível?",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dela para você",
+        "style": "kicker"
+       },
+       {
+        "text": "O que dizem que você não consegue?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Um dia como hoje, 23 de outubro,",
+     "Um dia como hoje, vinte e três de outubro,"
+    ],
+    [
+     "lembramos Gertrude Ederle.",
+     "lembramos Gertrude Éderle."
+    ]
+   ],
+   "data": {
+    "name": "Gertrude Ederle",
+    "years": "1905 – 2003"
+   }
+  }
+ ]
+}

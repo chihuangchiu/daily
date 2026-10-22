@@ -1,0 +1,361 @@
+{
+ "lang": "de",
+ "date": "2026-10-24",
+ "mmdd": "10.24",
+ "person": "Antonie van Leeuwenhoek",
+ "event": "Geboren in Delft (1632)",
+ "title": "Leeuwenhoek: Vor 394 Jahren wurde der Tuchhändler geboren, der eine verborgene Welt sah",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ein Tuchhändler sah als Erster Bakterien.",
+    [
+     "An diesem Tag, am 24. Oktober.",
+     "An diesem Tag, am vierundzwanzigsten Oktober."
+    ],
+    [
+     "Vor 394 Jahren kam in Delft, in Holland, ein Junge zur Welt.",
+     "Vor dreihundertvierundneunzig Jahren kam in Delft, in Holland, ein Junge zur Welt."
+    ],
+    "Er war kein Wissenschaftler. Er verkaufte Stoffe.",
+    [
+     "Sein Name: Antonie van Leeuwenhoek.",
+     "Sein Name, Antoni van Lehwenhuk."
+    ]
+   ],
+   "data": {
+    "hook": "Er sah als Erster\nBakterien",
+    "sub": "1632  —  2026",
+    "sub_at": 2,
+    "name": "Leeuwenhoek",
+    "name_years": "Antonie van Leeuwenhoek · 1632 – 1723",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.23,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Kapitel 1  Der Tuchhändler",
+   "lines": [
+    [
+     "Mit 16 ging er in Amsterdam in die Lehre.",
+     "Mit sechzehn ging er in Amsterdam in die Lehre."
+    ],
+    [
+     "1654 eröffnete er in Delft sein eigenes Geschäft.",
+     "Sechzehnhundertvierundfünfzig eröffnete er in Delft sein eigenes Geschäft."
+    ],
+    "Fast vierzig Jahre lang arbeitete er auch im Rathaus.",
+    "Ein Tuchhändler muss die Fäden genau sehen,",
+    "doch die Lupen seiner Zeit waren nicht scharf genug."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "16",
+      "small": "Lehre in Amsterdam",
+      "at": 0
+     },
+     {
+      "big": "1654",
+      "small": "Eigenes Geschäft in Delft",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Ein Wassertropfen",
+   "lines": [
+    "Ohne Studium lernte er selbst, Linsen zu schleifen.",
+    "Er fertigte mehr als fünfhundert Linsen.",
+    [
+     "Sein bestes Mikroskop vergrößerte etwa 275-fach.",
+     "Sein bestes Mikroskop vergrößerte etwa zweihundertfünfundsiebzigfach."
+    ],
+    "Dann betrachtete er einen Tropfen Wasser aus einem See.",
+    "Er sah unzählige winzige Wesen herumschwimmen.",
+    "Er nannte sie Tierchen.",
+    "Später sah er sogar Bakterien."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "500+",
+        "style": "huge",
+        "size": 140,
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "selbst geschliffene Linsen",
+        "style": "mid"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "275×",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Winziges Leben im Wassertropfen"
+       },
+       {
+        "text": "Tierchen",
+        "style": "head",
+        "color": "red",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "Bakterien",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Briefe nach London",
+   "lines": [
+    [
+     "1673 erreichten seine Briefe die Royal Society in London.",
+     "Sechzehnhundertdreiundsiebzig erreichten seine Briefe die Royal Society in London."
+    ],
+    "Er konnte kein Latein und schrieb auf Niederländisch.",
+    [
+     "1676 beschrieb er die winzigen Wesen im Wasser.",
+     "Sechzehnhundertsechsundsiebzig beschrieb er die winzigen Wesen im Wasser."
+    ],
+    "Die Gelehrten in London zweifelten.",
+    "Die Society prüfte es nach, und er hatte recht.",
+    [
+     "1680 wurde der Tuchhändler Mitglied der Royal Society.",
+     "Sechzehnhundertachtzig wurde der Tuchhändler Mitglied der Royal Society."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1673 · London",
+        "style": "head"
+       },
+       {
+        "text": "Briefe auf Niederländisch",
+        "style": "title",
+        "size": 58,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Die Royal Society, London"
+       },
+       {
+        "text": "Er hatte recht",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1680",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Mitglied der Royal Society",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Ein neugieriges Leben",
+   "lines": [
+    [
+     "Er schickte der Society etwa 190 Briefe.",
+     "Er schickte der Society etwa hundertneunzig Briefe."
+    ],
+    "Er untersuchte rote Blutkörperchen,",
+    "aber auch Flöhe und Kornkäfer,",
+    "und zeigte, dass diese Insekten aus Eiern schlüpfen.",
+    "Sogar Peter der Große aus Russland besuchte ihn.",
+    [
+     "Er starb 1723 in Delft, mit 90 Jahren.",
+     "Er starb siebzehnhundertdreiundzwanzig in Delft, mit neunzig Jahren."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "190",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Briefe",
+        "style": "mid"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "Aus Eiern",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "Peter der Große",
+        "style": "title",
+        "size": 76
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1632 – 1723",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Seine Frage",
+   "lines": [
+    "Heute nennt man ihn den Vater der Mikrobiologie.",
+    "Der Kampf gegen Krankheiten begann mit diesem Blick.",
+    "Die Neugier eines Tuchhändlers öffnete eine neue Welt.",
+    "Seine Frage an dich:",
+    "Was in deiner Nähe ist einen genaueren Blick wert?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Vater der Mikrobiologie",
+        "style": "title",
+        "size": 60,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage an dich",
+        "style": "kicker"
+       },
+       {
+        "text": "Was ist einen genaueren Blick wert?",
+        "style": "head",
+        "size": 44,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "An diesem Tag, am 24. Oktober,",
+     "An diesem Tag, am vierundzwanzigsten Oktober,"
+    ],
+    [
+     "erinnern wir an Antonie van Leeuwenhoek.",
+     "erinnern wir an Antoni van Lehwenhuk."
+    ]
+   ],
+   "data": {
+    "name": "Leeuwenhoek",
+    "years": "1632 – 1723"
+   }
+  }
+ ]
+}

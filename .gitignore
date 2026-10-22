@@ -8,3 +8,5 @@ __pycache__/
 ffmpeg2pass*
 episodes/*/*.png
 pipeline/models/kokoro-multi-lang-v1_0/
+pipeline/models/vits-piper-de_DE-thorsten-high/
+pipeline/models/kokoro-onnx/

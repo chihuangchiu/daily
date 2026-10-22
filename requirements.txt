@@ -4,3 +4,6 @@ pillow
 pypinyin
 onnxruntime
 sherpa-onnx
+kokoro-onnx
+misaki[ja]  # needs unidic-lite; if its build fails, copy its unidic_lite/ folder into site-packages (RUNBOOK J)
+pyopenjtalk-plus

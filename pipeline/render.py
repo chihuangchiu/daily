@@ -44,7 +44,7 @@ def F(kind, size):
                 f = ImageFont.truetype(path, 20, index=i)
             except Exception:
                 break
-            if f.getname()[0].endswith("TC"):
+            if f.getname()[0].endswith("JP" if globals().get("LANG") == "ja" else "TC"):
                 _idx[path] = i
                 break
     key = (path, size)
@@ -744,7 +744,7 @@ def make_overlay(dark=False):
         band[..., :3] = (20, 14, 10)
         band[..., 3] = (np.linspace(1, 0, 150) ** 1.3 * 120).astype(np.uint8)[:, None]
         ov.alpha_composite(Image.fromarray(band, "RGBA"), (0, 0))
-    hi = text_img(TXT["header"], F("serif-bold", 30 if LANG == "zh" else 27), ((226, 120, 104) if dark else RED) + (255,))
+    hi = text_img(TXT["header"], F("serif-bold", 30 if CJK else 27), ((226, 120, 104) if dark else RED) + (255,))
     ov.paste(hi, (60, 72 - hi.height // 2), hi)
     hr = text_img(EP["mmdd"], F("serif-black", 34), (CREAM if dark else INK) + (255,))
     ov.paste(hr, (660 - hr.width, 72 - hr.height // 2), hr)
@@ -775,7 +775,7 @@ def wrap_en(s, f, maxw=600):
 
 
 def sub_img(s):
-    if LANG != "zh":
+    if not CJK:
         f = F("sans-med", 36)
         lines = wrap_en(s, f)
         for ln in lines:
@@ -785,7 +785,7 @@ def sub_img(s):
         f = F("sans-med", 40)
         s = clean_sub(s)
         lines = [s]
-    if LANG == "zh" and f.getlength(s) > 600:
+    if CJK and f.getlength(s) > 600:
         sp = [i for i, ch in enumerate(s) if ch == "　"]
         mid = len(s) / 2
         cut = min(sp, key=lambda i: abs(i - mid)) if sp else int(mid)
@@ -824,7 +824,11 @@ LANG = EP.get("lang", "zh")
 # zh: Facebook 「今天，誰改變了世界」 + YouTube 「今天 誰改變了世界」; en: YouTube "Who Changed the World Today"
 TXT = dict(zh=dict(header="今天，誰改變了世界", kicker="歷史上的今天", end_kicker=f"歷史上的今天　{EP['mmdd']}"),
            en=dict(header="Who Changed the World Today", kicker="On This Day", end_kicker=f"On This Day · {EP['mmdd']}"),
-           es=dict(header="¿Quién cambió el mundo hoy?", kicker="Un día como hoy", end_kicker=f"Un día como hoy · {EP['mmdd']}"))[LANG]
+           es=dict(header="¿Quién cambió el mundo hoy?", kicker="Un día como hoy", end_kicker=f"Un día como hoy · {EP['mmdd']}"),
+           pt=dict(header="Quem mudou o mundo hoje?", kicker="Um dia como hoje", end_kicker=f"Um dia como hoje · {EP['mmdd']}"),
+           de=dict(header="Wer hat heute die Welt verändert?", kicker="An diesem Tag", end_kicker=f"An diesem Tag · {EP['mmdd']}"),
+           ja=dict(header="今日、世界を変えたのは誰", kicker="今日は何の日", end_kicker=f"今日は何の日　{EP['mmdd']}"))[LANG]
+CJK = LANG in ("zh", "ja")
 TLJ = json.load(open(os.path.join(EP_DIR, "timeline.json")))
 TL = TLJ["scenes"]
 TOTAL = TLJ["total"]

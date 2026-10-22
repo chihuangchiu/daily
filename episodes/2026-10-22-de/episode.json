@@ -1,0 +1,546 @@
+{
+ "lang": "de",
+ "date": "2026-10-22",
+ "mmdd": "10.22",
+ "person": "Franz Liszt",
+ "event": "Geboren in Raiding (1811)",
+ "title": "Heute vor 215 Jahren: Ein Mann füllte allein ein Konzert | Franz Liszt",
+ "footer": "Franz Liszt 1811–1886  |  215. Geburtstag",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "An diesem Tag, am 22. Oktober.",
+     "An diesem Tag, am zweiundzwanzigsten Oktober."
+    ],
+    [
+     "Heute vor 215 Jahren",
+     "Heute vor zweihundertfünfzehn Jahren"
+    ],
+    "wurde in einem kleinen Dorf in Ungarn ein Junge geboren.",
+    "Er machte das Klavier zum einzigen Star der Bühne,",
+    "und ganz Europa lag ihm zu Füßen.",
+    "Sein Name: Franz Liszt."
+   ],
+   "data": {
+    "big": "10.22",
+    "sub": "1811  —  2026",
+    "sub_at": 1,
+    "middle": [
+     {
+      "type": "text",
+      "text": "Ein Dorf in Ungarn",
+      "at": 2,
+      "until": 3
+     },
+     {
+      "type": "pills",
+      "items": [
+       "Das Klavier",
+       "Ganz Europa"
+      ],
+      "at": 3,
+      "until": 5
+     }
+    ],
+    "name": "Franz Liszt",
+    "name_years": "1811 – 1886",
+    "name_at": 5,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Kapitel 1  Ein Wunderkind",
+   "lines": [
+    [
+     "Er wurde am 22. Oktober 1811 geboren,",
+     "Er wurde am zweiundzwanzigsten Oktober achtzehnhundertelf geboren,"
+    ],
+    "im Dorf Raiding im Königreich Ungarn.",
+    "Heute gehört dieses Dorf zu Österreich.",
+    "Schon als Kind zeigte er eine erstaunliche Begabung.",
+    "Die Familie zog nach Wien, wo er bei Czerny Klavier lernte",
+    "und bei Salieri Komposition.",
+    [
+     "1823 zog die Familie weiter nach Paris.",
+     "Achtzehnhundertdreiundzwanzig zog die Familie weiter nach Paris."
+    ]
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1811",
+      "small": "Geboren in Raiding",
+      "at": 0
+     },
+     {
+      "big": "Wien",
+      "small": "Czerny und Salieri",
+      "at": 4
+     },
+     {
+      "big": "1823",
+      "small": "Weiter nach Paris",
+      "at": 6
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Die Geige, die ihn erschütterte",
+   "lines": [
+    "Mit etwa zwanzig Jahren hörte er in Paris",
+    "den Geiger Niccolò Paganini spielen.",
+    "Diese atemberaubende Technik erschütterte ihn.",
+    "Er ging zurück ans Klavier und übte Tag und Nacht.",
+    "Er wollte das Klavier dorthin bringen, wo noch niemand war.",
+    "Viele seiner späteren Stücke",
+    "sind für Pianisten bis heute eine große Herausforderung."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Paris",
+        "style": "mid"
+       },
+       {
+        "text": "Paganini",
+        "style": "title",
+        "size": 86,
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "der Geiger, der ihn erschütterte",
+        "style": "mid",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "Tag und Nacht",
+        "style": "head"
+       },
+       {
+        "text": "am Klavier",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Bis heute schwer",
+        "style": "title",
+        "size": 70,
+        "color": "red"
+       },
+       {
+        "text": "für Pianisten",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der erste Klavierabend",
+   "lines": [
+    [
+     "Am 9. Juni 1840 in London",
+     "Am neunten Juni achtzehnhundertvierzig in London"
+    ],
+    "nannte man seinen Auftritt einen Klavierabend.",
+    "Vorher hatte kaum jemand ein ganzes Konzert allein bestritten.",
+    "Er schaffte es.",
+    "Ein Mann und ein Klavier waren die ganze Bühne."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein Londoner Konzertsaal, 1840"
+       },
+       {
+        "text": "Ein Klavierabend",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Ein Mann",
+        "style": "title",
+        "size": 84
+       },
+       {
+        "text": "Ein Klavier",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "delay": 0.4
+       },
+       {
+        "text": "Die ganze Bühne",
+        "style": "head",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Lisztomanie",
+   "lines": [
+    "Er reiste durch ganz Europa, von Irland bis Russland,",
+    "und überall war das Publikum außer sich.",
+    [
+     "1844 gab der Dichter Heinrich Heine diesem Fieber einen Namen:",
+     "Achtzehnhundertvierundvierzig gab der Dichter Heinrich Heine diesem Fieber einen Namen:"
+    ],
+    "Lisztomanie.",
+    "Einen großen Teil seiner Einnahmen spendete er für Bedürftige.",
+    [
+     "1847, auf dem Gipfel seines Ruhms, hörte er mit den Tourneen auf.",
+     "Achtzehnhundertsiebenundvierzig, auf dem Gipfel seines Ruhms, hörte er mit den Tourneen auf."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Irland → Russland",
+        "style": "head"
+       },
+       {
+        "text": "Das Publikum tobte",
+        "style": "mid",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1844 · Heine",
+        "style": "mid"
+       },
+       {
+        "text": "Lisztomanie",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "Seine Einnahmen",
+        "style": "head"
+       },
+       {
+        "text": "für Bedürftige",
+        "style": "mid",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1847",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Keine Tourneen mehr",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Kapellmeister in Weimar",
+   "lines": [
+    [
+     "1848 ließ er sich als Hofkapellmeister in Weimar nieder.",
+     "Achtzehnhundertachtundvierzig ließ er sich als Hofkapellmeister in Weimar nieder."
+    ],
+    "Er schuf die sinfonische Dichtung, eine Geschichte für Orchester.",
+    [
+     "1850 dirigierte er in Weimar die Uraufführung",
+     "Achtzehnhundertfünfzig dirigierte er in Weimar die Uraufführung"
+    ],
+    "von Richard Wagners Oper Lohengrin.",
+    "Wagner lebte im Exil und konnte nicht dabei sein.",
+    "Liszt nutzte seinen Ruhm, um fremder Musik den Weg zu ebnen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1848 · Weimar",
+        "style": "head"
+       },
+       {
+        "text": "Sinfonische Dichtung",
+        "style": "title",
+        "size": 76,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "text": "1850",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Wagners Lohengrin",
+        "style": "head",
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "Wagner im Exil",
+        "style": "mid",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Sein Ruhm",
+        "style": "head"
+       },
+       {
+        "text": "ebnete den Weg",
+        "style": "title",
+        "size": 70,
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 6  Ein Lehrer ohne Honorar",
+   "lines": [
+    "In späteren Jahren widmete er sich mehr seinen Schülern.",
+    "Junge Pianisten kamen von überall zu seinem Unterricht,",
+    "und er unterrichtete sie, ohne Geld zu nehmen.",
+    [
+     "1865 empfing er die niederen Weihen: man nannte ihn Abbé Liszt.",
+     "Achtzehnhundertfünfundsechzig empfing er die niederen Weihen: man nannte ihn Abbé Liszt."
+    ],
+    [
+     "1875 wurde er Präsident der Musikakademie in Budapest.",
+     "Achtzehnhundertfünfundsiebzig wurde er Präsident der Musikakademie in Budapest."
+    ],
+    [
+     "Er starb am 31. Juli 1886 in Bayreuth, mit vierundsiebzig Jahren.",
+     "Er starb am einunddreißigsten Juli achtzehnhundertsechsundachtzig in Bayreuth, mit vierundsiebzig Jahren."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Sein Klavierunterricht"
+       },
+       {
+        "text": "Ohne Honorar",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "1865 · Abbé Liszt",
+        "style": "head"
+       },
+       {
+        "text": "1875 · Budapest",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1886.7.31",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Gestorben in Bayreuth",
+        "style": "head",
+        "delay": 0.5
+       },
+       {
+        "text": "mit 74 Jahren",
+        "style": "mid",
+        "delay": 1.0
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 7  Deine Antwort",
+   "lines": [
+    "Bis heute trägt jeder Klavierabend seinen Schatten.",
+    "Er zeigte, dass ein einziges Instrument eine Bühne füllen kann,",
+    "und dass Talent anderen den Weg erhellen kann.",
+    "Hier ist also seine Frage an dich:",
+    "Wenn du nur eine Sache auf die Bühne mitnehmen dürftest, welche?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Jeder Klavierabend",
+        "style": "head"
+       },
+       {
+        "text": "trägt seinen Schatten",
+        "style": "mid",
+        "delay": 0.4
+       },
+       {
+        "type": "rule",
+        "color": "ink",
+        "at": 1
+       },
+       {
+        "text": "Talent erhellt den Weg",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage an dich",
+        "style": "kicker"
+       },
+       {
+        "text": "Nur eine Sache auf der Bühne",
+        "style": "head",
+        "size": 52,
+        "at": 4
+       },
+       {
+        "text": "Welche wäre es?",
+        "style": "head",
+        "size": 58,
+        "color": "red",
+        "at": 4,
+        "delay": 1.2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "An diesem Tag, am 22. Oktober,",
+     "An diesem Tag, am zweiundzwanzigsten Oktober,"
+    ],
+    "erinnern wir an Franz Liszt."
+   ],
+   "data": {
+    "name": "Franz Liszt",
+    "years": "1811 – 1886"
+   }
+  }
+ ]
+}

@@ -1,7 +1,8 @@
 """episode.json -> narration.wav + timeline.json
 
 Usage: python3 narrate.py EPISODE_DIR [--target 238]
-episode.json "lang": "zh" (default, Baker FastSpeech2), "en" (Kokoro af_heart) or "es" (Kokoro ef_dora).
+episode.json "lang": "zh" (default, Baker FastSpeech2), "en" (Kokoro af_heart), "es" (Kokoro ef_dora),
+"pt" (Kokoro pf_dora), "de" (Piper thorsten-high) or "ja" (misaki G2P + Kokoro jf_alpha via kokoro-onnx).
 Synthesises every subtitle line (comma phrases separately), auto-tunes the
 speaking speed so the whole narration lands near --target seconds, and writes
 per-line timings that render.py uses for subtitles and reveals.
@@ -51,6 +52,84 @@ class EnTTS:
         return x
 
 
+def _resample(x, sr):
+    x = np.asarray(x, np.float32)
+    if sr != SR:
+        n = int(len(x) * SR / sr)
+        x = np.interp(np.linspace(0, len(x) - 1, n), np.arange(len(x)), x).astype(np.float32)
+    return x
+
+
+def _fetch(url, dest_dir):
+    os.makedirs(dest_dir, exist_ok=True)
+    print("downloading", url, flush=True)
+    if url.endswith(".tar.bz2"):
+        os.system(f'cd "{dest_dir}" && curl -sSfL "{url}" | tar xj')
+    else:
+        os.system(f'cd "{dest_dir}" && curl -sSfLO "{url}"')
+
+
+class PtTTS:
+    """Portuguese (lang "pt"): Kokoro pf_dora (sid 42) via sherpa-onnx, espeak pt-br."""
+    def __init__(self):
+        import sherpa_onnx
+        if not os.path.exists(os.path.join(KOKORO_DIR, "model.onnx")):
+            _fetch(KOKORO_URL, os.path.dirname(KOKORO_DIR))
+        d = KOKORO_DIR + "/"
+        self.tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
+            kokoro=sherpa_onnx.OfflineTtsKokoroModelConfig(
+                model=d + "model.onnx", voices=d + "voices.bin", tokens=d + "tokens.txt",
+                data_dir=d + "espeak-ng-data", dict_dir=d + "dict", lexicon="", lang="pt-br"), num_threads=4)))
+
+    def phrase(self, text, speed=1.0):
+        a = self.tts.generate(text, sid=42, speed=1.0 / speed)
+        return _resample(a.samples, a.sample_rate)
+
+
+PIPER_DE = os.path.join(HERE, "models", "vits-piper-de_DE-thorsten-high")
+PIPER_DE_URL = "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-de_DE-thorsten-high.tar.bz2"
+
+
+class DeTTS:
+    """German (lang "de"): Piper de_DE thorsten-high (male) via sherpa-onnx (Kokoro has no German voice)."""
+    def __init__(self):
+        import sherpa_onnx
+        if not os.path.exists(os.path.join(PIPER_DE, "de_DE-thorsten-high.onnx")):
+            _fetch(PIPER_DE_URL, os.path.dirname(PIPER_DE))
+        d = PIPER_DE + "/"
+        self.tts = sherpa_onnx.OfflineTts(sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
+            vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=d + "de_DE-thorsten-high.onnx", tokens=d + "tokens.txt",
+                                                       data_dir=d + "espeak-ng-data"), num_threads=4)))
+
+    def phrase(self, text, speed=1.0):
+        a = self.tts.generate(text, sid=0, speed=1.0 / speed)
+        return _resample(a.samples, a.sample_rate)
+
+
+KOKORO_ONNX = os.path.join(HERE, "models", "kokoro-onnx")
+KOKORO_ONNX_URLS = ["https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx",
+                    "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin"]
+
+
+class JaTTS:
+    """Japanese (lang "ja"): misaki G2P (pyopenjtalk) -> phonemes -> Kokoro jf_alpha via kokoro-onnx.
+    sherpa-onnx's Kokoro drops kanji and espeak's Japanese is unusable, so this path is required."""
+    def __init__(self):
+        from kokoro_onnx import Kokoro
+        from misaki import ja
+        for u in KOKORO_ONNX_URLS:
+            if not os.path.exists(os.path.join(KOKORO_ONNX, os.path.basename(u))):
+                _fetch(u, KOKORO_ONNX)
+        self.k = Kokoro(os.path.join(KOKORO_ONNX, "kokoro-v1.0.onnx"), os.path.join(KOKORO_ONNX, "voices-v1.0.bin"))
+        self.g2p = ja.JAG2P()
+
+    def phrase(self, text, speed=1.0):
+        ps = self.g2p(text)
+        ps = ps[0] if isinstance(ps, tuple) else ps
+        a, sr = self.k.create(ps, voice="jf_alpha", speed=max(0.5, min(2.0, 1.0 / speed)), lang="ja", is_phonemes=True)
+        return _resample(a, sr)
+
+
 class TTS:
     def __init__(self):
         from tts import BakerProcessor
@@ -89,6 +168,9 @@ def norm_line(ln):
 
 
 def spoken_parts(spoken, lang="zh"):
+    if lang == "ja":
+        sp = re.sub(r"[「」『』〈〉《》（）()\"“”]", "", spoken).strip()
+        return [sp] if sp else []
     if lang != "zh":
         # one natural phrase per subtitle line: Kokoro keeps the intonation, commas become its own short pauses
         sp = re.sub(r"[\"“”«»()\[\]]", "", spoken).strip()
@@ -147,7 +229,7 @@ def main():
     if bad:
         print("ERROR: spoken text must use Chinese numerals / no Latin letters:", *bad, sep="\n  ")
         sys.exit(2)
-    tts = EnTTS(lang) if lang != "zh" else TTS()
+    tts = {"zh": TTS, "pt": PtTTS, "de": DeTTS, "ja": JaTTS}.get(lang, lambda: EnTTS(lang))()
     audio, tl, speech, total = synth(tts, ep["scenes"], 1.0, lang)
     fixed = total - speech
     speed = (a.target - fixed) / speech

@@ -301,6 +301,34 @@ check passes). Copy opening.png/start.png/img1/img2/opening.mp4 from `episodes/D
 - Pronunciation check: sherpa-onnx Whisper base (`sherpa-onnx-whisper-base.tar.bz2`, `from_whisper(..., language="es")`).
 - post.txt starts `Título: …`; record in `covered-es.md`; media file `D-es.mp4`.
 
+## P/J/D. Portuguese, Japanese and German channels (Nathan 2026-10-22)
+Same person and story as the English video of D, 06:00 Taipei on D (`(D−1)T22:00:00Z`), each on its own YouTube channel:
+- Portuguese "Quem mudou o mundo hoje?" `cmviqybpp000ws67knh5z6wzo` — `episodes/D-pt`, `"lang": "pt"` (Kokoro pf_dora via
+  sherpa-onnx, espeak pt-br; Brazilian Portuguese). Header "Quem mudou o mundo hoje?", kicker "Um dia como hoje".
+  post.txt `Título: …`, closing lines "Conte sua resposta nos comentários." / "A narração é uma voz gerada por IA e este
+  vídeo foi feito com ajuda de IA. Se encontrar algum erro, avise nos comentários.", hashtags incl. #UmDiaComoHoje
+  #QuemMudouOMundoHoje; tags Shorts, Um dia como hoje, Quem mudou o mundo hoje, person, 1–2 topics.
+- German "Wer hat heute die Welt verändert?" `cmvir7imd0011s67ky3vmkijj` — `episodes/D-de`, `"lang": "de"` (Piper
+  de_DE thorsten-high, male; downloaded automatically). Header "Wer hat heute die Welt verändert?", kicker "An diesem
+  Tag". post.txt `Titel: …`, "Schreib deine Antwort in die Kommentare." / "Die Erzählstimme ist KI-generiert, und
+  dieses Video wurde mit Hilfe von KI erstellt. Wenn dir ein Fehler auffällt, schreib es gern in die Kommentare.",
+  hashtags incl. #AnDiesemTag #WerHatHeuteDieWeltVerändert; tags Shorts, An diesem Tag, Wer hat heute die Welt
+  verändert, person, 1–2 topics. Spoken years as words ("achtzehnhundertelf").
+- Japanese "今日、世界を変えたのは誰" `cmvir44qg000zs67kevg8s72x` — `episodes/D-ja`, `"lang": "ja"` (misaki G2P →
+  Kokoro jf_alpha via kokoro-onnx; render.py uses the JP font and CJK subtitle wrapping). Header 「今日、世界を変えたのは誰」,
+  kicker 「今日は何の日」. Spoken text can stay in kanji/digits (misaki reads them). Kokoro Japanese is slow: about
+  850 characters of narration for 170 s. Lines ≤ ~22 characters and every 、-separated piece ≤ 15 characters, or the
+  subtitle WARNS. post.txt `タイトル：…`, 「あなたの答えをコメントで教えてください。」/「ナレーションはAI音声で、この動画はAIの協力で
+  制作しています。内容に誤りがあれば、コメントでお知らせください。」, hashtags incl. #今日は何の日 #今日世界を変えたのは誰;
+  tags Shorts, 今日は何の日, 今日世界を変えたのは誰, person, 1–2 topics.
+- Template for all three: `episodes/2026-10-22-{pt,de,ja}`. Copy the pictures and clip from `episodes/D-en`;
+  translate every line and every on-screen text (timeline big/small, captions, pills, chapters); media files `D-pt.mp4`
+  etc.; record in `covered-pt.md`, `covered-de.md`, `covered-ja.md`.
+- Japanese setup: `pip install misaki kokoro-onnx fugashi jaconv mojimoji pyopenjtalk-plus`; `unidic-lite` fails to build
+  on this Python (setuptools install_layout): `pip download --no-binary :all: unidic-lite`, untar, and copy its
+  `unidic_lite/` folder into site-packages. kokoro-onnx model files download automatically (~350 MB).
+- Pronunciation check for pt/de/ja: sherpa-onnx Whisper base with the matching `language`.
+
 ## Calywood refusals (2026-10-22)
 - "輸入的參考圖被 BytePlus 偵測為含真人臉部": the drawing looks too much like a photo. Redraw opening.png (and start.png)
   as a clearly drawn illustration: add to the 4b prompt "render it clearly as a drawing: loose pen-and-ink lines,

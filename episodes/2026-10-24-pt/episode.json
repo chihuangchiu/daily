@@ -1,0 +1,359 @@
+{
+ "lang": "pt",
+ "date": "2026-10-24",
+ "mmdd": "10.24",
+ "person": "Antonie van Leeuwenhoek",
+ "event": "Nascimento em Delft (1632)",
+ "title": "Leeuwenhoek: há 394 anos nascia o vendedor de tecidos que viu um mundo oculto",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Um vendedor de tecidos foi o primeiro a ver bactérias.",
+    [
+     "Um dia como hoje, 24 de outubro.",
+     "Um dia como hoje, vinte e quatro de outubro."
+    ],
+    [
+     "Há 394 anos, nascia um menino em Delft, na Holanda.",
+     "Há trezentos e noventa e quatro anos, nascia um menino em Delft, na Holanda."
+    ],
+    "Ele não era cientista. Vendia tecidos.",
+    [
+     "Seu nome: Antonie van Leeuwenhoek.",
+     "Seu nome, Antônie van Lêuvenhuk."
+    ]
+   ],
+   "data": {
+    "hook": "O primeiro a\nver bactérias",
+    "sub": "1632  —  2026",
+    "sub_at": 2,
+    "name": "Leeuwenhoek",
+    "name_years": "Antonie van Leeuwenhoek · 1632 – 1723",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.23,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Capítulo 1  O vendedor de tecidos",
+   "lines": [
+    [
+     "Aos 16 anos, foi aprendiz numa loja de Amsterdã.",
+     "Aos dezesseis anos, foi aprendiz numa loja de Amsterdã."
+    ],
+    [
+     "Em 1654, abriu sua própria loja em Delft.",
+     "Em mil seiscentos e cinquenta e quatro, abriu sua própria loja em Delft."
+    ],
+    "Um vendedor de tecidos precisa ver bem os fios,",
+    "mas as lupas da época não eram nítidas."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "16 anos",
+      "small": "Aprendiz em Amsterdã",
+      "at": 0
+     },
+     {
+      "big": "1654",
+      "small": "Sua loja em Delft",
+      "at": 1
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Uma gota de água",
+   "lines": [
+    "Sem estudo científico, aprendeu sozinho a fazer lentes.",
+    "Fez mais de quinhentas lentes.",
+    [
+     "Seu melhor microscópio aumentava cerca de 275 vezes.",
+     "Seu melhor microscópio aumentava cerca de duzentas e setenta e cinco vezes."
+    ],
+    "Então olhou para uma gota de água de um lago.",
+    "E viu incontáveis criaturinhas nadando.",
+    "Ele as chamou de animálculos.",
+    "Mais tarde, viu até bactérias."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "500+",
+        "style": "huge",
+        "size": 140,
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "lentes feitas à mão",
+        "style": "mid"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "275×",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Vida minúscula numa gota de água"
+       },
+       {
+        "text": "Animálculos",
+        "style": "head",
+        "color": "red",
+        "at": 5
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "Bactérias",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  As cartas para Londres",
+   "lines": [
+    [
+     "Em 1673, suas cartas chegaram à Royal Society.",
+     "Em mil seiscentos e setenta e três, suas cartas chegaram à Royal Society."
+    ],
+    "Ele não sabia latim e escrevia em holandês.",
+    [
+     "Em 1676, descreveu as criaturinhas da água.",
+     "Em mil seiscentos e setenta e seis, descreveu as criaturinhas da água."
+    ],
+    "Os sábios de Londres duvidaram.",
+    "A Sociedade conferiu e viu que ele tinha razão.",
+    [
+     "Em 1680, o vendedor de tecidos entrou para a Sociedade.",
+     "Em mil seiscentos e oitenta, o vendedor de tecidos entrou para a Sociedade."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1673 · Londres",
+        "style": "head"
+       },
+       {
+        "text": "Cartas em holandês",
+        "style": "title",
+        "size": 64,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A Royal Society, Londres"
+       },
+       {
+        "text": "Ele tinha razão",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1680",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Membro da Royal Society",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Uma vida de curiosidade",
+   "lines": [
+    [
+     "Enviou cerca de 190 cartas à Sociedade.",
+     "Enviou cerca de cento e noventa cartas à Sociedade."
+    ],
+    "Estudou glóbulos vermelhos, pulgas e gorgulhos,",
+    "e mostrou que esses insetos nascem de ovos.",
+    "Pedro, o Grande, da Rússia, foi conhecê-lo.",
+    [
+     "Morreu em Delft em 1723, aos 90 anos.",
+     "Morreu em Delft em mil setecentos e vinte e três, aos noventa anos."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "190",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "cartas",
+        "style": "mid"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Nascem de ovos",
+        "style": "title",
+        "size": 76,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "Pedro, o Grande",
+        "style": "title",
+        "size": 76
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1632 – 1723",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  A pergunta dele",
+   "lines": [
+    "Hoje, ele é chamado de pai da microbiologia.",
+    "A luta contra as doenças começou ao ver essa vida.",
+    "A curiosidade de um vendedor abriu um mundo novo.",
+    "A pergunta dele para você:",
+    "o que ao seu redor merece um olhar mais de perto?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Pai da microbiologia",
+        "style": "title",
+        "size": 66,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele para você",
+        "style": "kicker"
+       },
+       {
+        "text": "O que merece um olhar mais de perto?",
+        "style": "head",
+        "size": 44,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Um dia como hoje, 24 de outubro,",
+     "Um dia como hoje, vinte e quatro de outubro,"
+    ],
+    [
+     "lembramos Antonie van Leeuwenhoek.",
+     "lembramos Antônie van Lêuvenhuk."
+    ]
+   ],
+   "data": {
+    "name": "Leeuwenhoek",
+    "years": "1632 – 1723"
+   }
+  }
+ ]
+}

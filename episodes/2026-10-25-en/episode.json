@@ -1,0 +1,350 @@
+{
+ "lang": "en",
+ "date": "2026-10-25",
+ "mmdd": "10.25",
+ "person": "Johann Strauss II",
+ "event": "Born in Vienna (1825)",
+ "title": "201 Years Ago Today, the Boy Banned From Music Became the Waltz King | Strauss",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Banned from music, he became the Waltz King.",
+    [
+     "On this day, October 25.",
+     "On this day, October twenty-fifth."
+    ],
+    [
+     "201 years ago today, a boy was born in Vienna.",
+     "Two hundred and one years ago today, a boy was born in Vienna."
+    ],
+    "One day, the whole world would dance to his music.",
+    [
+     "His name: Johann Strauss II.",
+     "His name, Johann Strauss the Second."
+    ]
+   ],
+   "data": {
+    "hook": "Banned from music,\nhe ruled the waltz",
+    "sub": "1825  —  2026",
+    "sub_at": 2,
+    "name": "Strauss",
+    "name_years": "Johann Strauss II · 1825 – 1899",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The secret violin",
+   "lines": [
+    [
+     "He was born on October 25, 1825, in Vienna.",
+     "He was born on October twenty-fifth, eighteen twenty-five, in Vienna."
+    ],
+    "His father was a famous musician in Vienna,",
+    "but he did not want his son to make music.",
+    "He wanted the boy to become a banker.",
+    "For a while, he even worked as a bank clerk.",
+    "So the boy took violin lessons in secret.",
+    "When his father found out, he reportedly whipped him.",
+    "But the boy never put down the violin."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1825",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Vienna",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "text": "No music!",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Secret violin lessons"
+       },
+       {
+        "text": "He never gave up",
+        "style": "head",
+        "color": "red",
+        "at": 7
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  The first concert",
+   "lines": [
+    [
+     "In October 1844, at the age of nineteen,",
+     "In October eighteen forty-four, at the age of nineteen,"
+    ],
+    "he led his own orchestra for the first time,",
+    "at Dommayer's Casino, near Vienna.",
+    "He wrote the music, and he conducted it,",
+    "and soon all of Vienna knew his name."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1844",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "First concert",
+        "style": "title",
+        "size": 70,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Composer + conductor",
+        "style": "title",
+        "size": 60,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The Blue Danube",
+   "lines": [
+    [
+     "On February 15, 1867, in Vienna,",
+     "On February fifteenth, eighteen sixty-seven, in Vienna,"
+    ],
+    "his waltz The Blue Danube was played for the first time.",
+    "It went on to travel all around the world.",
+    "It may be the most famous waltz ever written.",
+    "In Austria, it is loved like an unofficial anthem."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1867.2.15",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Premiere in Vienna",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "The Blue Danube",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  A thousand performers",
+   "lines": [
+    [
+     "In 1872, he was invited to Boston, in the United States.",
+     "In eighteen seventy-two, he was invited to Boston, in the United States."
+    ],
+    "At a huge music festival, the World's Peace Jubilee,",
+    "he led more than a thousand performers",
+    "in The Blue Danube.",
+    "People called it the Monster Concert.",
+    "In his life he wrote about five hundred dance pieces,",
+    [
+     "and operettas such as Die Fledermaus.",
+     "and operettas such as Dee Fleddermouse."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "World's Peace Jubilee, Boston, 1872"
+       },
+       {
+        "text": "1,000+ performers",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "~500",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "dance pieces",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  His question",
+   "lines": [
+    [
+     "He died in Vienna on June 3, 1899, at seventy-three.",
+     "He died in Vienna on June third, eighteen ninety-nine, at seventy-three."
+    ],
+    "He was buried in Vienna's Central Cemetery.",
+    "Today, Vienna's New Year's Concert",
+    "still plays his waltzes.",
+    "A boy banned from music set the whole world dancing.",
+    "His question for you:",
+    "what would you keep doing, even if others said no?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1825 – 1899",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "New Year's Concert",
+        "style": "title",
+        "size": 66,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "The world dances",
+        "style": "title",
+        "size": 66,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question for you",
+        "style": "kicker"
+       },
+       {
+        "text": "What would you keep doing?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "On this day, October 25,",
+     "On this day, October twenty-fifth,"
+    ],
+    [
+     "we remember Johann Strauss II.",
+     "we remember Johann Strauss the Second."
+    ]
+   ],
+   "data": {
+    "name": "Johann Strauss II",
+    "years": "1825 – 1899"
+   }
+  }
+ ]
+}

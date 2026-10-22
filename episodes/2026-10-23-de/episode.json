@@ -1,0 +1,341 @@
+{
+ "lang": "de",
+ "date": "2026-10-23",
+ "mmdd": "10.23",
+ "person": "Gertrude Ederle",
+ "event": "Geboren in New York (1905)",
+ "title": "Vor 121 Jahren geboren: Die Frau, die schneller schwamm als alle Männer | Gertrude Ederle",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Sie schwamm schneller als alle Männer.",
+    [
+     "An diesem Tag, am 23. Oktober.",
+     "An diesem Tag, am dreiundzwanzigsten Oktober."
+    ],
+    [
+     "Vor 121 Jahren kam in New York ein Mädchen zur Welt.",
+     "Vor hunderteinundzwanzig Jahren kam in New York ein Mädchen zur Welt."
+    ],
+    "Man sagte, keine Frau schafft den Ärmelkanal.",
+    "Ihr Name: Gertrude Ederle."
+   ],
+   "data": {
+    "hook": "Schneller als\nalle Männer",
+    "sub": "1905  —  2026",
+    "sub_at": 2,
+    "name": "Ederle",
+    "name_years": "Gertrude Ederle · 1905 – 2003",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "timeline",
+   "chapter": "Kapitel 1  Die Tochter des Metzgers",
+   "lines": [
+    "Ihr Vater hatte eine Metzgerei in Manhattan.",
+    "Schwimmen lernte sie an einem Strand in New Jersey.",
+    "Eine Krankheit schwächte als Kind ihr Gehör,",
+    "doch im Wasser fühlte sie sich zu Hause.",
+    "Als Teenager trat sie einem Schwimmverein für Frauen bei",
+    "und stellte Rekord um Rekord auf."
+   ],
+   "data": {
+    "nodes": [
+     {
+      "big": "1905",
+      "small": "New York",
+      "at": 0
+     },
+     {
+      "big": "Rekorde",
+      "small": "Schon als Teenager",
+      "at": 5
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Die erste Niederlage",
+   "lines": [
+    [
+     "1924 schwamm sie bei den Olympischen Spielen in Paris.",
+     "Neunzehnhundertvierundzwanzig schwamm sie bei den Olympischen Spielen in Paris."
+    ],
+    "Sie gewann Gold in der Staffel und zweimal Bronze.",
+    "Doch ihr Traum war der Ärmelkanal.",
+    [
+     "1925 wagte sie den ersten Versuch.",
+     "Neunzehnhundertfünfundzwanzig wagte sie den ersten Versuch."
+    ],
+    "Auf halber Strecke wurde sie aus dem Wasser geholt.",
+    "Viele sagten, das war das Ende.",
+    "Sie trainierte härter und kam ein Jahr später wieder."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1924 · Paris",
+        "style": "head"
+       },
+       {
+        "text": "1 × Gold · 2 × Bronze",
+        "style": "title",
+        "size": 60,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Der Ärmelkanal",
+        "style": "title",
+        "size": 74,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "text": "1925",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Disqualifiziert",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "Kein Aufgeben",
+        "style": "title",
+        "size": 76,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  6. August 1926",
+   "lines": [
+    [
+     "Am 6. August 1926 stieg sie in Frankreich ins Meer.",
+     "Am sechsten August neunzehnhundertsechsundzwanzig stieg sie in Frankreich ins Meer."
+    ],
+    "Gegen die Kälte war ihr Körper mit Fett eingerieben.",
+    "Die Wellen waren hoch, dann kam ein Sturm.",
+    "Doch sie schwamm weiter, Stunde um Stunde.",
+    "Ihr Begleitboot blieb immer dicht neben ihr.",
+    [
+     "Nach 14,5 Stunden erreichte sie England.",
+     "Nach vierzehneinhalb Stunden erreichte sie England."
+    ],
+    "Sie war die erste Frau, die den Ärmelkanal durchschwamm.",
+    "Den Rekord der Männer schlug sie um fast zwei Stunden."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Der Ärmelkanal, August 1926"
+       },
+       {
+        "text": "Frankreich → England",
+        "style": "mid",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "until": 7,
+      "items": [
+       {
+        "text": "14½ Stunden",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "Die erste Frau",
+        "style": "head",
+        "color": "red",
+        "at": 6
+       }
+      ]
+     },
+     {
+      "at": 7,
+      "items": [
+       {
+        "text": "−2 Stunden",
+        "style": "big",
+        "size": 92,
+        "color": "red"
+       },
+       {
+        "text": "Rekord der Männer",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Ein geteiltes Geschenk",
+   "lines": [
+    "In New York füllten riesige Menschenmengen die Straßen.",
+    "Zeitungen in aller Welt erzählten ihre Geschichte.",
+    "Später trat sie in Wassershows und in einem Film auf.",
+    "Mit den Jahren wurde sie fast taub.",
+    "Und sie brachte gehörlosen Kindern das Schwimmen bei.",
+    [
+     "Sie starb 2003 mit 98 Jahren.",
+     "Sie starb zweitausenddrei mit achtundneunzig Jahren."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Parade in New York, 1926"
+       },
+       {
+        "text": "Eine Heldin",
+        "style": "head",
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "Fast taub",
+        "style": "head"
+       },
+       {
+        "text": "Schwimmen für gehörlose Kinder",
+        "style": "mid",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "1905 – 2003",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Ihre Frage",
+   "lines": [
+    "Man sagte, es sei unmöglich. Sie bewies das Gegenteil.",
+    "Als sie ihr Gehör verlor, gab sie ihr Können weiter.",
+    "Ihre Frage an dich:",
+    "Was, sagen andere, kannst du nicht schaffen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Unmöglich?",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage an dich",
+        "style": "kicker"
+       },
+       {
+        "text": "Was kannst du angeblich nicht?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "An diesem Tag, am 23. Oktober,",
+     "An diesem Tag, am dreiundzwanzigsten Oktober,"
+    ],
+    "erinnern wir an Gertrude Ederle."
+   ],
+   "data": {
+    "name": "Gertrude Ederle",
+    "years": "1905 – 2003"
+   }
+  }
+ ]
+}

@@ -21,6 +21,24 @@ Fixed facts
   (publish) date of the video being made: its month/day drives the topic, the "N年前的今天" years, the folder
   episodes/D, the media file name and the publish time.
 
+## 0b. Length, hook and on-screen text (Nathan 2026-10-22) — overrides the older numbers below
+- **Length: about 120 s** (TARGET=120 is now build.sh's default). Final video 112–128 s; speed in check 0.92–1.10.
+  Narration size: Chinese ~460–500 characters (~40–45 lines, 7 scenes: hook/title → 4 chapters → legacy + question →
+  end); English ~300–320 words; Spanish/Portuguese ~280–310; German ~270–290; Japanese ~600 characters.
+  Keep the strongest 4 chapters; drop side facts rather than speeding up.
+- **Hook in the first 2 seconds.** Line 0 of the title scene is a spoken hook: the single most surprising or emotional
+  fact, said in under ~2 s (Chinese ≤ 16 characters, English ≤ 10 words), e.g. 「他一個人，讓全歐洲為鋼琴瘋狂。」 /
+  "He made all of Europe go wild for a piano." The date line ("歷史上的今天，10月22日" / "On this day, October 22")
+  comes second. In the title `data` set `"hook": "<2 short rows split by \n>"` (same idea, ≤ 2 rows of ≤ 10 CJK
+  characters or ≤ 22 Latin characters each). render.py shows the hook big over the clip from frame 0 (frame 0 is the
+  Shorts thumbnail) and brings in the kicker + MM.DD date only when line 1 starts (`hook_until`, default 1).
+  The title scene then needs only the date, `sub` (years) and `name` — drop the `middle` texts/pills.
+- **On-screen text: only what earns its place.** Per phase at most 2 text items (one big keyword or number + at most
+  one short line); never repeat the subtitle sentence on screen; a phase disappears as soon as its line has passed;
+  chapter scenes may be just one big number or word. No footer line (render.py no longer draws it: the Shorts UI
+  covers the bottom of the frame). Subtitles are narrower now to stay clear of the Shorts buttons: Western-language
+  lines ≤ ~55 characters, CJK pieces between commas ≤ 14 characters.
+
 ## 0. Plan the run
 1. Target dates = run date + 1 … run date + WINDOW.
 2. Postiz `postsListTool` from (first target date − 1 day)T16:00:00 to (last target date)T16:00:00 UTC. For each target

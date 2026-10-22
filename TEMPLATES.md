@@ -29,6 +29,8 @@ optional `delay` (seconds after that line starts), optional `until` = line index
 ## templates
 
 ### title (opening scene, no chapter)
+`hook` (Nathan 2026-10-22): 1–2 short rows split by `\n`, shown big from frame 0 while line 0 (the spoken hook) plays;
+the kicker and date appear at line `hook_until` (default 1). `hook_size`, `hook_y` optional. See RUNBOOK 0b.
 `kicker`, `big` (defaults to mmdd), `sub` + `sub_at`,
 `middle`: list of `{type:"text", text, at, until}` or `{type:"pills", items:[...], at, until}` shown at y≈700,
 `name`, `name_years`, `seal` (2–4 chars red seal), `name_at`,

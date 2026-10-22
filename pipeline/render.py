@@ -558,9 +558,29 @@ def b_title(c):
             align = d.get("video_align", "start")
             els.append(VideoCover(d["video"], 0.0, float(d.get("video_secs", 3)), d.get("image_label", AI_LABEL),
                                   fade=0.25 if align == "end" else 0.5, shift=d.get("image_shift", 0), align=align))
+    # hook (Nathan 2026-10-22): the first ~2 s show one big hook line instead of the date; the date block
+    # (kicker + big MM.DD) appears when the second narration line starts. Frame 0 = hook = Shorts thumbnail.
+    t_date = -1.0
+    if d.get("hook"):
+        t_date = c.t(d.get("hook_until", 1))
+        rows = [fit_text(r, "serif-black", d.get("hook_size", 76 if CJK else 70), CREAM if dark else RED, 620)
+                for r in d["hook"].split("\n")]
+        gap = 8
+        hh = sum(r.height for r in rows) + gap * (len(rows) - 1)
+        hk = Image.new("RGBA", (max(r.width for r in rows) + 40, hh + 40), (0, 0, 0, 0))
+        y = 20
+        for r in rows:
+            hk.paste(r, ((hk.width - r.width) // 2, y), r)
+            y += r.height + gap
+        if dark:  # soft shadow so the hook reads on any picture
+            sh = Image.new("RGBA", hk.size, (0, 0, 0, 0))
+            sh.putalpha(hk.getchannel("A").filter(ImageFilter.GaussianBlur(8)).point(lambda v: int(v * 0.8)))
+            blk = Image.new("RGBA", hk.size, (10, 6, 4, 255)); blk.putalpha(sh.getchannel("A"))
+            blk.alpha_composite(hk); hk = blk
+        els.append(place(hk, 360, d.get("hook_y", 360), -1.0, t_date, "fade", 0.3))
     els += [
-        place(fit_text(d.get("kicker", TXT["kicker"]), "serif-med", 44, muted, 640), 360, 262, -1.0),
-        place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, -1.0),
+        place(fit_text(d.get("kicker", TXT["kicker"]), "serif-med", 44, muted, 640), 360, 262, t_date),
+        place(fit_text(d.get("big", ep["mmdd"]), "serif-black", 220, ink, 640), 360, 410, t_date),
     ]
     if d.get("sub"):
         els.append(rule_el(170, 550, 540, c.t(d.get("sub_at", 1)), (214, 96, 84) if dark else RED))
@@ -749,7 +769,7 @@ def make_overlay(dark=False):
     hr = text_img(EP["mmdd"], F("serif-black", 34), (CREAM if dark else INK) + (255,))
     ov.paste(hr, (660 - hr.width, 72 - hr.height // 2), hr)
     ImageDraw.Draw(ov).line((60, 108, 660, 108), fill=(CREAM if dark else INK) + (90,), width=1)
-    if EP.get("footer"):
+    if EP.get("footer") and EP.get("show_footer"):
         ft = fit_text(EP["footer"], "sans", 21, LIGHT if dark else MUTED, 640)
         ov.paste(ft, ((W - ft.width) // 2, 1196), ft)
     return ov
@@ -759,7 +779,7 @@ def clean_sub(s):
     return re.sub(r"[，、；：。]", "　", s).strip("　 ")
 
 
-def wrap_en(s, f, maxw=600):
+def wrap_en(s, f, maxw=560):
     """balanced two-row word wrap for English subtitles"""
     s = re.sub(r"\s+", " ", s).strip()
     if f.getlength(s) <= maxw:
@@ -779,19 +799,19 @@ def sub_img(s):
         f = F("sans-med", 36)
         lines = wrap_en(s, f)
         for ln in lines:
-            if f.getlength(ln) > 640:
+            if f.getlength(ln) > 600:
                 WARN.append(f"subtitle line too long: {ln}")
     else:
         f = F("sans-med", 40)
         s = clean_sub(s)
         lines = [s]
-    if CJK and f.getlength(s) > 600:
+    if CJK and f.getlength(s) > 560:
         sp = [i for i, ch in enumerate(s) if ch == "　"]
         mid = len(s) / 2
         cut = min(sp, key=lambda i: abs(i - mid)) if sp else int(mid)
         lines = [s[:cut].strip("　"), s[cut:].strip("　")]
         for ln in lines:
-            if f.getlength(ln) > 640:
+            if f.getlength(ln) > 600:
                 WARN.append(f"subtitle line too long: {ln}")
     tis = [text_img(x, f, CREAM + (255,)) for x in lines]
     w, h = max(t.width for t in tis) + 52, 56 * len(tis) + 26

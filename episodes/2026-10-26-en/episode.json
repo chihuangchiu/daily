@@ -1,0 +1,347 @@
+{
+ "lang": "en",
+ "date": "2026-10-26",
+ "mmdd": "10.26",
+ "person": "Mahalia Jackson",
+ "event": "Born in New Orleans (1911)",
+ "title": "Mahalia Jackson: 115 Years Ago Today, the Voice Behind \"I Have a Dream\" Was Born",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Her shout helped King tell the world his dream.",
+    [
+     "On this day, October 26.",
+     "On this day, October twenty-sixth."
+    ],
+    [
+     "115 years ago today, a girl was born in New Orleans.",
+     "One hundred and fifteen years ago today, a girl was born in New Orleans."
+    ],
+    "She would become the Queen of Gospel.",
+    [
+     "Her name: Mahalia Jackson.",
+     "Her name, Mahalia Jackson."
+    ]
+   ],
+   "data": {
+    "hook": "Her shout gave us\n\"I Have a Dream\"",
+    "sub": "1911  —  2026",
+    "sub_at": 2,
+    "name": "Mahalia",
+    "name_years": "Mahalia Jackson · 1911 – 1972",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Songs of hope",
+   "lines": [
+    [
+     "She was born on October 26, 1911, in New Orleans.",
+     "She was born on October twenty-sixth, nineteen eleven, in New Orleans."
+    ],
+    "Her family was poor, and she lost her mother very young.",
+    "As a child, she sang in church.",
+    "At sixteen, she moved north to Chicago.",
+    "People kept telling her to sing the blues.",
+    "She always refused.",
+    "To her, gospel was the music of hope."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A small church in New Orleans"
+       },
+       {
+        "text": "1911",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "Age 16",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Chicago",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Only gospel",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Side by side",
+   "lines": [
+    [
+     "In 1947, one of her gospel songs sold over a million copies.",
+     "In nineteen forty-seven, one of her gospel songs sold over a million copies."
+    ],
+    "It was the best-selling gospel record of its time.",
+    [
+     "In October 1950, she sang at Carnegie Hall in New York.",
+     "In October nineteen fifty, she sang at Carnegie Hall in New York."
+    ],
+    "In an age of segregation,",
+    "Black and white listeners sat side by side to hear her.",
+    "She later became the first gospel singer to win a Grammy."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1,000,000+",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "1947",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Carnegie Hall, 1950"
+       },
+       {
+        "text": "Side by side",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Grammy",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       },
+       {
+        "text": "First for gospel",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  250,000 people",
+   "lines": [
+    "She sang at benefit after benefit to raise money for civil rights.",
+    [
+     "August 28, 1963: the March on Washington.",
+     "August twenty-eighth, nineteen sixty-three: the March on Washington."
+    ],
+    "A quarter of a million people filled the Lincoln Memorial grounds.",
+    "Before Martin Luther King spoke,",
+    "she stepped up and sang a spiritual."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Singing for freedom",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "1963.8.28",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "250,000 people",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Tell them about the dream",
+   "lines": [
+    "King began his speech, reading from his notes.",
+    "Then Mahalia called out to him:",
+    "\"Tell them about the dream, Martin!\"",
+    "A friend who was there said King pushed his notes aside,",
+    "and spoke from the heart: \"I have a dream.\""
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "\"Tell them about the dream!\"",
+        "style": "title",
+        "size": 50,
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "\"I Have a Dream\"",
+        "style": "title",
+        "size": 72,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1968, King was killed, and she sang at his funeral.",
+     "In nineteen sixty-eight, King was killed, and she sang at his funeral."
+    ],
+    [
+     "She died near Chicago on January 27, 1972, at sixty.",
+     "She died near Chicago on January twenty-seventh, nineteen seventy-two, at sixty."
+    ],
+    "Tens of thousands of people came to her funeral.",
+    "Today she is remembered as the Queen of Gospel.",
+    "One honest shout can change a speech, and even an era.",
+    "Her question for you:",
+    "whose dream around you deserves a push from you?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "1911 – 1972",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "Queen of Gospel",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question",
+        "style": "kicker"
+       },
+       {
+        "text": "Whose dream needs a push?",
+        "style": "head",
+        "size": 50,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "On this day, October 26,",
+     "On this day, October twenty-sixth,"
+    ],
+    "we remember Mahalia Jackson."
+   ],
+   "data": {
+    "name": "Mahalia Jackson",
+    "years": "1911 – 1972"
+   }
+  }
+ ]
+}

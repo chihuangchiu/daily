@@ -1,0 +1,344 @@
+{
+ "lang": "de",
+ "date": "2026-10-26",
+ "mmdd": "10.26",
+ "person": "Mahalia Jackson",
+ "event": "Geboren in New Orleans (1911)",
+ "title": "Mahalia Jackson: Vor 115 Jahren geboren – die Stimme hinter \"I Have a Dream\"",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ihr Zuruf half King, der Welt seinen Traum zu erzählen.",
+    [
+     "An diesem Tag, am 26. Oktober.",
+     "An diesem Tag, am sechsundzwanzigsten Oktober."
+    ],
+    [
+     "Vor 115 Jahren kam in New Orleans ein Mädchen zur Welt.",
+     "Vor hundertfünfzehn Jahren kam in New Orleans ein Mädchen zur Welt."
+    ],
+    "Sie wurde die Königin des Gospels.",
+    "Ihr Name: Mahalia Jackson."
+   ],
+   "data": {
+    "hook": "Ihr Ruf schenkte uns\n\"I Have a Dream\"",
+    "sub": "1911  —  2026",
+    "sub_at": 2,
+    "name": "Mahalia",
+    "name_years": "Mahalia Jackson · 1911 – 1972",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Lieder der Hoffnung",
+   "lines": [
+    [
+     "Sie wurde am 26. Oktober 1911 in New Orleans geboren.",
+     "Sie wurde am sechsundzwanzigsten Oktober neunzehnhundertelf in New Orleans geboren."
+    ],
+    "Die Familie war arm, die Mutter starb früh.",
+    "Schon als Kind sang sie in der Kirche.",
+    "Mit sechzehn zog sie nach Norden, nach Chicago.",
+    "Immer wieder sollte sie Blues singen.",
+    "Sie weigerte sich jedes Mal.",
+    "Für sie war Gospel die Musik der Hoffnung."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine kleine Kirche in New Orleans"
+       },
+       {
+        "text": "1911",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "16 Jahre",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Chicago",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Nur Gospel",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Nebeneinander",
+   "lines": [
+    [
+     "1947 verkaufte sich eines ihrer Lieder über eine Million Mal.",
+     "Neunzehnhundertsiebenundvierzig verkaufte sich eines ihrer Lieder über eine Million Mal."
+    ],
+    "Es war die meistverkaufte Gospelplatte ihrer Zeit.",
+    [
+     "Im Oktober 1950 sang sie in der Carnegie Hall in New York.",
+     "Im Oktober neunzehnhundertfünfzig sang sie in der Carnegie Hall in New York."
+    ],
+    "In einer Zeit der Rassentrennung",
+    "saßen Schwarze und Weiße nebeneinander und hörten ihr zu.",
+    "Später gewann sie als erste Gospelsängerin einen Grammy."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1.000.000+",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "1947",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Carnegie Hall, 1950"
+       },
+       {
+        "text": "Nebeneinander",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Grammy",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       },
+       {
+        "text": "Die Erste im Gospel",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  250.000 Menschen",
+   "lines": [
+    "Sie sang bei Benefizkonzerten für die Bürgerrechte.",
+    [
+     "28. August 1963: der Marsch auf Washington.",
+     "Achtundzwanzigster August neunzehnhundertdreiundsechzig: der Marsch auf Washington."
+    ],
+    "Eine Viertelmillion Menschen füllte das Gelände am Lincoln Memorial.",
+    "Bevor Martin Luther King sprach,",
+    "trat sie auf und sang ein Spiritual."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Singen für Freiheit",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "1963.8.28",
+        "style": "big",
+        "size": 88
+       },
+       {
+        "text": "250.000 Menschen",
+        "style": "head",
+        "color": "red",
+        "at": 2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Erzähl vom Traum",
+   "lines": [
+    "King begann seine Rede und las vom Blatt.",
+    "Da rief Mahalia ihm zu:",
+    "\"Erzähl ihnen von dem Traum, Martin!\"",
+    "Ein Freund, der dabei war, sagt: King schob seine Notizen beiseite",
+    "und sprach frei: \"Ich habe einen Traum.\""
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "\"Erzähl von dem Traum!\"",
+        "style": "title",
+        "size": 50,
+        "color": "red",
+        "at": 2
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "\"Ich habe einen Traum\"",
+        "style": "title",
+        "size": 72,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1968 wurde King ermordet, und sie sang auf seiner Beerdigung.",
+     "Neunzehnhundertachtundsechzig wurde King ermordet, und sie sang auf seiner Beerdigung."
+    ],
+    [
+     "Sie starb am 27. Januar 1972 bei Chicago, mit 60 Jahren.",
+     "Sie starb am siebenundzwanzigsten Januar neunzehnhundertzweiundsiebzig bei Chicago, mit sechzig Jahren."
+    ],
+    "Zehntausende Menschen kamen zu ihrer Beerdigung.",
+    "Heute nennt man sie die Königin des Gospels.",
+    "Ein ehrlicher Zuruf kann eine Rede verändern, sogar eine Epoche.",
+    "Ihre Frage an dich:",
+    "Wessen Traum in deiner Nähe braucht einen Schubs von dir?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "1911 – 1972",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "Königin des Gospels",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wessen Traum braucht einen Schubs?",
+        "style": "head",
+        "size": 50,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "An diesem Tag, am 26. Oktober,",
+     "An diesem Tag, am sechsundzwanzigsten Oktober,"
+    ],
+    "erinnern wir an Mahalia Jackson."
+   ],
+   "data": {
+    "name": "Mahalia Jackson",
+    "years": "1911 – 1972"
+   }
+  }
+ ]
+}

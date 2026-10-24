@@ -1,0 +1,369 @@
+{
+ "lang": "en",
+ "date": "2026-10-27",
+ "mmdd": "10.27",
+ "person": "Niccolò Paganini",
+ "event": "Born in Genoa (1782)",
+ "title": "Paganini: 244 Years Ago Today, the Violinist Said to Have Sold His Soul Was Born",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Legend says he sold his soul to the devil.",
+    [
+     "On this day, October 27.",
+     "On this day, October twenty-seventh."
+    ],
+    [
+     "244 years ago today, a boy was born in Genoa, Italy.",
+     "Two hundred and forty-four years ago today, a boy was born in Genoa, Italy."
+    ],
+    "He would become the idol of all Europe.",
+    [
+     "His name: Niccolò Paganini.",
+     "His name, Nikolo Paganini."
+    ]
+   ],
+   "data": {
+    "hook": "Legend: he sold\nhis soul to the devil",
+    "sub": "1782  —  2026",
+    "sub_at": 2,
+    "name": "Paganini",
+    "name_years": "Niccolò Paganini · 1782 – 1840",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.32,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A boy by the harbour",
+   "lines": [
+    [
+     "He was born on October 27, 1782, in the port of Genoa.",
+     "He was born on October twenty-seventh, seventeen eighty-two, in the port of Genoa."
+    ],
+    "His father ran a small harbour shop and played the mandolin.",
+    "He learned the mandolin at five, and the violin at seven.",
+    [
+     "In 1794, not yet twelve, he played his first public concert.",
+     "In seventeen ninety-four, not yet twelve, he played his first public concert."
+    ],
+    "At eighteen, he became first violinist of the Republic of Lucca."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Genoa harbour, late 1700s"
+       },
+       {
+        "text": "Violin at 7",
+        "style": "head",
+        "color": "red",
+        "at": 2,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "1794",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "First concert",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Age 18",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "First violinist",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  One string",
+   "lines": [
+    [
+     "In 1805, Napoleon's sister Elisa became ruler of Lucca.",
+     "In eighteen oh five, Napoleon's sister Elisa became ruler of Lucca."
+    ],
+    "Paganini became a violinist at her court.",
+    [
+     "In 1807, for Napoleon's name day, he wrote a sonata.",
+     "In eighteen oh seven, for Napoleon's name day, he wrote a sonata."
+    ],
+    "The whole piece was played on a single string.",
+    "Others needed four strings. He needed only one."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Court of Lucca",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "1805",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1",
+        "style": "huge",
+        "size": 200,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "string",
+        "style": "head",
+        "at": 3,
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The devil's violinist",
+   "lines": [
+    [
+     "In 1828, he set off from Vienna on a tour of Europe.",
+     "In eighteen twenty-eight, he set off from Vienna on a tour of Europe."
+    ],
+    [
+     "In 1831, he conquered Paris and London.",
+     "In eighteen thirty-one, he conquered Paris and London."
+    ],
+    "His fingers moved impossibly fast.",
+    "Some even claimed they saw the devil helping him play.",
+    "A young pianist, Franz Liszt, listened, spellbound.",
+    "Liszt decided to become the Paganini of the piano."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Vienna",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "Paris · London",
+        "style": "head",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "The devil?",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Liszt",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "Paganini of the piano",
+        "style": "head",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The Cannon",
+   "lines": [
+    "His twenty-four Caprices are still a great test for violinists.",
+    [
+     "Liszt, Brahms and Rachmaninoff all reworked the twenty-fourth.",
+     "List, Brahms and Rakhmaninov all reworked the twenty-fourth."
+    ],
+    [
+     "He died in Nice on May 27, 1840.",
+     "He died in Neess on May twenty-seventh, eighteen forty."
+    ],
+    "He left his beloved violin, the Cannon, to his hometown.",
+    "Today it is kept in Genoa's town hall,",
+    "and the winners of the Paganini Competition get to play it."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "24",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Caprices",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "1782 – 1840",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "\"The Cannon\", made in 1743"
+       },
+       {
+        "text": "Left to Genoa",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "People called him the devil's violinist.",
+    "But what he really left us was a violin that could do anything.",
+    "His question for you:",
+    "if you had only one string left,",
+    "what would you play?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Legend",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "What would you play?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "On this day, October 27,",
+     "On this day, October twenty-seventh,"
+    ],
+    [
+     "we remember Niccolò Paganini.",
+     "we remember Nikolo Paganini."
+    ]
+   ],
+   "data": {
+    "name": "Niccolò Paganini",
+    "years": "1782 – 1840"
+   }
+  }
+ ]
+}

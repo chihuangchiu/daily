@@ -7,3 +7,4 @@
 | 2026-10-24 | Antonie van Leeuwenhoek | nacimiento (1632, Delft) |
 | 2026-10-25 | Johann Strauss II | nacimiento (1825, Viena) |
 | 2026-10-26 | Mahalia Jackson | nacimiento (1911, Nueva Orleans) |
+| 2026-10-27 | Niccolò Paganini | nace (1782, Génova) |

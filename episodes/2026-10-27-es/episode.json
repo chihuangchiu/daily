@@ -1,0 +1,363 @@
+{
+ "lang": "es",
+ "date": "2026-10-27",
+ "mmdd": "10.27",
+ "person": "Niccolò Paganini",
+ "event": "Nace en Génova (1782)",
+ "title": "Paganini: hace 244 años nació el violinista que, según la leyenda, vendió su alma",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Dicen que vendió su alma al diablo.",
+    [
+     "Un día como hoy, 27 de octubre.",
+     "Un día como hoy, veintisiete de octubre."
+    ],
+    [
+     "Hace 244 años, nació un niño en Génova, Italia.",
+     "Hace doscientos cuarenta y cuatro años, nació un niño en Génova, Italia."
+    ],
+    "Llegaría a ser el ídolo de toda Europa.",
+    "Su nombre: Niccolò Paganini."
+   ],
+   "data": {
+    "hook": "Dicen que vendió\nsu alma al diablo",
+    "sub": "1782  —  2026",
+    "sub_at": 2,
+    "name": "Paganini",
+    "name_years": "Niccolò Paganini · 1782 – 1840",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.32,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Un niño del puerto",
+   "lines": [
+    [
+     "Nació el 27 de octubre de 1782, en el puerto de Génova.",
+     "Nació el veintisiete de octubre de mil setecientos ochenta y dos, en el puerto de Génova."
+    ],
+    "Su padre tenía un pequeño negocio y tocaba la mandolina.",
+    "Aprendió mandolina a los cinco años, y violín a los siete.",
+    [
+     "En 1794, con menos de doce años, dio su primer concierto.",
+     "En mil setecientos noventa y cuatro, con menos de doce años, dio su primer concierto."
+    ],
+    "A los dieciocho, fue primer violín de la República de Luca."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "El puerto de Génova, siglo XVIII"
+       },
+       {
+        "text": "Violín a los 7",
+        "style": "head",
+        "color": "red",
+        "at": 2,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "1794",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Primer concierto",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "18 años",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Primer violín",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Una sola cuerda",
+   "lines": [
+    [
+     "En 1805, Elisa, la hermana de Napoleón, pasó a gobernar Luca.",
+     "En mil ochocientos cinco, Elisa, la hermana de Napoleón, pasó a gobernar Luca."
+    ],
+    "Paganini se convirtió en violinista de su corte.",
+    [
+     "En 1807, para el día del santo de Napoleón, compuso una sonata.",
+     "En mil ochocientos siete, para el día del santo de Napoleón, compuso una sonata."
+    ],
+    "Toda la obra se tocaba en una sola cuerda.",
+    "Otros necesitaban cuatro cuerdas. Él, solo una."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Corte de Luca",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "1805",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1",
+        "style": "huge",
+        "size": 200,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "cuerda",
+        "style": "head",
+        "at": 3,
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  El violinista del diablo",
+   "lines": [
+    [
+     "En 1828, partió de Viena para recorrer Europa.",
+     "En mil ochocientos veintiocho, partió de Viena para recorrer Europa."
+    ],
+    [
+     "En 1831, conquistó París y Londres.",
+     "En mil ochocientos treinta y uno, conquistó París y Londres."
+    ],
+    "Sus dedos se movían a una velocidad imposible.",
+    "Algunos juraban haber visto al diablo ayudándolo a tocar.",
+    "Un joven pianista, Franz Liszt, lo escuchó fascinado.",
+    "Liszt decidió ser el Paganini del piano."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Viena",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "París · Londres",
+        "style": "head",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "¿El diablo?",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Liszt",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "El Paganini del piano",
+        "style": "head",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  El Cañón",
+   "lines": [
+    "Sus veinticuatro Caprichos siguen siendo una gran prueba.",
+    [
+     "Liszt, Brahms y Rajmáninov reinventaron el número 24.",
+     "Liszt, Brahms y Rajmáninov reinventaron el número veinticuatro."
+    ],
+    [
+     "Murió en Niza el 27 de mayo de 1840.",
+     "Murió en Niza el veintisiete de mayo de mil ochocientos cuarenta."
+    ],
+    "Dejó su violín favorito, el Cañón, a su ciudad natal.",
+    "Hoy se guarda en el ayuntamiento de Génova,",
+    "y lo tocan los ganadores del concurso Paganini."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "24",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Caprichos",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "1782 – 1840",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "«El Cañón», hecho en 1743"
+       },
+       {
+        "text": "Para Génova",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    "Lo llamaron el violinista del diablo.",
+    "Pero lo que nos dejó fue un violín capaz de todo.",
+    "Su pregunta para ti:",
+    "si solo te quedara una cuerda,",
+    "¿qué tocarías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Leyenda",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Qué tocarías?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Un día como hoy, 27 de octubre,",
+     "Un día como hoy, veintisiete de octubre,"
+    ],
+    "recordamos a Niccolò Paganini."
+   ],
+   "data": {
+    "name": "Niccolò Paganini",
+    "years": "1782 – 1840"
+   }
+  }
+ ]
+}

@@ -3,7 +3,7 @@ scipy
 pillow
 pypinyin
 onnxruntime
-sherpa-onnx
+sherpa-onnx<2  # 2.0.0 skips every English word as OOV with the Kokoro lexicon (2026-10-24)
 kokoro-onnx
 misaki[ja]  # needs unidic-lite; if its build fails, copy its unidic_lite/ folder into site-packages (RUNBOOK J)
 pyopenjtalk-plus

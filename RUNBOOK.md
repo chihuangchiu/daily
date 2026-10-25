@@ -39,14 +39,13 @@ Fixed facts
   covers the bottom of the frame). Subtitles are narrower now to stay clear of the Shorts buttons: Western-language
   lines ≤ ~55 characters, CJK pieces between commas ≤ 14 characters. On-screen phase texts are one row only
   (`\n` works in `hook` only).
-- **Subscribe & share line (Nathan 2026-10-25).** The end scene gets one more line after "we remember …", spoken and
-  shown as the subtitle, inviting viewers to subscribe and share: zh 「喜歡這個故事，記得追蹤訂閱，也分享給朋友。」
-  (the Chinese video also goes to Facebook, hence 追蹤訂閱); en "If you enjoyed this story, subscribe and share it with
-  a friend."; es "Si te gustó esta historia, suscríbete y compártela."; pt "Se gostou desta história, inscreva-se e
-  compartilhe."; ja 「気に入ったら、チャンネル登録と、共有をお願いします。」 (subtitle; spoken without the second 、);
-  de "Wenn dir die Geschichte gefällt, abonniere und teile sie." It costs ~3 s and must fit the 112–128 s / speed
-  0.92–1.10 rules: cut a side sentence first, never speed up; drop the line only if it truly does not fit (say so
-  in the report). No extra on-screen text or like/bell icons.
+- **Subscribe, share & see-you-tomorrow line (Nathan 2026-10-25, "明天見" added the same evening).** The end scene gets
+  one more line after "we remember …", spoken and shown as the subtitle: zh 「喜歡這個故事，記得追蹤訂閱、分享給朋友，我們明天見！」
+  (the Chinese video also goes to Facebook, hence 追蹤訂閱); en "If you enjoyed this story, subscribe and share. See you
+  tomorrow!"; es "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"; pt "Se gostou, inscreva-se e compartilhe.
+  Até amanhã!"; ja 「気に入ったら、チャンネル登録と共有を。また明日！」; de "Wenn's dir gefällt, abonniere und teile. Bis
+  morgen!" It costs ~3.5–4 s and must fit the 112–128 s rule: cut a side sentence first, never speed up; drop the line
+  only if it truly does not fit (say so in the report). No extra on-screen text or like/bell icons.
 - **sherpa-onnx < 2** (requirements.txt): 2.0.0 skips almost every English word as OOV with the Kokoro lexicon
   (log full of "OOV word skipped", English narration half as long). Found 2026-10-24.
 - **Narration voice: Gemini TTS (Nathan 2026-10-25), all six languages.** Voice Kore, model gemini-2.5-flash-tts,
@@ -60,8 +59,10 @@ Fixed facts
   3. `python3 pipeline/narrate.py EP --gemini` → cuts multi-line chunks at the pauses, shortens long pauses,
      writes narration.wav + timeline.json (no tempo change), prints the length. Then render sheets as usual
      (`python3 pipeline/render.py EP sheet` after `rm -rf EP/check`), and `build.sh video` (it reuses timeline.json).
-  - The hook style is dramatic and a bit slower; the rest is brisk ("像 YouTube Shorts 的說書人"). Nathan:
-    first line dramatic and slower, then faster; never speed the audio up afterwards.
+  - Hook style (Nathan 2026-10-25 evening, replaces "dramatic and slower"): the first line uses the SAME brisk pace as
+    the rest — never slower — with a genuinely amazed, astonished tone (styles in narrate.py GEMINI_STYLE). Keep hook
+    styles short and descriptive: long instruction-like styles ("Primera frase: …") were read aloud by Gemini in
+    es/pt/de. Never speed the audio up afterwards.
   - Gemini reads more slowly than the old engines and there is no speed knob: the script length decides the
     video length. 2026-10-25 test: the 480-character 10/27 Chinese script gave ~138 s, so Chinese needs about
     410–430 spoken characters for 112–128 s (hook alone ~6 s). For other languages measure on the first run, aim

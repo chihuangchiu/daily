@@ -226,17 +226,17 @@ def synth(tts, scenes, speed, lang="zh"):
 #                                    narration.wav + timeline.json exactly like the local engines (no tempo change)
 GEMINI_LANG = {"zh": "cmn-tw", "en": "en-US", "es": "es-ES", "pt": "pt-BR", "ja": "ja-JP", "de": "de-DE"}
 GEMINI_STYLE = {
-    "zh": ("台灣口音的短影音紀錄片旁白。這是影片的第一句，要一下子抓住觀眾：語氣戲劇化、低沉、帶懸念，比後面的旁白稍慢一點，但不要拖長，整句大約三秒內說完。",
+    "zh": ("台灣口音的短影音紀錄片旁白。這是影片的第一句：用和後面一樣明快的語速，不要放慢；語氣帶著真心的驚訝和讚嘆，像在說「你絕對想不到」的事。",
            "台灣口音的短影音紀錄片旁白，溫暖、有一點神秘感。語速明顯偏快、節奏明快緊湊，像 YouTube Shorts 的說書人；句子之間只做很短的停頓，不要拖長尾音。"),
-    "en": ("Short-form documentary narrator. This is the opening line and must grab the viewer: dramatic, low and suspenseful, a little slower than the rest of the narration but not dragged; about three seconds in total.",
+    "en": ("Short-form documentary narrator. Opening line: same brisk pace as the rest, do not slow down; sound genuinely amazed and astonished, like revealing something the viewer would never guess.",
            "Warm, intriguing short-form documentary narrator. Noticeably brisk, energetic pace like a YouTube Shorts storyteller; keep pauses between sentences short and do not drag the ends of sentences."),
-    "es": ("Narrador de documental para videos cortos. Es la primera frase y debe atrapar al espectador: dramática, grave y con suspenso, un poco más lenta que el resto pero sin alargarla; unos tres segundos en total.",
+    "es": ("Narrador de documental para videos cortos, con ritmo ágil (igual que el resto, nada lento) y un tono de asombro sincero.",
            "Narrador de documental cálido e intrigante para videos cortos. Ritmo claramente ágil y enérgico, como un narrador de YouTube Shorts; pausas breves entre frases, sin alargar los finales."),
-    "pt": ("Narrador de documentário para vídeos curtos, português do Brasil. É a primeira frase e precisa prender o espectador: dramática, grave e com suspense, um pouco mais lenta que o resto, mas sem arrastar; uns três segundos no total.",
+    "pt": ("Narrador de documentário para vídeos curtos, português do Brasil, com ritmo ágil (igual ao resto, nada lento) e tom de espanto sincero.",
            "Narrador de documentário caloroso e intrigante para vídeos curtos, português do Brasil. Ritmo claramente ágil e enérgico, como um narrador de YouTube Shorts; pausas curtas entre as frases, sem arrastar os finais."),
-    "ja": ("ショート動画のドキュメンタリーのナレーター。動画の最初の一文で、視聴者を一気に引き込む：ドラマチックで低めの声、謎めいた雰囲気。後のナレーションより少しだけゆっくり、でも引き伸ばさず、全体で三秒ほど。",
+    "ja": ("ショート動画のドキュメンタリーのナレーター。最初の一文：後と同じテンポの速さで、ゆっくりにしない。「信じられない！」という本気の驚きと感嘆を込めて。",
            "温かく引き込まれるショート動画のドキュメンタリーのナレーター。はっきりと速めの、テンポのよい語り口で。文と文の間は短く、語尾を伸ばさない。"),
-    "de": ("Erzähler einer kurzen Doku. Das ist der erste Satz und soll sofort fesseln: dramatisch, tief und spannungsvoll, etwas langsamer als der Rest, aber nicht gedehnt; insgesamt etwa drei Sekunden.",
+    "de": ("Erzähler einer kurzen Doku, zügiges Tempo (wie der Rest, nicht langsamer) und ein Ton echten Staunens.",
            "Warmer, fesselnder Erzähler einer kurzen Doku. Deutlich zügiges, lebendiges Tempo wie ein YouTube-Shorts-Erzähler; kurze Pausen zwischen den Sätzen, Satzenden nicht dehnen."),
 }
 GEMINI_VOICE = "Kore"

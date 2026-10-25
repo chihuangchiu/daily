@@ -1,0 +1,319 @@
+{
+ "lang": "de",
+ "date": "2026-10-28",
+ "mmdd": "10.28",
+ "person": "Jonas Salk",
+ "event": "Geburt (1914, New York)",
+ "title": "Jonas Salk: Vor 112 Jahren geboren – er besiegte Polio und verschenkte den Impfstoff",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er besiegte die Kinderlähmung und ließ nichts patentieren.",
+    [
+     "An diesem Tag, dem 28. Oktober,",
+     "An diesem Tag, dem achtundzwanzigsten Oktober,"
+    ],
+    [
+     "vor 112 Jahren, wurde in New York ein Junge geboren.",
+     "vor hundertzwölf Jahren, wurde in New York ein Junge geboren."
+    ],
+    "Sein Name: Jonas Salk."
+   ],
+   "data": {
+    "hook": "Er besiegte Polio\nund verschenkte es",
+    "sub": "1914  —  2026",
+    "sub_at": 2,
+    "name": "Salk",
+    "name_years": "Jonas Salk · 1914 – 1995",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ins Labor",
+   "lines": [
+    "Als Erster seiner Familie ging er an die Uni,",
+    "und nach dem Medizinstudium wählte er die Virenforschung.",
+    [
+     "1947 bekam er in Pittsburgh sein eigenes Labor.",
+     "Neunzehnhundertsiebenundvierzig bekam er in Pittsburgh sein eigenes Labor."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Viren",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1947",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Pittsburgh",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Sommer der Angst",
+   "lines": [
+    "Damals war Kinderlähmung der Albtraum aller Eltern.",
+    "Jeden Sommer schlossen die Bäder, Kinder blieben im Haus.",
+    [
+     "1952 gab es in den USA rund 58.000 Fälle,",
+     "Neunzehnhundertzweiundfünfzig gab es in den USA rund achtundfünfzigtausend Fälle,"
+    ],
+    [
+     "und mehr als 3.000 Menschen starben.",
+     "und mehr als dreitausend Menschen starben."
+    ],
+    "Viele Kinder konnten nie wieder gehen,",
+    "manche atmeten nur noch in einer eisernen Lunge."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Sommer",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "58.000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Fälle 1952",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Station mit eisernen Lungen, 1950er"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Eine Million Kinder",
+   "lines": [
+    "Salk machte einen Impfstoff aus abgetöteten Viren,",
+    [
+     "und 1953 impfte er sogar seine eigenen Kinder.",
+     "und neunzehnhundertdreiundfünfzig impfte er sogar seine eigenen Kinder."
+    ],
+    [
+     "1954 nahmen über eine Million Kinder",
+     "Neunzehnhundertvierundfünfzig nahmen über eine Million Kinder"
+    ],
+    "am größten Impfstofftest der Geschichte teil.",
+    [
+     "Am 12. April 1955 kam das Urteil:",
+     "Am zwölften April neunzehnhundertfünfundfünfzig kam das Urteil:"
+    ],
+    "Der Impfstoff war sicher und wirksam."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Tote Viren",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Schlange stehen zum Impfen, 1954"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Sicher. Wirksam.",
+        "style": "big",
+        "size": 80,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "12. April 1955",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die Sonne patentieren?",
+   "lines": [
+    "Ein Reporter fragte, wem das Patent gehöre.",
+    "Salk sagte: Nun, den Menschen, würde ich sagen.",
+    "Es gibt kein Patent. Kann man die Sonne patentieren?",
+    [
+     "Er starb 1995, mit achtzig Jahren.",
+     "Er starb neunzehnhundertfünfundneunzig, mit achtzig Jahren."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Patent?",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Den Menschen",
+        "style": "head",
+        "at": 1,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1914 – 1995",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Heute gibt es über 99 % weniger Polio-Fälle als 1988.",
+     "Heute gibt es über neunundneunzig Prozent weniger Polio-Fälle als neunzehnhundertachtundachtzig."
+    ],
+    "Seine Frage an dich:",
+    "Wenn du etwas erfinden würdest, das die Welt verändert,",
+    "würdest du es allen schenken?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "−99%",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Würdest du es verschenken?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "An diesem Tag, dem 28. Oktober,",
+     "An diesem Tag, dem achtundzwanzigsten Oktober,"
+    ],
+    "erinnern wir an Jonas Salk.",
+    "Wenn dir die Geschichte gefällt, abonniere und teile sie."
+   ],
+   "data": {
+    "name": "Jonas Salk",
+    "years": "1914 – 1995"
+   }
+  }
+ ]
+}

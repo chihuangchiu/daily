@@ -73,6 +73,21 @@ Fixed facts
   - Fallback: if the Gemini TTS tool is not connected after the usual retries, or keeps failing, use the local
     engine (`build.sh check` path, `--target 120`) for that video and say so in the report.
   - Cost: about US$0.03 per 2-minute video (25 audio tokens/s at $10 per 1M).
+- **Gemini glitches (found 2026-10-25, Salk run): check EVERY chunk before building.** Gemini TTS sometimes
+  (a) says a sentence twice, (b) reads the style text aloud before the sentence, or (c) adds words ("Compártela con
+  tus amigos"). It happens mostly with SHORT single-sentence chunks (≤ ~8 words / ≤ ~12 CJK characters). Whisper on the
+  whole chunk often hides a repeat, so: `python3 pipeline/tools/gemini_check.py EP <lang>` (needs
+  /home/claude/models/sherpa-onnx-whisper-base; prints seconds/char, ASR text vs subtitle; `<<<` = text mismatch,
+  `SLOW` = suspiciously long), then `pipeline/tools/halves.sh <lang> EP/tts/<id>.wav …` for every SLOW chunk (a
+  repeat shows the same sentence in both halves). Re-synthesize bad chunks; if a chunk fails twice, join it to its
+  neighbour (end the line with a comma instead of a full stop) so the chunk gets longer. Write scripts with few
+  very short stand-alone sentences. The 2026-10-28 zh video was scheduled before this was found (two repeated
+  sentences); the fixed v2 went to Postiz as drafts for Nathan to swap.
+- **Measured script sizes for 112–128 s (Gemini Kore, 2026-10-25):** zh ~420 spoken characters → 119.5 s;
+  en ~237 words → 115.7 s (≈ 2 words/s); es ~272 words → 124 s; pt ~283 words → 126.7 s; de ~216 words (long
+  compounds, years as words) → 120.5 s; ja ~600 characters → 112.1 s (aim ~630). Japanese subtitles: a line is split
+  into at most 2 rows at the 、 nearest the middle, each row ≤ ~15 characters (600 px), so keep subtitle lines ≤ ~28
+  characters with a 、 near the middle (subtitle-only shortening is fine).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

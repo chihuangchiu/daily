@@ -37,7 +37,20 @@ Fixed facts
   one short line); never repeat the subtitle sentence on screen; a phase disappears as soon as its line has passed;
   chapter scenes may be just one big number or word. No footer line (render.py no longer draws it: the Shorts UI
   covers the bottom of the frame). Subtitles are narrower now to stay clear of the Shorts buttons: Western-language
-  lines ≤ ~55 characters, CJK pieces between commas ≤ 14 characters.
+  lines ≤ ~55 characters, CJK pieces between commas ≤ 14 characters. On-screen phase texts are one row only
+  (`\n` works in `hook` only).
+- **Subscribe & share line (Nathan 2026-10-25).** The end scene gets one more line after "we remember …", spoken and
+  shown as the subtitle, inviting viewers to subscribe and share: zh 「喜歡這個故事，記得追蹤訂閱，也分享給朋友。」
+  (the Chinese video also goes to Facebook, hence 追蹤訂閱); en "If you enjoyed this story, subscribe and share it with
+  a friend."; es "Si te gustó esta historia, suscríbete y compártela."; pt "Se gostou desta história, inscreva-se e
+  compartilhe."; ja 「気に入ったら、チャンネル登録と、共有をお願いします。」 (subtitle; spoken without the second 、);
+  de "Wenn dir die Geschichte gefällt, abonniere und teile sie." It costs ~3 s and must fit the 112–128 s / speed
+  0.92–1.10 rules: cut a side sentence first, never speed up; drop the line only if it truly does not fit (say so
+  in the report). No extra on-screen text or like/bell icons.
+- **sherpa-onnx < 2** (requirements.txt): 2.0.0 skips almost every English word as OOV with the Kokoro lexicon
+  (log full of "OOV word skipped", English narration half as long). Found 2026-10-24.
+- A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
+  re-running narrate.py.
 
 ## 0. Plan the run
 1. Target dates = run date + 1 … run date + WINDOW.

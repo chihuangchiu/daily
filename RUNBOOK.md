@@ -49,6 +49,30 @@ Fixed facts
   in the report). No extra on-screen text or like/bell icons.
 - **sherpa-onnx < 2** (requirements.txt): 2.0.0 skips almost every English word as OOV with the Kokoro lexicon
   (log full of "OOV word skipped", English narration half as long). Found 2026-10-24.
+- **Narration voice: Gemini TTS (Nathan 2026-10-25), all six languages.** Voice Kore, model gemini-2.5-flash-tts,
+  wav. The MCP tool can only be called by the agent, so:
+  1. `python3 pipeline/narrate.py EP --gemini-plan` → `EP/tts/plan.json`: chunk `c00_hook` (title line 0, the hook)
+     and then one chunk per sentence (lines are joined until a line ends with 。！？.!?). Each chunk has id, text,
+     style; plan has language, voice, model.
+  2. For every chunk call `generate_speech` (text, style, language, voice, model, format "wav") and
+     `curl -sSf -o EP/tts/<id>.wav "<url>"` (the URL is on the Postiz host and downloads fine from here).
+     Calls are independent: send several in one turn.
+  3. `python3 pipeline/narrate.py EP --gemini` → cuts multi-line chunks at the pauses, shortens long pauses,
+     writes narration.wav + timeline.json (no tempo change), prints the length. Then render sheets as usual
+     (`python3 pipeline/render.py EP sheet` after `rm -rf EP/check`), and `build.sh video` (it reuses timeline.json).
+  - The hook style is dramatic and a bit slower; the rest is brisk ("像 YouTube Shorts 的說書人"). Nathan:
+    first line dramatic and slower, then faster; never speed the audio up afterwards.
+  - Gemini reads more slowly than the old engines and there is no speed knob: the script length decides the
+    video length. 2026-10-25 test: the 480-character 10/27 Chinese script gave ~138 s, so Chinese needs about
+    410–430 spoken characters for 112–128 s (hook alone ~6 s). For other languages measure on the first run, aim
+    for 112–128 s by cutting or adding sentences, and note the working size here.
+  - After editing lines, run --gemini-plan again and synthesize only the chunks whose text changed (keep the
+    other wav files; a chunk id is c<scene+1>_<first line>, so check the text, not only the id).
+  - Spoken field: write the real words (Chinese numerals for numbers are fine). Do not use homophone tricks meant
+    for the old engine (e.g. 音月廳); Gemini reads normal text correctly. Check every video with Whisper as before.
+  - Fallback: if the Gemini TTS tool is not connected after the usual retries, or keeps failing, use the local
+    engine (`build.sh check` path, `--target 120`) for that video and say so in the report.
+  - Cost: about US$0.03 per 2-minute video (25 audio tokens/s at $10 per 1M).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

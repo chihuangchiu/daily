@@ -218,12 +218,226 @@ def synth(tts, scenes, speed, lang="zh"):
     return np.concatenate(out), timeline, speech, t
 
 
+# ---------------------------------------------------------------- Gemini TTS (Nathan 2026-10-25)
+# The Gemini TTS MCP tool can only be called by the agent, so this is a two-step flow:
+#   narrate.py EP --gemini-plan   -> EP/tts/plan.json (one chunk for the hook line, then one chunk per scene)
+#   (agent) generate_speech for every chunk, curl each result to EP/tts/<id>.wav
+#   narrate.py EP --gemini        -> splits every chunk back into its subtitle lines at the pauses and writes
+#                                    narration.wav + timeline.json exactly like the local engines (no tempo change)
+GEMINI_LANG = {"zh": "cmn-tw", "en": "en-US", "es": "es-ES", "pt": "pt-BR", "ja": "ja-JP", "de": "de-DE"}
+GEMINI_STYLE = {
+    "zh": ("台灣口音的短影音紀錄片旁白。這是影片的第一句，要一下子抓住觀眾：語氣戲劇化、低沉、帶懸念，比後面的旁白稍慢一點，但不要拖長，整句大約三秒內說完。",
+           "台灣口音的短影音紀錄片旁白，溫暖、有一點神秘感。語速明顯偏快、節奏明快緊湊，像 YouTube Shorts 的說書人；句子之間只做很短的停頓，不要拖長尾音。"),
+    "en": ("Short-form documentary narrator. This is the opening line and must grab the viewer: dramatic, low and suspenseful, a little slower than the rest of the narration but not dragged; about three seconds in total.",
+           "Warm, intriguing short-form documentary narrator. Noticeably brisk, energetic pace like a YouTube Shorts storyteller; keep pauses between sentences short and do not drag the ends of sentences."),
+    "es": ("Narrador de documental para videos cortos. Es la primera frase y debe atrapar al espectador: dramática, grave y con suspenso, un poco más lenta que el resto pero sin alargarla; unos tres segundos en total.",
+           "Narrador de documental cálido e intrigante para videos cortos. Ritmo claramente ágil y enérgico, como un narrador de YouTube Shorts; pausas breves entre frases, sin alargar los finales."),
+    "pt": ("Narrador de documentário para vídeos curtos, português do Brasil. É a primeira frase e precisa prender o espectador: dramática, grave e com suspense, um pouco mais lenta que o resto, mas sem arrastar; uns três segundos no total.",
+           "Narrador de documentário caloroso e intrigante para vídeos curtos, português do Brasil. Ritmo claramente ágil e enérgico, como um narrador de YouTube Shorts; pausas curtas entre as frases, sem arrastar os finais."),
+    "ja": ("ショート動画のドキュメンタリーのナレーター。動画の最初の一文で、視聴者を一気に引き込む：ドラマチックで低めの声、謎めいた雰囲気。後のナレーションより少しだけゆっくり、でも引き伸ばさず、全体で三秒ほど。",
+           "温かく引き込まれるショート動画のドキュメンタリーのナレーター。はっきりと速めの、テンポのよい語り口で。文と文の間は短く、語尾を伸ばさない。"),
+    "de": ("Erzähler einer kurzen Doku. Das ist der erste Satz und soll sofort fesseln: dramatisch, tief und spannungsvoll, etwas langsamer als der Rest, aber nicht gedehnt; insgesamt etwa drei Sekunden.",
+           "Warmer, fesselnder Erzähler einer kurzen Doku. Deutlich zügiges, lebendiges Tempo wie ein YouTube-Shorts-Erzähler; kurze Pausen zwischen den Sätzen, Satzenden nicht dehnen."),
+}
+GEMINI_VOICE = "Kore"
+
+
+def _clean_for_gemini(spoken, lang):
+    sp = re.sub(r"[─—]+", "，" if lang in ("zh", "ja") else ", ", spoken)
+    return re.sub(r"\s+", " ", sp).strip()
+
+
+def gemini_plan(ep, ep_dir):
+    lang = ep.get("lang", "zh")
+    hook_style, body_style = GEMINI_STYLE[lang]
+    chunks = []
+    for si, sc in enumerate(ep["scenes"]):
+        idx = list(range(len(sc["lines"])))
+        if si == 0 and idx:
+            chunks.append(dict(id="c00_hook", lines=[[0, 0]], style=hook_style,
+                               text=_clean_for_gemini(norm_line(sc["lines"][0])[1], lang)))
+            idx = idx[1:]
+        joiner = "" if lang in ("zh", "ja") else " "
+        group = []
+        for li in idx:  # one chunk per sentence: lines are joined until a line ends a sentence
+            group.append(li)
+            sp = norm_line(sc["lines"][li])[1]
+            if _is_final(sp) or li == idx[-1]:
+                text = joiner.join(_clean_for_gemini(norm_line(sc["lines"][g])[1], lang) for g in group)
+                chunks.append(dict(id=f"c{si + 1:02d}_{group[0]:02d}", lines=[[si, g] for g in group],
+                                   style=body_style, text=text))
+                group = []
+    plan = dict(language=GEMINI_LANG[lang], voice=GEMINI_VOICE, model="gemini-2.5-flash-tts", format="wav",
+                chunks=chunks)
+    os.makedirs(os.path.join(ep_dir, "tts"), exist_ok=True)
+    json.dump(plan, open(os.path.join(ep_dir, "tts", "plan.json"), "w"), ensure_ascii=False, indent=1)
+    for c in chunks:
+        assert len(c["text"].encode()) <= 4000, c["id"]
+    print(f"{len(chunks)} chunks -> {ep_dir}/tts/plan.json (language {plan['language']}, voice {plan['voice']})")
+
+
+def _is_final(sp):
+    return bool(re.search(r"[。！？.!?]\s*[」”\"»）)]*\s*$", sp))
+
+
+def _weight(s, lang):
+    s = re.sub(r"[\s，、。！？：；,.!?:;\"“”«»「」()（）'’‘—─-]", "", s)
+    return max(1, len(s))
+
+
+def _silences(a, win=0.01, min_len=0.06):
+    n = int(win * SR)
+    m = len(a) // n
+    rms = np.sqrt(np.mean(a[: m * n].reshape(m, n) ** 2, axis=1))
+    thr = max(0.006, 0.04 * np.percentile(rms, 95))
+    quiet = rms < thr
+    out, i = [], 0
+    while i < m:
+        if quiet[i]:
+            j = i
+            while j < m and quiet[j]:
+                j += 1
+            if (j - i) * win >= min_len:
+                out.append(((i) * win, j * win))
+            i = j
+        else:
+            i += 1
+    return out
+
+
+def cap_pauses(a, cap):
+    """Shorten every pause inside a clip to at most cap seconds (keeps the delivery, removes dead air)."""
+    keep, t0 = [], 0
+    for b, e in _silences(a, min_len=cap + 0.02):
+        bi, ei = int(b * SR), int(e * SR)
+        keep.append(a[t0: bi + int(cap / 2 * SR)])
+        t0 = ei - int(cap / 2 * SR)
+    keep.append(a[t0:])
+    return np.concatenate(keep)
+
+
+def split_chunk(a, weights, debug=False, finals=None):
+    """Cut one chunk into len(weights) pieces at pauses. The n-1 cut points are chosen together (dynamic
+    programming over all pauses): long pauses are preferred, and each cut should sit near its
+    character-proportional estimate (estimates use speaking time only, pauses excluded)."""
+    a = trim(a)
+    n = len(weights)
+    if n == 1:
+        return [a]
+    dur = len(a) / SR
+    sil = [s for s in _silences(a, min_len=0.05) if s[0] > 0.05 and s[1] < dur - 0.05]
+    speech = dur - sum(e - b for b, e in sil)
+
+    def speech_time(t):  # speaking time elapsed at t
+        return t - sum(min(e, t) - b for b, e in sil if b < t)
+
+    tot, cum, est = sum(weights), 0, []
+    for w in weights[:-1]:
+        cum += w
+        est.append(speech * cum / tot)
+    m = len(sil)
+    if m < n - 1:
+        print(f"WARNING: only {m} pauses for {n - 1} cuts; cutting by proportion")
+        bounds = [(dur * e / speech,) * 2 for e in est]
+    else:
+        fin = finals or [True] * (n - 1)
+
+        def score(k, j):  # cut k placed at pause j; sentence ends want long pauses, commas short ones
+            b, e = sil[j]
+            d = e - b
+            if fin[k]:
+                r = 4.0 * min(d, 0.6)
+            else:
+                r = 2.0 * min(d, 0.25) - 3.0 * max(0.0, d - 0.3)
+            return r - abs(speech_time(b) - est[k])
+        NEG = -1e9
+        best = [[NEG] * m for _ in range(n - 1)]
+        prev = [[-1] * m for _ in range(n - 1)]
+        for j in range(m):
+            best[0][j] = score(0, j)
+        for k in range(1, n - 1):
+            run, arg = NEG, -1
+            for j in range(m):
+                if j - 1 >= 0 and best[k - 1][j - 1] > run:
+                    run, arg = best[k - 1][j - 1], j - 1
+                if arg >= 0:
+                    best[k][j] = run + score(k, j)
+                    prev[k][j] = arg
+        j = max(range(m), key=lambda j: best[n - 2][j])
+        idx = []
+        for k in range(n - 2, -1, -1):
+            idx.append(j)
+            j = prev[k][j]
+        idx.reverse()
+        bounds = [sil[j] for j in idx]
+    if debug:
+        print("pauses", [(round(b, 2), round(e - b, 2)) for b, e in sil])
+        print("cuts  ", [round(b[0], 2) for b in bounds])
+    pieces, t0 = [], 0.0
+    for b, e in bounds:
+        pieces.append(trim(a[int(t0 * SR): int(b * SR)]))
+        t0 = e
+    pieces.append(trim(a[int(t0 * SR):]))
+    return pieces
+
+
+def gemini_assemble(ep, ep_dir):
+    lang = ep.get("lang", "zh")
+    plan = json.load(open(os.path.join(ep_dir, "tts", "plan.json")))
+    seg = {}
+    for c in plan["chunks"]:
+        f = os.path.join(ep_dir, "tts", c["id"] + ".wav")
+        if not os.path.exists(f):
+            print("ERROR: missing", f)
+            sys.exit(2)
+        sr, x = wavfile.read(f)
+        x = x.astype(np.float32)
+        if x.ndim > 1:
+            x = x.mean(axis=1)
+        if np.abs(x).max() > 2:
+            x /= 32768.0
+        x = _resample(x, sr)
+        sps = [norm_line(ep["scenes"][si]["lines"][li])[1] for si, li in c["lines"]]
+        ws = [_weight(sp, lang) for sp in sps]
+        fins = [_is_final(sp) for sp in sps[:-1]]
+        for (si, li), p in zip(c["lines"], split_chunk(x, ws, finals=fins)):
+            seg[(si, li)] = cap_pauses(p, 0.35 if (si, li) == (0, 0) else 0.45)
+    out, t, timeline = [np.zeros(int(LEAD * SR), np.float32)], LEAD, []
+    for si, sc in enumerate(ep["scenes"]):
+        s0, lines = t, []
+        for li, ln in enumerate(sc["lines"]):
+            a = seg[(si, li)]
+            lines.append(dict(text=norm_line(ln)[0], start=round(t, 3), end=round(t + len(a) / SR, 3)))
+            out.append(a)
+            t += len(a) / SR
+            last = li == len(sc["lines"]) - 1
+            gap = 0.3 if not last else (0.9 if si < len(ep["scenes"]) - 1 else TAIL)  # Gemini keeps its own breaths
+            if si == 0 and li == 0:
+                gap = 0.6  # let the dramatic hook breathe
+            out.append(np.zeros(int(gap * SR), np.float32))
+            t += gap
+        timeline.append(dict(start=round(s0, 3), end=round(t, 3), lines=lines))
+    audio = np.concatenate(out)
+    audio = audio / (np.max(np.abs(audio)) + 1e-9) * 0.89
+    wavfile.write(os.path.join(ep_dir, "narration.wav"), SR, (audio * 32767).astype(np.int16))
+    json.dump(dict(total=round(t, 3), speed=1.0, engine="gemini", scenes=timeline),
+              open(os.path.join(ep_dir, "timeline.json"), "w"), ensure_ascii=False, indent=1)
+    note = "" if 112 <= t <= 128 else "  WARNING: outside 112-128 s, lengthen/shorten the script"
+    print(f"narration {t:.1f}s (gemini, no tempo change){note}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("episode_dir")
     ap.add_argument("--target", type=float, default=238.0)
+    ap.add_argument("--gemini-plan", action="store_true", help="write tts/plan.json for the Gemini TTS MCP tool")
+    ap.add_argument("--gemini", action="store_true", help="build narration from tts/*.wav made by Gemini TTS")
     a = ap.parse_args()
     ep = json.load(open(os.path.join(a.episode_dir, "episode.json")))
+    if a.gemini_plan:
+        return gemini_plan(ep, a.episode_dir)
+    if a.gemini:
+        return gemini_assemble(ep, a.episode_dir)
     lang = ep.get("lang", "zh")
     bad = check_digits(ep["scenes"]) if lang == "zh" else []
     if bad:

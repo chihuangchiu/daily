@@ -1,0 +1,367 @@
+{
+ "lang": "de",
+ "date": "2026-10-27",
+ "mmdd": "10.27",
+ "person": "Niccolò Paganini",
+ "event": "Geboren in Genua (1782)",
+ "title": "Paganini: Vor 244 Jahren wurde der Geiger geboren, der angeblich seine Seele verkaufte",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Man sagte, er habe seine Seele dem Teufel verkauft.",
+    [
+     "An diesem Tag, dem 27. Oktober.",
+     "An diesem Tag, dem siebenundzwanzigsten Oktober."
+    ],
+    [
+     "Vor 244 Jahren wurde in Genua ein Junge geboren.",
+     "Vor zweihundertvierundvierzig Jahren wurde in Genua ein Junge geboren."
+    ],
+    "Er wurde zum Idol ganz Europas.",
+    "Sein Name: Niccolò Paganini."
+   ],
+   "data": {
+    "hook": "Verkaufte er seine\nSeele dem Teufel?",
+    "sub": "1782  —  2026",
+    "sub_at": 2,
+    "name": "Paganini",
+    "name_years": "Niccolò Paganini · 1782 – 1840",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.32,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ein Junge am Hafen",
+   "lines": [
+    [
+     "Er wurde am 27. Oktober 1782 in der Hafenstadt Genua geboren.",
+     "Er wurde am siebenundzwanzigsten Oktober siebzehnhundertzweiundachtzig in der Hafenstadt Genua geboren."
+    ],
+    "Sein Vater hatte einen kleinen Laden und spielte Mandoline.",
+    "Mit fünf lernte er Mandoline, mit sieben Geige.",
+    [
+     "1794, noch keine zwölf, gab er sein erstes Konzert.",
+     "Siebzehnhundertvierundneunzig, noch keine zwölf, gab er sein erstes Konzert."
+    ],
+    "Mit achtzehn wurde er erster Geiger der Republik Lucca."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Der Hafen von Genua, 18. Jh."
+       },
+       {
+        "text": "Geige mit 7",
+        "style": "head",
+        "color": "red",
+        "at": 2,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "1794",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Erstes Konzert",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "18 Jahre",
+        "style": "big",
+        "size": 92
+       },
+       {
+        "text": "Erster Geiger",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Nur eine Saite",
+   "lines": [
+    [
+     "1805 wurde Napoleons Schwester Elisa Herrscherin von Lucca.",
+     "Achtzehnhundertfünf wurde Napoleons Schwester Elisa Herrscherin von Lucca."
+    ],
+    "Paganini wurde Geiger an ihrem Hof.",
+    [
+     "1807 schrieb er zu Napoleons Namenstag eine Sonate.",
+     "Achtzehnhundertsieben schrieb er zu Napoleons Namenstag eine Sonate."
+    ],
+    "Das ganze Stück wurde auf einer einzigen Saite gespielt.",
+    "Andere brauchten vier Saiten. Er nur eine."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Hof von Lucca",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "1805",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1",
+        "style": "huge",
+        "size": 200,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "Saite",
+        "style": "head",
+        "at": 3,
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der Teufelsgeiger",
+   "lines": [
+    [
+     "1828 brach er von Wien zu einer Tournee durch Europa auf.",
+     "Achtzehnhundertachtundzwanzig brach er von Wien zu einer Tournee durch Europa auf."
+    ],
+    [
+     "1831 eroberte er Paris und London.",
+     "Achtzehnhunderteinunddreißig eroberte er Paris und London."
+    ],
+    "Seine Finger bewegten sich unglaublich schnell.",
+    "Manche schworen, der Teufel helfe ihm beim Spielen.",
+    "Ein junger Pianist, Franz Liszt, hörte gebannt zu.",
+    "Liszt wollte der Paganini des Klaviers werden."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Wien",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "Paris · London",
+        "style": "head",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Der Teufel?",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Liszt",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "Paganini des Klaviers",
+        "style": "head",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die Kanone",
+   "lines": [
+    "Seine vierundzwanzig Capricen sind bis heute eine große Prüfung.",
+    [
+     "Liszt, Brahms und Rachmaninow nutzten die Nr. 24.",
+     "Liszt, Brahms und Rachmaninow schufen Neues aus der Nummer vierundzwanzig."
+    ],
+    [
+     "Er starb am 27. Mai 1840 in Nizza.",
+     "Er starb am siebenundzwanzigsten Mai achtzehnhundertvierzig in Nizza."
+    ],
+    "Seine geliebte Geige, die Kanone, vermachte er seiner Heimatstadt.",
+    "Heute liegt sie im Rathaus von Genua,",
+    [
+     "und Sieger des Paganini-Preises spielen sie.",
+     "und die Sieger des Paganini-Wettbewerbs dürfen sie spielen."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "24",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Capricen",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "1782 – 1840",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Die Kanone, gebaut 1743"
+       },
+       {
+        "text": "Für Genua",
+        "style": "head",
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Man nannte ihn den Teufelsgeiger.",
+    "Doch er hinterließ uns eine Geige, die alles kann.",
+    "Seine Frage an dich:",
+    "Wenn dir nur noch eine Saite bliebe,",
+    "was würdest du spielen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Teufelsgeiger",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Was würdest du spielen?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "An diesem Tag, dem 27. Oktober,",
+     "An diesem Tag, dem siebenundzwanzigsten Oktober,"
+    ],
+    "erinnern wir an Niccolò Paganini.",
+    "Wenn dir die Geschichte gefällt, abonniere und teile sie."
+   ],
+   "data": {
+    "name": "Niccolò Paganini",
+    "years": "1782 – 1840"
+   }
+  }
+ ]
+}

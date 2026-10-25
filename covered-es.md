@@ -8,3 +8,4 @@
 | 2026-10-25 | Johann Strauss II | nacimiento (1825, Viena) |
 | 2026-10-26 | Mahalia Jackson | nacimiento (1911, Nueva Orleans) |
 | 2026-10-27 | Niccolò Paganini | nacimiento (1782, Génova) |
+| 2026-10-28 | Jonas Salk | nacimiento (1914, Nueva York) |

@@ -1,0 +1,319 @@
+{
+ "lang": "pt",
+ "date": "2026-10-28",
+ "mmdd": "10.28",
+ "person": "Jonas Salk",
+ "event": "nascimento (1914, Nova York)",
+ "title": "Jonas Salk: há 112 anos nascia o homem que venceu a pólio e a deu de presente",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele venceu a pólio, e se recusou a patenteá-la.",
+    [
+     "Um dia como hoje, 28 de outubro.",
+     "Um dia como hoje, vinte e oito de outubro."
+    ],
+    [
+     "Há 112 anos, nascia um menino em Nova York.",
+     "Há cento e doze anos, nascia um menino em Nova York."
+    ],
+    "O nome dele: Jonas Salk."
+   ],
+   "data": {
+    "hook": "Venceu a pólio\ne a deu de presente",
+    "sub": "1914  —  2026",
+    "sub_at": 2,
+    "name": "Salk",
+    "name_years": "Jonas Salk · 1914 – 1995",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Rumo ao laboratório",
+   "lines": [
+    "Ele foi o primeiro da família a entrar na faculdade,",
+    "e depois de medicina, trocou os pacientes pelos vírus.",
+    [
+     "Em 1947, ganhou seu próprio laboratório em Pittsburgh.",
+     "Em mil novecentos e quarenta e sete, ganhou seu próprio laboratório em Pittsburgh."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Vírus",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1947",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Pittsburgh",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Verões de medo",
+   "lines": [
+    "Naquela época, a pólio era o pesadelo de todos os pais.",
+    "Todo verão, as piscinas fechavam e as crianças ficavam em casa.",
+    [
+     "Em 1952, os Estados Unidos tiveram uns 58 mil casos,",
+     "Em mil novecentos e cinquenta e dois, os Estados Unidos tiveram uns cinquenta e oito mil casos,"
+    ],
+    [
+     "e mais de 3 mil pessoas morreram.",
+     "e mais de três mil pessoas morreram."
+    ],
+    "Muitas crianças nunca mais andaram,",
+    "e algumas só respiravam dentro de um pulmão de aço."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Verão",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "58.000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "casos em 1952",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ala de pulmões de aço, anos 1950"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Um milhão de crianças",
+   "lines": [
+    "Salk fez uma vacina com vírus mortos,",
+    [
+     "e em 1953, aplicou a vacina até nos próprios filhos.",
+     "e em mil novecentos e cinquenta e três, aplicou a vacina até nos próprios filhos."
+    ],
+    [
+     "Em 1954, mais de um milhão de crianças",
+     "Em mil novecentos e cinquenta e quatro, mais de um milhão de crianças"
+    ],
+    "participaram do maior teste de vacina da história.",
+    [
+     "Em 12 de abril de 1955, veio o veredicto:",
+     "Em doze de abril de mil novecentos e cinquenta e cinco, veio o veredicto:"
+    ],
+    "a vacina era segura e eficaz."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Vírus mortos",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Na fila da vacina, 1954"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Segura. Eficaz.",
+        "style": "big",
+        "size": 80,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "12 de abril de 1955",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Patentear o sol?",
+   "lines": [
+    "Um repórter perguntou de quem era a patente.",
+    "Salk respondeu: Bem, do povo, eu diria.",
+    "Não há patente. Dá para patentear o sol?",
+    [
+     "Ele morreu em 1995, aos oitenta anos.",
+     "Ele morreu em mil novecentos e noventa e cinco, aos oitenta anos."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Patente?",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Do povo",
+        "style": "head",
+        "at": 1,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1914 – 1995",
+        "style": "big",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Hoje, os casos de pólio caíram mais de 99% desde 1988.",
+     "Hoje, os casos de pólio caíram mais de noventa e nove por cento desde mil novecentos e oitenta e oito."
+    ],
+    "A pergunta dele para você:",
+    "se você criasse algo que mudasse o mundo,",
+    "você daria isso a todos?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "−99%",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Você daria a todos?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Um dia como hoje, 28 de outubro,",
+     "Um dia como hoje, vinte e oito de outubro,"
+    ],
+    "lembramos de Jonas Salk.",
+    "Se gostou desta história, inscreva-se e compartilhe."
+   ],
+   "data": {
+    "name": "Jonas Salk",
+    "years": "1914 – 1995"
+   }
+  }
+ ]
+}

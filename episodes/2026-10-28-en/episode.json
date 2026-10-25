@@ -1,0 +1,330 @@
+{
+ "lang": "en",
+ "date": "2026-10-28",
+ "mmdd": "10.28",
+ "person": "Jonas Salk",
+ "event": "Born in New York City (1914)",
+ "title": "Jonas Salk: 112 Years Ago Today, the Man Who Beat Polio and Gave It Away",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He beat polio, and refused to patent it.",
+    [
+     "On this day, October 28.",
+     "On this day, October twenty-eighth."
+    ],
+    [
+     "112 years ago today, a boy was born in New York City.",
+     "A hundred and twelve years ago today, a boy was born in New York City."
+    ],
+    "His name: Jonas Salk."
+   ],
+   "data": {
+    "hook": "He beat polio,\nthen gave it away",
+    "sub": "1914  —  2026",
+    "sub_at": 2,
+    "name": "Salk",
+    "name_years": "Jonas Salk · 1914 – 1995",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Into the lab",
+   "lines": [
+    "He was the first in his family to go to college.",
+    "After medical school, he skipped treating patients to study viruses.",
+    [
+     "In 1947, he got his own virus lab in Pittsburgh.",
+     "In nineteen forty-seven, he got his own virus lab in Pittsburgh."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Viruses",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1947",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Pittsburgh",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Summers of fear",
+   "lines": [
+    "Back then, polio was every parent's nightmare.",
+    "Each summer, pools closed and children were kept inside.",
+    [
+     "In 1952, the US had about 58,000 cases.",
+     "In nineteen fifty-two, the U.S. had about fifty-eight thousand cases."
+    ],
+    [
+     "More than 3,000 people died.",
+     "More than three thousand people died."
+    ],
+    "Many children could never walk again.",
+    "Some could only breathe inside an iron lung."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Summer",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "58,000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "cases in 1952",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "An iron lung ward, 1950s"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A million children",
+   "lines": [
+    "Salk made a vaccine from killed virus.",
+    [
+     "In 1953, he even gave it to his own children.",
+     "In nineteen fifty-three, he even gave it to his own children."
+    ],
+    [
+     "In 1954, more than a million children",
+     "In nineteen fifty-four, more than a million children"
+    ],
+    "joined the largest vaccine trial in history.",
+    "They were called the Polio Pioneers.",
+    [
+     "On April 12, 1955, the verdict came:",
+     "On April twelfth, nineteen fifty-five, the verdict came:"
+    ],
+    "the vaccine was safe and effective."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Killed virus",
+        "style": "title",
+        "size": 76,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Lining up for the shot, 1954"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Safe. Effective.",
+        "style": "big",
+        "size": 84,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "April 12, 1955",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Patent the sun?",
+   "lines": [
+    "A reporter asked who owned the patent.",
+    "Salk said: Well, the people, I would say.",
+    "There is no patent. Could you patent the sun?",
+    [
+     "In 1963, he founded the Salk Institute in California.",
+     "In nineteen sixty-three, he founded the Salk Institute in California."
+    ],
+    [
+     "He died in 1995, at the age of eighty.",
+     "He died in nineteen ninety-five, at the age of eighty."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Patent?",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "The people's",
+        "style": "head",
+        "at": 1,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Salk Institute",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "1914 – 1995",
+        "style": "mid",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "Today, polio cases are down more than 99% since 1988.",
+     "Today, polio cases are down more than ninety-nine percent since nineteen eighty-eight."
+    ],
+    "His question for you:",
+    "if you made something that changed the world,",
+    "would you give it to everyone?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "−99%",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "Would you give it away?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "On this day, October 28,",
+     "On this day, October twenty-eighth,"
+    ],
+    "we remember Jonas Salk.",
+    "If you enjoyed this story, subscribe and share it with a friend."
+   ],
+   "data": {
+    "name": "Jonas Salk",
+    "years": "1914 – 1995"
+   }
+  }
+ ]
+}

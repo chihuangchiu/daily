@@ -28,8 +28,11 @@ Fixed facts
   Keep the strongest 4 chapters; drop side facts rather than speeding up.
 - **Hook in the first 2 seconds.** Line 0 of the title scene is a spoken hook: the single most surprising or emotional
   fact, said in under ~2 s (Chinese ≤ 16 characters, English ≤ 10 words), e.g. 「他一個人，讓全歐洲為鋼琴瘋狂。」 /
-  "He made all of Europe go wild for a piano." The date line ("歷史上的今天，10月22日" / "On this day, October 22")
-  comes second. In the title `data` set `"hook": "<2 short rows split by \n>"` (same idea, ≤ 2 rows of ≤ 10 CJK
+  "He made all of Europe go wild for a piano." The date line comes second and SPEAKS THE CHANNEL NAME, not
+  「歷史上的今天」/"On this day" (Nathan 2026-10-26): zh 「今天，誰改變了世界？10月28日。」; en "Who changed the world
+  today? October 28."; es "¿Quién cambió el mundo hoy? 28 de octubre."; pt "Quem mudou o mundo hoje? 28 de outubro.";
+  ja 「今日、世界を変えたのは誰？10月28日。」; de "Wer hat heute die Welt verändert? Der 28. Oktober." (The on-screen
+  kicker/date card stays as it is.) In the title `data` set `"hook": "<2 short rows split by \n>"` (same idea, ≤ 2 rows of ≤ 10 CJK
   characters or ≤ 22 Latin characters each). render.py shows the hook big over the clip from frame 0 (frame 0 is the
   Shorts thumbnail) and brings in the kicker + MM.DD date only when line 1 starts (`hook_until`, default 1).
   The title scene then needs only the date, `sub` (years) and `name` — drop the `middle` texts/pills.
@@ -39,6 +42,14 @@ Fixed facts
   covers the bottom of the frame). Subtitles are narrower now to stay clear of the Shorts buttons: Western-language
   lines ≤ ~55 characters, CJK pieces between commas ≤ 14 characters. On-screen phase texts are one row only
   (`\n` works in `hook` only).
+- **End scene names the channel too (Nathan 2026-10-26).** Replace 「歷史上的今天，10月28日，我們記得某某。」 with two
+  lines that form one sentence (first ends with a comma, so Gemini gets one longer chunk): zh 「這裡是「今天，誰改變了
+  世界」，」+「10月28日，我們記得沙克。」 (spoken without the 「」); en "This is Who Changed the World Today," + "and on
+  October 28, we remember Jonas Salk."; es "Esto es ¿Quién cambió el mundo hoy?," → write "Esto es Quién cambió el
+  mundo hoy," + "y este 28 de octubre, recordamos a Jonas Salk."; pt "Aqui é Quem mudou o mundo hoje," + "e neste 28 de
+  outubro, lembramos de Jonas Salk."; ja 「こちらは、今日、世界を変えたのは誰。」 is too short alone → 「こちらは『今日、
+  世界を変えたのは誰』、」+「10月28日、ジョナス・ソークを思い出します。」; de "Das ist Wer hat heute die Welt
+  verändert," + "und am 28. Oktober erinnern wir an Jonas Salk." Then the subscribe/share/see-you-tomorrow line.
 - **Subscribe, share & see-you-tomorrow line (Nathan 2026-10-25, "明天見" added the same evening).** The end scene gets
   one more line after "we remember …", spoken and shown as the subtitle: zh 「喜歡這個故事，記得追蹤訂閱、分享給朋友，我們明天見！」
   (the Chinese video also goes to Facebook, hence 追蹤訂閱); en "If you enjoyed this story, subscribe and share. See you

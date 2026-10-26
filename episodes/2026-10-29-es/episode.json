@@ -1,0 +1,355 @@
+{
+ "lang": "es",
+ "date": "2026-10-29",
+ "mmdd": "10.29",
+ "person": "Joseph Pulitzer",
+ "event": "Muerte en Charleston (1911)",
+ "title": "Joseph Pulitzer: hace 115 años murió el hombre que salvó a la Estatua de la Libertad",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Logró que 125.000 personas pagaran el pedestal de la Libertad.",
+     "Logró que ciento veinticinco mil personas pagaran el pedestal de la Libertad."
+    ],
+    [
+     "¿Quién cambió el mundo hoy? 29 de octubre.",
+     "¿Quién cambió el mundo hoy? Veintinueve de octubre."
+    ],
+    [
+     "Hace 115 años murió un gran periodista:",
+     "Hace ciento quince años murió un gran periodista:"
+    ],
+    "Joseph Pulitzer."
+   ],
+   "data": {
+    "hook": "125.000 personas\npagaron su pedestal",
+    "sub": "1911  —  2026",
+    "sub_at": 2,
+    "name": "Pulitzer",
+    "name_years": "Joseph Pulitzer · 1847 – 1911",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Un joven inmigrante",
+   "lines": [
+    [
+     "En 1847, Pulitzer nació en Hungría.",
+     "En mil ochocientos cuarenta y siete, Pulitzer nació en Hungría."
+    ],
+    "A los diecisiete, viajó solo a América,",
+    "y luchó en la guerra civil.",
+    "Tras la guerra, fue reportero en San Luis.",
+    [
+     "En 1878 ya tenía su propio periódico.",
+     "En mil ochocientos setenta y ocho ya tenía su propio periódico."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "17 años",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "Hungría → América",
+        "style": "head",
+        "at": 1,
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1878",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "San Luis",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  El periódico del pueblo",
+   "lines": [
+    [
+     "En 1883 compró el New York World",
+     "En mil ochocientos ochenta y tres compró el New York World"
+    ],
+    "a Jay Gould.",
+    "Quería un periódico que hablara por la gente común,",
+    "y sus ventas se dispararon."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1883",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "New York World",
+        "style": "head",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Por la gente común",
+        "style": "title",
+        "size": 70,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Un dólar por la Libertad",
+   "lines": [
+    [
+     "En 1884, la estatua regalada por Francia ya estaba lista,",
+     "En mil ochocientos ochenta y cuatro, la estatua regalada por Francia ya estaba lista,"
+    ],
+    "pero faltaba dinero para el pedestal.",
+    [
+     "En 1885, Pulitzer pidió donaciones en su periódico.",
+     "En mil ochocientos ochenta y cinco, Pulitzer pidió donaciones en su periódico."
+    ],
+    "Prometió publicar el nombre de cada donante.",
+    "La mayoría dio un dólar o menos,",
+    [
+     "pero unas 125.000 personas reunieron más de 100.000 dólares.",
+     "pero unas ciento veinticinco mil personas reunieron más de cien mil dólares."
+    ],
+    [
+     "En 1886, la Libertad se inauguró en el puerto de Nueva York.",
+     "En mil ochocientos ochenta y seis, la Libertad se inauguró en el puerto de Nueva York."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Pedestal",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Neoyorquinos haciendo fila"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "until": 6,
+      "items": [
+       {
+        "text": "125.000",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "más de 100.000 $",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "El pedestal en obras, 1885"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Los años oscuros",
+   "lines": [
+    "Más tarde, su vista se apagó hasta quedar casi ciego.",
+    "En su testamento, dejó dinero a Columbia",
+    "para una escuela de periodismo, y un premio.",
+    [
+     "El 29 de octubre de 1911 murió en Charleston,",
+     "El veintinueve de octubre de mil novecientos once murió en Charleston,"
+    ],
+    "a los sesenta y cuatro años."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Ciego",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "Periodismo",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       },
+       {
+        "text": "Universidad de Columbia",
+        "style": "mid",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1847 – 1911",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1917 llegaron los primeros premios Pulitzer,",
+     "En mil novecientos diecisiete llegaron los primeros premios Pulitzer,"
+    ],
+    "y aún premian el gran periodismo.",
+    "Su pregunta:",
+    "si cada uno diera solo un dólar,",
+    "¿qué construirían juntos?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Premio Pulitzer",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "1917 – hoy",
+        "style": "mid",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Qué haría un dólar?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Esto es «¿Quién cambió el mundo hoy?»,",
+     "Esto es Quién cambió el mundo hoy,"
+    ],
+    [
+     "y este 29 de octubre, recordamos a Joseph Pulitzer.",
+     "y este veintinueve de octubre, recordamos a Joseph Pulitzer."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Joseph Pulitzer",
+    "years": "1847 – 1911"
+   }
+  }
+ ]
+}

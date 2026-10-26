@@ -91,7 +91,7 @@ Fixed facts
   whole chunk often hides a repeat, so: `python3 pipeline/tools/gemini_check.py EP <lang>` (needs
   /home/claude/models/sherpa-onnx-whisper-base; prints seconds/char, ASR text vs subtitle; `<<<` = text mismatch,
   `SLOW` = suspiciously long), then `pipeline/tools/halves.sh <lang> EP/tts/<id>.wav …` for every SLOW chunk (a
-  repeat shows the same sentence in both halves). Re-synthesize bad chunks; if a chunk fails twice, join it to its
+  repeat shows the same sentence in both halves). Re-synthesize bad chunks (2026-10-27 Paganini run: when a retry with the full body style glitches again, a retry with a SHORT style such as "Warm, brisk documentary narrator." / 「温かいドキュメンタリーのナレーター、速めのテンポ。」 fixed it every time; also check the byte size returned: ~48,000 bytes per second, so a chunk twice its expected size is a repeat); if a chunk fails twice, join it to its
   neighbour (end the line with a comma instead of a full stop) so the chunk gets longer. Write scripts with few
   very short stand-alone sentences. The 2026-10-28 zh video was scheduled before this was found (two repeated
   sentences); the fixed v2 went to Postiz as drafts for Nathan to swap.

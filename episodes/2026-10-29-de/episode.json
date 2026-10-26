@@ -1,0 +1,355 @@
+{
+ "lang": "de",
+ "date": "2026-10-29",
+ "mmdd": "10.29",
+ "person": "Joseph Pulitzer",
+ "event": "Tod in Charleston (1911)",
+ "title": "Joseph Pulitzer: Vor 115 Jahren starb der Mann, der die Freiheitsstatue rettete",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Er ließ 125.000 Menschen den Sockel der Statue bezahlen.",
+     "Er ließ hundertfünfundzwanzigtausend Menschen den Sockel der Freiheitsstatue bezahlen."
+    ],
+    [
+     "Wer hat heute die Welt verändert? Der 29. Oktober.",
+     "Wer hat heute die Welt verändert? Der neunundzwanzigste Oktober."
+    ],
+    [
+     "Heute vor 115 Jahren starb ein großer Zeitungsmann:",
+     "Heute vor hundertfünfzehn Jahren starb ein großer Zeitungsmann:"
+    ],
+    "Joseph Pulitzer."
+   ],
+   "data": {
+    "hook": "125.000 Menschen\nzahlten den Sockel",
+    "sub": "1911  —  2026",
+    "sub_at": 2,
+    "name": "Pulitzer",
+    "name_years": "Joseph Pulitzer · 1847 – 1911",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ein junger Einwanderer",
+   "lines": [
+    [
+     "1847 wurde Pulitzer in Ungarn geboren.",
+     "Achtzehnhundertsiebenundvierzig wurde Pulitzer in Ungarn geboren."
+    ],
+    "Mit siebzehn fuhr er allein nach Amerika",
+    "und kämpfte für die Union im Bürgerkrieg.",
+    "Nach dem Krieg wurde er Reporter in St. Louis.",
+    [
+     "1878 besaß er schon eine eigene Zeitung.",
+     "Achtzehnhundertachtundsiebzig besaß er schon eine eigene Zeitung."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "17 Jahre",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "Ungarn → Amerika",
+        "style": "head",
+        "at": 1,
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1878",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "St. Louis",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Die Zeitung des Volkes",
+   "lines": [
+    [
+     "1883 kaufte er in New York die World,",
+     "Achtzehnhundertdreiundachtzig kaufte er in New York die World,"
+    ],
+    "von Jay Gould.",
+    "Er wollte eine Zeitung für einfache Leute,",
+    "und die Auflage schoss in die Höhe."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1883",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "New York World",
+        "style": "head",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Für einfache Leute",
+        "style": "title",
+        "size": 70,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Ein Dollar für die Freiheit",
+   "lines": [
+    [
+     "1884 war die Statue aus Frankreich fertig,",
+     "Achtzehnhundertvierundachtzig war die Statue aus Frankreich fertig,"
+    ],
+    "doch es fehlte Geld für den Sockel.",
+    [
+     "1885 rief Pulitzer in seiner Zeitung zu Spenden auf.",
+     "Achtzehnhundertfünfundachtzig rief Pulitzer in seiner Zeitung zu Spenden auf."
+    ],
+    "Sein Versprechen: Jeder Name wird gedruckt.",
+    "Die meisten gaben einen Dollar oder weniger,",
+    [
+     "doch rund 125.000 Menschen spendeten über 100.000 Dollar.",
+     "doch rund hundertfünfundzwanzigtausend Menschen spendeten über hunderttausend Dollar."
+    ],
+    [
+     "1886 wurde die Statue in New York enthüllt.",
+     "Achtzehnhundertsechsundachtzig wurde die Statue in New York enthüllt."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Sockel",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "New Yorker stehen Schlange"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "until": 6,
+      "items": [
+       {
+        "text": "125.000",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "über 100.000 Dollar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Bau des Sockels, 1885"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die dunklen Jahre",
+   "lines": [
+    "Später wurde er fast blind,",
+    "und vermachte der Columbia University Geld",
+    "für eine Journalistenschule und einen Preis.",
+    [
+     "1911 starb er in Charleston,",
+     "Neunzehnhundertelf starb er in Charleston,"
+    ],
+    "mit vierundsechzig Jahren."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Blind",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "Journalismus",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       },
+       {
+        "text": "Columbia University",
+        "style": "mid",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1847 – 1911",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1917 gab es die ersten Pulitzer-Preise,",
+     "Neunzehnhundertsiebzehn gab es die ersten Pulitzer-Preise,"
+    ],
+    "und sie ehren bis heute großen Journalismus.",
+    "Seine Frage:",
+    "Wenn jeder nur einen Dollar gäbe,",
+    "was würdet ihr zusammen bauen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Pulitzer-Preis",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "1917 – heute",
+        "style": "mid",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Was baut ein Dollar?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Das ist „Wer hat heute die Welt verändert?“,",
+     "Das ist Wer hat heute die Welt verändert,"
+    ],
+    [
+     "und am 29. Oktober erinnern wir an Joseph Pulitzer.",
+     "und am neunundzwanzigsten Oktober erinnern wir an Joseph Pulitzer."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Joseph Pulitzer",
+    "years": "1847 – 1911"
+   }
+  }
+ ]
+}

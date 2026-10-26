@@ -9,3 +9,4 @@
 | 2026-10-26 | Mahalia Jackson | born (1911, New Orleans) |
 | 2026-10-27 | Niccolò Paganini | born (1782, Genoa) |
 | 2026-10-28 | Jonas Salk | Geburt (1914, New York) |
+| 2026-10-29 | Joseph Pulitzer | Tod (1911, Charleston) |

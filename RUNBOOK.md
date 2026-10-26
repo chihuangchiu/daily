@@ -100,6 +100,12 @@ Fixed facts
   compounds, years as words) → 120.5 s; ja ~600 characters → 112.1 s (aim ~630). Japanese subtitles: a line is split
   into at most 2 rows at the 、 nearest the middle, each row ≤ ~15 characters (600 px), so keep subtitle lines ≤ ~28
   characters with a 、 near the middle (subtitle-only shortening is fine).
+- **2026-10-29 Pulitzer run (Gemini Kore):** zh 434 spoken chars → 121.1 s; en 276 words/1638 chars → 126.3 s;
+  es 1627 chars → 127.6 s; pt 1529 chars → 124.2 s; ja 720 chars → 122.7 s; de 1576 chars → 125.1 s (chars = spoken
+  field incl. spaces/punctuation, years as words). The long GEMINI_STYLE body style was read aloud in 6 of 21 English
+  chunks; SHORT styles from the start ("Warm, brisk documentary narrator.", es "Narrador de documental cálido y ágil.",
+  pt "Narradora de documentário calorosa e ágil.", de "Warme, zügige Dokumentar-Erzählerin.", ja
+  「温かいドキュメンタリーのナレーター、速めのテンポ。」) gave no style read-outs; repeats still happen (re-check every chunk).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

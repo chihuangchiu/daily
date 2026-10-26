@@ -3,8 +3,8 @@
  "date": "2026-10-27",
  "mmdd": "10.27",
  "person": "Niccolò Paganini",
- "event": "Nasce em Gênova (1782)",
- "title": "Paganini: há 244 anos nascia o violinista que, diz a lenda, vendeu a alma",
+ "event": "Nascimento de Niccolò Paganini",
+ "title": "Há 244 anos: o violinista que \"vendeu a alma ao diabo\" | Paganini",
  "footer": "",
  "scenes": [
   {
@@ -12,25 +12,24 @@
    "lines": [
     "Dizem que ele vendeu a alma ao diabo.",
     [
-     "Um dia como hoje, 27 de outubro.",
-     "Um dia como hoje, vinte e sete de outubro."
+     "Quem mudou o mundo hoje? 27 de outubro.",
+     "Quem mudou o mundo hoje? Vinte e sete de outubro."
     ],
     [
-     "Há 244 anos, nascia um menino em Gênova, na Itália.",
-     "Há duzentos e quarenta e quatro anos, nascia um menino em Gênova, na Itália."
+     "Há 244 anos, em Gênova, na Itália,",
+     "Há duzentos e quarenta e quatro anos, em Gênova, na Itália,"
     ],
-    "Ele se tornaria o ídolo de toda a Europa.",
-    "Seu nome: Niccolò Paganini."
+    "nascia um menino: Niccolò Paganini."
    ],
    "data": {
-    "hook": "Dizem que vendeu\na alma ao diabo",
+    "hook": "Ele vendeu a alma\nao diabo?",
     "sub": "1782  —  2026",
     "sub_at": 2,
     "name": "Paganini",
     "name_years": "Niccolò Paganini · 1782 – 1840",
-    "name_at": 4,
+    "name_at": 3,
     "image": "opening.png",
-    "image_shift": 0.32,
+    "image_shift": 0.31,
     "video": "opening.mp4",
     "video_secs": 5,
     "video_align": "end"
@@ -38,91 +37,15 @@
   },
   {
    "template": "stack",
-   "chapter": "Capítulo 1  Um menino do porto",
+   "chapter": "Capítulo 1  O menino do porto",
    "lines": [
     [
-     "Ele nasceu em 27 de outubro de 1782, no porto de Gênova.",
-     "Ele nasceu em vinte e sete de outubro de mil setecentos e oitenta e dois, no porto de Gênova."
+     "O pai era comerciante no porto e tocava bandolim.",
+     "O pai tinha um pequeno comércio no porto e, nas horas vagas, tocava bandolim."
     ],
-    "O pai tinha um pequeno negócio e tocava bandolim.",
-    "Aprendeu bandolim aos cinco anos, e violino aos sete.",
-    [
-     "Em 1794, com menos de doze anos, fez seu primeiro concerto.",
-     "Em mil setecentos e noventa e quatro, com menos de doze anos, fez seu primeiro concerto."
-    ],
+    "Niccolò começou a tocar violino aos sete anos,",
+    "e antes dos doze, fez seu primeiro concerto numa igreja.",
     "Aos dezoito, virou primeiro violino da República de Lucca."
-   ],
-   "data": {
-    "phases": [
-     {
-      "at": 0,
-      "until": 3,
-      "items": [
-       {
-        "type": "image",
-        "src": "img1.png",
-        "caption": "O porto de Gênova, século XVIII"
-       },
-       {
-        "text": "Violino aos 7",
-        "style": "head",
-        "color": "red",
-        "at": 2,
-        "delay": 0.3
-       }
-      ]
-     },
-     {
-      "at": 3,
-      "until": 4,
-      "items": [
-       {
-        "text": "1794",
-        "style": "huge",
-        "size": 130,
-        "color": "red"
-       },
-       {
-        "text": "Primeiro concerto",
-        "style": "head",
-        "delay": 0.4
-       }
-      ]
-     },
-     {
-      "at": 4,
-      "items": [
-       {
-        "text": "18 anos",
-        "style": "big",
-        "size": 92
-       },
-       {
-        "text": "Primeiro violino",
-        "style": "head",
-        "color": "red",
-        "delay": 0.4
-       }
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "template": "stack",
-   "chapter": "Capítulo 2  Uma corda só",
-   "lines": [
-    [
-     "Em 1805, Elisa, irmã de Napoleão, passou a governar Lucca.",
-     "Em mil oitocentos e cinco, Elisa, irmã de Napoleão, passou a governar Lucca."
-    ],
-    "Paganini se tornou violinista da sua corte.",
-    [
-     "Em 1807, para o dia do santo de Napoleão, compôs uma sonata.",
-     "Em mil oitocentos e sete, para o dia do santo de Napoleão, compôs uma sonata."
-    ],
-    "A obra inteira era tocada numa só corda.",
-    "Os outros precisavam de quatro cordas. Ele, de uma só."
    ],
    "data": {
     "phases": [
@@ -131,14 +54,69 @@
       "until": 2,
       "items": [
        {
-        "text": "Corte de Lucca",
-        "style": "title",
-        "size": 80,
+        "type": "image",
+        "src": "img1.png",
+        "caption": "O porto de Gênova, fim do século XVIII"
+       },
+       {
+        "text": "Violino aos 7",
+        "style": "head",
+        "color": "red",
+        "at": 1,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "18",
+        "style": "big",
+        "size": 96
+       },
+       {
+        "text": "Primeiro violino",
+        "style": "head",
+        "color": "red",
+        "at": 3,
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Uma só corda",
+   "lines": [
+    [
+     "Em 1807, para o dia do santo de Napoleão,",
+     "Em mil oitocentos e sete, para o dia do santo de Napoleão,"
+    ],
+    "ele escreveu uma sonata para violino",
+    "tocada inteira numa só corda.",
+    [
+     "Outros usavam quatro cordas. Ele, uma. A plateia, boquiaberta.",
+     "Os outros usavam quatro cordas. Ele precisava de apenas uma, e a plateia ficou boquiaberta."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1807",
+        "style": "huge",
+        "size": 130,
         "color": "red"
        },
        {
-        "text": "1805",
-        "style": "mid",
+        "text": "Para Napoleão",
+        "style": "head",
         "delay": 0.4
        }
       ]
@@ -150,8 +128,7 @@
         "text": "1",
         "style": "huge",
         "size": 200,
-        "color": "red",
-        "at": 3
+        "color": "red"
        },
        {
         "text": "corda",
@@ -169,17 +146,14 @@
    "chapter": "Capítulo 3  O violinista do diabo",
    "lines": [
     [
-     "Em 1828, partiu de Viena numa turnê pela Europa.",
-     "Em mil oitocentos e vinte e oito, partiu de Viena numa turnê pela Europa."
+     "A partir de 1828, ele percorreu a Europa",
+     "A partir de mil oitocentos e vinte e oito, ele percorreu a Europa"
     ],
-    [
-     "Em 1831, conquistou Paris e Londres.",
-     "Em mil oitocentos e trinta e um, conquistou Paris e Londres."
-    ],
-    "Seus dedos se moviam numa velocidade impossível.",
-    "Alguns juravam ter visto o diabo ajudando ele a tocar.",
-    "Um jovem pianista, Franz Liszt, ouviu tudo fascinado.",
-    "Liszt decidiu ser o Paganini do piano."
+    "e conquistou Viena, Paris e Londres.",
+    "Seus dedos eram impossivelmente rápidos.",
+    "Havia até quem jurasse ver o diabo tocando ao lado dele.",
+    "Um jovem pianista chamado Franz Liszt ficou encantado,",
+    "e decidiu ser o Paganini do piano."
    ],
    "data": {
     "phases": [
@@ -188,14 +162,10 @@
       "until": 2,
       "items": [
        {
-        "text": "Viena",
+        "text": "Viena · Paris · Londres",
         "style": "title",
-        "size": 80,
-        "color": "red"
-       },
-       {
-        "text": "Paris · Londres",
-        "style": "head",
+        "size": 60,
+        "color": "red",
         "at": 1
        }
       ]
@@ -219,7 +189,7 @@
        {
         "text": "Liszt",
         "style": "title",
-        "size": 96,
+        "size": 88,
         "color": "red"
        },
        {
@@ -236,18 +206,17 @@
    "template": "stack",
    "chapter": "Capítulo 4  O Canhão",
    "lines": [
-    "Seus vinte e quatro Caprichos ainda são um grande desafio.",
+    "Seus vinte e quatro Caprichos",
+    "ainda são a grande prova dos violinistas.",
     [
-     "Liszt, Brahms e Rachmaninoff recriaram o número 24.",
-     "Liszt, Brahms e Rachmaninoff recriaram o número vinte e quatro."
+     "Ele morreu em Nice, em 1840.",
+     "Ele morreu em Nice, em mil oitocentos e quarenta."
     ],
     [
-     "Morreu em Nice, em 27 de maio de 1840.",
-     "Morreu em Nice, em vinte e sete de maio de mil oitocentos e quarenta."
+     "Deixou seu violino, o Canhão, para Gênova,",
+     "Deixou seu violino favorito, o Canhão, para sua cidade natal, Gênova,"
     ],
-    "Deixou seu violino favorito, o Canhão, para sua cidade natal.",
-    "Hoje ele fica na prefeitura de Gênova,",
-    "e quem o toca são os vencedores do concurso Paganini."
+    "onde hoje os vencedores do Prêmio Paganini o tocam."
    ],
    "data": {
     "phases": [
@@ -285,10 +254,10 @@
        {
         "type": "image",
         "src": "img2.png",
-        "caption": "«O Canhão», feito em 1743"
+        "caption": "O violino \"Canhão\", de 1743"
        },
        {
-        "text": "Para Gênova",
+        "text": "Deixado a Gênova",
         "style": "head",
         "color": "red",
         "at": 4
@@ -302,10 +271,12 @@
    "template": "stack",
    "chapter": "Capítulo 5  Sua resposta",
    "lines": [
-    "Chamavam ele de violinista do diabo.",
-    "Mas o que ele nos deixou foi um violino capaz de tudo.",
-    "A pergunta dele para você:",
-    "se só sobrasse uma corda,",
+    "Chamavam-no de diabo,",
+    [
+     "mas sua técnica tornou o violino sem limites.",
+     "mas o que ele realmente deixou foi uma técnica que tornou o violino sem limites."
+    ],
+    "A pergunta dele para você: se só restasse uma corda,",
     "o que você tocaria?"
    ],
    "data": {
@@ -315,9 +286,9 @@
       "until": 2,
       "items": [
        {
-        "text": "Lenda",
+        "text": "O violinista do diabo",
         "style": "title",
-        "size": 84,
+        "size": 80,
         "color": "red"
        }
       ]
@@ -334,9 +305,9 @@
         "style": "kicker"
        },
        {
-        "text": "O que você tocaria?",
+        "text": "Só uma corda. O que você tocaria?",
         "style": "head",
-        "size": 48,
+        "size": 46,
         "color": "red",
         "at": 3
        }
@@ -349,10 +320,14 @@
    "template": "end",
    "lines": [
     [
-     "Um dia como hoje, 27 de outubro,",
-     "Um dia como hoje, vinte e sete de outubro,"
+     "Aqui é «Quem mudou o mundo hoje?»,",
+     "Aqui é Quem mudou o mundo hoje,"
     ],
-    "lembramos Niccolò Paganini."
+    [
+     "e neste 27 de outubro, lembramos de Niccolò Paganini.",
+     "e neste vinte e sete de outubro, lembramos de Niccolò Paganini."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
    ],
    "data": {
     "name": "Niccolò Paganini",

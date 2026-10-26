@@ -12,8 +12,8 @@
    "lines": [
     "Venció a la polio, y se negó a patentarla.",
     [
-     "Un día como hoy, 28 de octubre.",
-     "Un día como hoy, veintiocho de octubre."
+     "¿Quién cambió el mundo hoy? 28 de octubre.",
+     "¿Quién cambió el mundo hoy? Veintiocho de octubre."
     ],
     [
      "Hace 112 años, nació un niño en Nueva York.",
@@ -304,10 +304,13 @@
    "template": "end",
    "lines": [
     [
-     "Un día como hoy, 28 de octubre,",
-     "Un día como hoy, veintiocho de octubre,"
+     "Esto es «¿Quién cambió el mundo hoy?»,",
+     "Esto es Quién cambió el mundo hoy,"
     ],
-    "recordamos a Jonas Salk.",
+    [
+     "y este 28 de octubre, recordamos a Jonas Salk.",
+     "y este veintiocho de octubre, recordamos a Jonas Salk."
+    ],
     "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
    ],
    "data": {

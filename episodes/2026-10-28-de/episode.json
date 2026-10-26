@@ -12,12 +12,12 @@
    "lines": [
     "Er besiegte die Kinderlähmung und ließ nichts patentieren.",
     [
-     "An diesem Tag, dem 28. Oktober,",
-     "An diesem Tag, dem achtundzwanzigsten Oktober,"
+     "Wer hat heute die Welt verändert? Der 28. Oktober.",
+     "Wer hat heute die Welt verändert? Der achtundzwanzigste Oktober."
     ],
     [
-     "vor 112 Jahren, wurde in New York ein Junge geboren.",
-     "vor hundertzwölf Jahren, wurde in New York ein Junge geboren."
+     "Vor 112 Jahren wurde in New York ein Junge geboren.",
+     "Vor hundertzwölf Jahren wurde in New York ein Junge geboren."
     ],
     "Sein Name: Jonas Salk."
    ],
@@ -304,10 +304,13 @@
    "template": "end",
    "lines": [
     [
-     "An diesem Tag, dem 28. Oktober,",
-     "An diesem Tag, dem achtundzwanzigsten Oktober,"
+     "Das ist „Wer hat heute die Welt verändert?“,",
+     "Das ist Wer hat heute die Welt verändert,"
     ],
-    "erinnern wir an Jonas Salk.",
+    [
+     "und am 28. Oktober erinnern wir an Jonas Salk.",
+     "und am achtundzwanzigsten Oktober erinnern wir an Jonas Salk."
+    ],
     "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
    ],
    "data": {

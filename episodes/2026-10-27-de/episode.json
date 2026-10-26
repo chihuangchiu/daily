@@ -3,34 +3,33 @@
  "date": "2026-10-27",
  "mmdd": "10.27",
  "person": "Niccolò Paganini",
- "event": "Geboren in Genua (1782)",
- "title": "Paganini: Vor 244 Jahren wurde der Geiger geboren, der angeblich seine Seele verkaufte",
+ "event": "Geburtstag von Niccolò Paganini",
+ "title": "Vor 244 Jahren: der Geiger, der \"seine Seele dem Teufel verkaufte\" | Paganini",
  "footer": "",
  "scenes": [
   {
    "template": "title",
    "lines": [
-    "Man sagte, er habe seine Seele dem Teufel verkauft.",
+    "Man sagt, er habe seine Seele dem Teufel verkauft.",
     [
-     "An diesem Tag, dem 27. Oktober.",
-     "An diesem Tag, dem siebenundzwanzigsten Oktober."
+     "Wer hat heute die Welt verändert? Der 27. Oktober.",
+     "Wer hat heute die Welt verändert? Der siebenundzwanzigste Oktober."
     ],
     [
-     "Vor 244 Jahren wurde in Genua ein Junge geboren.",
-     "Vor zweihundertvierundvierzig Jahren wurde in Genua ein Junge geboren."
+     "Vor 244 Jahren wurde in Genua, Italien,",
+     "Vor zweihundertvierundvierzig Jahren wurde in Genua, Italien,"
     ],
-    "Er wurde zum Idol ganz Europas.",
-    "Sein Name: Niccolò Paganini."
+    "ein Junge geboren: Niccolò Paganini."
    ],
    "data": {
-    "hook": "Verkaufte er seine\nSeele dem Teufel?",
+    "hook": "Seine Seele\ndem Teufel verkauft?",
     "sub": "1782  —  2026",
     "sub_at": 2,
     "name": "Paganini",
     "name_years": "Niccolò Paganini · 1782 – 1840",
-    "name_at": 4,
+    "name_at": 3,
     "image": "opening.png",
-    "image_shift": 0.32,
+    "image_shift": 0.31,
     "video": "opening.mp4",
     "video_secs": 5,
     "video_align": "end"
@@ -38,91 +37,18 @@
   },
   {
    "template": "stack",
-   "chapter": "Kapitel 1  Ein Junge am Hafen",
+   "chapter": "Kapitel 1  Der Junge vom Hafen",
    "lines": [
     [
-     "Er wurde am 27. Oktober 1782 in der Hafenstadt Genua geboren.",
-     "Er wurde am siebenundzwanzigsten Oktober siebzehnhundertzweiundachtzig in der Hafenstadt Genua geboren."
+     "Sein Vater war Händler am Hafen und spielte Mandoline.",
+     "Sein Vater hatte ein kleines Geschäft am Hafen und spielte Mandoline."
     ],
-    "Sein Vater hatte einen kleinen Laden und spielte Mandoline.",
-    "Mit fünf lernte er Mandoline, mit sieben Geige.",
+    "Mit sieben Jahren nahm Niccolò die Geige in die Hand,",
     [
-     "1794, noch keine zwölf, gab er sein erstes Konzert.",
-     "Siebzehnhundertvierundneunzig, noch keine zwölf, gab er sein erstes Konzert."
+     "und vor zwölf gab er sein erstes Konzert in einer Kirche.",
+     "und noch vor seinem zwölften Geburtstag gab er sein erstes Konzert in einer Kirche."
     ],
     "Mit achtzehn wurde er erster Geiger der Republik Lucca."
-   ],
-   "data": {
-    "phases": [
-     {
-      "at": 0,
-      "until": 3,
-      "items": [
-       {
-        "type": "image",
-        "src": "img1.png",
-        "caption": "Der Hafen von Genua, 18. Jh."
-       },
-       {
-        "text": "Geige mit 7",
-        "style": "head",
-        "color": "red",
-        "at": 2,
-        "delay": 0.3
-       }
-      ]
-     },
-     {
-      "at": 3,
-      "until": 4,
-      "items": [
-       {
-        "text": "1794",
-        "style": "huge",
-        "size": 130,
-        "color": "red"
-       },
-       {
-        "text": "Erstes Konzert",
-        "style": "head",
-        "delay": 0.4
-       }
-      ]
-     },
-     {
-      "at": 4,
-      "items": [
-       {
-        "text": "18 Jahre",
-        "style": "big",
-        "size": 92
-       },
-       {
-        "text": "Erster Geiger",
-        "style": "head",
-        "color": "red",
-        "delay": 0.4
-       }
-      ]
-     }
-    ]
-   }
-  },
-  {
-   "template": "stack",
-   "chapter": "Kapitel 2  Nur eine Saite",
-   "lines": [
-    [
-     "1805 wurde Napoleons Schwester Elisa Herrscherin von Lucca.",
-     "Achtzehnhundertfünf wurde Napoleons Schwester Elisa Herrscherin von Lucca."
-    ],
-    "Paganini wurde Geiger an ihrem Hof.",
-    [
-     "1807 schrieb er zu Napoleons Namenstag eine Sonate.",
-     "Achtzehnhundertsieben schrieb er zu Napoleons Namenstag eine Sonate."
-    ],
-    "Das ganze Stück wurde auf einer einzigen Saite gespielt.",
-    "Andere brauchten vier Saiten. Er nur eine."
    ],
    "data": {
     "phases": [
@@ -131,14 +57,66 @@
       "until": 2,
       "items": [
        {
-        "text": "Hof von Lucca",
-        "style": "title",
-        "size": 80,
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Der Hafen von Genua, Ende des 18. Jahrhunderts"
+       },
+       {
+        "text": "Geige mit 7",
+        "style": "head",
+        "color": "red",
+        "at": 1,
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "18",
+        "style": "big",
+        "size": 96
+       },
+       {
+        "text": "Erster Geiger",
+        "style": "head",
+        "color": "red",
+        "at": 3,
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Eine einzige Saite",
+   "lines": [
+    [
+     "1807, zum Namenstag Napoleons,",
+     "Achtzehnhundertsieben, zum Namenstag Napoleons,"
+    ],
+    "schrieb er eine Violinsonate,",
+    "die ganz auf einer einzigen Saite gespielt wird.",
+    "Alle anderen brauchten vier Saiten. Ihm reichte eine."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1807",
+        "style": "huge",
+        "size": 130,
         "color": "red"
        },
        {
-        "text": "1805",
-        "style": "mid",
+        "text": "Für Napoleon",
+        "style": "head",
         "delay": 0.4
        }
       ]
@@ -150,8 +128,7 @@
         "text": "1",
         "style": "huge",
         "size": 200,
-        "color": "red",
-        "at": 3
+        "color": "red"
        },
        {
         "text": "Saite",
@@ -169,17 +146,14 @@
    "chapter": "Kapitel 3  Der Teufelsgeiger",
    "lines": [
     [
-     "1828 brach er von Wien zu einer Tournee durch Europa auf.",
-     "Achtzehnhundertachtundzwanzig brach er von Wien zu einer Tournee durch Europa auf."
+     "Ab 1828 tourte er durch Europa",
+     "Ab achtzehnhundertachtundzwanzig tourte er durch Europa"
     ],
-    [
-     "1831 eroberte er Paris und London.",
-     "Achtzehnhunderteinunddreißig eroberte er Paris und London."
-    ],
-    "Seine Finger bewegten sich unglaublich schnell.",
-    "Manche schworen, der Teufel helfe ihm beim Spielen.",
-    "Ein junger Pianist, Franz Liszt, hörte gebannt zu.",
-    "Liszt wollte der Paganini des Klaviers werden."
+    "und eroberte Wien, Paris und London.",
+    "Seine Finger waren unfassbar schnell.",
+    "Manche schworen, der Teufel spiele mit ihm.",
+    "Ein junger Pianist, Franz Liszt, war wie verzaubert,",
+    "und wollte der Paganini des Klaviers werden."
    ],
    "data": {
     "phases": [
@@ -188,14 +162,10 @@
       "until": 2,
       "items": [
        {
-        "text": "Wien",
+        "text": "Wien · Paris · London",
         "style": "title",
-        "size": 80,
-        "color": "red"
-       },
-       {
-        "text": "Paris · London",
-        "style": "head",
+        "size": 60,
+        "color": "red",
         "at": 1
        }
       ]
@@ -207,7 +177,7 @@
        {
         "text": "Der Teufel?",
         "style": "huge",
-        "size": 120,
+        "size": 110,
         "color": "red",
         "at": 3
        }
@@ -219,11 +189,11 @@
        {
         "text": "Liszt",
         "style": "title",
-        "size": 96,
+        "size": 88,
         "color": "red"
        },
        {
-        "text": "Paganini des Klaviers",
+        "text": "Der Paganini des Klaviers",
         "style": "head",
         "at": 5
        }
@@ -236,20 +206,19 @@
    "template": "stack",
    "chapter": "Kapitel 4  Die Kanone",
    "lines": [
-    "Seine vierundzwanzig Capricen sind bis heute eine große Prüfung.",
+    "Seine vierundzwanzig Capricen",
+    "sind bis heute die große Prüfung für Geiger.",
     [
-     "Liszt, Brahms und Rachmaninow nutzten die Nr. 24.",
-     "Liszt, Brahms und Rachmaninow schufen Neues aus der Nummer vierundzwanzig."
+     "1840 starb er in Nizza.",
+     "Achtzehnhundertvierzig starb er in Nizza."
     ],
     [
-     "Er starb am 27. Mai 1840 in Nizza.",
-     "Er starb am siebenundzwanzigsten Mai achtzehnhundertvierzig in Nizza."
+     "Seine Geige, die Kanone, vermachte er Genua,",
+     "Seine Lieblingsgeige, die Kanone, vermachte er seiner Heimatstadt Genua,"
     ],
-    "Seine geliebte Geige, die Kanone, vermachte er seiner Heimatstadt.",
-    "Heute liegt sie im Rathaus von Genua,",
     [
-     "und Sieger des Paganini-Preises spielen sie.",
-     "und die Sieger des Paganini-Wettbewerbs dürfen sie spielen."
+     "wo heute die Sieger des Wettbewerbs auf ihr spielen.",
+     "wo heute die Sieger des Paganini-Wettbewerbs auf ihr spielen."
     ]
    ],
    "data": {
@@ -288,10 +257,10 @@
        {
         "type": "image",
         "src": "img2.png",
-        "caption": "Die Kanone, gebaut 1743"
+        "caption": "Die Geige \"Kanone\", gebaut 1743"
        },
        {
-        "text": "Für Genua",
+        "text": "Vermacht an Genua",
         "style": "head",
         "color": "red",
         "at": 4
@@ -305,10 +274,9 @@
    "template": "stack",
    "chapter": "Kapitel 5  Deine Antwort",
    "lines": [
-    "Man nannte ihn den Teufelsgeiger.",
-    "Doch er hinterließ uns eine Geige, die alles kann.",
-    "Seine Frage an dich:",
-    "Wenn dir nur noch eine Saite bliebe,",
+    "Man nannte ihn den Teufel,",
+    "doch er hinterließ eine Technik, die der Geige keine Grenzen ließ.",
+    "Seine Frage an dich: Wenn dir nur eine Saite bliebe,",
     "was würdest du spielen?"
    ],
    "data": {
@@ -318,9 +286,9 @@
       "until": 2,
       "items": [
        {
-        "text": "Teufelsgeiger",
+        "text": "Der Teufelsgeiger",
         "style": "title",
-        "size": 72,
+        "size": 90,
         "color": "red"
        }
       ]
@@ -337,9 +305,9 @@
         "style": "kicker"
        },
        {
-        "text": "Was würdest du spielen?",
+        "text": "Nur eine Saite. Was würdest du spielen?",
         "style": "head",
-        "size": 48,
+        "size": 44,
         "color": "red",
         "at": 3
        }
@@ -351,12 +319,12 @@
   {
    "template": "end",
    "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
     [
-     "An diesem Tag, dem 27. Oktober,",
-     "An diesem Tag, dem siebenundzwanzigsten Oktober,"
+     "und am 27. Oktober erinnern wir an Niccolò Paganini.",
+     "und am siebenundzwanzigsten Oktober erinnern wir an Niccolò Paganini."
     ],
-    "erinnern wir an Niccolò Paganini.",
-    "Wenn dir die Geschichte gefällt, abonniere und teile sie."
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
    ],
    "data": {
     "name": "Niccolò Paganini",

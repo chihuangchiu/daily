@@ -1,0 +1,352 @@
+{
+ "lang": "en",
+ "date": "2026-10-29",
+ "mmdd": "10.29",
+ "person": "Joseph Pulitzer",
+ "event": "Died in Charleston (1911)",
+ "title": "Joseph Pulitzer: 115 Years Ago Today, the Man Who Got 125,000 People to Save Lady Liberty",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He got 125,000 people to buy Lady Liberty a pedestal.",
+    [
+     "Who changed the world today? October 29.",
+     "Who changed the world today? October twenty-ninth."
+    ],
+    [
+     "115 years ago today, a newspaperman died in America:",
+     "A hundred and fifteen years ago today, a newspaperman died in America:"
+    ],
+    "Joseph Pulitzer."
+   ],
+   "data": {
+    "hook": "125,000 people\nbuilt Liberty's base",
+    "sub": "1911  —  2026",
+    "sub_at": 2,
+    "name": "Pulitzer",
+    "name_years": "Joseph Pulitzer · 1847 – 1911",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A young immigrant",
+   "lines": [
+    [
+     "In 1847, Pulitzer was born in Hungary.",
+     "In eighteen forty-seven, Pulitzer was born in Hungary."
+    ],
+    "At seventeen, he sailed to America alone,",
+    "and joined the Union Army in the Civil War.",
+    "After the war, he reported for a German paper in St. Louis.",
+    [
+     "By 1878, he owned a newspaper of his own.",
+     "By eighteen seventy-eight, he owned a newspaper of his own."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Age 17",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 1
+       },
+       {
+        "text": "Hungary → America",
+        "style": "head",
+        "at": 1,
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1878",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "St. Louis",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  The people's paper",
+   "lines": [
+    [
+     "In 1883, he bought the New York World",
+     "In eighteen eighty-three, he bought the New York World"
+    ],
+    "from the financier Jay Gould.",
+    "He wanted a paper that spoke for ordinary people,",
+    "and its sales soared."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1883",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "New York World",
+        "style": "head",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "For ordinary people",
+        "style": "title",
+        "size": 70,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A dollar for Liberty",
+   "lines": [
+    [
+     "By 1884, France's gift, the Statue of Liberty, was ready,",
+     "By eighteen eighty-four, France's gift, the Statue of Liberty, was ready,"
+    ],
+    "but there was no money for its pedestal.",
+    [
+     "In 1885, Pulitzer launched a fundraising drive in his paper.",
+     "In eighteen eighty-five, Pulitzer launched a fundraising drive in his paper."
+    ],
+    [
+     "Every donor's name would be printed, whatever the gift.",
+     "His promise: every donor's name would be printed, whatever the gift."
+    ],
+    "Most people gave a dollar or less,",
+    [
+     "yet about 125,000 people raised more than $100,000.",
+     "yet about a hundred and twenty-five thousand people raised more than a hundred thousand dollars."
+    ],
+    [
+     "In 1886, Lady Liberty was unveiled in New York Harbor.",
+     "In eighteen eighty-six, Lady Liberty was unveiled in New York Harbor."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Pedestal",
+        "style": "huge",
+        "size": 120,
+        "color": "red",
+        "at": 1
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "New Yorkers lining up to give"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "until": 6,
+      "items": [
+       {
+        "text": "125,000",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "over $100,000",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Building the pedestal, 1885"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The dark years",
+   "lines": [
+    "Later, his eyesight failed until he was nearly blind.",
+    "In his will, he left money to Columbia University",
+    "to found a school of journalism, and a prize.",
+    [
+     "On October 29, 1911, he died in Charleston,",
+     "On October twenty-ninth, nineteen eleven, he died in Charleston,"
+    ],
+    "at the age of sixty-four."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Blind",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "Journalism school",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       },
+       {
+        "text": "Columbia University",
+        "style": "mid",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1847 – 1911",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1917, the first Pulitzer Prizes were awarded,",
+     "In nineteen seventeen, the first Pulitzer Prizes were awarded,"
+    ],
+    "and they still honor great journalism today.",
+    "His question for you:",
+    "if everyone gave just one dollar,",
+    "what would you build together?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Pulitzer Prize",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "1917 – today",
+        "style": "mid",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "What would $1 build?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on October 29, we remember Joseph Pulitzer.",
+     "and on October twenty-ninth, we remember Joseph Pulitzer."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Joseph Pulitzer",
+    "years": "1847 – 1911"
+   }
+  }
+ ]
+}

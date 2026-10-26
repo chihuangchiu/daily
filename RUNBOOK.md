@@ -45,10 +45,10 @@ Fixed facts
 - **End scene names the channel too (Nathan 2026-10-26).** Replace 「歷史上的今天，10月28日，我們記得某某。」 with two
   lines that form one sentence (first ends with a comma, so Gemini gets one longer chunk): zh 「這裡是「今天，誰改變了
   世界」，」+「10月28日，我們記得沙克。」 (spoken without the 「」); en "This is Who Changed the World Today," + "and on
-  October 28, we remember Jonas Salk."; es "Esto es ¿Quién cambió el mundo hoy?," → write "Esto es Quién cambió el
-  mundo hoy," + "y este 28 de octubre, recordamos a Jonas Salk."; pt "Aqui é Quem mudou o mundo hoje," + "e neste 28 de
-  outubro, lembramos de Jonas Salk."; ja 「こちらは、今日、世界を変えたのは誰。」 is too short alone → 「こちらは『今日、
-  世界を変えたのは誰』、」+「10月28日、ジョナス・ソークを思い出します。」; de "Das ist Wer hat heute die Welt
+  October 28, we remember Jonas Salk."; es "Esto es Quién cambió el mundo hoy," + "y este 28 de octubre, recordamos a
+  Jonas Salk."; pt "Aqui é Quem mudou o mundo hoje," + "e neste 28 de
+  outubro, lembramos de Jonas Salk."; ja 「こちらは『今日、世界を変えたのは誰』、」+「10月28日、ジョナス・ソークを思い
+  出します。」; de "Das ist Wer hat heute die Welt
   verändert," + "und am 28. Oktober erinnern wir an Jonas Salk." Then the subscribe/share/see-you-tomorrow line.
 - **Subscribe, share & see-you-tomorrow line (Nathan 2026-10-25, "明天見" added the same evening).** The end scene gets
   one more line after "we remember …", spoken and shown as the subtitle: zh 「喜歡這個故事，記得追蹤訂閱、分享給朋友，我們明天見！」

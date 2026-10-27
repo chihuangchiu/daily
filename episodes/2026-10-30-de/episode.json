@@ -1,0 +1,310 @@
+{
+ "lang": "de",
+ "date": "2026-10-30",
+ "mmdd": "10.30",
+ "person": "John Adams",
+ "event": "Geboren in Braintree, Massachusetts (1735)",
+ "title": "John Adams: Vor 291 Jahren geboren – der Anwalt, der den Feind verteidigte",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er verteidigte die Soldaten, die auf seine Nachbarn schossen.",
+    [
+     "Wer hat heute die Welt verändert? Der 30. Oktober.",
+     "Wer hat heute die Welt verändert? Der dreißigste Oktober."
+    ],
+    [
+     "Vor 291 Jahren wurde in Massachusetts ein Junge geboren:",
+     "Vor zweihunderteinundneunzig Jahren wurde in Massachusetts ein Junge geboren:"
+    ],
+    "John Adams."
+   ],
+   "data": {
+    "hook": "Er verteidigte die\nbritischen Soldaten",
+    "sub": "1735  —  2026",
+    "sub_at": 2,
+    "name": "Adams",
+    "name_years": "John Adams · 1735 – 1826",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.29,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Fall, den keiner wollte",
+   "lines": [
+    [
+     "Am 5. März 1770 schossen Soldaten in Boston in die Menge,",
+     "Am fünften März siebzehnhundertsiebzig schossen britische Soldaten in Boston in die Menge,"
+    ],
+    "fünf Menschen starben.",
+    "Kein Anwalt wollte sie verteidigen,",
+    "doch John Adams übernahm den Fall.",
+    "Er glaubte an faire Prozesse für jeden.",
+    "Er sagte den Geschworenen: Fakten sind hartnäckig.",
+    [
+     "Freispruch für den Hauptmann und sechs der acht Soldaten.",
+     "Am Ende wurden der Hauptmann und sechs der acht Soldaten freigesprochen."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1770",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Boston",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "text": "Fairer Prozess",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "6 / 8",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "freigesprochen",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Stütze der Unabhängigkeit",
+   "lines": [
+    "Im Kongress kämpfte Adams für die Unabhängigkeit.",
+    "Er ließ Jefferson die Erklärung schreiben,",
+    "und verteidigte sie im Plenum.",
+    [
+     "Am 4. Juli 1776 wurde die Erklärung angenommen.",
+     "Am vierten Juli siebzehnhundertsechsundsiebzig wurde die Erklärung angenommen."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Der Kontinentalkongress, 1776"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "4. Juli 1776",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Erster im Weißen Haus",
+   "lines": [
+    [
+     "1797 wurde er zweiter Präsident der USA,",
+     "Siebzehnhundertsiebenundneunzig wurde er zweiter Präsident der USA,"
+    ],
+    "und der erste, der im Weißen Haus wohnte."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "2. Präsident",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "Weißes Haus",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "der erste Bewohner",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Letzte Worte",
+   "lines": [
+    "Später entzweite die Politik die beiden,",
+    [
+     "doch 1812 schrieb Adams als Erster,",
+     "doch achtzehnhundertzwölf schrieb Adams als Erster,"
+    ],
+    "und sie schrieben sich vierzehn Jahre lang.",
+    [
+     "Am 4. Juli 1826, fünfzig Jahre nach der Erklärung,",
+     "Am vierten Juli achtzehnhundertsechsundzwanzig, fünfzig Jahre nach der Erklärung,"
+    ],
+    "sagte Adams mit neunzig: Thomas Jefferson lebt noch.",
+    "Er wusste nicht, dass Jefferson Stunden zuvor gestorben war."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Briefe zweier alter Freunde"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "4. Juli",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "am selben Tag",
+        "style": "head",
+        "delay": 0.4,
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Die Verfassung von Massachusetts, die er 1780 entwarf,",
+     "Die Verfassung von Massachusetts, die er siebzehnhundertachtzig entwarf,"
+    ],
+    "ist die älteste noch gültige geschriebene Verfassung.",
+    "Seine Frage an dich:",
+    "Wenn eine ganze Stadt jemanden hasst,",
+    "würdest du für seinen fairen Prozess eintreten?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1780",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Verfassung von Massachusetts",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Fairness auch für Feinde?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 30. Oktober erinnern wir an John Adams.",
+     "und am dreißigsten Oktober erinnern wir an John Adams."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "John Adams",
+    "years": "1735 – 1826"
+   }
+  }
+ ]
+}

@@ -106,6 +106,9 @@ Fixed facts
   chunks; SHORT styles from the start ("Warm, brisk documentary narrator.", es "Narrador de documental cálido y ágil.",
   pt "Narradora de documentário calorosa e ágil.", de "Warme, zügige Dokumentar-Erzählerin.", ja
   「温かいドキュメンタリーのナレーター、速めのテンポ。」) gave no style read-outs; repeats still happen (re-check every chunk).
+- **2026-10-30 Adams run (Gemini Kore, short styles):** zh 429 spoken chars (no punctuation) → 118.3 s; en 1638 chars → 133 s (too long), 1550 → 125.8 s;
+  es 1508 → 121.2 s; pt 1503 → 131.5 s (pt reads slower; ~1430 → 126.7 s); ja 668 → 120.6 s; de 1570 → 124.1 s.
+  Joining a very short sentence to its neighbour with a comma (one chunk) avoided glitches in es/pt/de.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

@@ -10,3 +10,4 @@
 | 2026-10-27 | Niccolò Paganini | nacimiento (1782, Génova) |
 | 2026-10-28 | Jonas Salk | nacimiento (1914, Nueva York) |
 | 2026-10-29 | Joseph Pulitzer | muerte (1911, Charleston) |
+| 2026-10-30 | John Adams | nació (1735, Braintree, Massachusetts) |

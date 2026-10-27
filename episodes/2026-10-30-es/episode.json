@@ -1,0 +1,310 @@
+{
+ "lang": "es",
+ "date": "2026-10-30",
+ "mmdd": "10.30",
+ "person": "John Adams",
+ "event": "Nació en Braintree, Massachusetts (1735)",
+ "title": "John Adams: hace 291 años nació el abogado que defendió al enemigo",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Defendió a los soldados que dispararon a sus vecinos.",
+    [
+     "¿Quién cambió el mundo hoy? 30 de octubre.",
+     "¿Quién cambió el mundo hoy? Treinta de octubre."
+    ],
+    [
+     "Hace 291 años nació un niño en Massachusetts:",
+     "Hace doscientos noventa y un años nació un niño en Massachusetts:"
+    ],
+    "John Adams."
+   ],
+   "data": {
+    "hook": "Defendió a los\nsoldados británicos",
+    "sub": "1735  —  2026",
+    "sub_at": 2,
+    "name": "Adams",
+    "name_years": "John Adams · 1735 – 1826",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.29,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El caso que nadie quería",
+   "lines": [
+    [
+     "El 5 de marzo de 1770, soldados británicos dispararon en Boston,",
+     "El cinco de marzo de mil setecientos setenta, soldados británicos dispararon en Boston,"
+    ],
+    "y mataron a cinco personas.",
+    "Ningún abogado quería defenderlos,",
+    "pero el joven John Adams aceptó el caso.",
+    "Creía que todos merecen un juicio justo.",
+    "Le dijo al jurado: los hechos son tozudos.",
+    "Al final, el capitán y seis de los ocho soldados fueron absueltos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1770",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Boston",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "text": "Juicio justo",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "6 / 8",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "absueltos",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  El pilar de la independencia",
+   "lines": [
+    "En el Congreso, Adams luchó por la independencia.",
+    "Eligió a Jefferson para escribir la Declaración,",
+    "y la defendió en el pleno.",
+    [
+     "El 4 de julio de 1776, la Declaración fue aprobada.",
+     "El cuatro de julio de mil setecientos setenta y seis, la Declaración fue aprobada."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "El Congreso Continental, 1776"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "4 julio 1776",
+        "style": "huge",
+        "size": 92,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Primero en la Casa Blanca",
+   "lines": [
+    [
+     "En 1797 fue el segundo presidente,",
+     "En mil setecientos noventa y siete fue el segundo presidente,"
+    ],
+    "y el primero en vivir en la Casa Blanca."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "2.º presidente",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "Casa Blanca",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "su primer residente",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Últimas palabras",
+   "lines": [
+    "Luego, la política los separó,",
+    [
+     "pero en 1812, Adams escribió primero,",
+     "pero en mil ochocientos doce, Adams escribió primero,"
+    ],
+    "y se cartearon durante catorce años.",
+    [
+     "El 4 de julio de 1826, cincuenta años después de la Declaración,",
+     "El cuatro de julio de mil ochocientos veintiséis, cincuenta años después de la Declaración,"
+    ],
+    "Adams, con noventa años, dijo: Thomas Jefferson sigue vivo.",
+    "No sabía que Jefferson había muerto unas horas antes."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Cartas entre dos viejos amigos"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "4 de julio",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "el mismo día",
+        "style": "head",
+        "delay": 0.4,
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "La Constitución de Massachusetts que redactó en 1780",
+     "La Constitución de Massachusetts que redactó en mil setecientos ochenta"
+    ],
+    "es la constitución escrita más antigua aún vigente.",
+    "Su pregunta para ti:",
+    "si toda una ciudad odiara a alguien,",
+    "¿defenderías su derecho a un juicio justo?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1780",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Constitución de Massachusetts",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Justicia para el enemigo?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    [
+     "Esto es «¿Quién cambió el mundo hoy?»,",
+     "Esto es Quién cambió el mundo hoy,"
+    ],
+    [
+     "y este 30 de octubre, recordamos a John Adams.",
+     "y este treinta de octubre, recordamos a John Adams."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "John Adams",
+    "years": "1735 – 1826"
+   }
+  }
+ ]
+}

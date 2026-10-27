@@ -1,0 +1,307 @@
+{
+ "lang": "en",
+ "date": "2026-10-30",
+ "mmdd": "10.30",
+ "person": "John Adams",
+ "event": "Born in Braintree, Massachusetts (1735)",
+ "title": "John Adams: 291 Years Ago Today, the Lawyer Who Defended the Enemy",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He defended the soldiers who shot his neighbors.",
+    [
+     "Who changed the world today? October 30.",
+     "Who changed the world today? October thirtieth."
+    ],
+    [
+     "291 years ago today, a boy was born in Massachusetts:",
+     "Two hundred ninety-one years ago today, a boy was born in Massachusetts:"
+    ],
+    "John Adams."
+   ],
+   "data": {
+    "hook": "He defended the\nBritish soldiers",
+    "sub": "1735  —  2026",
+    "sub_at": 2,
+    "name": "Adams",
+    "name_years": "John Adams · 1735 – 1826",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.29,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The case no one would take",
+   "lines": [
+    [
+     "On March 5, 1770, British soldiers fired into a Boston crowd,",
+     "On March fifth, seventeen seventy, British soldiers fired into a Boston crowd,"
+    ],
+    "killing five people.",
+    "The city was furious. No lawyer would defend them.",
+    "But a young lawyer named John Adams took the case.",
+    "He believed everyone deserves a fair trial.",
+    "He told the jury: facts are stubborn things.",
+    "In the end, the captain and six of the eight soldiers were acquitted."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1770",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Boston",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 6,
+      "items": [
+       {
+        "text": "A fair trial",
+        "style": "title",
+        "size": 84,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "6 / 8",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "acquitted",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Pillar of independence",
+   "lines": [
+    "In Congress, Adams pushed hard for independence.",
+    "He chose young Thomas Jefferson to write the Declaration,",
+    "and fought for it on the floor.",
+    [
+     "On July 4, 1776, the Declaration was adopted.",
+     "On July fourth, seventeen seventy-six, the Declaration was adopted."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "The Continental Congress, 1776"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "July 4, 1776",
+        "style": "huge",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  First in the White House",
+   "lines": [
+    [
+     "In 1797, he became America's second president,",
+     "In seventeen ninety-seven, he became America's second president,"
+    ],
+    "and the first to live in the White House."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "2nd President",
+        "style": "title",
+        "size": 84,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "White House",
+        "style": "huge",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "first to live there",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Last words",
+   "lines": [
+    "Later, he and Jefferson fell out over politics.",
+    [
+     "In 1812, Adams wrote first,",
+     "In eighteen twelve, Adams wrote first,"
+    ],
+    "and their letters went on for fourteen years.",
+    [
+     "On July 4, 1826, fifty years after the Declaration,",
+     "On July fourth, eighteen twenty-six, fifty years after the Declaration,"
+    ],
+    "Adams, ninety, said: Thomas Jefferson survives.",
+    "He didn't know that Jefferson had died a few hours earlier."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Letters between two old friends"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "July 4",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "the same day",
+        "style": "head",
+        "delay": 0.4,
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "The Massachusetts Constitution he drafted in 1780",
+     "The Massachusetts Constitution he drafted in seventeen eighty"
+    ],
+    "is still the oldest working constitution in the world.",
+    "His question for you:",
+    "if a whole city hated someone,",
+    "would you still stand up for their fair trial?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1780",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Massachusetts Constitution",
+        "style": "head",
+        "delay": 0.3
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "Fairness, even for enemies?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on October 30, we remember John Adams.",
+     "and on October thirtieth, we remember John Adams."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "John Adams",
+    "years": "1735 – 1826"
+   }
+  }
+ ]
+}

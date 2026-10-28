@@ -1,0 +1,303 @@
+{
+ "lang": "de",
+ "date": "2026-10-31",
+ "mmdd": "10.31",
+ "person": "John Keats",
+ "event": "Geboren in London (1795)",
+ "title": "John Keats: Vor 231 Jahren geboren – der Dichter ohne Namen auf dem Grab",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er starb mit fünfundzwanzig, sein Grab trägt keinen Namen.",
+    [
+     "Wer hat heute die Welt verändert? Der 31. Oktober.",
+     "Wer hat heute die Welt verändert? Der einunddreißigste Oktober."
+    ],
+    [
+     "Heute vor 231 Jahren wurde in London geboren:",
+     "Heute vor zweihunderteinunddreißig Jahren wurde in London geboren:"
+    ],
+    "der Dichter John Keats."
+   ],
+   "data": {
+    "hook": "Kein Name\nauf seinem Grab",
+    "sub": "1795  —  2026",
+    "sub_at": 2,
+    "name": "Keats",
+    "name_years": "John Keats · 1795 – 1821",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.21,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Medizinstudent",
+   "lines": [
+    "Sein Vater starb, als er acht war,",
+    "später seine Mutter an Tuberkulose.",
+    [
+     "1815 lernte er am Guy's Hospital.",
+     "Achtzehnhundertfünfzehn lernte er am Guy's Hospital."
+    ],
+    "Ein Jahr später war er zugelassen,",
+    "doch er sagte: Ich werde Dichter."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Guy's Hospital, London, 1815"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Dichter",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Von Kritikern verrissen",
+   "lines": [
+    [
+     "1816 las er Homer auf Englisch",
+     "Achtzehnhundertsechzehn las er Homer auf Englisch"
+    ],
+    "und schrieb ein glänzendes Sonett.",
+    [
+     "1818 erschien sein Gedicht Endymion,",
+     "Achtzehnhundertachtzehn erschien sein Gedicht Endymion,"
+    ],
+    "und die Kritiker zerrissen es.",
+    "Im Winter starb auch sein Bruder Tom,",
+    "den er bis zuletzt gepflegt hatte."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1816: Er liest Homer"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1818",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Verrisse",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der Wunderfrühling",
+   "lines": [
+    [
+     "1819, in Hampstead,",
+     "Achtzehnhundertneunzehn, in Hampstead,"
+    ],
+    "verliebte er sich in Fanny Brawne.",
+    "In wenigen Monaten schrieb er unsterbliche Oden.",
+    "Die Nachtigall-Ode schrieb er wohl unterm Pflaumenbaum.",
+    "Die Urnen-Ode endet so:",
+    "Schönheit ist Wahrheit, Wahrheit Schönheit."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1819",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Hampstead",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Pflaumenbaum und Nachtigall"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Schönheit ist Wahrheit",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Ein Name, in Wasser geschrieben",
+   "lines": [
+    [
+     "Im Februar 1820 hustete er Blut und sagte:",
+     "Im Februar achtzehnhundertzwanzig hustete er Blut und sagte:"
+    ],
+    "Das ist mein Todesurteil.",
+    "Im September fuhr er mit Joseph Severn nach Rom.",
+    [
+     "Er starb im Februar 1821 in Rom, mit 25.",
+     "Er starb im Februar achtzehnhunderteinundzwanzig in Rom, mit fünfundzwanzig."
+    ],
+    "Sein Grabstein trägt keinen Namen, nur:",
+    "Hier ruht einer, dessen Name in Wasser geschrieben ward."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1820",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1820: Abreise nach Rom"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Protestantischer Friedhof, Rom"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Zu Lebzeiten kaum beachtet,",
+    "gilt er heute als einer der größten englischen Dichter.",
+    "Seine Frage an dich:",
+    "Wenn niemand dein Werk versteht, schreibst du weiter?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Unsterblich",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Keiner versteht's?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 31. Oktober erinnern wir an John Keats.",
+     "und am einunddreißigsten Oktober erinnern wir an John Keats."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "John Keats",
+    "years": "1795 – 1821"
+   }
+  }
+ ]
+}

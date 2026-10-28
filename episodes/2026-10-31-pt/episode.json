@@ -1,0 +1,303 @@
+{
+ "lang": "pt",
+ "date": "2026-10-31",
+ "mmdd": "10.31",
+ "person": "John Keats",
+ "event": "Nasce em Londres (1795)",
+ "title": "John Keats: há 231 anos nascia o poeta sem nome no túmulo",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Morreu aos vinte e cinco, e seu túmulo não tem nome.",
+    [
+     "Quem mudou o mundo hoje? 31 de outubro.",
+     "Quem mudou o mundo hoje? Trinta e um de outubro."
+    ],
+    [
+     "Há 231 anos, nascia em Londres",
+     "Há duzentos e trinta e um anos, nascia em Londres"
+    ],
+    "o poeta John Keats."
+   ],
+   "data": {
+    "hook": "Seu túmulo\nnão tem nome",
+    "sub": "1795  —  2026",
+    "sub_at": 2,
+    "name": "Keats",
+    "name_years": "John Keats · 1795 – 1821",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.21,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O estudante de medicina",
+   "lines": [
+    "Perdeu o pai aos oito anos,",
+    "e depois a mãe, de tuberculose.",
+    [
+     "Em 1815, estudou no hospital Guy's de Londres.",
+     "Em mil oitocentos e quinze, estudou no hospital Guy's de Londres."
+    ],
+    "Um ano depois, já licenciado,",
+    "disse ao tutor: vou ser poeta."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Hospital Guy's, Londres, 1815"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Poeta",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Arrasado pela crítica",
+   "lines": [
+    [
+     "Em 1816, leu Homero em inglês",
+     "Em mil oitocentos e dezesseis, leu Homero em inglês"
+    ],
+    "e escreveu um soneto deslumbrante.",
+    [
+     "Em 1818, publicou o poema Endymion,",
+     "Em mil oitocentos e dezoito, publicou o poema Endymion,"
+    ],
+    "e a crítica o destruiu.",
+    "No inverno, o irmão Tom, de quem cuidava,",
+    "também morreu da doença."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1816: lendo Homero"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1818",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "críticas duras",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  A primavera milagrosa",
+   "lines": [
+    [
+     "Em 1819, em Hampstead,",
+     "Em mil oitocentos e dezenove, em Hampstead,"
+    ],
+    "amou a vizinha, Fanny Brawne.",
+    "Em poucos meses, escreveu odes imortais.",
+    "Dizem que a Ode a um rouxinol nasceu sob uma ameixeira.",
+    "E a Ode sobre uma urna grega termina:",
+    "A beleza é verdade, a verdade é beleza."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1819",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Hampstead",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A ameixeira e o rouxinol"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Beleza é verdade",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Um nome escrito na água",
+   "lines": [
+    [
+     "Em fevereiro de 1820, tossiu sangue e disse:",
+     "Em fevereiro de mil oitocentos e vinte, tossiu sangue e disse:"
+    ],
+    "Esse sangue é minha sentença; vou morrer.",
+    "Em setembro, partiu para Roma com Joseph Severn.",
+    [
+     "Morreu em Roma em fevereiro de 1821, aos 25 anos.",
+     "Morreu em Roma em fevereiro de mil oitocentos e vinte e um, aos vinte e cinco anos."
+    ],
+    "Sua lápide não tem nome:",
+    "Aqui jaz alguém cujo nome foi escrito na água."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1820",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1820: rumo a Roma"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Cemitério Protestante, Roma"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Ignorado em vida,",
+    "hoje é um dos maiores poetas em inglês.",
+    "A pergunta dele:",
+    "se ninguém entendesse sua obra, você ainda escreveria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Imortal",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Ninguém entende?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 31 de outubro, lembramos de John Keats.",
+     "e neste trinta e um de outubro, lembramos de John Keats."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "John Keats",
+    "years": "1795 – 1821"
+   }
+  }
+ ]
+}

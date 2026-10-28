@@ -11,3 +11,4 @@
 | 2026-10-28 | Jonas Salk | nascimento (1914, Nova York) |
 | 2026-10-29 | Joseph Pulitzer | morte (1911, Charleston) |
 | 2026-10-30 | John Adams | nascimento (1735, Braintree) |
+| 2026-10-31 | John Keats | nascimento (1795, Londres) |

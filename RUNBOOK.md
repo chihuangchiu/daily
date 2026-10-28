@@ -221,8 +221,9 @@ All pictures of an episode (opening, chapter images) and the opening clip must l
   and regenerate any picture whose colour, brightness or line style stands out.
 - The clip is made only from opening.png and a start frame drawn from it (first/last-frame video, 4d), never from a text prompt, so it has the same tone.
 
-## 4c. Chapter images (required: 1–2 more pictures)
-Besides the opening image, every video shows 1–2 more AI pictures inside the chapters, at the story's key moments
+## 4c. Chapter images (required: 4–5 more pictures; Nathan 2026-10-28, was 1–2)
+Besides the opening image, every video shows 4–5 more AI pictures inside the chapters: at least one per chapter
+(4 chapters), plus one for the legacy/today part when it fits, each at the story's key moments
 (for example the place where it happened, the defining object or act, the legacy).
 1. `create-image` with `size: "1536x1024"` (landscape; shown in a 560x420 frame, keep the subject centred, edges get
    cropped), `quality: "high"`, `output_format: "png"`, prompt ending with STYLE. Scenes, places and objects; if the
@@ -235,7 +236,9 @@ Besides the opening image, every video shows 1–2 more AI pictures inside the c
    The caption names the place, moment or object (e.g. 「1840 年代倫敦的音樂廳」); never add 「示意」「示意圖」「AI 生成」
    or similar labels — every picture is plainly a drawing (Nathan 2026-10-21).
    At most one short text item next to it (the frame is ~460 px tall; the visual area is 677 px). Show it for at
-   least 2 subtitle lines. Do not put two images in the same scene.
+   least 2 subtitle lines. Two images may share a scene only in separate phases (each ≥ 2 subtitle lines); if a
+   chapter is too short for that, one image per chapter is enough. Name them img1.png … img5.png (all shared by every
+   language of D, like the opening). Check all of them side by side for one tone (see "One tone").
 4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
    stop exactly as in 4b.8; never publish a video with fewer pictures than required.
 

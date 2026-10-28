@@ -1,0 +1,303 @@
+{
+ "lang": "en",
+ "date": "2026-10-31",
+ "mmdd": "10.31",
+ "person": "John Keats",
+ "event": "Born in London (1795)",
+ "title": "John Keats: 231 Years Ago Today, the Poet With No Name on His Grave",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He died at twenty-five, with no name on his grave.",
+    [
+     "Who changed the world today? October 31.",
+     "Who changed the world today? October thirty-first."
+    ],
+    [
+     "231 years ago today, in London,",
+     "Two hundred thirty-one years ago today, in London,"
+    ],
+    "the poet John Keats was born."
+   ],
+   "data": {
+    "hook": "No name\non his grave",
+    "sub": "1795  —  2026",
+    "sub_at": 2,
+    "name": "Keats",
+    "name_years": "John Keats · 1795 – 1821",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.21,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The medical student",
+   "lines": [
+    "He lost his father at eight,",
+    "and later his mother to tuberculosis.",
+    [
+     "In 1815, he trained at Guy's Hospital.",
+     "In eighteen fifteen, he trained at Guy's Hospital."
+    ],
+    "A year later, he was licensed,",
+    "but told his guardian: I will be a poet."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Guy's Hospital, London, 1815"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Poet",
+        "style": "huge",
+        "size": 130,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Savaged by the critics",
+   "lines": [
+    [
+     "In 1816, reading Homer in English",
+     "In eighteen sixteen, reading Homer in English"
+    ],
+    "inspired a dazzling sonnet.",
+    [
+     "In 1818, his long poem Endymion",
+     "In eighteen eighteen, his long poem Endymion"
+    ],
+    "was torn apart by the critics.",
+    "That winter, Tom, the brother he nursed,",
+    "died of it too."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1816: first reading Homer"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1818",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "bad reviews",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The miracle spring",
+   "lines": [
+    [
+     "In spring 1819, in Hampstead,",
+     "In spring eighteen nineteen, in Hampstead,"
+    ],
+    "he fell for his neighbour, Fanny Brawne.",
+    "Within months, he wrote odes that would never die.",
+    "A friend said Ode to a Nightingale was written under a plum tree.",
+    "And Ode on a Grecian Urn ends with the words:",
+    "Beauty is truth, truth beauty."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1819",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Hampstead",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "The plum tree and the nightingale"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Beauty is truth",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  A name writ in water",
+   "lines": [
+    [
+     "In February 1820, he coughed up blood and said:",
+     "In February eighteen twenty, he coughed up blood and said:"
+    ],
+    "That drop of blood is my death warrant; I must die.",
+    "That September, he sailed for Rome with Joseph Severn.",
+    [
+     "He died in Rome on February 23, 1821, at twenty-five.",
+     "He died in Rome on February twenty-third, eighteen twenty-one, at twenty-five."
+    ],
+    "His gravestone bears no name, only:",
+    "Here lies one whose name was writ in water."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1820",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1820: sailing for Rome"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The Protestant Cemetery, Rome"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "Ignored in his lifetime,",
+    "he is now one of the greatest English poets.",
+    "His question for you:",
+    "if no one understood your work, would you keep writing?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Immortal",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "No one gets it. Keep writing?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on October 31, we remember John Keats.",
+     "and on October thirty-first, we remember John Keats."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "John Keats",
+    "years": "1795 – 1821"
+   }
+  }
+ ]
+}

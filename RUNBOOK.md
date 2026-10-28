@@ -112,6 +112,11 @@ Fixed facts
 - **2026-10-30 Adams run (Gemini Kore, short styles):** zh 429 spoken chars (no punctuation) → 118.3 s; en 1638 chars → 133 s (too long), 1550 → 125.8 s;
   es 1508 → 121.2 s; pt 1503 → 131.5 s (pt reads slower; ~1430 → 126.7 s); ja 668 → 120.6 s; de 1570 → 124.1 s.
   Joining a very short sentence to its neighbour with a comma (one chunk) avoided glitches in es/pt/de.
+- **2026-10-31 Keats run (Gemini Kore, short styles):** zh 438 spoken chars → 122.6 s; en 1487 chars → 126.5 s; es 1555 → 127.2 s;
+  pt 1421 → 127.8 s; de 1524 → 126.8 s; ja 686 → 118.1 s. de chunk ending "…ebenfalls an Tuberkulose." was repeated twice
+  ("…an Tuberkulose, auch an Tuberkulose") even with a short style; rewording the sentence fixed it.
+  Calywood: a big pose change between start.png and opening.png (head down vs facing viewer, fewer blossoms) gave a
+  visible cross-dissolve twice; a start frame with only a small change (head tilted down, same framing) gave clean motion.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

@@ -871,8 +871,14 @@ for sc, tl in zip(EP["scenes"], TL):
     SCN.append((tl, els, fx, dark))
 
 SUBS = []
-for tl in TL:
+for sc, tl in zip(EP["scenes"], TL):
+    d0 = sc.get("data", {})
+    # Nathan 2026-10-28: the spoken hook line(s) get no subtitle -- the big hook text is already on screen,
+    # so the clip stays clean. "hook_subtitle": true in the title data brings the subtitle back.
+    no_sub = d0.get("hook_until", 1) if sc["template"] == "title" and d0.get("hook") and not d0.get("hook_subtitle") else 0
     for li, ln in enumerate(tl["lines"]):
+        if li < no_sub:
+            continue
         nxt = tl["lines"][li + 1]["start"] if li + 1 < len(tl["lines"]) else ln["end"] + 0.45
         SUBS.append((ln["start"] - 0.05, nxt - 0.02, sub_img(ln["text"])))
 

@@ -36,6 +36,9 @@ Fixed facts
   characters or ≤ 22 Latin characters each). render.py shows the hook big over the clip from frame 0 (frame 0 is the
   Shorts thumbnail) and brings in the kicker + MM.DD date only when line 1 starts (`hook_until`, default 1).
   The title scene then needs only the date, `sub` (years) and `name` — drop the `middle` texts/pills.
+  No subtitle under the spoken hook (Nathan 2026-10-28): the big hook text is already on screen, so render.py shows
+  no subtitle for the hook line(s) and the clip stays clean; subtitles start with line 1. (`"hook_subtitle": true`
+  in the title data brings it back.) Check sheet_00: frame 0 = hook text over the clip, no subtitle box.
 - **On-screen text: only what earns its place.** Per phase at most 2 text items (one big keyword or number + at most
   one short line); never repeat the subtitle sentence on screen; a phase disappears as soon as its line has passed;
   chapter scenes may be just one big number or word. No footer line (render.py no longer draws it: the Shorts UI

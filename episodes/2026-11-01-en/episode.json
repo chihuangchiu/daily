@@ -1,0 +1,329 @@
+{
+ "lang": "en",
+ "date": "2026-11-01",
+ "mmdd": "11.01",
+ "person": "Alfred Wegener",
+ "event": "Born in Berlin (1880)",
+ "title": "Alfred Wegener: 146 Years Ago Today, the Man Who Said Continents Move",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He said the continents move, and the world laughed.",
+    [
+     "Who changed the world today? November 1.",
+     "Who changed the world today? November first."
+    ],
+    [
+     "146 years ago today, in Berlin,",
+     "One hundred forty-six years ago today, in Berlin,"
+    ],
+    "the scientist Alfred Wegener was born."
+   ],
+   "data": {
+    "hook": "Continents move?\nThe world laughed",
+    "sub": "1880  —  2026",
+    "sub_at": 2,
+    "name": "Wegener",
+    "name_years": "Alfred Wegener · 1880 – 1930",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.39,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Sky and ice",
+   "lines": [
+    [
+     "In 1905, he earned a doctorate in astronomy.",
+     "In nineteen oh five, he earned a doctorate in astronomy."
+    ],
+    [
+     "In 1906, he and his brother flew a balloon",
+     "In nineteen oh six, he and his brother flew a balloon"
+    ],
+    "for fifty-two and a half hours, a world record."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1905",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Astronomy PhD",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1906: a record balloon flight"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  The world's jigsaw",
+   "lines": [
+    [
+     "In 1910, he wrote to his future wife:",
+     "In nineteen ten, he wrote to his future wife:"
+    ],
+    "Doesn't the east coast of South America fit exactly",
+    "against the west coast of Africa?",
+    "On both sides of the ocean, he found the same fossils."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "South America and Africa fit"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Same fossils",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The laughing stock",
+   "lines": [
+    [
+     "On January 6, 1912, in Frankfurt, he told geologists:",
+     "On January sixth, nineteen twelve, in Frankfurt, he told geologists:"
+    ],
+    "the continents are not fixed; they slowly drift.",
+    [
+     "In 1915, he wrote a book,",
+     "In nineteen fifteen, he wrote a book,"
+    ],
+    "but most geologists refused to believe it:",
+    "what force could push a whole continent?",
+    "He had no answer, and some openly mocked him."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Frankfurt, January 1912"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1915",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Continental drift",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "What force?",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  A birthday on the ice",
+   "lines": [
+    [
+     "In 1930, he went back to Greenland a fourth time,",
+     "In nineteen thirty, he went back to Greenland a fourth time,"
+    ],
+    "to build a station in the middle of the ice.",
+    "He led a supply run across the ice for forty days.",
+    [
+     "On November 1, he turned fifty there,",
+     "On November first, he turned fifty there,"
+    ],
+    "then left for the coast with Rasmus Villumsen,",
+    "his Greenlandic companion. Neither came back.",
+    "The next May, his body was found in the snow."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1930",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Greenland",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "40 days",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "November 1930: the journey back"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "Thirty years later, new evidence came in,",
+    "and scientists finally agreed: continents really move.",
+    "Today we call it plate tectonics,",
+    "and it explains earthquakes and mountains.",
+    "His question for you:",
+    "if the whole world said you were wrong,",
+    "would you keep going?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "They move!",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Plates collide, mountains rise"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "Keep going?",
+        "style": "head",
+        "size": 46,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 1, we remember Alfred Wegener.",
+     "and on November first, we remember Alfred Wegener."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Alfred Wegener",
+    "years": "1880 – 1930"
+   }
+  }
+ ]
+}

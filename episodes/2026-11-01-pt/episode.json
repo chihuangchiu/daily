@@ -1,0 +1,328 @@
+{
+ "lang": "pt",
+ "date": "2026-11-01",
+ "mmdd": "11.01",
+ "person": "Alfred Wegener",
+ "event": "Nascimento em Berlim (1880)",
+ "title": "Alfred Wegener: há 146 anos nascia o homem que disse que os continentes se movem",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele disse que os continentes se movem, e o mundo riu.",
+    [
+     "Quem mudou o mundo hoje? 1º de novembro.",
+     "Quem mudou o mundo hoje? Primeiro de novembro."
+    ],
+    [
+     "Há 146 anos, em Berlim,",
+     "Há cento e quarenta e seis anos, em Berlim,"
+    ],
+    "nascia o cientista Alfred Wegener."
+   ],
+   "data": {
+    "hook": "Continentes que se\nmovem? Todos riram",
+    "sub": "1880  —  2026",
+    "sub_at": 2,
+    "name": "Wegener",
+    "name_years": "Alfred Wegener · 1880 – 1930",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.39,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Céu e gelo",
+   "lines": [
+    [
+     "Em 1905, tirou o doutorado em astronomia,",
+     "Em mil novecentos e cinco, tirou o doutorado em astronomia,"
+    ],
+    [
+     "e em 1906, voou de balão com o irmão",
+     "e em mil novecentos e seis, voou de balão com o irmão"
+    ],
+    "por cinquenta e duas horas e meia: um recorde mundial."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1905",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       },
+       {
+        "text": "Astronomia",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1906: um voo de balão recorde"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  O quebra-cabeça do mundo",
+   "lines": [
+    [
+     "Em 1910, escreveu à futura esposa:",
+     "Em mil novecentos e dez, escreveu à futura esposa:"
+    ],
+    "A costa leste da América do Sul não se encaixa",
+    "exatamente na costa oeste da África?",
+    "Dos dois lados do oceano, achou os mesmos fósseis."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "América do Sul e África se encaixam"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Mesmos fósseis",
+        "style": "title",
+        "color": "red",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  O homem de quem riam",
+   "lines": [
+    [
+     "Em 6 de janeiro de 1912, em Frankfurt, afirmou:",
+     "Em seis de janeiro de mil novecentos e doze, em Frankfurt, afirmou:"
+    ],
+    "os continentes se deslocam devagar.",
+    [
+     "Em 1915, escreveu um livro,",
+     "Em mil novecentos e quinze, escreveu um livro,"
+    ],
+    "mas a maioria não acreditou:",
+    "que força moveria um continente inteiro?",
+    "Ele não tinha resposta, e alguns zombaram dele."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Frankfurt, janeiro de 1912"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1915",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       },
+       {
+        "text": "Deriva continental",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Que força?",
+        "style": "title",
+        "color": "red",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Um aniversário no gelo",
+   "lines": [
+    [
+     "Em 1930, voltou à Groenlândia",
+     "Em mil novecentos e trinta, voltou à Groenlândia"
+    ],
+    "para criar uma estação no meio do gelo,",
+    "e levou suprimentos por quarenta dias.",
+    [
+     "Em 1º de novembro, fez cinquenta anos lá,",
+     "Em primeiro de novembro, fez cinquenta anos lá,"
+    ],
+    "e partiu para a costa com Rasmus Villumsen,",
+    "um groenlandês. Nenhum voltou.",
+    "Meses depois, ele foi achado na neve."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1930",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       },
+       {
+        "text": "Groenlândia",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "40 dias",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Novembro de 1930: a volta"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Trinta anos depois, novas provas",
+    "convenceram os cientistas,",
+    "e hoje isso se chama tectônica de placas.",
+    "A pergunta dele para você:",
+    "se o mundo todo dissesse que você está errado,",
+    "seguiria em frente?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Eles se movem!",
+        "style": "huge",
+        "color": "red",
+        "size": 100
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Placas colidem, montanhas nascem"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Contra todos?",
+        "style": "head",
+        "color": "red",
+        "at": 4,
+        "size": 46
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 1º de novembro, lembramos de Alfred Wegener.",
+     "e neste primeiro de novembro, lembramos de Alfred Wegener."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Alfred Wegener",
+    "years": "1880 – 1930"
+   }
+  }
+ ]
+}

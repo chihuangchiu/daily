@@ -117,6 +117,12 @@ Fixed facts
   ("…an Tuberkulose, auch an Tuberkulose") even with a short style; rewording the sentence fixed it.
   Calywood: a big pose change between start.png and opening.png (head down vs facing viewer, fewer blossoms) gave a
   visible cross-dissolve twice; a start frame with only a small change (head tilted down, same framing) gave clean motion.
+- **2026-11-01 Wegener run (Gemini Kore, short styles):** zh 441 spoken chars → 122.5 s; en 1567 chars → 127.8 s (tight); es 1555 → 124.8 s;
+  pt 1425 → 122.5 s; ja 665 → 118.6 s; de ~1540 → 126.6 s. es: "se doctoró en astronomía" was read twice as "se doctoró con acento
+  agudo" (Gemini read a pronunciation note aloud); rewording to "obtuvo el doctorado" fixed it. de: "…: ein Weltrekord." was said twice;
+  rewording fixed it. ja: "11月1日" at the end was heard as "11月2日" by Whisper twice; spoken "11月ついたち" fixed it.
+  Image MCP edit-image tends to reframe/zoom the start frame even when asked to keep it pixel-identical; a moderate
+  reframe (same pose family, head tilted down) still gave a clean Calywood clip.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

@@ -1,0 +1,329 @@
+{
+ "lang": "de",
+ "date": "2026-11-01",
+ "mmdd": "11.01",
+ "person": "Alfred Wegener",
+ "event": "Geburt in Berlin (1880)",
+ "title": "Alfred Wegener: Vor 146 Jahren geboren – der Mann, der sagte, Kontinente wandern",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er sagte, die Kontinente wandern, und die Welt lachte.",
+    [
+     "Wer hat heute die Welt verändert? Der 1. November.",
+     "Wer hat heute die Welt verändert? Der erste November."
+    ],
+    [
+     "Heute vor 146 Jahren wurde in Berlin",
+     "Heute vor hundertsechsundvierzig Jahren wurde in Berlin"
+    ],
+    "der Forscher Alfred Wegener geboren."
+   ],
+   "data": {
+    "hook": "Wandernde Kontinente?\nDie Welt lachte",
+    "sub": "1880  —  2026",
+    "sub_at": 2,
+    "name": "Wegener",
+    "name_years": "Alfred Wegener · 1880 – 1930",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.39,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Himmel und Eis",
+   "lines": [
+    [
+     "1905 promovierte er in Astronomie,",
+     "Neunzehnhundertfünf promovierte er in Astronomie,"
+    ],
+    [
+     "und 1906 fuhr er mit seinem Bruder",
+     "und neunzehnhundertsechs fuhr er mit seinem Bruder"
+    ],
+    "zweiundfünfzigeinhalb Stunden Ballon, ein Weltrekord."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1905",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       },
+       {
+        "text": "Astronomie",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1906: eine Rekordfahrt im Ballon"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Das Puzzle der Welt",
+   "lines": [
+    [
+     "1910 schrieb er seiner künftigen Frau:",
+     "Neunzehnhundertzehn schrieb er seiner künftigen Frau:"
+    ],
+    "Passt die Ostküste Südamerikas nicht genau",
+    "an die Westküste Afrikas?",
+    "Auf beiden Seiten des Ozeans fand er dieselben Fossilien."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Südamerika und Afrika passen"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Gleiche Fossilien",
+        "style": "title",
+        "color": "red",
+        "size": 76
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der Mann, über den man lachte",
+   "lines": [
+    [
+     "Am 6. Januar 1912 sagte er in Frankfurt:",
+     "Am sechsten Januar neunzehnhundertzwölf sagte er in Frankfurt:"
+    ],
+    "Die Kontinente wandern langsam.",
+    [
+     "1915 erschien sein Buch dazu,",
+     "Neunzehnhundertfünfzehn erschien sein Buch dazu,"
+    ],
+    "doch die meisten Geologen glaubten ihm nicht:",
+    "Welche Kraft bewegt einen ganzen Kontinent?",
+    "Er hatte keine Antwort, und manche verspotteten ihn."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Frankfurt, Januar 1912"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1915",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       },
+       {
+        "text": "Kontinentaldrift",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Welche Kraft?",
+        "style": "title",
+        "color": "red",
+        "size": 80
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Geburtstag im Eis",
+   "lines": [
+    [
+     "1930 fuhr er zum vierten Mal nach Grönland,",
+     "Neunzehnhundertdreißig fuhr er zum vierten Mal nach Grönland,"
+    ],
+    "um mitten im Inlandeis eine Station zu bauen.",
+    "Vierzig Tage lang führte er Vorräte übers Eis.",
+    [
+     "Am 1. November wurde er dort fünfzig,",
+     "Am ersten November wurde er dort fünfzig,"
+    ],
+    "dann brach er mit dem Grönländer Rasmus Villumsen",
+    "zur Küste auf. Keiner der beiden kam zurück.",
+    "Im Mai darauf fand man ihn im Schnee."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1930",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       },
+       {
+        "text": "Grönland",
+        "style": "head",
+        "color": "red",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "40 Tage",
+        "style": "huge",
+        "color": "red",
+        "size": 150
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "November 1930: der Rückweg"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Dreißig Jahre später kamen neue Beweise,",
+    "und die Forscher erkannten: Er hatte recht.",
+    "Heute nennen wir das Plattentektonik,",
+    "und sie erklärt Erdbeben und Gebirge.",
+    "Seine Frage an dich:",
+    "Wenn alle sagen, dass du dich irrst,",
+    "würdest du weitermachen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Sie wandern!",
+        "style": "huge",
+        "color": "red",
+        "size": 110
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Platten stoßen, Gebirge wachsen"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Gegen alle?",
+        "style": "head",
+        "color": "red",
+        "at": 5,
+        "size": 46
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 1. November erinnern wir an Alfred Wegener.",
+     "und am ersten November erinnern wir an Alfred Wegener."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Alfred Wegener",
+    "years": "1880 – 1930"
+   }
+  }
+ ]
+}

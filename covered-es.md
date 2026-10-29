@@ -12,3 +12,4 @@
 | 2026-10-29 | Joseph Pulitzer | muerte (1911, Charleston) |
 | 2026-10-30 | John Adams | nacimiento (1735, Braintree) |
 | 2026-10-31 | John Keats | nacimiento (1795, Londres) |
+| 2026-11-01 | Alfred Wegener | nacimiento (1880, Berlín) |

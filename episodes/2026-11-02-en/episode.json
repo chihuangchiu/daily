@@ -1,0 +1,302 @@
+{
+ "lang": "en",
+ "date": "2026-11-02",
+ "mmdd": "11.02",
+ "person": "George Boole",
+ "event": "Born in Lincoln, England (1815)",
+ "title": "George Boole: 211 Years Ago Today, a Shoemaker's Son Wrote Computer Logic",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "A shoemaker's son wrote the language of computers.",
+    [
+     "Who changed the world today? November 2.",
+     "Who changed the world today? November second."
+    ],
+    [
+     "211 years ago today, in Lincoln, England,",
+     "Two hundred eleven years ago today, in Lincoln, England,"
+    ],
+    "the mathematician George Boole was born."
+   ],
+   "data": {
+    "hook": "A shoemaker's son\nwrote computer logic",
+    "sub": "1815  —  2026",
+    "sub_at": 2,
+    "name": "Boole",
+    "name_years": "George Boole · 1815 – 1864",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The shoemaker's son",
+   "lines": [
+    "His father was a shoemaker, and his first maths teacher.",
+    "When the family business failed,",
+    "sixteen-year-old George had to support the whole family.",
+    "He taught at a school by day",
+    "and taught himself mathematics by night."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "Shoemaker",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A shoemaker's shop, a boy by candlelight"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  The self-taught professor",
+   "lines": [
+    [
+     "In 1844, his paper on mathematics",
+     "In eighteen forty-four, his paper on mathematics"
+    ],
+    "won a Royal Medal from the Royal Society.",
+    [
+     "In 1849, Queen's College Cork in Ireland",
+     "In eighteen forty-nine, Queen's College Cork in Ireland"
+    ],
+    "made him its first professor of mathematics."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1844",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Royal Medal",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1849, Queen's College Cork"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The laws of thought",
+   "lines": [
+    [
+     "In 1854, he published The Laws of Thought,",
+     "In eighteen fifty-four, he published The Laws of Thought,"
+    ],
+    "a book that turned logic into algebra.",
+    "He believed human reasoning could be written as equations.",
+    "True and false became one and zero,",
+    "and words like \"and\", \"or\" and \"not\"",
+    "became things you could calculate."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1854",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The Laws of Thought",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "One lamp lit, one dark"
+       }
+      ],
+      "until": 4
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "AND  OR  NOT",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The last lecture",
+   "lines": [
+    [
+     "In November 1864, he walked to college through heavy rain",
+     "In November eighteen sixty-four, he walked to college through heavy rain"
+    ],
+    "and lectured in his soaking wet clothes.",
+    "He caught pneumonia,",
+    [
+     "and on December 8 he died in Cork, at only forty-nine.",
+     "and on December eighth he died in Cork, at only forty-nine."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1864, a road in the rain"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "49",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "More than seventy years later, in 1937,",
+     "More than seventy years later, in nineteen thirty-seven,"
+    ],
+    "an American student named Claude Shannon showed",
+    "that Boole's algebra could design switching circuits,",
+    "where on and off mean one and zero.",
+    "Today every computer and every phone thinks in Boole's logic.",
+    "His question for you:",
+    "if your idea took a hundred years to be understood,",
+    "would you still write it down?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A 1930s telephone exchange"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1 / 0",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "A hundred years?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 2, we remember George Boole.",
+     "and on November second, we remember George Boole."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "George Boole",
+    "years": "1815 – 1864"
+   }
+  }
+ ]
+}

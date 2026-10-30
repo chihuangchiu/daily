@@ -1,0 +1,23 @@
+Title: George Boole: 211 Years Ago Today, a Shoemaker's Son Wrote Computer Logic
+
+On November 2, 1815, George Boole was born in Lincoln, England. The son of a shoemaker and largely self-taught, he turned human reasoning into algebra — and his logic became the language of every computer.
+
+His father, a shoemaker, was also his first maths teacher. When the family business failed, sixteen-year-old George had to support the whole family. He taught at a school by day and taught himself advanced mathematics by night.
+
+In 1844, his paper on mathematics won a Royal Medal from the Royal Society. In 1849, Queen's College Cork in Ireland made him its first professor of mathematics.
+
+In 1847 he published The Mathematical Analysis of Logic, and in 1854 The Laws of Thought. He believed reasoning could be written as equations: true and false became one and zero, and "and", "or" and "not" became operations you could calculate. Today we call it Boolean algebra.
+
+In November 1864 he walked to college through heavy rain and lectured in his wet clothes. He caught pneumonia and died in Cork on December 8, 1864, at only forty-nine.
+
+More than seventy years later, in 1937, an MIT student named Claude Shannon showed in his master's thesis that Boole's algebra could be used to design switching circuits, where on and off mean one and zero. Today every computer and every phone thinks in Boole's logic.
+
+His question for you: if your idea took a hundred years to be understood, would you still write it down?
+
+Tell us your answer in the comments.
+
+Opening portrait drawn from a photograph of George Boole on Wikimedia Commons (public domain).
+
+The narration is an AI voice, and this video was made with the help of AI. If you spot a mistake, please let us know in the comments.
+
+#OnThisDay #WhoChangedTheWorldToday #GeorgeBoole #BooleanAlgebra #Mathematics #ComputerScience #Logic

@@ -13,3 +13,4 @@
 | 2026-10-30 | John Adams | born (1735, Braintree, Massachusetts) | yes |
 | 2026-10-31 | John Keats | born (1795, London) | yes |
 | 2026-11-01 | Alfred Wegener | born (1880, Berlin) | yes |
+| 2026-11-02 | George Boole | born (1815, Lincoln, England) | yes |

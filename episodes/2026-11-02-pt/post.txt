@@ -1,0 +1,23 @@
+Título: George Boole: há 211 anos nascia o filho de sapateiro que criou a lógica digital
+
+Em 2 de novembro de 1815, George Boole nasceu em Lincoln, na Inglaterra. Filho de um sapateiro e quase autodidata, transformou o raciocínio humano em álgebra, e sua lógica virou a língua de todos os computadores.
+
+O pai, sapateiro, foi também seu primeiro professor de matemática. Quando o negócio da família faliu, George, aos dezesseis anos, passou a sustentar a família. De dia dava aulas numa escola e, à noite, estudava matemática sozinho.
+
+Em 1844, um trabalho seu ganhou a Medalha Real da Sociedade Real de Londres. Em 1849, o Queen's College de Cork, na Irlanda, fez dele seu primeiro professor de matemática.
+
+Em 1847 publicou A análise matemática da lógica e, em 1854, As leis do pensamento. Ele acreditava que o pensamento podia virar equações: verdadeiro e falso viraram um e zero, e palavras como «e», «ou» e «não» viraram cálculo. Hoje chamamos isso de álgebra booleana.
+
+Em novembro de 1864, foi a pé para a faculdade sob chuva forte e deu aula com a roupa encharcada. Pegou uma pneumonia e morreu em Cork em 8 de dezembro de 1864, aos quarenta e nove anos.
+
+Em 1937, Claude Shannon, estudante do MIT, mostrou em sua dissertação de mestrado que a álgebra de Boole servia para projetar circuitos de chaves, em que ligado e desligado são um e zero. Hoje, todo computador e todo celular pensa com a lógica de Boole.
+
+A pergunta dele para você: se sua ideia levasse cem anos para ser entendida, você ainda a escreveria?
+
+Conte sua resposta nos comentários.
+
+Retrato de abertura desenhado a partir de uma fotografia de George Boole no Wikimedia Commons (domínio público).
+
+A narração é uma voz gerada por IA e este vídeo foi feito com ajuda de IA. Se encontrar algum erro, avise nos comentários.
+
+#UmDiaComoHoje #QuemMudouOMundoHoje #GeorgeBoole #ÁlgebraBooleana #Matemática #Computação #Lógica

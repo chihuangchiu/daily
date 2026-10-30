@@ -1,0 +1,300 @@
+{
+ "lang": "pt",
+ "date": "2026-11-02",
+ "mmdd": "11.02",
+ "person": "George Boole",
+ "event": "Nascimento em Lincoln, Inglaterra (1815)",
+ "title": "George Boole: há 211 anos nascia o filho de sapateiro que criou a lógica digital",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "O filho de um sapateiro escreveu a língua dos computadores.",
+    [
+     "Quem mudou o mundo hoje? 2 de novembro.",
+     "Quem mudou o mundo hoje? Dois de novembro."
+    ],
+    [
+     "Há 211 anos, em Lincoln, na Inglaterra,",
+     "Há duzentos e onze anos, em Lincoln, na Inglaterra,"
+    ],
+    "nascia o matemático George Boole."
+   ],
+   "data": {
+    "hook": "Filho de um sapateiro,\ncriou a língua digital",
+    "sub": "1815  —  2026",
+    "sub_at": 2,
+    "name": "Boole",
+    "name_years": "George Boole · 1815 – 1864",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O filho do sapateiro",
+   "lines": [
+    "O pai, sapateiro, foi seu primeiro professor de matemática.",
+    "Quando o negócio faliu,",
+    "George, aos dezesseis anos, sustentou a família.",
+    "De dia dava aulas e, à noite, estudava matemática sozinho."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "Sapateiro",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uma sapataria, um menino à luz de vela"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  O professor autodidata",
+   "lines": [
+    [
+     "Em 1844, um trabalho seu",
+     "Em mil oitocentos e quarenta e quatro, um trabalho seu"
+    ],
+    "ganhou a Medalha Real da Sociedade Real.",
+    [
+     "Em 1849, o Queen's College de Cork,",
+     "Em mil oitocentos e quarenta e nove, o Queen's College de Cork,"
+    ],
+    "fez dele seu primeiro professor de matemática."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1844",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Medalha Real",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1849, o Queen's College de Cork"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  As leis do pensamento",
+   "lines": [
+    [
+     "Em 1854 publicou As leis do pensamento,",
+     "Em mil oitocentos e cinquenta e quatro publicou As leis do pensamento,"
+    ],
+    "que transformava a lógica em álgebra.",
+    "Acreditava que o pensamento podia virar equações.",
+    "Verdadeiro e falso viraram um e zero,",
+    "e palavras como «e», «ou» e «não» viraram cálculo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1854",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "As leis do pensamento",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Uma lamparina acesa, outra apagada"
+       }
+      ],
+      "until": 4
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "AND  OR  NOT",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  A última aula",
+   "lines": [
+    [
+     "Em novembro de 1864, foi a pé para a faculdade sob chuva forte",
+     "Em novembro de mil oitocentos e sessenta e quatro, foi a pé para a faculdade sob chuva forte"
+    ],
+    "e deu aula encharcado.",
+    "Pegou uma pneumonia,",
+    [
+     "e em 8 de dezembro morreu em Cork, aos quarenta e nove anos.",
+     "e em oito de dezembro morreu em Cork, aos quarenta e nove anos."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1864, uma estrada sob a chuva"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "49",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1937,",
+     "Em mil novecentos e trinta e sete,"
+    ],
+    "Claude Shannon mostrou",
+    "que a álgebra de Boole servia para projetar circuitos,",
+    "em que ligado e desligado são um e zero.",
+    "Hoje, todo computador e celular pensa com a lógica de Boole.",
+    "A pergunta dele para você:",
+    "se sua ideia levasse cem anos para ser entendida,",
+    "você ainda a escreveria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Uma central telefônica dos anos 1930"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1 / 0",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Cem anos?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 2 de novembro, lembramos de George Boole.",
+     "e neste dois de novembro, lembramos de George Boole."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "George Boole",
+    "years": "1815 – 1864"
+   }
+  }
+ ]
+}

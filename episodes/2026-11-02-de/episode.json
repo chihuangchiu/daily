@@ -1,0 +1,307 @@
+{
+ "lang": "de",
+ "date": "2026-11-02",
+ "mmdd": "11.02",
+ "person": "George Boole",
+ "event": "Geburt in Lincoln, England (1815)",
+ "title": "George Boole: Vor 211 Jahren geboren – der Schusterssohn hinter der Computerlogik",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Der Sohn eines Schusters schrieb die Sprache der Computer.",
+    [
+     "Wer hat heute die Welt verändert? Der 2. November.",
+     "Wer hat heute die Welt verändert? Der zweite November."
+    ],
+    [
+     "Heute vor 211 Jahren wurde in Lincoln",
+     "Heute vor zweihundertundelf Jahren wurde in Lincoln"
+    ],
+    "der Mathematiker George Boole geboren."
+   ],
+   "data": {
+    "hook": "Ein Schusterssohn\nschrieb Computer-Logik",
+    "sub": "1815  —  2026",
+    "sub_at": 2,
+    "name": "Boole",
+    "name_years": "George Boole · 1815 – 1864",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Sohn des Schusters",
+   "lines": [
+    "Sein Vater war Schuhmacher und sein erster Mathematiklehrer.",
+    "Als das Geschäft der Familie zusammenbrach,",
+    "musste der sechzehnjährige George die Familie ernähren.",
+    "Tagsüber unterrichtete er, nachts lernte er allein Mathematik."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "Schuster",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine Schusterwerkstatt, ein Junge bei Kerzenlicht"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Der Professor ohne Lehrer",
+   "lines": [
+    [
+     "1844 erhielt er",
+     "Achtzehnhundertvierundvierzig erhielt er"
+    ],
+    [
+     "die Royal Medal der Royal Society.",
+     "die Königliche Medaille der Royal Society."
+    ],
+    [
+     "1849 machte ihn das Queen's College in Cork",
+     "Achtzehnhundertneunundvierzig machte ihn das Queen's College in Cork"
+    ],
+    "zum ersten Professor für Mathematik."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1844",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Royal Medal",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1849, Queen's College in Cork"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Die Gesetze des Denkens",
+   "lines": [
+    [
+     "1854 verwandelte er in einem Buch",
+     "Achtzehnhundertvierundfünfzig verwandelte er in einem Buch"
+    ],
+    "die Logik in Algebra.",
+    "Er glaubte, Denken lasse sich als Gleichung schreiben.",
+    "Wahr und falsch wurden zu eins und null,",
+    [
+     "und UND, ODER, NICHT wurden berechenbar.",
+     "und „und“, „oder“, „nicht“ wurden berechenbar."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1854",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Gesetze des Denkens",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Eine Lampe an, eine aus"
+       }
+      ],
+      "until": 4
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "AND  OR  NOT",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die letzte Vorlesung",
+   "lines": [
+    [
+     "Im November 1864 ging er bei starkem Regen zur Universität",
+     "Im November achtzehnhundertvierundsechzig ging er bei starkem Regen zur Universität"
+    ],
+    "und lehrte in nasser Kleidung.",
+    "Er bekam eine Lungenentzündung,",
+    [
+     "und am 8. Dezember starb er in Cork,",
+     "und am achten Dezember starb er in Cork,"
+    ],
+    "mit nur neunundvierzig Jahren."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1864, ein Weg im Regen"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "49",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1937 zeigte der Student",
+     "Neunzehnhundertsiebenunddreißig zeigte der Student"
+    ],
+    "Claude Shannon,",
+    "dass man mit Booles Algebra Schaltkreise entwerfen kann,",
+    "in denen An und Aus für eins und null stehen.",
+    "Heute denkt jeder Computer und jedes Handy in Booles Logik.",
+    "Seine Frage an dich:",
+    "Wenn deine Idee hundert Jahre bräuchte, bis man sie versteht,",
+    "würdest du sie trotzdem aufschreiben?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Eine Telefonvermittlung der 1930er"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1 / 0",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Hundert Jahre?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 2. November erinnern wir an George Boole.",
+     "und am zweiten November erinnern wir an George Boole."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "George Boole",
+    "years": "1815 – 1864"
+   }
+  }
+ ]
+}

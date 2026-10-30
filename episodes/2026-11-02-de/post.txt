@@ -1,0 +1,23 @@
+Titel: George Boole: Vor 211 Jahren geboren – der Schusterssohn hinter der Computerlogik
+
+Am 2. November 1815 wurde George Boole in Lincoln, England, geboren. Der Sohn eines Schuhmachers brachte sich die Mathematik weitgehend selbst bei und verwandelte das menschliche Denken in Algebra – seine Logik wurde zur Sprache aller Computer.
+
+Sein Vater, ein Schuhmacher, war auch sein erster Mathematiklehrer. Als das Geschäft der Familie zusammenbrach, musste der sechzehnjährige George die Familie ernähren. Tagsüber unterrichtete er an einer Schule, nachts lernte er allein höhere Mathematik.
+
+1844 erhielt er für eine mathematische Arbeit die Königliche Medaille (Royal Medal) der Royal Society. 1849 machte ihn das Queen's College in Cork, Irland, zu seinem ersten Professor für Mathematik.
+
+1847 erschien „The Mathematical Analysis of Logic“, 1854 „The Laws of Thought“ über die Gesetze des Denkens. Er glaubte, Denken lasse sich als Gleichung schreiben: Wahr und falsch wurden zu eins und null, und „und“, „oder“, „nicht“ wurden berechenbar. Heute nennen wir das boolesche Algebra.
+
+Im November 1864 ging er bei starkem Regen zur Universität und hielt seine Vorlesung in nasser Kleidung. Er bekam eine Lungenentzündung und starb am 8. Dezember 1864 in Cork, mit nur neunundvierzig Jahren.
+
+1937 zeigte der MIT-Student Claude Shannon in seiner Masterarbeit, dass man mit Booles Algebra Schaltkreise entwerfen kann, in denen An und Aus für eins und null stehen. Heute denkt jeder Computer und jedes Handy in Booles Logik.
+
+Seine Frage an dich: Wenn deine Idee hundert Jahre bräuchte, bis man sie versteht, würdest du sie trotzdem aufschreiben?
+
+Schreib deine Antwort in die Kommentare.
+
+Das Eröffnungsbild wurde nach einer Fotografie von George Boole auf Wikimedia Commons gezeichnet (gemeinfrei).
+
+Die Erzählstimme ist KI-generiert, und dieses Video wurde mit Hilfe von KI erstellt. Wenn dir ein Fehler auffällt, schreib es gern in die Kommentare.
+
+#AnDiesemTag #WerHatHeuteDieWeltVerändert #GeorgeBoole #BoolescheAlgebra #Mathematik #Informatik #Logik

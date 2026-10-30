@@ -123,6 +123,11 @@ Fixed facts
   rewording fixed it. ja: "11月1日" at the end was heard as "11月2日" by Whisper twice; spoken "11月ついたち" fixed it.
   Image MCP edit-image tends to reframe/zoom the start frame even when asked to keep it pixel-identical; a moderate
   reframe (same pose family, head tilted down) still gave a clean Calywood clip.
+- **2026-11-02 Boole run (Gemini Kore, short styles):** zh 430 spoken chars → 119.5 s; en 1546 → 126.5 s; es 1596 → 127.5 s (tight);
+  pt 1457 → 126.5 s; ja 638 → 114.5 s; de 1553 → 128.0 s, 1530 → 125.3 s. ja: "1847年" was heard as "1887年" twice; spoken
+  kanji numerals 「千八百四十七年」 fixed it. de: "zweihundertelf" was heard as "2011"; "zweihundertundelf" is unambiguous.
+  pipeline/tools/halves.sh needs /tmp/claude-0/s/asr1.py (a tiny sherpa-onnx Whisper script); recreate it if missing.
+  Splitting a sentence-final line into two shifts the next chunk id (rename its wav) and the stack phase indexes.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

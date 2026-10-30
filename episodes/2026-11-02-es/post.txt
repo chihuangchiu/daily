@@ -1,0 +1,23 @@
+Título: George Boole: hace 211 años nació el hijo de zapatero que creó la lógica digital
+
+El 2 de noviembre de 1815 nació George Boole en Lincoln, Inglaterra. Hijo de un zapatero y casi autodidacta, convirtió el razonamiento humano en álgebra, y su lógica se volvió el idioma de todas las computadoras.
+
+Su padre, zapatero, fue también su primer maestro de matemáticas. Cuando el negocio familiar se hundió, George, con dieciséis años, tuvo que mantener a la familia. De día enseñaba en una escuela y de noche estudiaba matemáticas por su cuenta.
+
+En 1844, un trabajo suyo ganó la Medalla Real de la Real Sociedad de Londres. En 1849, el Queen's College de Cork, en Irlanda, lo nombró su primer profesor de matemáticas.
+
+En 1847 publicó El análisis matemático de la lógica, y en 1854, Las leyes del pensamiento. Creía que el pensamiento podía escribirse en ecuaciones: verdadero y falso se volvieron uno y cero, y palabras como «y», «o» y «no» se podían calcular. Hoy lo llamamos álgebra de Boole.
+
+En noviembre de 1864 caminó a la universidad bajo una lluvia intensa y dio clase con la ropa empapada. Enfermó de neumonía y murió en Cork el 8 de diciembre de 1864, con solo cuarenta y nueve años.
+
+En 1937, Claude Shannon, estudiante del MIT, demostró en su tesis de maestría que el álgebra de Boole servía para diseñar circuitos de interruptores, donde encendido y apagado son uno y cero. Hoy, cada computadora y cada teléfono piensan con la lógica de Boole.
+
+Su pregunta para ti: si tu idea tardara cien años en ser entendida, ¿la escribirías de todos modos?
+
+Cuéntanos tu respuesta en los comentarios.
+
+El retrato inicial está dibujado a partir de una fotografía de George Boole en Wikimedia Commons (dominio público).
+
+La narración es una voz generada por IA y este video se hizo con ayuda de IA. Si encuentras algún error, avísanos en los comentarios.
+
+#UnDíaComoHoy #QuiénCambióElMundoHoy #GeorgeBoole #ÁlgebraDeBoole #Matemáticas #Informática #Lógica

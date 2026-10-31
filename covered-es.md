@@ -14,3 +14,4 @@
 | 2026-10-31 | John Keats | nacimiento (1795, Londres) |
 | 2026-11-01 | Alfred Wegener | nacimiento (1880, Berlín) |
 | 2026-11-02 | George Boole | nacimiento (1815, Lincoln, Inglaterra) |
+| 2026-11-03 | Henri Matisse | murió (1954, Niza) |

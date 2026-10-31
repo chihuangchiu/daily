@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-03",
+ "mmdd": "11.03",
+ "lang": "es",
+ "person": "Henri Matisse",
+ "event": "Murió en Niza, Francia (1954)",
+ "title": "Henri Matisse: hace 72 años murió el maestro que dibujaba con tijeras",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Hizo obras maestras con tijeras, desde una silla de ruedas.",
+    [
+     "¿Quién cambió el mundo hoy? 3 de noviembre.",
+     "¿Quién cambió el mundo hoy? Tres de noviembre."
+    ],
+    [
+     "Hace 72 años, un pintor murió en Niza, Francia.",
+     "Hace setenta y dos años, un pintor murió en Niza, Francia."
+    ],
+    "Era Henri Matisse, el gran maestro del fovismo."
+   ],
+   "data": {
+    "hook": "En silla de ruedas,\ndibujaba con tijeras",
+    "sub": "1954  ──  2026",
+    "sub_at": 2,
+    "name": "Matisse",
+    "name_years": "Henri Matisse · 1869 – 1954",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Una caja de pinturas",
+   "lines": [
+    "Empezó como oficinista en un despacho de abogados.",
+    [
+     "Hacia los 20, una apendicitis lo dejó en cama mucho tiempo.",
+     "Hacia los veinte años, una apendicitis lo dejó en cama mucho tiempo."
+    ],
+    "Su madre le regaló una caja de pinturas,",
+    "y él dejó el derecho para ser pintor."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "Oficinista",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "El regalo de una madre: pinturas"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Las fieras",
+   "lines": [
+    [
+     "En 1905 expuso en el Salón de Otoño de París,",
+     "En mil novecientos cinco expuso en el Salón de Otoño de París,"
+    ],
+    "incluido un retrato de su esposa con sombrero.",
+    "Los colores eran tan audaces que un crítico los llamó fieras,",
+    "y el nombre se quedó: fovismo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Salón de Otoño, París, 1905"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Fovismo",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  La luz de Niza",
+   "lines": [
+    "Después, pintó durante décadas bajo el sol de Niza.",
+    "Para un coleccionista ruso, pintó la enorme Danza."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Un estudio frente al mar en Niza"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "La Danza",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Dibujar con tijeras",
+   "lines": [
+    [
+     "En 1941, con más de setenta años, sufrió una gran operación.",
+     "En mil novecientos cuarenta y uno, con más de setenta años, sufrió una gran operación."
+    ],
+    [
+     "Desde entonces, casi siempre en silla de ruedas o en cama.",
+     "Desde entonces trabajó casi siempre en silla de ruedas o en cama."
+    ],
+    "Ya no podía pintar como antes, así que tomó unas tijeras.",
+    "Recortaba papel pintado en hojas, estrellas y figuras,",
+    "y lo llamaba dibujar con tijeras.",
+    [
+     "En 1947 publicó un libro de recortes llamado Jazz.",
+     "En mil novecientos cuarenta y siete publicó un libro de recortes llamado Jazz."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1941",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Gran operación",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Papel pintado bajo las tijeras"
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Jazz",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "1947",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    "En sus últimos años diseñó una pequeña capilla en Vence,",
+    "desde las vidrieras hasta los murales,",
+    "y dijo que era su obra maestra.",
+    [
+     "Murió en Niza el 3 de noviembre de 1954, a los ochenta y cuatro años.",
+     "Murió en Niza el tres de noviembre de mil novecientos cincuenta y cuatro, a los ochenta y cuatro años."
+    ],
+    "Su pregunta para ti:",
+    "si un día ya no pudieras hacer lo que amas como siempre,",
+    "¿encontrarías una nueva forma?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "La pequeña capilla de Vence"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "84",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ],
+      "until": 4
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Una nueva forma?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 3 de noviembre, recordamos a Henri Matisse.",
+     "y este tres de noviembre, recordamos a Henri Matisse."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Henri Matisse",
+    "years": "1869 – 1954"
+   }
+  }
+ ]
+}

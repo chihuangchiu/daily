@@ -1,0 +1,292 @@
+{
+ "date": "2026-11-03",
+ "mmdd": "11.03",
+ "lang": "pt",
+ "person": "Henri Matisse",
+ "event": "Morreu em Nice, França (1954)",
+ "title": "Henri Matisse: há 72 anos morria o mestre que desenhava com tesoura",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Criou obras-primas com tesouras, numa cadeira de rodas.",
+    [
+     "Quem mudou o mundo hoje? 3 de novembro.",
+     "Quem mudou o mundo hoje? Três de novembro."
+    ],
+    [
+     "Há 72 anos, um pintor morreu em Nice, na França.",
+     "Há setenta e dois anos, um pintor morreu em Nice, na França."
+    ],
+    "Era Henri Matisse, o grande mestre do fauvismo."
+   ],
+   "data": {
+    "hook": "Na cadeira de rodas,\ndesenhava com tesoura",
+    "sub": "1954  ──  2026",
+    "sub_at": 2,
+    "name": "Matisse",
+    "name_years": "Henri Matisse · 1869 – 1954",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Uma caixa de tintas",
+   "lines": [
+    "Começou como escrevente de um advogado.",
+    "Perto dos vinte anos, uma apendicite o prendeu à cama.",
+    "A mãe lhe deu uma caixa de tintas,",
+    "e ele trocou o direito pela pintura."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "Escrevente",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "O presente da mãe: tintas"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  As feras",
+   "lines": [
+    [
+     "Em 1905, expôs no Salão de Outono de Paris,",
+     "Em mil novecentos e cinco, expôs no Salão de Outono de Paris,"
+    ],
+    "incluindo um retrato da esposa de chapéu.",
+    "As cores eram tão ousadas que um crítico os chamou de feras,",
+    "e o nome pegou: fauvismo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Salão de Outono, Paris, 1905"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Fauvismo",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  A luz de Nice",
+   "lines": [
+    "Depois, pintou por décadas sob o sol de Nice.",
+    "Para um colecionador russo, pintou a enorme Dança."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Um ateliê de frente para o mar"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "A Dança",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Desenhar com tesoura",
+   "lines": [
+    [
+     "Em 1941, aos setenta e um anos, fez uma grande cirurgia.",
+     "Em mil novecentos e quarenta e um, aos setenta e um anos, fez uma grande cirurgia."
+    ],
+    "Desde então, quase sempre na cadeira de rodas ou na cama.",
+    "Sem poder pintar como antes, ele pegou a tesoura.",
+    "Recortava papel pintado em folhas, estrelas e figuras,",
+    "e chamava isso de desenhar com tesoura.",
+    [
+     "Em 1947, publicou um livro de recortes chamado Jazz.",
+     "Em mil novecentos e quarenta e sete, publicou um livro de recortes chamado Jazz."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1941",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Grande cirurgia",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Papel pintado sob a tesoura"
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Jazz",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "1947",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Nos últimos anos, projetou uma pequena capela em Vence,",
+    "dos vitrais aos murais,",
+    "e disse que era sua obra-prima.",
+    [
+     "Morreu em Nice em 3 de novembro de 1954, aos oitenta e quatro.",
+     "Morreu em Nice em três de novembro de mil novecentos e cinquenta e quatro, aos oitenta e quatro."
+    ],
+    "A pergunta dele para você:",
+    "se um dia não pudesse mais fazer o que ama como antes,",
+    "encontraria um novo caminho?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A pequena capela de Vence"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "84",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ],
+      "until": 4
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Um novo caminho?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 3 de novembro, lembramos de Henri Matisse.",
+     "e neste três de novembro, lembramos de Henri Matisse."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Henri Matisse",
+    "years": "1869 – 1954"
+   }
+  }
+ ]
+}

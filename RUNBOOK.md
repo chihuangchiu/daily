@@ -128,6 +128,12 @@ Fixed facts
   kanji numerals 「千八百四十七年」 fixed it. de: "zweihundertelf" was heard as "2011"; "zweihundertundelf" is unambiguous.
   pipeline/tools/halves.sh needs /tmp/claude-0/s/asr1.py (a tiny sherpa-onnx Whisper script); recreate it if missing.
   Splitting a sentence-final line into two shifts the next chunk id (rename its wav) and the stack phase indexes.
+- **2026-11-03 Matisse run (Gemini Kore, short styles):** zh 437 spoken chars → 120.7 s; en 1584 → 128.7 s (too long), 1540 → 125.1 s;
+  es 1563 → 123.6 s; pt 1465 → 125.7 s; ja 656 → 111.5 s (too short), ~690 → 115.5 s; de 1544 → 127.2 s (tight; aim ~1520).
+  en "…, at eighty-four." was said twice ("at 84, at 84"); "at the age of eighty-four" fixed it. de short chunk "Zuerst war er Schreiber in
+  einer Anwaltskanzlei." was repeated (7.4 s, flagged SLOW); rewording fixed it. ja subtitles: a line splits into 2 rows at the 、 nearest the
+  middle and each ROW (not piece) must be ≤ ~15 characters; use [subtitle, spoken] pairs to shorten. de: one long compound like
+  "Blinddarmentzündung" in a ~65-char line warns; shorten the subtitle. /tmp/claude-0/s/asr1.py must use wave+numpy (soundfile is not installed).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

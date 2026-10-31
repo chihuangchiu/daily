@@ -1,0 +1,295 @@
+{
+ "date": "2026-11-03",
+ "mmdd": "11.03",
+ "lang": "de",
+ "person": "Henri Matisse",
+ "event": "Gestorben in Nizza, Frankreich (1954)",
+ "title": "Henri Matisse: Vor 72 Jahren starb der Meister, der mit der Schere zeichnete",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Im Rollstuhl schuf er Meisterwerke mit der Schere.",
+    [
+     "Wer hat heute die Welt verändert? Der 3. November.",
+     "Wer hat heute die Welt verändert? Der dritte November."
+    ],
+    [
+     "Heute vor 72 Jahren starb in Nizza ein Maler.",
+     "Heute vor zweiundsiebzig Jahren starb in Nizza ein Maler."
+    ],
+    "Es war Henri Matisse, der Meister des Fauvismus."
+   ],
+   "data": {
+    "hook": "Im Rollstuhl malte er\nmit der Schere",
+    "sub": "1954  ──  2026",
+    "sub_at": 2,
+    "name": "Matisse",
+    "name_years": "Henri Matisse · 1869 – 1954",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ein Malkasten",
+   "lines": [
+    "Zunächst arbeitete er als Schreiber bei einem Anwalt.",
+    [
+     "Mit etwa 20 fesselte ihn eine Blinddarmentzündung ans Bett.",
+     "Mit etwa zwanzig fesselte ihn eine Blinddarmentzündung lange ans Bett."
+    ],
+    "Seine Mutter schenkte ihm einen Malkasten,",
+    "und er tauschte das Recht gegen die Malerei."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "Schreiber",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein Geschenk der Mutter: Farben"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Die Wilden",
+   "lines": [
+    [
+     "1905 stellte er im Pariser Herbstsalon aus,",
+     "Neunzehnhundertfünf stellte er im Pariser Herbstsalon aus,"
+    ],
+    "darunter ein Bildnis seiner Frau mit Hut.",
+    "So kühn waren die Farben, dass ein Kritiker sie Wilde nannte,",
+    "und der Name blieb: Fauvismus."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Herbstsalon, Paris, 1905"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Fauvismus",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Das Licht von Nizza",
+   "lines": [
+    "Später malte er jahrzehntelang im sonnigen Nizza.",
+    "Für einen russischen Sammler schuf er den riesigen Tanz."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Ein Atelier am Meer in Nizza"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "Der Tanz",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Zeichnen mit der Schere",
+   "lines": [
+    [
+     "1941, mit einundsiebzig, hatte er eine schwere Operation.",
+     "Neunzehnhunderteinundvierzig, mit einundsiebzig, hatte er eine schwere Operation."
+    ],
+    "Danach arbeitete er meist im Rollstuhl oder im Bett.",
+    "Malen wie früher ging nicht, also griff er zur Schere.",
+    "Er schnitt bemaltes Papier zu Blättern, Sternen und Figuren,",
+    "und nannte es Zeichnen mit der Schere.",
+    [
+     "1947 erschien sein Scherenschnitt-Buch Jazz.",
+     "Neunzehnhundertsiebenundvierzig erschien sein Scherenschnitt-Buch Jazz."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1941",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Schwere Operation",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Bemaltes Papier unter der Schere"
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Jazz",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "1947",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Zuletzt gestaltete er eine kleine Kapelle in Vence,",
+    "von den Fenstern bis zu den Wandbildern,",
+    "und nannte sie sein Meisterwerk.",
+    [
+     "Er starb am 3. November 1954 in Nizza, mit vierundachtzig.",
+     "Er starb am dritten November neunzehnhundertvierundfünfzig in Nizza, mit vierundachtzig."
+    ],
+    "Seine Frage an dich:",
+    "Wenn du nicht mehr wie gewohnt tun könntest, was du liebst,",
+    "würdest du einen neuen Weg finden?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Die kleine Kapelle in Vence"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "84",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ],
+      "until": 4
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Ein neuer Weg?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 3. November erinnern wir an Henri Matisse.",
+     "und am dritten November erinnern wir an Henri Matisse."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Henri Matisse",
+    "years": "1869 – 1954"
+   }
+  }
+ ]
+}

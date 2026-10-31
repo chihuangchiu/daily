@@ -1,0 +1,292 @@
+{
+ "date": "2026-11-03",
+ "mmdd": "11.03",
+ "lang": "en",
+ "person": "Henri Matisse",
+ "event": "Died in Nice, France (1954)",
+ "title": "Henri Matisse: 72 Years Ago Today, the Master Who Drew with Scissors Died",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He made masterpieces with scissors, from a wheelchair.",
+    [
+     "Who changed the world today? November 3.",
+     "Who changed the world today? November third."
+    ],
+    [
+     "72 years ago today, a painter died in Nice, France.",
+     "Seventy-two years ago today, a painter died in Nice, France."
+    ],
+    "He was Henri Matisse, the leader of the Fauves."
+   ],
+   "data": {
+    "hook": "From a wheelchair,\nhe drew with scissors",
+    "sub": "1954  ──  2026",
+    "sub_at": 2,
+    "name": "Matisse",
+    "name_years": "Henri Matisse · 1869 – 1954",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A box of paints",
+   "lines": [
+    "He began as a clerk in a law office.",
+    "At about twenty, appendicitis kept him in bed for a long time.",
+    "His mother brought him a box of paints,",
+    "and he left the law behind to become a painter."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "Law clerk",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A mother's gift: a box of paints"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Wild beasts",
+   "lines": [
+    [
+     "In 1905, he showed his work at the Autumn Salon in Paris,",
+     "In nineteen oh five, he showed his work at the Autumn Salon in Paris,"
+    ],
+    "including a portrait of his wife in a hat.",
+    "The colours were so bold, a critic called them wild beasts,",
+    "and the name stuck: Fauvism."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Autumn Salon, Paris, 1905"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Fauvism",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The light of Nice",
+   "lines": [
+    "Later, he painted for decades in sunny Nice.",
+    "For a Russian collector, he painted the huge Dance."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A studio by the sea in Nice"
+       }
+      ],
+      "until": 1
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "Dance",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Drawing with scissors",
+   "lines": [
+    [
+     "In 1941, in his seventies, he had major surgery.",
+     "In nineteen forty-one, in his seventies, he had major surgery."
+    ],
+    "After that, he mostly worked from a wheelchair or from his bed.",
+    "He could no longer paint as before, so he picked up scissors.",
+    "He cut painted paper into leaves, stars and figures,",
+    "and called it drawing with scissors.",
+    [
+     "In 1947, he published a book of cut-outs called Jazz.",
+     "In nineteen forty-seven, he published a book of cut-outs called Jazz."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1941",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Major surgery",
+        "style": "head",
+        "delay": 0.4
+       }
+      ],
+      "until": 2
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Painted paper under the scissors"
+       }
+      ],
+      "until": 5
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Jazz",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "1947",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "In his last years, he designed a small chapel in Vence,",
+    "from the stained glass to the wall drawings,",
+    "and he called it his masterpiece.",
+    [
+     "He died in Nice on November 3, 1954, at the age of eighty-four.",
+     "He died in Nice on November third, nineteen fifty-four, at the age of eighty-four."
+    ],
+    "His question for you:",
+    "if one day you could no longer do what you love the old way,",
+    "would you find a new way?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The little chapel in Vence"
+       }
+      ],
+      "until": 3
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "84",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ],
+      "until": 4
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "A new way?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 3, we remember Henri Matisse.",
+     "and on November third, we remember Henri Matisse."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Henri Matisse",
+    "years": "1869 – 1954"
+   }
+  }
+ ]
+}

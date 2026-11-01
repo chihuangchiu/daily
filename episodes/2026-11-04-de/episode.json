@@ -1,0 +1,282 @@
+{
+ "date": "2026-11-04",
+ "mmdd": "11.04",
+ "lang": "de",
+ "person": "Howard Carter",
+ "event": "Fand die erste Stufe zum Grab des Tutanchamun (1922)",
+ "title": "Howard Carter: Vor 104 Jahren führte eine Stufe zum Grab des Tutanchamun",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Eine Steinstufe öffnete einen 3000 Jahre alten Schatz.",
+     "Eine Steinstufe öffnete einen dreitausend Jahre alten Schatz."
+    ],
+    [
+     "Wer hat heute die Welt verändert? Der 4. November.",
+     "Wer hat heute die Welt verändert? Der vierte November."
+    ],
+    [
+     "Vor 104 Jahren, im Tal der Könige in Ägypten,",
+     "Vor hundertvier Jahren, im Tal der Könige in Ägypten,"
+    ],
+    "fanden Arbeiter eine Stufe unter dem Sand.",
+    "Sie führte Howard Carter zu einem verlorenen Grab."
+   ],
+   "data": {
+    "hook": "Eine Steinstufe öffnete\neinen uralten Schatz",
+    "sub": "1922  ──  2026",
+    "sub_at": 2,
+    "name": "Carter",
+    "name_years": "Howard Carter · 1874 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der junge Zeichner",
+   "lines": [
+    [
+     "1891 kam Carter mit siebzehn nach Ägypten.",
+     "Achtzehnhunderteinundneunzig kam Carter mit siebzehn nach Ägypten."
+    ],
+    "Er war noch kein Archäologe, sondern ein Zeichner,",
+    "der die Malereien in Gräbern abzeichnete."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "17 Jahre",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Wandmalereien abzeichnen im Grab"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Eine letzte Saison",
+   "lines": [
+    "Er glaubte, das Tal verberge noch ein Königsgrab,",
+    "das Grab des Kindkönigs Tutanchamun.",
+    "Mit Lord Carnarvons Geld grub er jahrelang, fast ohne Erfolg.",
+    [
+     "1922 wollte Carnarvon aufgeben,",
+     "Neunzehnhundertzweiundzwanzig wollte Carnarvon aufgeben,"
+    ],
+    "doch Carter erbat eine letzte Saison."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Das Tal der Könige, Jahr für Jahr"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Eine letzte Saison",
+        "style": "title",
+        "size": 80,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Wunderbare Dinge",
+   "lines": [
+    [
+     "Am 4. November entdeckten die Arbeiter eine Stufe,",
+     "Am vierten November entdeckten die Arbeiter eine Stufe,"
+    ],
+    "und darunter eine Treppe zu einer versiegelten Tür.",
+    [
+     "Am 26. November bohrte Carter ein kleines Loch in die Tür",
+     "Am sechsundzwanzigsten November bohrte Carter ein kleines Loch in die Tür"
+    ],
+    "und blickte im Kerzenlicht hinein.",
+    [
+     "Carnarvon fragte: „Können Sie etwas sehen?“",
+     "Carnarvon fragte: Können Sie etwas sehen?,"
+    ],
+    [
+     "Und Carter antwortete: „Ja, wunderbare Dinge!“",
+     "und Carter antwortete: Ja, wunderbare Dinge!"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "11.04",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Die erste Stufe",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Kerzenlicht an der versiegelten Tür"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Fünftausend Schätze",
+   "lines": [
+    "Im Grab lagen mehr als fünftausend Gegenstände.",
+    [
+     "Im Februar 1923 öffnete er die Grabkammer,",
+     "Im Februar neunzehnhundertdreiundzwanzig öffnete er die Grabkammer,"
+    ],
+    "und darin lag ein Sarg aus massivem Gold.",
+    "Fast zehn Jahre lang fotografierte und verzeichnete er",
+    "jedes Stück."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "5000+",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Schätze",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Jedes Stück, verzeichnet"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Heute stehen Menschen Schlange,",
+    "um diese Schätze zu sehen.",
+    "Seine Frage an dich:",
+    "Wenn du jahrelang gescheitert wärst,",
+    "würdest du ein letztes Mal graben?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Der Kindkönig im Museum"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Noch einmal graben?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 4. November erinnern wir an Howard Carter.",
+     "und am vierten November erinnern wir an Howard Carter."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Howard Carter",
+    "years": "1874 – 1939"
+   }
+  }
+ ]
+}

@@ -15,3 +15,4 @@
 | 2026-11-01 | Alfred Wegener | Geburt (1880, Berlin) |
 | 2026-11-02 | George Boole | Geburt (1815, Lincoln, England) |
 | 2026-11-03 | Henri Matisse | Tod (1954, Nizza) |
+| 2026-11-04 | Howard Carter | fand die erste Stufe zum Grab des Tutanchamun (1922, Tal der Könige) |

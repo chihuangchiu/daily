@@ -134,6 +134,10 @@ Fixed facts
   einer Anwaltskanzlei." was repeated (7.4 s, flagged SLOW); rewording fixed it. ja subtitles: a line splits into 2 rows at the 、 nearest the
   middle and each ROW (not piece) must be ≤ ~15 characters; use [subtitle, spoken] pairs to shorten. de: one long compound like
   "Blinddarmentzündung" in a ~65-char line warns; shorten the subtitle. /tmp/claude-0/s/asr1.py must use wave+numpy (soundfile is not installed).
+- **2026-11-04 Carter run (Gemini Kore, short styles):** zh 452 spoken chars (no punct.) → 127.9 s (too long), ~440 → 124.0 s; en 1581 → 133.8 s (!),
+  1485 → 126.6 s (en read slower this time; aim ~1480); es 1534 → 126.4 s; pt 1496 → 129.1 s, 1457 → 127.5 s (aim ~1430); ja 721 → 123.0 s;
+  de 1530 → 128.9 s, 1501 → 127.1 s (aim ~1480). Whisper base hears ja 「百四年前」 as "1004年前" even when Gemini says ひゃくよねん: harmless.
+  A start frame with only the head turned down to the steps (same pose family) gave a clean Calywood clip on the first try.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

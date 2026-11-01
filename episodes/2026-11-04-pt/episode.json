@@ -1,0 +1,285 @@
+{
+ "date": "2026-11-04",
+ "mmdd": "11.04",
+ "lang": "pt",
+ "person": "Howard Carter",
+ "event": "Achou o primeiro degrau do túmulo de Tutancâmon (1922)",
+ "title": "Howard Carter: há 104 anos, um degrau levou ao túmulo de Tutancâmon",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Um degrau de pedra abriu um tesouro de 3 mil anos.",
+     "Um degrau de pedra abriu um tesouro de três mil anos."
+    ],
+    [
+     "Quem mudou o mundo hoje? 4 de novembro.",
+     "Quem mudou o mundo hoje? Quatro de novembro."
+    ],
+    [
+     "Há 104 anos, no Vale dos Reis, no Egito,",
+     "Há cento e quatro anos, no Vale dos Reis, no Egito,"
+    ],
+    "operários acharam um degrau sob a areia.",
+    "Levou o arqueólogo Howard Carter a um túmulo perdido."
+   ],
+   "data": {
+    "hook": "Um degrau de pedra\nabriu um tesouro antigo",
+    "sub": "1922  ──  2026",
+    "sub_at": 2,
+    "name": "Carter",
+    "name_years": "Howard Carter · 1874 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O jovem artista",
+   "lines": [
+    [
+     "Em 1891, Howard Carter chegou ao Egito, aos dezessete anos.",
+     "Em mil oitocentos e noventa e um, Howard Carter chegou ao Egito, aos dezessete anos."
+    ],
+    "Ainda não era arqueólogo, mas um jovem desenhista,",
+    "contratado para copiar pinturas de túmulos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "17 anos",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Copiando pinturas num túmulo"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Uma última temporada",
+   "lines": [
+    "Ele acreditava que o vale escondia um túmulo real,",
+    "o do faraó menino Tutancâmon.",
+    [
+     "Com dinheiro de Carnarvon, cavou anos e achou pouco.",
+     "Com o dinheiro de lorde Carnarvon, cavou por anos e achou pouco."
+    ],
+    [
+     "Em 1922, Carnarvon quis desistir,",
+     "Em mil novecentos e vinte e dois, Carnarvon quis desistir,"
+    ],
+    "mas Carter pediu uma última temporada."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "O Vale dos Reis, ano após ano"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Uma última temporada",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Coisas maravilhosas",
+   "lines": [
+    [
+     "Em 4 de novembro, os operários acharam um degrau,",
+     "Em quatro de novembro, os operários acharam um degrau,"
+    ],
+    "e, abaixo dele, uma escada até uma porta selada.",
+    [
+     "Em 26 de novembro, Carter abriu um pequeno buraco",
+     "Em vinte e seis de novembro, Carter abriu um pequeno buraco"
+    ],
+    "e espiou lá dentro com uma vela.",
+    [
+     "Carnarvon perguntou: «Está vendo algo?»",
+     "Carnarvon perguntou: está vendo algo?,"
+    ],
+    [
+     "E Carter respondeu: «Sim, coisas maravilhosas!»",
+     "e Carter respondeu: sim, coisas maravilhosas!"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "11.04",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "O primeiro degrau",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Luz de vela na porta selada"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Cinco mil tesouros",
+   "lines": [
+    "O túmulo guardava mais de cinco mil objetos.",
+    [
+     "Em fevereiro de 1923, ele abriu a câmara funerária,",
+     "Em fevereiro de mil novecentos e vinte e três, ele abriu a câmara funerária,"
+    ],
+    "e lá dentro havia um caixão de ouro maciço.",
+    "Por quase dez anos, fotografou e registrou",
+    "cada um dos objetos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "5000+",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "tesouros",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Cada objeto, registrado"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Hoje, gente do mundo todo faz fila",
+    "para ver esses tesouros.",
+    "A pergunta dele para você:",
+    "se você falhasse por anos,",
+    "cavaria uma última vez?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "O faraó menino no museu"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Cavar mais uma vez?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 4 de novembro, lembramos de Howard Carter.",
+     "e neste quatro de novembro, lembramos de Howard Carter."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Howard Carter",
+    "years": "1874 – 1939"
+   }
+  }
+ ]
+}

@@ -15,3 +15,4 @@
 | 2026-11-01 | Alfred Wegener | nacimiento (1880, Berlín) |
 | 2026-11-02 | George Boole | nacimiento (1815, Lincoln, Inglaterra) |
 | 2026-11-03 | Henri Matisse | murió (1954, Niza) |
+| 2026-11-04 | Howard Carter | halló el primer escalón de la tumba de Tutankamón (1922, Valle de los Reyes) |

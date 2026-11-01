@@ -1,0 +1,285 @@
+{
+ "date": "2026-11-04",
+ "mmdd": "11.04",
+ "lang": "es",
+ "person": "Howard Carter",
+ "event": "Halló el primer escalón de la tumba de Tutankamón (1922)",
+ "title": "Howard Carter: hace 104 años, un escalón llevó a la tumba de Tutankamón",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Un escalón de piedra abrió un tesoro de 3.000 años.",
+     "Un escalón de piedra abrió un tesoro de tres mil años."
+    ],
+    [
+     "¿Quién cambió el mundo hoy? 4 de noviembre.",
+     "¿Quién cambió el mundo hoy? Cuatro de noviembre."
+    ],
+    [
+     "Hace 104 años, en el Valle de los Reyes, en Egipto,",
+     "Hace ciento cuatro años, en el Valle de los Reyes, en Egipto,"
+    ],
+    "unos obreros hallaron un escalón bajo la arena.",
+    "Llevó al arqueólogo Howard Carter a una tumba perdida."
+   ],
+   "data": {
+    "hook": "Un escalón de piedra\nabrió un tesoro antiguo",
+    "sub": "1922  ──  2026",
+    "sub_at": 2,
+    "name": "Carter",
+    "name_years": "Howard Carter · 1874 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El joven artista",
+   "lines": [
+    [
+     "En 1891, Howard Carter llegó a Egipto con diecisiete años.",
+     "En mil ochocientos noventa y uno, Howard Carter llegó a Egipto con diecisiete años."
+    ],
+    "Todavía no era arqueólogo, sino un joven dibujante,",
+    "contratado para copiar las pinturas de las tumbas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "17 años",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Copiando pinturas en una tumba"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Una última temporada",
+   "lines": [
+    "Creía que el valle aún escondía una tumba real perdida,",
+    "la del faraón niño Tutankamón.",
+    [
+     "Con dinero de Carnarvon, cavó años sin hallar casi nada.",
+     "Con el dinero de lord Carnarvon, cavó durante años sin hallar casi nada."
+    ],
+    [
+     "En 1922, Carnarvon quería rendirse,",
+     "En mil novecientos veintidós, Carnarvon quería rendirse,"
+    ],
+    "pero Carter lo convenció de una última temporada."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "El Valle de los Reyes, año tras año"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Una última temporada",
+        "style": "title",
+        "size": 72,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Cosas maravillosas",
+   "lines": [
+    [
+     "El 4 de noviembre, los obreros descubrieron un escalón,",
+     "El cuatro de noviembre, los obreros descubrieron un escalón,"
+    ],
+    "y debajo, una escalera que bajaba hasta una puerta sellada.",
+    [
+     "El 26 de noviembre, Carter abrió un pequeño agujero",
+     "El veintiséis de noviembre, Carter abrió un pequeño agujero"
+    ],
+    "y miró adentro con una vela.",
+    [
+     "Carnarvon le preguntó: «¿Ve usted algo?»",
+     "Carnarvon le preguntó: ¿ve usted algo?,"
+    ],
+    [
+     "Y Carter respondió: «Sí, ¡cosas maravillosas!»",
+     "y Carter respondió: sí, ¡cosas maravillosas!"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "11.04",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "El primer escalón",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Luz de vela tras la puerta sellada"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Cinco mil tesoros",
+   "lines": [
+    "La tumba guardaba más de cinco mil objetos.",
+    [
+     "En febrero de 1923, abrió la cámara funeraria,",
+     "En febrero de mil novecientos veintitrés, abrió la cámara funeraria,"
+    ],
+    "y en su corazón había un ataúd de oro macizo.",
+    "Durante casi diez años, fotografió y registró",
+    "cada objeto, uno por uno."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "5000+",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "tesoros",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Cada objeto, registrado"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    "Hoy, gente de todo el mundo hace fila",
+    "para ver estos tesoros.",
+    "Su pregunta para ti:",
+    "si llevaras años fracasando,",
+    "¿cavarías una última vez?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "El faraón niño en el museo"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Cavar otra vez?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 4 de noviembre, recordamos a Howard Carter.",
+     "y este cuatro de noviembre, recordamos a Howard Carter."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Howard Carter",
+    "years": "1874 – 1939"
+   }
+  }
+ ]
+}

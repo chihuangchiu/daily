@@ -1,0 +1,282 @@
+{
+ "date": "2026-11-04",
+ "mmdd": "11.04",
+ "lang": "en",
+ "person": "Howard Carter",
+ "event": "Found the first step of Tutankhamun's tomb (1922)",
+ "title": "Howard Carter: 104 Years Ago Today, One Step Led to Tutankhamun's Tomb",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "One stone step opened a 3,000-year-old treasure.",
+     "One stone step opened a three-thousand-year-old treasure."
+    ],
+    [
+     "Who changed the world today? November 4.",
+     "Who changed the world today? November fourth."
+    ],
+    [
+     "104 years ago today, in Egypt's Valley of the Kings,",
+     "One hundred and four years ago today, in Egypt's Valley of the Kings,"
+    ],
+    "workers found a stone step under the sand.",
+    "It led archaeologist Howard Carter to a lost tomb."
+   ],
+   "data": {
+    "hook": "One stone step opened\na 3,000-year-old tomb",
+    "sub": "1922  ──  2026",
+    "sub_at": 2,
+    "name": "Carter",
+    "name_years": "Howard Carter · 1874 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The young artist",
+   "lines": [
+    [
+     "In 1891, Howard Carter arrived in Egypt, aged seventeen.",
+     "In eighteen ninety-one, Howard Carter arrived in Egypt, aged seventeen."
+    ],
+    "He was not yet an archaeologist, but an artist,",
+    "hired to copy the paintings on tomb walls."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Age 17",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Copying paintings in a tomb"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  One last season",
+   "lines": [
+    "He believed the valley still hid a lost royal tomb,",
+    "the tomb of the boy pharaoh Tutankhamun.",
+    "Funded by Lord Carnarvon, he dug for years and found little.",
+    [
+     "In 1922, Carnarvon wanted to give up,",
+     "In nineteen twenty-two, Carnarvon wanted to give up,"
+    ],
+    "but Carter talked him into one last season."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "The Valley of the Kings, year after year"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "One last season",
+        "style": "title",
+        "size": 96,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Wonderful things",
+   "lines": [
+    [
+     "On November 4, workers uncovered a stone step,",
+     "On November fourth, workers uncovered a stone step,"
+    ],
+    "and below it, a staircase down to a sealed door.",
+    [
+     "On November 26, Carter cut a small hole in the door",
+     "On November twenty-sixth, Carter cut a small hole in the door"
+    ],
+    "and peered in by candlelight.",
+    [
+     "Carnarvon asked, \"Can you see anything?\"",
+     "Carnarvon asked, can you see anything,"
+    ],
+    [
+     "Carter replied, \"Yes, wonderful things!\"",
+     "Carter replied, yes, wonderful things!"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "11.04",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The first step",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Candlelight through the sealed door"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Five thousand treasures",
+   "lines": [
+    "The tomb held over five thousand objects.",
+    [
+     "In February 1923, he opened the burial chamber,",
+     "In February nineteen twenty-three, he opened the burial chamber,"
+    ],
+    "and at its heart lay a coffin of solid gold.",
+    "For nearly ten years, he photographed and recorded",
+    "every object, one by one."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "5000+",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "treasures",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Every object, recorded"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "Today, people from all over the world line up",
+    "to see these treasures.",
+    "His question for you:",
+    "if you had failed for years,",
+    "would you dig one last time?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The boy king in the museum"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "One more dig?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 4, we remember Howard Carter.",
+     "and on November fourth, we remember Howard Carter."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Howard Carter",
+    "years": "1874 – 1939"
+   }
+  }
+ ]
+}

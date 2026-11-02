@@ -138,6 +138,11 @@ Fixed facts
   1485 → 126.6 s (en read slower this time; aim ~1480); es 1534 → 126.4 s; pt 1496 → 129.1 s, 1457 → 127.5 s (aim ~1430); ja 721 → 123.0 s;
   de 1530 → 128.9 s, 1501 → 127.1 s (aim ~1480). Whisper base hears ja 「百四年前」 as "1004年前" even when Gemini says ひゃくよねん: harmless.
   A start frame with only the head turned down to the steps (same pose family) gave a clean Calywood clip on the first try.
+- **2026-11-05 Maxwell run (Gemini Kore, short styles):** zh 441 spoken chars → 125.6 s; en 1531 → 128.2 s (too long), 1487 → 124.8 s;
+  es 1551 → 126.1 s; pt 1473 → 129.4 s (too long), 1426 → 125.8 s (aim ~1420); ja 700 → 117.5 s; de 1502 → 124.2 s.
+  Calywood refused the first opening.png ("偵測為含真人臉部") although it was a sepia drawing; redrawing with the RUNBOOK
+  "Calywood refusals" wording (cross-hatching, old printed book) passed on the first try. Commons file pages could not be
+  fetched with WebFetch, but Special:FilePath/James_Clerk_Maxwell_big.jpg worked as edit-image input.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

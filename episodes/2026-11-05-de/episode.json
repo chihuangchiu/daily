@@ -1,0 +1,294 @@
+{
+ "date": "2026-11-05",
+ "mmdd": "11.05",
+ "lang": "de",
+ "person": "James Clerk Maxwell",
+ "event": "starb (1879, Cambridge)",
+ "title": "James Clerk Maxwell: Vor 147 Jahren starb der Mann, der das Licht entschlüsselte",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Dein Handysignal begann mit seinen Gleichungen.",
+    [
+     "Wer hat heute die Welt verändert? Der 5. November.",
+     "Wer hat heute die Welt verändert? Der fünfte November."
+    ],
+    [
+     "Heute vor 147 Jahren starb in Cambridge",
+     "Heute vor hundertsiebenundvierzig Jahren starb in Cambridge"
+    ],
+    "ein großer Physiker:",
+    "James Clerk Maxwell."
+   ],
+   "data": {
+    "hook": "Dein Handysignal begann\nmit seinen Gleichungen",
+    "sub": "1879  ──  2026",
+    "sub_at": 2,
+    "name": "Maxwell",
+    "name_years": "James Clerk Maxwell · 1831 – 1879",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Junge, der fragte",
+   "lines": [
+    [
+     "1831 kam er in Edinburgh, Schottland, zur Welt.",
+     "Achtzehnhunderteinunddreißig kam er in Edinburgh, Schottland, zur Welt."
+    ],
+    "Als Kind fragte er bei allem, was sich bewegte,",
+    "immer: Wie funktioniert das?",
+    [
+     "Mit 14 schrieb er eine Arbeit über Ovale,",
+     "Mit vierzehn schrieb er eine Arbeit über Ovale,"
+    ],
+    "und ein Professor las sie vor, weil er zu jung war."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Edinburgh",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1831",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ovale mit Nadeln und Schnur"
+       },
+       {
+        "text": "Erste Arbeit mit 14",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Saturn und Farbe",
+   "lines": [
+    "Er zeigte: Die Saturnringe sind nicht fest,",
+    "sondern unzählige kleine Teilchen.",
+    [
+     "1861 zeigte er mit drei Farbfiltern",
+     "Achtzehnhunderteinundsechzig zeigte er mit drei Farbfiltern"
+    ],
+    "das erste Farbfoto der Welt:",
+    "ein kariertes Band."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Saturnringe: unzählige Teilchen"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "1861: ein Karoband in Farbe"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Licht ist eine Welle",
+   "lines": [
+    "Elektrizität und Magnetismus waren noch zwei Rätsel.",
+    "Er vereinte sie und das Licht in einem Satz Gleichungen.",
+    [
+     "1865 berechnete er das Tempo dieser Wellen:",
+     "Achtzehnhundertfünfundsechzig berechnete er das Tempo dieser Wellen:"
+    ],
+    "Es war fast genau die Lichtgeschwindigkeit.",
+    "Sein kühner Schluss: Licht ist eine elektromagnetische Welle."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Licht = Welle",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Elektrizität und Magnetismus, wie Licht"
+       },
+       {
+        "text": "1865",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die Zukunft, die er nicht sah",
+   "lines": [
+    "Als er mit nur achtundvierzig Jahren an Krebs starb,",
+    "hatte niemand bewiesen, dass er recht hatte.",
+    "Acht Jahre später erzeugte Heinrich Hertz",
+    "diese Wellen mit Funken und gab Maxwell recht."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "48 Jahre",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1887: Hertz' Funkenversuch"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Heute beruhen Radio, Fernsehen, Handys und WLAN",
+    "auf seinen Gleichungen.",
+    "Einstein sagte: Eine wissenschaftliche Epoche endete,",
+    "und eine neue begann mit Maxwell.",
+    "Seine Frage an dich:",
+    "Wann hast du zuletzt gefragt: Wie funktioniert das?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Drahtlos",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Radio · TV · Handy",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Einstein",
+        "style": "kicker"
+       },
+       {
+        "text": "Eine neue Epoche begann",
+        "style": "head",
+        "size": 48
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Noch neugierig?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 5. November erinnern wir an James Clerk Maxwell.",
+     "und am fünften November erinnern wir an James Clerk Maxwell."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "James Clerk Maxwell",
+    "years": "1831 – 1879"
+   }
+  }
+ ]
+}

@@ -16,3 +16,4 @@
 | 2026-11-02 | George Boole | nacimiento (1815, Lincoln, Inglaterra) |
 | 2026-11-03 | Henri Matisse | murió (1954, Niza) |
 | 2026-11-04 | Howard Carter | halló el primer escalón de la tumba de Tutankamón (1922, Valle de los Reyes) |
+| 2026-11-05 | James Clerk Maxwell | murió (1879, Cambridge) |

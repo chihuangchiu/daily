@@ -16,3 +16,4 @@
 | 2026-11-02 | George Boole | born (1815, Lincoln, England) | yes |
 | 2026-11-03 | Henri Matisse | died (1954, Nice) | yes |
 | 2026-11-04 | Howard Carter | found the first step of Tutankhamun's tomb (1922, Valley of the Kings) | yes |
+| 2026-11-05 | James Clerk Maxwell | died (1879, Cambridge) | yes |

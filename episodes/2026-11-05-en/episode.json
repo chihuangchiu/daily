@@ -1,0 +1,294 @@
+{
+ "date": "2026-11-05",
+ "mmdd": "11.05",
+ "lang": "en",
+ "person": "James Clerk Maxwell",
+ "event": "died (1879, Cambridge)",
+ "title": "James Clerk Maxwell: 147 Years Ago Today, the Man Who Unlocked Light Died",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Your phone's signal began with his equations.",
+    [
+     "Who changed the world today? November 5.",
+     "Who changed the world today? November fifth."
+    ],
+    [
+     "147 years ago today, in Cambridge, England,",
+     "One hundred and forty-seven years ago today, in Cambridge, England,"
+    ],
+    "a great physicist died.",
+    "His name was James Clerk Maxwell."
+   ],
+   "data": {
+    "hook": "Your phone signal\nstarts with his math",
+    "sub": "1879  ──  2026",
+    "sub_at": 2,
+    "name": "Maxwell",
+    "name_years": "James Clerk Maxwell · 1831 – 1879",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The boy who asked why",
+   "lines": [
+    [
+     "In 1831, he was born in Edinburgh, Scotland.",
+     "In eighteen thirty-one, he was born in Edinburgh, Scotland."
+    ],
+    "As a child, whenever something moved or shone,",
+    "he would ask: how does it work?",
+    [
+     "At 14, he wrote a paper on drawing ovals with string,",
+     "At fourteen, he wrote a paper on drawing ovals with string,"
+    ],
+    "and a professor read it for him, as he was too young."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Edinburgh",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1831",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Drawing ovals with pins and string"
+       },
+       {
+        "text": "First paper at 14",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Saturn and colour",
+   "lines": [
+    "Later, he showed that Saturn's rings are not solid,",
+    "but countless small pieces circling the planet.",
+    [
+     "In 1861, using red, green and blue filters,",
+     "In eighteen sixty-one, using red, green and blue filters,"
+    ],
+    "he showed the world's first colour photograph:",
+    "a simple tartan ribbon."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Saturn's rings: countless pieces"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "1861: a tartan ribbon in colour"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Light is a wave",
+   "lines": [
+    "Electricity and magnetism were still two mysteries.",
+    "He wrote them, and light, into one set of equations.",
+    [
+     "In 1865, he calculated the speed of these waves,",
+     "In eighteen sixty-five, he calculated the speed of these waves,"
+    ],
+    "and it was almost exactly the speed of light.",
+    "His bold claim: light is an electromagnetic wave."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Light = wave",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Electricity and magnetism, like light"
+       },
+       {
+        "text": "1865",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The future he never saw",
+   "lines": [
+    "When he died of cancer at only forty-eight,",
+    "no one had yet shown he was right.",
+    "Eight years later, Heinrich Hertz",
+    "created these waves with sparks, proving Maxwell right."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Age 48",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1887: Hertz's spark experiment"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "Today, radio, TV, phones and Wi-Fi",
+    "rest on his equations.",
+    "Einstein said: one scientific epoch ended,",
+    "and another began with Maxwell.",
+    "His question for you:",
+    "when did you last ask: how does it work?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Wireless",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Radio · TV · Phones",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Einstein",
+        "style": "kicker"
+       },
+       {
+        "text": "A new epoch began",
+        "style": "head",
+        "size": 48
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "Still curious?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 5, we remember James Clerk Maxwell.",
+     "and on November fifth, we remember James Clerk Maxwell."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "James Clerk Maxwell",
+    "years": "1831 – 1879"
+   }
+  }
+ ]
+}

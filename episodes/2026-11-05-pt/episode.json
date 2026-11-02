@@ -1,0 +1,294 @@
+{
+ "date": "2026-11-05",
+ "mmdd": "11.05",
+ "lang": "pt",
+ "person": "James Clerk Maxwell",
+ "event": "morreu (1879, Cambridge)",
+ "title": "James Clerk Maxwell: há 147 anos morria o homem que decifrou a luz",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "O sinal do seu celular nasceu das equações dele.",
+    [
+     "Quem mudou o mundo hoje? 5 de novembro.",
+     "Quem mudou o mundo hoje? Cinco de novembro."
+    ],
+    [
+     "Há 147 anos, em Cambridge, Inglaterra,",
+     "Há cento e quarenta e sete anos, em Cambridge, Inglaterra,"
+    ],
+    "morria um grande físico,",
+    "James Clerk Maxwell."
+   ],
+   "data": {
+    "hook": "O sinal do seu celular\nnasceu das equações dele",
+    "sub": "1879  ──  2026",
+    "sub_at": 2,
+    "name": "Maxwell",
+    "name_years": "James Clerk Maxwell · 1831 – 1879",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O menino que perguntava",
+   "lines": [
+    [
+     "Nasceu em 1831, em Edimburgo, na Escócia.",
+     "Nasceu em mil oitocentos e trinta e um, em Edimburgo, na Escócia."
+    ],
+    "Criança, diante de tudo que se mexia,",
+    "sempre perguntava: como funciona?",
+    [
+     "Aos 14, escreveu um artigo sobre traçar ovais,",
+     "Aos catorze, escreveu um artigo sobre traçar ovais,"
+    ],
+    "e um professor o leu por ele, porque era jovem demais."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Edimburgo",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1831",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ovais com alfinetes e barbante"
+       },
+       {
+        "text": "Primeiro artigo, aos 14",
+        "style": "mid"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Saturno e a cor",
+   "lines": [
+    "Mostrou que os anéis de Saturno não são sólidos,",
+    "mas incontáveis pedacinhos em órbita.",
+    [
+     "Em 1861, com filtros vermelho, verde e azul,",
+     "Em mil oitocentos e sessenta e um, com filtros vermelho, verde e azul,"
+    ],
+    "mostrou a primeira fotografia colorida do mundo:",
+    "uma fita xadrez."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Saturno: incontáveis pedacinhos"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "1861: uma fita xadrez em cores"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  A luz é uma onda",
+   "lines": [
+    "Ele uniu eletricidade, magnetismo e luz",
+    "nas mesmas equações.",
+    [
+     "Em 1865, calculou a velocidade dessas ondas,",
+     "Em mil oitocentos e sessenta e cinco, calculou a velocidade dessas ondas,"
+    ],
+    "e era quase a velocidade da luz.",
+    "Sua conclusão ousada: a luz é uma onda eletromagnética."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Luz = onda",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Eletricidade e magnetismo, como a luz"
+       },
+       {
+        "text": "1865",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  O futuro que não viu",
+   "lines": [
+    "Ele morreu de câncer com só quarenta e oito anos,",
+    "e ninguém tinha provado que estava certo.",
+    "Oito anos depois, o alemão Heinrich Hertz",
+    "criou essas ondas com faíscas e lhe deu razão."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "48 anos",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1887: o experimento de Hertz"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Hoje, rádio, TV, celulares e wi-fi",
+    "se baseiam nas equações dele.",
+    "Einstein disse: uma época científica terminou,",
+    "e outra começou com Maxwell.",
+    "A pergunta dele:",
+    "quando você perguntou pela última vez: como funciona?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Sem fio",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Rádio · TV · Celular",
+        "style": "mid",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Einstein",
+        "style": "kicker"
+       },
+       {
+        "text": "Começou uma nova era",
+        "style": "head",
+        "size": 48
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Ainda curioso?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 5 de novembro, lembramos de Maxwell.",
+     "e neste cinco de novembro, lembramos de James Clerk Maxwell."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "James Clerk Maxwell",
+    "years": "1831 – 1879"
+   }
+  }
+ ]
+}

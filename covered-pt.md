@@ -16,3 +16,4 @@
 | 2026-11-02 | George Boole | nascimento (1815, Lincoln, Inglaterra) |
 | 2026-11-03 | Henri Matisse | morreu (1954, Nice) |
 | 2026-11-04 | Howard Carter | achou o primeiro degrau do túmulo de Tutancâmon (1922, Vale dos Reis) |
+| 2026-11-05 | James Clerk Maxwell | morreu (1879, Cambridge) |

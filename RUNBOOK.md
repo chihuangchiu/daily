@@ -21,6 +21,18 @@ Fixed facts
   (publish) date of the video being made: its month/day drives the topic, the "N年前的今天" years, the folder
   episodes/D, the media file name and the publish time.
 
+## 0a. Publish times per language (Nathan 2026-11-03) — overrides every "06:00 Taipei" / "(D−1)T22:00:00Z" below
+Each channel publishes on the MORNING OF D in its audience's time zone, so "today, <date>" is true where it is watched:
+zh FB+YT 07:00 Asia/Taipei; ja 07:00 Asia/Tokyo; de 07:00 Europe/Berlin; pt 08:00 America/Sao_Paulo;
+en 08:00 America/New_York; es 08:00 America/Mexico_City. Get the exact UTC times (daylight saving handled) with
+`python3 pipeline/tools/slots.py D1 D2 D3` (e.g. for 2026-11-06: zh 11-05T23:00Z, ja 11-05T22:00Z, de 11-06T06:00Z,
+pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` to integrationSchedulePostTool.
+- Planning (step 0): list posts from (first D − 1 day)T15:00:00Z to (last D)T18:00:00Z. A post on a channel belongs to
+  day D when its publishDate is in [D−1 15:00Z, D 18:00Z). Posts made before this change at the old time
+  ((D−1)T22:00Z, i.e. 11/04 and 11/05 2026) still count as covering D — do not make or move those.
+- If a slot is already in the past when scheduling, use now + 10 min.
+- The report lists each channel with its own local time (and the Taipei time).
+
 ## 0b. Length, hook and on-screen text (Nathan 2026-10-22) — overrides the older numbers below
 - **Length: about 120 s** (TARGET=120 is now build.sh's default). Final video 112–128 s; speed in check 0.92–1.10.
   Narration size: Chinese ~460–500 characters (~40–45 lines, 7 scenes: hook/title → 4 chapters → legacy + question →

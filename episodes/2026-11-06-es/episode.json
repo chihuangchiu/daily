@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-06",
+ "mmdd": "11.06",
+ "lang": "es",
+ "person": "James Naismith",
+ "event": "nacimiento (1861, Almonte, Ontario)",
+ "title": "James Naismith: hace 165 años nació el inventor del baloncesto",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Inventó el baloncesto con dos cestas de duraznos.",
+    [
+     "¿Quién cambió el mundo hoy? 6 de noviembre.",
+     "¿Quién cambió el mundo hoy? Seis de noviembre."
+    ],
+    [
+     "Hace 165 años, en Ontario, Canadá,",
+     "Hace ciento sesenta y cinco años, en Ontario, Canadá,"
+    ],
+    "nació un niño,",
+    "y se llamaba James Naismith."
+   ],
+   "data": {
+    "hook": "Inventó el baloncesto\ncon dos cestas",
+    "sub": "1861  ──  2026",
+    "sub_at": 2,
+    "name": "Naismith",
+    "name_years": "James Naismith · 1861 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El huérfano que amaba el deporte",
+   "lines": [
+    "Huérfano de niño, lo crio su tío.",
+    "Después estudió en la Universidad McGill, en Canadá,",
+    "se enamoró del deporte y se hizo profesor de gimnasia.",
+    [
+     "En 1890 se mudó a Springfield, Massachusetts,",
+     "En mil ochocientos noventa se mudó a Springfield, Massachusetts,"
+    ],
+    "para enseñar en la escuela de formación de la YMCA."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Ontario",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1861",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Escuela de la YMCA en Springfield, 1890"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Catorce días",
+   "lines": [
+    "Los inviernos de Nueva Inglaterra son largos y fríos,",
+    "y sus alumnos, encerrados, se aburrían.",
+    "Su jefe le dio un reto: en catorce días,",
+    "inventar un juego nuevo para jugar bajo techo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Invierno",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Ideas de noche en el escritorio"
+       },
+       {
+        "text": "14 días",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Dos cestas de duraznos",
+   "lines": [
+    "Pidió dos cajas para usarlas como porterías,",
+    "pero el conserje le trajo dos cestas de duraznos.",
+    "Las clavó en el balcón del gimnasio, a unos tres metros,",
+    "y escribió trece reglas para el tablón de anuncios."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "¿Cajas?",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Una cesta clavada en el balcón"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "reglas",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  El primer partido",
+   "lines": [
+    [
+     "En diciembre de 1891, dieciocho alumnos formaron dos equipos",
+     "En diciembre de mil ochocientos noventa y uno, dieciocho alumnos formaron dos equipos"
+    ],
+    "de nueve, para lanzar un balón a las cestas altas.",
+    "Fue el primer partido de baloncesto del mundo.",
+    [
+     "En 1898 llegó a la Universidad de Kansas,",
+     "En mil ochocientos noventa y ocho llegó a la Universidad de Kansas,"
+    ],
+    "y fue su primer entrenador de baloncesto."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Diciembre de 1891: el primer partido"
+       },
+       {
+        "text": "9 contra 9",
+        "style": "head"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Kansas",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "1898",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1936, el baloncesto entró en los Juegos Olímpicos,",
+     "En mil novecientos treinta y seis, el baloncesto entró en los Juegos Olímpicos,"
+    ],
+    "y él, con setenta y cuatro años, entregó medallas en Berlín.",
+    "Hoy, en escuelas y canchas de barrio,",
+    "en todo el mundo hay alguien lanzando a canasta.",
+    "Su pregunta para ti:",
+    "si solo tuvieras catorce días, ¿qué inventarías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1936: cancha al aire libre en Berlín"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Todo el mundo",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Qué inventarías?",
+        "style": "head",
+        "size": 44,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 6 de noviembre, recordamos a James Naismith.",
+     "y este seis de noviembre, recordamos a James Naismith."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "James Naismith",
+    "years": "1861 – 1939"
+   }
+  }
+ ]
+}

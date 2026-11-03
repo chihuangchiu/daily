@@ -155,6 +155,11 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
   Calywood refused the first opening.png ("偵測為含真人臉部") although it was a sepia drawing; redrawing with the RUNBOOK
   "Calywood refusals" wording (cross-hatching, old printed book) passed on the first try. Commons file pages could not be
   fetched with WebFetch, but Special:FilePath/James_Clerk_Maxwell_big.jpg worked as edit-image input.
+- **2026-11-06 Naismith run (Gemini Kore, short styles):** zh 431 spoken chars → 116.5 s; en 1518 → 124.4 s; es 1547 → 126.2 s;
+  pt 1520 → 130.1 s (too long), ~1470 → 126.7 s; ja 688 → 114.3 s; de 1522 → 127.8 s (tight; aim ~1490). zh chunk c05_00 (35 chars,
+  long GEMINI_STYLE) was said twice (14.7 s, 707 kB); a retry with the short style 「溫暖、明快的台灣紀錄片旁白。」 fixed it.
+  Commons file pages and the Commons API are unreachable from here (WebFetch url_not_found, proxy refuses commons.wikimedia.org);
+  Special:FilePath/James_Naismith.jpg still worked as edit-image input. Calywood accepted the cross-hatched opening on the first try.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

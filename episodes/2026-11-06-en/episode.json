@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-06",
+ "mmdd": "11.06",
+ "lang": "en",
+ "person": "James Naismith",
+ "event": "born (1861, Almonte, Ontario)",
+ "title": "James Naismith: 165 Years Ago Today, the Man Who Invented Basketball Was Born",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He invented basketball with two peach baskets.",
+    [
+     "Who changed the world today? November 6.",
+     "Who changed the world today? November sixth."
+    ],
+    [
+     "165 years ago today, in Ontario, Canada,",
+     "One hundred and sixty-five years ago today, in Ontario, Canada,"
+    ],
+    "a baby boy was born,",
+    "and his name was James Naismith."
+   ],
+   "data": {
+    "hook": "He invented basketball\nwith two peach baskets",
+    "sub": "1861  ──  2026",
+    "sub_at": 2,
+    "name": "Naismith",
+    "name_years": "James Naismith · 1861 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The orphan who loved sport",
+   "lines": [
+    "Orphaned as a boy, he was raised by his uncle.",
+    "Later, he studied at McGill University in Canada,",
+    "fell in love with sport, and became a gym teacher.",
+    [
+     "In 1890, he moved to Springfield, Massachusetts,",
+     "In eighteen ninety, he moved to Springfield, Massachusetts,"
+    ],
+    "to teach at the YMCA training school."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Ontario",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1861",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Springfield training school, 1890"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Fourteen days",
+   "lines": [
+    "New England winters are long and cold,",
+    "and his students, stuck indoors, were bored.",
+    "His boss gave him a challenge: in fourteen days,",
+    "invent a new game that could be played indoors."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Winter",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Ideas at the desk on a winter night"
+       },
+       {
+        "text": "14 days",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Two peach baskets",
+   "lines": [
+    "He asked for two boxes to use as goals,",
+    "but the janitor brought two peach baskets instead.",
+    "He nailed them to the gym balcony, about three meters up,",
+    "and wrote thirteen rules for the notice board."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Boxes?",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A peach basket on the balcony"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "rules",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The first game",
+   "lines": [
+    [
+     "In December 1891, eighteen students split into two teams,",
+     "In December eighteen ninety-one, eighteen students split into two teams,"
+    ],
+    "nine a side, throwing a ball at the high baskets.",
+    "It was the first basketball game in the world.",
+    [
+     "In 1898, he joined the University of Kansas,",
+     "In eighteen ninety-eight, he joined the University of Kansas,"
+    ],
+    "and became its first basketball coach."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "December 1891: the first game"
+       },
+       {
+        "text": "9 vs 9",
+        "style": "head"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Kansas",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "1898",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1936, basketball joined the Olympics for the first time,",
+     "In nineteen thirty-six, basketball joined the Olympics for the first time,"
+    ],
+    "and at seventy-four, he handed out medals in Berlin.",
+    "Today, from school gyms to street courts,",
+    "people all over the world are shooting hoops.",
+    "His question for you:",
+    "if you had just fourteen days, what would you invent?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1936: an outdoor court in Berlin"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Worldwide",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "What would you invent?",
+        "style": "head",
+        "size": 44,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 6, we remember James Naismith.",
+     "and on November sixth, we remember James Naismith."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "James Naismith",
+    "years": "1861 – 1939"
+   }
+  }
+ ]
+}

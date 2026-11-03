@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-06",
+ "mmdd": "11.06",
+ "lang": "de",
+ "person": "James Naismith",
+ "event": "Geburt (1861, Almonte, Ontario)",
+ "title": "James Naismith: Vor 165 Jahren wurde der Erfinder des Basketballs geboren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er erfand Basketball mit zwei Pfirsichkörben.",
+    [
+     "Wer hat heute die Welt verändert? Der 6. November.",
+     "Wer hat heute die Welt verändert? Der sechste November."
+    ],
+    [
+     "Heute vor 165 Jahren wurde in Ontario, Kanada,",
+     "Heute vor hundertfünfundsechzig Jahren wurde in Ontario, Kanada,"
+    ],
+    "ein Junge geboren,",
+    "und sein Name war James Naismith."
+   ],
+   "data": {
+    "hook": "Basketball aus\nzwei Pfirsichkörben",
+    "sub": "1861  ──  2026",
+    "sub_at": 2,
+    "name": "Naismith",
+    "name_years": "James Naismith · 1861 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Das Waisenkind",
+   "lines": [
+    "Früh verwaist, wuchs er bei seinem Onkel auf.",
+    "Später studierte er an der McGill-Universität in Kanada",
+    "und wurde Sportlehrer.",
+    [
+     "1890 zog er nach Springfield in Massachusetts,",
+     "Achtzehnhundertneunzig zog er nach Springfield in Massachusetts,"
+    ],
+    "um an der CVJM-Schule zu unterrichten."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Ontario",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1861",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Springfield, CVJM-Schule, 1890"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Vierzehn Tage",
+   "lines": [
+    "Die Winter in Neuengland sind lang und kalt,",
+    "und die Studenten drinnen langweilten sich.",
+    "Sein Chef stellte ihm eine Aufgabe: In vierzehn Tagen",
+    "sollte er ein neues Spiel für die Halle erfinden."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Winter",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Ideen am Schreibtisch, Winternacht"
+       },
+       {
+        "text": "14 Tage",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Zwei Pfirsichkörbe",
+   "lines": [
+    "Er bat um zwei Kisten als Tore,",
+    "doch der Hausmeister brachte zwei Pfirsichkörbe.",
+    "Er nagelte sie in etwa drei Metern Höhe an die Galerie",
+    "und schrieb dreizehn Regeln für das Schwarze Brett."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Kisten?",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Ein Pfirsichkorb an der Galerie"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Regeln",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Das erste Spiel",
+   "lines": [
+    [
+     "Im Dezember 1891 bildeten achtzehn Studenten zwei Teams",
+     "Im Dezember achtzehnhunderteinundneunzig bildeten achtzehn Studenten zwei Teams"
+    ],
+    "mit je neun Spielern, die den Ball in hohe Körbe warfen.",
+    "Das war das erste Basketballspiel der Welt.",
+    [
+     "1898 ging er an die Universität Kansas",
+     "Achtzehnhundertachtundneunzig ging er an die Universität Kansas"
+    ],
+    "und wurde dort der erste Basketballtrainer."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Dezember 1891: das erste Spiel"
+       },
+       {
+        "text": "9 gegen 9",
+        "style": "head"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Kansas",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "1898",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1936 wurde Basketball zum ersten Mal olympisch,",
+     "Neunzehnhundertsechsunddreißig wurde Basketball zum ersten Mal olympisch,"
+    ],
+    "und mit vierundsiebzig überreichte er in Berlin Medaillen.",
+    "Heute, auf Schulhöfen und Straßenplätzen,",
+    "wirft die ganze Welt auf Körbe.",
+    "Seine Frage an dich:",
+    "Wenn du nur vierzehn Tage hättest, was würdest du erfinden?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1936: Freiluftplatz in Berlin"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Weltweit",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Was würdest du erfinden?",
+        "style": "head",
+        "size": 44,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 6. November erinnern wir an James Naismith.",
+     "und am sechsten November erinnern wir an James Naismith."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "James Naismith",
+    "years": "1861 – 1939"
+   }
+  }
+ ]
+}

@@ -17,3 +17,4 @@
 | 2026-11-03 | Henri Matisse | Tod (1954, Nizza) |
 | 2026-11-04 | Howard Carter | fand die erste Stufe zum Grab des Tutanchamun (1922, Tal der Könige) |
 | 2026-11-05 | James Clerk Maxwell | starb (1879, Cambridge) |
+| 2026-11-06 | James Naismith | Geburt (1861, Almonte, Ontario) |

@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-06",
+ "mmdd": "11.06",
+ "lang": "pt",
+ "person": "James Naismith",
+ "event": "nascimento (1861, Almonte, Ontário)",
+ "title": "James Naismith: há 165 anos nascia o inventor do basquete",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele inventou o basquete com dois cestos de pêssego.",
+    [
+     "Quem mudou o mundo hoje? 6 de novembro.",
+     "Quem mudou o mundo hoje? Seis de novembro."
+    ],
+    [
+     "Há 165 anos, em Ontário, no Canadá,",
+     "Há cento e sessenta e cinco anos, em Ontário, no Canadá,"
+    ],
+    "nascia um menino,",
+    "chamado James Naismith."
+   ],
+   "data": {
+    "hook": "Inventou o basquete\ncom dois cestos",
+    "sub": "1861  ──  2026",
+    "sub_at": 2,
+    "name": "Naismith",
+    "name_years": "James Naismith · 1861 – 1939",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O órfão que amava o esporte",
+   "lines": [
+    "Órfão ainda menino, foi criado por um tio.",
+    "Estudou na Universidade McGill, no Canadá,",
+    "e virou professor de ginástica.",
+    [
+     "Em 1890, mudou-se para Springfield, em Massachusetts,",
+     "Em mil oitocentos e noventa, mudou-se para Springfield, em Massachusetts,"
+    ],
+    "para dar aulas na escola da ACM."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "Ontário",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1861",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Escola da ACM em Springfield, 1890"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Catorze dias",
+   "lines": [
+    "Os invernos da Nova Inglaterra são longos e frios,",
+    "e os alunos, presos lá dentro, viviam entediados.",
+    "O chefe lhe deu um desafio: em catorze dias,",
+    "criar um jogo novo para dentro do ginásio."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Inverno",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Ideias noturnas na escrivaninha"
+       },
+       {
+        "text": "14 dias",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Dois cestos de pêssego",
+   "lines": [
+    "Ele pediu duas caixas para servir de gol,",
+    "mas o zelador trouxe dois cestos de pêssego.",
+    "Pregou os cestos na sacada, a uns três metros do chão,",
+    "e escreveu treze regras para o quadro de avisos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Caixas?",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Um cesto pregado na sacada"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "regras",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  A primeira partida",
+   "lines": [
+    [
+     "Em dezembro de 1891, dezoito alunos formaram dois times",
+     "Em dezembro de mil oitocentos e noventa e um, dezoito alunos formaram dois times"
+    ],
+    "de nove, para jogar a bola nos cestos lá no alto.",
+    "Foi a primeira partida de basquete do mundo.",
+    [
+     "Em 1898, ele foi para a Universidade do Kansas",
+     "Em mil oitocentos e noventa e oito, ele foi para a Universidade do Kansas"
+    ],
+    "e virou seu primeiro técnico de basquete."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Dezembro de 1891: o primeiro jogo"
+       },
+       {
+        "text": "9 contra 9",
+        "style": "head"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Kansas",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "1898",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1936, o basquete entrou nos Jogos Olímpicos,",
+     "Em mil novecentos e trinta e seis, o basquete entrou nos Jogos Olímpicos,"
+    ],
+    "e ele, aos setenta e quatro anos, entregou medalhas em Berlim.",
+    "Hoje, em escolas e quadras de rua,",
+    "o mundo todo arremessa na cesta.",
+    "A pergunta dele para você:",
+    "se tivesse só catorze dias, o que você inventaria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1936: quadra ao ar livre em Berlim"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Mundo todo",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "O que você inventaria?",
+        "style": "head",
+        "size": 44,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 6 de novembro, lembramos de James Naismith.",
+     "e neste seis de novembro, lembramos de James Naismith."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "James Naismith",
+    "years": "1861 – 1939"
+   }
+  }
+ ]
+}

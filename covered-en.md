@@ -18,3 +18,4 @@
 | 2026-11-04 | Howard Carter | found the first step of Tutankhamun's tomb (1922, Valley of the Kings) | yes |
 | 2026-11-05 | James Clerk Maxwell | died (1879, Cambridge) | yes |
 | 2026-11-06 | James Naismith | born (1861, Almonte, Ontario) | yes |
+| 2026-11-07 | Marie Curie | born (1867, Warsaw) | yes |

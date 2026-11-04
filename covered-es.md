@@ -18,3 +18,4 @@
 | 2026-11-04 | Howard Carter | halló el primer escalón de la tumba de Tutankamón (1922, Valle de los Reyes) |
 | 2026-11-05 | James Clerk Maxwell | murió (1879, Cambridge) |
 | 2026-11-06 | James Naismith | nacimiento (1861, Almonte, Ontario) |
+| 2026-11-07 | Marie Curie | nacimiento (1867, Varsovia) |

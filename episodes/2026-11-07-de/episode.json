@@ -1,0 +1,364 @@
+{
+ "date": "2026-11-07",
+ "mmdd": "11.07",
+ "lang": "de",
+ "person": "Marie Curie",
+ "event": "Geburt (1867, Warschau)",
+ "title": "Marie Curie: Vor 159 Jahren wurde die erste doppelte Nobelpreisträgerin geboren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Sie gewann als erster Mensch zwei Nobelpreise.",
+    [
+     "Wer hat heute die Welt verändert? Der 7. November.",
+     "Wer hat heute die Welt verändert? Der siebte November."
+    ],
+    [
+     "Heute vor 159 Jahren, in Warschau,",
+     "Heute vor hundertneunundfünfzig Jahren, in Warschau,"
+    ],
+    "kam ein Mädchen zur Welt:",
+    "Marie Curie."
+   ],
+   "data": {
+    "hook": "Der erste Mensch\nmit zwei Nobelpreisen",
+    "sub": "1867  ──  2026",
+    "sub_at": 2,
+    "name": "Curie",
+    "name_years": "Marie Curie · 1867 – 1934",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Die geheime Universität",
+   "lines": [
+    "Russland beherrschte Warschau, Frauen durften nicht studieren.",
+    [
+     "Mit ihrer Schwester lernte sie an der geheimen Fliegenden Uni,",
+     "Mit ihrer Schwester lernte sie an der geheimen Fliegenden Universität,"
+    ],
+    "dann wurde sie Hauslehrerin.",
+    [
+     "1891 kam sie endlich nach Paris.",
+     "Achtzehnhunderteinundneunzig kam sie endlich nach Paris."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Warschau",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Geheimer Unterricht bei Nacht"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Paris",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "1891",
+        "style": "head",
+        "delay": 0.4,
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Der undichte Schuppen",
+   "lines": [
+    "Dort heiratete sie den Physiker Pierre Curie.",
+    [
+     "1898 fanden sie zwei Elemente:",
+     "Achtzehnhundertachtundneunzig fanden sie zwei Elemente:"
+    ],
+    "Polonium, nach Polen benannt, und Radium.",
+    "In einem undichten Schuppen",
+    "verarbeiteten sie über drei Jahre eine Tonne Erz",
+    "für ein Zehntel Gramm Radium."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1895",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Heirat mit Pierre Curie",
+        "style": "head"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "Po · Ra",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "1898",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Radium leuchtet im Schuppen"
+       },
+       {
+        "text": "0,1 Gramm",
+        "style": "head",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Zwei Nobelpreise",
+   "lines": [
+    [
+     "1903 teilte sie den Physik-Nobelpreis,",
+     "Neunzehnhundertdrei teilte sie den Physik-Nobelpreis,"
+    ],
+    "als erste Frau überhaupt.",
+    "Drei Jahre später starb Pierre bei einem Straßenunfall.",
+    "Sie übernahm seinen Lehrstuhl, als erste Frau an der Sorbonne.",
+    [
+     "1911 folgte der Nobelpreis für Chemie.",
+     "Neunzehnhundertelf folgte der Nobelpreis für Chemie."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1903",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Nobelpreis für Physik",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Hörsaal der Sorbonne, 1906"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1911",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Nobelpreis für Chemie",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Röntgenwagen an der Front",
+   "lines": [
+    "Im Ersten Weltkrieg erkannte sie,",
+    "dass Röntgenstrahlen Kugeln in Verwundeten finden können.",
+    "Sie baute Röntgenwagen, lernte Autofahren",
+    "und fuhr mit Tochter Irène, siebzehn, an die Front.",
+    "Dazu kamen zweihundert Röntgenräume."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1914",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Ein Röntgenwagen an der Front, 1914"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "200",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Röntgenräume",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1934 kostete die Strahlung sie das Leben.",
+     "Neunzehnhundertvierunddreißig kostete die Strahlung sie das Leben."
+    ],
+    [
+     "1995 wurde sie als erste Frau für eigene Verdienste",
+     "Neunzehnhundertfünfundneunzig wurde sie als erste Frau für eigene Verdienste"
+    ],
+    "im Panthéon beigesetzt.",
+    "Ihre Frage:",
+    "Wenn die Welt sagt, du kannst das nicht, was tust du?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1934",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Das Panthéon in Paris"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Was tust du?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 7. November erinnern wir an Marie Curie.",
+     "und am siebten November erinnern wir an Marie Curie."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Marie Curie",
+    "years": "1867 – 1934"
+   }
+  }
+ ]
+}

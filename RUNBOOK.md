@@ -160,6 +160,10 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
   long GEMINI_STYLE) was said twice (14.7 s, 707 kB); a retry with the short style 「溫暖、明快的台灣紀錄片旁白。」 fixed it.
   Commons file pages and the Commons API are unreachable from here (WebFetch url_not_found, proxy refuses commons.wikimedia.org);
   Special:FilePath/James_Naismith.jpg still worked as edit-image input. Calywood accepted the cross-hatched opening on the first try.
+- **2026-11-07 Curie run (Gemini Kore, short styles; zh body used the plan GEMINI_STYLE):** zh 443 spoken chars → 125.8 s; en 1527 → 126.7 s;
+  es 1558 → 127.0 s (tight); pt 1480 → 131.8 s (too long), 1424 → 126.5 s (aim ~1420); ja 697 → 121.0 s; de 1501 → 124.6 s.
+  es: "Ella ocupó su cátedra" was read as "ocupó con acento agudo" (accent note read aloud again); "heredó" fixed it.
+  Commons Special:FilePath/Marie_Curie_1903.jpg worked as edit-image input; Calywood accepted the cross-hatched opening first try (NT$16.5).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

@@ -1,0 +1,361 @@
+{
+ "date": "2026-11-07",
+ "mmdd": "11.07",
+ "lang": "pt",
+ "person": "Marie Curie",
+ "event": "nascimento (1867, Varsóvia)",
+ "title": "Marie Curie: há 159 anos nascia a primeira a ganhar dois Nobel",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ela foi a primeira pessoa a ganhar dois Nobel.",
+    [
+     "Quem mudou o mundo hoje? 7 de novembro.",
+     "Quem mudou o mundo hoje? Sete de novembro."
+    ],
+    [
+     "Há 159 anos, em Varsóvia,",
+     "Há cento e cinquenta e nove anos, em Varsóvia,"
+    ],
+    "nascia uma menina:",
+    "Marie Curie."
+   ],
+   "data": {
+    "hook": "A primeira pessoa\ncom dois Nobel",
+    "sub": "1867  ──  2026",
+    "sub_at": 2,
+    "name": "Curie",
+    "name_years": "Marie Curie · 1867 – 1934",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  A universidade secreta",
+   "lines": [
+    "A Rússia governava Varsóvia, e a universidade barrava mulheres.",
+    "Estudou com a irmã na secreta Universidade Volante,",
+    "e depois foi governanta.",
+    [
+     "Em 1891, enfim chegou a Paris.",
+     "Em mil oitocentos e noventa e um, enfim chegou a Paris."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Varsóvia",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uma aula secreta à noite em Varsóvia"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Paris",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "1891",
+        "style": "head",
+        "delay": 0.4,
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  O galpão com goteiras",
+   "lines": [
+    "Lá, casou com o físico Pierre Curie.",
+    [
+     "Em 1898, acharam dois elementos:",
+     "Em mil oitocentos e noventa e oito, acharam dois elementos:"
+    ],
+    "o polônio, pela Polônia, e o rádio.",
+    "Num galpão com goteiras,",
+    "processaram uma tonelada de minério por mais de três anos",
+    "para tirar um décimo de grama de rádio."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1895",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Casa com Pierre Curie",
+        "style": "head"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "Po · Ra",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "1898",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "O rádio brilha no galpão"
+       },
+       {
+        "text": "0,1 grama",
+        "style": "head",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Dois prêmios Nobel",
+   "lines": [
+    [
+     "Em 1903, dividiu o Nobel de Física:",
+     "Em mil novecentos e três, dividiu o Nobel de Física:"
+    ],
+    "a primeira mulher premiada.",
+    "Três anos depois, Pierre morreu num acidente de rua.",
+    "Assumiu a cátedra dele: a primeira professora da Sorbonne.",
+    [
+     "Em 1911, ganhou outro Nobel, o de Química.",
+     "Em mil novecentos e onze, ganhou outro Nobel, o de Química."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1903",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Nobel de Física",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "O anfiteatro da Sorbonne, 1906"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1911",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Nobel de Química",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Carros de raio X no front",
+   "lines": [
+    "Na Primeira Guerra, viu",
+    "que o raio X acharia balas nos feridos.",
+    "Montou carros de raio X, aprendeu a dirigir",
+    "e levou ao front a filha Irène, de dezessete anos.",
+    "Também instalaram duzentas salas de raio X."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1914",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Um carro de raio X no front, 1914"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "200",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "salas de raio X",
+        "style": "head"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1934, a radiação tirou sua vida.",
+     "Em mil novecentos e trinta e quatro, a radiação tirou sua vida."
+    ],
+    [
+     "Em 1995, foi a primeira mulher sepultada no Panteão",
+     "Em mil novecentos e noventa e cinco, foi a primeira mulher sepultada no Panteão"
+    ],
+    "por mérito próprio.",
+    "A pergunta dela:",
+    "se o mundo dissesse que você não pode, o que faria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1934",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "O Panteão de Paris"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dela",
+        "style": "kicker"
+       },
+       {
+        "text": "O que você faria?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 7 de novembro, lembramos de Marie Curie.",
+     "e neste sete de novembro, lembramos de Marie Curie."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Marie Curie",
+    "years": "1867 – 1934"
+   }
+  }
+ ]
+}

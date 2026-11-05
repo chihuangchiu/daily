@@ -19,3 +19,4 @@
 | 2026-11-05 | James Clerk Maxwell | starb (1879, Cambridge) |
 | 2026-11-06 | James Naismith | Geburt (1861, Almonte, Ontario) |
 | 2026-11-07 | Marie Curie | Geburt (1867, Warschau) |
+| 2026-11-08 | Christiaan Barnard | Geburt (1922, Beaufort West, Südafrika) | yes |

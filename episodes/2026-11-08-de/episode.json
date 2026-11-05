@@ -1,0 +1,360 @@
+{
+ "date": "2026-11-08",
+ "mmdd": "11.08",
+ "lang": "de",
+ "person": "Christiaan Barnard",
+ "event": "Geburt (1922, Beaufort West, Südafrika)",
+ "title": "Christiaan Barnard: Vor 104 Jahren wurde der Chirurg der ersten Herztransplantation geboren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er gab einem Sterbenden ein neues Herz.",
+    [
+     "Wer hat heute die Welt verändert? Der 8. November.",
+     "Wer hat heute die Welt verändert? Der achte November."
+    ],
+    [
+     "Heute vor 104 Jahren, in Südafrika,",
+     "Heute vor hundertvier Jahren, in Südafrika,"
+    ],
+    "kam der Sohn eines Pfarrers zur Welt:",
+    "der Herzchirurg Christiaan Barnard."
+   ],
+   "data": {
+    "hook": "Ein neues Herz\nfür einen Sterbenden",
+    "sub": "1922  ──  2026",
+    "sub_at": 2,
+    "name": "Barnard",
+    "name_years": "Christiaan Barnard · 1922 – 2001",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Eine Stadt in der Karoo",
+   "lines": [
+    "Er wuchs in Beaufort West in der Karoo auf,",
+    "wo sein Vater ein armer Pfarrer war.",
+    "Er studierte Medizin in Kapstadt",
+    [
+     "und wurde 1946 Arzt.",
+     "und wurde neunzehnhundertsechsundvierzig Arzt."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine Kleinstadt in der Karoo"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1946",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Arzt in Kapstadt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Jahre der Übung",
+   "lines": [
+    [
+     "1956 ging er an die Universität von Minnesota,",
+     "Neunzehnhundertsechsundfünfzig ging er an die Universität von Minnesota,"
+    ],
+    "um Herzchirurgie und die Herz-Lungen-Maschine zu lernen.",
+    "Zurück im Krankenhaus Groote Schuur",
+    "übte er jahrelang Herztransplantationen an Hunden."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1956",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Universität von Minnesota",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Herz-Lungen-Maschine, 1950er"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "An Hunden",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  3. Dezember 1967",
+   "lines": [
+    [
+     "Am 3. Dezember 1967",
+     "Am dritten Dezember neunzehnhundertsiebenundsechzig"
+    ],
+    [
+     "lag der herzkranke Händler Louis Washkansky, 55, im Sterben.",
+     "lag der herzkranke Händler Louis Washkansky, fünfundfünfzig, im Sterben."
+    ],
+    "Eine junge Frau wurde bei einem Autounfall tödlich verletzt,",
+    "und ihre Familie stimmte zu, ihr Herz zu spenden.",
+    "Barnards Team operierte etwa fünf Stunden,",
+    "und das neue Herz begann in seiner Brust zu schlagen.",
+    "Es war die erste Verpflanzung eines menschlichen Herzens."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Krankenhaus Groote Schuur, 1967"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Spende",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 6,
+      "items": [
+       {
+        "text": "5 Stunden",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "Erste",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Herztransplantation",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Das zweite Herz",
+   "lines": [
+    [
+     "Nach 18 Tagen starb Washkansky an Lungenentzündung.",
+     "Nach achtzehn Tagen starb Washkansky an Lungenentzündung."
+    ],
+    "Doch Barnard gab nicht auf:",
+    [
+     "im Januar 1968 bekam Philip Blaiberg ein neues Herz,",
+     "im Januar neunzehnhundertachtundsechzig bekam Philip Blaiberg ein neues Herz,"
+    ],
+    "und Blaiberg lebte noch über anderthalb Jahre."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Das Krankenzimmer, 1967"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "1968",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Zweiter Patient",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "18 Monate+",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1983 zwang ihn Arthritis, das Operieren aufzugeben,",
+     "Neunzehnhundertdreiundachtzig zwang ihn Arthritis, das Operieren aufzugeben,"
+    ],
+    [
+     "und 2001 starb er auf Zypern.",
+     "und zweitausendeins starb er auf Zypern."
+    ],
+    [
+     "Heute bekommen jährlich Tausende ein neues Herz.",
+     "Heute bekommen jedes Jahr Tausende Menschen ein neues Herz."
+    ],
+    "Seine Frage:",
+    "Würdest du Organspender werden?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1983",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Legt das Skalpell ab",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Ein Herz unterwegs, heute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Und du?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 8. November erinnern wir an Christiaan Barnard.",
+     "und am achten November erinnern wir an Christiaan Barnard."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Christiaan Barnard",
+    "years": "1922 – 2001"
+   }
+  }
+ ]
+}

@@ -164,6 +164,12 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
   es 1558 → 127.0 s (tight); pt 1480 → 131.8 s (too long), 1424 → 126.5 s (aim ~1420); ja 697 → 121.0 s; de 1501 → 124.6 s.
   es: "Ella ocupó su cátedra" was read as "ocupó con acento agudo" (accent note read aloud again); "heredó" fixed it.
   Commons Special:FilePath/Marie_Curie_1903.jpg worked as edit-image input; Calywood accepted the cross-hatched opening first try (NT$16.5).
+- **2026-11-08 Barnard run (Gemini Kore):** zh 439 spoken chars with the SHORT style 「溫暖、明快的台灣紀錄片旁白。」 → 139.7 s (too long,
+  0.30 s/char); the same chunks re-synthesized with the plan GEMINI_STYLE (brisk) → 120.1 s. For zh keep the plan GEMINI_STYLE for the body.
+  en 1498 → 122.8 s; es 1538 → 118.8 s; pt 1512 → 127.7 s (tight), 126.6 s after re-doing a slow date chunk; ja 668 → 117.5 s;
+  de 1537 → 123.5 s. Whisper base hears ja 「十一月八日」 as "11月4日" and 「二千一年」 as "2011年" (probably mishearing; c07 八日 was heard right).
+  Commons file page for Christiaan_Barnard_(1968).jpg could not be fetched (licence unverified); Special:FilePath worked as edit-image input.
+  Calywood: first try "copyright restrictions", identical resend succeeded (NT$16.5).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

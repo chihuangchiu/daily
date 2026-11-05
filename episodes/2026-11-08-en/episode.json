@@ -1,0 +1,354 @@
+{
+ "date": "2026-11-08",
+ "mmdd": "11.08",
+ "lang": "en",
+ "person": "Christiaan Barnard",
+ "event": "born (1922, Beaufort West, South Africa)",
+ "title": "Christiaan Barnard: 104 Years Ago Today, the First Heart Transplant Surgeon Was Born",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He gave a dying man a brand-new heart.",
+    [
+     "Who changed the world today? November 8.",
+     "Who changed the world today? November eighth."
+    ],
+    [
+     "104 years ago today, in a small South African town,",
+     "One hundred and four years ago today, in a small South African town,"
+    ],
+    "a preacher's son was born:",
+    "the heart surgeon Christiaan Barnard."
+   ],
+   "data": {
+    "hook": "He gave a dying man\na brand-new heart",
+    "sub": "1922  ──  2026",
+    "sub_at": 2,
+    "name": "Barnard",
+    "name_years": "Christiaan Barnard · 1922 – 2001",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A town in the Karoo",
+   "lines": [
+    "He grew up in Beaufort West, in the dry Karoo,",
+    "where his father was a poor preacher.",
+    "He studied medicine in Cape Town",
+    [
+     "and qualified as a doctor in 1946.",
+     "and qualified as a doctor in nineteen forty-six."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A small town in the Karoo"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1946",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Doctor, Cape Town",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Years of practice",
+   "lines": [
+    [
+     "In 1956, he went to the University of Minnesota",
+     "In nineteen fifty-six, he went to the University of Minnesota"
+    ],
+    "to learn heart surgery and work on a heart-lung machine.",
+    "Back at Groote Schuur Hospital in Cape Town,",
+    "he spent years practising heart transplants on dogs."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1956",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "University of Minnesota",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A 1950s heart-lung machine"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "On dogs",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  December 3, 1967",
+   "lines": [
+    [
+     "On December 3, 1967,",
+     "On December third, nineteen sixty-seven,"
+    ],
+    [
+     "Louis Washkansky, a grocer of 55, had a failing heart.",
+     "Louis Washkansky, a grocer of fifty-five, had a failing heart."
+    ],
+    "A young woman was fatally hurt in a car crash,",
+    "and her family agreed to give her heart.",
+    "Barnard's team operated for about five hours,",
+    "and the new heart began to beat in his chest.",
+    "It was the first human heart transplant in history."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Groote Schuur Hospital, 1967"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Donor",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 6,
+      "items": [
+       {
+        "text": "5 hours",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "First",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "human heart transplant",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The second heart",
+   "lines": [
+    "Washkansky died of pneumonia eighteen days later.",
+    "But Barnard did not give up:",
+    [
+     "in January 1968, he gave Philip Blaiberg a new heart,",
+     "in January nineteen sixty-eight, he gave Philip Blaiberg a new heart,"
+    ],
+    "and Blaiberg lived for more than a year and a half."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "The recovery ward, 1967"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "1968",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Second patient",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "18 months+",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1983, arthritis forced him to stop operating,",
+     "In nineteen eighty-three, arthritis forced him to stop operating,"
+    ],
+    [
+     "and in 2001, he died in Cyprus.",
+     "and in two thousand and one, he died in Cyprus."
+    ],
+    "Today, thousands of people a year receive a new heart.",
+    "His question for you:",
+    "would you sign up to be an organ donor?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1983",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Puts down the scalpel",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A heart on its way, today"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "Would you?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 8, we remember Christiaan Barnard.",
+     "and on November eighth, we remember Christiaan Barnard."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Christiaan Barnard",
+    "years": "1922 – 2001"
+   }
+  }
+ ]
+}

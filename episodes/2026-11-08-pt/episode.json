@@ -1,0 +1,354 @@
+{
+ "date": "2026-11-08",
+ "mmdd": "11.08",
+ "lang": "pt",
+ "person": "Christiaan Barnard",
+ "event": "nascimento (1922, Beaufort West, África do Sul)",
+ "title": "Christiaan Barnard: há 104 anos nascia o cirurgião do primeiro transplante de coração",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele deu um coração novo a um homem que morria.",
+    [
+     "Quem mudou o mundo hoje? 8 de novembro.",
+     "Quem mudou o mundo hoje? Oito de novembro."
+    ],
+    [
+     "Há 104 anos, na África do Sul,",
+     "Há cento e quatro anos, na África do Sul,"
+    ],
+    "nascia o filho de um pastor:",
+    "o cirurgião cardíaco Christiaan Barnard."
+   ],
+   "data": {
+    "hook": "Um coração novo\npara quem morria",
+    "sub": "1922  ──  2026",
+    "sub_at": 2,
+    "name": "Barnard",
+    "name_years": "Christiaan Barnard · 1922 – 2001",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Uma cidade no Karoo",
+   "lines": [
+    "Cresceu em Beaufort West, no árido Karoo,",
+    "onde o pai era um pastor pobre.",
+    "Estudou medicina na Cidade do Cabo",
+    [
+     "e se formou médico em 1946.",
+     "e se formou médico em mil novecentos e quarenta e seis."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uma cidadezinha no Karoo"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1946",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Médico, Cidade do Cabo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Anos de treino",
+   "lines": [
+    [
+     "Em 1956, foi para a Universidade de Minnesota",
+     "Em mil novecentos e cinquenta e seis, foi para a Universidade de Minnesota"
+    ],
+    "estudar cirurgia cardíaca e a máquina coração-pulmão.",
+    "De volta ao hospital Groote Schuur,",
+    "passou anos treinando transplantes de coração em cães."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1956",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Universidade de Minnesota",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Máquina coração-pulmão, anos 50"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Em cães",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  3 de dezembro de 1967",
+   "lines": [
+    [
+     "Em 3 de dezembro de 1967,",
+     "Em três de dezembro de mil novecentos e sessenta e sete,"
+    ],
+    [
+     "o comerciante Louis Washkansky, de 55 anos, morria do coração.",
+     "o comerciante Louis Washkansky, de cinquenta e cinco anos, morria do coração."
+    ],
+    "Uma jovem sofreu um acidente de carro fatal,",
+    "e a família aceitou doar o coração dela.",
+    "A equipe de Barnard operou cerca de cinco horas,",
+    "e o novo coração começou a bater no peito dele.",
+    "Foi o primeiro transplante de coração humano da história."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Hospital Groote Schuur, 1967"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Doadora",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 6,
+      "items": [
+       {
+        "text": "5 horas",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 6,
+      "items": [
+       {
+        "text": "Primeiro",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "transplante de coração humano",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  O segundo coração",
+   "lines": [
+    "Washkansky morreu de pneumonia dezoito dias depois.",
+    "Mas Barnard não desistiu:",
+    [
+     "em janeiro de 1968, deu um coração novo a Philip Blaiberg,",
+     "em janeiro de mil novecentos e sessenta e oito, deu um coração novo a Philip Blaiberg,"
+    ],
+    "e Blaiberg viveu mais de um ano e meio."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A sala de recuperação, 1967"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "1968",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Segundo paciente",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "18 meses+",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1983, a artrite o obrigou a parar de operar,",
+     "Em mil novecentos e oitenta e três, a artrite o obrigou a parar de operar,"
+    ],
+    [
+     "e em 2001 ele morreu no Chipre.",
+     "e em dois mil e um ele morreu no Chipre."
+    ],
+    "Hoje, milhares de pessoas por ano recebem um coração novo.",
+    "A pergunta dele:",
+    "você se registraria como doador de órgãos?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1983",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Larga o bisturi",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Um coração a caminho, hoje"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "E você?",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 8 de novembro, lembramos de Christiaan Barnard.",
+     "e neste oito de novembro, lembramos de Christiaan Barnard."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Christiaan Barnard",
+    "years": "1922 – 2001"
+   }
+  }
+ ]
+}

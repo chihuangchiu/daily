@@ -1,0 +1,368 @@
+{
+ "date": "2026-11-09",
+ "mmdd": "11.09",
+ "lang": "de",
+ "person": "Hedy Lamarr",
+ "event": "Geburt (1914, Wien)",
+ "title": "Hedy Lamarr: Vor 112 Jahren wurde Hollywoods Erfinderin geboren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Hollywoods schönster Star war heimlich Erfinderin.",
+    [
+     "Wer hat heute die Welt verändert? Der 9. November.",
+     "Wer hat heute die Welt verändert? Der neunte November."
+    ],
+    [
+     "Heute vor 112 Jahren wurde in Wien",
+     "Heute vor hundertzwölf Jahren wurde in Wien"
+    ],
+    "ein künftiger Hollywoodstar geboren:",
+    "Hedy Lamarr."
+   ],
+   "data": {
+    "hook": "Hollywoods Schönste\nwar Erfinderin",
+    "sub": "1914  ──  2026",
+    "sub_at": 2,
+    "name": "Lamarr",
+    "name_years": "Hedy Lamarr · 1914 – 2000",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ein eingesperrter Star",
+   "lines": [
+    [
+     "1933 machte ein Film die 18-Jährige über Nacht berühmt,",
+     "Neunzehnhundertdreiunddreißig machte ein Film die Achtzehnjährige über Nacht berühmt,"
+    ],
+    "und sie heiratete im selben Jahr Fritz Mandl,",
+    "einen reichen Waffenhändler, der ihr das Spielen verbot.",
+    "Bei seinen Dinners hörte sie still Waffengesprächen zu."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1933",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Mit 18 berühmt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein Dinner im Wien der 1930er"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Die Flucht",
+   "lines": [
+    "Später floh sie vor ihrem Mann nach London,",
+    "wo sie MGM-Chef Louis B. Mayer traf",
+    "und zu Hedy Lamarr wurde.",
+    [
+     "1937 kam sie nach Hollywood,",
+     "Neunzehnhundertsiebenunddreißig kam sie nach Hollywood,"
+    ],
+    "als schönste Frau gefeiert."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Flucht",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Wien → London",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1937: über den Atlantik"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Die Schönste",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Achtundachtzig Tasten",
+   "lines": [
+    "Im Zweiten Weltkrieg",
+    "ließen sich funkgesteuerte Torpedos leicht stören.",
+    "Mit dem Komponisten George Antheil hatte sie eine Idee:",
+    "Das Signal springt zwischen Frequenzen,",
+    [
+     "synchron per Klavierrolle: 88, eine pro Taste.",
+     "synchron per Klavierrolle, achtundachtzig, eine pro Taste."
+    ],
+    [
+     "Am 11. August 1942 bekamen sie das Patent.",
+     "Am elften August neunzehnhundertzweiundvierzig bekamen sie das Patent."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Torpedos",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Leicht zu stören",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Eine Klavierrolle"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "88",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Frequenzen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Patent",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "11.8.1942",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Später Applaus",
+   "lines": [
+    "Doch die Marine nutzte sie im Krieg nicht,",
+    [
+     "erst 1962, in der Kubakrise,",
+     "erst neunzehnhundertzweiundsechzig, in der Kubakrise,"
+    ],
+    "setzten US-Kriegsschiffe Ähnliches ein.",
+    [
+     "1997 ehrte die Technikwelt sie endlich,",
+     "Neunzehnhundertsiebenundneunzig ehrte die Technikwelt sie endlich,"
+    ],
+    [
+     "und 2000 starb sie in Florida, mit 85.",
+     "und zweitausend starb sie in Florida, mit fünfundachtzig."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Nicht genutzt",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1962: Kriegsschiffe vor Kuba"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1997",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Später Applaus",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "2014 kam sie in die Ruhmeshalle der Erfinder.",
+     "Zweitausendvierzehn kam sie in die Ruhmeshalle der Erfinder."
+    ],
+    "Heute nutzen Bluetooth-Kopfhörer",
+    "dieselbe Idee: das Frequenzsprungverfahren.",
+    "Ihre Frage: Wenn man nur dein Aussehen sähe,",
+    "wie zeigst du deinen Verstand?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "2014",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Ruhmeshalle der Erfinder",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Bluetooth-Kopfhörer heute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Zeig deinen Verstand",
+        "style": "head",
+        "size": 48,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 9. November erinnern wir an Hedy Lamarr.",
+     "und am neunten November erinnern wir an Hedy Lamarr."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Hedy Lamarr",
+    "years": "1914 – 2000"
+   }
+  }
+ ]
+}

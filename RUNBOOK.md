@@ -170,6 +170,13 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
   de 1537 → 123.5 s. Whisper base hears ja 「十一月八日」 as "11月4日" and 「二千一年」 as "2011年" (probably mishearing; c07 八日 was heard right).
   Commons file page for Christiaan_Barnard_(1968).jpg could not be fetched (licence unverified); Special:FilePath worked as edit-image input.
   Calywood: first try "copyright restrictions", identical resend succeeded (NT$16.5).
+- **2026-11-09 Lamarr run (Gemini Kore, short styles; zh body plan GEMINI_STYLE):** zh 447 spoken chars → 122.7 s; en 1524 → 127.5 s (tight);
+  es 1580 → 124.1 s; pt 1456 → 125.9 s; ja 708 → 119.8 s; de 1536 → 125.1 s. zh short chunk 「一九九七年，科技界終於頒獎給她。」 was said twice
+  (6.9 s); joining it to the next sentence with a comma fixed it. de chunk with style "Warme, zügige Dokumentar-Erzählerin." read the style
+  aloud once; a retry with "Ruhig, warm, zügig." was clean. ja c06_01 lost its last syllables once (re-synth fixed it).
+  Calywood: a moderate start pose (head down writing → facing viewer) gave a slight cross-dissolve around 2.3–2.8 s; accepted.
+  Commons Special:FilePath/Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg worked as edit-image input. Helper scripts used
+  this run (/tmp/claude-0/s/mk.py: build a language episode from the zh structure + a spec of lines/texts; subfix.py: subtitle-only patch).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

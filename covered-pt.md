@@ -20,3 +20,4 @@
 | 2026-11-06 | James Naismith | nascimento (1861, Almonte, Ontário) |
 | 2026-11-07 | Marie Curie | nascimento (1867, Varsóvia) |
 | 2026-11-08 | Christiaan Barnard | nascimento (1922, Beaufort West, África do Sul) | yes |
+| 2026-11-09 | Hedy Lamarr | nascimento (1914, Viena) | yes |

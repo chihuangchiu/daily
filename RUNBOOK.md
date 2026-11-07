@@ -57,6 +57,14 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
   covers the bottom of the frame). Subtitles are narrower now to stay clear of the Shorts buttons: Western-language
   lines ≤ ~55 characters, CJK pieces between commas ≤ 14 characters. On-screen phase texts are one row only
   (`\n` works in `hook` only).
+- **Question phase shows the WHOLE question (Nathan 2026-11-07).** The 11/07 video showed only the tail (「你會怎麼做？」) in red while
+  the narration asked the full question, so it looked like a different question. From now on the question phase (kicker
+  「她留下的問題」/"Her question"/…) shows the full question in exactly the same words as the spoken/subtitle line, and the subtitle
+  stays on as usual (this one phase is an exception to "never repeat the subtitle on screen" and to "max 2 text items"). Split it into
+  two text items (two rows) at the comma, same size: CJK `size` 40 (≤ ~12 characters per row), Latin `size` ~34 (≤ ~30 characters per
+  row; shorten the wording of the spoken line if needed), e.g.
+  `{"text":"如果別人只看見你的外表，","style":"head","size":40,"color":"red","at":4}, {"text":"你會怎麼證明自己？",…}`.
+  Show the rows from the line where the question itself is spoken. Check it on the sheet: both rows fully visible, same words as the subtitle.
 - **End scene names the channel too (Nathan 2026-10-26).** Replace 「歷史上的今天，10月28日，我們記得某某。」 with two
   lines that form one sentence (first ends with a comma, so Gemini gets one longer chunk): zh 「這裡是「今天，誰改變了
   世界」，」+「10月28日，我們記得沙克。」 (spoken without the 「」); en "This is Who Changed the World Today," + "and on

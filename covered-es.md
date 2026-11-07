@@ -21,3 +21,4 @@
 | 2026-11-07 | Marie Curie | nacimiento (1867, Varsovia) |
 | 2026-11-08 | Christiaan Barnard | nacimiento (1922, Beaufort West, Sudáfrica) | yes |
 | 2026-11-09 | Hedy Lamarr | nacimiento (1914, Viena) | yes |
+| 2026-11-10 | Friedrich Schiller | nacimiento (1759, Marbach am Neckar) |

@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-10",
+ "mmdd": "11.10",
+ "lang": "es",
+ "person": "Friedrich Schiller",
+ "event": "nacimiento (1759, Marbach am Neckar)",
+ "title": "Friedrich Schiller: hace 267 años nació el poeta de la Oda a la Alegría",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Su poema de la alegría hoy se canta en todo el mundo.",
+    [
+     "¿Quién cambió el mundo hoy? 10 de noviembre.",
+     "¿Quién cambió el mundo hoy? Diez de noviembre."
+    ],
+    [
+     "Hace 267 años, en el pueblo alemán de Marbach,",
+     "Hace doscientos sesenta y siete años, en el pueblo alemán de Marbach,"
+    ],
+    "nació un niño:",
+    "el poeta Friedrich Schiller."
+   ],
+   "data": {
+    "hook": "Su poema de alegría\nse canta en el mundo",
+    "sub": "1759  ──  2026",
+    "sub_at": 2,
+    "name": "Schiller",
+    "name_years": "Friedrich Schiller · 1759 – 1805",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.28,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El niño encerrado",
+   "lines": [
+    "A los trece, el duque lo envió a una academia militar.",
+    "Estudió derecho a la fuerza, y luego medicina,",
+    [
+     "y en 1780 se hizo médico del ejército.",
+     "y en mil setecientos ochenta se hizo médico del ejército."
+    ],
+    "Pero lo que de verdad quería era escribir."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Enviado a la academia militar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "La academia militar de Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Los bandidos",
+   "lines": [
+    "En secreto, escribió su primera obra: Los bandidos.",
+    [
+     "El 13 de enero de 1782 se estrenó en Mannheim,",
+     "El trece de enero de mil setecientos ochenta y dos se estrenó en Mannheim,"
+    ],
+    "y el teatro entero se volvió loco.",
+    "Fue a verla sin permiso del duque,",
+    [
+     "y lo arrestaron 14 días y le prohibieron escribir obras.",
+     "y lo arrestaron catorce días y le prohibieron escribir obras."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Los bandidos",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1782: el estreno en Mannheim"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "14",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "días de arresto",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  La huida",
+   "lines": [
+    [
+     "El 22 de septiembre de 1782, en una fiesta del duque,",
+     "El veintidós de septiembre de mil setecientos ochenta y dos, en una fiesta del duque,"
+    ],
+    "huyó de Stuttgart con su amigo Streicher",
+    "rumbo a Mannheim.",
+    "Dejó una vida segura para seguir escribiendo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "22.9.1782",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Noche de fiesta: huida de Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Oda a la Alegría",
+   "lines": [
+    [
+     "En 1785 escribió un poema: la Oda a la Alegría.",
+     "En mil setecientos ochenta y cinco escribió un poema: la Oda a la Alegría."
+    ],
+    "Su verso famoso dice: todos los hombres serán hermanos.",
+    "Más tarde, Beethoven la puso en su Novena Sinfonía.",
+    "Fue profesor de historia y escribió Guillermo Tell.",
+    [
+     "El 9 de mayo de 1805 murió en Weimar, con solo 45 años.",
+     "El nueve de mayo de mil ochocientos cinco murió en Weimar, con solo cuarenta y cinco."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Amigos brindan y cantan"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Novena",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "la sinfonía de Beethoven",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "45",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Murió en Weimar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1972, la melodía se convirtió en el himno de Europa,",
+     "En mil novecientos setenta y dos, la melodía se convirtió en el himno de Europa,"
+    ],
+    [
+     "y en 1985, también en el de la Unión Europea.",
+     "y en mil novecientos ochenta y cinco, también en el de la Unión Europea."
+    ],
+    "Hoy, el mundo entero la canta.",
+    "Su pregunta para ti:",
+    "¿qué dejarías atrás, por hacer lo que más amas?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Himno de Europa",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "1972 · 1985",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Una sala de conciertos hoy"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Qué dejarías atrás,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "por hacer lo que más amas?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 10 de noviembre, recordamos a Friedrich Schiller.",
+     "y este diez de noviembre, recordamos a Friedrich Schiller."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Friedrich Schiller",
+    "years": "1759 – 1805"
+   }
+  }
+ ]
+}

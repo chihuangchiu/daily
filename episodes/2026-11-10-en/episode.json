@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-10",
+ "mmdd": "11.10",
+ "lang": "en",
+ "person": "Friedrich Schiller",
+ "event": "born (1759, Marbach am Neckar)",
+ "title": "Friedrich Schiller: 267 Years Ago Today, the Poet of Ode to Joy Was Born",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "His poem of joy is now sung all over the world.",
+    [
+     "Who changed the world today? November 10.",
+     "Who changed the world today? November tenth."
+    ],
+    [
+     "267 years ago today, in Marbach, Germany,",
+     "Two hundred and sixty-seven years ago today, in Marbach, Germany,"
+    ],
+    "a boy was born:",
+    "the poet Friedrich Schiller."
+   ],
+   "data": {
+    "hook": "His poem of joy\nis sung worldwide",
+    "sub": "1759  ──  2026",
+    "sub_at": 2,
+    "name": "Schiller",
+    "name_years": "Friedrich Schiller · 1759 – 1805",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.28,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The caged boy",
+   "lines": [
+    "At thirteen, the Duke sent him to a military academy.",
+    "He was forced to study law, then switched to medicine,",
+    [
+     "and in 1780 he became an army doctor.",
+     "and in seventeen eighty he became an army doctor."
+    ],
+    "But what he really wanted to do was write."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Sent to military school",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "The military academy in Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  The Robbers",
+   "lines": [
+    "In secret, he wrote his first play, The Robbers.",
+    [
+     "On January 13, 1782, it opened in Mannheim,",
+     "On January thirteenth, seventeen eighty-two, it opened in Mannheim,"
+    ],
+    "and the theatre went wild.",
+    "He went to see it without leave,",
+    [
+     "so he got 14 days in jail and a ban on writing plays.",
+     "so he got fourteen days in jail and a ban on writing plays."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "The Robbers",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1782: the premiere in Mannheim"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "14",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "days in jail",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The escape",
+   "lines": [
+    [
+     "On Sept. 22, 1782, during the Duke's grand festival,",
+     "On September twenty-second, seventeen eighty-two, during the Duke's grand festival,"
+    ],
+    "he and his friend Streicher fled Stuttgart",
+    "and headed for Mannheim.",
+    "He gave up a safe life to keep on writing."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1782.9.22",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A festival night: fleeing Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Ode to Joy",
+   "lines": [
+    [
+     "In 1785, he wrote a poem called Ode to Joy.",
+     "In seventeen eighty-five, he wrote a poem called Ode to Joy."
+    ],
+    "It says: all people will become brothers.",
+    "Later, Beethoven set it to music in his Ninth Symphony.",
+    "He became a history professor and wrote William Tell.",
+    [
+     "On May 9, 1805, he died in Weimar, aged just 45.",
+     "On May ninth, eighteen oh five, he died in Weimar, at just forty-five."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Friends raising a glass in song"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "No. 9",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Beethoven's symphony",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "45",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Died in Weimar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1972, the melody became the anthem of Europe,",
+     "In nineteen seventy-two, the melody became the anthem of Europe,"
+    ],
+    [
+     "and in 1985, the anthem of the European Union too.",
+     "and in nineteen eighty-five, the anthem of the European Union too."
+    ],
+    "Today, the whole world sings Ode to Joy.",
+    "His question for you:",
+    "what would you give up, to do what you love most?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Europe's anthem",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "1972 · 1985",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A concert hall today"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "What would you give up,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "to do what you love most?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 10, we remember Friedrich Schiller.",
+     "and on November tenth, we remember Friedrich Schiller."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Friedrich Schiller",
+    "years": "1759 – 1805"
+   }
+  }
+ ]
+}

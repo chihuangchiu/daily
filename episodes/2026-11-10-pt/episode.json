@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-10",
+ "mmdd": "11.10",
+ "lang": "pt",
+ "person": "Friedrich Schiller",
+ "event": "nascimento (1759, Marbach am Neckar)",
+ "title": "Friedrich Schiller: há 267 anos nascia o poeta da Ode à Alegria",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Seu poema de alegria é cantado no mundo inteiro.",
+    [
+     "Quem mudou o mundo hoje? 10 de novembro.",
+     "Quem mudou o mundo hoje? Dez de novembro."
+    ],
+    [
+     "Há 267 anos, em Marbach,",
+     "Há duzentos e sessenta e sete anos, em Marbach,"
+    ],
+    "nasceu um menino:",
+    "o poeta Friedrich Schiller."
+   ],
+   "data": {
+    "hook": "Seu poema de alegria\né cantado no mundo",
+    "sub": "1759  ──  2026",
+    "sub_at": 2,
+    "name": "Schiller",
+    "name_years": "Friedrich Schiller · 1759 – 1805",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.28,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O menino preso",
+   "lines": [
+    "Aos treze, o duque o mandou a uma academia militar.",
+    "Estudou direito à força, depois medicina,",
+    [
+     "e em 1780 virou médico militar.",
+     "e em mil setecentos e oitenta virou médico militar."
+    ],
+    "Mas o que ele queria mesmo era escrever."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Mandado à academia militar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A academia militar de Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Os Bandoleiros",
+   "lines": [
+    "Em segredo, escreveu a peça Os Bandoleiros.",
+    [
+     "Em 13 de janeiro de 1782, estreou em Mannheim,",
+     "Em treze de janeiro de mil setecentos e oitenta e dois, estreou em Mannheim,"
+    ],
+    "e o teatro foi à loucura.",
+    "Foi assistir sem permissão,",
+    [
+     "pegou 14 dias de prisão e foi proibido de escrever.",
+     "pegou catorze dias de prisão e foi proibido de escrever."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Os Bandoleiros",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1782: a estreia em Mannheim"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "14",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "dias de prisão",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  A fuga",
+   "lines": [
+    [
+     "Em 22 de setembro de 1782, durante uma festa do duque,",
+     "Em vinte e dois de setembro de mil setecentos e oitenta e dois, durante uma festa do duque,"
+    ],
+    "fugiu de Stuttgart com um amigo",
+    "rumo a Mannheim.",
+    "Trocou uma vida segura pela escrita."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "22.9.1782",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Noite de festa: fuga de Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Ode à Alegria",
+   "lines": [
+    [
+     "Em 1785, escreveu a Ode à Alegria.",
+     "Em mil setecentos e oitenta e cinco, escreveu a Ode à Alegria."
+    ],
+    "Seu verso famoso diz: todos os homens serão irmãos.",
+    "Depois, Beethoven o pôs na sua Nona Sinfonia.",
+    "Ensinou história e escreveu Guilherme Tell.",
+    [
+     "Em 9 de maio de 1805, morreu em Weimar, aos 45.",
+     "Em nove de maio de mil oitocentos e cinco, morreu em Weimar, aos quarenta e cinco."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Amigos brindam e cantam"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Nona",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "a sinfonia de Beethoven",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "45",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Morreu em Weimar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1972, a melodia virou o hino da Europa,",
+     "Em mil novecentos e setenta e dois, a melodia virou o hino da Europa,"
+    ],
+    [
+     "e em 1985, o da União Europeia.",
+     "e em mil novecentos e oitenta e cinco, o da União Europeia."
+    ],
+    "Hoje, o mundo inteiro a canta.",
+    "A pergunta dele:",
+    "do que você abriria mão, para fazer o que mais ama?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Hino da Europa",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "1972 · 1985",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Uma sala de concertos hoje"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Do que você abriria mão,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "para fazer o que mais ama?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 10 de novembro, lembramos de Friedrich Schiller.",
+     "e neste dez de novembro, lembramos de Friedrich Schiller."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Friedrich Schiller",
+    "years": "1759 – 1805"
+   }
+  }
+ ]
+}

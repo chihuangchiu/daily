@@ -1,0 +1,342 @@
+{
+ "date": "2026-11-10",
+ "mmdd": "11.10",
+ "lang": "de",
+ "person": "Friedrich Schiller",
+ "event": "Geburt (1759, Marbach am Neckar)",
+ "title": "Friedrich Schiller: Vor 267 Jahren wurde der Dichter der Ode an die Freude geboren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Sein Gedicht an die Freude singt heute die ganze Welt.",
+    [
+     "Wer hat heute die Welt verändert? Der 10. November.",
+     "Wer hat heute die Welt verändert? Der zehnte November."
+    ],
+    [
+     "Heute vor 267 Jahren, in Marbach am Neckar,",
+     "Heute vor zweihundertsiebenundsechzig Jahren, in Marbach am Neckar,"
+    ],
+    "wurde ein Junge geboren:",
+    "der Dichter Friedrich Schiller."
+   ],
+   "data": {
+    "hook": "Sein Lied der Freude\nsingt die ganze Welt",
+    "sub": "1759  ──  2026",
+    "sub_at": 2,
+    "name": "Schiller",
+    "name_years": "Friedrich Schiller · 1759 – 1805",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.28,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der eingesperrte Junge",
+   "lines": [
+    [
+     "Mit 13 schickte ihn der Herzog auf die Militärschule.",
+     "Mit dreizehn schickte ihn der Herzog auf die Militärschule."
+    ],
+    "Er musste Jura studieren, dann Medizin,",
+    [
+     "und 1780 wurde er Militärarzt.",
+     "und siebzehnhundertachtzig wurde er Militärarzt."
+    ],
+    "Doch er wollte nur eines: schreiben."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "13",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Ab in die Militärschule",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Die Militärakademie in Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Die Räuber",
+   "lines": [
+    "Heimlich schrieb er sein erstes Drama: Die Räuber.",
+    [
+     "Am 13. Januar 1782 wurde es in Mannheim uraufgeführt,",
+     "Am dreizehnten Januar siebzehnhundertzweiundachtzig wurde es in Mannheim uraufgeführt,"
+    ],
+    "und das Theater tobte.",
+    "Er fuhr ohne Erlaubnis des Herzogs hin",
+    [
+     "und bekam dafür 14 Tage Arrest und Schreibverbot.",
+     "und bekam dafür vierzehn Tage Arrest und Schreibverbot."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Die Räuber",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1782: Uraufführung in Mannheim"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "14",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Tage Arrest",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Die Flucht",
+   "lines": [
+    [
+     "Am 22. September 1782, während eines Hoffestes,",
+     "Am zweiundzwanzigsten September siebzehnhundertzweiundachtzig, während eines Hoffestes,"
+    ],
+    "floh er mit seinem Freund Streicher",
+    "aus Stuttgart nach Mannheim.",
+    "Für das Schreiben gab er ein sicheres Leben auf."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "22.9.1782",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Festnacht: Flucht aus Stuttgart"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  An die Freude",
+   "lines": [
+    [
+     "1785 schrieb er das Gedicht An die Freude.",
+     "Siebzehnhundertfünfundachtzig schrieb er das Gedicht An die Freude."
+    ],
+    "Darin heißt es: Alle Menschen werden Brüder.",
+    "Beethoven vertonte es später in der Neunten Sinfonie.",
+    "Er lehrte Geschichte und schrieb den Wilhelm Tell.",
+    [
+     "Am 9. Mai 1805 starb er in Weimar, mit nur 45.",
+     "Am neunten Mai achtzehnhundertfünf starb er in Weimar, mit nur fünfundvierzig."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Freunde singen und stoßen an"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Die Neunte",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Beethovens Sinfonie",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "45",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Gestorben in Weimar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1972 wurde die Melodie zur Hymne Europas,",
+     "Neunzehnhundertzweiundsiebzig wurde die Melodie zur Hymne Europas,"
+    ],
+    [
+     "und 1985 auch zur Hymne der Europäischen Union.",
+     "und neunzehnhundertfünfundachtzig auch zur Hymne der Europäischen Union."
+    ],
+    "Heute singt man sie weltweit.",
+    "Seine Frage an dich:",
+    "Was würdest du aufgeben, um zu tun, was du liebst?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Europas Hymne",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "1972 · 1985",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Ein Konzertsaal heute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Was würdest du aufgeben,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "um zu tun, was du liebst?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 10. November erinnern wir an Friedrich Schiller.",
+     "und am zehnten November erinnern wir an Friedrich Schiller."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Friedrich Schiller",
+    "years": "1759 – 1805"
+   }
+  }
+ ]
+}

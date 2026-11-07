@@ -185,6 +185,13 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
   Calywood: a moderate start pose (head down writing → facing viewer) gave a slight cross-dissolve around 2.3–2.8 s; accepted.
   Commons Special:FilePath/Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg worked as edit-image input. Helper scripts used
   this run (/tmp/claude-0/s/mk.py: build a language episode from the zh structure + a spec of lines/texts; subfix.py: subtitle-only patch).
+- **2026-11-10 Schiller run (Gemini Kore, short styles; zh body plan GEMINI_STYLE):** zh 429 spoken chars → 120.9 s; en 1541 → 129.9 s (too long),
+  1494 → 126.2 s; es 1563 → 124.5 s; pt 1489 → 132.1 s (too long), 1409 → 126.9 s (pt keeps reading slow: aim ~1400); ja 681 → 118.6 s;
+  de 1542 → 125.4 s. en hook with the long plan hook style read the style aloud ("Same brisk pace as the rest…"); the short style
+  "Amazed, brisk documentary narrator." was clean (use short hook styles in every language: es "Narrador de documental, asombrado y ágil.",
+  pt "Narradora de documentário, admirada e ágil.", de "Staunende, zügige Erzählerin.", ja 「驚きをこめた、速めのテンポのナレーター。」 — all clean).
+  Commons Special:FilePath/Anton_Graff_-_Friedrich_Schiller.jpg?width=800 → "Image URL did not return HTTP 200"; Special:FilePath/Friedrich_Schiller.jpg
+  worked. Calywood accepted the cross-hatched opening first try (NT$16.5). Calywood 400 "resource inaccessible" = a mistyped signed URL.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

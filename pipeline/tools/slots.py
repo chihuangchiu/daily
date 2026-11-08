@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 UTC = ZoneInfo("UTC")
 CH = [  # (label, integrationId(s), tz, local hour)
     ("zh FB+YT", "cmvbzqyvs0002s67fq0dzr53e,cmvc7njup0001s673xhqhp5s8", "Asia/Taipei", 7),
-    ("ja", "cmvir44qg000zs67kevg8s72x", "Asia/Tokyo", 7),
+    ("ja YT+FB", "cmvir44qg000zs67kevg8s72x,cmw7y6kw8004qs67z17nk77rm", "Asia/Tokyo", 7),
     ("de", "cmvir7imd0011s67ky3vmkijj", "Europe/Berlin", 7),
     ("pt", "cmviqybpp000ws67knh5z6wzo", "America/Sao_Paulo", 8),
     ("en", "cmvibixcp000ms67kkplrbxb1", "America/New_York", 8),

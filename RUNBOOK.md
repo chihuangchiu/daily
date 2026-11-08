@@ -33,6 +33,18 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
 - If a slot is already in the past when scheduling, use now + 10 min.
 - The report lists each channel with its own local time (and the Taipei time).
 
+## 0c. Japanese Facebook page (Nathan 2026-11-08)
+The Japanese video also goes to the Facebook page 「今日、世界を変えたのは誰」, integrationId `cmw7y6kw8004qs67z17nk77rm`, at the
+same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT+FB"). So there are now 8 channels per day.
+- Planning: the ja FB channel counts as its own channel. If the ja YouTube post exists but the ja FB post does not, do NOT make a new
+  video: schedule only the FB post, reusing the ja YouTube post's video (find it in Postiz mediaListTool: the mp4 uploaded in that run,
+  check the header frame shows 「今日、世界を変えたのは誰」 and the MM.DD) and `episodes/D-ja/post.txt`.
+- Upload the ja video once and schedule both posts (YouTube + Facebook) in one integrationSchedulePostTool call, same date.
+- Facebook content, like the Chinese FB post: first line the plain title (post.txt without 「タイトル：」), a blank line, the article,
+  hashtag line WITHOUT #Shorts; every line wrapped in <p>…</p>; settings post_type=post, title=<title>.
+- Report it as a separate channel (日 FB) with its preview link.
+- 2026-11-08: FB posts for 11/09 (Lamarr), 11/10 (Schiller) and 11/11 (Brahe) were added from the already uploaded ja videos.
+
 ## 0b. Length, hook and on-screen text (Nathan 2026-10-22) — overrides the older numbers below
 - **Length: about 120 s** (TARGET=120 is now build.sh's default). Final video 112–128 s; speed in check 0.92–1.10.
   Narration size: Chinese ~460–500 characters (~40–45 lines, 7 scenes: hook/title → 4 chapters → legacy + question →

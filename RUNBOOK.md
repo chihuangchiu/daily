@@ -192,6 +192,12 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
   pt "Narradora de documentário, admirada e ágil.", de "Staunende, zügige Erzählerin.", ja 「驚きをこめた、速めのテンポのナレーター。」 — all clean).
   Commons Special:FilePath/Anton_Graff_-_Friedrich_Schiller.jpg?width=800 → "Image URL did not return HTTP 200"; Special:FilePath/Friedrich_Schiller.jpg
   worked. Calywood accepted the cross-hatched opening first try (NT$16.5). Calywood 400 "resource inaccessible" = a mistyped signed URL.
+- **2026-11-11 Tycho Brahe run (Gemini Kore, short styles; zh body plan GEMINI_STYLE):** zh 457 spoken chars → 131.2 s (too long), 425 → 122.9 s;
+  en 1525 → 133.3 s (too long), 1437 → 125.6 s (en keeps reading slow: aim ~1440); es 1524 → 123.1 s; pt 1443 → 128.2 s, 1431 → 127.3 s
+  (aim ~1400); de 1535 → 126.6 s; ja 649 → 115.8 s. No repeats or style read-outs this run (long sentences joined with commas).
+  Commons Special:FilePath/Tycho_Brahe.JPG?width=800 worked as edit-image input. Calywood: first try "copyright restrictions", identical
+  resend succeeded (NT$16.5). Image MCP drew a telescope-like sight tube for a 16th-century quadrant; "no telescope, only open sights" fixed it.
+  The question rows' `at` is an absolute line index in the scene (not relative to the phase).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

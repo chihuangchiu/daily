@@ -22,3 +22,4 @@
 | 2026-11-08 | Christiaan Barnard | Geburt (1922, Beaufort West, Südafrika) | yes |
 | 2026-11-09 | Hedy Lamarr | Geburt (1914, Wien) | yes |
 | 2026-11-10 | Friedrich Schiller | Geburt (1759, Marbach am Neckar) | yes |
+| 2026-11-11 | Tycho Brahe | sah den neuen Stern in der Kassiopeia (1572, Kloster Herrevad, Dänemark) | yes |

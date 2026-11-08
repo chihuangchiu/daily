@@ -33,7 +33,7 @@ pt 11-06T11:00Z, en 11-06T13:00Z, es 11-06T14:00Z) and pass that time as `date` 
 - If a slot is already in the past when scheduling, use now + 10 min.
 - The report lists each channel with its own local time (and the Taipei time).
 
-## 0c. Japanese Facebook page (Nathan 2026-11-08)
+## 0c. Japanese and English Facebook pages (Nathan 2026-11-08)
 The Japanese video also goes to the Facebook page 「今日、世界を変えたのは誰」, integrationId `cmw7y6kw8004qs67z17nk77rm`, at the
 same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT+FB"). So there are now 8 channels per day.
 - Planning: the ja FB channel counts as its own channel. If the ja YouTube post exists but the ja FB post does not, do NOT make a new
@@ -44,6 +44,11 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
   hashtag line WITHOUT #Shorts; every line wrapped in <p>…</p>; settings post_type=post, title=<title>.
 - Report it as a separate channel (日 FB) with its preview link.
 - 2026-11-08: FB posts for 11/09 (Lamarr), 11/10 (Schiller) and 11/11 (Brahe) were added from the already uploaded ja videos.
+- **English Facebook page (Nathan 2026-11-08, same rules):** 「Who Changed the World Today?」, integrationId `cmw7yoef70051s67z38jq1cr5`,
+  at the same time as the English YouTube post (New York 08:00; slots.py "en YT+FB"). Upload the en video once and schedule YouTube + FB
+  in one call. FB content: plain title line (post.txt without "Title:"), blank line, article, hashtags WITHOUT #Shorts; settings
+  post_type=post, title=<title>. If only the en YouTube post exists for D, add just the FB post with that video. With both FB pages there
+  are now 9 channels per day. FB posts for 11/09–11/11 were added on 2026-11-08 from the already uploaded en videos.
 
 ## 0b. Length, hook and on-screen text (Nathan 2026-10-22) — overrides the older numbers below
 - **Length: about 120 s** (TARGET=120 is now build.sh's default). Final video 112–128 s; speed in check 0.92–1.10.

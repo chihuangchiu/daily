@@ -12,7 +12,7 @@ CH = [  # (label, integrationId(s), tz, local hour)
     ("ja YT+FB", "cmvir44qg000zs67kevg8s72x,cmw7y6kw8004qs67z17nk77rm", "Asia/Tokyo", 7),
     ("de", "cmvir7imd0011s67ky3vmkijj", "Europe/Berlin", 7),
     ("pt", "cmviqybpp000ws67knh5z6wzo", "America/Sao_Paulo", 8),
-    ("en", "cmvibixcp000ms67kkplrbxb1", "America/New_York", 8),
+    ("en YT+FB", "cmvibixcp000ms67kkplrbxb1,cmw7yoef70051s67z38jq1cr5", "America/New_York", 8),
     ("es", "cmvic8oq3000os67kdsemvo3t", "America/Mexico_City", 8),
 ]
 for a in sys.argv[1:]:

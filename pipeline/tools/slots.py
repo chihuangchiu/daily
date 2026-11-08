@@ -13,7 +13,7 @@ CH = [  # (label, integrationId(s), tz, local hour)
     ("de", "cmvir7imd0011s67ky3vmkijj", "Europe/Berlin", 7),
     ("pt", "cmviqybpp000ws67knh5z6wzo", "America/Sao_Paulo", 8),
     ("en YT+FB", "cmvibixcp000ms67kkplrbxb1,cmw7yoef70051s67z38jq1cr5", "America/New_York", 8),
-    ("es", "cmvic8oq3000os67kdsemvo3t", "America/Mexico_City", 8),
+    ("es YT+FB", "cmvic8oq3000os67kdsemvo3t,cmw7zc3i40056s67z3tox2dbw", "America/Mexico_City", 8),
 ]
 for a in sys.argv[1:]:
     d = date.fromisoformat(a)

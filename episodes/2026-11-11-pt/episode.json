@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-11",
+ "mmdd": "11.11",
+ "lang": "pt",
+ "person": "Tycho Brahe",
+ "event": "viu a estrela nova em Cassiopeia (1572)",
+ "title": "Tycho Brahe: há 454 anos ele viu uma estrela que mudou o céu",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Uma estrela nova derrubou uma ideia milenar sobre o céu.",
+    [
+     "Quem mudou o mundo hoje? 11 de novembro.",
+     "Quem mudou o mundo hoje? Onze de novembro."
+    ],
+    [
+     "Há 454 anos, na Dinamarca,",
+     "Há quatrocentos e cinquenta e quatro anos, na Dinamarca,"
+    ],
+    "um jovem nobre olhou o céu e ficou paralisado."
+   ],
+   "data": {
+    "hook": "Uma estrela nova\nmudou o céu",
+    "sub": "1572  ──  2026",
+    "sub_at": 2,
+    "name": "Tycho",
+    "name_years": "Tycho Brahe · 1546 – 1601",
+    "name_at": 3,
+    "image": "opening.png",
+    "image_shift": 0.21,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O nariz perdido",
+   "lines": [
+    [
+     "Em 1566, aos vinte anos, discutiu com um colega",
+     "Em mil quinhentos e sessenta e seis, aos vinte anos, discutiu com um colega"
+    ],
+    "sobre quem era o melhor matemático.",
+    "Os dois duelaram no escuro, e ele perdeu parte do nariz.",
+    "Pelo resto da vida, usou um nariz de metal."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1566: um duelo no escuro"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Nariz de metal",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "pelo resto da vida",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Uma estrela impossível",
+   "lines": [
+    [
+     "Na noite de 11 de novembro de 1572,",
+     "Na noite de onze de novembro de mil quinhentos e setenta e dois,"
+    ],
+    "viu uma estrela nova em Cassiopeia,",
+    "mais brilhante que Vênus.",
+    "Na época, achava-se que o céu nunca mudava,",
+    "mas Tycho a mediu noite após noite,",
+    "e viu que estava muito além da Lua:",
+    "o céu também podia mudar!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1572: uma estrela nova em Cassiopeia"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Imutável?",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Uma ilha de estrelas",
+   "lines": [
+    "O rei dinamarquês lhe deu uma ilha inteira, Hven,",
+    "onde construiu o observatório de Uraniborg.",
+    "Ainda sem telescópios,",
+    "só com instrumentos enormes e a olho nu,",
+    "ele anotou a posição das estrelas",
+    "por vinte anos, com precisão impressionante."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Uraniborg, na ilha de Hven"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "O grande quadrante de Uraniborg"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  A passagem do bastão",
+   "lines": [
+    "Depois, mudou-se para Praga",
+    "e contratou um jovem assistente: Johannes Kepler.",
+    [
+     "Em 1601, Tycho morreu em Praga, aos 54 anos.",
+     "Em mil seiscentos e um, Tycho morreu em Praga, aos cinquenta e quatro anos."
+    ],
+    "Seus registros foram para Kepler,",
+    "que, após quase dez anos, descobriu",
+    "que os planetas giram ao redor do Sol em elipses."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Kepler",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "um jovem assistente",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "1601",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "morreu em Praga",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Kepler e os registros de Tycho"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Hoje, essa estrela se chama supernova de Tycho.",
+    "A pergunta dele para você:",
+    "Quando todos dizem que não,",
+    "você confiaria nos seus olhos?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Supernova de Tycho",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "SN 1572",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Quando todos dizem que não,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 2
+       },
+       {
+        "text": "você confiaria nos seus olhos?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 2
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 11 de novembro, lembramos de Tycho Brahe.",
+     "e neste onze de novembro, lembramos de Tycho Brahe."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Tycho Brahe",
+    "years": "1546 – 1601"
+   }
+  }
+ ]
+}

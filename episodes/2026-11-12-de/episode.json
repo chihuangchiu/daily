@@ -1,0 +1,343 @@
+{
+ "date": "2026-11-12",
+ "mmdd": "11.12",
+ "lang": "de",
+ "person": "Elizabeth Cady Stanton",
+ "event": "Geburt",
+ "title": "Elizabeth Cady Stanton: Vor 211 Jahren wurde sie geboren – Männer und Frauen sind gleich",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Sie schrieb: Alle Männer und Frauen sind gleich geschaffen.",
+    [
+     "Wer hat heute die Welt verändert? Der 12. November.",
+     "Wer hat heute die Welt verändert? Der zwölfte November."
+    ],
+    [
+     "Am 12. November 1815",
+     "Am zwölften November achtzehnhundertfünfzehn"
+    ],
+    "wurde in New York ein Mädchen geboren.",
+    "Es war Elizabeth Cady Stanton."
+   ],
+   "data": {
+    "hook": "Männer und Frauen\nsind gleich",
+    "sub": "1815  ──  2026",
+    "sub_at": 2,
+    "name": "Stanton",
+    "name_years": "Elizabeth Cady Stanton · 1815 – 1902",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Die Gesetzbücher des Vaters",
+   "lines": [
+    "Ihr Vater war Richter, und als Kind",
+    "las sie seine Gesetzbücher.",
+    [
+     "Das Gesetz war ungerecht – sie schwor, es zu ändern.",
+     "Das Gesetz war ungerecht zu Frauen, und sie schwor, es zu ändern."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Die Gesetzbücher des Vaters"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Gleichheit",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Ausgeschlossen",
+   "lines": [
+    [
+     "1840 heiratete sie, ohne das Wort gehorchen im Gelübde.",
+     "Achtzehnhundertvierzig heiratete sie, ohne das Wort gehorchen im Ehegelübde."
+    ],
+    "In London, beim Weltkongress gegen die Sklaverei,",
+    [
+     "wurden Frauen ausgeschlossen, nur weil sie Frauen waren.",
+     "wurden Delegiertinnen ausgeschlossen, nur weil sie Frauen waren."
+    ],
+    "Dort traf sie Lucretia Mott, und sie planten ein eigenes Treffen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Ohne Gehorsam",
+        "style": "huge",
+        "size": 76,
+        "color": "red"
+       },
+       {
+        "text": "Ihre Hochzeit 1840",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "London 1840: Kongress gegen die Sklaverei"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Seneca Falls",
+   "lines": [
+    [
+     "Am 19. Juli 1848, in Seneca Falls,",
+     "Am neunzehnten Juli achtzehnhundertachtundvierzig, in Seneca Falls,"
+    ],
+    "begann der erste Frauenrechtskongress der USA.",
+    [
+     "Wie in der Erklärung von 1776 schrieb sie:",
+     "Wie in der Unabhängigkeitserklärung schrieb sie:"
+    ],
+    "Alle Männer und Frauen sind gleich geschaffen.",
+    "Und sie forderte das Kühnste: das Wahlrecht für Frauen!",
+    "Hundert Menschen unterschrieben sie."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Seneca Falls, 1848"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Erklärung",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "der Empfindungen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "Wahlrecht",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Unterschriften",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Fünfzig Jahre Seite an Seite",
+   "lines": [
+    [
+     "1851 lernte sie Susan B. Anthony kennen.",
+     "Achtzehnhunderteinundfünfzig lernte sie Susan B. Anthony kennen."
+    ],
+    "Stanton schrieb die Reden, Anthony hielt sie,",
+    "fast fünfzig Jahre lang, Seite an Seite.",
+    [
+     "1869 gründeten sie den Verband für das Frauenwahlrecht.",
+     "Achtzehnhundertneunundsechzig gründeten sie den nationalen Verband für das Frauenwahlrecht."
+    ],
+    [
+     "1902 starb sie,",
+     "Neunzehnhundertzwei starb sie,"
+    ],
+    "achtzehn Jahre bevor Frauen das Wahlrecht bekamen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Eine schrieb, die andere sprach"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "1869",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Verband für das Frauenwahlrecht",
+        "style": "head",
+        "size": 34,
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1902",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Stirbt in New York",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1920 kam der 19. Verfassungszusatz,",
+     "Neunzehnhundertzwanzig kam der neunzehnte Verfassungszusatz,"
+    ],
+    "und Amerikas Frauen durften wählen.",
+    "Ihre Frage:",
+    "Wenn die Regeln ungerecht sind, stehst du auf, um sie zu ändern?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1920: Frauen wählen endlich"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn die Regeln ungerecht sind,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "stehst du auf, um sie zu ändern?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 12. November erinnern wir an Stanton.",
+     "und am zwölften November erinnern wir an Elizabeth Cady Stanton."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Stanton",
+    "years": "1815 – 1902"
+   }
+  }
+ ]
+}

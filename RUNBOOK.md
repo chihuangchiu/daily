@@ -220,6 +220,13 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
   Commons Special:FilePath/Tycho_Brahe.JPG?width=800 worked as edit-image input. Calywood: first try "copyright restrictions", identical
   resend succeeded (NT$16.5). Image MCP drew a telescope-like sight tube for a 16th-century quadrant; "no telescope, only open sights" fixed it.
   The question rows' `at` is an absolute line index in the scene (not relative to the phase).
+- **2026-11-12 Stanton run (Gemini Kore, short styles; zh body plan GEMINI_STYLE):** zh 454 spoken chars → 127.0 s (tight), 437 → 122.7 s;
+  en 1502 → 123.1 s; es 1579 → 127.7 s (tight), 1530 → 123.2 s; pt 1454 → 128.9 s (too long), ~1390 → 125.8 s (aim ~1390); ja 707 → 122.3 s;
+  de 1552 → 126.4 s. zh short chunk 「今天，她寫下的那句話，仍是平等的起點。」 was said twice (9.5 s); the retry was clean but the line was cut for length.
+  de: Whisper heard "zweihundertundelf Jahren" as "2011 Jahren"; saying the birth date ("Am zwölften November achtzehnhundertfünfzehn") avoids it.
+  Commons Special:FilePath/Elizabeth_Cady_Stanton.jpg?width=800 worked as edit-image input (the model drew her with her familiar white curls);
+  Calywood accepted the cross-hatched opening first try (NT$16.5). Helper scripts this run: /tmp/claude-0/s/mk.py (language episode from a spec),
+  subfix.py (subtitle-only patch of episode.json + timeline.json), post.py (post.txt → FB/YT HTML), dl.sh (download Gemini chunks).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

@@ -55,6 +55,9 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
 - **Portuguese Facebook page (Nathan 2026-11-09, same rules):** 「Quem mudou o mundo hoje?」, integrationId `cmw9c60vf0084s67z864vjqtb`,
   at the same time as the Portuguese YouTube post (São Paulo 08:00; slots.py "pt YT+FB"); title line from post.txt without "Título:".
   Now 11 channels per day (only German is YouTube-only). FB posts for 11/10–11/12 were added on 2026-11-09 from the already uploaded pt videos.
+- **German Facebook page (Nathan 2026-11-09, same rules):** 「Wer hat heute die Welt verändert?」, integrationId `cmw9cakfg0089s67zdx0fzndb`,
+  at the same time as the German YouTube post (Berlin 07:00; slots.py "de YT+FB"); title line from post.txt without "Titel:".
+  Now 12 channels per day: every language has YouTube + Facebook. FB posts for 11/10–11/12 were added on 2026-11-09 from the uploaded de videos.
 - Generic rule for any language with a FB page: one upload, one integrationSchedulePostTool call with YouTube + FB, FB content = plain
   title line + blank line + article + hashtags without #Shorts. slots.py lists every channel id per language.
 

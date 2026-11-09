@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-12",
+ "mmdd": "11.12",
+ "lang": "en",
+ "person": "Elizabeth Cady Stanton",
+ "event": "born",
+ "title": "Elizabeth Cady Stanton: 211 Years Ago Today, She Wrote “All Men and Women Are Created Equal”",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "She wrote: all men and women are created equal.",
+    [
+     "Who changed the world today? November 12.",
+     "Who changed the world today? November twelfth."
+    ],
+    [
+     "211 years ago today,",
+     "Two hundred and eleven years ago today,"
+    ],
+    "a girl was born in New York.",
+    "She was Elizabeth Cady Stanton."
+   ],
+   "data": {
+    "hook": "All men and women\nare created equal",
+    "sub": "1815  ──  2026",
+    "sub_at": 2,
+    "name": "Stanton",
+    "name_years": "Elizabeth Cady Stanton · 1815 – 1902",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Her father's law books",
+   "lines": [
+    "Her father was a judge, and as a girl,",
+    "she read the law books in his office.",
+    "The law was unfair to women, and she vowed to change it."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Law books in her father's office"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Equality",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Shut out",
+   "lines": [
+    [
+     "In 1840 she married, and dropped “obey” from her vows.",
+     "In eighteen forty she married, and dropped the word obey from her vows."
+    ],
+    "In London, at the World Anti-Slavery Convention,",
+    "women delegates were shut out, just for being women.",
+    "She met Lucretia Mott, and they planned their own meeting."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "No “obey”",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "Her 1840 wedding",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "London, 1840: anti-slavery convention"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Seneca Falls",
+   "lines": [
+    [
+     "On July 19, 1848, in tiny Seneca Falls,",
+     "On July nineteenth, eighteen forty-eight, in tiny Seneca Falls,"
+    ],
+    "America's first women's rights convention opened.",
+    "Echoing the Declaration of Independence, she wrote:",
+    "all men and women are created equal.",
+    "And she made the boldest demand of all: the vote for women!",
+    "One hundred people signed her declaration."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Seneca Falls, 1848"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Declaration",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "of Sentiments",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "The vote",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "signers",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Fifty years side by side",
+   "lines": [
+    [
+     "In 1851, she met Susan B. Anthony.",
+     "In eighteen fifty-one, she met Susan B. Anthony."
+    ],
+    "Stanton wrote the speeches, Anthony gave them,",
+    "and they fought side by side for nearly fifty years.",
+    [
+     "In 1869, they founded the National Woman Suffrage Association.",
+     "In eighteen sixty-nine, they founded the National Woman Suffrage Association."
+    ],
+    [
+     "In 1902, she died in New York,",
+     "In nineteen oh-two, she died in New York,"
+    ],
+    "eighteen years before women won the vote."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "One wrote, the other spoke"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "1869",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "National Woman Suffrage Assn.",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1902",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Dies in New York",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1920, the Nineteenth Amendment was ratified,",
+     "In nineteen twenty, the Nineteenth Amendment was ratified,"
+    ],
+    "and American women could finally vote.",
+    "Her question for you:",
+    "If the rules are unfair, will you stand up to change them?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1920: women vote at last"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question",
+        "style": "kicker"
+       },
+       {
+        "text": "If the rules are unfair,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "will you stand up to change them?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 12, we remember Elizabeth Cady Stanton.",
+     "and on November twelfth, we remember Elizabeth Cady Stanton."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Stanton",
+    "years": "1815 – 1902"
+   }
+  }
+ ]
+}

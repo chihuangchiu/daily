@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-12",
+ "mmdd": "11.12",
+ "lang": "pt",
+ "person": "Elizabeth Cady Stanton",
+ "event": "nascimento",
+ "title": "Elizabeth Cady Stanton: há 211 anos ela escreveu que homens e mulheres são iguais",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ela escreveu: todos os homens e mulheres são criados iguais.",
+    [
+     "Quem mudou o mundo hoje? 12 de novembro.",
+     "Quem mudou o mundo hoje? Doze de novembro."
+    ],
+    [
+     "Há 211 anos,",
+     "Há duzentos e onze anos,"
+    ],
+    "nascia uma menina em Nova York.",
+    "Era Elizabeth Cady Stanton."
+   ],
+   "data": {
+    "hook": "Homens e mulheres\nnascem iguais",
+    "sub": "1815  ──  2026",
+    "sub_at": 2,
+    "name": "Stanton",
+    "name_years": "Elizabeth Cady Stanton · 1815 – 1902",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Os livros do pai",
+   "lines": [
+    "O pai era juiz,",
+    "e ela lia os livros de leis dele.",
+    "Viu que a lei era injusta com as mulheres, e jurou mudá-la."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Os livros de leis do pai"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Igualdade",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Excluídas",
+   "lines": [
+    [
+     "Em 1840 se casou, e tirou dos votos a palavra «obedecer».",
+     "Em mil oitocentos e quarenta se casou, e tirou dos votos a palavra obedecer."
+    ],
+    "Em Londres, na Convenção Mundial Antiescravidão,",
+    "barraram as delegadas por serem mulheres.",
+    "Lá ela conheceu Lucretia Mott."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Sem «obedecer»",
+        "style": "huge",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "O casamento de 1840",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Londres, 1840: convenção antiescravidão"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Seneca Falls",
+   "lines": [
+    [
+     "Em 19 de julho de 1848, em Seneca Falls,",
+     "Em dezenove de julho de mil oitocentos e quarenta e oito, em Seneca Falls,"
+    ],
+    "abriu a primeira convenção pelos direitos da mulher.",
+    "Como na Declaração de Independência, escreveu:",
+    "todos os homens e mulheres são criados iguais.",
+    "E pediu o mais ousado: o voto feminino!",
+    "Cem pessoas assinaram a declaração."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Seneca Falls, 1848"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Declaração",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "de Sentimentos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "O voto",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "assinaturas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Cinquenta anos juntas",
+   "lines": [
+    [
+     "Em 1851, conheceu Susan B. Anthony.",
+     "Em mil oitocentos e cinquenta e um, conheceu Susan B. Anthony."
+    ],
+    "Stanton escrevia os discursos, Anthony os fazia,",
+    "e lutaram juntas quase cinquenta anos.",
+    [
+     "Em 1869, fundaram a Associação Nacional pelo Sufrágio Feminino.",
+     "Em mil oitocentos e sessenta e nove, fundaram a Associação Nacional pelo Sufrágio Feminino."
+    ],
+    [
+     "Em 1902, morreu,",
+     "Em mil novecentos e dois, morreu,"
+    ],
+    "dezoito anos antes do voto feminino."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Uma escrevia, a outra falava"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "1869",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Associação pelo Sufrágio",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1902",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Morre em Nova York",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1920, veio a Décima Nona Emenda,",
+     "Em mil novecentos e vinte, veio a Décima Nona Emenda,"
+    ],
+    "e as americanas enfim votaram.",
+    "A pergunta dela:",
+    "se as regras são injustas, você ousaria mudá-las?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1920: enfim, o voto"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dela",
+        "style": "kicker"
+       },
+       {
+        "text": "Se as regras são injustas,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "você ousaria mudá-las?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 12 de novembro, lembramos de Stanton.",
+     "e neste doze de novembro, lembramos de Elizabeth Cady Stanton."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Stanton",
+    "years": "1815 – 1902"
+   }
+  }
+ ]
+}

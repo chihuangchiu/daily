@@ -23,3 +23,4 @@
 | 2026-11-09 | Hedy Lamarr | nascimento (1914, Viena) | yes |
 | 2026-11-10 | Friedrich Schiller | nascimento (1759, Marbach am Neckar) | yes |
 | 2026-11-11 | Tycho Brahe | viu a estrela nova em Cassiopeia (1572, abadia de Herrevad, Dinamarca) | yes |
+| 2026-11-12 | Elizabeth Cady Stanton | nascimento (1815, Johnstown, Nova York) | yes |

@@ -11,7 +11,7 @@ CH = [  # (label, integrationId(s), tz, local hour)
     ("zh FB+YT", "cmvbzqyvs0002s67fq0dzr53e,cmvc7njup0001s673xhqhp5s8", "Asia/Taipei", 7),
     ("ja YT+FB", "cmvir44qg000zs67kevg8s72x,cmw7y6kw8004qs67z17nk77rm", "Asia/Tokyo", 7),
     ("de", "cmvir7imd0011s67ky3vmkijj", "Europe/Berlin", 7),
-    ("pt", "cmviqybpp000ws67knh5z6wzo", "America/Sao_Paulo", 8),
+    ("pt YT+FB", "cmviqybpp000ws67knh5z6wzo,cmw9c60vf0084s67z864vjqtb", "America/Sao_Paulo", 8),
     ("en YT+FB", "cmvibixcp000ms67kkplrbxb1,cmw7yoef70051s67z38jq1cr5", "America/New_York", 8),
     ("es YT+FB", "cmvic8oq3000os67kdsemvo3t,cmw7zc3i40056s67z3tox2dbw", "America/Mexico_City", 8),
 ]

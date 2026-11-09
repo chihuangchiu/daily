@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-12",
+ "mmdd": "11.12",
+ "lang": "es",
+ "person": "Elizabeth Cady Stanton",
+ "event": "nacimiento",
+ "title": "Elizabeth Cady Stanton: hace 211 años escribió que hombres y mujeres nacen iguales",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ella escribió: todos los hombres y mujeres son creados iguales.",
+    [
+     "¿Quién cambió el mundo hoy? 12 de noviembre.",
+     "¿Quién cambió el mundo hoy? Doce de noviembre."
+    ],
+    [
+     "Hace 211 años,",
+     "Hace doscientos once años,"
+    ],
+    "nació una niña en Nueva York.",
+    "Era Elizabeth Cady Stanton."
+   ],
+   "data": {
+    "hook": "Hombres y mujeres\nnacen iguales",
+    "sub": "1815  ──  2026",
+    "sub_at": 2,
+    "name": "Stanton",
+    "name_years": "Elizabeth Cady Stanton · 1815 – 1902",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Los libros de su padre",
+   "lines": [
+    "Su padre era juez, y de niña,",
+    "leía los libros de leyes de su despacho.",
+    "Vio que la ley era injusta con las mujeres, y juró cambiarla."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Los libros de leyes de su padre"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Igualdad",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Excluidas",
+   "lines": [
+    [
+     "En 1840 se casó, y quitó de sus votos la palabra «obedecer».",
+     "En mil ochocientos cuarenta se casó, y quitó de sus votos la palabra obedecer."
+    ],
+    "En Londres, en la Convención Mundial contra la Esclavitud,",
+    "excluyeron a las delegadas por ser mujeres.",
+    "Allí conoció a Lucretia Mott, y planearon su propia reunión."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Sin «obedecer»",
+        "style": "huge",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "Su boda de 1840",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Londres, 1840: convención antiesclavista"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Seneca Falls",
+   "lines": [
+    [
+     "El 19 de julio de 1848, en Seneca Falls,",
+     "El diecinueve de julio de mil ochocientos cuarenta y ocho, en Seneca Falls,"
+    ],
+    "se abrió la primera convención por los derechos de la mujer.",
+    "Como la Declaración de Independencia, escribió:",
+    "todos los hombres y mujeres son creados iguales.",
+    "Y pidió lo más audaz: ¡el voto para las mujeres!",
+    "Cien personas firmaron su declaración."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Seneca Falls, 1848"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Declaración",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "de Sentimientos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "until": 5,
+      "items": [
+       {
+        "text": "El voto",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "firmantes",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Cincuenta años juntas",
+   "lines": [
+    [
+     "En 1851 conoció a Susan B. Anthony.",
+     "En mil ochocientos cincuenta y uno conoció a Susan B. Anthony."
+    ],
+    "Stanton escribía los discursos, Anthony los pronunciaba,",
+    "y lucharon juntas casi cincuenta años.",
+    [
+     "En 1869 fundaron la Asociación Nacional pro Sufragio Femenino.",
+     "En mil ochocientos sesenta y nueve fundaron la Asociación Nacional pro Sufragio Femenino."
+    ],
+    [
+     "En 1902 murió,",
+     "En mil novecientos dos murió,"
+    ],
+    "dieciocho años antes del voto femenino."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Una escribía, la otra hablaba"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 4,
+      "items": [
+       {
+        "text": "1869",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Asociación pro Sufragio",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1902",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Muere en Nueva York",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1920 se aprobó la Decimonovena Enmienda,",
+     "En mil novecientos veinte se aprobó la Decimonovena Enmienda,"
+    ],
+    "y las estadounidenses por fin pudieron votar.",
+    "Su pregunta para ti:",
+    "si las reglas son injustas, ¿te atreverías a cambiarlas?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "1920: por fin votan"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si las reglas son injustas,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "¿te atreverías a cambiarlas?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 12 de noviembre, recordamos a Stanton.",
+     "y este doce de noviembre, recordamos a Elizabeth Cady Stanton."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Stanton",
+    "years": "1815 – 1902"
+   }
+  }
+ ]
+}

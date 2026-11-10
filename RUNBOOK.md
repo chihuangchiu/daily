@@ -233,6 +233,10 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
   Commons Special:FilePath/Elizabeth_Cady_Stanton.jpg?width=800 worked as edit-image input (the model drew her with her familiar white curls);
   Calywood accepted the cross-hatched opening first try (NT$16.5). Helper scripts this run: /tmp/claude-0/s/mk.py (language episode from a spec),
   subfix.py (subtitle-only patch of episode.json + timeline.json), post.py (post.txt → FB/YT HTML), dl.sh (download Gemini chunks).
+- **2026-11-13 Rossini run (Gemini Kore, short styles; zh body plan GEMINI_STYLE):** zh 436 spoken chars (no punct.) → 117.5 s; en 1456 → 125.0 s;
+  es 1503 → 123.4 s; pt 1414 → 122.9 s; ja 656 → 114.4 s (630 → 112.3 s, too tight: aim ~690); de 1537 → 124.1 s. No repeats or style read-outs.
+  Commons Special:FilePath/GRossini.JPG?width=800 worked as edit-image input (file page not fetchable, licence assumed PD for a 19th-c. photo).
+  Calywood accepted the cross-hatched opening first try (NT$16.5). ja subtitle rows split at 、 inside 『…』 titles: put a 、 before the 『 (「それが、『…』です。」).
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

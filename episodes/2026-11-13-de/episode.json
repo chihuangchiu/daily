@@ -1,0 +1,336 @@
+{
+ "date": "2026-11-13",
+ "mmdd": "11.13",
+ "lang": "de",
+ "person": "Gioachino Rossini",
+ "event": "Todestag",
+ "title": "Rossini: Den Barbier von Sevilla schrieb er in unter drei Wochen",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Seine Drei-Wochen-Oper wird seit 210 Jahren gesungen.",
+     "Seine Drei-Wochen-Oper wird seit zweihundertzehn Jahren gesungen."
+    ],
+    [
+     "Wer hat heute die Welt verändert? Der 13. November.",
+     "Wer hat heute die Welt verändert? Der dreizehnte November."
+    ],
+    [
+     "Heute vor 158 Jahren",
+     "Heute vor hundertachtundfünfzig Jahren"
+    ],
+    "starb ein großer Komponist bei Paris.",
+    "Es war Gioachino Rossini."
+   ],
+   "data": {
+    "hook": "In 3 Wochen geschrieben\n210 Jahre gesungen",
+    "sub": "1868  ──  2026",
+    "sub_at": 2,
+    "name": "Rossini",
+    "name_years": "Gioachino Rossini · 1792 – 1868",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ein Schalttagskind",
+   "lines": [
+    [
+     "Er kam am 29. Februar 1792 in Pesaro, Italien, zur Welt,",
+     "Er kam am neunundzwanzigsten Februar siebzehnhundertzweiundneunzig in Pesaro, Italien, zur Welt,"
+    ],
+    "an einem Schalttag, den es nur alle vier Jahre gibt.",
+    "Sein Vater spielte Horn, seine Mutter sang Oper,",
+    "und so wuchs er hinter den Kulissen auf."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "29. Februar",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Ein Schalttag, alle 4 Jahre",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Aufgewachsen hinter den Kulissen"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Berühmt mit 21",
+   "lines": [
+    [
+     "1813, mit 21, brachte er in Venedig Tancredi heraus.",
+     "Achtzehnhundertdreizehn, mit einundzwanzig, brachte er in Venedig Tancredi heraus."
+    ],
+    "Das Publikum war verzaubert,",
+    "und bald kannte man seinen Namen in ganz Europa."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "La Fenice, Venedig, 1813"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der Barbier in drei Wochen",
+   "lines": [
+    [
+     "1816 übernahm er in Rom eine neue komische Oper.",
+     "Achtzehnhundertsechzehn übernahm er in Rom eine neue komische Oper."
+    ],
+    "Tag und Nacht schrieb er, in weniger als drei Wochen:",
+    "Der Barbier von Sevilla.",
+    [
+     "Bei der Premiere am 20. Februar buhte das Publikum,",
+     "Bei der Premiere am zwanzigsten Februar buhte das Publikum,"
+    ],
+    "Pannen auf der Bühne, doch bald eroberte er Europa."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Rom, spät in der Nacht, 1816"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Unter 3 Wochen",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Der Barbier von Sevilla",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Premiere: Buhrufe und Pfiffe"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Schluss mit 37",
+   "lines": [
+    [
+     "1829 brachte er in Paris Wilhelm Tell heraus.",
+     "Achtzehnhundertneunundzwanzig brachte er in Paris Wilhelm Tell heraus."
+    ],
+    [
+     "Er war erst 37 und schrieb danach nie wieder eine Oper,",
+     "Er war erst siebenunddreißig und schrieb danach nie wieder eine Oper,"
+    ],
+    [
+     "dabei hatte er schon 39 Opern komponiert.",
+     "dabei hatte er schon neununddreißig Opern komponiert."
+    ],
+    [
+     "Er starb am 13. November 1868 in Passy bei Paris,",
+     "Er starb am dreizehnten November achtzehnhundertachtundsechzig in Passy bei Paris,"
+    ],
+    "mit sechsundsiebzig Jahren."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Wilhelm Tell, Paris, 1829"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "39",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Opern",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1868",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Gestorben bei Paris",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1887 wurde er in Santa Croce in Florenz beigesetzt.",
+     "Achtzehnhundertsiebenundachtzig wurde er in Santa Croce in Florenz beigesetzt."
+    ],
+    "Noch heute steht sein Barbier weltweit auf der Bühne.",
+    "Seine Frage an dich:",
+    "Wenn sie dich anfangs ausbuhen, machst du weiter?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Santa Croce",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Florenz, 1887",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 2,
+      "items": [
+       {
+        "text": "200+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Jahre auf der Bühne",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn sie dich anfangs ausbuhen,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "machst du weiter?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 13. November erinnern wir an Gioachino Rossini.",
+     "und am dreizehnten November erinnern wir an Gioachino Rossini."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Rossini",
+    "years": "1792 – 1868"
+   }
+  }
+ ]
+}

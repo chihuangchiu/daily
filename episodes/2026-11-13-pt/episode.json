@@ -1,0 +1,336 @@
+{
+ "date": "2026-11-13",
+ "mmdd": "11.13",
+ "lang": "pt",
+ "person": "Gioachino Rossini",
+ "event": "morte",
+ "title": "Rossini: escreveu O Barbeiro de Sevilha em menos de três semanas",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Sua ópera escrita em três semanas está em cena há 210 anos.",
+     "Sua ópera escrita em três semanas está em cena há duzentos e dez anos."
+    ],
+    [
+     "Quem mudou o mundo hoje? 13 de novembro.",
+     "Quem mudou o mundo hoje? Treze de novembro."
+    ],
+    [
+     "Há 158 anos,",
+     "Há cento e cinquenta e oito anos,"
+    ],
+    "um grande compositor morreu perto de Paris.",
+    "Era Gioachino Rossini."
+   ],
+   "data": {
+    "hook": "Escrita em 3 semanas\n210 anos em cena",
+    "sub": "1868  ──  2026",
+    "sub_at": 2,
+    "name": "Rossini",
+    "name_years": "Gioachino Rossini · 1792 – 1868",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Nascido num dia bissexto",
+   "lines": [
+    [
+     "Nasceu em 29 de fevereiro de 1792, em Pesaro, na Itália,",
+     "Nasceu em vinte e nove de fevereiro de mil setecentos e noventa e dois, em Pesaro, na Itália,"
+    ],
+    "um dia bissexto, que só vem a cada quatro anos.",
+    "O pai tocava trompa e a mãe cantava ópera,",
+    "e ele cresceu nos bastidores do teatro."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "29 de fevereiro",
+        "style": "huge",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "Um dia bissexto, a cada 4 anos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Cresceu nos bastidores"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Famoso aos 21",
+   "lines": [
+    [
+     "Em 1813, aos 21 anos, estreou Tancredi em Veneza.",
+     "Em mil oitocentos e treze, aos vinte e um anos, estreou Tancredi em Veneza."
+    ],
+    "O público adorou,",
+    "e logo seu nome correu a Europa."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "La Fenice, Veneza, 1813"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  O Barbeiro em três semanas",
+   "lines": [
+    [
+     "Em 1816, aceitou escrever uma ópera cômica em Roma.",
+     "Em mil oitocentos e dezesseis, aceitou escrever uma ópera cômica em Roma."
+    ],
+    "Dia e noite, em menos de três semanas, nasceu:",
+    "O Barbeiro de Sevilha.",
+    [
+     "Na estreia, em 20 de fevereiro, a plateia vaiou,",
+     "Na estreia, em vinte de fevereiro, a plateia vaiou,"
+    ],
+    "houve acidentes no palco, mas logo conquistou a Europa."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Roma, de madrugada, 1816"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Menos de 3 semanas",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "O Barbeiro de Sevilha",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Estreia: vaias e assobios"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Silêncio aos 37",
+   "lines": [
+    [
+     "Em 1829, apresentou Guilherme Tell em Paris.",
+     "Em mil oitocentos e vinte e nove, apresentou Guilherme Tell em Paris."
+    ],
+    [
+     "Tinha só 37 anos e nunca mais escreveu uma ópera,",
+     "Tinha só trinta e sete anos e nunca mais escreveu uma ópera,"
+    ],
+    [
+     "e já tinha composto 39 óperas.",
+     "e já tinha composto trinta e nove óperas."
+    ],
+    [
+     "Morreu em 13 de novembro de 1868, perto de Paris,",
+     "Morreu em treze de novembro de mil oitocentos e sessenta e oito, perto de Paris,"
+    ],
+    "aos setenta e seis anos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Guilherme Tell, Paris, 1829"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "39",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "óperas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1868",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Morreu perto de Paris",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1887, foi sepultado na Santa Croce, em Florença.",
+     "Em mil oitocentos e oitenta e sete, foi sepultado na Santa Croce, em Florença."
+    ],
+    "Dois séculos depois, seu Barbeiro segue em cena.",
+    "E fica a pergunta:",
+    "Se vaiassem você no começo, você continuaria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Santa Croce",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Florença, 1887",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 2,
+      "items": [
+       {
+        "text": "200+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "anos em cena",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Se vaiassem você no começo,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "você continuaria?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 13 de novembro, lembramos de Gioachino Rossini.",
+     "e neste treze de novembro, lembramos de Gioachino Rossini."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Rossini",
+    "years": "1792 – 1868"
+   }
+  }
+ ]
+}

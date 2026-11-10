@@ -367,6 +367,15 @@ Besides the opening image, every video shows 4–5 more AI pictures inside the c
 4. Check the sheets (step 5) for overlap or clipping around the pictures. If a chapter picture cannot be made,
    stop exactly as in 4b.8; never publish a video with fewer pictures than required.
 
+## 4e. Opening clip model: MiniMax (Nathan 2026-11-10)
+- Always pass `model: "minimax"` to `generate_video_from_image` (NT$15 per 5 s 720p clip, price locked at submit, no charge on failure;
+  Seedance was ~NT$16.5). MiniMax requires a `prompt` (we always send one). Everything else in 4d stays the same.
+- Download: use the link `get_task` returns; if that host is blocked from the workspace, try
+  `https://storage.googleapis.com/alchemy-dance-media-cacafly-nathan-project/videos/<task_id>.mp4` as before.
+- Check the clip exactly as in 4d step 4 (last frame must match opening.png, natural motion, same tone).
+- Fallback: if MiniMax fails 3 times for the same person (errors or unusable clips), make the clip once more with the default
+  Seedance (no `model`) and say so in the report. Only if that also fails, STOP as in 4d step 6.
+
 ## 4d. Opening clip (Calywood first/last-frame video that ENDS on opening.png, 5 s) — Nathan 2026-10-21 (v2)
 The clip must end exactly on opening.png, so the hand-over from the clip to the still is seamless (no jump), and it
 must show real, natural action, not just a zoom. So opening.png is the LAST frame, and a matching START frame is drawn
@@ -381,7 +390,8 @@ from it: the same scene a few seconds earlier, with the person in a different po
    turned toward the window / walking in from the side>. " + STYLE.
    Save it as `episodes/D/start.png` (curl), Read it next to opening.png: same scene, framing, face and tone; only the
    pose differs. Max 3 tries.
-2. Calywood `generate_video_from_image` with `image_url` = start.png's download URL, `last_frame_url` = opening.png's
+2. Calywood `generate_video_from_image` with `model: "minimax"` (MiniMax H3; Nathan 2026-11-10, was the default Seedance),
+   `image_url` = start.png's download URL, `last_frame_url` = opening.png's
    download URL, `duration: 5`, `resolution: "720p"`, English `prompt` describing the action that leads
    from the start pose to the final pose, with natural, realistic body motion (hands, head, shoulders, hair, cloth) and
    one or two small background motions (flames flicker, people in the background move, steam or smoke drifts), e.g.

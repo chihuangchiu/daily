@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-13",
+ "mmdd": "11.13",
+ "lang": "en",
+ "person": "Gioachino Rossini",
+ "event": "died",
+ "title": "Rossini: He Wrote The Barber of Seville in Under Three Weeks",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "His three-week opera has been sung for 210 years.",
+    [
+     "Who changed the world today? November 13.",
+     "Who changed the world today? November thirteenth."
+    ],
+    [
+     "158 years ago today,",
+     "One hundred and fifty-eight years ago today,"
+    ],
+    "a great composer died near Paris.",
+    "He was Gioachino Rossini."
+   ],
+   "data": {
+    "hook": "Written in three weeks\nSung for 210 years",
+    "sub": "1868  ──  2026",
+    "sub_at": 2,
+    "name": "Rossini",
+    "name_years": "Gioachino Rossini · 1792 – 1868",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A leap-day baby",
+   "lines": [
+    [
+     "He was born on February 29, 1792, in Pesaro, Italy,",
+     "He was born on February twenty-ninth, seventeen ninety-two, in Pesaro, Italy,"
+    ],
+    "on a leap day that comes only once every four years.",
+    "His father played the horn, and his mother sang opera,",
+    "so he grew up backstage in the theatre."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Feb 29",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "A leap day, once in 4 years",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Growing up backstage"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Famous at 21",
+   "lines": [
+    [
+     "In 1813, at just 21, he staged his opera Tancredi in Venice.",
+     "In eighteen thirteen, at just twenty-one, he staged his opera Tancredi in Venice."
+    ],
+    "The audience was spellbound,",
+    "and soon his name was known all over Europe."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "La Fenice, Venice, 1813"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The Barber in three weeks",
+   "lines": [
+    [
+     "In 1816, he took on a new comic opera in Rome.",
+     "In eighteen sixteen, he took on a new comic opera in Rome."
+    ],
+    "He wrote it day and night, in under three weeks:",
+    "The Barber of Seville.",
+    [
+     "At the premiere on February 20, the crowd jeered,",
+     "At the premiere on February twentieth, the crowd jeered,"
+    ],
+    "mishaps hit the stage, yet soon it swept across Europe."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Rome, late at night, 1816"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Under 3 weeks",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "The Barber of Seville",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Opening night: boos and jeers"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Silent at 37",
+   "lines": [
+    [
+     "In 1829, he presented William Tell in Paris.",
+     "In eighteen twenty-nine, he presented William Tell in Paris."
+    ],
+    [
+     "He was only 37, yet he never wrote another opera,",
+     "He was only thirty-seven, yet he never wrote another opera,"
+    ],
+    [
+     "and by then, he had already written 39 operas.",
+     "and by then, he had already written thirty-nine operas."
+    ],
+    [
+     "He died on November 13, 1868, in Passy, near Paris,",
+     "He died on November thirteenth, eighteen sixty-eight, in Passy, near Paris,"
+    ],
+    "at the age of seventy-six."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "William Tell, Paris Opéra, 1829"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "39",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "operas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1868",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Died near Paris",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1887, he was laid to rest in Florence's Santa Croce.",
+     "In eighteen eighty-seven, he was laid to rest in Florence's Santa Croce."
+    ],
+    "Two centuries on, his Barber is still sung worldwide.",
+    "So here is his question:",
+    "If they booed you at first, would you keep going?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Santa Croce",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Florence, 1887",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 2,
+      "items": [
+       {
+        "text": "200+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "years on stage",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If they booed you at first,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "would you keep going?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 13, we remember Gioachino Rossini.",
+     "and on November thirteenth, we remember Gioachino Rossini."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Rossini",
+    "years": "1792 – 1868"
+   }
+  }
+ ]
+}

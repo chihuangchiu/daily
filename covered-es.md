@@ -24,3 +24,4 @@
 | 2026-11-10 | Friedrich Schiller | nacimiento (1759, Marbach am Neckar) | yes |
 | 2026-11-11 | Tycho Brahe | vio la estrella nueva en Casiopea (1572, abadía de Herrevad, Dinamarca) | yes |
 | 2026-11-12 | Elizabeth Cady Stanton | nacimiento (1815, Johnstown, Nueva York) | yes |
+| 2026-11-13 | Gioachino Rossini | muerte (1868, Passy, cerca de París) | yes |

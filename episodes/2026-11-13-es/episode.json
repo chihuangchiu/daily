@@ -1,0 +1,336 @@
+{
+ "date": "2026-11-13",
+ "mmdd": "11.13",
+ "lang": "es",
+ "person": "Gioachino Rossini",
+ "event": "muerte",
+ "title": "Rossini: escribió El barbero de Sevilla en menos de tres semanas",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Su ópera escrita en tres semanas lleva 210 años en escena.",
+     "Su ópera escrita en tres semanas lleva doscientos diez años en escena."
+    ],
+    [
+     "¿Quién cambió el mundo hoy? 13 de noviembre.",
+     "¿Quién cambió el mundo hoy? Trece de noviembre."
+    ],
+    [
+     "Hace 158 años,",
+     "Hace ciento cincuenta y ocho años,"
+    ],
+    "un gran compositor murió cerca de París.",
+    "Era Gioachino Rossini."
+   ],
+   "data": {
+    "hook": "Escrita en 3 semanas\n210 años en escena",
+    "sub": "1868  ──  2026",
+    "sub_at": 2,
+    "name": "Rossini",
+    "name_years": "Gioachino Rossini · 1792 – 1868",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.27,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Nacido un día bisiesto",
+   "lines": [
+    [
+     "Nació el 29 de febrero de 1792 en Pesaro, Italia,",
+     "Nació el veintinueve de febrero de mil setecientos noventa y dos en Pesaro, Italia,"
+    ],
+    "un día bisiesto, que llega solo cada cuatro años.",
+    "Su padre tocaba la trompa y su madre cantaba ópera,",
+    "así que creció entre bastidores, en el teatro."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "29 de febrero",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Un día bisiesto, cada 4 años",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Creció entre bastidores"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Famoso a los 21",
+   "lines": [
+    [
+     "En 1813, con solo 21 años, estrenó Tancredi en Venecia.",
+     "En mil ochocientos trece, con solo veintiún años, estrenó Tancredi en Venecia."
+    ],
+    "El público quedó hechizado,",
+    "y pronto su nombre se conoció en toda Europa."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "La Fenice, Venecia, 1813"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  El barbero en tres semanas",
+   "lines": [
+    [
+     "En 1816, aceptó escribir una ópera cómica en Roma.",
+     "En mil ochocientos dieciséis, aceptó escribir una ópera cómica en Roma."
+    ],
+    "Trabajó día y noche, y en menos de tres semanas nació:",
+    "El barbero de Sevilla.",
+    [
+     "En el estreno, el 20 de febrero, el público abucheó,",
+     "En el estreno, el veinte de febrero, el público abucheó,"
+    ],
+    "hubo percances en escena, pero pronto conquistó Europa."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Roma, de noche, 1816"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Menos de 3 semanas",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "El barbero de Sevilla",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Estreno: abucheos y silbidos"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Silencio a los 37",
+   "lines": [
+    [
+     "En 1829, presentó Guillermo Tell en París.",
+     "En mil ochocientos veintinueve, presentó Guillermo Tell en París."
+    ],
+    [
+     "Tenía solo 37 años y no volvió a escribir otra ópera;",
+     "Tenía solo treinta y siete años y no volvió a escribir otra ópera;"
+    ],
+    [
+     "para entonces, ya había compuesto 39 óperas.",
+     "para entonces, ya había compuesto treinta y nueve óperas."
+    ],
+    [
+     "Murió el 13 de noviembre de 1868, cerca de París,",
+     "Murió el trece de noviembre de mil ochocientos sesenta y ocho, cerca de París,"
+    ],
+    "a los setenta y seis años."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Guillermo Tell, París, 1829"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "39",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "óperas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1868",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Murió cerca de París",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1887, fue sepultado en la Santa Croce de Florencia.",
+     "En mil ochocientos ochenta y siete, fue sepultado en la Santa Croce de Florencia."
+    ],
+    "Dos siglos después, su Barbero sigue en escena.",
+    "Y nos deja una pregunta:",
+    "Si te abuchearan al principio, ¿seguirías adelante?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Santa Croce",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Florencia, 1887",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 2,
+      "items": [
+       {
+        "text": "200+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "años en escena",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si te abuchearan al principio,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "¿seguirías adelante?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 13 de noviembre, recordamos a Gioachino Rossini.",
+     "y este trece de noviembre, recordamos a Gioachino Rossini."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Rossini",
+    "years": "1792 – 1868"
+   }
+  }
+ ]
+}

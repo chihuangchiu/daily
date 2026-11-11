@@ -1,0 +1,335 @@
+{
+ "date": "2026-11-17",
+ "mmdd": "11.17",
+ "lang": "en",
+ "person": "Soichiro Honda",
+ "event": "born",
+ "title": "Soichiro Honda: From Rejected Piston Rings to 100 Million Bikes",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "One little motorbike, built one hundred million times.",
+    [
+     "Who changed the world today? November 17.",
+     "Who changed the world today? November seventeenth."
+    ],
+    [
+     "120 years ago today,",
+     "One hundred and twenty years ago today,"
+    ],
+    "a blacksmith's son was born in Shizuoka, Japan.",
+    "He was Soichiro Honda, the founder of Honda."
+   ],
+   "data": {
+    "hook": "One little motorbike,\n100 million made",
+    "sub": "1906  ──  2026",
+    "sub_at": 2,
+    "name": "Honda",
+    "name_years": "Soichiro Honda · 1906 – 1991",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The blacksmith's son",
+   "lines": [
+    "His father was a blacksmith who also fixed bicycles,",
+    "and he grew up among the workshop tools.",
+    [
+     "In 1922, at fifteen, he became an apprentice at a Tokyo garage,",
+     "In nineteen twenty-two, at fifteen, he became an apprentice at a Tokyo garage,"
+    ],
+    [
+     "and in 1928 he opened his own repair shop in Hamamatsu.",
+     "and in nineteen twenty-eight he opened his own repair shop in Hamamatsu."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Rural Shizuoka"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A Tokyo garage, 1920s"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Rejected",
+   "lines": [
+    [
+     "In 1936, he began making piston rings for cars,",
+     "In nineteen thirty-six, he began making piston rings for cars,"
+    ],
+    "but his first batch for Toyota was rejected.",
+    "He refused to give up, and improved them until they passed,",
+    "and after the war, he fitted small engines onto bicycles."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Rejected",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "His first piston rings",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "No giving up",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Improving again and again",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Post-war bicycles with engines"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A hundred million bikes",
+   "lines": [
+    [
+     "In 1948, he founded the Honda Motor Company,",
+     "In nineteen forty-eight, he founded the Honda Motor Company,"
+    ],
+    [
+     "and in 1958 launched the small, easy Super Cub.",
+     "and in nineteen fifty-eight launched the small, easy Super Cub."
+    ],
+    "It carried workers and families on streets around the world,",
+    [
+     "and by 2017, the series had passed one hundred million units.",
+     "and by twenty seventeen, the series had passed one hundred million units."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1948",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Honda Motor is founded",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A Japanese street, 1950s"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "100 million",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Super Cub series",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Proving it on the track",
+   "lines": [
+    [
+     "In 1954, he vowed to race at the Isle of Man,",
+     "In nineteen fifty-four, he vowed to race at the Isle of Man,"
+    ],
+    [
+     "and in 1959, on its first try, Honda won the team prize.",
+     "and in nineteen fifty-nine, on its first try, Honda won the team prize."
+    ],
+    [
+     "He retired in 1973,",
+     "He retired in nineteen seventy-three,"
+    ],
+    [
+     "and died in 1991, at the age of eighty-four.",
+     "and died in nineteen ninety-one, at the age of eighty-four."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Isle of Man TT races"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "84",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "1906 – 1991",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "From a blacksmith's son to a world-famous engineer,",
+    "he failed, and started again, over and over.",
+    "So here is his question:",
+    "How many times would you fail for a dream?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Fail",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Start again",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "How many times would you",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "fail for a dream?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 17, we remember Soichiro Honda.",
+     "and on November seventeenth, we remember Soichiro Honda."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Honda",
+    "years": "1906 – 1991"
+   }
+  }
+ ]
+}

@@ -28,3 +28,4 @@
 | 2026-11-14 | Frederick Banting | born (1891, Alliston, Ontario) | yes |
 | 2026-11-15 | Georgia O'Keeffe | born (1887, Sun Prairie, Wisconsin) | yes |
 | 2026-11-16 | Chinua Achebe | born (1930, Ogidi, Nigeria) | yes |
+| 2026-11-17 | Soichiro Honda | born (1906, Shizuoka, Japan) | yes |

@@ -29,3 +29,4 @@
 | 2026-11-15 | Georgia O'Keeffe | nacimiento (1887, Sun Prairie, Wisconsin) | yes |
 | 2026-11-16 | Chinua Achebe | nacimiento (1930, Ogidi, Nigeria) | yes |
 | 2026-11-17 | Soichiro Honda | nacimiento (1906, Shizuoka, Japón) | yes |
+| 2026-11-18 | Louis Daguerre | nacimiento (1787, Cormeilles-en-Parisis, Francia) | yes |

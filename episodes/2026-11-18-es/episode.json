@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-18",
+ "mmdd": "11.18",
+ "lang": "es",
+ "person": "Louis Daguerre",
+ "event": "nacimiento",
+ "title": "Daguerre: el hombre que tomó la primera foto de una persona",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "La primera fotografía de una persona la tomó este hombre.",
+    [
+     "¿Quién cambió el mundo hoy? 18 de noviembre.",
+     "¿Quién cambió el mundo hoy? Dieciocho de noviembre."
+    ],
+    [
+     "Hace 239 años,",
+     "Hace doscientos treinta y nueve años,"
+    ],
+    "nació un niño cerca de París.",
+    "Era Louis Daguerre, el padre de la fotografía."
+   ],
+   "data": {
+    "hook": "La primera foto\nde una persona",
+    "sub": "1787  ──  2026",
+    "sub_at": 2,
+    "name": "Daguerre",
+    "name_years": "Louis Daguerre · 1787 – 1851",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El pintor de teatro",
+   "lines": [
+    "Estudió poco, pero dibujaba de maravilla,",
+    "y de joven pintaba enormes decorados de teatro.",
+    [
+     "En 1822 abrió el Diorama en París,",
+     "En mil ochocientos veintidós abrió el Diorama en París,"
+    ],
+    "donde la luz hacía parecer reales cuadros gigantes."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Decorados de teatro"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "El Diorama de París, 1822"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Que la luz dibuje",
+   "lines": [
+    "Se preguntó: ¿podría la luz dibujar una imagen por sí sola?",
+    [
+     "En 1829 se asoció con el inventor Nicéphore Niépce,",
+     "En mil ochocientos veintinueve se asoció con el inventor Nicéphore Niépce,"
+    ],
+    "y cuando Niépce murió, siguió experimentando solo,",
+    [
+     "hasta lograr una imagen nítida en una placa plateada.",
+     "hasta que apareció una imagen nítida en una placa de cobre plateada."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Dibujar con luz",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Una idea atrevida",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Su mesa de trabajo, años 30"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  La primera persona en una foto",
+   "lines": [
+    [
+     "En 1838 fotografió un bulevar de París desde su ventana.",
+     "En mil ochocientos treinta y ocho fotografió un bulevar de París desde su ventana."
+    ],
+    [
+     "Con minutos de exposición, coches y gente desaparecieron,",
+     "La exposición duraba minutos, y los coches y la gente desaparecieron,"
+    ],
+    "pero un hombre se quedó quieto para que le limpiaran las botas,",
+    "y fue la primera persona fotografiada."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Boulevard du Temple, 1838"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "La primera persona",
+        "style": "huge",
+        "size": 84,
+        "color": "red"
+       },
+       {
+        "text": "Un hombre limpiándose las botas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Un regalo al mundo",
+   "lines": [
+    [
+     "En 1839 el gobierno francés compró el invento,",
+     "En mil ochocientos treinta y nueve el gobierno francés compró el invento,"
+    ],
+    [
+     "le dio una pensión y regaló el método al mundo.",
+     "le dio una pensión de por vida y compartió el método con el mundo."
+    ],
+    [
+     "Surgieron estudios de retrato para las familias.",
+     "Los estudios de retrato se multiplicaron, y las familias guardaron los rostros de los suyos."
+    ],
+    [
+     "Murió en 1851, a los sesenta y tres años.",
+     "Murió en mil ochocientos cincuenta y uno, a los sesenta y tres años."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1839",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Compartido con el mundo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Un estudio de retratos, años 40"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    "De las ilusiones pintadas a un instante real,",
+    "dejó que la gente común guardara su rostro para siempre.",
+    "Esta es su pregunta:",
+    "Si solo pudieras guardar una foto, ¿cuál sería?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Un instante",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Guardado para siempre",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si solo pudieras guardar una foto,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "¿cuál sería?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 18 de noviembre, recordamos a Louis Daguerre.",
+     "y este dieciocho de noviembre, recordamos a Louis Daguerre."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Daguerre",
+    "years": "1787 – 1851"
+   }
+  }
+ ]
+}

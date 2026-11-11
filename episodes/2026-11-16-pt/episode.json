@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-16",
+ "mmdd": "11.16",
+ "lang": "pt",
+ "person": "Chinua Achebe",
+ "event": "nascimento",
+ "title": "Achebe: o romance que deu voz própria à África",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Um romance fez o mundo ouvir a voz da África.",
+    [
+     "Quem mudou o mundo hoje? 16 de novembro.",
+     "Quem mudou o mundo hoje? Dezesseis de novembro."
+    ],
+    [
+     "Há 96 anos,",
+     "Há noventa e seis anos,"
+    ],
+    "nascia um menino na Nigéria.",
+    "Era Chinua Achebe, pai da literatura africana moderna."
+   ],
+   "data": {
+    "hook": "Um romance que fez\no mundo ouvir a África",
+    "sub": "1930  ──  2026",
+    "sub_at": 2,
+    "name": "Achebe",
+    "name_years": "Chinua Achebe · 1930 – 2013",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Entre dois mundos",
+   "lines": [
+    "Nasceu em Ogidi, no leste da Nigéria,",
+    "e cresceu entre o cristianismo e a tradição igbo.",
+    [
+     "Em 1948, entrou na universidade de Ibadan,",
+     "Em mil novecentos e quarenta e oito, entrou na universidade de Ibadan,"
+    ],
+    "e leu livros ocidentais em que os africanos não tinham voz."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uma aldeia igbo, leste da Nigéria"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Biblioteca em Ibadan, por volta de 1950"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  O mundo se despedaça",
+   "lines": [
+    "Decidiu que a África contaria suas próprias histórias.",
+    [
+     "Em 1958, lançou seu primeiro romance, O mundo se despedaça,",
+     "Em mil novecentos e cinquenta e oito, lançou seu primeiro romance, O mundo se despedaça,"
+    ],
+    [
+     "sobre um guerreiro igbo, cujo mundo desaba com a colônia,",
+     "sobre um guerreiro igbo cujo mundo desaba com a chegada colonial,"
+    ],
+    "traduzido para mais de quarenta línguas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "A própria história",
+        "style": "huge",
+        "size": 84,
+        "color": "red"
+       },
+       {
+        "text": "Contada por africanos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "O mundo se despedaça, 1958"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "40+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "línguas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  A história do leão",
+   "lines": [
+    "Ele gostava de citar um provérbio africano:",
+    [
+     "até os leões terem historiadores, a caçada vai glorificar o caçador.",
+     "até que os leões tenham seus historiadores, a caçada vai glorificar o caçador."
+    ],
+    [
+     "Em 1975, criticou o clássico de Conrad, Coração das trevas,",
+     "Em mil novecentos e setenta e cinco, criticou o clássico de Conrad, Coração das trevas,"
+    ],
+    "por reduzir os africanos a um cenário sem humanidade."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "O leão e o caçador"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1975",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Contra Coração das trevas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  O professor de cadeira de rodas",
+   "lines": [
+    "Depois, um acidente de carro o deixou numa cadeira de rodas,",
+    "mas seguiu ensinando nos Estados Unidos.",
+    [
+     "Em 2007, ganhou o Man Booker Internacional,",
+     "Em dois mil e sete, ganhou o Man Booker Internacional,"
+    ],
+    [
+     "e morreu em Boston em 2013, aos oitenta e dois anos.",
+     "e morreu em Boston em dois mil e treze, aos oitenta e dois anos."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Uma sala de aula nos EUA"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "2007",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Man Booker Internacional",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "82",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Boston, 2013",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Hoje, estudantes do mundo todo ainda leem esse romance,",
+    "e ele deu aos africanos a própria voz.",
+    "A pergunta dele:",
+    "Se outros contam sempre a sua história, você vai pegar a caneta?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "A própria voz",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Para contar a própria história",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Se outros contam sempre a sua história,",
+        "style": "head",
+        "size": 28,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "você vai pegar a caneta?",
+        "style": "head",
+        "size": 28,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 16 de novembro, lembramos de Chinua Achebe.",
+     "e neste dezesseis de novembro, lembramos de Chinua Achebe."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Achebe",
+    "years": "1930 – 2013"
+   }
+  }
+ ]
+}

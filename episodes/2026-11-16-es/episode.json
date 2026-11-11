@@ -1,0 +1,329 @@
+{
+ "date": "2026-11-16",
+ "mmdd": "11.16",
+ "lang": "es",
+ "person": "Chinua Achebe",
+ "event": "nacimiento",
+ "title": "Achebe: la novela que dio voz propia a África",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Una novela hizo que el mundo oyera la voz de África.",
+    [
+     "¿Quién cambió el mundo hoy? 16 de noviembre.",
+     "¿Quién cambió el mundo hoy? Dieciséis de noviembre."
+    ],
+    [
+     "Hace 96 años,",
+     "Hace noventa y seis años,"
+    ],
+    "nació un niño en Nigeria.",
+    "Era Chinua Achebe, padre de la literatura africana moderna."
+   ],
+   "data": {
+    "hook": "Una novela que hizo\noír la voz de África",
+    "sub": "1930  ──  2026",
+    "sub_at": 2,
+    "name": "Achebe",
+    "name_years": "Chinua Achebe · 1930 – 2013",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Entre dos mundos",
+   "lines": [
+    "Nació en Ogidi, en el este de Nigeria,",
+    "y creció entre el cristianismo y la tradición igbo.",
+    [
+     "En 1948 entró en la universidad de Ibadán,",
+     "En mil novecientos cuarenta y ocho entró en la universidad de Ibadán,"
+    ],
+    "y leyó libros occidentales donde los africanos no tenían voz."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Una aldea igbo, este de Nigeria"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Biblioteca en Ibadán, hacia 1950"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Todo se desmorona",
+   "lines": [
+    "Decidió que las historias de África las contarían africanos.",
+    [
+     "En 1958 publicó su primera novela, Todo se desmorona,",
+     "En mil novecientos cincuenta y ocho publicó su primera novela, Todo se desmorona,"
+    ],
+    [
+     "sobre un guerrero igbo, cuyo mundo cae con los colonos,",
+     "sobre un guerrero igbo cuyo mundo se derrumba con la llegada colonial,"
+    ],
+    "y fue traducida a más de cuarenta idiomas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Su propia historia",
+        "style": "huge",
+        "size": 84,
+        "color": "red"
+       },
+       {
+        "text": "Contada por africanos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Todo se desmorona, 1958"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "40+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "idiomas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  La historia del león",
+   "lines": [
+    "Le gustaba citar un proverbio africano:",
+    [
+     "sin historiador del león, la caza glorificará al cazador.",
+     "hasta que los leones tengan sus propios historiadores, la cacería glorificará al cazador."
+    ],
+    [
+     "En 1975 criticó el clásico de Conrad, El corazón de las tinieblas,",
+     "En mil novecientos setenta y cinco criticó el clásico de Conrad, El corazón de las tinieblas,"
+    ],
+    "por reducir a los africanos a un fondo sin humanidad."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "El león y el cazador"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1975",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Frente a El corazón de las tinieblas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  El profesor en silla de ruedas",
+   "lines": [
+    "Luego, un accidente de coche lo dejó en silla de ruedas,",
+    "pero en Estados Unidos siguió enseñando y escribiendo.",
+    [
+     "En 2007 ganó el Premio Man Booker Internacional,",
+     "En dos mil siete ganó el Premio Man Booker Internacional,"
+    ],
+    [
+     "y murió en Boston en 2013, a los ochenta y dos años.",
+     "y murió en Boston en dos mil trece, a los ochenta y dos años."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Un aula universitaria en EE. UU."
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "2007",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Man Booker Internacional",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "82",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Boston, 2013",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "Hoy, en todo el mundo, se sigue leyendo Todo se desmorona.",
+     "Hoy, estudiantes de todo el mundo siguen leyendo Todo se desmorona."
+    ],
+    "Él dio a los africanos su propia voz para contar su historia.",
+    "Esta es su pregunta:",
+    "Si otros siguen contando tu historia, ¿recuperarás la pluma?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Su propia voz",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Para contar su historia",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si otros siguen contando tu historia,",
+        "style": "head",
+        "size": 30,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "¿recuperarás la pluma?",
+        "style": "head",
+        "size": 30,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 16 de noviembre, recordamos a Chinua Achebe.",
+     "y este dieciséis de noviembre, recordamos a Chinua Achebe."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Achebe",
+    "years": "1930 – 2013"
+   }
+  }
+ ]
+}

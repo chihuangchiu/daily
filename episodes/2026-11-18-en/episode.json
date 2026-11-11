@@ -1,0 +1,292 @@
+{
+ "date": "2026-11-18",
+ "mmdd": "11.18",
+ "lang": "en",
+ "person": "Louis Daguerre",
+ "event": "born",
+ "title": "Daguerre: The Man Who Took the First Photo of a Person",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "The first photograph of a person was taken by this man.",
+    [
+     "Who changed the world today? November 18.",
+     "Who changed the world today? November eighteenth."
+    ],
+    [
+     "239 years ago today,",
+     "Two hundred thirty-nine years ago today,"
+    ],
+    "a boy was born near Paris, France.",
+    "He was Louis Daguerre, the father of photography."
+   ],
+   "data": {
+    "hook": "The first photo\nof a person",
+    "sub": "1787  ──  2026",
+    "sub_at": 2,
+    "name": "Daguerre",
+    "name_years": "Louis Daguerre · 1787 – 1851",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The theatre painter",
+   "lines": [
+    "He had little schooling, but he could draw beautifully,",
+    "and as a young man he painted giant theatre scenery.",
+    [
+     "In 1822 he opened the Diorama in Paris,",
+     "In eighteen twenty-two he opened the Diorama in Paris,"
+    ],
+    [
+     "where light made giant paintings look real.",
+     "where shifting light made huge paintings look real, and crowds lined up."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Painting theatre scenery"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "The Paris Diorama, 1822"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Let light do the drawing",
+   "lines": [
+    "He wondered: could light draw a picture all by itself?",
+    [
+     "In 1829 he teamed up with the inventor Nicéphore Niépce,",
+     "In eighteen twenty-nine he teamed up with the inventor Nicéphore Niépce,"
+    ],
+    "and after Niépce died, he kept experimenting alone,",
+    "until a clear image appeared on a silver-coated copper plate."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Drawn by light",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "A bold idea",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "His work table, 1830s"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The first person in a photo",
+   "lines": [
+    [
+     "In 1838 he photographed a Paris boulevard from his window.",
+     "In eighteen thirty-eight he photographed a Paris boulevard from his window."
+    ],
+    "The exposure took minutes, so the moving carts and people vanished,",
+    "but one man stood still to have his boots shined,",
+    "and became the first person ever photographed."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Boulevard du Temple, 1838"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "The first person",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "A man having his boots shined",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  A gift to the world",
+   "lines": [
+    [
+     "In 1839 the French government bought the invention,",
+     "In eighteen thirty-nine the French government bought the invention,"
+    ],
+    "gave him a pension for life, and shared the method with the world.",
+    [
+     "Studios spread fast; families kept loved ones' faces.",
+     "Portrait studios spread fast, and families kept their loved ones' faces."
+    ],
+    [
+     "He died in 1851, at sixty-three.",
+     "He died in eighteen fifty-one, at sixty-three."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1839",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Shared with the world",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A portrait studio, 1840s"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "From painted illusions to a real moment in time,",
+    "he let ordinary people keep their own faces forever.",
+    "His question for you:",
+    "If you could keep only one photo, what would it be?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "One moment",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Kept forever",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If you could keep only one photo,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "what would it be?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 18, we remember Louis Daguerre.",
+     "and on November eighteenth, we remember Louis Daguerre."
+    ],
+    "If you enjoyed it, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Daguerre",
+    "years": "1787 – 1851"
+   }
+  }
+ ]
+}

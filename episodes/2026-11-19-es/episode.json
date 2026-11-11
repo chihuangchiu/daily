@@ -1,0 +1,289 @@
+{
+ "date": "2026-11-19",
+ "mmdd": "11.19",
+ "lang": "es",
+ "person": "Abraham Lincoln",
+ "event": "discurso de Gettysburg",
+ "title": "Lincoln: el discurso de dos minutos que cambió Estados Unidos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Un discurso de solo dos minutos cambió Estados Unidos.",
+    [
+     "¿Quién cambió el mundo hoy? 19 de noviembre.",
+     "¿Quién cambió el mundo hoy? Diecinueve de noviembre."
+    ],
+    [
+     "Hace 163 años,",
+     "Hace ciento sesenta y tres años,"
+    ],
+    "en un nuevo cementerio de Pensilvania,",
+    [
+     "Lincoln pronunció el discurso de Gettysburg.",
+     "el presidente Abraham Lincoln pronunció el discurso de Gettysburg."
+    ]
+   ],
+   "data": {
+    "hook": "Un discurso de dos minutos\nque cambió un país",
+    "sub": "1863  ──  2026",
+    "sub_at": 2,
+    "name": "Lincoln",
+    "name_years": "Abraham Lincoln · 1809 – 1865",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.4,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Tres días de batalla",
+   "lines": [
+    [
+     "En julio de 1863, la guerra civil estaba en su peor momento.",
+     "En julio de mil ochocientos sesenta y tres, la guerra civil estaba en su peor momento."
+    ],
+    "Dos ejércitos lucharon tres días junto al pueblo de Gettysburg,",
+    "y hubo más de cincuenta mil muertos, heridos o desaparecidos.",
+    "Miles de soldados caídos fueron enterrados en la colina."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Gettysburg, julio de 1863"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "El cementerio en la colina"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Dos horas, dos minutos",
+   "lines": [
+    [
+     "El 19 de noviembre se inauguró el cementerio nacional.",
+     "El diecinueve de noviembre se inauguró el cementerio nacional."
+    ],
+    "El orador principal, Edward Everett, habló dos horas enteras.",
+    "Luego Lincoln se levantó,",
+    "y habló unos dos minutos, menos de trescientas palabras."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "La multitud en la inauguración"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "2 minutos",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Menos de 300 palabras",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Del pueblo, por el pueblo",
+   "lines": [
+    [
+     "Dijo que todos los hombres son creados iguales,",
+     "Dijo que la nación nació creyendo que todos los hombres son creados iguales,"
+    ],
+    "que esos muertos no habían muerto en vano,",
+    "que la nación tendría un nuevo nacimiento de libertad,",
+    [
+     "y que el gobierno del pueblo no desaparecería.",
+     "y que el gobierno del pueblo, por el pueblo y para el pueblo no desaparecería de la tierra."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Dos hojas de notas"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Del, por y para el pueblo",
+        "style": "huge",
+        "size": 60,
+        "color": "red"
+       },
+       {
+        "text": "Un nuevo nacimiento de libertad",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Palabras que el mundo recordó",
+   "lines": [
+    "Dijo que el mundo apenas recordaría lo que se dijo allí,",
+    "pero se volvió uno de los discursos más famosos.",
+    [
+     "En abril de 1865, poco después de la guerra, fue asesinado,",
+     "En abril de mil ochocientos sesenta y cinco, poco después de la guerra, fue asesinado,"
+    ],
+    "a los cincuenta y seis años."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Generaciones de alumnos lo recitan"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "56",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "1809 – 1865",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    "Las grandes palabras no tienen que ser largas,",
+    "y en dos minutos, él puso en palabras los ideales de un país.",
+    "Esta es su pregunta:",
+    "Si solo tuvieras dos minutos, ¿qué es lo que dirías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Dos minutos",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Los ideales de un país",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si solo tuvieras dos minutos,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "¿qué dirías?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 19 de noviembre, recordamos a Abraham Lincoln.",
+     "y este diecinueve de noviembre, recordamos a Abraham Lincoln."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Lincoln",
+    "years": "1809 – 1865"
+   }
+  }
+ ]
+}

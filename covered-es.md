@@ -30,3 +30,4 @@
 | 2026-11-16 | Chinua Achebe | nacimiento (1930, Ogidi, Nigeria) | yes |
 | 2026-11-17 | Soichiro Honda | nacimiento (1906, Shizuoka, Japón) | yes |
 | 2026-11-18 | Louis Daguerre | nacimiento (1787, Cormeilles-en-Parisis, Francia) | yes |
+| 2026-11-19 | Abraham Lincoln | discurso de Gettysburg (1863, Pensilvania) | yes |

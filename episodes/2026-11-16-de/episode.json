@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-16",
+ "mmdd": "11.16",
+ "lang": "de",
+ "person": "Chinua Achebe",
+ "event": "Geburt",
+ "title": "Achebe: Der Roman, der Afrika eine eigene Stimme gab",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ein Roman ließ die ganze Welt Afrikas eigene Stimme hören.",
+    [
+     "Wer hat heute die Welt verändert? Der 16. November.",
+     "Wer hat heute die Welt verändert? Der sechzehnte November."
+    ],
+    [
+     "Heute vor 96 Jahren",
+     "Heute vor sechsundneunzig Jahren"
+    ],
+    "wurde in Nigeria ein Junge geboren.",
+    "Es war Chinua Achebe, Vater der modernen afrikanischen Literatur."
+   ],
+   "data": {
+    "hook": "Ein Roman ließ die Welt\nAfrikas Stimme hören",
+    "sub": "1930  ──  2026",
+    "sub_at": 2,
+    "name": "Achebe",
+    "name_years": "Chinua Achebe · 1930 – 2013",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Zwischen zwei Welten",
+   "lines": [
+    "Er kam in Ogidi im Osten Nigerias zur Welt",
+    "und wuchs zwischen Christentum und Igbo-Tradition auf.",
+    [
+     "1948 ging er an die Universität in Ibadan",
+     "Neunzehnhundertachtundvierzig ging er an die Universität in Ibadan"
+    ],
+    "und las westliche Bücher, in denen Afrikaner keine Stimme hatten."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein Igbo-Dorf im Osten Nigerias"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Bibliothek in Ibadan, um 1950"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Alles zerfällt",
+   "lines": [
+    "Er beschloss: Afrikas Geschichten sollen Afrikaner erzählen.",
+    [
+     "1958 erschien sein erster Roman, Alles zerfällt,",
+     "Neunzehnhundertachtundfünfzig erschien sein erster Roman, Alles zerfällt,"
+    ],
+    [
+     "über einen Igbo-Krieger, dessen Welt zerbricht,",
+     "über einen Igbo-Krieger, dessen Welt mit den Kolonialherren zerbricht,"
+    ],
+    "übersetzt in mehr als vierzig Sprachen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Eigene Geschichten",
+        "style": "huge",
+        "size": 84,
+        "color": "red"
+       },
+       {
+        "text": "Von Afrikanern erzählt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Alles zerfällt, 1958"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "40+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Sprachen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Die Geschichte des Löwen",
+   "lines": [
+    "Gern zitierte er ein afrikanisches Sprichwort:",
+    [
+     "Bis Löwen Historiker haben, rühmt die Jagd den Jäger.",
+     "Bis die Löwen eigene Historiker haben, wird die Jagd immer den Jäger rühmen."
+    ],
+    [
+     "1975 kritisierte er Conrads Klassiker Herz der Finsternis,",
+     "Neunzehnhundertfünfundsiebzig kritisierte er Conrads Klassiker Herz der Finsternis,"
+    ],
+    "weil er Afrikaner zur entmenschlichten Kulisse mache."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Der Löwe und der Jäger"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1975",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Gegen Herz der Finsternis",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Der Professor im Rollstuhl",
+   "lines": [
+    "Später saß er nach einem Autounfall im Rollstuhl,",
+    "doch in Amerika lehrte und schrieb er weiter.",
+    [
+     "2007 erhielt er den Man Booker International Prize,",
+     "Zweitausendsieben erhielt er den Man Booker International Prize,"
+    ],
+    [
+     "und 2013 starb er in Boston, mit 82 Jahren.",
+     "und zweitausenddreizehn starb er in Boston, mit zweiundachtzig Jahren."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Ein Seminarraum in den USA"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "2007",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Man Booker International",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "82",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Boston, 2013",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Bis heute lesen Schüler in aller Welt Alles zerfällt,",
+    "denn er gab Afrikanern ihre eigene Stimme.",
+    "Hier ist seine Frage:",
+    "Erzählen andere deine Geschichte, nimmst du dir den Stift zurück?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Eigene Stimme",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Die eigene Geschichte erzählen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Erzählen andere deine Geschichte,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "nimmst du dir den Stift zurück?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 16. November erinnern wir an Chinua Achebe.",
+     "und am sechzehnten November erinnern wir an Chinua Achebe."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Achebe",
+    "years": "1930 – 2013"
+   }
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "date": "2026-11-15",
+ "mmdd": "11.15",
+ "lang": "pt",
+ "person": "Georgia O'Keeffe",
+ "event": "nascimento",
+ "title": "O'Keeffe: uma flor pintada vendida por 44 milhões",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Uma flor que ela pintou valeu 44 milhões de dólares.",
+     "Uma flor que ela pintou valeu quarenta e quatro milhões de dólares."
+    ],
+    [
+     "Quem mudou o mundo hoje? 15 de novembro.",
+     "Quem mudou o mundo hoje? Quinze de novembro."
+    ],
+    [
+     "Há 139 anos,",
+     "Há cento e trinta e nove anos,"
+    ],
+    "nascia uma menina numa fazenda americana.",
+    "Era Georgia O'Keeffe, mãe do modernismo americano."
+   ],
+   "data": {
+    "hook": "Uma flor pintada,\n44 milhões de dólares",
+    "sub": "1887  ──  2026",
+    "sub_at": 2,
+    "name": "O'Keeffe",
+    "name_years": "Georgia O'Keeffe · 1887 – 1986",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  A menina do trigal",
+   "lines": [
+    "Cresceu numa fazenda em Wisconsin,",
+    "e estudou arte em Chicago e Nova York.",
+    [
+     "Em 1915, já professora,",
+     "Em mil novecentos e quinze, já professora,"
+    ],
+    "fez desenhos abstratos a carvão."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uma fazenda de trigo em Wisconsin"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Carvões abstratos, 1915"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Uma mostra sem permissão",
+   "lines": [
+    "Mandou os desenhos a uma amiga, que os mostrou a Stieglitz.",
+    [
+     "Em 1916, sem perguntar, ele pendurou dez na galeria.",
+     "Em mil novecentos e dezesseis, sem perguntar, ele pendurou dez na galeria."
+    ],
+    "No ano seguinte, deu a ela sua primeira exposição,",
+    [
+     "e em 1924, se casaram.",
+     "e em mil novecentos e vinte e quatro, se casaram."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "10 desenhos",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Enviados a Nova York",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Galeria 291, Nova York, 1916"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1924",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Casamento com Stieglitz",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Flores gigantes",
+   "lines": [
+    "Pintava flores enormes,",
+    "para que, dizia, os ocupados parassem para olhar.",
+    [
+     "Nos anos vinte, essas flores gigantes",
+     "Nos anos vinte, essas flores gigantes"
+    ],
+    "fizeram dela uma estrela em Nova York."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Um ateliê em Nova York, anos 20"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Flores gigantes",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "Nova York parou para olhar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Deserto e ossos",
+   "lines": [
+    [
+     "No verão de 1929, foi pintar no Novo México,",
+     "No verão de mil novecentos e vinte e nove, foi pintar no Novo México,"
+    ],
+    "e se apaixonou pelo deserto.",
+    [
+     "Em 1946, o MoMA de Nova York fez uma retrospectiva dela,",
+     "Em mil novecentos e quarenta e seis, o Moma de Nova York fez uma retrospectiva dela,"
+    ],
+    "a primeira para uma mulher,",
+    [
+     "e em 1949, mudou-se para lá.",
+     "e em mil novecentos e quarenta e nove, mudou-se para lá."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "O deserto do Novo México"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1946",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "A primeira do MoMA para uma mulher",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1949",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Lar no Novo México",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Morreu em Santa Fé em 1986, aos 98 anos.",
+     "Morreu em Santa Fé em mil novecentos e oitenta e seis, aos noventa e oito anos."
+    ],
+    [
+     "Em 2014, uma flor branca dela foi vendida por 44 milhões,",
+     "Em dois mil e catorze, uma flor branca dela foi vendida por quarenta e quatro milhões,"
+    ],
+    "recorde para uma artista mulher.",
+    "A pergunta dela:",
+    [
+     "Se ninguém vê o mundo como você, pintaria mesmo assim?",
+     "Se ninguém vê o mundo como você, você o pintaria mesmo assim?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "98",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Santa Fé, 1986",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "US$ 44,4 mi",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Recorde para uma artista mulher",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dela",
+        "style": "kicker"
+       },
+       {
+        "text": "Se ninguém vê o mundo como você,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "pintaria mesmo assim?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 15 de novembro, lembramos de Georgia O'Keeffe.",
+     "e neste quinze de novembro, lembramos de Georgia O'Keeffe."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "O'Keeffe",
+    "years": "1887 – 1986"
+   }
+  }
+ ]
+}

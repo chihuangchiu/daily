@@ -1,0 +1,311 @@
+{
+ "date": "2026-11-14",
+ "mmdd": "11.14",
+ "lang": "es",
+ "person": "Frederick Banting",
+ "event": "nacimiento",
+ "title": "Banting: vendió la patente de la insulina por un dólar",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Vendió una patente que salva vidas por un dólar.",
+    [
+     "¿Quién cambió el mundo hoy? 14 de noviembre.",
+     "¿Quién cambió el mundo hoy? Catorce de noviembre."
+    ],
+    [
+     "Hace 135 años,",
+     "Hace ciento treinta y cinco años,"
+    ],
+    "nació un niño en el campo de Canadá.",
+    "Era Frederick Banting, el médico de la insulina."
+   ],
+   "data": {
+    "hook": "Una patente que salva\nvidas, por un dólar",
+    "sub": "1891  ──  2026",
+    "sub_at": 2,
+    "name": "Banting",
+    "name_years": "Frederick Banting · 1891 – 1941",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.4,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El chico de granja que suspendió",
+   "lines": [
+    "Creció en una granja de Ontario,",
+    "suspendió primero de carrera y se pasó a medicina.",
+    [
+     "En 1918, como médico militar en Francia,",
+     "En mil novecientos dieciocho, como médico militar en Francia,"
+    ],
+    "fue herido por metralla en Cambrai."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Medicina",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Tras suspender el primer año",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Cambrai, Francia, 1918"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Una nota en la noche",
+   "lines": [
+    "Entonces, la diabetes era casi una sentencia de muerte.",
+    "Muchos niños sobrevivían solo meses con dietas de hambre.",
+    [
+     "La noche del 31 de octubre de 1920,",
+     "La noche del treinta y uno de octubre de mil novecientos veinte,"
+    ],
+    "sin poder dormir, anotó una idea."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Sentencia de muerte",
+        "style": "huge",
+        "size": 66,
+        "color": "red"
+       },
+       {
+        "text": "La diabetes antes de la insulina",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Noche del 31 de octubre de 1920"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  El chico que vivió",
+   "lines": [
+    [
+     "El 17 de mayo de 1921, empezó a experimentar en Toronto,",
+     "El diecisiete de mayo de mil novecientos veintiuno, empezó a experimentar en Toronto,"
+    ],
+    "con un estudiante, Charles Best,",
+    "y trabajando día y noche, aislaron la insulina.",
+    [
+     "En enero de 1922, Leonard Thompson, de 14 años, se moría,",
+     "En enero de mil novecientos veintidós, Leonard Thompson, de catorce años, se moría,"
+    ],
+    "pero con insulina, sobrevivió."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Laboratorio en Toronto, 1921"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Hospital General de Toronto, 1922"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Una patente de un dólar",
+   "lines": [
+    [
+     "En 1923, con 32 años, ganó el Nobel de Medicina,",
+     "En mil novecientos veintitrés, con treinta y dos años, ganó el Nobel de Medicina,"
+    ],
+    "y dio la mitad del premio a Best.",
+    "Vendieron la patente de la insulina a su universidad por un dólar.",
+    "Él dijo: la insulina no me pertenece, pertenece al mundo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Premio Nobel",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "1923, a los 32 años",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Una patente vital por 1 dólar"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1941, murió en un accidente aéreo, con 49 años.",
+     "En mil novecientos cuarenta y uno, murió en un accidente aéreo, con cuarenta y nueve años."
+    ],
+    [
+     "Su cumpleaños, 14 de noviembre, es el Día Mundial de la Diabetes,",
+     "Su cumpleaños, el catorce de noviembre, es hoy el Día Mundial de la Diabetes,"
+    ],
+    "y la insulina ha salvado incontables vidas.",
+    "Esta es su pregunta:",
+    "Si tu idea te hiciera rico, ¿la regalarías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1941",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Accidente aéreo, a los 49",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "14 nov",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Día Mundial de la Diabetes",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si tu idea te hiciera rico,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "¿la regalarías?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 14 de noviembre, recordamos a Frederick Banting.",
+     "y este catorce de noviembre, recordamos a Frederick Banting."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Banting",
+    "years": "1891 – 1941"
+   }
+  }
+ ]
+}

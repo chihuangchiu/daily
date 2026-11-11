@@ -1,0 +1,311 @@
+{
+ "date": "2026-11-14",
+ "mmdd": "11.14",
+ "lang": "en",
+ "person": "Frederick Banting",
+ "event": "born",
+ "title": "Banting: He Sold the Insulin Patent for One Dollar",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He sold a life-saving patent for one dollar.",
+    [
+     "Who changed the world today? November 14.",
+     "Who changed the world today? November fourteenth."
+    ],
+    [
+     "135 years ago today,",
+     "One hundred and thirty-five years ago today,"
+    ],
+    "a boy was born in rural Canada.",
+    "He was Frederick Banting, the doctor behind insulin."
+   ],
+   "data": {
+    "hook": "A life-saving patent\nsold for one dollar",
+    "sub": "1891  ──  2026",
+    "sub_at": 2,
+    "name": "Banting",
+    "name_years": "Frederick Banting · 1891 – 1941",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.4,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The farm boy who failed",
+   "lines": [
+    "He grew up on a farm in Ontario,",
+    "failed his first year of college, then switched to medicine.",
+    [
+     "In 1918, as an army doctor in France,",
+     "In nineteen eighteen, as an army doctor in France,"
+    ],
+    "he was wounded by shrapnel at Cambrai."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Medicine",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "After failing year one",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Cambrai, France, 1918"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  A note in the night",
+   "lines": [
+    "Back then, diabetes was almost a death sentence.",
+    "Children were kept alive for months on starvation diets.",
+    [
+     "On the night of October 31, 1920,",
+     "On the night of October thirty-first, nineteen twenty,"
+    ],
+    "unable to sleep, he jotted down an idea."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Death sentence",
+        "style": "huge",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "Diabetes, before insulin",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Late at night, October 31, 1920"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The boy who lived",
+   "lines": [
+    [
+     "On May 17, 1921, he began experiments in Toronto,",
+     "On May seventeenth, nineteen twenty-one, he began experiments in Toronto,"
+    ],
+    "with a student, Charles Best,",
+    "and working day and night, they isolated insulin.",
+    [
+     "In January 1922, 14-year-old Leonard Thompson lay dying,",
+     "In January nineteen twenty-two, fourteen-year-old Leonard Thompson lay dying,"
+    ],
+    "but after insulin injections, he lived."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "University of Toronto lab, 1921"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Toronto General Hospital, 1922"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  A one-dollar patent",
+   "lines": [
+    [
+     "In 1923, at 32, he won the Nobel Prize in Medicine,",
+     "In nineteen twenty-three, at thirty-two, he won the Nobel Prize in Medicine,"
+    ],
+    "and gave half his prize money to Best.",
+    "They sold the insulin patent to their university for one dollar.",
+    "He said: insulin does not belong to me, it belongs to the world."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Nobel Prize",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "1923, at age 32",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A life-saving patent for $1"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1941, he died in a plane crash, at just 49.",
+     "In nineteen forty-one, he died in a plane crash, at just forty-nine."
+    ],
+    [
+     "His birthday, November 14, is now World Diabetes Day,",
+     "His birthday, November fourteenth, is now World Diabetes Day,"
+    ],
+    "and insulin has since saved countless lives.",
+    "So here is his question:",
+    "If your idea made you rich, would you give it away?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1941",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Plane crash, at just 49",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "Nov 14",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "World Diabetes Day",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If your idea made you rich,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "would you give it away?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 14, we remember Frederick Banting.",
+     "and on November fourteenth, we remember Frederick Banting."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Banting",
+    "years": "1891 – 1941"
+   }
+  }
+ ]
+}

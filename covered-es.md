@@ -26,3 +26,4 @@
 | 2026-11-12 | Elizabeth Cady Stanton | nacimiento (1815, Johnstown, Nueva York) | yes |
 | 2026-11-13 | Gioachino Rossini | muerte (1868, Passy, cerca de París) | yes |
 | 2026-11-14 | Frederick Banting | nacimiento (1891, Alliston, Ontario) | yes |
+| 2026-11-15 | Georgia O'Keeffe | nacimiento (1887, Sun Prairie, Wisconsin) | yes |

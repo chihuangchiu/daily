@@ -1,0 +1,295 @@
+{
+ "date": "2026-11-18",
+ "mmdd": "11.18",
+ "lang": "de",
+ "person": "Louis Daguerre",
+ "event": "Geburt",
+ "title": "Daguerre: Der Mann, der das erste Foto eines Menschen machte",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Das erste Foto eines Menschen hat dieser Mann gemacht.",
+    [
+     "Wer hat heute die Welt verändert? Der 18. November.",
+     "Wer hat heute die Welt verändert? Der achtzehnte November."
+    ],
+    [
+     "Heute vor 239 Jahren",
+     "Heute vor zweihundertneununddreißig Jahren"
+    ],
+    "wurde bei Paris ein Junge geboren.",
+    "Es war Louis Daguerre, der Vater der Fotografie."
+   ],
+   "data": {
+    "hook": "Das erste Foto\neines Menschen",
+    "sub": "1787  ──  2026",
+    "sub_at": 2,
+    "name": "Daguerre",
+    "name_years": "Louis Daguerre · 1787 – 1851",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Theatermaler",
+   "lines": [
+    "Er ging kaum zur Schule, zeichnete aber wunderbar,",
+    "und als junger Mann malte er riesige Theaterkulissen.",
+    [
+     "1822 eröffnete er in Paris das Diorama,",
+     "Achtzehnhundertzweiundzwanzig eröffnete er in Paris das Diorama,"
+    ],
+    "wo wechselndes Licht riesige Gemälde echt wirken ließ."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Theaterkulissen"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Das Pariser Diorama, 1822"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Das Licht zeichnen lassen",
+   "lines": [
+    "Er fragte sich: Kann Licht allein ein Bild zeichnen?",
+    [
+     "1829 arbeitete er mit dem Erfinder Nicéphore Niépce,",
+     "Achtzehnhundertneunundzwanzig arbeitete er mit dem Erfinder Nicéphore Niépce,"
+    ],
+    "und nach Niépces Tod forschte er allein weiter,",
+    [
+     "bis auf versilbertem Kupfer ein klares Bild erschien.",
+     "bis auf einer versilberten Kupferplatte ein klares Bild erschien."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Mit Licht zeichnen",
+        "style": "huge",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "Eine kühne Idee",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Sein Arbeitstisch, 1830er"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der erste Mensch auf einem Foto",
+   "lines": [
+    [
+     "1838 fotografierte er einen Pariser Boulevard aus dem Fenster.",
+     "Achtzehnhundertachtunddreißig fotografierte er einen Pariser Boulevard aus dem Fenster."
+    ],
+    [
+     "Die Belichtung dauerte Minuten, Kutschen verschwanden,",
+     "Die Belichtung dauerte Minuten, Kutschen und Passanten verschwanden,"
+    ],
+    "doch ein Mann blieb stehen, zum Stiefelputzen,",
+    "und wurde der erste fotografierte Mensch."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Boulevard du Temple, 1838"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Der erste Mensch",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "Ein Mann beim Stiefelputzen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Ein Geschenk an die Welt",
+   "lines": [
+    [
+     "1839 kaufte der französische Staat die Erfindung,",
+     "Achtzehnhundertneununddreißig kaufte der französische Staat die Erfindung,"
+    ],
+    [
+     "gab ihm eine Rente und schenkte das Verfahren der Welt.",
+     "gab ihm eine lebenslange Rente und schenkte das Verfahren der Welt."
+    ],
+    "Bald gab es überall Fotoateliers für die Familien.",
+    [
+     "1851 starb er mit dreiundsechzig Jahren.",
+     "Achtzehnhunderteinundfünfzig starb er mit dreiundsechzig Jahren."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1839",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Der Welt geschenkt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Ein Fotoatelier, 1840er"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Von gemalten Illusionen zu einem echten Augenblick,",
+    "er ließ einfache Menschen ihr Gesicht für immer bewahren.",
+    "Seine Frage an dich:",
+    "Wenn du nur ein Foto behalten dürftest, welches wäre es?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Ein Augenblick",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Für immer bewahrt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn du nur ein Foto behalten dürftest,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "welches wäre es?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das war Wer hat heute die Welt verändert,",
+    [
+     "und am 18. November erinnern wir an Louis Daguerre.",
+     "und am achtzehnten November erinnern wir an Louis Daguerre."
+    ],
+    "Gefällt es dir? Abonniere und teile es. Bis morgen!"
+   ],
+   "data": {
+    "name": "Daguerre",
+    "years": "1787 – 1851"
+   }
+  }
+ ]
+}

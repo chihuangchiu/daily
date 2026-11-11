@@ -1,0 +1,335 @@
+{
+ "date": "2026-11-17",
+ "mmdd": "11.17",
+ "lang": "es",
+ "person": "Soichiro Honda",
+ "event": "nacimiento",
+ "title": "Soichiro Honda: de pistones rechazados a 100 millones de motos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Una pequeña moto, fabricada cien millones de veces.",
+    [
+     "¿Quién cambió el mundo hoy? 17 de noviembre.",
+     "¿Quién cambió el mundo hoy? Diecisiete de noviembre."
+    ],
+    [
+     "Hace 120 años,",
+     "Hace ciento veinte años,"
+    ],
+    "nació en Shizuoka, Japón, el hijo de un herrero.",
+    "Era Soichiro Honda, el fundador de Honda."
+   ],
+   "data": {
+    "hook": "Una pequeña moto,\n100 millones fabricadas",
+    "sub": "1906  ──  2026",
+    "sub_at": 2,
+    "name": "Honda",
+    "name_years": "Soichiro Honda · 1906 – 1991",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El hijo del herrero",
+   "lines": [
+    "Su padre era herrero y también arreglaba bicicletas,",
+    "y él creció entre las herramientas del taller.",
+    [
+     "En 1922, con quince años, entró de aprendiz en un taller de Tokio,",
+     "En mil novecientos veintidós, con quince años, entró de aprendiz en un taller de Tokio,"
+    ],
+    [
+     "y en 1928 abrió su propio taller en Hamamatsu.",
+     "y en mil novecientos veintiocho abrió su propio taller en Hamamatsu."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Campo de Shizuoka"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Un taller en Tokio, años 20"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Rechazado",
+   "lines": [
+    [
+     "En 1936 empezó a fabricar anillos de pistón,",
+     "En mil novecientos treinta y seis empezó a fabricar anillos de pistón,"
+    ],
+    "pero Toyota le rechazó el primer lote.",
+    "No se rindió y los mejoró hasta que fueron aprobados,",
+    "y tras la guerra, montó pequeños motores en bicicletas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Rechazado",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Sus primeros anillos de pistón",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Sin rendirse",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Mejorando una y otra vez",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Bicicletas con motor, posguerra"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Cien millones de motos",
+   "lines": [
+    [
+     "En 1948 fundó Honda Motor,",
+     "En mil novecientos cuarenta y ocho fundó Honda Motor,"
+    ],
+    [
+     "y en 1958 lanzó la pequeña y sencilla Super Cub.",
+     "y en mil novecientos cincuenta y ocho lanzó la pequeña y sencilla Super Cub."
+    ],
+    "Llevó a trabajadores y familias por calles de todo el mundo,",
+    [
+     "y en 2017 la serie superó los cien millones de unidades.",
+     "y en dos mil diecisiete la serie superó los cien millones de unidades."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1948",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Nace Honda Motor",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Una calle japonesa, años 50"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "100 millones",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Serie Super Cub",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  A demostrarlo en la pista",
+   "lines": [
+    [
+     "En 1954 prometió correr en la isla de Man,",
+     "En mil novecientos cincuenta y cuatro prometió correr en la isla de Man,"
+    ],
+    [
+     "y en 1959, en su primer intento, ganó el premio por equipos.",
+     "y en mil novecientos cincuenta y nueve, en su primer intento, Honda ganó el premio por equipos."
+    ],
+    [
+     "Se retiró en 1973,",
+     "Se retiró en mil novecientos setenta y tres,"
+    ],
+    [
+     "y murió en 1991, a los ochenta y cuatro años.",
+     "y murió en mil novecientos noventa y uno, a los ochenta y cuatro años."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Carreras de la isla de Man"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "84",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "1906 – 1991",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    "De hijo de herrero a ingeniero famoso en todo el mundo,",
+    "fracasó y volvió a empezar, una y otra vez.",
+    "Esta es su pregunta:",
+    "¿Cuántas veces fracasarías por un sueño?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Fracasar",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Y volver a empezar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Cuántas veces fracasarías",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "por un sueño?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 17 de noviembre, recordamos a Soichiro Honda.",
+     "y este diecisiete de noviembre, recordamos a Soichiro Honda."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Honda",
+    "years": "1906 – 1991"
+   }
+  }
+ ]
+}

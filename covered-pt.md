@@ -25,3 +25,4 @@
 | 2026-11-11 | Tycho Brahe | viu a estrela nova em Cassiopeia (1572, abadia de Herrevad, Dinamarca) | yes |
 | 2026-11-12 | Elizabeth Cady Stanton | nascimento (1815, Johnstown, Nova York) | yes |
 | 2026-11-13 | Gioachino Rossini | morte (1868, Passy, perto de Paris) | yes |
+| 2026-11-14 | Frederick Banting | nascimento (1891, Alliston, Ontário) | yes |

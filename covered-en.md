@@ -27,3 +27,4 @@
 | 2026-11-13 | Gioachino Rossini | died (1868, Passy near Paris) | yes |
 | 2026-11-14 | Frederick Banting | born (1891, Alliston, Ontario) | yes |
 | 2026-11-15 | Georgia O'Keeffe | born (1887, Sun Prairie, Wisconsin) | yes |
+| 2026-11-16 | Chinua Achebe | born (1930, Ogidi, Nigeria) | yes |

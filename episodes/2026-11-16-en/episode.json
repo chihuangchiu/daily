@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-16",
+ "mmdd": "11.16",
+ "lang": "en",
+ "person": "Chinua Achebe",
+ "event": "born",
+ "title": "Achebe: The Novel That Let Africa Tell Its Own Story",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "One novel let the whole world hear Africa's own voice.",
+    [
+     "Who changed the world today? November 16.",
+     "Who changed the world today? November sixteenth."
+    ],
+    [
+     "96 years ago today,",
+     "Ninety-six years ago today,"
+    ],
+    "a boy was born in Nigeria.",
+    "He was Chinua Achebe, father of modern African literature."
+   ],
+   "data": {
+    "hook": "One novel let the world\nhear Africa's voice",
+    "sub": "1930  ──  2026",
+    "sub_at": 2,
+    "name": "Achebe",
+    "name_years": "Chinua Achebe · 1930 – 2013",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Between two worlds",
+   "lines": [
+    "Born in Ogidi, in eastern Nigeria,",
+    "he grew up between Christianity and Igbo tradition.",
+    [
+     "In 1948, he entered University College, Ibadan,",
+     "In nineteen forty-eight, he entered University College, Ibadan,"
+    ],
+    "and read Western books where Africans were silent extras."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "An Igbo village, eastern Nigeria"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A library in Ibadan, around 1950"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Things Fall Apart",
+   "lines": [
+    "He decided Africa's stories should be told by Africans.",
+    [
+     "In 1958, he published his first novel, Things Fall Apart,",
+     "In nineteen fifty-eight, he published his first novel, Things Fall Apart,"
+    ],
+    [
+     "about an Igbo warrior's world, falling apart under colonial rule,",
+     "about an Igbo warrior whose world falls apart as colonizers arrive,"
+    ],
+    "since translated into over forty languages."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Our own story",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Told by Africans",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Things Fall Apart, 1958"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "40+",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "languages",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The lion's story",
+   "lines": [
+    "He liked to quote an African proverb:",
+    [
+     "until lions have historians, hunting tales glorify the hunter.",
+     "until the lions have their own historians, the story of the hunt will glorify the hunter."
+    ],
+    [
+     "In 1975, he challenged Conrad's classic, Heart of Darkness,",
+     "In nineteen seventy-five, he challenged Conrad's classic, Heart of Darkness,"
+    ],
+    "saying it reduced Africans to a dehumanized backdrop."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "The lion and the hunter"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1975",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Challenging Heart of Darkness",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The professor in a wheelchair",
+   "lines": [
+    "Later, a car crash left him paralyzed from the waist down,",
+    "but in America he kept teaching and writing.",
+    [
+     "In 2007, he won the Man Booker International Prize,",
+     "In two thousand seven, he won the Man Booker International Prize,"
+    ],
+    [
+     "and he died in Boston in 2013, at eighty-two.",
+     "and he died in Boston in twenty thirteen, at eighty-two."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A college classroom in America"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "2007",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Man Booker International",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "82",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Boston, 2013",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "Today, students around the world still read Things Fall Apart.",
+    "He let Africans tell their own story, in their own voice.",
+    "So here is his question:",
+    "If others keep telling your story, will you take back the pen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Their own voice",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "Telling their own story",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If others keep telling your story,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "will you take back the pen?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 16, we remember Chinua Achebe.",
+     "and on November sixteenth, we remember Chinua Achebe."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Achebe",
+    "years": "1930 – 2013"
+   }
+  }
+ ]
+}

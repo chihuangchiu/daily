@@ -1,0 +1,351 @@
+{
+ "date": "2026-11-15",
+ "mmdd": "11.15",
+ "lang": "en",
+ "person": "Georgia O'Keeffe",
+ "event": "born",
+ "title": "O'Keeffe: The Flower Painter Whose Canvas Sold for $44 Million",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "One flower she painted sold for 44 million dollars.",
+    [
+     "Who changed the world today? November 15.",
+     "Who changed the world today? November fifteenth."
+    ],
+    [
+     "139 years ago today,",
+     "One hundred and thirty-nine years ago today,"
+    ],
+    "a girl was born on an American farm.",
+    "She was Georgia O'Keeffe, the mother of American modernism."
+   ],
+   "data": {
+    "hook": "One painted flower\nsold for $44 million",
+    "sub": "1887  ──  2026",
+    "sub_at": 2,
+    "name": "O'Keeffe",
+    "name_years": "Georgia O'Keeffe · 1887 – 1986",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The girl in the wheat fields",
+   "lines": [
+    "She grew up on a wheat farm in Wisconsin,",
+    "then studied art in Chicago and New York.",
+    [
+     "In 1915, while teaching in South Carolina,",
+     "In nineteen fifteen, while teaching in South Carolina,"
+    ],
+    "she made abstract charcoal drawings."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A wheat farm in Wisconsin"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Abstract charcoals, 1915"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  A show she never approved",
+   "lines": [
+    "She mailed them to a friend, who showed them to Alfred Stieglitz.",
+    [
+     "In 1916, without asking her, he hung ten in his gallery.",
+     "In nineteen sixteen, without asking her, he hung ten in his gallery."
+    ],
+    "The next year, he gave her a first solo show,",
+    [
+     "and in 1924, the two were married.",
+     "and in nineteen twenty-four, the two were married."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "10 drawings",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Mailed to New York",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Gallery 291, New York, 1916"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1924",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Married to Stieglitz",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Flowers, magnified",
+   "lines": [
+    "She painted flowers huge,",
+    "she said, so busy people would stop and look.",
+    [
+     "In the 1920s, those giant flowers",
+     "In the nineteen twenties, those giant flowers"
+    ],
+    "made her a star of the New York art world."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A New York studio, 1920s"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Giant flowers",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "New York stopped to look",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Desert and bones",
+   "lines": [
+    [
+     "In the summer of 1929, she went to paint in New Mexico,",
+     "In the summer of nineteen twenty-nine, she went to paint in New Mexico,"
+    ],
+    "and fell for its desert, cliffs and bleached bones.",
+    [
+     "In 1946, MoMA in New York gave her a retrospective,",
+     "In nineteen forty-six, New York's Museum of Modern Art gave her a retrospective,"
+    ],
+    "its first for a woman,",
+    [
+     "and in 1949, she made New Mexico her home.",
+     "and in nineteen forty-nine, she made New Mexico her home."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The New Mexico desert"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1946",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "MoMA's first for a woman",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1949",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Home in New Mexico",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "She died in Santa Fe in 1986, at the age of ninety-eight.",
+     "She died in Santa Fe in nineteen eighty-six, at the age of ninety-eight."
+    ],
+    [
+     "In 2014, one of her white flowers sold for 44 million dollars,",
+     "In twenty fourteen, one of her white flowers sold for forty-four million dollars,"
+    ],
+    "then a record for any woman artist.",
+    "So here is her question:",
+    "If no one sees the world like you, would you still paint it?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "98",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Santa Fe, 1986",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "$44.4M",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "A record for a woman artist",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question",
+        "style": "kicker"
+       },
+       {
+        "text": "If no one sees the world like you,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "would you still paint it?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 15, we remember Georgia O'Keeffe.",
+     "and on November fifteenth, we remember Georgia O'Keeffe."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "O'Keeffe",
+    "years": "1887 – 1986"
+   }
+  }
+ ]
+}

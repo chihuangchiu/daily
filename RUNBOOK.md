@@ -237,6 +237,16 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
   es 1503 → 123.4 s; pt 1414 → 122.9 s; ja 656 → 114.4 s (630 → 112.3 s, too tight: aim ~690); de 1537 → 124.1 s. No repeats or style read-outs.
   Commons Special:FilePath/GRossini.JPG?width=800 worked as edit-image input (file page not fetchable, licence assumed PD for a 19th-c. photo).
   Calywood accepted the cross-hatched opening first try (NT$16.5). ja subtitle rows split at 、 inside 『…』 titles: put a 、 before the 『 (「それが、『…』です。」).
+- **2026-11-11 weekly run (11/14–11/19; Gemini Kore, short styles; zh body plan GEMINI_STYLE):** zh 413–440 spoken chars → 115.8–122 s
+  (Banting/O'Keeffe/Achebe/Honda/Daguerre/Lincoln; Lincoln 427 → 115.8 s); en 1500–1545 → 121–127 s; es 1550–1570 → 120.8–125 s;
+  pt 1484–1506 → 123–125 s; ja 653 → 110.7 s (too short), 676–691 → 113.6–119.5 s (aim ~690); de 1540–1566 → 121–126.6 s,
+  1583 → 129 s (too long; aim ≤1565). Repeats: pt "Dezenove de novembro" said twice (caught by halves.sh, not by the ratio check);
+  zh 47-char chunk came out 22.8 s with long pauses (retry fixed it). Watch byte sizes: >2× expected = redo.
+  Calywood MiniMax queue was congested (other projects): 50–90 min from submit to a downloadable mp4, and after "succeeded"
+  the storage URL stayed 403 for another 15–25 min ("影片正在存檔"). Never resubmit while queued: on 11/15 a second submit
+  meant both ran and were charged (NT$30). Submit the next day's clip as soon as its opening/start images are ready so the
+  queue wait overlaps with TTS work. Building 6 videos in parallel was OOM-killed: build 3 at a time (nohup + poll).
+  Western subtitle rows over ~600 px and ja rows over 14 chars still needed subfix.py on most days; shorten the subtitle only.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

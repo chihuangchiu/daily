@@ -1,0 +1,354 @@
+{
+ "date": "2026-11-15",
+ "mmdd": "11.15",
+ "lang": "de",
+ "person": "Georgia O'Keeffe",
+ "event": "Geburt",
+ "title": "O'Keeffe: Eine gemalte Blume für 44 Millionen Dollar",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Eine Blume, die sie malte, brachte 44 Millionen Dollar.",
+     "Eine Blume, die sie malte, brachte vierundvierzig Millionen Dollar."
+    ],
+    [
+     "Wer hat heute die Welt verändert? Der 15. November.",
+     "Wer hat heute die Welt verändert? Der fünfzehnte November."
+    ],
+    [
+     "Heute vor 139 Jahren",
+     "Heute vor hundertneununddreißig Jahren"
+    ],
+    "wurde auf einer Farm in Amerika ein Mädchen geboren.",
+    "Es war Georgia O'Keeffe, Mutter der amerikanischen Moderne."
+   ],
+   "data": {
+    "hook": "Eine gemalte Blume,\n44 Millionen Dollar",
+    "sub": "1887  ──  2026",
+    "sub_at": 2,
+    "name": "O'Keeffe",
+    "name_years": "Georgia O'Keeffe · 1887 – 1986",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Das Mädchen im Weizenfeld",
+   "lines": [
+    "Sie wuchs auf einer Weizenfarm in Wisconsin auf,",
+    "und studierte Kunst in Chicago und New York.",
+    [
+     "1915, als Lehrerin in South Carolina,",
+     "Neunzehnhundertfünfzehn, als Lehrerin in South Carolina,"
+    ],
+    "schuf sie abstrakte Kohlebilder."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine Weizenfarm in Wisconsin"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Abstrakte Kohle, 1915"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Eine Ausstellung ohne Erlaubnis",
+   "lines": [
+    "Eine Freundin zeigte sie dem Fotografen Alfred Stieglitz.",
+    [
+     "1916 hängte er, ohne sie zu fragen, zehn in seine Galerie.",
+     "Neunzehnhundertsechzehn hängte er, ohne sie zu fragen, zehn in seine Galerie."
+    ],
+    "Im Jahr darauf gab er ihr die erste eigene Ausstellung,",
+    [
+     "und 1924 heirateten die beiden.",
+     "und neunzehnhundertvierundzwanzig heirateten die beiden."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "10 Zeichnungen",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "Nach New York geschickt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Galerie 291, New York, 1916"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1924",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Heirat mit Stieglitz",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Riesige Blumen",
+   "lines": [
+    "Sie malte Blumen riesengroß,",
+    "damit, wie sie sagte, auch eilige Menschen stehen bleiben.",
+    [
+     "In den 1920er-Jahren",
+     "In den Zwanzigerjahren"
+    ],
+    "machten diese Blumen sie in New York berühmt."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Ein Atelier in New York, 1920er"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Riesenblumen",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "New York blieb stehen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Wüste und Knochen",
+   "lines": [
+    [
+     "Im Sommer 1929 malte sie in New Mexico",
+     "Im Sommer neunzehnhundertneunundzwanzig malte sie in New Mexico"
+    ],
+    "und verliebte sich in die Wüste.",
+    [
+     "1946 widmete ihr das MoMA eine Retrospektive,",
+     "Neunzehnhundertsechsundvierzig widmete ihr das Moma eine Retrospektive,"
+    ],
+    "die erste für eine Frau,",
+    [
+     "und 1949 zog sie nach New Mexico.",
+     "und neunzehnhundertneunundvierzig zog sie nach New Mexico."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Die Wüste von New Mexico"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "1946",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "MoMAs erste für eine Frau",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "1949",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Zuhause in New Mexico",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Sie starb 1986 in Santa Fe, mit 98 Jahren.",
+     "Sie starb neunzehnhundertsechsundachtzig in Santa Fe, mit achtundneunzig Jahren."
+    ],
+    [
+     "2014 brachte eine ihrer weißen Blumen 44 Millionen Dollar,",
+     "Zweitausendvierzehn brachte eine ihrer weißen Blumen vierundvierzig Millionen Dollar,"
+    ],
+    "damals ein Rekord für eine Künstlerin.",
+    "Hier ist ihre Frage:",
+    "Sieht niemand die Welt wie du, würdest du sie trotzdem malen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "98",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "Santa Fe, 1986",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "text": "44,4 Mio. $",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Rekord für eine Künstlerin",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Sieht niemand die Welt wie du,",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "würdest du sie trotzdem malen?",
+        "style": "head",
+        "size": 32,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 15. November erinnern wir an Georgia O'Keeffe.",
+     "und am fünfzehnten November erinnern wir an Georgia O'Keeffe."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "O'Keeffe",
+    "years": "1887 – 1986"
+   }
+  }
+ ]
+}

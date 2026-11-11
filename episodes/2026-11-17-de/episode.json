@@ -1,0 +1,335 @@
+{
+ "date": "2026-11-17",
+ "mmdd": "11.17",
+ "lang": "de",
+ "person": "Soichiro Honda",
+ "event": "Geburt",
+ "title": "Soichiro Honda: Von abgelehnten Kolbenringen zu 100 Millionen Motorrädern",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ein kleines Motorrad, hundert Millionen Mal gebaut.",
+    [
+     "Wer hat heute die Welt verändert? Der 17. November.",
+     "Wer hat heute die Welt verändert? Der siebzehnte November."
+    ],
+    [
+     "Heute vor 120 Jahren",
+     "Heute vor hundertzwanzig Jahren"
+    ],
+    "wurde in Shizuoka, Japan, der Sohn eines Schmieds geboren.",
+    "Es war Soichiro Honda, der Gründer von Honda."
+   ],
+   "data": {
+    "hook": "Ein kleines Motorrad,\n100 Millionen Mal gebaut",
+    "sub": "1906  ──  2026",
+    "sub_at": 2,
+    "name": "Honda",
+    "name_years": "Soichiro Honda · 1906 – 1991",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Sohn des Schmieds",
+   "lines": [
+    "Sein Vater war Schmied und reparierte auch Fahrräder,",
+    "und der Junge wuchs zwischen Werkzeugen auf.",
+    [
+     "1922, mit fünfzehn, ging er in Tokio in die Lehre,",
+     "Neunzehnhundertzweiundzwanzig, mit fünfzehn, ging er in Tokio in die Lehre,"
+    ],
+    [
+     "1928 eröffnete er seine eigene Werkstatt in Hamamatsu.",
+     "und neunzehnhundertachtundzwanzig eröffnete er seine eigene Werkstatt in Hamamatsu."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ländliches Shizuoka"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Eine Werkstatt in Tokio, 1920er"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Abgelehnt",
+   "lines": [
+    [
+     "1936 begann er, Kolbenringe herzustellen,",
+     "Neunzehnhundertsechsunddreißig begann er, Kolbenringe herzustellen,"
+    ],
+    "doch Toyota lehnte die erste Lieferung ab.",
+    "Er gab nicht auf und verbesserte sie, bis sie bestanden,",
+    "und nach dem Krieg baute er kleine Motoren an Fahrräder."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Abgelehnt",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Seine ersten Kolbenringe",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "text": "Nicht aufgeben",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Immer wieder verbessern",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Fahrräder mit Motor, Nachkriegszeit"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Hundert Millionen Motorräder",
+   "lines": [
+    [
+     "1948 gründete er Honda Motor,",
+     "Neunzehnhundertachtundvierzig gründete er Honda Motor,"
+    ],
+    [
+     "1958 kam die kleine, robuste Super Cub.",
+     "und neunzehnhundertachtundfünfzig kam die kleine, robuste Super Cub."
+    ],
+    "Sie trug Arbeiter und Familien durch die ganze Welt,",
+    [
+     "2017 überschritt die Serie hundert Millionen.",
+     "und zweitausendsiebzehn überschritt die Serie hundert Millionen."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1948",
+        "style": "huge",
+        "size": 160,
+        "color": "red"
+       },
+       {
+        "text": "Gründung von Honda Motor",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Eine japanische Straße, 1950er"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "100 Millionen",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Super-Cub-Serie",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Beweis auf der Rennstrecke",
+   "lines": [
+    [
+     "1954 versprach er, auf der Isle of Man zu fahren,",
+     "Neunzehnhundertvierundfünfzig versprach er, auf der Isle of Man zu fahren,"
+    ],
+    [
+     "1959, beim ersten Versuch, gewann Honda den Teampreis.",
+     "und neunzehnhundertneunundfünfzig, beim ersten Versuch, gewann Honda den Teampreis."
+    ],
+    [
+     "1973 trat er zurück,",
+     "Neunzehnhundertdreiundsiebzig trat er zurück,"
+    ],
+    [
+     "1991 starb er mit vierundachtzig Jahren.",
+     "und neunzehnhunderteinundneunzig starb er mit vierundachtzig Jahren."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Rennen auf der Isle of Man"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "84",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "1906 – 1991",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Vom Sohn eines Schmieds zum weltberühmten Ingenieur,",
+    "er scheiterte und fing neu an, immer wieder.",
+    "Seine Frage an dich:",
+    "Wie oft würdest du für einen Traum scheitern?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Scheitern",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Und neu anfangen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wie oft würdest du",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "für einen Traum scheitern?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das war Wer hat heute die Welt verändert,",
+    [
+     "am 17. November erinnern wir an Soichiro Honda.",
+     "und am siebzehnten November erinnern wir an Soichiro Honda."
+    ],
+    "Gefällt es dir? Abonniere und teile es. Bis morgen!"
+   ],
+   "data": {
+    "name": "Honda",
+    "years": "1906 – 1991"
+   }
+  }
+ ]
+}

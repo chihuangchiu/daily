@@ -1,0 +1,289 @@
+{
+ "date": "2026-11-19",
+ "mmdd": "11.19",
+ "lang": "en",
+ "person": "Abraham Lincoln",
+ "event": "Gettysburg Address",
+ "title": "Lincoln: The Two-Minute Speech That Redefined America",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "A speech of just two minutes changed how America saw itself.",
+    [
+     "Who changed the world today? November 19.",
+     "Who changed the world today? November nineteenth."
+    ],
+    [
+     "163 years ago today,",
+     "One hundred sixty-three years ago today,"
+    ],
+    "at a new cemetery in Pennsylvania,",
+    "President Abraham Lincoln gave the Gettysburg Address."
+   ],
+   "data": {
+    "hook": "A two-minute speech\nthat changed America",
+    "sub": "1863  ──  2026",
+    "sub_at": 2,
+    "name": "Lincoln",
+    "name_years": "Abraham Lincoln · 1809 – 1865",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.4,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Three days of battle",
+   "lines": [
+    [
+     "In July 1863, the American Civil War was at its fiercest.",
+     "In July eighteen sixty-three, the American Civil War was at its fiercest."
+    ],
+    [
+     "For three days, two armies fought at Gettysburg,",
+     "For three days, two armies fought around the small town of Gettysburg,"
+    ],
+    "and more than fifty thousand men were killed, wounded, or missing.",
+    "Thousands of fallen soldiers were buried on the hillside nearby."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Gettysburg, July 1863"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "The soldiers' cemetery on the hill"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Two hours, two minutes",
+   "lines": [
+    [
+     "On November 19, the new national cemetery was dedicated.",
+     "On November nineteenth, the new national cemetery was dedicated."
+    ],
+    "The main speaker, Edward Everett, talked for two full hours.",
+    "Then Lincoln stood up,",
+    "and spoke for about two minutes, fewer than three hundred words."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "The crowd at the dedication"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "2 minutes",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Fewer than 300 words",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Of the people, by the people",
+   "lines": [
+    [
+     "He said the nation believed all men are created equal,",
+     "He said the nation was born believing that all men are created equal,"
+    ],
+    "that these dead must not have died in vain,",
+    "that the nation shall have a new birth of freedom,",
+    [
+     "that government of, by and for the people shall not perish.",
+     "and that government of the people, by the people, for the people, shall not perish from the earth."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Two pages of notes"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Of, by, for the people",
+        "style": "huge",
+        "size": 64,
+        "color": "red"
+       },
+       {
+        "text": "A new birth of freedom",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Words the world remembered",
+   "lines": [
+    "He said the world would little note what was said there,",
+    "yet the speech became one of the most famous in history.",
+    [
+     "In April 1865, soon after the war ended, he was assassinated,",
+     "In April eighteen sixty-five, soon after the war ended, he was assassinated,"
+    ],
+    "at the age of fifty-six."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Generations of students recite it"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "56",
+        "style": "huge",
+        "size": 170,
+        "color": "red"
+       },
+       {
+        "text": "1809 – 1865",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "Great words do not have to be long,",
+    "and in two minutes, he put a nation's ideals into words.",
+    "His question for you:",
+    "If you had only two minutes, what is the one thing you would say?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Two minutes",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "A nation's ideals",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If you had only two minutes,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       },
+       {
+        "text": "what would you say?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 3
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 19, we remember Abraham Lincoln.",
+     "and on November nineteenth, we remember Abraham Lincoln."
+    ],
+    "If you enjoyed it, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Lincoln",
+    "years": "1809 – 1865"
+   }
+  }
+ ]
+}

@@ -425,8 +425,13 @@ from it: the same scene a few seconds earlier, with the person in a different po
    prompt, max 3 tries.
 5. In the title scene's `data` set `"video": "opening.mp4", "video_secs": 5, "video_align": "end"` (keep `"image"` and
    `"image_shift"`). With `video_align: "end"` render.py plays the LAST 5 s of the clip (Nathan 2026-10-21: 5 s opening) (ending on opening.png), crops
-   it to 720x1280, shifts it like the still, applies the same sepia and darkening, and hands over to the still with a
-   0.25 s cross-fade.
+   it to 720x1280, shifts it like the still, applies the same sepia and darkening, and hands over to the still.
+   Last-frame lock (Nathan 2026-11-16): the clip's last frame is never pixel-identical to opening.png (slight shifts in
+   position, scale or tone made the hand-over jump), so over the clip's last 0.8 s render.py blends every frame
+   (smoothstep) toward opening.png itself, and the clip's final frame IS opening.png; the still then takes over with no
+   change at all. Automatic for every `video_align: "end"` clip; `"video_morph"` in the title data changes the 0.8 s
+   (0 turns it off). Small differences in the last frame are therefore fine; still retry clips whose last frame is
+   clearly a different pose or framing (a 0.8 s blend between two poses looks like a ghost).
 6. If the clip cannot be made (start frame or clip fails after the usual retries, Calywood not connected, the download
    keeps failing, or 3 tries are all unusable), STOP exactly as in 4b.8 (Nathan 2026-10-20): nothing is built or
    published, and the notification says the opening clip failed, with the exact error.

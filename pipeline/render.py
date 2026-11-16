@@ -309,14 +309,18 @@ class VideoCover:
     over the last `fade` seconds to reveal the still opening image underneath. Frames are decoded lazily,
     only by the process that renders that time range."""
 
-    def __init__(self, src, t0, secs, label=AI_LABEL, fade=0.5, shift=0, align="start"):
+    def __init__(self, src, t0, secs, label=AI_LABEL, fade=0.5, shift=0, align="start", still=None, morph=0.8):
         self.path = src if os.path.isabs(src) else os.path.join(EP_DIR, src)
         self.t0, self.secs, self.label, self.fade, self.shift = t0, secs, label, fade, shift
-        # align="end": play the LAST `secs` seconds of the clip (its last frame is opening.png itself,
+        # align="end": play the LAST `secs` seconds of the clip (its last frame should be opening.png itself,
         # RUNBOOK 4d), so the hand-over to the still is seamless
         self.align = align
         self.t1 = t0 + secs
         self.frames = None
+        # still (Nathan 2026-11-16): the generated clip's last frame is never pixel-identical to opening.png,
+        # so the hand-over jumped. Over the last `morph` seconds every frame is blended (eased) toward the
+        # still itself, and the clip's final frame IS the still -> no jump when the still takes over.
+        self.still, self.morph, self.still_arr = still, morph, None
 
     def _load(self):
         vf = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}"
@@ -334,8 +338,19 @@ class VideoCover:
         if self.frames is None:
             self._load()
         k = min(len(self.frames) - 1, max(0, int((t - self.t0) * FPS)))
-        im = cover_finish(shift_down(Image.fromarray(sepia_arr(self.frames[k])), self.shift), self.label)
-        a = min(1.0, (self.t1 - t) / self.fade)
+        arr = sepia_arr(self.frames[k])
+        if self.still and self.morph > 0:
+            if self.still_arr is None:
+                # same processing as cover_img's still (cover-crop + 0.25 sepia), before shift/shade
+                self.still_arr = np.array(load_photo(self.still, W, H, 0.25)).astype(np.float32)
+            last = self.t1 - 1.0 / FPS  # time of the clip's final rendered frame
+            u = (t - (last - self.morph)) / self.morph
+            if u > 0:
+                u = min(1.0, u)
+                w = u * u * (3 - 2 * u)  # smoothstep
+                arr = np.clip(arr.astype(np.float32) * (1 - w) + self.still_arr * w, 0, 255).astype(np.uint8)
+        im = cover_finish(shift_down(Image.fromarray(arr), self.shift), self.label)
+        a = 1.0 if self.still else min(1.0, (self.t1 - t) / self.fade)
         if a < 0.999:
             im.putalpha(im.getchannel("A").point(lambda v, a=a: int(v * a)))
         frame.paste(im, (0, 0), im)
@@ -557,7 +572,9 @@ def b_title(c):
             # a short AI clip plays over the still image first (frame 0 = video frame 0)
             align = d.get("video_align", "start")
             els.append(VideoCover(d["video"], 0.0, float(d.get("video_secs", 3)), d.get("image_label", AI_LABEL),
-                                  fade=0.25 if align == "end" else 0.5, shift=d.get("image_shift", 0), align=align))
+                                  fade=0.25 if align == "end" else 0.5, shift=d.get("image_shift", 0), align=align,
+                                  still=d["image"] if align == "end" else None,
+                                  morph=float(d.get("video_morph", 0.8))))
     # hook (Nathan 2026-10-22): the first ~2 s show one big hook line instead of the date; the date block
     # (kicker + big MM.DD) appears when the second narration line starts. Frame 0 = hook = Shorts thumbnail.
     t_date = -1.0

@@ -1,0 +1,321 @@
+{
+ "date": "2026-11-20",
+ "mmdd": "11.20",
+ "lang": "en",
+ "person": "Edwin Hubble",
+ "event": "born (1889, Marshfield, Missouri)",
+ "title": "137 Years Ago Today, the Man Who Made the Universe Bigger Was Born | Hubble",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He proved the universe is far bigger than anyone thought.",
+    [
+     "Who changed the world today? November 20.",
+     "Who changed the world today? November twentieth."
+    ],
+    [
+     "On this day in 1889,",
+     "On this day in eighteen eighty-nine,"
+    ],
+    "in Missouri,",
+    "the astronomer Edwin Hubble was born."
+   ],
+   "data": {
+    "hook": "The universe was far\nbigger than we thought",
+    "sub": "1889  ──  2026",
+    "sub_at": 2,
+    "name": "Hubble",
+    "name_years": "Edwin Hubble · 1889 – 1953",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Law or the stars",
+   "lines": [
+    "He studied math and astronomy in Chicago.",
+    "At Oxford, to honor his father's wish, he studied law.",
+    "Back home, he taught high school and coached basketball,",
+    "but he could never let go of the stars."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Oxford in the 1910s"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "The stars",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "A dream he kept",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  The biggest telescope",
+   "lines": [
+    [
+     "In 1917, he earned his PhD in astronomy,",
+     "In nineteen seventeen, he earned his doctorate in astronomy,"
+    ],
+    "then went to war in France.",
+    [
+     "In 1919, he joined Mount Wilson Observatory,",
+     "In nineteen nineteen, he joined Mount Wilson Observatory,"
+    ],
+    "home of the world's largest telescope."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1917",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "PhD in astronomy",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Mount Wilson Observatory, California"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  VAR!",
+   "lines": [
+    "Many thought the Milky Way was the whole universe.",
+    [
+     "On October 5, 1923, he photographed Andromeda.",
+     "On October fifth, nineteen twenty-three, he photographed Andromeda."
+    ],
+    [
+     "He marked one star N, thinking it was a nova.",
+     "He marked one star with an N, thinking it was a nova."
+    ],
+    [
+     "Then he crossed it out and wrote: VAR! A variable star.",
+     "Then he crossed out the N and wrote: VAR! A variable star."
+    ],
+    [
+     "Its flicker revealed its distance: 900,000 light-years.",
+     "Its flicker revealed the distance: nine hundred thousand light-years."
+    ],
+    "Far beyond the Milky Way: it was another galaxy!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Milky Way",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "The whole universe?",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Andromeda on a glass plate, 1923"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "900,000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "light-years away",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  An expanding universe",
+   "lines": [
+    [
+     "On January 1, 1925, his discovery was announced,",
+     "On January first, nineteen twenty-five, his discovery was announced,"
+    ],
+    "showing a universe full of galaxies.",
+    [
+     "In 1929: the farther a galaxy, the faster it moves away,",
+     "In nineteen twenty-nine, he showed that the farther a galaxy is, the faster it moves away,"
+    ],
+    "evidence the universe is expanding."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Countless galaxies"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1929",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "An expanding universe",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "Hubble died in 1953, aged sixty-three.",
+     "Hubble died in nineteen fifty-three, aged sixty-three."
+    ],
+    [
+     "In 1990, a space telescope named after him was launched,",
+     "In nineteen ninety, a space telescope named after him was launched,"
+    ],
+    "to look deeper still.",
+    "His question for you:",
+    "If you saw the universe's edge, what would you ask?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The Hubble Space Telescope"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If you saw the universe's edge,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "what would you ask?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 20, we remember Edwin Hubble.",
+     "and on November twentieth, we remember Edwin Hubble."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Hubble",
+    "years": "1889 – 1953"
+   }
+  }
+ ]
+}

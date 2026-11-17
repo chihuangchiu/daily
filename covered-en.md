@@ -31,3 +31,4 @@
 | 2026-11-17 | Soichiro Honda | born (1906, Shizuoka, Japan) | yes |
 | 2026-11-18 | Louis Daguerre | born (1787, Cormeilles-en-Parisis, France) | yes |
 | 2026-11-19 | Abraham Lincoln | Gettysburg Address (1863, Pennsylvania) | yes |
+| 2026-11-20 | Edwin Hubble | born (1889, Marshfield, Missouri) | yes |

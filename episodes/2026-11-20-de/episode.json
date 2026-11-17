@@ -1,0 +1,321 @@
+{
+ "date": "2026-11-20",
+ "mmdd": "11.20",
+ "lang": "de",
+ "person": "Edwin Hubble",
+ "event": "Geburt (1889, Marshfield, Missouri)",
+ "title": "Hubble: Das Universum war viel größer",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er bewies: Das Universum ist viel größer als gedacht.",
+    [
+     "Wer hat heute die Welt verändert? Der 20. November.",
+     "Wer hat heute die Welt verändert? Der zwanzigste November."
+    ],
+    [
+     "Heute vor 137 Jahren",
+     "Heute vor hundertsiebenunddreißig Jahren"
+    ],
+    "wurde in Missouri",
+    "der Astronom Edwin Hubble geboren."
+   ],
+   "data": {
+    "hook": "Das Universum war\nviel größer",
+    "sub": "1889  ──  2026",
+    "sub_at": 2,
+    "name": "Hubble",
+    "name_years": "Edwin Hubble · 1889 – 1953",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Recht oder Sterne",
+   "lines": [
+    "Er studierte Mathematik und Astronomie in Chicago.",
+    "In Oxford studierte er, auf Wunsch des Vaters, Jura.",
+    "Danach wurde er Lehrer und Basketballtrainer,",
+    "doch die Sterne ließen ihn nie los."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Oxford in den 1910er-Jahren"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Die Sterne",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Ein Traum, der blieb",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Das größte Teleskop",
+   "lines": [
+    [
+     "1917 promovierte er in Astronomie",
+     "Neunzehnhundertsiebzehn promovierte er in Astronomie"
+    ],
+    "und diente im Ersten Weltkrieg.",
+    [
+     "1919 kam er zum Mount Wilson,",
+     "Neunzehnhundertneunzehn kam er zum Mount Wilson,"
+    ],
+    "mit dem damals größten Teleskop der Welt."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1917",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Doktor der Astronomie",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Sternwarte Mount Wilson, Kalifornien"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  VAR!",
+   "lines": [
+    "Viele glaubten, die Milchstraße sei das ganze Universum.",
+    [
+     "Am 5. Oktober 1923 fotografierte er Andromeda.",
+     "Am fünften Oktober neunzehnhundertdreiundzwanzig fotografierte er Andromeda."
+    ],
+    "Einen Stern markierte er mit N, er hielt ihn für eine Nova.",
+    [
+     "Er strich das N, schrieb VAR!: veränderlicher Stern.",
+     "Dann strich er das N und schrieb: VAR! Ein veränderlicher Stern."
+    ],
+    [
+     "Sein Flackern verriet: 900.000 Lichtjahre entfernt,",
+     "Sein Flackern verriet: neunhunderttausend Lichtjahre entfernt,"
+    ],
+    "es war eine andere Galaxie!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Milchstraße",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Das ganze Universum?",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Andromeda auf einer Glasplatte, 1923"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "900.000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Lichtjahre entfernt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Ein wachsendes Universum",
+   "lines": [
+    [
+     "1925 wurde die Entdeckung vorgestellt:",
+     "Neunzehnhundertfünfundzwanzig wurde die Entdeckung vorgestellt:"
+    ],
+    "ein Universum voller Galaxien.",
+    [
+     "1929: Je ferner eine Galaxie, desto schneller entfernt sie sich,",
+     "Neunzehnhundertneunundzwanzig zeigte er: Je ferner eine Galaxie, desto schneller entfernt sie sich,"
+    ],
+    "ein Hinweis, dass sich das Universum ausdehnt."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Unzählige Galaxien"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1929",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Das Universum dehnt sich aus",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Hubble starb 1953, mit 63 Jahren.",
+     "Hubble starb neunzehnhundertdreiundfünfzig, mit dreiundsechzig Jahren."
+    ],
+    [
+     "1990 startete ein Teleskop mit seinem Namen,",
+     "Neunzehnhundertneunzig startete ein Weltraumteleskop mit seinem Namen,"
+    ],
+    "um tiefer ins All zu blicken.",
+    "Seine Frage:",
+    [
+     "Sähst du den Rand des Alls, was würdest du fragen?",
+     "Könntest du den Rand des Universums sehen, was würdest du fragen?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Das Hubble-Weltraumteleskop"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Sähst du den Rand des Alls,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "was würdest du fragen?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 20. November erinnern wir an Edwin Hubble.",
+     "und am zwanzigsten November erinnern wir an Edwin Hubble."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Hubble",
+    "years": "1889 – 1953"
+   }
+  }
+ ]
+}

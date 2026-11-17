@@ -247,6 +247,14 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
   meant both ran and were charged (NT$30). Submit the next day's clip as soon as its opening/start images are ready so the
   queue wait overlaps with TTS work. Building 6 videos in parallel was OOM-killed: build 3 at a time (nohup + poll).
   Western subtitle rows over ~600 px and ja rows over 14 chars still needed subfix.py on most days; shorten the subtitle only.
+- **2026-11-17 nightly run (11/20 Hubble; Gemini Kore, short styles; zh body plan GEMINI_STYLE):** zh 444 spoken chars → 121.8 s; en 1542 → 129.4 s (too long),
+  1503 → 126.0 s; es 1592 → 128.9 s (too long), 1558 → 126.2 s; pt 1525 → 138.2 s (incl. one repeat), 1421 → 127.1 s (pt very slow this run: aim ≤1400);
+  ja 712 → 124.6 s; de 1587 → 133.1 s (one slow date chunk), 1534 → 127.3 s (aim ≤1520). Repeats: pt short chunk "Além da Via Láctea: era outra galáxia!"
+  and pt "…escreveu: VAR! Estrela variável." (both said twice; joining/rewording fixed them); de "Wer hat heute die Welt verändert? Der zwanzigste November."
+  came out 6.9 s with a long pause (retry with "Ruhig, warm, zügig." → 4.4 s). Calywood MiniMax first try RENDER_FAILED (no charge), resend succeeded (NT$15).
+  Image MCP drew two pipes (one in the mouth, one in the hand) on the first opening; "nothing in his mouth, no pipe" fixed it.
+  Commons Special:FilePath/Studio_portrait_photograph_of_Edwin_Powell_Hubble.JPG?width=800 worked as edit-image input (file page not fetchable, licence unverified).
+  The media branch tip also holds other projects' files (qing-ming-post.mp4, you-zi-yin-*): leave them, add/remove only our own D*.mp4.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

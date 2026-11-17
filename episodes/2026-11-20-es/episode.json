@@ -1,0 +1,318 @@
+{
+ "date": "2026-11-20",
+ "mmdd": "11.20",
+ "lang": "es",
+ "person": "Edwin Hubble",
+ "event": "nacimiento (1889, Marshfield, Misuri)",
+ "title": "Hubble: demostró que el universo es mucho más grande",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Demostró que el universo era mucho más grande.",
+    [
+     "¿Quién cambió el mundo hoy? 20 de noviembre.",
+     "¿Quién cambió el mundo hoy? Veinte de noviembre."
+    ],
+    [
+     "Un día como hoy, en 1889,",
+     "Un día como hoy, en mil ochocientos ochenta y nueve,"
+    ],
+    "en Misuri,",
+    "nació el astrónomo Edwin Hubble."
+   ],
+   "data": {
+    "hook": "El universo era mucho\nmás grande",
+    "sub": "1889  ──  2026",
+    "sub_at": 2,
+    "name": "Hubble",
+    "name_years": "Edwin Hubble · 1889 – 1953",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  La ley o las estrellas",
+   "lines": [
+    "Estudió matemáticas y astronomía en Chicago.",
+    "En Oxford, por deseo de su padre, estudió derecho.",
+    "De vuelta, fue profesor y entrenador de baloncesto,",
+    "pero nunca pudo olvidar las estrellas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Oxford en la década de 1910"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Las estrellas",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Un sueño que no soltó",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  El telescopio más grande",
+   "lines": [
+    [
+     "En 1917 obtuvo su doctorado en astronomía",
+     "En mil novecientos diecisiete obtuvo su doctorado en astronomía"
+    ],
+    "y fue a la guerra en Francia.",
+    [
+     "En 1919 llegó al observatorio del Monte Wilson,",
+     "En mil novecientos diecinueve llegó al observatorio del Monte Wilson,"
+    ],
+    "donde estaba el telescopio más grande del mundo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1917",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Doctor en astronomía",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Observatorio del Monte Wilson, California"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  ¡VAR!",
+   "lines": [
+    "Muchos creían que la Vía Láctea era todo el universo.",
+    [
+     "El 5 de octubre de 1923, fotografió Andrómeda.",
+     "El cinco de octubre de mil novecientos veintitrés, fotografió Andrómeda."
+    ],
+    "Marcó una estrella con una N: creyó que era una nova.",
+    [
+     "Luego tachó la N y escribió: ¡VAR! Una estrella variable.",
+     "Luego tachó la N y escribió: ¡VAR! Una estrella variable."
+    ],
+    [
+     "Su brillo reveló la distancia: 900.000 años luz.",
+     "Su brillo reveló la distancia: novecientos mil años luz."
+    ],
+    "Más allá de la Vía Láctea: ¡era otra galaxia!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Vía Láctea",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "¿Todo el universo?",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Andrómeda en una placa, 1923"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "900.000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "años luz",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Un universo en expansión",
+   "lines": [
+    [
+     "El 1 de enero de 1925 se anunció su hallazgo,",
+     "El primero de enero de mil novecientos veinticinco se anunció su hallazgo,"
+    ],
+    "que mostraba un universo lleno de galaxias.",
+    [
+     "En 1929, vio que cuanto más lejos está una galaxia,",
+     "En mil novecientos veintinueve, vio que cuanto más lejos está una galaxia,"
+    ],
+    "más rápido se aleja: evidencia de que el universo se expande."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Incontables galaxias"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1929",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Un universo en expansión",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "Hubble murió en 1953, a los sesenta y tres años.",
+     "Hubble murió en mil novecientos cincuenta y tres, a los sesenta y tres años."
+    ],
+    [
+     "En 1990, se lanzó un telescopio espacial con su nombre,",
+     "En mil novecientos noventa, se lanzó un telescopio espacial con su nombre,"
+    ],
+    "para ver más lejos.",
+    "Su pregunta para ti:",
+    "Si pudieras ver el borde del universo, ¿qué preguntarías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "El telescopio espacial Hubble"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si pudieras ver el borde",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "del universo, ¿qué preguntarías?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 20 de noviembre, recordamos a Edwin Hubble.",
+     "y este veinte de noviembre, recordamos a Edwin Hubble."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Hubble",
+    "years": "1889 – 1953"
+   }
+  }
+ ]
+}

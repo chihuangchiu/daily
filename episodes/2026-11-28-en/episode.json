@@ -1,0 +1,293 @@
+{
+ "date": "2026-11-28",
+ "mmdd": "11.28",
+ "lang": "en",
+ "person": "William Blake",
+ "event": "born (1757, London, England)",
+ "title": "William Blake: Called Mad in His Lifetime, Now a Giant of English Poetry | 269 Years Ago",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "In his lifetime, people called him mad. Today, he's a national treasure!",
+    [
+     "Who changed the world today? November 28.",
+     "Who changed the world today? November twenty-eighth."
+    ],
+    [
+     "On this day in 1757,",
+     "On this day in seventeen fifty-seven,"
+    ],
+    "above a stocking shop in London,",
+    "the poet and painter William Blake was born."
+   ],
+   "data": {
+    "hook": "Called mad in his lifetime.\nA national treasure today.",
+    "sub": "1757  ──  2026",
+    "sub_at": 2,
+    "name": "Blake",
+    "name_years": "William Blake · 1757 – 1827",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The boy who saw angels",
+   "lines": [
+    "As a boy, he said he saw a tree filled with angels.",
+    "His family thought he just had a wild imagination.",
+    [
+     "In 1772, at fourteen,",
+     "In seventeen seventy-two, at fourteen,"
+    ],
+    [
+     "he trained as an engraver, cutting pictures into copper.",
+     "he became an apprentice engraver, cutting pictures into copper."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A tree outside London"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "14",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Apprentice engraver",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  A secret from a dream",
+   "lines": [
+    "Then his beloved younger brother Robert died.",
+    [
+     "Blake said Robert showed him in a dream a new way to print:",
+     "Blake said Robert came to him in a dream and showed him a new way to print:"
+    ],
+    "poems and pictures etched together on copper,",
+    "then painted by hand, page by page, with his wife Catherine."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Colouring prints by hand"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Words + art",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "On one copper plate",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The Tyger",
+   "lines": [
+    [
+     "In 1789 came Songs of Innocence,",
+     "In seventeen eighty-nine came Songs of Innocence,"
+    ],
+    "and five years later, Songs of Experience.",
+    "One poem, The Tyger, asks a huge question:",
+    "Did the one who made the lamb also make the tiger?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A hand-coloured book"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Tyger",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "One big question",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  No one understood",
+   "lines": [
+    [
+     "In 1809, he held an exhibition of his paintings.",
+     "In eighteen oh nine, he held an exhibition of his paintings."
+    ],
+    "Almost no one came. The only review called him mad.",
+    [
+     "He stayed poor all his life, and died in 1827.",
+     "He stayed poor all his life, and died in eighteen twenty-seven."
+    ],
+    "It's said he was singing on his deathbed."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "An empty exhibition, 1809"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Mad?",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The only review",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "Today, he's seen as one of Britain's greatest poets and artists,",
+    "and his poem Jerusalem is sung",
+    "almost like a second national anthem.",
+    "His question for you:",
+    [
+     "If no one understood you, would you keep going?",
+     "If the whole world didn't understand you, would you keep going?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Blake in a museum today"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If the whole world didn't understand you,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "would you keep going?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 28, we remember William Blake.",
+     "and on November twenty-eighth, we remember William Blake."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Blake",
+    "years": "1757 – 1827"
+   }
+  }
+ ]
+}

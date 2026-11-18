@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-29",
+ "mmdd": "11.29",
+ "lang": "de",
+ "person": "Christian Doppler",
+ "event": "Geburtstag (1803, Salzburg, Österreich)",
+ "title": "Christian Doppler: Warum eine Sirene beim Vorbeifahren anders klingt | Vor 223 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Warum klingt eine Sirene anders, wenn sie vorbeifährt? Die Antwort kommt von ihm!",
+    [
+     "Wer hat heute die Welt verändert? Der 29. November.",
+     "Wer hat heute die Welt verändert? Der neunundzwanzigste November."
+    ],
+    [
+     "Heute vor 223 Jahren,",
+     "Heute vor zweihundertdreiundzwanzig Jahren,"
+    ],
+    "in Salzburg in Österreich,",
+    "wurde der Physiker Christian Doppler geboren."
+   ],
+   "data": {
+    "hook": "Warum klingt die Sirene\nbeim Vorbeifahren anders?",
+    "sub": "1803  ──  2026",
+    "sub_at": 2,
+    "name": "Doppler",
+    "name_years": "Christian Doppler · 1803 – 1853",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Sohn des Steinmetzes",
+   "lines": [
+    "Seine Familie war seit Generationen Steinmetze.",
+    "Doch er war zu schwach für schwere Steine.",
+    "Also schickte ihn der Vater zur Schule,",
+    "und er glänzte in Mathe."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine Steinmetzwerkstatt in Salzburg"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Mathe",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Besser als Stein",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Fast nach Amerika",
+   "lines": [
+    "Als junger Mann fand er keine Stelle als Lehrer.",
+    [
+     "1835 verkaufte er alles, um nach Amerika zu gehen.",
+     "Achtzehnhundertfünfunddreißig verkaufte er alles, um nach Amerika zu gehen."
+    ],
+    "Kurz vor der Abreise kam ein Angebot aus Prag.",
+    "Er blieb, und sein Leben nahm eine Wende."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1835, kurz vor der Abreise"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1835",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Fast nach Amerika",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Die Farbe der Sterne",
+   "lines": [
+    [
+     "1842 stellte er in Prag eine kühne Idee vor:",
+     "Achtzehnhundertzweiundvierzig stellte er in Prag eine kühne Idee vor:"
+    ],
+    [
+     "Kommt es näher, rücken die Wellen zusammen: Ton höher.",
+     "Kommt etwas auf dich zu, rücken die Wellen zusammen, der Ton wird höher."
+    ],
+    "Entfernt es sich, ziehen sie sich auseinander, der Ton wird tiefer.",
+    "Mit dem Licht der Sterne sei es genauso."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Doppelsterne über Prag"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1842",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Der Doppler-Effekt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Trompeten im Zug",
+   "lines": [
+    [
+     "1845 machte ein niederländischer Forscher die Probe.",
+     "Achtzehnhundertfünfundvierzig machte ein niederländischer Forscher die Probe."
+    ],
+    "Trompeter spielten auf einem Zug einen einzigen Ton.",
+    "Kam der Zug näher, stieg der Ton; fuhr er weg, sank er.",
+    "Doppler hatte recht!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Der Zugversuch, Niederlande, 1845"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Recht!",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Der Ton änderte sich",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1853 starb er krank in Venedig, mit nur neunundvierzig.",
+     "Achtzehnhundertdreiundfünfzig starb er krank in Venedig, mit nur neunundvierzig."
+    ],
+    "Heute nutzen Wetterradar, Radarfallen und Ultraschall,",
+    "und sogar die Messung ferner Galaxien seine Idee.",
+    "Seine Frage an dich:",
+    "Gibt es etwas, das du jeden Tag hörst, aber nie hinterfragt hast?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Radar und Galaxien heute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Gibt es etwas, das du jeden Tag hörst,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "aber nie hinterfragt hast?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 29. November erinnern wir an Christian Doppler.",
+     "und am neunundzwanzigsten November erinnern wir an Christian Doppler."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Doppler",
+    "years": "1803 – 1853"
+   }
+  }
+ ]
+}

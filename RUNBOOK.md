@@ -255,6 +255,17 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
   Image MCP drew two pipes (one in the mouth, one in the hand) on the first opening; "nothing in his mouth, no pipe" fixed it.
   Commons Special:FilePath/Studio_portrait_photograph_of_Edwin_Powell_Hubble.JPG?width=800 worked as edit-image input (file page not fetchable, licence unverified).
   The media branch tip also holds other projects' files (qing-ming-post.mp4, you-zi-yin-*): leave them, add/remove only our own D*.mp4.
+- **2026-11-18 weekly run (11/21–11/29; Gemini Kore, short styles):** 11/28 Blake: zh 422 spoken chars → 131.2 s with the long plan style
+  (several SLOW chunks), 120.9 s after re-synthesizing the slow chunks with 「明快的台灣紀錄片旁白，語速快。」; en 1464 → 119.5 s; es 1555 → 123.9 s;
+  pt 1469 → 121.6 s; ja 604 → 119.6 s; de 1506 → 121.0 s. 11/29 Doppler: zh 417 → 135.7 s at first (Gemini zh was slow, ~0.3 s/char), 117.0 s after
+  re-synthesizing 8 chunks with the fast style (use the fast style for zh body chunks from the start); en 1541 → 125.5 s; es 1577 → 127.6 s (tight);
+  pt 1490 → 124.2 s; ja 587 → 116.8 s; de 1533 → 124.9 s. 11/27 Celsius: de 1521 → 124.1 s; ja 115.7 s; pt 123.2 s.
+  Repeats/truncation: pt 11/28 c02_02 said its last clause twice; ja chunks ending in 〜ます/〜のです were sometimes cut short (ASR len < 0.8):
+  a retry with 「落ち着いた温かいナレーター。はっきり、最後まで読む。」 fixed every one. zh 11/29 date line skipped the name once (5.1 s for 33 chars).
+  Calywood MiniMax: Celsius try 1 RENDER_FAILED (free), try 2 had snow drifting indoors, try 3 clean; Blake and Doppler clean first try (NT$15 each).
+  Commons: Special:FilePath/Christian_Doppler.jpg (with or without ?width, and the upload.wikimedia.org URL) returned non-200 to Image MCP;
+  Special:FilePath/Christian_Andreas_Doppler.jpg?width=800 worked. William_Blake_by_Thomas_Phillips.jpg?width=800 worked.
+  YouTube rejects titles over 100 characters including " #Shorts": the en Blake title had to be shortened.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

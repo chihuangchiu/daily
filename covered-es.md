@@ -35,3 +35,4 @@
 | 2026-11-21 | Voltaire | nacimiento (1694, París) |
 | 2026-11-22 | Abigail Adams | nacimiento (1744, Weymouth, Massachusetts) |
 | 2026-11-23 | Manuel de Falla | nacimiento (1876, Cádiz) |
+| 2026-11-24 | Charles Darwin | publicación de El origen de las especies (1859, Londres) |

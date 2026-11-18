@@ -1,0 +1,299 @@
+{
+ "date": "2026-11-28",
+ "mmdd": "11.28",
+ "lang": "es",
+ "person": "William Blake",
+ "event": "nacimiento (1757, Londres, Inglaterra)",
+ "title": "William Blake: lo llamaron loco en vida, hoy es un gigante de la poesía | Hace 269 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "¡En vida lo llamaron loco, y hoy es un tesoro nacional!",
+    [
+     "¿Quién cambió el mundo hoy? 28 de noviembre.",
+     "¿Quién cambió el mundo hoy? Veintiocho de noviembre."
+    ],
+    [
+     "Un día como hoy, en 1757,",
+     "Un día como hoy, en mil setecientos cincuenta y siete,"
+    ],
+    "encima de una tienda de medias en Londres,",
+    "nació el poeta y pintor William Blake."
+   ],
+   "data": {
+    "hook": "En vida lo llamaron loco.\nHoy es un tesoro nacional.",
+    "sub": "1757  ──  2026",
+    "sub_at": 2,
+    "name": "Blake",
+    "name_years": "William Blake · 1757 – 1827",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El niño que veía ángeles",
+   "lines": [
+    [
+     "De niño, decía haber visto un árbol lleno de ángeles.",
+     "De niño, decía que había visto un árbol lleno de ángeles, cerca de Londres."
+    ],
+    "Su familia pensaba que el niño solo tenía mucha imaginación.",
+    [
+     "En 1772, con catorce años,",
+     "En mil setecientos setenta y dos, con catorce años,"
+    ],
+    "entró como aprendiz de grabador, tallando dibujos en cobre."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Un árbol a las afueras de Londres"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "14",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Aprendiz de grabador",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Un secreto en un sueño",
+   "lines": [
+    "Luego murió Robert, su querido hermano menor.",
+    [
+     "Blake dijo que, en sueños, Robert le enseñó a imprimir así:",
+     "Blake contó que Robert se le apareció en un sueño y le enseñó una nueva forma de imprimir:"
+    ],
+    "poemas y dibujos grabados juntos en cobre,",
+    [
+     "pintados a mano, página a página, con su esposa Catherine.",
+     "y pintados a mano, página por página, junto a su esposa Catherine."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Coloreando grabados a mano"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Poema + arte",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "En una plancha de cobre",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  El tigre",
+   "lines": [
+    [
+     "En 1789 publicó Canciones de inocencia,",
+     "En mil setecientos ochenta y nueve publicó Canciones de inocencia,"
+    ],
+    "y cinco años después, Canciones de experiencia.",
+    "Un poema, El tigre, hace una gran pregunta:",
+    "¿el que creó al cordero creó también al tigre?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Un libro coloreado a mano"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "El tigre",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Una gran pregunta",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Nadie lo entendió",
+   "lines": [
+    [
+     "En 1809 organizó una exposición de sus pinturas.",
+     "En mil ochocientos nueve organizó una exposición de sus pinturas."
+    ],
+    "Casi nadie fue, y la única reseña que recibió lo llamó loco.",
+    [
+     "Vivió pobre toda su vida y murió en 1827.",
+     "Vivió pobre toda su vida y murió en mil ochocientos veintisiete."
+    ],
+    "Se dice que en su lecho de muerte cantaba."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Una exposición vacía, 1809"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "¿Loco?",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "La única reseña",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "Hoy es uno de los grandes poetas y artistas británicos,",
+     "Hoy se le considera uno de los más grandes poetas y artistas británicos,"
+    ],
+    "y su poema Jerusalén se canta",
+    "casi como un segundo himno nacional.",
+    "Su pregunta para ti:",
+    "Si nadie te entendiera, ¿seguirías adelante?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Blake en un museo hoy"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si nadie te entendiera,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "¿seguirías adelante?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 28 de noviembre, recordamos a William Blake.",
+     "y este veintiocho de noviembre, recordamos a William Blake."
+    ],
+    [
+     "Si te gustó, suscríbete y compártela. ¡Hasta mañana!",
+     "Si te gustó esta historia, suscríbete y compártela. ¡Nos vemos mañana!"
+    ]
+   ],
+   "data": {
+    "name": "Blake",
+    "years": "1757 – 1827"
+   }
+  }
+ ]
+}

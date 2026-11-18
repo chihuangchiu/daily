@@ -1,0 +1,297 @@
+{
+ "date": "2026-11-22",
+ "mmdd": "11.22",
+ "lang": "en",
+ "person": "Abigail Adams",
+ "event": "born (1744, Weymouth, Massachusetts)",
+ "title": "Abigail Adams: The Letter That Said \"Remember the Ladies\" | 282 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "One letter told America's founders: remember the women.",
+    [
+     "Who changed the world today? November 22.",
+     "Who changed the world today? November twenty-second."
+    ],
+    [
+     "On this day in 1744,",
+     "On this day in seventeen forty-four,"
+    ],
+    "in Massachusetts,",
+    "Abigail Adams was born."
+   ],
+   "data": {
+    "hook": "Her letter told America's\nfounders: remember women",
+    "sub": "1744  ──  2026",
+    "sub_at": 2,
+    "name": "Abigail",
+    "name_years": "Abigail Adams · 1744 – 1818",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The girl without a school",
+   "lines": [
+    "A minister's daughter, she never went to school,",
+    "yet she taught herself by reading the books at home.",
+    [
+     "In 1764, she married a young lawyer, John Adams.",
+     "In seventeen sixty-four, she married a young lawyer, John Adams."
+    ],
+    "Over their lives, they wrote more than a thousand letters."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A minister's study"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1,100+",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Letters for a lifetime",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Home in wartime",
+   "lines": [
+    "During the Revolution, John was away for years.",
+    "Abigail ran the farm, the money and the children alone.",
+    [
+     "In 1775, holding her young son's hand on a hill,",
+     "In seventeen seventy-five, holding her young son's hand on a hill,"
+    ],
+    "she watched the smoke of the Battle of Bunker Hill."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Alone",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Running the home",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1775: watching Bunker Hill"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Remember the Ladies",
+   "lines": [
+    [
+     "On March 31, 1776, she wrote to John:",
+     "On March thirty-first, seventeen seventy-six, she wrote to John:"
+    ],
+    "Remember the Ladies.",
+    "Do not put unlimited power into the hands of husbands.",
+    "If women are ignored, we are determined to rebel!",
+    "John wrote back that he could not help but laugh."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A box of family letters"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Remember",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "the Ladies",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "He laughed?",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  First in the White House",
+   "lines": [
+    [
+     "In 1797, John became the second president.",
+     "In seventeen ninety-seven, John became the second president."
+    ],
+    [
+     "In 1800, she moved into the unfinished President's House,",
+     "In eighteen hundred, she moved into the unfinished President's House,"
+    ],
+    "the first First Lady to live in the White House,",
+    "and she hung laundry in its empty East Room."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "The President's House, 1800"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The empty East Room"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "Abigail died in 1818, at the age of seventy-three.",
+     "Abigail died in eighteen eighteen, at the age of seventy-three."
+    ],
+    "Seven years later, her son became the sixth president.",
+    "Her letters still let us hear the women of her time.",
+    "Her question for you:",
+    "If the rules left out your voice, what would you do?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "The letters she left"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question",
+        "style": "kicker"
+       },
+       {
+        "text": "If the rules left out your voice,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "what would you do?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 22, we remember Abigail Adams.",
+     "and on November twenty-second, we remember Abigail Adams."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Abigail",
+    "years": "1744 – 1818"
+   }
+  }
+ ]
+}

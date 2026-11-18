@@ -33,3 +33,4 @@
 | 2026-11-19 | Abraham Lincoln | Gettysburg Address (1863, Pennsylvania) | yes |
 | 2026-11-20 | Edwin Hubble | born (1889, Marshfield, Missouri) | yes |
 | 2026-11-21 | Voltaire | born (1694, Paris) | yes |
+| 2026-11-22 | Abigail Adams | born (1744, Weymouth, Massachusetts) | yes |

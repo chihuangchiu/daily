@@ -1,0 +1,296 @@
+{
+ "date": "2026-11-26",
+ "mmdd": "11.26",
+ "lang": "en",
+ "person": "Sojourner Truth",
+ "event": "died (1883, Battle Creek, Michigan)",
+ "title": "Sojourner Truth: She Could Not Read, but Her Voice Woke a Nation | 143 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "She never learned to read or write, yet her voice woke a nation.",
+    [
+     "Who changed the world today? November 26.",
+     "Who changed the world today? November twenty-sixth."
+    ],
+    [
+     "On this day in 1883,",
+     "On this day in eighteen eighty-three,"
+    ],
+    "in Battle Creek, Michigan,",
+    "Sojourner Truth died."
+   ],
+   "data": {
+    "hook": "She could not read.\nHer voice woke a nation.",
+    "sub": "1883  ──  2026",
+    "sub_at": 2,
+    "name": "Sojourner Truth",
+    "name_years": "Sojourner Truth · c. 1797 – 1883",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.37,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Sold with the sheep",
+   "lines": [
+    [
+     "Born into slavery in New York around 1797,",
+     "Born into slavery in New York around seventeen ninety-seven,"
+    ],
+    "she was named Isabella, and grew up speaking Dutch.",
+    "At nine, she was sold along with a flock of sheep.",
+    [
+     "In 1826, her owner broke his word. She left with her baby.",
+     "In eighteen twenty-six, when her owner broke his promise, she walked to freedom with her baby."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Age 9",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Sold with the sheep",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1826, walking to freedom"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  A mother in court",
+   "lines": [
+    "Her son Peter was illegally sold to the South.",
+    "So a mother who could not read took a white man to court.",
+    [
+     "In 1828, she won and brought her son home.",
+     "In eighteen twenty-eight, she won and brought her son home."
+    ],
+    [
+     "She was among the first Black women to win such a case.",
+     "She was among the first Black women in America to win such a case."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A courtroom, 1828"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1828",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "She won her son back",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Traveler and truth",
+   "lines": [
+    [
+     "In 1843, she gave herself a new name: Sojourner Truth.",
+     "In eighteen forty-three, she gave herself a new name: Sojourner Truth."
+    ],
+    "She would travel, and speak the truth.",
+    [
+     "In 1851, she rose to speak at a women's rights convention,",
+     "In eighteen fifty-one, she rose to speak at a women's rights convention,"
+    ],
+    "remembered today by the words: Ain't I a woman?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Truth",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "A name she chose",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Akron, Ohio, 1851"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Selling the shadow",
+   "lines": [
+    "She sold small photo cards of herself to fund her work.",
+    "They read: I sell the shadow to support the substance.",
+    [
+     "In 1864, she met President Lincoln at the White House.",
+     "In eighteen sixty-four, she met President Lincoln at the White House."
+    ],
+    "After the war, she helped freed people find work and land."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A photo studio, 1860s"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Shadow",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Supporting the substance",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "She died on November 26, 1883, in Michigan.",
+     "She died on November twenty-sixth, eighteen eighty-three, in Michigan."
+    ],
+    "She never learned to read,",
+    "yet the world still remembers her voice.",
+    "Her question for you:",
+    "If the world won't let you speak, how will you be heard?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The road to freedom"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question",
+        "style": "kicker"
+       },
+       {
+        "text": "If the world won't let you speak,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "how will you be heard?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 26, we remember Sojourner Truth.",
+     "and on November twenty-sixth, we remember Sojourner Truth."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Sojourner Truth",
+    "years": "c. 1797 – 1883"
+   }
+  }
+ ]
+}

@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-26",
+ "mmdd": "11.26",
+ "lang": "pt",
+ "person": "Sojourner Truth",
+ "event": "morte (1883, Battle Creek, Michigan)",
+ "title": "Sojourner Truth: ela não sabia ler, mas sua voz despertou um país | Há 143 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ela nunca aprendeu a ler, mas sua voz despertou um país.",
+    [
+     "Quem mudou o mundo hoje? 26 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e seis de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1883,",
+     "Num dia como hoje, em mil oitocentos e oitenta e três,"
+    ],
+    "nos Estados Unidos,",
+    "morria Sojourner Truth."
+   ],
+   "data": {
+    "hook": "Ela não sabia ler.\nSua voz despertou um país.",
+    "sub": "1883  ──  2026",
+    "sub_at": 2,
+    "name": "Sojourner Truth",
+    "name_years": "Sojourner Truth · c. 1797 – 1883",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.37,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Vendida com as ovelhas",
+   "lines": [
+    "Nasceu escravizada no estado de Nova York,",
+    "chamava-se Isabella e falava holandês.",
+    "Aos nove anos, foi vendida junto com um rebanho de ovelhas.",
+    [
+     "Em 1826, o dono faltou à palavra. Ela partiu livre com o bebê.",
+     "Em mil oitocentos e vinte e seis, o dono quebrou a promessa, e ela partiu livre com o bebê."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "9 anos",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Vendida com as ovelhas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1826, rumo à liberdade"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Uma mãe no tribunal",
+   "lines": [
+    "O filho, Peter, foi vendido ilegalmente para o Sul.",
+    "Uma mãe que não sabia ler levou um homem branco à Justiça.",
+    [
+     "Em 1828, ela venceu e trouxe o filho de volta.",
+     "Em mil oitocentos e vinte e oito, ela venceu e trouxe o filho de volta."
+    ],
+    "Foi uma das primeiras mulheres negras a vencer um caso assim."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Um tribunal, 1828"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1828",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "O filho de volta",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Viajante e verdade",
+   "lines": [
+    [
+     "Em 1843, ela se deu um novo nome: Sojourner Truth,",
+     "Em mil oitocentos e quarenta e três, ela se deu um novo nome: Sojourner Truth,"
+    ],
+    "viajante e verdade.",
+    [
+     "Em 1851, falou numa convenção pelos direitos das mulheres,",
+     "Em mil oitocentos e cinquenta e um, falou numa convenção pelos direitos das mulheres,"
+    ],
+    "lembrada até hoje pela frase: Não sou eu uma mulher?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Verdade",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "O nome que escolheu",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Akron, Ohio, 1851"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Vender a sombra",
+   "lines": [
+    "Vendia cartões com sua foto para pagar a luta.",
+    "Neles se lia: vendo a sombra para sustentar a substância.",
+    [
+     "Em 1864, encontrou o presidente Lincoln na Casa Branca.",
+     "Em mil oitocentos e sessenta e quatro, encontrou o presidente Lincoln na Casa Branca."
+    ],
+    "Após a guerra, ajudou os libertos com trabalho e terra."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Um estúdio de fotografia, anos 1860"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Sombra",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Para sustentar a substância",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    "Ela morreu naquele dia, já idosa.",
+    "Nunca aprendeu a ler,",
+    "mas o mundo ainda lembra a sua voz.",
+    "A pergunta dela para você:",
+    "Se o mundo não deixa você falar, como você vai ser ouvido?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "O caminho da liberdade"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dela",
+        "style": "kicker"
+       },
+       {
+        "text": "Se o mundo não deixa você falar,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "como você vai ser ouvido?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 26 de novembro, lembramos de Sojourner Truth.",
+     "e neste vinte e seis de novembro, lembramos de Sojourner Truth."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Sojourner Truth",
+    "years": "c. 1797 – 1883"
+   }
+  }
+ ]
+}

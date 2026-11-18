@@ -1,0 +1,297 @@
+{
+ "date": "2026-11-22",
+ "mmdd": "11.22",
+ "lang": "pt",
+ "person": "Abigail Adams",
+ "event": "nascimento (1744, Weymouth, Massachusetts)",
+ "title": "Abigail Adams: a carta que pediu \"lembrem-se das damas\" | Há 282 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Uma carta pediu aos fundadores: lembrem-se das mulheres.",
+    [
+     "Quem mudou o mundo hoje? 22 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e dois de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1744,",
+     "Num dia como hoje, em mil setecentos e quarenta e quatro,"
+    ],
+    "em Massachusetts,",
+    "nascia Abigail Adams."
+   ],
+   "data": {
+    "hook": "Uma carta:\nlembrem-se das mulheres!",
+    "sub": "1744  ──  2026",
+    "sub_at": 2,
+    "name": "Abigail",
+    "name_years": "Abigail Adams · 1744 – 1818",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  A menina sem escola",
+   "lines": [
+    "Filha de um pastor, nunca foi à escola,",
+    "mas aprendeu sozinha com os livros de casa.",
+    [
+     "Em 1764, casou-se com o advogado John Adams.",
+     "Em mil setecentos e sessenta e quatro, casou-se com o advogado John Adams."
+    ],
+    "Os dois trocaram mais de mil cartas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "O escritório de um pastor"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1100+",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Cartas de uma vida",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Um lar na guerra",
+   "lines": [
+    "Na Revolução, John passou anos fora,",
+    "e Abigail cuidou sozinha da fazenda e dos filhos.",
+    [
+     "Em 1775, com o filho pequeno numa colina,",
+     "Em mil setecentos e setenta e cinco, com o filho pequeno numa colina,"
+    ],
+    "ela viu a fumaça da batalha de Bunker Hill."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Sozinha",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Sustentando o lar",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1775: olhando Bunker Hill"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Lembrem-se das damas",
+   "lines": [
+    [
+     "Em março de 1776, ela escreveu a John:",
+     "Em março de mil setecentos e setenta e seis, ela escreveu a John:"
+    ],
+    "Lembrem-se das damas.",
+    "Não ponham poder ilimitado nas mãos dos maridos.",
+    "Se formos ignoradas, estamos decididas a nos rebelar!",
+    "John respondeu que só podia rir."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Uma caixa de cartas da família"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Lembrem-se",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "das damas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Ele riu?",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  A primeira na Casa Branca",
+   "lines": [
+    [
+     "Em 1797, John virou o segundo presidente.",
+     "Em mil setecentos e noventa e sete, John virou o segundo presidente."
+    ],
+    [
+     "Em 1800, ela se mudou para a casa presidencial inacabada,",
+     "Em mil e oitocentos, ela se mudou para a casa presidencial inacabada,"
+    ],
+    "a primeira primeira-dama a morar na Casa Branca,",
+    "e pendurou roupa no Salão Leste."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A casa presidencial, 1800"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "O Salão Leste, vazio"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Abigail morreu em 1818, aos setenta e três anos.",
+     "Abigail morreu em mil oitocentos e dezoito, aos setenta e três anos."
+    ],
+    "Sete anos depois, seu filho virou o sexto presidente.",
+    "Suas cartas guardam a voz das mulheres da época.",
+    "A pergunta dela para você:",
+    "Se as regras deixassem sua voz de fora, o que você faria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "As cartas que ela deixou"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dela",
+        "style": "kicker"
+       },
+       {
+        "text": "Se as regras deixassem sua voz de fora,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "o que você faria?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 22 de novembro, lembramos de Abigail Adams.",
+     "e neste vinte e dois de novembro, lembramos de Abigail Adams."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Abigail",
+    "years": "1744 – 1818"
+   }
+  }
+ ]
+}

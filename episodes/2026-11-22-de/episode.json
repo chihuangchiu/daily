@@ -1,0 +1,297 @@
+{
+ "date": "2026-11-22",
+ "mmdd": "11.22",
+ "lang": "de",
+ "person": "Abigail Adams",
+ "event": "Geburtstag (1744, Weymouth, Massachusetts)",
+ "title": "Abigail Adams: Der Brief, der sagte: „Denkt an die Frauen“ | Vor 282 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ein Brief bat die Gründerväter: Denkt an die Frauen.",
+    [
+     "Wer hat heute die Welt verändert? Der 22. November.",
+     "Wer hat heute die Welt verändert? Der zweiundzwanzigste November."
+    ],
+    [
+     "Heute vor 282 Jahren,",
+     "Heute vor zweihundertzweiundachtzig Jahren,"
+    ],
+    "in Massachusetts,",
+    "wurde Abigail Adams geboren."
+   ],
+   "data": {
+    "hook": "Ein Brief:\nDenkt an die Frauen!",
+    "sub": "1744  ──  2026",
+    "sub_at": 2,
+    "name": "Abigail",
+    "name_years": "Abigail Adams · 1744 – 1818",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ein Mädchen ohne Schule",
+   "lines": [
+    "Die Pfarrerstochter ging nie zur Schule,",
+    "doch sie lernte selbst, mit den Büchern im Haus.",
+    [
+     "1764 heiratete sie den Anwalt John Adams.",
+     "Siebzehnhundertvierundsechzig heiratete sie den Anwalt John Adams."
+    ],
+    "Die beiden schrieben sich über tausend Briefe."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Das Arbeitszimmer eines Pfarrers"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1100+",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Briefe eines Lebens",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Ein Zuhause im Krieg",
+   "lines": [
+    "In der Revolution war John jahrelang fort.",
+    "Abigail führte Hof, Geld und Kinder allein.",
+    [
+     "1775 stand sie mit ihrem kleinen Sohn auf einem Hügel",
+     "Siebzehnhundertfünfundsiebzig stand sie mit ihrem kleinen Sohn auf einem Hügel"
+    ],
+    "und sah den Rauch der Schlacht von Bunker Hill."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Allein",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Sie hielt alles zusammen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1775: Blick auf Bunker Hill"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Denkt an die Frauen",
+   "lines": [
+    [
+     "Im März 1776 schrieb sie an John:",
+     "Im März siebzehnhundertsechsundsiebzig schrieb sie an John:"
+    ],
+    "Denkt an die Frauen.",
+    "Gebt den Ehemännern keine unbegrenzte Macht.",
+    "Werden wir übergangen, sind wir zur Rebellion entschlossen!",
+    "John schrieb zurück, er könne nur lachen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Eine Kiste voller Familienbriefe"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Denkt",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "an die Frauen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Gelacht?",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die Erste im Weißen Haus",
+   "lines": [
+    [
+     "1797 wurde John zweiter Präsident.",
+     "Siebzehnhundertsiebenundneunzig wurde John zweiter Präsident."
+    ],
+    [
+     "1800 zog sie in das unfertige Präsidentenhaus,",
+     "Achtzehnhundert zog sie in das unfertige Präsidentenhaus,"
+    ],
+    "als erste First Lady im Weißen Haus,",
+    "und hängte im leeren East Room Wäsche auf."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Das Präsidentenhaus, 1800"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Der leere East Room"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Abigail starb 1818 im Alter von dreiundsiebzig Jahren.",
+     "Abigail starb achtzehnhundertachtzehn im Alter von dreiundsiebzig Jahren."
+    ],
+    "Sieben Jahre später wurde ihr Sohn sechster Präsident.",
+    "In ihren Briefen hören wir bis heute die Frauen ihrer Zeit.",
+    "Ihre Frage an dich:",
+    "Wenn die Regeln deine Stimme auslassen, was tust du?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Die Briefe, die sie hinterließ"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn die Regeln deine Stimme auslassen,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "was tust du?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 22. November erinnern wir an Abigail Adams.",
+     "und am zweiundzwanzigsten November erinnern wir an Abigail Adams."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Abigail",
+    "years": "1744 – 1818"
+   }
+  }
+ ]
+}

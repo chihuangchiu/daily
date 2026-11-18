@@ -1,0 +1,309 @@
+{
+ "date": "2026-11-21",
+ "mmdd": "11.21",
+ "lang": "de",
+ "person": "Voltaire",
+ "event": "Geburtstag (1694, Paris)",
+ "title": "Voltaire: Zweimal im Kerker, erschütterte er Europa mit der Feder | Vor 332 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Zweimal eingesperrt, erschütterte er Europa mit der Feder.",
+    [
+     "Wer hat heute die Welt verändert? Der 21. November.",
+     "Wer hat heute die Welt verändert? Der einundzwanzigste November."
+    ],
+    [
+     "Heute vor 332 Jahren,",
+     "Heute vor dreihundertzweiunddreißig Jahren,"
+    ],
+    "in Paris,",
+    "wurde der Denker Voltaire geboren."
+   ],
+   "data": {
+    "hook": "Zweimal im Kerker –\nund Europa bebte",
+    "sub": "1694  ──  2026",
+    "sub_at": 2,
+    "name": "Voltaire",
+    "name_years": "François-Marie Arouet · 1694 – 1778",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Die Bastille",
+   "lines": [
+    [
+     "1717 brachten ihn Spottverse auf den Herrscher in die Bastille.",
+     "Siebzehnhundertsiebzehn brachten ihn Spottverse auf den Herrscher in die Bastille."
+    ],
+    "Fast ein Jahr saß er dort und schrieb ein Theaterstück.",
+    "Es wurde ein Erfolg, und er nannte sich fortan Voltaire."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Die Bastille in Paris"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Voltaire",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Ein neuer Name",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Exil in England",
+   "lines": [
+    [
+     "1726 brachte ihn ein Streit erneut in die Bastille,",
+     "Siebzehnhundertsechsundzwanzig brachte ihn ein Streit mit einem Adligen erneut in die Bastille,"
+    ],
+    "dann ging er ins Exil nach England.",
+    "Dort sah er Menschen frei reden und glauben.",
+    "Sein Buch, das Englands Freiheit lobte, wurde in Paris verbrannt."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "London in den 1720er-Jahren"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Verbrannt",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Seine Englischen Briefe",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Candide",
+   "lines": [
+    "Später lebte er in Ferney, nahe der Schweizer Grenze.",
+    [
+     "1759 veröffentlichte er Candide,",
+     "Siebzehnhundertneunundfünfzig veröffentlichte er Candide,"
+    ],
+    "einen witzigen Roman gegen blinden Optimismus und Unrecht.",
+    "Er wurde verboten und trotzdem in ganz Europa gelesen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Sein Landgut in Ferney"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1759",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Candide",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Gerechtigkeit für Calas",
+   "lines": [
+    [
+     "1762 wurde der Protestant Jean Calas hingerichtet,",
+     "Siebzehnhundertzweiundsechzig wurde der Protestant Jean Calas hingerichtet,"
+    ],
+    "fälschlich beschuldigt, seinen eigenen Sohn getötet zu haben.",
+    [
+     "Er schrieb Briefe, Flugschriften und über Toleranz.",
+     "Voltaire schrieb Briefe, Flugschriften und eine Schrift über Toleranz."
+    ],
+    "Drei Jahre später wurde Calas für unschuldig erklärt."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Unrecht",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Toulouse, 1762",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Brief um Brief"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Unschuldig",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "1765",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Voltaire starb 1778, mit dreiundachtzig Jahren,",
+     "Voltaire starb siebzehnhundertachtundsiebzig, mit dreiundachtzig Jahren,"
+    ],
+    "später kam er ins Panthéon in Paris.",
+    [
+     "Er lehrte: Freies Denken muss man verteidigen.",
+     "Er lehrte die Welt, dass freies Denken es wert ist, verteidigt zu werden."
+    ],
+    "Seine Frage an dich:",
+    "Wenn die Wahrheit einen Preis hätte, würdest du sie sagen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Das Panthéon in Paris"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn die Wahrheit einen Preis hätte,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "würdest du sie sagen?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 21. November erinnern wir an Voltaire.",
+     "und am einundzwanzigsten November erinnern wir an Voltaire."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Voltaire",
+    "years": "1694 – 1778"
+   }
+  }
+ ]
+}

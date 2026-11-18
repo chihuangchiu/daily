@@ -32,3 +32,4 @@
 | 2026-11-18 | Louis Daguerre | Geburt (1787, Cormeilles-en-Parisis, Frankreich) | yes |
 | 2026-11-19 | Abraham Lincoln | Gettysburg Address (1863, Pennsylvania) | yes |
 | 2026-11-20 | Edwin Hubble | Geburt (1889, Marshfield, Missouri) | yes |
+| 2026-11-21 | Voltaire | Geburtstag (1694, Paris) |

@@ -34,3 +34,4 @@
 | 2026-11-20 | Edwin Hubble | born (1889, Marshfield, Missouri) | yes |
 | 2026-11-21 | Voltaire | born (1694, Paris) | yes |
 | 2026-11-22 | Abigail Adams | born (1744, Weymouth, Massachusetts) | yes |
+| 2026-11-23 | Manuel de Falla | born (1876, Cádiz, Spain) | yes |

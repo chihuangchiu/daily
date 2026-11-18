@@ -1,0 +1,296 @@
+{
+ "date": "2026-11-23",
+ "mmdd": "11.23",
+ "lang": "en",
+ "person": "Manuel de Falla",
+ "event": "born (1876, Cádiz, Spain)",
+ "title": "Manuel de Falla: He Brought the Soul of Flamenco to the Concert Hall | 150 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He brought the soul of flamenco into the concert hall.",
+    [
+     "Who changed the world today? November 23.",
+     "Who changed the world today? November twenty-third."
+    ],
+    [
+     "On this day in 1876,",
+     "On this day in eighteen seventy-six,"
+    ],
+    "in the Spanish port of Cádiz,",
+    "the composer Manuel de Falla was born."
+   ],
+   "data": {
+    "hook": "He brought flamenco's\nsoul to the concert hall",
+    "sub": "1876  ──  2026",
+    "sub_at": 2,
+    "name": "Falla",
+    "name_years": "Manuel de Falla · 1876 – 1946",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.23,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A boy by the sea",
+   "lines": [
+    "His mother taught him piano,",
+    "and he grew up hearing the folk songs of the port.",
+    [
+     "In 1905, his opera Life Is Short",
+     "In nineteen oh five, his opera, Life Is Short,"
+    ],
+    "won first prize in a composing contest in Madrid."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Cádiz harbor in the 1880s"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1905",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "First prize",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Seven years in Paris",
+   "lines": [
+    [
+     "In 1907, with little money, he moved to Paris,",
+     "In nineteen oh seven, with little money, he moved to Paris,"
+    ],
+    "where Debussy and Ravel became his friends.",
+    "They urged him to write music that was truly Spanish.",
+    [
+     "When war broke out in 1914, he went home to Madrid.",
+     "When war broke out in nineteen fourteen, he went home to Madrid."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A Paris salon, around 1910"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1914",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Back to Spain",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The Ritual Fire Dance",
+   "lines": [
+    [
+     "In 1915, he wrote the ballet Love, the Magician,",
+     "In nineteen fifteen, he wrote the ballet, Love, the Magician,"
+    ],
+    "with its Ritual Fire Dance, as fierce as leaping flames.",
+    [
+     "In 1919, The Three-Cornered Hat opened in London,",
+     "In nineteen nineteen, his ballet, The Three-Cornered Hat, opened in London,"
+    ],
+    "with sets and costumes by Pablo Picasso."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "The fire of flamenco"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Picasso",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Sets for the Hat",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Saving deep song",
+   "lines": [
+    "Later he moved south to Granada, near the Alhambra,",
+    "worried that the ancient deep song was dying out.",
+    [
+     "In 1922, with the young poet Lorca,",
+     "In nineteen twenty-two, with the young poet Lorca,"
+    ],
+    "he held a deep song contest at the Alhambra."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Deep song",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "A dying art",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "The Alhambra, June 1922"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1939, he left Spain for Argentina,",
+     "In nineteen thirty-nine, he left Spain for Argentina,"
+    ],
+    [
+     "and died there in 1946, his last work unfinished.",
+     "and died there in nineteen forty-six, his last work unfinished."
+    ],
+    "He showed the world that folk song can become great music.",
+    "His question for you:",
+    "Which old song from your home deserves to be heard?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "His last home, in Argentina"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "Which old song from your home",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "deserves to be heard?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 23, we remember Manuel de Falla.",
+     "and on November twenty-third, we remember Manuel de Falla."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Falla",
+    "years": "1876 – 1946"
+   }
+  }
+ ]
+}

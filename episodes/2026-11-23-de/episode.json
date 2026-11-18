@@ -1,0 +1,296 @@
+{
+ "date": "2026-11-23",
+ "mmdd": "11.23",
+ "lang": "de",
+ "person": "Manuel de Falla",
+ "event": "Geburtstag (1876, Cádiz, Spanien)",
+ "title": "Manuel de Falla: Er brachte die Seele des Flamenco in den Konzertsaal | Vor 150 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er brachte die Seele des Flamenco in den Konzertsaal.",
+    [
+     "Wer hat heute die Welt verändert? Der 23. November.",
+     "Wer hat heute die Welt verändert? Der dreiundzwanzigste November."
+    ],
+    [
+     "Heute vor 150 Jahren,",
+     "Heute vor hundertfünfzig Jahren,"
+    ],
+    "im spanischen Cádiz,",
+    "wurde der Komponist Manuel de Falla geboren."
+   ],
+   "data": {
+    "hook": "Die Seele des Flamenco\nim Konzertsaal",
+    "sub": "1876  ──  2026",
+    "sub_at": 2,
+    "name": "Falla",
+    "name_years": "Manuel de Falla · 1876 – 1946",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.23,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Ein Junge am Meer",
+   "lines": [
+    "Seine Mutter brachte ihm Klavier bei,",
+    "und er wuchs mit den Volksliedern des Hafens auf.",
+    [
+     "1905 gewann seine Oper Ein kurzes Leben",
+     "Neunzehnhundertfünf gewann seine Oper, Ein kurzes Leben,"
+    ],
+    "den ersten Preis eines Wettbewerbs in Madrid."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Der Hafen von Cádiz um 1880"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1905",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Erster Preis",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Sieben Jahre Paris",
+   "lines": [
+    [
+     "1907 ging er nach Paris,",
+     "Neunzehnhundertsieben ging er nach Paris,"
+    ],
+    "wo Debussy und Ravel seine Freunde wurden.",
+    "Sie ermutigten ihn zu einer wirklich spanischen Musik.",
+    [
+     "Als 1914 der Krieg begann, kehrte er nach Madrid zurück.",
+     "Als neunzehnhundertvierzehn der Krieg begann, kehrte er nach Madrid zurück."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Ein Pariser Salon um 1910"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1914",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Zurück nach Spanien",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der rituelle Feuertanz",
+   "lines": [
+    [
+     "1915 schrieb er das Ballett Liebeszauber,",
+     "Neunzehnhundertfünfzehn schrieb er das Ballett Liebeszauber,"
+    ],
+    "mit dem Rituellen Feuertanz, glühend wie Flammen.",
+    [
+     "1919 wurde Der Dreispitz in London uraufgeführt,",
+     "Neunzehnhundertneunzehn wurde Der Dreispitz in London uraufgeführt,"
+    ],
+    "mit Bühnenbild und Kostümen von Picasso."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Das Feuer des Flamenco"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Picasso",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Bühnenbild für den Dreispitz",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Den Cante jondo retten",
+   "lines": [
+    "Später zog er nach Granada, nahe der Alhambra,",
+    "besorgt, dass der alte Cante jondo verschwand.",
+    [
+     "1922 veranstaltete er mit dem jungen Dichter Lorca",
+     "Neunzehnhundertzweiundzwanzig veranstaltete er mit dem jungen Dichter Lorca"
+    ],
+    "einen Wettbewerb für Cante jondo in der Alhambra."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Cante jondo",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Eine verschwindende Kunst",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Die Alhambra, Juni 1922"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1939 verließ er Spanien und ging nach Argentinien,",
+     "Neunzehnhundertneununddreißig verließ er Spanien und ging nach Argentinien,"
+    ],
+    [
+     "wo er 1946 starb, sein letztes Werk unvollendet.",
+     "wo er neunzehnhundertsechsundvierzig starb, sein letztes Werk unvollendet."
+    ],
+    "Er zeigte, dass aus Volksliedern große Musik werden kann.",
+    "Seine Frage an dich:",
+    "Welches alte Lied deiner Heimat soll die Welt hören?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Sein letztes Zuhause, Argentinien"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Welches alte Lied deiner Heimat",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "soll die Welt hören?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 23. November erinnern wir an Manuel de Falla.",
+     "und am dreiundzwanzigsten November erinnern wir an Manuel de Falla."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Falla",
+    "years": "1876 – 1946"
+   }
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "date": "2026-11-27",
+ "mmdd": "11.27",
+ "lang": "de",
+ "person": "Anders Celsius",
+ "event": "Geburtstag (1701, Uppsala, Schweden)",
+ "title": "Anders Celsius: Seine Temperaturskala stand anfangs auf dem Kopf | Vor 325 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Unsere Temperaturskala stand anfangs auf dem Kopf!",
+    [
+     "Wer hat heute die Welt verändert? Der 27. November.",
+     "Wer hat heute die Welt verändert? Der siebenundzwanzigste November."
+    ],
+    [
+     "Heute vor 325 Jahren,",
+     "Heute vor dreihundertfünfundzwanzig Jahren,"
+    ],
+    "in Uppsala in Schweden,",
+    "wurde der Astronom Anders Celsius geboren."
+   ],
+   "data": {
+    "hook": "Die Temperaturskala\nstand anfangs auf dem Kopf",
+    "sub": "1701  ──  2026",
+    "sub_at": 2,
+    "name": "Celsius",
+    "name_years": "Anders Celsius · 1701 – 1744",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Eine Familie von Gelehrten",
+   "lines": [
+    "Großväter und Vater waren Gelehrte an der Universität.",
+    "Als Junge liebte er Mathe und die Sterne.",
+    [
+     "1730, mit nur achtundzwanzig Jahren,",
+     "Siebzehnhundertdreißig, mit nur achtundzwanzig Jahren,"
+    ],
+    "wurde er Professor für Astronomie in Uppsala."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uppsala im frühen 18. Jahrhundert"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "28",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Professor für Astronomie",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Ist die Erde platt?",
+   "lines": [
+    "Damals stritten Forscher über die wahre Form der Erde.",
+    [
+     "1736 reiste er mit Franzosen ins eisige Lappland,",
+     "Siebzehnhundertsechsunddreißig reiste er mit Franzosen ins eisige Lappland,"
+    ],
+    [
+     "Ergebnis: Die Pole sind abgeflacht.",
+     "um das Land zu vermessen. Ergebnis: Die Erde ist an den Polen abgeflacht."
+    ],
+    "Newton hatte recht!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Vermessung in Lappland, 1736"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Abgeflacht",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "An den Polen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Hundert Schritte",
+   "lines": [
+    "Thermometer hatten damals Dutzende Skalen.",
+    [
+     "1742 schlug er eine einfache Idee vor:",
+     "Siebzehnhundertzweiundvierzig schlug er eine einfache Idee vor:"
+    ],
+    "Gefrieren und Kochen von Wasser, mit hundert Schritten dazwischen.",
+    "Aber er setzte das Kochen auf null und das Gefrieren auf hundert!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Thermometer mit verschiedenen Skalen"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Eis war hundert",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Richtig herum",
+   "lines": [
+    "Je wärmer es wurde, desto kleiner die Zahl.",
+    [
+     "1744 starb er an einer Krankheit, mit nur zweiundvierzig.",
+     "Siebzehnhundertvierundvierzig starb er an einer Krankheit, mit nur zweiundvierzig."
+    ],
+    "Nach seinem Tod drehten andere die Skala um:",
+    "null für Eis, hundert für kochendes Wasser."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Kochendes Wasser und Schnee"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "0 → 100",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Umgedreht",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1948 bekam die Skala offiziell seinen Namen: Grad Celsius.",
+     "Neunzehnhundertachtundvierzig bekam die Skala offiziell seinen Namen: Grad Celsius."
+    ],
+    "Wetter, Fieber, kochendes Wasser:",
+    "alles misst man mit seinen hundert Schritten.",
+    "Seine Frage an dich:",
+    "Wenn jemand deine Idee noch besser macht, freust du dich dann?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Thermometer heute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn jemand deine Idee noch besser macht,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "freust du dich dann?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 27. November erinnern wir an Anders Celsius.",
+     "und am siebenundzwanzigsten November erinnern wir an Anders Celsius."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Celsius",
+    "years": "1701 – 1744"
+   }
+  }
+ ]
+}

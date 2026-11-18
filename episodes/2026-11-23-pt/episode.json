@@ -1,0 +1,296 @@
+{
+ "date": "2026-11-23",
+ "mmdd": "11.23",
+ "lang": "pt",
+ "person": "Manuel de Falla",
+ "event": "nascimento (1876, Cádiz, Espanha)",
+ "title": "Manuel de Falla: levou a alma do flamenco às salas de concerto | Há 150 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele levou a alma do flamenco às salas de concerto.",
+    [
+     "Quem mudou o mundo hoje? 23 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e três de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1876,",
+     "Num dia como hoje, em mil oitocentos e setenta e seis,"
+    ],
+    "no porto espanhol de Cádiz,",
+    "nascia o compositor Manuel de Falla."
+   ],
+   "data": {
+    "hook": "Levou a alma do\nflamenco ao concerto",
+    "sub": "1876  ──  2026",
+    "sub_at": 2,
+    "name": "Falla",
+    "name_years": "Manuel de Falla · 1876 – 1946",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.23,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Um menino à beira-mar",
+   "lines": [
+    "A mãe lhe ensinou piano,",
+    "e ele cresceu ouvindo as canções do porto.",
+    [
+     "Em 1905, sua ópera A vida breve",
+     "Em mil novecentos e cinco, sua ópera A vida breve"
+    ],
+    "ganhou o primeiro prêmio de um concurso em Madri."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "O porto de Cádiz por volta de 1880"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1905",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Primeiro prêmio",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Sete anos em Paris",
+   "lines": [
+    [
+     "Em 1907, com pouco dinheiro, foi para Paris,",
+     "Em mil novecentos e sete, com pouco dinheiro, foi para Paris,"
+    ],
+    "onde Debussy e Ravel viraram seus amigos.",
+    "Eles o incentivaram a criar uma música bem espanhola.",
+    [
+     "Com a guerra, em 1914, ele voltou a Madri.",
+     "Com a guerra, em mil novecentos e catorze, ele voltou a Madri."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Um salão de Paris, por volta de 1910"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1914",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "De volta à Espanha",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  A dança ritual do fogo",
+   "lines": [
+    [
+     "Em 1915, escreveu O amor bruxo,",
+     "Em mil novecentos e quinze, escreveu O amor bruxo,"
+    ],
+    "com a Dança ritual do fogo, ardente como chamas.",
+    [
+     "Em 1919, O chapéu de três pontas estreou em Londres,",
+     "Em mil novecentos e dezenove, O chapéu de três pontas estreou em Londres,"
+    ],
+    "com cenários e figurinos de Picasso."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "O fogo do flamenco"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Picasso",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "O chapéu de três pontas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Salvar o cante jondo",
+   "lines": [
+    "Depois, mudou-se para Granada, perto da Alhambra,",
+    "preocupado com o cante jondo, que se perdia.",
+    [
+     "Em 1922, com o jovem poeta Lorca,",
+     "Em mil novecentos e vinte e dois, com o jovem poeta Lorca,"
+    ],
+    "organizou um concurso de cante jondo na Alhambra."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Cante jondo",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Uma arte que se perdia",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A Alhambra, junho de 1922"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1939, deixou a Espanha rumo à Argentina,",
+     "Em mil novecentos e trinta e nove, deixou a Espanha rumo à Argentina,"
+    ],
+    [
+     "onde morreu em 1946, com a última obra inacabada.",
+     "onde morreu em mil novecentos e quarenta e seis, com a última obra inacabada."
+    ],
+    "Ele mostrou que a canção popular pode virar grande música.",
+    "A pergunta dele para você:",
+    "Que canção antiga da sua terra merece ser ouvida?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Sua última casa, na Argentina"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Que canção antiga da sua terra",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "merece ser ouvida?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 23 de novembro, lembramos de Manuel de Falla.",
+     "e neste vinte e três de novembro, lembramos de Manuel de Falla."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Falla",
+    "years": "1876 – 1946"
+   }
+  }
+ ]
+}

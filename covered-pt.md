@@ -34,3 +34,4 @@
 | 2026-11-20 | Edwin Hubble | nascimento (1889, Marshfield, Missouri) | yes |
 | 2026-11-21 | Voltaire | nascimento (1694, Paris) |
 | 2026-11-22 | Abigail Adams | nascimento (1744, Weymouth, Massachusetts) |
+| 2026-11-23 | Manuel de Falla | nascimento (1876, Cádiz, Espanha) |

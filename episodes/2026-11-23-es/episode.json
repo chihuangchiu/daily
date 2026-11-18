@@ -1,0 +1,296 @@
+{
+ "date": "2026-11-23",
+ "mmdd": "11.23",
+ "lang": "es",
+ "person": "Manuel de Falla",
+ "event": "nacimiento (1876, Cádiz)",
+ "title": "Manuel de Falla: llevó el alma del flamenco a las salas de concierto | Hace 150 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Llevó el alma del flamenco a las salas de concierto.",
+    [
+     "¿Quién cambió el mundo hoy? 23 de noviembre.",
+     "¿Quién cambió el mundo hoy? Veintitrés de noviembre."
+    ],
+    [
+     "Un día como hoy de 1876,",
+     "Un día como hoy de mil ochocientos setenta y seis,"
+    ],
+    "en el puerto de Cádiz,",
+    "nació el compositor Manuel de Falla."
+   ],
+   "data": {
+    "hook": "Llevó el alma del\nflamenco al concierto",
+    "sub": "1876  ──  2026",
+    "sub_at": 2,
+    "name": "Falla",
+    "name_years": "Manuel de Falla · 1876 – 1946",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.23,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Un niño junto al mar",
+   "lines": [
+    "Su madre le enseñó piano,",
+    "y creció oyendo los cantos populares del puerto.",
+    [
+     "En 1905, su ópera La vida breve",
+     "En mil novecientos cinco, su ópera La vida breve"
+    ],
+    "ganó el primer premio de un concurso en Madrid."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "El puerto de Cádiz hacia 1880"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1905",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Primer premio",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Siete años en París",
+   "lines": [
+    [
+     "En 1907, con poco dinero, se fue a París,",
+     "En mil novecientos siete, con poco dinero, se fue a París,"
+    ],
+    "donde Debussy y Ravel se hicieron sus amigos.",
+    "Lo animaron a escribir una música de verdad española.",
+    [
+     "Al estallar la guerra en 1914, volvió a Madrid.",
+     "Al estallar la guerra en mil novecientos catorce, volvió a Madrid."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Un salón de París, hacia 1910"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1914",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "De vuelta a España",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  La danza ritual del fuego",
+   "lines": [
+    [
+     "En 1915 escribió El amor brujo,",
+     "En mil novecientos quince escribió El amor brujo,"
+    ],
+    "con su Danza ritual del fuego, ardiente como las llamas.",
+    [
+     "En 1919, El sombrero de tres picos se estrenó en Londres,",
+     "En mil novecientos diecinueve, El sombrero de tres picos se estrenó en Londres,"
+    ],
+    "con decorados y vestuario de Pablo Picasso."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "El fuego del flamenco"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Picasso",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "El sombrero de tres picos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Salvar el cante jondo",
+   "lines": [
+    "Más tarde se fue a Granada, cerca de la Alhambra,",
+    "preocupado porque el viejo cante jondo se perdía.",
+    [
+     "En 1922, con el joven poeta Lorca,",
+     "En mil novecientos veintidós, con el joven poeta Lorca,"
+    ],
+    "organizó un concurso de cante jondo en la Alhambra."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Cante jondo",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Un arte que se perdía",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "La Alhambra, junio de 1922"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1939 dejó España y se fue a Argentina,",
+     "En mil novecientos treinta y nueve dejó España y se fue a Argentina,"
+    ],
+    [
+     "donde murió en 1946, con su última obra sin terminar.",
+     "donde murió en mil novecientos cuarenta y seis, con su última obra sin terminar."
+    ],
+    "Mostró al mundo que el canto popular puede ser gran música.",
+    "Su pregunta para ti:",
+    "¿Qué canción antigua de tu tierra merece ser escuchada?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Su último hogar, en Argentina"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Qué canción antigua de tu tierra",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "merece ser escuchada?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 23 de noviembre, recordamos a Manuel de Falla.",
+     "y este veintitrés de noviembre, recordamos a Manuel de Falla."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Falla",
+    "years": "1876 – 1946"
+   }
+  }
+ ]
+}

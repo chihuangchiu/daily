@@ -1,0 +1,290 @@
+{
+ "date": "2026-11-27",
+ "mmdd": "11.27",
+ "lang": "es",
+ "person": "Anders Celsius",
+ "event": "nacimiento (1701, Upsala, Suecia)",
+ "title": "Anders Celsius: su escala de temperatura empezó al revés | Hace 325 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "¡La escala de temperatura que usa todo el mundo empezó al revés!",
+    [
+     "¿Quién cambió el mundo hoy? 27 de noviembre.",
+     "¿Quién cambió el mundo hoy? Veintisiete de noviembre."
+    ],
+    [
+     "Un día como hoy de 1701,",
+     "Un día como hoy de mil setecientos uno,"
+    ],
+    "en Upsala, Suecia,",
+    "nació el astrónomo Anders Celsius."
+   ],
+   "data": {
+    "hook": "La escala de temperatura\nempezó al revés",
+    "sub": "1701  ──  2026",
+    "sub_at": 2,
+    "name": "Celsius",
+    "name_years": "Anders Celsius · 1701 – 1744",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Una familia de sabios",
+   "lines": [
+    "Sus abuelos y su padre eran profesores universitarios.",
+    "De niño amaba las matemáticas y miraba las estrellas.",
+    [
+     "En 1730, con solo veintiocho años,",
+     "En mil setecientos treinta, con solo veintiocho años,"
+    ],
+    "ya era profesor de astronomía en Upsala."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Upsala a comienzos del siglo XVIII"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "28 años",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Profesor de astronomía",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  ¿Es la Tierra achatada?",
+   "lines": [
+    "Los científicos discutían la verdadera forma de la Tierra.",
+    [
+     "En 1736 se unió a una expedición francesa a la helada Laponia,",
+     "En mil setecientos treinta y seis se unió a una expedición francesa a la helada Laponia,"
+    ],
+    "para medir el terreno. Resultado: la Tierra es achatada en los polos.",
+    "¡Newton tenía razón!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Medición en Laponia, 1736"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Achatada",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "En los polos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Cien grados",
+   "lines": [
+    "Entonces los termómetros usaban decenas de escalas distintas.",
+    [
+     "En 1742 propuso una idea sencilla:",
+     "En mil setecientos cuarenta y dos propuso una idea sencilla:"
+    ],
+    [
+     "Hielo y agua hirviendo, con cien pasos entre ellos.",
+     "usar el punto de congelación y el de ebullición del agua, con cien pasos entre ellos."
+    ],
+    "¡Pero puso el agua hirviendo en cero, y el hielo en cien!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Termómetros con escalas distintas"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "El hielo era cien",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Al derecho",
+   "lines": [
+    "Cuanto más calor hacía, más bajo era el número.",
+    [
+     "En 1744 murió de una enfermedad, con solo cuarenta y dos años.",
+     "En mil setecientos cuarenta y cuatro murió de una enfermedad, con solo cuarenta y dos años."
+    ],
+    "Tras su muerte, otros le dieron la vuelta a la escala:",
+    "cero para el hielo, cien para el agua hirviendo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Agua hirviendo y nieve"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "0 → 100",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Al derecho",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1948 recibió su nombre: grados Celsius.",
+     "En mil novecientos cuarenta y ocho, la escala recibió oficialmente su nombre: grados Celsius."
+    ],
+    "El tiempo, la fiebre, el agua que hierve,",
+    "todo se mide con sus cien pasos.",
+    "Su pregunta para ti:",
+    "Si alguien mejorara tu idea, ¿te alegrarías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Los termómetros de hoy"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si alguien mejorara tu idea,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "¿te alegrarías?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 27 de noviembre, recordamos a Anders Celsius.",
+     "y este veintisiete de noviembre, recordamos a Anders Celsius."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Celsius",
+    "years": "1701 – 1744"
+   }
+  }
+ ]
+}

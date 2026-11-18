@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-25",
+ "mmdd": "11.25",
+ "lang": "en",
+ "person": "Carl Benz",
+ "event": "born (1844, Karlsruhe, Germany)",
+ "title": "Carl Benz: He Built the First Car, His Wife Took It on the Road | Born 182 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He built the first car, and his wife took it on its first long trip.",
+    [
+     "Who changed the world today? November 25.",
+     "Who changed the world today? November twenty-fifth."
+    ],
+    [
+     "On this day in 1844,",
+     "On this day in eighteen forty-four,"
+    ],
+    "in Karlsruhe, Germany,",
+    "Carl Benz, inventor of the car, was born."
+   ],
+   "data": {
+    "hook": "He built the first car.\nHis wife drove it away.",
+    "sub": "1844  ──  2026",
+    "sub_at": 2,
+    "name": "Benz",
+    "name_years": "Carl Benz · 1844 – 1929",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The engine driver's son",
+   "lines": [
+    "His father, a train driver, died when Carl was two.",
+    "His mother saved every coin to keep him in school.",
+    "At fifteen, he entered the technical college,",
+    "dreaming of a carriage that moved without horses."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A steam train of the 1840s"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "15",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Off to college",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  New Year's Eve",
+   "lines": [
+    "His business struggled and money ran short,",
+    "so his wife Bertha put in her dowry.",
+    [
+     "On New Year's Eve 1879, his engine finally roared to life.",
+     "On New Year's Eve, eighteen seventy-nine, his engine finally roared to life."
+    ],
+    [
+     "In 1886, his three-wheeled motor car got its patent.",
+     "In eighteen eighty-six, his three-wheeled motor car got its patent."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "His workshop, New Year's Eve 1879"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The car's birth certificate",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A secret trip",
+   "lines": [
+    "But people laughed at it, and few wanted one.",
+    [
+     "In August 1888, Bertha took their two teenage sons,",
+     "In August eighteen eighty-eight, Bertha took their two teenage sons,"
+    ],
+    "and without telling Carl, drove to her mother's,",
+    "from Mannheim to Pforzheim, about a hundred kilometres."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "100 km",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "The first long drive",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A country road, 1888"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  A pharmacy filling station",
+   "lines": [
+    "Out of fuel, she bought a cleaning solvent at a pharmacy.",
+    "When a fuel line clogged, she cleared it with her hatpin.",
+    "That evening, she arrived safely and sent Carl a telegram.",
+    "Now all of Germany knew: the horseless carriage worked!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "The pharmacy in Wiesloch"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Pharmacy",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "The first filling station",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "Carl Benz died in 1929, at eighty-four.",
+     "Carl Benz died in nineteen twenty-nine, at eighty-four."
+    ],
+    "Today, over a billion cars fill the world's roads,",
+    "all starting from that little three-wheeler.",
+    "Their question for you:",
+    [
+     "If no one believed your idea, how would you make them see?",
+     "If no one believed in your invention, how would you make them see?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The roads of today"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Their question",
+        "style": "kicker"
+       },
+       {
+        "text": "If no one believed in your invention,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "how would you make them see?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 25, we remember Carl Benz.",
+     "and on November twenty-fifth, we remember Carl Benz."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Benz",
+    "years": "1844 – 1929"
+   }
+  }
+ ]
+}

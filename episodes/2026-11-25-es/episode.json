@@ -1,0 +1,284 @@
+{
+ "date": "2026-11-25",
+ "mmdd": "11.25",
+ "lang": "es",
+ "person": "Carl Benz",
+ "event": "nacimiento (1844, Karlsruhe, Alemania)",
+ "title": "Carl Benz: construyó el primer coche y su esposa lo llevó a la carretera | Hace 182 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Construyó el primer coche, y su esposa lo llevó en su primer gran viaje.",
+    [
+     "¿Quién cambió el mundo hoy? 25 de noviembre.",
+     "¿Quién cambió el mundo hoy? Veinticinco de noviembre."
+    ],
+    [
+     "Un día como hoy de 1844,",
+     "Un día como hoy de mil ochocientos cuarenta y cuatro,"
+    ],
+    "en Karlsruhe, Alemania,",
+    "nació Carl Benz, el inventor del automóvil."
+   ],
+   "data": {
+    "hook": "Construyó el primer coche.\nSu esposa lo condujo.",
+    "sub": "1844  ──  2026",
+    "sub_at": 2,
+    "name": "Benz",
+    "name_years": "Carl Benz · 1844 – 1929",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El hijo del maquinista",
+   "lines": [
+    "Su padre, maquinista de tren, murió cuando Carl tenía dos años.",
+    "Su madre ahorró cada moneda para que estudiara.",
+    "A los quince años entró en la escuela politécnica,",
+    "soñando con un carruaje que anduviera sin caballos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Un tren de vapor de 1840"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "15 años",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Al politécnico",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Nochevieja",
+   "lines": [
+    "Su taller iba mal y faltaba el dinero,",
+    "así que su esposa Bertha puso su dote.",
+    [
+     "En la Nochevieja de 1879, su motor por fin rugió.",
+     "En la Nochevieja de mil ochocientos setenta y nueve, su motor por fin rugió."
+    ],
+    [
+     "En 1886, su coche de tres ruedas obtuvo la patente.",
+     "En mil ochocientos ochenta y seis, su coche de tres ruedas obtuvo la patente."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Su taller, Nochevieja de 1879"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "El acta de nacimiento del coche",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Un viaje secreto",
+   "lines": [
+    "Pero la gente se reía de él, y casi nadie lo quería.",
+    [
+     "En agosto de 1888, Bertha tomó a sus dos hijos adolescentes,",
+     "En agosto de mil ochocientos ochenta y ocho, Bertha tomó a sus dos hijos adolescentes,"
+    ],
+    "y sin avisar a Carl, condujo hasta la casa de su madre,",
+    "de Mannheim a Pforzheim, unos cien kilómetros."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "100 km",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "El primer gran viaje",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Un camino rural, 1888"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Una farmacia gasolinera",
+   "lines": [
+    "Sin combustible, compró un disolvente en una farmacia.",
+    "Cuando se atascó un conducto, lo limpió con su alfiler de sombrero.",
+    "Esa tarde llegó sana y salva, y envió un telegrama a Carl.",
+    "¡Toda Alemania lo supo: el coche sin caballos funcionaba!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "La farmacia de Wiesloch"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Farmacia",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "La primera gasolinera",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "Carl Benz murió en 1929, a los ochenta y cuatro años.",
+     "Carl Benz murió en mil novecientos veintinueve, a los ochenta y cuatro años."
+    ],
+    "Hoy, más de mil millones de coches llenan las carreteras,",
+    "y todo empezó con aquel pequeño triciclo.",
+    "Su pregunta para ti:",
+    "Si nadie creyera en tu invento, ¿cómo harías que lo vieran?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Las carreteras de hoy"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si nadie creyera en tu invento,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "¿cómo harías que lo vieran?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 25 de noviembre, recordamos a Carl Benz.",
+     "y este veinticinco de noviembre, recordamos a Carl Benz."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Benz",
+    "years": "1844 – 1929"
+   }
+  }
+ ]
+}

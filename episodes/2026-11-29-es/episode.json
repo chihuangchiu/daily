@@ -1,0 +1,290 @@
+{
+ "date": "2026-11-29",
+ "mmdd": "11.29",
+ "lang": "es",
+ "person": "Christian Doppler",
+ "event": "nacimiento (1803, Salzburgo, Austria)",
+ "title": "Christian Doppler: por qué cambia el sonido de una sirena | Hace 223 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "¿Por qué cambia el sonido de una sirena cuando pasa a tu lado? ¡La respuesta viene de él!",
+    [
+     "¿Quién cambió el mundo hoy? 29 de noviembre.",
+     "¿Quién cambió el mundo hoy? Veintinueve de noviembre."
+    ],
+    [
+     "Un día como hoy, en 1803,",
+     "Un día como hoy, en mil ochocientos tres,"
+    ],
+    "en Salzburgo, Austria,",
+    "nació el físico Christian Doppler."
+   ],
+   "data": {
+    "hook": "¿Por qué cambia una sirena\nal pasar a tu lado?",
+    "sub": "1803  ──  2026",
+    "sub_at": 2,
+    "name": "Doppler",
+    "name_years": "Christian Doppler · 1803 – 1853",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El hijo del cantero",
+   "lines": [
+    "Su familia llevaba generaciones trabajando la piedra.",
+    "Pero él era un niño frágil, sin fuerzas para cargar bloques.",
+    "Así que su padre lo mandó a estudiar,",
+    "y resultó ser brillante en matemáticas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Un taller de canteros en Salzburgo"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Matemáticas",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Mejor que la piedra",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Casi a América",
+   "lines": [
+    "De joven, no conseguía trabajo como profesor en ningún lado.",
+    [
+     "En 1835 vendió sus cosas para emigrar a América.",
+     "En mil ochocientos treinta y cinco vendió sus cosas para emigrar a América."
+    ],
+    "Justo antes de partir, le ofrecieron un puesto en Praga.",
+    "Se quedó, y su vida dio un giro."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1835, listo para partir"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1835",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Casi a América",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  El color de las estrellas",
+   "lines": [
+    [
+     "En 1842, en Praga, presentó una idea audaz:",
+     "En mil ochocientos cuarenta y dos, en Praga, presentó una idea audaz:"
+    ],
+    "si algo se acerca a ti, sus ondas se juntan y el sonido sube;",
+    "si se aleja, las ondas se estiran y el sonido baja.",
+    "Dijo que la luz de las estrellas funciona igual."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Estrellas dobles sobre Praga"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1842",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "El efecto Doppler",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Trompetas en un tren",
+   "lines": [
+    [
+     "En 1845, un científico holandés lo puso a prueba.",
+     "En mil ochocientos cuarenta y cinco, un científico holandés lo puso a prueba."
+    ],
+    "Subió a unos trompetistas a un tren a tocar una sola nota.",
+    "Al acercarse, la nota subía; al alejarse, bajaba.",
+    "¡Doppler tenía razón!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "La prueba del tren, Países Bajos, 1845"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "¡Razón!",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "El sonido sí cambiaba",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "Murió enfermo en Venecia en 1853, con solo cuarenta y nueve años.",
+     "Murió enfermo en Venecia en mil ochocientos cincuenta y tres, con solo cuarenta y nueve años."
+    ],
+    [
+     "Hoy, el radar, los controles de velocidad, las ecografías,",
+     "Hoy, el radar del tiempo, los radares de velocidad, las ecografías,"
+    ],
+    "y hasta medir cómo se mueven las galaxias, usan su idea.",
+    "Su pregunta para ti:",
+    "¿Hay algo que oyes cada día y nunca te preguntaste por qué?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Radares y galaxias hoy"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "¿Hay algo que oyes cada día",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "y nunca te preguntaste por qué?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 29 de noviembre, recordamos a Christian Doppler.",
+     "y este veintinueve de noviembre, recordamos a Christian Doppler."
+    ],
+    [
+     "Si te gustó, suscríbete y compártela. ¡Hasta mañana!",
+     "Si te gustó esta historia, suscríbete y compártela. ¡Nos vemos mañana!"
+    ]
+   ],
+   "data": {
+    "name": "Doppler",
+    "years": "1803 – 1853"
+   }
+  }
+ ]
+}

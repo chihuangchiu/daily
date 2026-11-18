@@ -40,3 +40,4 @@
 | 2026-11-26 | Sojourner Truth | muerte (1883, Battle Creek, Míchigan) |
 | 2026-11-27 | Anders Celsius | nacimiento (1701, Upsala, Suecia) |
 | 2026-11-28 | William Blake | nacimiento (1757, Londres, Inglaterra) |
+| 2026-11-29 | Christian Doppler | nacimiento (1803, Salzburgo, Austria) |

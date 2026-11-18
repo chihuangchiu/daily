@@ -39,3 +39,4 @@
 | 2026-11-25 | Carl Benz | nascimento (1844, Karlsruhe, Alemanha) |
 | 2026-11-26 | Sojourner Truth | morte (1883, Battle Creek, Michigan) |
 | 2026-11-27 | Anders Celsius | nascimento (1701, Uppsala, Suécia) |
+| 2026-11-28 | William Blake | nascimento (1757, Londres, Inglaterra) |

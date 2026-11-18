@@ -1,0 +1,284 @@
+{
+ "date": "2026-11-25",
+ "mmdd": "11.25",
+ "lang": "pt",
+ "person": "Carl Benz",
+ "event": "nascimento (1844, Karlsruhe, Alemanha)",
+ "title": "Carl Benz: ele criou o primeiro carro, e a esposa o levou para a estrada | Há 182 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele criou o primeiro carro, e a esposa o levou na primeira grande viagem.",
+    [
+     "Quem mudou o mundo hoje? 25 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e cinco de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1844,",
+     "Num dia como hoje, em mil oitocentos e quarenta e quatro,"
+    ],
+    "em Karlsruhe, na Alemanha,",
+    "nascia Carl Benz, o inventor do automóvel."
+   ],
+   "data": {
+    "hook": "Ele criou o primeiro carro.\nA esposa o dirigiu.",
+    "sub": "1844  ──  2026",
+    "sub_at": 2,
+    "name": "Benz",
+    "name_years": "Carl Benz · 1844 – 1929",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O filho do maquinista",
+   "lines": [
+    "O pai, maquinista de trem, morreu quando ele tinha dois anos.",
+    "A mãe economizou tudo para ele estudar.",
+    "Aos quinze anos, entrou na politécnica,",
+    "sonhando com uma carruagem que andasse sem cavalos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Um trem a vapor dos anos 1840"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "15 anos",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Na politécnica",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Véspera de Ano-Novo",
+   "lines": [
+    "A oficina ia mal e faltava dinheiro,",
+    "então a esposa, Bertha, investiu o dote.",
+    [
+     "Na véspera de Ano-Novo de 1879, o motor enfim roncou.",
+     "Na véspera de Ano-Novo de mil oitocentos e setenta e nove, o motor enfim roncou."
+    ],
+    [
+     "Em 1886, o carro de três rodas ganhou a patente.",
+     "Em mil oitocentos e oitenta e seis, o carro de três rodas ganhou a patente."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A oficina, Ano-Novo de 1879"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "A certidão do carro",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Uma viagem secreta",
+   "lines": [
+    "Mas o povo ria dele, e quase ninguém queria um.",
+    [
+     "Em agosto de 1888, Bertha levou os dois filhos,",
+     "Em agosto de mil oitocentos e oitenta e oito, Bertha levou os dois filhos,"
+    ],
+    "e sem avisar Carl, foi até a casa da mãe,",
+    "de Mannheim a Pforzheim, uns cem quilômetros."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "100 km",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "A primeira grande viagem",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Uma estrada no campo, 1888"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Uma farmácia posto",
+   "lines": [
+    "Sem combustível, comprou um solvente numa farmácia.",
+    "Com um cano entupido, ela o limpou com o grampo do chapéu.",
+    "À tarde, chegou bem e mandou um telegrama a Carl.",
+    "A Alemanha inteira soube: o carro sem cavalos funcionava!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A farmácia de Wiesloch"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Farmácia",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "O primeiro posto",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Carl Benz morreu em 1929, aos oitenta e quatro anos.",
+     "Carl Benz morreu em mil novecentos e vinte e nove, aos oitenta e quatro anos."
+    ],
+    "Hoje, mais de um bilhão de carros rodam pelo mundo,",
+    "e tudo começou com aquele triciclo.",
+    "A pergunta deles para você:",
+    "Se ninguém acreditasse na sua invenção, como você mostraria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "As estradas de hoje"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta deles",
+        "style": "kicker"
+       },
+       {
+        "text": "Se ninguém acreditasse na sua invenção,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "como você mostraria?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 25 de novembro, lembramos de Carl Benz.",
+     "e neste vinte e cinco de novembro, lembramos de Carl Benz."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Benz",
+    "years": "1844 – 1929"
+   }
+  }
+ ]
+}

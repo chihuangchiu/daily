@@ -36,3 +36,4 @@
 | 2026-11-22 | Abigail Adams | nascimento (1744, Weymouth, Massachusetts) |
 | 2026-11-23 | Manuel de Falla | nascimento (1876, Cádiz, Espanha) |
 | 2026-11-24 | Charles Darwin | publicação de A Origem das Espécies (1859, Londres) |
+| 2026-11-25 | Carl Benz | nascimento (1844, Karlsruhe, Alemanha) |

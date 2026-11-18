@@ -1,0 +1,293 @@
+{
+ "date": "2026-11-24",
+ "mmdd": "11.24",
+ "lang": "de",
+ "person": "Charles Darwin",
+ "event": "Erscheinen von Über die Entstehung der Arten (1859, London)",
+ "title": "Darwin: Das Buch, das unseren Blick auf das Leben veränderte | Vor 167 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ein Buch veränderte unseren Blick auf alles Leben.",
+    [
+     "Wer hat heute die Welt verändert? Der 24. November.",
+     "Wer hat heute die Welt verändert? Der vierundzwanzigste November."
+    ],
+    [
+     "Heute vor 167 Jahren,",
+     "Heute vor hundertsiebenundsechzig Jahren,"
+    ],
+    "in London,",
+    "erschien Darwins Buch Über die Entstehung der Arten."
+   ],
+   "data": {
+    "hook": "Ein Buch veränderte\nunseren Blick aufs Leben",
+    "sub": "1859  ──  2026",
+    "sub_at": 2,
+    "name": "Darwin",
+    "name_years": "Charles Darwin · 1809 – 1882",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Die Beagle",
+   "lines": [
+    [
+     "1831 ging der 22-jährige Darwin an Bord der Beagle,",
+     "Achtzehnhunderteinunddreißig ging der zweiundzwanzigjährige Darwin an Bord der Beagle,"
+    ],
+    "für eine fast fünfjährige Reise um die Welt.",
+    [
+     "1835 erreichte er die Galápagos-Inseln",
+     "Achtzehnhundertfünfunddreißig erreichte er die Galápagos-Inseln"
+    ],
+    "und sammelte Riesenschildkröten und viele Finken."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "5 Jahre",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Um die Welt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Die Galápagos-Inseln, 1835"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Ein Geheimnis",
+   "lines": [
+    "Zurück in England sah er: Jede Insel hatte andere Schnäbel.",
+    "Lebewesen verändern sich langsam,",
+    [
+     "Die Angepassten haben mehr Nachkommen: Selektion.",
+     "und die am besten Angepassten haben mehr Nachkommen: natürliche Selektion."
+    ],
+    "Aus Angst vor dem Skandal schwieg er fast zwanzig Jahre."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Finken mit verschiedenen Schnäbeln"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Selektion",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Natürliche Auslese",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Ein Brief",
+   "lines": [
+    [
+     "1858 kam ein Brief vom jungen Forscher Alfred Wallace,",
+     "Achtzehnhundertachtundfünfzig kam ein Brief vom jungen Forscher Alfred Wallace,"
+    ],
+    "mit fast derselben Theorie!",
+    "Beide Arbeiten wurden in London vorgestellt,",
+    "und Darwin schrieb sein Buch endlich fertig."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Wallace",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Der Brief",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Der Gartenweg bei Darwins Haus"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Eine Welt in Aufruhr",
+   "lines": [
+    [
+     "Am 24. November 1859 erschien das Buch.",
+     "Am vierundzwanzigsten November achtzehnhundertneunundfünfzig erschien das Buch."
+    ],
+    [
+     "Alle 1250 Exemplare waren schnell vergriffen.",
+     "Alle zwölfhundertfünfzig Exemplare waren schnell vergriffen."
+    ],
+    "Manche staunten, andere waren empört,",
+    "und die Welt stritt, woher das Leben kommt."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Eine Londoner Buchhandlung, 1859"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1250",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Schnell vergriffen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Darwin starb 1882 und ruht in der Westminster Abbey.",
+     "Darwin starb achtzehnhundertzweiundachtzig und ruht in der Westminster Abbey."
+    ],
+    "Heute ist die Evolution die Grundlage der Biologie,",
+    "und er lehrte uns, den Beweisen zu vertrauen.",
+    "Seine Frage an dich:",
+    "Wenn Beweise dich widerlegen, änderst du deine Meinung?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Der Baum des Lebens"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn Beweise dich widerlegen,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "änderst du deine Meinung?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 24. November erinnern wir an Charles Darwin.",
+     "und am vierundzwanzigsten November erinnern wir an Charles Darwin."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Darwin",
+    "years": "1809 – 1882"
+   }
+  }
+ ]
+}

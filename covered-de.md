@@ -36,3 +36,4 @@
 | 2026-11-22 | Abigail Adams | Geburtstag (1744, Weymouth, Massachusetts) |
 | 2026-11-23 | Manuel de Falla | Geburtstag (1876, Cádiz, Spanien) |
 | 2026-11-24 | Charles Darwin | Erscheinen von Über die Entstehung der Arten (1859, London) |
+| 2026-11-25 | Carl Benz | Geburtstag (1844, Karlsruhe) |

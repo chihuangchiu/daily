@@ -1,0 +1,284 @@
+{
+ "date": "2026-11-25",
+ "mmdd": "11.25",
+ "lang": "de",
+ "person": "Carl Benz",
+ "event": "Geburtstag (1844, Karlsruhe)",
+ "title": "Carl Benz: Er baute das erste Auto, seine Frau fuhr es hinaus | Vor 182 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er baute das erste Auto, und seine Frau unternahm damit die erste große Fahrt.",
+    [
+     "Wer hat heute die Welt verändert? Der 25. November.",
+     "Wer hat heute die Welt verändert? Der fünfundzwanzigste November."
+    ],
+    [
+     "Heute vor 182 Jahren,",
+     "Heute vor hundertzweiundachtzig Jahren,"
+    ],
+    "in Karlsruhe,",
+    "wurde Carl Benz geboren, der Erfinder des Autos."
+   ],
+   "data": {
+    "hook": "Er baute das erste Auto.\nSeine Frau fuhr es los.",
+    "sub": "1844  ──  2026",
+    "sub_at": 2,
+    "name": "Benz",
+    "name_years": "Carl Benz · 1844 – 1929",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.35,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Sohn des Lokführers",
+   "lines": [
+    "Sein Vater, ein Lokführer, starb, als Carl zwei war.",
+    "Seine Mutter sparte jeden Pfennig für seine Schule.",
+    "Mit fünfzehn kam er ans Polytechnikum,",
+    "und träumte von einem Wagen ohne Pferde."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine Dampflok der 1840er-Jahre"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "15",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Ans Polytechnikum",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Silvester",
+   "lines": [
+    "Die Werkstatt lief schlecht, das Geld war knapp,",
+    "also steckte seine Frau Bertha ihre Mitgift hinein.",
+    [
+     "An Silvester 1879 lief sein Motor endlich.",
+     "An Silvester achtzehnhundertneunundsiebzig lief sein Motor endlich."
+    ],
+    [
+     "1886 bekam sein Dreirad-Wagen das Patent.",
+     "Achtzehnhundertsechsundachtzig bekam sein Dreirad-Wagen das Patent."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Die Werkstatt, Silvester 1879"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Die Geburtsurkunde des Autos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Eine heimliche Fahrt",
+   "lines": [
+    "Doch die Leute lachten, kaum jemand wollte einen.",
+    [
+     "Im August 1888 nahm Bertha die beiden Söhne mit,",
+     "Im August achtzehnhundertachtundachtzig nahm Bertha die beiden Söhne mit,"
+    ],
+    "und fuhr, ohne Carl zu fragen, zu ihrer Mutter,",
+    "von Mannheim nach Pforzheim, rund hundert Kilometer."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "100 km",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Die erste Fernfahrt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Eine Landstraße, 1888"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die Apotheke als Tankstelle",
+   "lines": [
+    "Ohne Benzin kaufte sie Waschbenzin in einer Apotheke.",
+    "Eine verstopfte Leitung reinigte sie mit ihrer Hutnadel.",
+    "Am Abend kam sie an und schickte Carl ein Telegramm.",
+    "Nun wusste ganz Deutschland: Der Wagen ohne Pferde fährt!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Die Apotheke in Wiesloch"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Apotheke",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Die erste Tankstelle",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Carl Benz starb 1929 mit vierundachtzig Jahren.",
+     "Carl Benz starb neunzehnhundertneunundzwanzig mit vierundachtzig Jahren."
+    ],
+    "Heute fahren über eine Milliarde Autos auf der Welt,",
+    "und alles begann mit diesem kleinen Dreirad.",
+    "Ihre Frage an dich:",
+    "Wenn niemand an deine Erfindung glaubt, wie zeigst du sie?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Die Straßen von heute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn niemand an deine Erfindung glaubt,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "wie zeigst du sie?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 25. November erinnern wir an Carl Benz.",
+     "und am fünfundzwanzigsten November erinnern wir an Carl Benz."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Benz",
+    "years": "1844 – 1929"
+   }
+  }
+ ]
+}

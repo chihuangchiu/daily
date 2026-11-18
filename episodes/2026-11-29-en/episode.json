@@ -1,0 +1,290 @@
+{
+ "date": "2026-11-29",
+ "mmdd": "11.29",
+ "lang": "en",
+ "person": "Christian Doppler",
+ "event": "born (1803, Salzburg, Austria)",
+ "title": "Christian Doppler: Why an Ambulance Siren Changes Pitch | Born 223 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Why does a siren change its sound as it passes you? The answer comes from him!",
+    [
+     "Who changed the world today? November 29.",
+     "Who changed the world today? November twenty-ninth."
+    ],
+    [
+     "On this day in 1803,",
+     "On this day in eighteen oh three,"
+    ],
+    "in Salzburg, Austria,",
+    "the physicist Christian Doppler was born."
+   ],
+   "data": {
+    "hook": "Why does a siren change\nas it passes you?",
+    "sub": "1803  ──  2026",
+    "sub_at": 2,
+    "name": "Doppler",
+    "name_years": "Christian Doppler · 1803 – 1853",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The stonemason's son",
+   "lines": [
+    "His family had been stonemasons for generations.",
+    "But he was a frail boy, too weak to haul heavy stone.",
+    "So his father sent him to school instead,",
+    "and he turned out to be brilliant at math."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A stonemason's workshop, Salzburg"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Math",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Better than stone",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Almost America",
+   "lines": [
+    "As a young man, he couldn't find a teaching job anywhere.",
+    [
+     "In 1835, he sold his things and set off to emigrate to America.",
+     "In eighteen thirty-five, he sold his things and set off to emigrate to America."
+    ],
+    "Just before he left, a job offer came from Prague.",
+    "He stayed, and his life took a new turn."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1835, ready to leave"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1835",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Almost America",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The color of stars",
+   "lines": [
+    [
+     "In 1842, in Prague, he presented a bold idea:",
+     "In eighteen forty-two, in Prague, he presented a bold idea:"
+    ],
+    [
+     "Moving toward you, waves bunch up: the pitch rises.",
+     "when something moves toward you, its waves bunch up, and the pitch goes higher;"
+    ],
+    [
+     "Moving away, waves stretch out: the pitch drops.",
+     "when it moves away, the waves stretch out, and the pitch goes lower."
+    ],
+    "He said starlight works the same way."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Double stars over Prague"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1842",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The Doppler effect",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Trumpets on a train",
+   "lines": [
+    [
+     "In 1845, a Dutch scientist put it to the test.",
+     "In eighteen forty-five, a Dutch scientist put it to the test."
+    ],
+    "He had trumpet players stand on a train and play one steady note.",
+    "As the train came closer, the note rose; as it left, it fell.",
+    "Doppler was right!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "The 1845 train test, Netherlands"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Right!",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "The pitch really changed",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "He died of illness in Venice in 1853, at just forty-nine.",
+     "He died of illness in Venice in eighteen fifty-three, at just forty-nine."
+    ],
+    "Today, weather radar, speed guns and hospital ultrasound,",
+    "even measuring how distant galaxies move, all use his idea.",
+    "His question for you:",
+    "Is there something you hear every day, but never asked why?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Radar and galaxies today"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "Is there something you hear every day,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "but never asked why?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 29, we remember Christian Doppler.",
+     "and on November twenty-ninth, we remember Christian Doppler."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Doppler",
+    "years": "1803 – 1853"
+   }
+  }
+ ]
+}

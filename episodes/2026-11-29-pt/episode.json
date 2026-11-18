@@ -1,0 +1,284 @@
+{
+ "date": "2026-11-29",
+ "mmdd": "11.29",
+ "lang": "pt",
+ "person": "Christian Doppler",
+ "event": "nascimento (1803, Salzburgo, Áustria)",
+ "title": "Christian Doppler: por que o som da sirene muda | Há 223 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Por que o som da sirene muda quando ela passa por você? A resposta vem dele!",
+    [
+     "Quem mudou o mundo hoje? 29 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e nove de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1803,",
+     "Num dia como hoje, em mil oitocentos e três,"
+    ],
+    "em Salzburgo, na Áustria,",
+    "nascia o físico Christian Doppler."
+   ],
+   "data": {
+    "hook": "Por que a sirene muda\nquando passa por você?",
+    "sub": "1803  ──  2026",
+    "sub_at": 2,
+    "name": "Doppler",
+    "name_years": "Christian Doppler · 1803 – 1853",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O filho do pedreiro",
+   "lines": [
+    "A família dele trabalhava com pedra havia gerações.",
+    "Mas era um menino frágil, sem força para a pedra.",
+    "Então o pai o mandou estudar,",
+    "e ele se revelou brilhante em matemática."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uma oficina de canteiros em Salzburgo"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Matemática",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Melhor que a pedra",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Quase na América",
+   "lines": [
+    "Jovem, não achava emprego de professor.",
+    [
+     "Em 1835, vendeu suas coisas para emigrar para a América.",
+     "Em mil oitocentos e trinta e cinco, vendeu suas coisas para emigrar para a América."
+    ],
+    "Pouco antes de partir, veio uma oferta de Praga.",
+    "Ele ficou, e a vida dele mudou de rumo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1835, pronto para partir"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1835",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Quase na América",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  A cor das estrelas",
+   "lines": [
+    [
+     "Em 1842, em Praga, ele apresentou uma ideia ousada:",
+     "Em mil oitocentos e quarenta e dois, em Praga, ele apresentou uma ideia ousada:"
+    ],
+    "quando algo vem na sua direção, as ondas se apertam e o som sobe;",
+    "quando se afasta, as ondas se esticam e o som desce.",
+    "Ele disse que a luz das estrelas funciona igual."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Estrelas duplas sobre Praga"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1842",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "O efeito Doppler",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Trompetes no trem",
+   "lines": [
+    [
+     "Em 1845, um cientista holandês fez o teste.",
+     "Em mil oitocentos e quarenta e cinco, um cientista holandês fez o teste."
+    ],
+    "Pôs trompetistas num trem tocando uma única nota.",
+    "Quando o trem chegava, a nota subia; quando ia embora, descia.",
+    "Doppler estava certo!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "O teste do trem, Holanda, 1845"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Certo!",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "O som mudava mesmo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Morreu doente em Veneza, em 1853, com só 49 anos.",
+     "Ele morreu doente em Veneza, em mil oitocentos e cinquenta e três, com só quarenta e nove anos."
+    ],
+    "Hoje, radares, ultrassons,",
+    "e até medir o movimento das galáxias usam a ideia dele.",
+    "A pergunta dele para você:",
+    "Tem algo que você ouve todo dia e nunca perguntou por quê?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Radares e galáxias hoje"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Tem algo que você ouve todo dia",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "e nunca perguntou por quê?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 29 de novembro, lembramos de Christian Doppler.",
+     "e neste vinte e nove de novembro, lembramos de Christian Doppler."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Doppler",
+    "years": "1803 – 1853"
+   }
+  }
+ ]
+}

@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-24",
+ "mmdd": "11.24",
+ "lang": "pt",
+ "person": "Charles Darwin",
+ "event": "publicação de A Origem das Espécies (1859, Londres)",
+ "title": "Darwin: o livro que mudou como vemos a vida | Há 167 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Um livro mudou como entendemos toda a vida.",
+    [
+     "Quem mudou o mundo hoje? 24 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e quatro de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1859,",
+     "Num dia como hoje, em mil oitocentos e cinquenta e nove,"
+    ],
+    "em Londres,",
+    "saía A Origem das Espécies, de Darwin."
+   ],
+   "data": {
+    "hook": "Um livro mudou\ncomo vemos a vida",
+    "sub": "1859  ──  2026",
+    "sub_at": 2,
+    "name": "Darwin",
+    "name_years": "Charles Darwin · 1809 – 1882",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O Beagle",
+   "lines": [
+    [
+     "Em 1831, aos vinte e dois anos, Darwin embarcou no Beagle,",
+     "Em mil oitocentos e trinta e um, aos vinte e dois anos, Darwin embarcou no Beagle,"
+    ],
+    "numa volta ao mundo de quase cinco anos.",
+    [
+     "Em 1835, chegou às ilhas Galápagos,",
+     "Em mil oitocentos e trinta e cinco, chegou às ilhas Galápagos,"
+    ],
+    "e recolheu tartarugas gigantes e muitos tentilhões."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "5 anos",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "A volta ao mundo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "As Galápagos, 1835"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Um segredo de vinte anos",
+   "lines": [
+    "De volta, viu bicos de tentilhão diferentes em cada ilha.",
+    "Entendeu que os seres vivos mudam pouco a pouco,",
+    "e que os mais adaptados deixam mais filhotes: a seleção natural.",
+    "Temendo o escândalo, guardou a ideia por quase vinte anos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Tentilhões com bicos diferentes"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Seleção",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "natural",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Uma carta",
+   "lines": [
+    [
+     "Em 1858, chegou uma carta do jovem Alfred Wallace,",
+     "Em mil oitocentos e cinquenta e oito, chegou uma carta do jovem Alfred Wallace,"
+    ],
+    "com quase a mesma teoria!",
+    "Os dois trabalhos foram lidos juntos em Londres,",
+    "e Darwin correu para terminar o livro."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Wallace",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "A carta",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "O caminho do jardim de Darwin"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Um mundo em alvoroço",
+   "lines": [
+    [
+     "Em 24 de novembro de 1859, o livro foi lançado.",
+     "Em vinte e quatro de novembro de mil oitocentos e cinquenta e nove, o livro foi lançado."
+    ],
+    "Os mil duzentos e cinquenta exemplares sumiram logo.",
+    "Uns se encantaram, outros se revoltaram,",
+    "e o mundo discutiu de onde vem a vida."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Uma livraria de Londres, 1859"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1250",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Esgotados logo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Darwin morreu em 1882 e repousa na Abadia de Westminster.",
+     "Darwin morreu em mil oitocentos e oitenta e dois e repousa na Abadia de Westminster."
+    ],
+    "Hoje, a evolução é a base da biologia,",
+    "e ele nos ensinou a confiar nas provas.",
+    "A pergunta dele para você:",
+    "Se as provas mostrassem que você errou, mudaria de ideia?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A árvore da vida"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Se as provas mostrassem que você errou,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "mudaria de ideia?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 24 de novembro, lembramos de Charles Darwin.",
+     "e neste vinte e quatro de novembro, lembramos de Charles Darwin."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Darwin",
+    "years": "1809 – 1882"
+   }
+  }
+ ]
+}

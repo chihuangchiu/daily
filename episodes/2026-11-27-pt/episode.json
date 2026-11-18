@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-27",
+ "mmdd": "11.27",
+ "lang": "pt",
+ "person": "Anders Celsius",
+ "event": "nascimento (1701, Uppsala, Suécia)",
+ "title": "Anders Celsius: sua escala de temperatura começou de cabeça para baixo | Há 325 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "A escala de temperatura que o mundo usa começou ao contrário!",
+    [
+     "Quem mudou o mundo hoje? 27 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e sete de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1701,",
+     "Num dia como hoje, em mil setecentos e um,"
+    ],
+    "em Uppsala, na Suécia,",
+    "nascia o astrônomo Anders Celsius."
+   ],
+   "data": {
+    "hook": "A escala de temperatura\ncomeçou ao contrário",
+    "sub": "1701  ──  2026",
+    "sub_at": 2,
+    "name": "Celsius",
+    "name_years": "Anders Celsius · 1701 – 1744",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Uma família de sábios",
+   "lines": [
+    "Os avós e o pai eram professores universitários.",
+    "Desde menino, ele amava a matemática e as estrelas.",
+    [
+     "Em 1730, com apenas vinte e oito anos,",
+     "Em mil setecentos e trinta, com apenas vinte e oito anos,"
+    ],
+    "já era professor de astronomia em Uppsala."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uppsala no início do século XVIII"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "28 anos",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Professor de astronomia",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  A Terra é achatada?",
+   "lines": [
+    "Os cientistas brigavam sobre a forma da Terra.",
+    [
+     "Em 1736, foi com franceses à gelada Lapônia,",
+     "Em mil setecentos e trinta e seis, ele foi com uma expedição francesa à gelada Lapônia,"
+    ],
+    "para medir o terreno. Resultado: a Terra é achatada nos polos.",
+    "Newton estava certo!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Medição na Lapônia, 1736"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Achatada",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Nos polos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Cem graus",
+   "lines": [
+    "Na época, os termômetros usavam dezenas de escalas.",
+    [
+     "Em 1742, ele propôs uma ideia simples:",
+     "Em mil setecentos e quarenta e dois, ele propôs uma ideia simples:"
+    ],
+    "o gelo e a fervura da água, com cem passos entre eles.",
+    "Mas pôs a fervura no zero, e o gelo no cem!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Termômetros com escalas diferentes"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "O gelo era cem",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Do jeito certo",
+   "lines": [
+    "Quanto mais quente, menor o número.",
+    [
+     "Em 1744, ele morreu doente, com só quarenta e dois anos.",
+     "Em mil setecentos e quarenta e quatro, ele morreu doente, com só quarenta e dois anos."
+    ],
+    "Depois, outros inverteram a escala:",
+    "zero para o gelo, cem para a água fervendo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Água fervendo e neve"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "0 → 100",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Invertida",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1948, ganhou o nome oficial: graus Celsius.",
+     "Em mil novecentos e quarenta e oito, a escala ganhou oficialmente seu nome: graus Celsius."
+    ],
+    "O tempo, a febre, a água que ferve,",
+    "tudo é medido com seus cem passos.",
+    "A pergunta dele para você:",
+    "Se alguém melhorasse a sua ideia, você ficaria feliz?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Os termômetros de hoje"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Se alguém melhorasse a sua ideia,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "você ficaria feliz?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 27 de novembro, lembramos de Anders Celsius.",
+     "e neste vinte e sete de novembro, lembramos de Anders Celsius."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Celsius",
+    "years": "1701 – 1744"
+   }
+  }
+ ]
+}

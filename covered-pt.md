@@ -38,3 +38,4 @@
 | 2026-11-24 | Charles Darwin | publicação de A Origem das Espécies (1859, Londres) |
 | 2026-11-25 | Carl Benz | nascimento (1844, Karlsruhe, Alemanha) |
 | 2026-11-26 | Sojourner Truth | morte (1883, Battle Creek, Michigan) |
+| 2026-11-27 | Anders Celsius | nascimento (1701, Uppsala, Suécia) |

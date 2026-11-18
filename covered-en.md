@@ -38,3 +38,4 @@
 | 2026-11-24 | Charles Darwin | On the Origin of Species published (1859, London) | yes |
 | 2026-11-25 | Carl Benz | born (1844, Karlsruhe, Germany) | yes |
 | 2026-11-26 | Sojourner Truth | died (1883, Battle Creek, Michigan) | yes |
+| 2026-11-27 | Anders Celsius | born (1701, Uppsala, Sweden) | yes |

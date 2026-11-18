@@ -1,0 +1,290 @@
+{
+ "date": "2026-11-27",
+ "mmdd": "11.27",
+ "lang": "en",
+ "person": "Anders Celsius",
+ "event": "born (1701, Uppsala, Sweden)",
+ "title": "Anders Celsius: His Temperature Scale Started Upside Down | Born 325 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "The temperature scale the world uses every day started out upside down!",
+    [
+     "Who changed the world today? November 27.",
+     "Who changed the world today? November twenty-seventh."
+    ],
+    [
+     "On this day in 1701,",
+     "On this day in seventeen oh one,"
+    ],
+    "in Uppsala, Sweden,",
+    "the astronomer Anders Celsius was born."
+   ],
+   "data": {
+    "hook": "The world's temperature scale\nstarted upside down",
+    "sub": "1701  ──  2026",
+    "sub_at": 2,
+    "name": "Celsius",
+    "name_years": "Anders Celsius · 1701 – 1744",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A family of scholars",
+   "lines": [
+    "His grandfathers and his father were university scholars.",
+    "As a boy, he loved math and gazed at the stars at night.",
+    [
+     "In 1730, at just twenty-eight,",
+     "In seventeen thirty, at just twenty-eight,"
+    ],
+    "he became professor of astronomy at Uppsala."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uppsala in the early 1700s"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "28",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Professor of astronomy",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Is the Earth flat at the poles?",
+   "lines": [
+    "Scientists were fighting over the true shape of the Earth.",
+    [
+     "In 1736, he joined a French expedition to frozen Lapland,",
+     "In seventeen thirty-six, he joined a French expedition to frozen Lapland,"
+    ],
+    "to measure the land. The result: the Earth is flatter at the poles.",
+    "Newton was right!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Surveyors in Lapland, 1736"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Flatter",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "At the poles",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  One hundred steps",
+   "lines": [
+    "Back then, thermometers used dozens of different scales.",
+    [
+     "In 1742, he proposed a simple idea:",
+     "In seventeen forty-two, he proposed a simple idea:"
+    ],
+    [
+     "Freezing and boiling water, with 100 steps between.",
+     "use water's freezing and boiling points, with a hundred steps between."
+    ],
+    "But he set boiling at zero, and freezing at one hundred!"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Thermometers with different scales"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "100",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Freezing was 100",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Turned the right way up",
+   "lines": [
+    "So the hotter it got, the smaller the number.",
+    [
+     "In 1744, he died of illness, only forty-two.",
+     "In seventeen forty-four, he died of illness, only forty-two."
+    ],
+    "After his death, others flipped the scale:",
+    "zero for freezing, one hundred for boiling."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Boiling water and snow"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "0 → 100",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Flipped",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1948, the scale was officially named after him: degrees Celsius.",
+     "In nineteen forty-eight, the scale was officially named after him: degrees Celsius."
+    ],
+    "Weather forecasts, fevers, boiling water,",
+    "they all use his hundred steps.",
+    "His question for you:",
+    "If someone made your idea even better, would you be happy?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Thermometers today"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If someone made your idea even better,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "would you be happy?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 27, we remember Anders Celsius.",
+     "and on November twenty-seventh, we remember Anders Celsius."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Celsius",
+    "years": "1701 – 1744"
+   }
+  }
+ ]
+}

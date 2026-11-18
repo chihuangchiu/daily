@@ -1,0 +1,310 @@
+{
+ "date": "2026-11-21",
+ "mmdd": "11.21",
+ "lang": "en",
+ "person": "Voltaire",
+ "event": "born (1694, Paris)",
+ "title": "Voltaire: Jailed Twice, He Shook Europe With a Pen | 332 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Jailed twice, he shook Europe with a pen.",
+    [
+     "Who changed the world today? November 21.",
+     "Who changed the world today? November twenty-first."
+    ],
+    [
+     "On this day in 1694,",
+     "On this day in sixteen ninety-four,"
+    ],
+    "in Paris,",
+    "the writer Voltaire was born."
+   ],
+   "data": {
+    "hook": "Jailed twice, he shook\nEurope with a pen",
+    "sub": "1694  ──  2026",
+    "sub_at": 2,
+    "name": "Voltaire",
+    "name_years": "François-Marie Arouet · 1694 – 1778",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The Bastille",
+   "lines": [
+    "Born François-Marie Arouet, he had a sharp tongue.",
+    [
+     "In 1717, verses mocking France's ruler sent him to the Bastille.",
+     "In seventeen seventeen, verses mocking France's ruler sent him to the Bastille."
+    ],
+    "He spent almost a year there, writing a play in his cell.",
+    "It became a hit, and he took a new name: Voltaire."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "The Bastille in Paris"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Voltaire",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "A new name",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Exile in England",
+   "lines": [
+    [
+     "In 1726, a quarrel with a nobleman put him back in the Bastille,",
+     "In seventeen twenty-six, a quarrel with a nobleman put him back in the Bastille,"
+    ],
+    "then forced into exile in England.",
+    "There he saw people speak freely and worship as they chose.",
+    "His book praising English freedom was burned in Paris."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "London in the 1720s"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Burned",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "His Letters on the English",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Candide",
+   "lines": [
+    "Later he settled at Ferney, near the Swiss border.",
+    [
+     "In 1759, he published Candide,",
+     "In seventeen fifty-nine, he published Candide,"
+    ],
+    "a comic novel mocking blind optimism and injustice.",
+    "It was banned, yet it spread like wildfire across Europe."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "His estate at Ferney"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1759",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Candide",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Justice for Calas",
+   "lines": [
+    [
+     "In 1762, a Protestant merchant, Jean Calas, was executed,",
+     "In seventeen sixty-two, a Protestant merchant, Jean Calas, was executed,"
+    ],
+    "falsely accused of killing his own son.",
+    [
+     "He wrote letters, pamphlets and a Treatise on Tolerance.",
+     "Voltaire wrote letters and pamphlets, and his Treatise on Tolerance."
+    ],
+    [
+     "In 1765, Calas was finally cleared.",
+     "In seventeen sixty-five, Calas was finally cleared."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Injustice",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Toulouse, 1762",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Letter after letter"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Cleared",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "1765",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "Voltaire died in Paris in 1778, at the age of eighty-three,",
+     "Voltaire died in Paris in seventeen seventy-eight, at the age of eighty-three,"
+    ],
+    "and was later laid to rest in the Panthéon.",
+    "He taught the world that free thought is worth defending.",
+    "His question for you:",
+    "If the truth had a price, would you still tell it?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The Panthéon in Paris"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If the truth had a price,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "would you still tell it?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 21, we remember Voltaire.",
+     "and on November twenty-first, we remember Voltaire."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Voltaire",
+    "years": "1694 – 1778"
+   }
+  }
+ ]
+}

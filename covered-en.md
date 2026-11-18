@@ -35,3 +35,4 @@
 | 2026-11-21 | Voltaire | born (1694, Paris) | yes |
 | 2026-11-22 | Abigail Adams | born (1744, Weymouth, Massachusetts) | yes |
 | 2026-11-23 | Manuel de Falla | born (1876, Cádiz, Spain) | yes |
+| 2026-11-24 | Charles Darwin | On the Origin of Species published (1859, London) | yes |

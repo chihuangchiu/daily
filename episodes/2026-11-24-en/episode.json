@@ -1,0 +1,290 @@
+{
+ "date": "2026-11-24",
+ "mmdd": "11.24",
+ "lang": "en",
+ "person": "Charles Darwin",
+ "event": "On the Origin of Species published (1859, London)",
+ "title": "Darwin: The Book That Changed How We See Life | 167 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "One book changed how we understand all life.",
+    [
+     "Who changed the world today? November 24.",
+     "Who changed the world today? November twenty-fourth."
+    ],
+    [
+     "On this day in 1859,",
+     "On this day in eighteen fifty-nine,"
+    ],
+    "in London,",
+    "Darwin's On the Origin of Species was published."
+   ],
+   "data": {
+    "hook": "One book changed\nhow we see all life",
+    "sub": "1859  ──  2026",
+    "sub_at": 2,
+    "name": "Darwin",
+    "name_years": "Charles Darwin · 1809 – 1882",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The Beagle",
+   "lines": [
+    [
+     "In 1831, at twenty-two, Darwin boarded HMS Beagle,",
+     "In eighteen thirty-one, at twenty-two, Darwin boarded H M S Beagle,"
+    ],
+    "for a voyage of nearly five years around the world.",
+    [
+     "In 1835, he reached the Galápagos Islands,",
+     "In eighteen thirty-five, he reached the Galápagos Islands,"
+    ],
+    "collecting giant tortoises and many kinds of finches."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "5 years",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Around the world",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "The Galápagos, 1835"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  A twenty-year secret",
+   "lines": [
+    "Back home, he saw the finches' beaks differed by island.",
+    "He realized that living things slowly change,",
+    "and those best suited leave more young: natural selection.",
+    "Fearing a storm, he kept the idea hidden for nearly twenty years."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Finches with different beaks"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Natural",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "selection",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A letter",
+   "lines": [
+    [
+     "In 1858, a letter came from a young naturalist, Alfred Wallace,",
+     "In eighteen fifty-eight, a letter came from a young naturalist, Alfred Wallace,"
+    ],
+    "describing almost the same theory!",
+    "Their papers were presented together in London,",
+    "and Darwin finally decided to finish his book."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Wallace",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "The letter",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "The path in Darwin's garden"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  A world in uproar",
+   "lines": [
+    [
+     "On November 24, 1859, On the Origin of Species came out.",
+     "On November twenty-fourth, eighteen fifty-nine, On the Origin of Species came out."
+    ],
+    [
+     "All 1,250 copies of the first printing were quickly snapped up.",
+     "All twelve hundred and fifty copies of the first printing were quickly snapped up."
+    ],
+    "Some were amazed, some were furious,",
+    "and the world argued over where life comes from."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A London bookshop, 1859"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1,250",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Snapped up",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "Darwin died in 1882 and was buried in Westminster Abbey.",
+     "Darwin died in eighteen eighty-two and was buried in Westminster Abbey."
+    ],
+    "Today, evolution is the foundation of biology,",
+    "and he taught us to trust the evidence.",
+    "His question for you:",
+    "If evidence proved you wrong, would you change your mind?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The tree of life"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If evidence proved you wrong,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "would you change your mind?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 24, we remember Charles Darwin.",
+     "and on November twenty-fourth, we remember Charles Darwin."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Darwin",
+    "years": "1809 – 1882"
+   }
+  }
+ ]
+}

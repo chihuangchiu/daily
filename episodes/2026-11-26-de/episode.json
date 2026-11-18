@@ -1,0 +1,293 @@
+{
+ "date": "2026-11-26",
+ "mmdd": "11.26",
+ "lang": "de",
+ "person": "Sojourner Truth",
+ "event": "Todestag (1883, Battle Creek, Michigan)",
+ "title": "Sojourner Truth: Sie konnte nicht lesen, doch ihre Stimme weckte ein Land | Vor 143 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Sie lernte nie lesen, doch ihre Stimme weckte ein ganzes Land.",
+    [
+     "Wer hat heute die Welt verändert? Der 26. November.",
+     "Wer hat heute die Welt verändert? Der sechsundzwanzigste November."
+    ],
+    [
+     "Heute vor 143 Jahren,",
+     "Heute vor hundertdreiundvierzig Jahren,"
+    ],
+    "in den USA,",
+    "starb Sojourner Truth."
+   ],
+   "data": {
+    "hook": "Sie konnte nicht lesen.\nIhre Stimme weckte ein Land.",
+    "sub": "1883  ──  2026",
+    "sub_at": 2,
+    "name": "Sojourner Truth",
+    "name_years": "Sojourner Truth · um 1797 – 1883",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.37,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Verkauft mit den Schafen",
+   "lines": [
+    "Sie wurde in New York als Sklavin geboren,",
+    "hieß Isabella und sprach als Kind Niederländisch.",
+    "Mit neun wurde sie zusammen mit einer Schafherde verkauft.",
+    [
+     "1826 brach ihr Besitzer sein Wort, und sie ging mit ihrem Baby fort.",
+     "Achtzehnhundertsechsundzwanzig brach ihr Besitzer sein Wort, und sie ging mit ihrem Baby fort."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "9 Jahre",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Verkauft mit den Schafen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "1826, in die Freiheit"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Eine Mutter vor Gericht",
+   "lines": [
+    "Ihr Sohn Peter wurde illegal in den Süden verkauft.",
+    [
+     "Eine Mutter ohne Schrift verklagte einen weißen Mann.",
+     "Eine Mutter, die nicht lesen konnte, verklagte einen weißen Mann."
+    ],
+    [
+     "1828 gewann sie und holte ihren Sohn zurück.",
+     "Achtzehnhundertachtundzwanzig gewann sie und holte ihren Sohn zurück."
+    ],
+    "Kaum eine Schwarze Frau hatte so etwas zuvor geschafft."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Ein Gerichtssaal, 1828"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1828",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Der Sohn zurück",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Wanderin und Wahrheit",
+   "lines": [
+    [
+     "1843 gab sie sich einen neuen Namen: Sojourner Truth,",
+     "Achtzehnhundertdreiundvierzig gab sie sich einen neuen Namen: Sojourner Truth,"
+    ],
+    "Wanderin und Wahrheit.",
+    [
+     "1851 sprach sie auf einem Frauenrechtskongress,",
+     "Achtzehnhunderteinundfünfzig sprach sie auf einem Frauenrechtskongress,"
+    ],
+    "bis heute bekannt für den Satz: Bin ich etwa keine Frau?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Wahrheit",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Ein selbst gewählter Name",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Akron, Ohio, 1851"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Den Schatten verkaufen",
+   "lines": [
+    "Für ihre Arbeit verkaufte sie Fotokarten von sich.",
+    [
+     "Darauf: Ich verkaufe den Schatten für die Substanz.",
+     "Darauf stand: Ich verkaufe den Schatten, um die Substanz zu erhalten."
+    ],
+    [
+     "1864 traf sie Präsident Lincoln im Weißen Haus.",
+     "Achtzehnhundertvierundsechzig traf sie Präsident Lincoln im Weißen Haus."
+    ],
+    "Nach dem Krieg half sie Befreiten, Arbeit und Land zu finden."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Ein Fotoatelier, 1860er-Jahre"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Schatten",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Für die Substanz",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Sie starb an diesem Tag in Michigan.",
+    "Lesen lernte sie nie,",
+    "doch die Welt erinnert sich an ihre Stimme.",
+    "Ihre Frage an dich:",
+    "Wenn die Welt dich nicht reden lässt, wie verschaffst du dir Gehör?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Der Weg in die Freiheit"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn die Welt dich nicht reden lässt,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "wie verschaffst du dir Gehör?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 26. November erinnern wir an Sojourner Truth.",
+     "und am sechsundzwanzigsten November erinnern wir an Sojourner Truth."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Sojourner Truth",
+    "years": "um 1797 – 1883"
+   }
+  }
+ ]
+}

@@ -37,3 +37,4 @@
 | 2026-11-23 | Manuel de Falla | Geburtstag (1876, Cádiz, Spanien) |
 | 2026-11-24 | Charles Darwin | Erscheinen von Über die Entstehung der Arten (1859, London) |
 | 2026-11-25 | Carl Benz | Geburtstag (1844, Karlsruhe) |
+| 2026-11-26 | Sojourner Truth | Todestag (1883, Battle Creek, Michigan) |

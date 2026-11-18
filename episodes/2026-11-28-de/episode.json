@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-28",
+ "mmdd": "11.28",
+ "lang": "de",
+ "person": "William Blake",
+ "event": "Geburtstag (1757, London, England)",
+ "title": "William Blake: Zu Lebzeiten für verrückt gehalten, heute ein Nationalschatz | Vor 269 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Zu Lebzeiten hielt man ihn für verrückt. Heute ist er ein Nationalschatz!",
+    [
+     "Wer hat heute die Welt verändert? Der 28. November.",
+     "Wer hat heute die Welt verändert? Der achtundzwanzigste November."
+    ],
+    [
+     "Heute vor 269 Jahren,",
+     "Heute vor zweihundertneunundsechzig Jahren,"
+    ],
+    "über einem Strumpfladen in London,",
+    "wurde der Dichter und Maler William Blake geboren."
+   ],
+   "data": {
+    "hook": "Zu Lebzeiten verrückt genannt.\nHeute ein Nationalschatz.",
+    "sub": "1757  ──  2026",
+    "sub_at": 2,
+    "name": "Blake",
+    "name_years": "William Blake · 1757 – 1827",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Junge, der Engel sah",
+   "lines": [
+    "Als Kind sagte er, er habe einen Baum voller Engel gesehen.",
+    "Die Familie hielt ihn für einen Träumer.",
+    [
+     "1772, mit vierzehn,",
+     "Siebzehnhundertzweiundsiebzig, mit vierzehn,"
+    ],
+    "wurde er Lehrling bei einem Kupferstecher."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein Baum vor London"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "14",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "Lehrling als Kupferstecher",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Ein Geheimnis im Traum",
+   "lines": [
+    "Dann starb Robert, sein geliebter jüngerer Bruder.",
+    [
+     "Im Traum zeigte Robert ihm eine neue Druckweise:",
+     "Blake erzählte, Robert habe ihm im Traum eine neue Druckweise gezeigt:"
+    ],
+    "Gedichte und Bilder zusammen in Kupfer geätzt,",
+    "dann von Hand bemalt, Seite für Seite, mit seiner Frau Catherine."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Drucke von Hand bemalt"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Wort + Bild",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Auf einer Kupferplatte",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Der Tiger",
+   "lines": [
+    [
+     "1789 erschienen die Lieder der Unschuld,",
+     "Siebzehnhundertneunundachtzig erschienen die Lieder der Unschuld,"
+    ],
+    "fünf Jahre später die Lieder der Erfahrung.",
+    "Ein Gedicht, Der Tiger, stellt eine große Frage:",
+    "Hat der, der das Lamm schuf, auch den Tiger geschaffen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Ein handkoloriertes Buch"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Tiger",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Eine große Frage",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Niemand verstand ihn",
+   "lines": [
+    [
+     "1809 zeigte er seine Bilder in einer Ausstellung.",
+     "Achtzehnhundertneun zeigte er seine Bilder in einer Ausstellung."
+    ],
+    "Kaum jemand kam. Die einzige Kritik nannte ihn verrückt.",
+    [
+     "Er blieb arm und starb 1827.",
+     "Er blieb arm und starb achtzehnhundertsiebenundzwanzig."
+    ],
+    "Es heißt, er habe auf dem Sterbebett gesungen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Eine leere Ausstellung, 1809"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Verrückt?",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Die einzige Kritik",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Heute zählt er zu Englands größten Dichtern und Künstlern,",
+    "und sein Gedicht Jerusalem wird",
+    "fast wie eine zweite Nationalhymne gesungen.",
+    "Seine Frage an dich:",
+    "Wenn dich niemand verstünde, würdest du weitermachen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Blake im Museum heute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn dich niemand verstünde,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "würdest du weitermachen?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 28. November erinnern wir an William Blake.",
+     "und am achtundzwanzigsten November erinnern wir an William Blake."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Blake",
+    "years": "1757 – 1827"
+   }
+  }
+ ]
+}

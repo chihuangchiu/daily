@@ -32,3 +32,4 @@
 | 2026-11-18 | Louis Daguerre | nascimento (1787, Cormeilles-en-Parisis, França) | yes |
 | 2026-11-19 | Abraham Lincoln | discurso de Gettysburg (1863, Pensilvânia) | yes |
 | 2026-11-20 | Edwin Hubble | nascimento (1889, Marshfield, Missouri) | yes |
+| 2026-11-21 | Voltaire | nascimento (1694, Paris) |

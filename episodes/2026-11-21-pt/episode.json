@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-21",
+ "mmdd": "11.21",
+ "lang": "pt",
+ "person": "Voltaire",
+ "event": "nascimento (1694, Paris)",
+ "title": "Voltaire: preso duas vezes, abalou a Europa com uma pena | Há 332 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Preso duas vezes, abalou a Europa com uma pena.",
+    [
+     "Quem mudou o mundo hoje? 21 de novembro.",
+     "Quem mudou o mundo hoje? Vinte e um de novembro."
+    ],
+    [
+     "Num dia como hoje, em 1694,",
+     "Num dia como hoje, em mil seiscentos e noventa e quatro,"
+    ],
+    "em Paris,",
+    "nascia o escritor Voltaire."
+   ],
+   "data": {
+    "hook": "Preso duas vezes,\nabalou a Europa",
+    "sub": "1694  ──  2026",
+    "sub_at": 2,
+    "name": "Voltaire",
+    "name_years": "François-Marie Arouet · 1694 – 1778",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.33,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  A Bastilha",
+   "lines": [
+    [
+     "Em 1717, versos contra o governante o levaram à Bastilha.",
+     "Em mil setecentos e dezessete, versos contra o governante o levaram à Bastilha."
+    ],
+    "Preso quase um ano, escreveu uma peça de teatro.",
+    "Foi um sucesso, e ele adotou um novo nome: Voltaire."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A Bastilha de Paris"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Voltaire",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Um novo nome",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Exílio na Inglaterra",
+   "lines": [
+    [
+     "Em 1726, uma briga com um nobre o levou de volta à Bastilha,",
+     "Em mil setecentos e vinte e seis, uma briga com um nobre o levou de volta à Bastilha,"
+    ],
+    "e ele foi exilado na Inglaterra.",
+    "Lá, viu as pessoas falarem e crerem com liberdade.",
+    "Seu livro elogiando a liberdade inglesa foi queimado em Paris."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Londres na década de 1720"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Queimado",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Suas Cartas inglesas",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Cândido",
+   "lines": [
+    "Mais tarde, ele se instalou em Ferney, perto da Suíça.",
+    [
+     "Em 1759, publicou Cândido,",
+     "Em mil setecentos e cinquenta e nove, publicou Cândido,"
+    ],
+    "um romance cômico contra o otimismo cego e a injustiça.",
+    "Foi proibido, mas se espalhou pela Europa inteira."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Sua propriedade em Ferney"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1759",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Cândido",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Justiça para Calas",
+   "lines": [
+    [
+     "Em 1762, o protestante Jean Calas foi executado,",
+     "Em mil setecentos e sessenta e dois, o protestante Jean Calas foi executado,"
+    ],
+    "acusado injustamente de matar o próprio filho.",
+    "Voltaire escreveu cartas, panfletos e o Tratado sobre a tolerância.",
+    [
+     "Três anos depois, Calas foi declarado inocente.",
+     "Três anos depois, Calas foi declarado inocente."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "Injustiça",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Toulouse, 1762",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Carta após carta"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Inocente",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "1765",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Voltaire morreu em 1778, aos oitenta e três anos,",
+     "Voltaire morreu em mil setecentos e setenta e oito, aos oitenta e três anos,"
+    ],
+    "e hoje repousa no Panteão de Paris.",
+    "Ele ensinou ao mundo que a liberdade de pensar vale a luta.",
+    "A pergunta dele para você:",
+    "Se dizer a verdade tivesse um preço, você diria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "O Panteão de Paris"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Se dizer a verdade tivesse um preço,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "você diria?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 21 de novembro, lembramos de Voltaire.",
+     "e neste vinte e um de novembro, lembramos de Voltaire."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Voltaire",
+    "years": "1694 – 1778"
+   }
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "date": "2026-11-19",
+ "weather": {
+  "city": "台北",
+  "summary": "毛毛雨，約 15°C，降雨機率 60%"
+ },
+ "sky": "月亮在雙魚，火星木星在獅子座合相",
+ "opening": "哈囉大家早安，我是卡卡夫人！台北今天下毛毛雨，只有十五度，出門記得帶傘、多穿一件喔。你是什麼星座？留言跟我說！今天月亮在雙魚，十二星座運勢，從第十二名倒數！",
+ "signs": [
+  {
+   "rank": 12,
+   "key": "gemini",
+   "love": 3,
+   "work": 2,
+   "money": 3,
+   "color": "薄荷綠",
+   "hex": "#7fd8b4",
+   "num": "5",
+   "tip": "心思容易飄，重要的事先寫下來。",
+   "say": "重要的事，先寫下來。"
+  },
+  {
+   "rank": 11,
+   "key": "virgo",
+   "love": 3,
+   "work": 3,
+   "money": 2,
+   "color": "米白",
+   "hex": "#f1e6cf",
+   "num": "6",
+   "tip": "別人的情緒別全扛，先照顧好自己。",
+   "say": "別把別人的情緒全扛。"
+  },
+  {
+   "rank": 10,
+   "key": "aquarius",
+   "love": 2,
+   "work": 3,
+   "money": 3,
+   "color": "銀灰",
+   "hex": "#b9c2cc",
+   "num": "11",
+   "tip": "身邊意見很多，聽完再做決定。",
+   "say": "意見很多，聽完再決定。"
+  },
+  {
+   "rank": 9,
+   "key": "aries",
+   "love": 3,
+   "work": 4,
+   "money": 2,
+   "color": "酒紅",
+   "hex": "#9e2a3a",
+   "num": "9",
+   "tip": "衝勁滿滿，花錢前先停三秒。",
+   "say": "花錢前，先停三秒。"
+  },
+  {
+   "rank": 8,
+   "key": "capricorn",
+   "love": 3,
+   "work": 4,
+   "money": 3,
+   "color": "深咖啡",
+   "hex": "#6b4a35",
+   "num": "8",
+   "tip": "穩穩做事有收穫，下班記得放鬆。",
+   "say": "穩穩做，就有收穫。"
+  },
+  {
+   "rank": 7,
+   "key": "taurus",
+   "love": 4,
+   "work": 3,
+   "money": 3,
+   "color": "奶茶色",
+   "hex": "#d6b38c",
+   "num": "2",
+   "tip": "人緣不錯，適合約朋友吃頓好的。",
+   "say": "人緣好，約朋友吃飯吧。"
+  },
+  {
+   "rank": 6,
+   "key": "sagittarius",
+   "love": 3,
+   "work": 4,
+   "money": 4,
+   "color": "紫色",
+   "hex": "#8a5cd1",
+   "num": "3",
+   "tip": "生日季快到了，好消息在路上。",
+   "say": "好消息，正在路上。"
+  },
+  {
+   "rank": 5,
+   "key": "libra",
+   "love": 5,
+   "work": 3,
+   "money": 4,
+   "color": "玫瑰粉",
+   "hex": "#f08fb0",
+   "num": "7",
+   "tip": "魅力加分，說話溫柔就能談成事。",
+   "say": "說話溫柔，就能談成事。"
+  },
+  {
+   "rank": 4,
+   "key": "leo",
+   "love": 4,
+   "work": 5,
+   "money": 4,
+   "color": "金色",
+   "hex": "#f2c14e",
+   "num": "1",
+   "tip": "能量爆棚，大膽提案最容易被看見。",
+   "say": "大膽提案，最容易被看見。"
+  },
+  {
+   "rank": 3,
+   "key": "cancer",
+   "love": 5,
+   "work": 4,
+   "money": 4,
+   "color": "珍珠白",
+   "hex": "#f4f1ea",
+   "num": "4",
+   "tip": "直覺很準，跟著感覺走就對了。",
+   "say": "直覺很準，跟著感覺走。"
+  },
+  {
+   "rank": 2,
+   "key": "scorpio",
+   "love": 4,
+   "work": 5,
+   "money": 5,
+   "color": "深紫紅",
+   "hex": "#7a1f4b",
+   "num": "10",
+   "tip": "卡住的事開始鬆動，溝通變順了。",
+   "say": "卡住的事，開始鬆動了。"
+  },
+  {
+   "rank": 1,
+   "key": "pisces",
+   "love": 5,
+   "work": 5,
+   "money": 4,
+   "color": "海水藍",
+   "hex": "#3fa7d6",
+   "num": "12",
+   "tip": "月亮回到你的星座，靈感和好運一起來！",
+   "say": "月亮回到你的星座，好運滿滿！"
+  }
+ ],
+ "bonus": [
+  {
+   "chip": "今日開運美食",
+   "title": "熱呼呼的鮮魚湯",
+   "lines": [
+    "月亮在雙魚，吃魚補元氣",
+    "下雨天喝熱湯最暖胃"
+   ],
+   "say": "最後是卡卡夫人的開運推薦！今天適合喝一碗熱呼呼的鮮魚湯，月亮在雙魚，吃魚補元氣！",
+   "img_prompt": "steaming bowl of Taiwanese clear fish soup, rainy window, cozy lamp"
+  },
+  {
+   "chip": "今日開運去處",
+   "title": "美術館・電影院",
+   "lines": [
+    "雙魚月亮，感受力加倍",
+    "雨天看展看電影最對味"
+   ],
+   "say": "下雨天，就去美術館或電影院吧！雙魚月亮，讓感受力加倍！",
+   "img_prompt": "cozy art gallery on a rainy day with popcorn and a movie ticket"
+  }
+ ]
+}

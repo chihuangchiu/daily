@@ -13,3 +13,11 @@ pipeline/models/kokoro-onnx/
 
 # Gemini TTS working files
 episodes/*/tts/
+
+# zodiac (卡卡夫人占星館): only episode.json, post.txt, sky.json are kept per episode
+zodiac/episodes/*/tts/
+zodiac/episodes/*/work/
+zodiac/episodes/*/check/
+zodiac/episodes/*/*.png
+!zodiac/assets/outro/*.mp4
+!zodiac/assets/outro/*.wav

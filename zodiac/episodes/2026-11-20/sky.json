@@ -1,0 +1,150 @@
+{
+ "date": "2026-11-20",
+ "moon_sign": "雙魚座",
+ "moon_degree": 29.0,
+ "moon_morning": "雙魚座",
+ "moon_night": "牡羊座",
+ "moon_phase": "盈凸月",
+ "moon_illumination": 76,
+ "sun_sign": "天蠍座",
+ "planets": {
+  "太陽": "天蠍座 28°",
+  "月亮": "雙魚座 29°",
+  "水星": "天蠍座 8°",
+  "金星": "天秤座 24°",
+  "火星": "獅子座 28°",
+  "木星": "獅子座 26°",
+  "土星": "牡羊座 8°"
+ },
+ "retrograde": [
+  "土星"
+ ],
+ "aspects": [
+  "太陽三分相月亮（差 1.1°）",
+  "太陽四分相火星（差 0.3°）",
+  "太陽四分相木星（差 1.7°）",
+  "火星合相木星（差 1.4°）"
+ ],
+ "ranking_12_to_1": [
+  {
+   "sign": "雙子座",
+   "key": "gemini",
+   "score": -1.32,
+   "why": "月亮四分相、金星助愛情",
+   "rank": 12,
+   "love": 2,
+   "work": 2,
+   "money": 2
+  },
+  {
+   "sign": "射手座",
+   "key": "sagittarius",
+   "score": -0.37,
+   "why": "月亮四分相、木星助財運",
+   "rank": 11,
+   "love": 2,
+   "work": 3,
+   "money": 3
+  },
+  {
+   "sign": "水瓶座",
+   "key": "aquarius",
+   "score": -0.02,
+   "why": "金星助愛情",
+   "rank": 10,
+   "love": 4,
+   "work": 1,
+   "money": 2
+  },
+  {
+   "sign": "處女座",
+   "key": "virgo",
+   "score": 0.15,
+   "why": "月亮對沖",
+   "rank": 9,
+   "love": 2,
+   "work": 3,
+   "money": 2
+  },
+  {
+   "sign": "金牛座",
+   "key": "taurus",
+   "score": 0.52,
+   "why": "月亮六分相",
+   "rank": 8,
+   "love": 3,
+   "work": 1,
+   "money": 2
+  },
+  {
+   "sign": "獅子座",
+   "key": "leo",
+   "score": 1.28,
+   "why": "木星助財運",
+   "rank": 7,
+   "love": 3,
+   "work": 3,
+   "money": 5
+  },
+  {
+   "sign": "牡羊座",
+   "key": "aries",
+   "score": 1.36,
+   "why": "木星助財運",
+   "rank": 6,
+   "love": 2,
+   "work": 4,
+   "money": 4
+  },
+  {
+   "sign": "天秤座",
+   "key": "libra",
+   "score": 2.04,
+   "why": "金星助愛情",
+   "rank": 5,
+   "love": 5,
+   "work": 3,
+   "money": 5
+  },
+  {
+   "sign": "摩羯座",
+   "key": "capricorn",
+   "score": 3.69,
+   "why": "月亮六分相",
+   "rank": 4,
+   "love": 3,
+   "work": 4,
+   "money": 3
+  },
+  {
+   "sign": "巨蟹座",
+   "key": "cancer",
+   "score": 5.63,
+   "why": "月亮三分相",
+   "rank": 3,
+   "love": 4,
+   "work": 5,
+   "money": 4
+  },
+  {
+   "sign": "天蠍座",
+   "key": "scorpio",
+   "score": 7.28,
+   "why": "月亮三分相、太陽在本座",
+   "rank": 2,
+   "love": 5,
+   "work": 5,
+   "money": 4
+  },
+  {
+   "sign": "雙魚座",
+   "key": "pisces",
+   "score": 8.08,
+   "why": "月亮在本座",
+   "rank": 1,
+   "love": 5,
+   "work": 5,
+   "money": 5
+  }
+ ]
+}

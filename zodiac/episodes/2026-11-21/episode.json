@@ -1,0 +1,178 @@
+{
+ "date": "2026-11-21",
+ "weather": {
+  "city": "台北",
+  "summary": "冷氣團還在，早晚特別冷"
+ },
+ "sky": "月亮在牡羊座與土星合相，火星木星在獅子座合相",
+ "opening": "哈囉大家週六早安，我是卡卡夫人！台北今天冷氣團還在，早晚特別冷，出門多穿一件、記得帶傘。今天心情幾分？留言告訴我！今天月亮在牡羊座，十二星座運勢，從第十二名倒數！",
+ "open_scene": "雙手在胸前捧著一杯冒著熱氣的花草茶暖手",
+ "signs": [
+  {
+   "rank": 12,
+   "key": "capricorn",
+   "love": 2,
+   "work": 1,
+   "money": 2,
+   "color": "深咖啡",
+   "hex": "#6b4a2f",
+   "num": "8",
+   "tip": "壓力有點大，先做最重要的一件。",
+   "say": "壓力大，先做一件就好。"
+  },
+  {
+   "rank": 11,
+   "key": "cancer",
+   "love": 2,
+   "work": 2,
+   "money": 1,
+   "color": "淺粉",
+   "hex": "#f4b6c2",
+   "num": "11",
+   "tip": "情緒容易起伏，給自己一點空間。",
+   "say": "情緒起伏，給自己空間。"
+  },
+  {
+   "rank": 10,
+   "key": "taurus",
+   "love": 2,
+   "work": 2,
+   "money": 2,
+   "color": "奶茶色",
+   "hex": "#c8a27c",
+   "num": "5",
+   "tip": "步調放慢一點，週末好好休息。",
+   "say": "放慢步調，好好休息。"
+  },
+  {
+   "rank": 9,
+   "key": "scorpio",
+   "love": 2,
+   "work": 3,
+   "money": 2,
+   "color": "酒紅",
+   "hex": "#7b1e3a",
+   "num": "13",
+   "tip": "天蠍季最後一天，好好犒賞自己！",
+   "say": "季末這天，犒賞自己！"
+  },
+  {
+   "rank": 8,
+   "key": "libra",
+   "love": 4,
+   "work": 2,
+   "money": 3,
+   "color": "玫瑰粉",
+   "hex": "#e88aa5",
+   "num": "6",
+   "tip": "別人意見多，溫柔說出你的想法。",
+   "say": "意見不同，溫柔溝通。"
+  },
+  {
+   "rank": 7,
+   "key": "virgo",
+   "love": 3,
+   "work": 3,
+   "money": 3,
+   "color": "米白",
+   "hex": "#efe6d2",
+   "num": "4",
+   "tip": "把下週行程排好，心裡更踏實。",
+   "say": "排好行程，心更踏實。"
+  },
+  {
+   "rank": 6,
+   "key": "pisces",
+   "love": 3,
+   "work": 4,
+   "money": 3,
+   "color": "海藍",
+   "hex": "#2e6fb0",
+   "num": "12",
+   "tip": "直覺特別準，相信第一個念頭。",
+   "say": "相信直覺，跟著感覺走。"
+  },
+  {
+   "rank": 5,
+   "key": "aquarius",
+   "love": 4,
+   "work": 3,
+   "money": 4,
+   "color": "銀灰",
+   "hex": "#a9b0b8",
+   "num": "26",
+   "tip": "人緣很好，朋友聚會有小驚喜。",
+   "say": "朋友聚會，會有驚喜！"
+  },
+  {
+   "rank": 4,
+   "key": "gemini",
+   "love": 5,
+   "work": 4,
+   "money": 4,
+   "color": "薄荷綠",
+   "hex": "#8fd9b6",
+   "num": "9",
+   "tip": "好奇心旺盛，適合學點新東西。",
+   "say": "學點新東西，收穫多！"
+  },
+  {
+   "rank": 3,
+   "key": "aries",
+   "love": 4,
+   "work": 5,
+   "money": 5,
+   "color": "珊瑚橘",
+   "hex": "#ff7f50",
+   "num": "1",
+   "tip": "月亮在你的星座，衝勁十足別心急。",
+   "say": "衝勁十足，穩穩來。"
+  },
+  {
+   "rank": 2,
+   "key": "leo",
+   "love": 5,
+   "work": 4,
+   "money": 5,
+   "color": "金色",
+   "hex": "#d4a537",
+   "num": "10",
+   "tip": "火星木星都挺你，大膽展現自己！",
+   "say": "自信滿滿，大膽表現！"
+  },
+  {
+   "rank": 1,
+   "key": "sagittarius",
+   "love": 5,
+   "work": 5,
+   "money": 5,
+   "color": "紫羅蘭",
+   "hex": "#8a4fbf",
+   "num": "3",
+   "tip": "明天太陽進你的星座，好運正要開始！",
+   "say": "生日季要來，好運開始！"
+  }
+ ],
+ "bonus": [
+  {
+   "chip": "今日開運美食",
+   "title": "熱熱紅豆湯圓",
+   "lines": [
+    "月亮在牡羊，紅色招好運",
+    "天冷來一碗，暖胃又暖心"
+   ],
+   "say": "最後是卡卡夫人的開運推薦！天冷來碗紅豆湯圓，紅色帶來好運！",
+   "img_prompt": "a steaming bowl of Taiwanese sweet red bean soup with small white and pink glutinous rice balls, a ceramic spoon resting beside the bowl, on a wooden table next to a window showing a cold blue evening, warm lamp light. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  },
+  {
+   "chip": "今日開運活動",
+   "title": "暖暖手作時光",
+   "lines": [
+    "火木在獅子，創意滿滿",
+    "待在室內，做個小手作"
+   ],
+   "say": "天冷就在家做手作吧！火星木星在獅子，創意滿滿！",
+   "img_prompt": "a cozy indoor craft table with balls of colorful yarn, knitting needles and a half-finished scarf with a star pattern, paper stars, scissors and a small pot of glue, a warm desk lamp glowing, gentle rain on the window behind. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  }
+ ]
+}

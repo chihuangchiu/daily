@@ -5,7 +5,7 @@ Nathan 2026-11-19 設定。排程任務每天台北時間 04:49 開始，做好�
 修改流程時改這份檔案（推上 main），排程會照最新版執行。
 
 影片結構（約 85–90 秒，直式 1080×1920）：
-1. 開場約 15 秒：真人版卡卡夫人（Calywood 對嘴影片）打招呼、聊天氣、問一個互動問題，最後說「今天月亮在X座，十二星座運勢，從第十二名倒數！」。畫面只有字幕（水晶球正下方）、左邊直式日期牌、右邊直式「卡卡夫人」名牌，不放資訊框，也不放頂部標題條。
+1. 開場約 15 秒：真人版卡卡夫人（Calywood 對嘴影片）打招呼、聊天氣、問一個互動問題，最後說「今天月亮在X座，十二星座運勢，從第十二名倒數！」。她的動作和手上的道具每天換（見 2 的 `open_scene`），不一定拿水晶球。畫面只有字幕（胸前道具的正下方）、左邊直式日期牌、右邊直式「卡卡夫人」名牌，不放資訊框，也不放頂部標題條。
 2. 十二星座第 12 名到第 1 名的圖卡：名次、星座圖、一句提醒（兩短句）、愛情／事業／財運星星、幸運色、幸運數字，旁白一句話。
 3. 開運推薦兩張卡：第一張吃的，第二張依星期輪換（見 4c）。
 4. 結尾約 6 秒：固定的卡卡夫人道別片段（assets/outro，每天重複用，不必再做），疊上今日前三名與追蹤提示。
@@ -24,7 +24,7 @@ Nathan 2026-11-19 設定。排程任務每天台北時間 04:49 開始，做好�
 2. 天氣（台北）：先用 WebFetch 讀
    https://api.open-meteo.com/v1/forecast?latitude=25.03&longitude=121.56&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=Asia%2FTaipei&forecast_days=1
    取當天最高、最低溫（°C）、降雨機率、天氣代碼（0 晴、1–3 多雲、45/48 霧、51–57 毛毛雨、61–67 雨、80–82 陣雨、95+ 雷雨）。讀不到就用 WebSearch「台北 今天 天氣」找中央氣象署或可靠來源；都失敗就開場不提溫度，只說季節性的貼心提醒。
-3. 讀昨天的 zodiac/episodes/(D-1)/episode.json（如果有），避免和昨天重複：排名前三、提醒句、幸運色、幸運數字、互動問題、開運推薦。
+3. 讀昨天的 zodiac/episodes/(D-1)/episode.json（如果有），避免和昨天重複：排名前三、提醒句、幸運色、幸運數字、互動問題、開運推薦。開場動作與道具（`open_scene`）則要和 D-1、D-2 都不同。
 
 ## 2. 寫 episode.json
 格式照範本（zodiac/episodes/2026-11-19/episode.json），欄位：
@@ -42,6 +42,11 @@ Nathan 2026-11-19 設定。排程任務每天台北時間 04:49 開始，做好�
   - `chip` 6 字內；`title` 9 字內；`lines` 兩行各 12 字內（第一行帶星象理由，第二行生活提醒）。
   - `say`：旁白 40 字內；第 1 張開頭固定「最後是卡卡夫人的開運推薦！」。
   - `img_prompt`（英文）：描述畫面主體，最後固定加上：「Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos.」
+- `open_scene`：開場影片裡卡卡夫人的動作和手上的道具，一句中文、40 字內、結尾不加標點，會原樣填進第 4 節 prompt 的 {open_scene}。每天換，依當天主題挑（天氣、季節、節日、月亮星座的元素、開運推薦），和 D-1、D-2 不同；水晶球可以偶爾用，一週最多一次。規則：
+  - 道具一兩件，拿在胸前或放在胸前的桌面上，不要遮到臉和嘴，也不要舉到臉旁邊。
+  - 動作小而慢（雙手捧著、輕輕翻開、舉起來給鏡頭看、輕輕搖一下、手心托著轉一轉）；不要喝東西、吃東西或把東西靠近嘴邊，不要大幅揮手、站起來或走動（會影響對嘴）。
+  - 道具上不要有文字、商標、品牌；不用手機、電腦等螢幕。
+  - 範例（可自行發揮）：雙手捧著一杯冒著熱氣的花草茶暖手｜在胸前把一副星星圖案的塔羅牌攤成扇形，抽出一張翻給鏡頭看｜翻開一本燙金封面的星座書，手指輕點書頁｜拿著一張畫滿星座圖案的星盤轉向鏡頭｜手心托著一顆紫水晶原石輕輕轉動｜輕輕搖晃一串月亮星星吊飾｜捧著一盞發出暖光的星星小夜燈｜手裡拿著一小束乾燥花，輕輕聞一下花香｜雙手在胸前捧著微微發光的水晶球。
 - 星座名稱、日期區間程式會自己帶，不用寫。
 
 ## 3. 旁白（Gemini TTS）
@@ -51,8 +56,8 @@ Nathan 2026-11-19 設定。排程任務每天台北時間 04:49 開始，做好�
 
 ## 4. 開場對嘴影片（Calywood）
 open 那段一好就先送出（要 5–10 分鐘），等待時去做其他旁白和圖片：
-- generate_video_multimodal：model `seedance`，portrait_asset_ids `["asset-20261119101855-dz79b"]`（真人素材庫「卡卡夫人」），audio_urls `[open 的 url]`，duration = open.wav 秒數無條件進位（最多 30），aspect_ratio `9:16`，resolution `720p`，prompt 固定：
-  「[Asset 1] 坐在溫馨的占星工作室裡，正面對著鏡頭，雙手在胸前捧著微微發光的水晶球，像親切的主持人一樣笑著跟觀眾聊天說早安。她說話的嘴型與 [Audio 1] 的語音完全同步，表情自然生動，有自然的眨眼、微笑和輕微點頭，偶爾頭稍微側一下。鏡頭固定不動，中景構圖，人物保持在畫面中央，背景的燭光和小燈泡微微閃爍。寫實影像風格，柔和光線。」
+- generate_video_multimodal：model `seedance`，portrait_asset_ids `["asset-20261119101855-dz79b"]`（真人素材庫「卡卡夫人」），audio_urls `[open 的 url]`，duration = open.wav 秒數無條件進位（最多 30），aspect_ratio `9:16`，resolution `720p`，prompt 用這個範本，把 {open_scene} 換成 episode.json 的 `open_scene`，其餘一字不改：
+  「[Asset 1] 坐在溫馨的占星工作室裡，正面對著鏡頭，{open_scene}，像親切的主持人一樣笑著跟觀眾聊天說早安。她說話的嘴型與 [Audio 1] 的語音完全同步，表情自然生動，有自然的眨眼、微笑和輕微點頭，偶爾頭稍微側一下。手上的動作輕柔緩慢，道具保持在胸前，不遮住臉和嘴。鏡頭固定不動，中景構圖，人物保持在畫面中央，背景的燭光和小燈泡微微閃爍。寫實影像風格，柔和光線。」
 - 約每 60 秒 get_task 一次；完成後 `curl -sSf -o EP/open.mp4 "<影片連結>"`。失敗就同樣參數重送一次。到台北 05:40 仍沒有可用的影片，就不等了：不放 open.mp4，build 會自動改用卡卡夫人照片的備案開場（字幕一樣），照常發布，並在通知裡註明。
 - 費用約 NT$3.3/秒（20 秒約 NT$65）。不要用 minimax（音訊上限 15 秒，也不支援真人素材庫）。
 
@@ -62,7 +67,7 @@ create-image 兩張：prompt 用 img_prompt，size 1024x1024，quality high，ba
 ## 6. 做影片與檢查
 1. `python3 zodiac/pipeline/build.py EP video`（約 3 分鐘）。它會：處理音訊（加速 1.33 倍）、把 Calywood 影片的嘴型對齊旁白、算開場字幕時間、畫圖卡、混音、壓成約 16 MB 的 EP/video.mp4（檔案大於約 20 MB 時 Postiz 發 FB 會失敗），並輸出 EP/check/sheet.jpg。
 2. 檢查輸出：長度 80–92 秒（太長就縮短開場或開運推薦的旁白，只重新合成改過的段落）；大小 ≤ 18.5 MB；印出的 path cost ≤ 0.35（太高代表對嘴對不上：把 open.mp4 移走改用備案再 build 一次）。
-3. 用 Read 打開 EP/check/sheet.jpg：開場字幕完整、日期牌是 D、圖卡文字沒有超出或重疊、第 1 名和前三名正確、推薦圖片與標題相符。有問題就修 episode.json 再 build。
+3. 用 Read 打開 EP/check/sheet.jpg：開場字幕完整、日期牌是 D、圖卡文字沒有超出或重疊、第 1 名和前三名正確、推薦圖片與標題相符。有問題就修 episode.json 再 build。開場若道具遮到臉或嘴、道具上出現文字或商標，或動作怪異，當作 Calywood 失敗：台北 05:40 前還來得及就同樣參數重送一次，否則移走 open.mp4 改用備案開場再 build（並照第 9 節通知）。
 
 ## 7. 貼文文字（EP/post.txt）
 純文字，不用 #、**、--- 等 Markdown，不加 AI 說明（Nathan 會寫在粉專簡介）。格式：

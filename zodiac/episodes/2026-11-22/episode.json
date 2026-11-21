@@ -1,0 +1,52 @@
+{
+ "date": "2026-11-22",
+ "weather": {
+  "city": "台北",
+  "summary": "晴時多雲，白天回暖到二十二度，早晚溫差大"
+ },
+ "sky": "太陽下午進入射手座，月亮在牡羊座與木星三分相，晚上走進金牛座",
+ "opening": "哈囉大家週日早安，我是卡卡夫人！今天小雪，台北白天回暖到二十二度，早晚記得加外套。你最想把好運用在哪裡？留言告訴我！今天月亮在牡羊座，十二星座運勢，從第十二名倒數！",
+ "open_scene": "手心托著一顆紫水晶原石，在胸前輕輕轉動給鏡頭看",
+ "signs": [
+  {"rank": 12, "key": "cancer", "love": 2, "work": 1, "money": 2, "color": "月光白", "hex": "#f2efe4", "num": "2",
+   "tip": "心情容易敏感，先照顧好自己。", "say": "放慢腳步，照顧自己。"},
+  {"rank": 11, "key": "capricorn", "love": 2, "work": 2, "money": 2, "color": "墨綠", "hex": "#2f5d50", "num": "17",
+   "tip": "事情多別硬撐，找人分擔一下。", "say": "別硬撐，找人分擔。"},
+  {"rank": 10, "key": "libra", "love": 3, "work": 2, "money": 2, "color": "天空藍", "hex": "#87c3e8", "num": "15",
+   "tip": "想法不一樣時，先聽完再回應。", "say": "先聽完，再回應。"},
+  {"rank": 9, "key": "taurus", "love": 2, "work": 3, "money": 3, "color": "苔綠", "hex": "#7a9a5a", "num": "24",
+   "tip": "晚上月亮回本座，心情慢慢變好。", "say": "到了晚上，心情變好。"},
+  {"rank": 8, "key": "virgo", "love": 3, "work": 3, "money": 3, "color": "淺卡其", "hex": "#c9b78f", "num": "7",
+   "tip": "細節別太計較，完成比完美重要。", "say": "完成，比完美重要。"},
+  {"rank": 7, "key": "scorpio", "love": 3, "work": 4, "money": 3, "color": "深紫", "hex": "#4b2a6b", "num": "18",
+   "tip": "適合整理房間，換個好心情。", "say": "整理房間，換個心情。"},
+  {"rank": 6, "key": "aquarius", "love": 4, "work": 3, "money": 3, "color": "冰藍", "hex": "#a8dcef", "num": "11",
+   "tip": "金星照顧感情，主動傳個訊息。", "say": "主動聯絡，感情加溫。"},
+  {"rank": 5, "key": "pisces", "love": 3, "work": 4, "money": 4, "color": "薰衣草", "hex": "#b8a1d9", "num": "21",
+   "tip": "靈感特別多，想到就記下來。", "say": "靈感來了，馬上記下！"},
+  {"rank": 4, "key": "aries", "love": 4, "work": 4, "money": 4, "color": "正紅", "hex": "#d7263d", "num": "9",
+   "tip": "月亮還在你這，把握白天衝一波！", "say": "把握白天，衝一波！"},
+  {"rank": 3, "key": "gemini", "love": 5, "work": 4, "money": 4, "color": "檸檬黃", "hex": "#f4d35e", "num": "5",
+   "tip": "聊天特別投緣，好消息會傳來！", "say": "多聊聊，好消息來！"},
+  {"rank": 2, "key": "sagittarius", "love": 5, "work": 5, "money": 4, "color": "寶藍", "hex": "#2348a8", "num": "22",
+   "tip": "太陽進入你的星座，生日季開跑！", "say": "生日季開跑，運勢旺！"},
+  {"rank": 1, "key": "leo", "love": 5, "work": 5, "money": 5, "color": "橘金", "hex": "#e8962e", "num": "1",
+   "tip": "月亮木星齊加持，好運接連來！", "say": "好運加持，勇敢衝！"}
+ ],
+ "bonus": [
+  {
+   "chip": "今日開運美食",
+   "title": "香甜烤地瓜",
+   "lines": ["月亮將入金牛，土象帶來穩", "暖暖捧在手，甜甜一整天"],
+   "say": "最後是卡卡夫人的開運推薦！來顆熱呼呼的烤地瓜，月亮走向金牛，穩穩帶來好運！",
+   "img_prompt": "a few roasted sweet potatoes split open showing golden caramelized flesh, gentle steam rising, resting on brown paper on a small wooden tray, a few autumn leaves and a warm glowing lantern beside them, soft morning light. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  },
+  {
+   "chip": "今日開運去處",
+   "title": "晴天郊山步道",
+   "lines": ["太陽進射手，適合出門走走", "早晚溫差大，記得帶外套"],
+   "say": "天氣晴朗，去郊山步道走走吧！太陽進入射手座，最適合出門探險！",
+   "img_prompt": "a sunny hillside hiking trail winding through green trees and silver grass, a blank wooden signpost, a small backpack and a thermos resting on a wooden bench, bright blue sky with soft white clouds and a distant city skyline below. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  }
+ ]
+}

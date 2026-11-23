@@ -26,6 +26,16 @@ SPEED = 1.33                       # Gemini's delivery is slow; every clip is sp
 ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(FPS)]
 FINAL_KBPS = 1300                  # final two-pass video bitrate -> ~16 MB for ~88 s (Postiz/FB fail on big files)
 
+# Facebook full-screen viewer (measured on an iPhone 17 Pro, 2026-11-23), in 1080x1920 video coordinates:
+# the phone is taller than 9:16, so FB scales the video up and crops ~55 px off each side; its UI sits on top.
+# Keep text and plates inside SAFE_X; anything between y 1180 and 1670 must also stay left of RIGHT_COL_X.
+FB_CROP = (55, 1025)               # visible x range on the phone
+SAFE_X = (100, 980)                # where plates / text may go (room for phones that crop a bit more)
+RIGHT_COL_X = 895                  # like / comment / share / save buttons: x >= 910, y 1190-1860
+FB_ZONES = [(0, 0, W, 110), (80, 170, 140, 260), (820, 170, 1010, 260),      # status bar, back / search / more
+            (905, 1190, W, 1870), (60, 1670, 905, 1880)]                     # action column, page name + caption
+CARD_W = 2 * (RIGHT_COL_X - W // 2)  # 710: widest panel that stays clear of the action column
+
 SIGN_INFO = {
     "aries": ("牡羊座", "3/21 - 4/19"), "taurus": ("金牛座", "4/20 - 5/20"), "gemini": ("雙子座", "5/21 - 6/21"),
     "cancer": ("巨蟹座", "6/22 - 7/22"), "leo": ("獅子座", "7/23 - 8/22"), "virgo": ("處女座", "8/23 - 9/22"),
@@ -213,7 +223,7 @@ def pauses(path, thr="-30dB", d="0.07"):
     en = [float(x) for x in re.findall(r"silence_end: ([0-9.]+)", out)]
     return list(zip(st, en))
 
-def sub_chunks(text, maxlen=15):
+def sub_chunks(text, maxlen=10):
     """Split the opening into subtitle chunks at punctuation, merging short phrases up to maxlen chars."""
     parts = re.findall(r"[^，。！？、]+[，。！？、]?", text)
     chunks, cur = [], ""
@@ -284,10 +294,10 @@ def init_static(e):
     dk = Image.new("RGBA", (W, H), (4, 6, 26, 0)); dk.putalpha(m.filter(ImageFilter.GaussianBlur(120))); bg.alpha_composite(dk)
     BG = bg
     SPR = {s: sparkle_sprite(s) for s in (14, 18, 22, 28)}
-    STAR_ON, STAR_OFF = star_icon(40, True), star_icon(40, False)
-    p = panel(860, 96, r=48)
-    t1 = text_layer("卡卡夫人占星館", F("serif", 46), gradient=(GOLD_TOP, GOLD_BOT), shadow=4)
-    t2 = text_layer(f"{e.date_label}・今日運勢", F("med", 38), shadow=4)
+    STAR_ON, STAR_OFF = star_icon(36, True), star_icon(36, False)
+    p = panel(780, 96, r=48)
+    t1 = text_layer("卡卡夫人占星館", F("serif", 44), gradient=(GOLD_TOP, GOLD_BOT), shadow=4)
+    t2 = text_layer(f"{e.date_label}・今日運勢", F("med", 36), shadow=4)
     x0 = (p.width - (t1.width + 26 + t2.width)) // 2; cy = p.height // 2
     p.alpha_composite(t1, (x0, cy - t1.height // 2)); p.alpha_composite(t2, (x0 + t1.width + 26, cy - t2.height // 2 + 2))
     HEADER = p
@@ -306,45 +316,46 @@ def sign_layers(s):
     L["rank"] = text_layer([("第", F("serif", 84), 14), (str(rk), F("serif", 150 if rk <= 3 else 132), 14), ("名", F("serif", 84), 0)],
                            None, gradient=(GOLD_TOP, GOLD_BOT), stroke=6, stroke_fill=(90, 14, 30),
                            glow=((255, 200, 90), 22) if rk <= 3 else None)
-    L["icon"] = fit_crop(ASSET("signs", s["key"] + ".png"), 500)
-    L["glow"] = glow_disc(270, (255, 205, 110) if rk > 3 else (255, 225, 140))
-    L["name"] = text_layer(name, F("serif", 108), stroke=6, stroke_fill=(20, 26, 80), glow=((120, 170, 255), 18))
+    L["icon"] = fit_crop(ASSET("signs", s["key"] + ".png"), 460)
+    L["glow"] = glow_disc(250, (255, 205, 110) if rk > 3 else (255, 225, 140))
+    L["name"] = fit_width(text_layer(name, F("serif", 108), stroke=6, stroke_fill=(20, 26, 80), glow=((120, 170, 255), 18)), CARD_W)
     L["range"] = text_layer(rng, F("med", 38), fill=CREAM, shadow=4)
-    tp = panel(860, 178)
-    ls = [fit_width(text_layer(x, F("sans", 54), shadow=4), 820) for x in split_tip(s["tip"])]
+    cw = CARD_W
+    tp = panel(cw, 178)
+    ls = [fit_width(text_layer(x, F("sans", 54), shadow=4), cw - 40) for x in split_tip(s["tip"])]
     y = (tp.height - (sum(x.height for x in ls) + 18 * (len(ls) - 1))) // 2 + 2
     for x in ls: tp.alpha_composite(x, ((tp.width - x.width) // 2, y)); y += x.height + 18
     L["tip"] = tp
-    sp = panel(860, 222); L["score_pos"] = []
+    sp = panel(cw, 222); L["score_pos"] = []
     for k, (lab, v) in enumerate([("愛情", s["love"]), ("事業", s["work"]), ("財運", s["money"])]):
-        cx = 20 + 145 + k * 285; lt = text_layer(lab, F("med", 36), fill=CREAM, shadow=3)
+        cx = 20 + cw // 6 + k * cw // 3; lt = text_layer(lab, F("med", 36), fill=CREAM, shadow=3)
         sp.alpha_composite(lt, (cx - lt.width // 2, 34)); L["score_pos"].append((cx, int(v)))
-    d = ImageDraw.Draw(sp); d.line((70, 142, 830, 142), fill=(232, 180, 70, 110), width=2)
+    d = ImageDraw.Draw(sp); d.line((60, 142, cw - 20, 142), fill=(232, 180, 70, 110), width=2)
     lc = text_layer("幸運色", F("med", 34), fill=CREAM, shadow=3); cn = text_layer(s["color"], F("sans", 38), shadow=3)
     ln = text_layer("幸運數字", F("med", 34), fill=CREAM, shadow=3)
     nn = text_layer(str(s["num"]), F("serif", 48), gradient=(GOLD_TOP, GOLD_BOT), shadow=3)
     ry, sw = 206, 40
-    x = 20 + 225 - (lc.width + 14 + sw + 12 + cn.width) // 2
+    x = 20 + int(cw * 0.27) - (lc.width + 14 + sw + 12 + cn.width) // 2
     sp.alpha_composite(lc, (x, ry - lc.height // 2)); x += lc.width + 14
     col = tuple(int(s["hex"][i:i + 2], 16) for i in (1, 3, 5)) + (255,)
     d.ellipse((x, ry - sw // 2, x + sw, ry + sw // 2), fill=col, outline=(255, 255, 255, 230), width=3); x += sw + 12
     sp.alpha_composite(cn, (x, ry - cn.height // 2))
-    x = 20 + 645 - (ln.width + 16 + nn.width) // 2
+    x = 20 + int(cw * 0.75) - (ln.width + 16 + nn.width) // 2
     sp.alpha_composite(ln, (x, ry - ln.height // 2)); sp.alpha_composite(nn, (x + ln.width + 16, ry - nn.height // 2 - 2))
     L["score"] = sp
     return L
 
 def frame_sign(L, s, t, T, dur):
-    fr = BG.copy(); draw_sparkles(fr, T); paste_c(fr, HEADER, W / 2, 250)
+    fr = BG.copy(); draw_sparkles(fr, T); paste_c(fr, HEADER, W / 2, 315)   # below FB's back/search/more icons
     out = 1 - prog(t, dur - 0.22, 0.22)
-    p = prog(t, 0.0, 0.38); paste_c(fr, L["rank"], W / 2, 400, scale=1.5 - 0.5 * eb(p), alpha=eo(p) * out)
+    p = prog(t, 0.0, 0.38); paste_c(fr, L["rank"], W / 2, 465, scale=1.5 - 0.5 * eb(p), alpha=eo(p) * out)
     p = prog(t, 0.08, 0.5); bob = math.sin(T * 2.2) * 6
     pulse = 0.55 + 0.25 * math.sin(T * 3.0) + (0.2 if s["rank"] <= 3 else 0)
-    paste_c(fr, L["glow"], W / 2, 735 + bob, scale=0.9 + 0.1 * eo(p), alpha=pulse * eo(p) * out)
-    paste_c(fr, L["icon"], W / 2, 735 + bob, scale=0.55 + 0.45 * eb(p), alpha=eo(p) * out)
+    paste_c(fr, L["glow"], W / 2, 772 + bob, scale=0.9 + 0.1 * eo(p), alpha=pulse * eo(p) * out)
+    paste_c(fr, L["icon"], W / 2, 772 + bob, scale=0.55 + 0.45 * eb(p), alpha=eo(p) * out)
     p = eo(prog(t, 0.3, 0.4))
-    paste_c(fr, L["name"], W / 2, 1060 + 40 * (1 - p), alpha=p * out); paste_c(fr, L["range"], W / 2, 1138 + 40 * (1 - p), alpha=p * out)
-    p = eo(prog(t, 0.45, 0.4)); paste_c(fr, L["tip"], W / 2, 1290 + 50 * (1 - p), alpha=p * out)
+    paste_c(fr, L["name"], W / 2, 1070 + 40 * (1 - p), alpha=p * out); paste_c(fr, L["range"], W / 2, 1148 + 40 * (1 - p), alpha=p * out)
+    p = eo(prog(t, 0.45, 0.4)); paste_c(fr, L["tip"], W / 2, 1280 + 50 * (1 - p), alpha=p * out)
     p = eo(prog(t, 0.6, 0.4))
     if p * out > 0.003:
         layer = L["score"].copy(); k = 0
@@ -353,14 +364,14 @@ def frame_sign(L, s, t, T, dur):
                 st = STAR_ON if j < v else STAR_OFF; ps = prog(t, 0.85 + k * 0.05, 0.25); k += 1
                 if ps <= 0: continue
                 ss = 0.4 + 0.6 * eb(ps)
-                s2 = st.resize((max(1, int(40 * ss)),) * 2, Image.BICUBIC) if abs(ss - 1) > 0.01 else st
-                layer.alpha_composite(with_alpha(s2, min(1, ps * 2)), (int(cx - 88 + j * 44 - s2.width / 2), int(112 - s2.height / 2)))
-        paste(fr, with_alpha(layer, p * out), W / 2 - layer.width / 2, 1528 - layer.height / 2 + 50 * (1 - p))
+                s2 = st.resize((max(1, int(36 * ss)),) * 2, Image.BICUBIC) if abs(ss - 1) > 0.01 else st
+                layer.alpha_composite(with_alpha(s2, min(1, ps * 2)), (int(cx - 80 + j * 40 - s2.width / 2), int(112 - s2.height / 2)))
+        paste(fr, with_alpha(layer, p * out), W / 2 - layer.width / 2, 1512 - layer.height / 2 + 50 * (1 - p))
     return fr
 
 def bonus_layers(b, img):
     L = {}
-    hp = panel(860, 96, r=48); t = text_layer("卡卡夫人的今日開運推薦", F("serif", 48), gradient=(GOLD_TOP, GOLD_BOT), shadow=4)
+    hp = panel(780, 96, r=48); t = text_layer("卡卡夫人的今日開運推薦", F("serif", 46), gradient=(GOLD_TOP, GOLD_BOT), shadow=4)
     hp.alpha_composite(t, ((hp.width - t.width) // 2, (hp.height - t.height) // 2)); L["header"] = hp
     chip = panel(420, 84, fill=(176, 18, 46, 245), border=(245, 200, 90, 255), r=42)
     t = fit_width(text_layer(b["chip"], F("sans", 50), shadow=4), 390)
@@ -372,9 +383,9 @@ def bonus_layers(b, img):
     s2 = Image.new("RGBA", fr.size, (0, 0, 0, 0)); s2.putalpha(sh.filter(ImageFilter.GaussianBlur(14))); fr.alpha_composite(s2); L["shadow"] = fr
     br = Image.new("RGBA", (800, 800), (0, 0, 0, 0)); ImageDraw.Draw(br).rounded_rectangle((26, 26, 774, 774), 46, outline=(240, 190, 80, 255), width=7)
     L["border"] = br; L["glow"] = glow_disc(420, (255, 205, 110))
-    L["title"] = fit_width(text_layer(b["title"], F("serif", 96), stroke=6, stroke_fill=(20, 26, 80), glow=((120, 170, 255), 18)), 980)
-    tp = panel(860, 160)
-    ls = [fit_width(text_layer(x, F("sans", 48), fill=(255, 255, 255) if i == 0 else CREAM, shadow=4), 820) for i, x in enumerate(b["lines"][:2])]
+    L["title"] = fit_width(text_layer(b["title"], F("serif", 96), stroke=6, stroke_fill=(20, 26, 80), glow=((120, 170, 255), 18)), CARD_W)
+    tp = panel(CARD_W, 160)
+    ls = [fit_width(text_layer(x, F("sans", 48), fill=(255, 255, 255) if i == 0 else CREAM, shadow=4), CARD_W - 40) for i, x in enumerate(b["lines"][:2])]
     y = (tp.height - (sum(x.height for x in ls) + 16 * (len(ls) - 1))) // 2 + 2
     for x in ls: tp.alpha_composite(x, ((tp.width - x.width) // 2, y)); y += x.height + 16
     L["reason"] = tp
@@ -383,17 +394,18 @@ def bonus_layers(b, img):
 def frame_bonus(L, t, T, dur, first, last):
     fr = BG.copy(); draw_sparkles(fr, T)
     out = 1 - prog(t, dur - 0.22, 0.22)
-    paste_c(fr, L["header"], W / 2, 250, alpha=(eo(prog(t, 0, 0.35)) if first else 1.0) * (out if last else 1.0))
-    p = prog(t, 0.05, 0.4); paste_c(fr, L["chip"], W / 2, 375, scale=0.6 + 0.4 * eb(p), alpha=eo(p) * out)
+    paste_c(fr, L["header"], W / 2, 315, alpha=(eo(prog(t, 0, 0.35)) if first else 1.0) * (out if last else 1.0))
+    p = prog(t, 0.05, 0.4); paste_c(fr, L["chip"], W / 2, 432, scale=0.6 + 0.4 * eb(p), alpha=eo(p) * out)
     p = prog(t, 0.15, 0.55); a = eo(p) * out
     if a > 0.003:
         cs = int(800 / (1.0 + 0.05 * (t / dur))); c0 = (820 - cs) // 2
         crop = L["img"].crop((c0, c0, c0 + cs, c0 + cs)).resize((740, 740), Image.BICUBIC); crop.putalpha(L["mask"])
         card = L["shadow"].copy(); card.alpha_composite(crop, (30, 30)); card.alpha_composite(L["border"])
-        paste_c(fr, L["glow"], W / 2, 830, alpha=(0.35 + 0.1 * math.sin(T * 2.5)) * a)
-        paste_c(fr, card, W / 2, 830, scale=0.82 + 0.18 * eb(p), alpha=a)
-    p = eo(prog(t, 0.4, 0.4)); paste_c(fr, L["title"], W / 2, 1300 + 40 * (1 - p), alpha=p * out)
-    p = eo(prog(t, 0.6, 0.4)); paste_c(fr, L["reason"], W / 2, 1460 + 50 * (1 - p), alpha=p * out)
+        k = 0.92                     # 680 px picture: clear of the phone crop and FB's action column
+        paste_c(fr, L["glow"], W / 2, 830, scale=k, alpha=(0.35 + 0.1 * math.sin(T * 2.5)) * a)
+        paste_c(fr, card, W / 2, 830, scale=(0.82 + 0.18 * eb(p)) * k, alpha=a)
+    p = eo(prog(t, 0.4, 0.4)); paste_c(fr, L["title"], W / 2, 1252 + 40 * (1 - p), alpha=p * out)
+    p = eo(prog(t, 0.6, 0.4)); paste_c(fr, L["reason"], W / 2, 1412 + 50 * (1 - p), alpha=p * out)
     return fr
 
 # --- live (opening / outro) overlays
@@ -425,7 +437,16 @@ def dateplate(e):
     return vplate(cells, NAVY + (215,), (232, 180, 70, 255))
 
 def sub_layer(text):
-    return fit_width(text_layer(text, F("sans", 70), stroke=8, stroke_fill=(12, 14, 40), shadow=8, glow=((0, 0, 18), 16)), 960)
+    """One subtitle chunk, at most CARD_W wide so it never runs under FB's action buttons; a long phrase wraps to two lines."""
+    mk = lambda s: text_layer(s, F("sans", 68), stroke=8, stroke_fill=(12, 14, 40), shadow=8, glow=((0, 0, 18), 16))
+    pad = 60                                    # text_layer leaves ~30 px of faint glow on each side
+    im = mk(text)
+    if im.width - pad <= CARD_W or len(text) <= 10: return fit_width(im, CARD_W + pad)
+    cut = (len(text) + 1) // 2
+    a, b = mk(text[:cut]), mk(text[cut:]); y2 = a.height - 48
+    out = Image.new("RGBA", (max(a.width, b.width), y2 + b.height), (0, 0, 0, 0))
+    out.alpha_composite(a, ((out.width - a.width) // 2, 0)); out.alpha_composite(b, ((out.width - b.width) // 2, y2))
+    return fit_width(out, CARD_W + pad)
 
 def top3_panel(e):
     by = {s["rank"]: s for s in e.E["signs"]}
@@ -517,8 +538,8 @@ def live_frames(e, seg, n):
         for i, fr in enumerate(src):
             t = i / FPS; fr.alpha_composite(G)
             pin, pout = eo(prog(t, 0.25, 0.45)), 1 - prog(t, t_end_plates - 0.1, 0.3)
-            paste_c(fr, NT, 985 + 70 * (1 - pin), 620, alpha=pin * pout)
-            paste_c(fr, DP, 95 - 70 * (1 - pin), 620, alpha=pin * pout)
+            paste_c(fr, NT, 912 + 70 * (1 - pin), 620, alpha=pin * pout)    # inside SAFE_X: FB crops ~55 px per side
+            paste_c(fr, DP, 162 - 70 * (1 - pin), 620, alpha=pin * pout)
             fo = 1 - prog(t, total - 0.22, 0.22)
             for k, (s0, lay) in enumerate(subs):
                 s1 = subs[k + 1][0] if k + 1 < len(subs) else total
@@ -658,10 +679,22 @@ def cmd_video(ep):
     sheet = Image.new("RGB", (275 * 4, 485 * 2), (255, 255, 255))
     for i, im in enumerate(ims): sheet.paste(im, ((i % 4) * 275, (i // 4) * 485))
     sheet.save(e.p("check", "sheet.jpg"), quality=85)
+    # what an iPhone shows in FB's full-screen viewer: side crop + FB's UI (red). Nothing important may sit under red.
+    fb = []
+    for k, (lab, tt) in enumerate([("開場字幕", segs[0]["dur"] * 0.6), ("第12名", picks[2][1]), ("推薦1", picks[4][1]), ("結尾CTA", picks[7][1])]):
+        fp = e.w(f"fb_{k}.png")
+        run(["ffmpeg", "-v", "error", "-y", "-ss", f"{tt:.2f}", "-i", e.p("video.mp4"), "-frames:v", "1", fp])
+        im = Image.open(fp).convert("RGBA"); ov = Image.new("RGBA", im.size, (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+        for z in FB_ZONES: d.rectangle(z, fill=(255, 0, 0, 90), outline=(255, 40, 40, 220), width=4)
+        im.alpha_composite(ov); im = im.crop((FB_CROP[0], 0, FB_CROP[1], H)).convert("RGB")
+        im = im.resize((im.width * 3 // 8, H * 3 // 8)); ImageDraw.Draw(im).text((8, 44), lab, font=F("sans", 26), fill=(255, 255, 0)); fb.append(im)
+    view = Image.new("RGB", ((fb[0].width + 6) * 4, fb[0].height), (255, 255, 255))
+    for i, im in enumerate(fb): view.paste(im, (i * (im.width + 6), 0))
+    view.save(e.p("check", "fb_view.jpg"), quality=85)
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", e.p("video.mp4")],
                                capture_output=True, text=True).stdout)
     print(f"video -> {e.p('video.mp4')}  {os.path.getsize(e.p('video.mp4')) / 1e6:.1f} MB, {dur:.1f} s (video bitrate {kb}k)")
-    print(f"check -> {e.p('check', 'sheet.jpg')}")
+    print(f"check -> {e.p('check', 'sheet.jpg')}  +  {e.p('check', 'fb_view.jpg')} (FB full-screen safe zones)")
     print("opening subtitles:", " | ".join(f"{s:.1f}s {c}" for s, c in subs))
 
 if __name__ == "__main__":

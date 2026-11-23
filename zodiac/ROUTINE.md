@@ -69,7 +69,7 @@ create-image 兩張：prompt 用 img_prompt，size 1024x1024，quality high，ba
 ## 6. 做影片與檢查
 1. `python3 zodiac/pipeline/build.py EP video`（約 3 分鐘）。它會：處理音訊（加速 1.33 倍）、把 Calywood 影片的嘴型對齊旁白、算開場字幕時間、畫圖卡、混音、壓成約 16 MB 的 EP/video.mp4（檔案大於約 20 MB 時 Postiz 發 FB 會失敗），並輸出 EP/check/sheet.jpg。
 2. 檢查輸出：長度 80–92 秒（太長就縮短開場或開運推薦的旁白，只重新合成改過的段落）；大小 ≤ 18.5 MB；印出的 path cost ≤ 0.35（太高代表對嘴對不上：把 open.mp4 移走改用備案再 build 一次）。
-3. 用 Read 打開 EP/check/sheet.jpg：開場字幕完整、日期牌是 D、圖卡文字沒有超出或重疊、第 1 名和前三名正確、推薦圖片與標題相符。有問題就修 episode.json 再 build。開場若手或道具遮到臉或嘴、手部明顯變形（手指數量或形狀怪異）、道具上出現文字或商標，或動作怪異，當作 Calywood 失敗：台北 05:40 前還來得及就同樣參數重送一次，否則移走 open.mp4 改用備案開場再 build（並照第 9 節通知）。
+3. 用 Read 打開 EP/check/sheet.jpg：開場字幕完整、日期牌是 D、圖卡文字沒有超出或重疊、第 1 名和前三名正確、推薦圖片與標題相符。再打開 EP/check/fb_view.jpg（iPhone 用 FB 全螢幕看到的範圍，紅色是 FB 的按鈕、標題和狀態列）：字幕、日期牌、名牌、圖卡文字都不能壓到紅色區域或被左右裁掉。版面安全區在 build.py 的 FB_ZONES／SAFE_X（Nathan 2026-11-23 用 iPhone 17 Pro 截圖量的）。有問題就修 episode.json 再 build。開場若手或道具遮到臉或嘴、手部明顯變形（手指數量或形狀怪異）、道具上出現文字或商標，或動作怪異，當作 Calywood 失敗：台北 05:40 前還來得及就同樣參數重送一次，否則移走 open.mp4 改用備案開場再 build（並照第 9 節通知）。
 
 ## 7. 貼文文字（EP/post.txt）
 純文字，不用 #、**、--- 等 Markdown，不加 AI 說明（Nathan 會寫在粉專簡介）。格式：

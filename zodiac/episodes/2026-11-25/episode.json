@@ -1,0 +1,52 @@
+{
+ "date": "2026-11-25",
+ "weather": {
+  "city": "台北",
+  "summary": "東北季風影響，陰天偏涼，偶有短暫雨，氣溫約 16–20°C"
+ },
+ "sky": "月亮在雙子座，金星與木星六分相，火星木星在獅子座合相",
+ "opening": "哈囉大家週三早安，我是卡卡夫人！台北今天陰陰涼涼，最高二十度，出門帶件外套和小傘。今天最想跟誰聊聊天？留言告訴我！今天月亮在雙子座，十二星座運勢，從第十二名倒數！",
+ "open_scene": "一手輕放在桌面上，另一手在胸前自然地比個小手勢，說到留言時親切地笑一下",
+ "signs": [
+  {"rank": 12, "key": "pisces", "love": 2, "work": 1, "money": 2, "color": "薰衣草紫", "hex": "#b7a4d8", "num": "12",
+   "tip": "思緒容易亂，先把待辦列清楚。", "say": "先列待辦，心就定了。"},
+  {"rank": 11, "key": "virgo", "love": 2, "work": 2, "money": 1, "color": "薄荷綠", "hex": "#8fd3b6", "num": "4",
+   "tip": "別對自己太嚴，慢慢來也很好。", "say": "放輕鬆，慢慢來就好。"},
+  {"rank": 10, "key": "capricorn", "love": 2, "work": 2, "money": 2, "color": "墨綠", "hex": "#2f5d46", "num": "8",
+   "tip": "步調放慢些，休息也是進步。", "say": "放慢腳步，好好喘口氣。"},
+  {"rank": 9, "key": "scorpio", "love": 3, "work": 2, "money": 2, "color": "酒紅", "hex": "#7b1e3a", "num": "13",
+   "tip": "話留三分，聽聽別人的想法。", "say": "多聽少說，收穫更多。"},
+  {"rank": 8, "key": "cancer", "love": 3, "work": 2, "money": 3, "color": "珍珠白", "hex": "#f4f1ea", "num": "3",
+   "tip": "家人朋友，是今天的好幫手。", "say": "有事別硬撐，找人幫忙。"},
+  {"rank": 7, "key": "taurus", "love": 3, "work": 3, "money": 3, "color": "橄欖綠", "hex": "#7d8b3a", "num": "16",
+   "tip": "按照計畫走，穩穩就是贏。", "say": "照計畫走，穩穩的贏！"},
+  {"rank": 6, "key": "sagittarius", "love": 3, "work": 4, "money": 3, "color": "紫羅蘭", "hex": "#8a4fbf", "num": "21",
+   "tip": "合作運不錯，多聽夥伴意見。", "say": "聽聽夥伴，合作更順！"},
+  {"rank": 5, "key": "aries", "love": 3, "work": 4, "money": 4, "color": "珊瑚橘", "hex": "#ff7f50", "num": "1",
+   "tip": "行動力滿分，說話放軟一點。", "say": "行動力強，說話放軟。"},
+  {"rank": 4, "key": "leo", "love": 4, "work": 4, "money": 4, "color": "金色", "hex": "#d4a017", "num": "19",
+   "tip": "火星木星同行，勇敢提出想法！", "say": "有想法，勇敢說出來！"},
+  {"rank": 3, "key": "aquarius", "love": 5, "work": 4, "money": 4, "color": "銀灰", "hex": "#b8bec6", "num": "22",
+   "tip": "靈感一直來，新點子會被看見！", "say": "新點子，會被看見！"},
+  {"rank": 2, "key": "gemini", "love": 5, "work": 4, "money": 5, "color": "檸檬黃", "hex": "#f4e04d", "num": "14",
+   "tip": "月亮在你的星座，魅力全開！", "say": "月亮陪你，魅力全開！"},
+  {"rank": 1, "key": "libra", "love": 5, "work": 5, "money": 5, "color": "玫瑰粉", "hex": "#e88aa5", "num": "23",
+   "tip": "金星幫你加分，人緣運勢都旺！", "say": "好人緣，帶來好運氣！"}
+ ],
+ "bonus": [
+  {
+   "chip": "今日開運美食",
+   "title": "熱豆漿配燒餅",
+   "lines": ["月亮在雙子，成雙最開運", "天氣偏涼，早餐吃暖一點"],
+   "say": "最後是卡卡夫人的開運推薦！早餐來杯熱豆漿配燒餅，成雙成對最開運！",
+   "img_prompt": "a warm Taiwanese breakfast set on a wooden table: a steaming bowl of hot soy milk and a flaky golden sesame-topped shaobing flatbread with a crispy youtiao fried dough stick tucked inside, on a small ceramic plate, a cozy window with soft gray cloudy morning light behind, two tiny twin stars twinkling above. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  },
+  {
+   "chip": "今日開運去處",
+   "title": "去圖書館充電",
+   "lines": ["雙子愛學習，新知帶來好運", "偶有短暫雨，室內最舒服"],
+   "say": "下班後去圖書館逛逛，翻翻有興趣的書，雙子座的月亮會帶來新靈感！",
+   "img_prompt": "a cozy modern public library interior with tall wooden bookshelves, warm glowing reading lamps, an open book and a cup of tea on a reading table, large windows showing a soft gray drizzly sky outside, a few books gently floating with tiny stars around them. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "date": "2026-12-03",
+ "mmdd": "12.03",
+ "lang": "en",
+ "person": "Ellen Swallow Richards",
+ "event": "born (1842, Dunstable, Massachusetts)",
+ "title": "Ellen Swallow Richards: MIT's First Woman Graduate Who Cleaned Up Our Water | Born 184 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "She got into MIT, but they said she wasn't a student!",
+    [
+     "Who changed the world today? December 3.",
+     "Who changed the world today? December third."
+    ],
+    [
+     "On this day in 1842,",
+     "On this day in eighteen forty-two,"
+    ],
+    "on a farm in Massachusetts,",
+    [
+     "the chemist Ellen Swallow Richards was born.",
+     "the chemist Ellen Swallow Richards was born."
+    ]
+   ],
+   "data": {
+    "hook": "She got into MIT,\nbut didn't count?",
+    "sub": "1842  ──  2026",
+    "sub_at": 2,
+    "name": "Richards",
+    "name_years": "Ellen Swallow Richards · 1842 – 1911",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.4,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Saving for college",
+   "lines": [
+    [
+     "She grew up on a farm.",
+     "She grew up on a farm;"
+    ],
+    [
+     "Back then, few girls ever went to college.",
+     "few girls went to college then,"
+    ],
+    [
+     "She taught school and saved for years.",
+     "so she taught school and saved for years."
+    ],
+    [
+     "In 1868, at twenty-five, she entered Vassar College,",
+     "In eighteen sixty-eight, at twenty-five, she entered Vassar College,"
+    ],
+    "and fell in love with chemistry."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Vassar College, 1860s"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Age 25",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Finally in college",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  The student who didn't count",
+   "lines": [
+    [
+     "She wanted to be a chemist, but no company would hire a woman.",
+     "She wanted to be a chemist, but no company would hire a woman;"
+    ],
+    [
+     "In 1871, MIT let her in, and waived her fees.",
+     "in eighteen seventy-one, MIT let her in, and waived her fees."
+    ],
+    [
+     "Later she learned why: with no fees paid,",
+     "Later she learned why: with no fees paid,"
+    ],
+    [
+     "the president could say she wasn't a real student.",
+     "the president could say she wasn't a real student."
+    ],
+    [
+     "In 1873, she became MIT's first woman graduate.",
+     "In eighteen seventy-three, she became MIT's first woman graduate."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A chemistry class, 1870s"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "First",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Woman graduate of MIT",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Opening the door",
+   "lines": [
+    [
+     "But MIT never let her earn a doctorate.",
+     "But MIT never let her earn a doctorate;"
+    ],
+    [
+     "In 1876, she opened a Women's Laboratory at MIT,",
+     "in eighteen seventy-six, she opened a Women's Laboratory there,"
+    ],
+    [
+     "to teach more women chemistry.",
+     "to teach more women chemistry."
+    ],
+    "She didn't just walk through the door; she held it open."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "MIT's Women's Laboratory"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Open",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "A door for women",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Forty thousand bottles",
+   "lines": [
+    [
+     "In 1887, Massachusetts set out to test its water.",
+     "In eighteen eighty-seven, Massachusetts set out to test its water,"
+    ],
+    [
+     "Over two years, her team tested about 40,000 water samples,",
+     "and over two years, her team tested about forty thousand water samples,"
+    ],
+    [
+     "and mapped where the water was polluted.",
+     "and mapped the pollution."
+    ],
+    [
+     "It led to the first water-quality standards in the US.",
+     "Massachusetts then set the first water-quality standards in the United States."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Massachusetts water survey, 1887"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "40,000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Water samples",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "She also brought science into the home,",
+     "She also brought science into the home,"
+    ],
+    [
+     "and became known as the mother of home economics.",
+     "and became known as the mother of home economics."
+    ],
+    [
+     "She died in Boston in 1911.",
+     "She died in Boston in nineteen eleven;"
+    ],
+    [
+     "Today, clean water from your tap owes something to her.",
+     "today, the clean water from your tap owes something to her."
+    ],
+    "Her question for you:",
+    "If a door opens just a crack, will you push it wide?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Clean water from the tap"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question",
+        "style": "kicker"
+       },
+       {
+        "text": "If a door opens just a crack,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "will you push it wide?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on December 3, we remember Ellen Swallow Richards.",
+     "and on December third, we remember Ellen Swallow Richards."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Richards",
+    "years": "1842 – 1911"
+   }
+  }
+ ]
+}

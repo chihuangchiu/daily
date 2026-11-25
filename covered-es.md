@@ -44,3 +44,4 @@
 | 2026-11-30 | Mark Twain | nacimiento (1835, Florida, Misuri, EE. UU.) |
 | 2026-12-01 | Rosa Parks | se negó a ceder su asiento (1955, Montgomery, Alabama) |
 | 2026-12-02 | Georges Seurat | nacimiento (1859, París, Francia) |
+| 2026-12-03 | Ellen Swallow Richards | nacimiento (1842, Dunstable, Massachusetts) |

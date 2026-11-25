@@ -1,0 +1,325 @@
+{
+ "date": "2026-12-03",
+ "mmdd": "12.03",
+ "lang": "es",
+ "person": "Ellen Swallow Richards",
+ "event": "nacimiento (1842, Dunstable, Massachusetts)",
+ "title": "Ellen Swallow Richards: la primera mujer graduada del MIT | Hace 184 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "¡Entró al MIT, pero la escuela decía que no era alumna!",
+     "¡Entró al eme i te, pero la escuela decía que no era alumna!"
+    ],
+    [
+     "¿Quién cambió el mundo hoy? 3 de diciembre.",
+     "¿Quién cambió el mundo hoy? Tres de diciembre,"
+    ],
+    [
+     "Un día como hoy, en 1842,",
+     "un día como hoy, en mil ochocientos cuarenta y dos,"
+    ],
+    "en Massachusetts,",
+    "nació la química Ellen Swallow Richards."
+   ],
+   "data": {
+    "hook": "Entró al MIT,\npero no era alumna",
+    "sub": "1842  ──  2026",
+    "sub_at": 2,
+    "name": "Richards",
+    "name_years": "Ellen Swallow Richards · 1842 – 1911",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.4,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Ahorrar para estudiar",
+   "lines": [
+    "Creció en una granja, en tiempos en que",
+    "pocas chicas iban a la universidad,",
+    [
+     "así que dio clases y ahorró durante años.",
+     "así que dio clases y ahorró durante años,"
+    ],
+    [
+     "En 1868, a los veinticinco años, entró en Vassar,",
+     "y en mil ochocientos sesenta y ocho, a los veinticinco años, entró en Vassar,"
+    ],
+    "donde se enamoró de la química."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Vassar College en la década de 1860"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "25 años",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "por fin, la universidad",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Una alumna que no contaba",
+   "lines": [
+    [
+     "Quería ser química, pero ninguna empresa contrataba mujeres.",
+     "Quería ser química, pero ninguna empresa contrataba a una mujer,"
+    ],
+    [
+     "En 1871, el MIT la admitió como excepción, y gratis.",
+     "en mil ochocientos setenta y uno, el eme i te la admitió como excepción, y gratis,"
+    ],
+    [
+     "Luego entendió por qué: sin pagar, no contaba como alumna.",
+     "luego entendió por qué: si no pagaba, no contaba como alumna,"
+    ],
+    [
+     "En 1873 se graduó: la primera mujer graduada del MIT.",
+     "en mil ochocientos setenta y tres se graduó, y fue la primera mujer graduada del eme i te."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Una clase de química, años 1870"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "La primera",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "mujer graduada del MIT",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Abrir la puerta",
+   "lines": [
+    [
+     "El MIT nunca le dio el doctorado.",
+     "El eme i te nunca le dio el doctorado,"
+    ],
+    [
+     "En 1876 abrió en el MIT un Laboratorio de Mujeres,",
+     "y en mil ochocientos setenta y seis abrió en el eme i te un Laboratorio de Mujeres,"
+    ],
+    "para que más chicas aprendieran química.",
+    "No solo cruzó la puerta: la abrió para otras."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "El Laboratorio de Mujeres del MIT"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Abrir",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "la puerta a otras",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Cuarenta mil muestras",
+   "lines": [
+    [
+     "En 1887, Massachusetts quiso estudiar toda su agua.",
+     "En mil ochocientos ochenta y siete, Massachusetts quiso estudiar toda su agua,"
+    ],
+    [
+     "Su equipo analizó unas cuarenta mil muestras en dos años,",
+     "su equipo analizó unas cuarenta mil muestras en dos años,"
+    ],
+    "y un mapa mostró dónde estaba contaminada.",
+    "Así nacieron las primeras normas de calidad del agua del país."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Estudio del agua, Massachusetts, 1887"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "40 000",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "muestras de agua",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "También llevó la ciencia al hogar: comida, aire y limpieza,",
+     "También llevó la ciencia al hogar, con la comida, el aire y la limpieza,"
+    ],
+    [
+     "La llamaron la madre de la economía doméstica.",
+     "y la llamaron la madre de la economía doméstica,"
+    ],
+    [
+     "Murió en Boston en 1911, a los sesenta y ocho años.",
+     "murió en Boston en mil novecientos once, a los sesenta y ocho años,"
+    ],
+    [
+     "Hoy, el agua limpia de tu grifo también lleva su huella.",
+     "hoy, el agua limpia de tu grifo también lleva su huella,"
+    ],
+    [
+     "Su pregunta para ti:",
+     "su pregunta para ti:"
+    ],
+    "Si una puerta se abre poco, ¿la empujarías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Agua limpia del grifo"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si una puerta se abre poco,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "¿la empujarías?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 3 de diciembre, recordamos a Ellen Swallow Richards.",
+     "y este tres de diciembre, recordamos a Ellen Swallow Richards,"
+    ],
+    [
+     "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!",
+     "si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+    ]
+   ],
+   "data": {
+    "name": "Richards",
+    "years": "1842 – 1911"
+   }
+  }
+ ]
+}

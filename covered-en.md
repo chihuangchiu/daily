@@ -47,3 +47,4 @@
 | 2026-12-03 | Ellen Swallow Richards | born (1842, Dunstable, Massachusetts) | yes |
 | 2026-12-04 | Wassily Kandinsky | born (1866, Moscow, Russia) | yes |
 | 2026-12-05 | Wolfgang Amadeus Mozart | died (1791, Vienna, Austria) | yes |
+| 2026-12-06 | Joseph Louis Gay-Lussac | born (1778, Saint-Léonard-de-Noblat, France) | yes |

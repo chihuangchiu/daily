@@ -1,0 +1,304 @@
+{
+ "date": "2026-12-06",
+ "mmdd": "12.06",
+ "lang": "es",
+ "person": "Joseph Louis Gay-Lussac",
+ "event": "nacimiento (1778, Saint-Léonard-de-Noblat, Francia)",
+ "title": "Gay-Lussac: subió solo en globo a 7.000 metros | Hace 248 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "¡Subió solo en un globo, a siete mil metros de altura!",
+    [
+     "¿Quién cambió el mundo hoy? 6 de diciembre.",
+     "¿Quién cambió el mundo hoy? Seis de diciembre."
+    ],
+    [
+     "Un día como hoy, en 1778,",
+     "un día como hoy, en mil setecientos setenta y ocho,"
+    ],
+    "en un pueblo del centro de Francia,",
+    [
+     "nació el químico Joseph Louis Gay-Lussac.",
+     "nació el químico Yosef Luí Guelusák."
+    ]
+   ],
+   "data": {
+    "hook": "Solo en un globo,\na 7.000 metros",
+    "sub": "1778  ──  2026",
+    "sub_at": 2,
+    "name": "Gay-Lussac",
+    "name_years": "Joseph Louis Gay-Lussac · 1778 – 1850",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El chico del pueblo",
+   "lines": [
+    "Creció en un pueblo pequeño,",
+    [
+     "en 1797 entró en la Escuela Politécnica de París,",
+     "en mil setecientos noventa y siete entró en la Escuela Politécnica de París,"
+    ],
+    [
+     "trabajó con el químico Berthollet,",
+     "trabajó con el químico Bertolé,"
+    ],
+    "y quería descubrir los secretos del aire y de los gases."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Un pueblo del centro de Francia"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Gases",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "el secreto que buscaba",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Hacia el cielo",
+   "lines": [
+    [
+     "En 1804, todos se preguntaban:",
+     "En mil ochocientos cuatro, todos se preguntaban:"
+    ],
+    "¿el aire de las alturas es igual que el de abajo?",
+    "Nadie sabía qué le pasaba a una persona allá arriba.",
+    [
+     "En agosto subió con Biot en globo, hasta 4.000 metros,",
+     "En agosto subió con su amigo Bió en un globo de hidrógeno, hasta cuatro mil metros,"
+    ],
+    "pero él quería llegar más alto."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "París, 1804: el despegue"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1804",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "un laboratorio en globo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Siete mil metros",
+   "lines": [
+    "El dieciséis de septiembre volvió a subir, esta vez solo,",
+    "cada vez hacía más frío, y costaba más respirar,",
+    "según se cuenta, para subir un poco más, tiró hasta su silla,",
+    "al final llegó a unos siete mil metros,",
+    "y allí llenó un frasco con aire de las alturas.",
+    "Su récord de altura duró casi cincuenta años."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Un globo de hidrógeno sobre las nubes"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "7.016",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "metros de altura",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Números sencillos",
+   "lines": [
+    "Ya en tierra, lo analizó: el aire de arriba era casi igual al de abajo.",
+    [
+     "En 1808 descubrió algo más:",
+     "En mil ochocientos ocho descubrió algo más:"
+    ],
+    [
+     "los gases se combinan en números enteros y sencillos,",
+     "los gases se combinan siempre en proporciones de números enteros y sencillos,"
+    ],
+    "dos volúmenes de hidrógeno y uno de oxígeno dan vapor de agua,",
+    "esto ayudó a los científicos a entender las moléculas,",
+    "y además, le dio nombre a un nuevo elemento: el yodo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Tubos de gases en su laboratorio"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "2 : 1",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "números enteros",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "Murió en París en 1850,",
+     "Murió en París en mil ochocientos cincuenta,"
+    ],
+    [
+     "hoy su nombre está grabado en la Torre Eiffel,",
+     "hoy su nombre está grabado en la Torre Éifel,"
+    ],
+    "y una de las leyes de los gases lleva su nombre.",
+    "Su pregunta para ti:",
+    "Para encontrar una respuesta, ¿hasta dónde llegarías?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "La Torre Eiffel, con su nombre"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Para encontrar una respuesta,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "¿hasta dónde llegarías?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 6 de diciembre, recordamos a Joseph Louis Gay-Lussac.",
+     "y este seis de diciembre, recordamos a Yosef Luí Guelusák."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Gay-Lussac",
+    "years": "1778 – 1850"
+   }
+  }
+ ]
+}

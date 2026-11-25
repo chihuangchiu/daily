@@ -1,0 +1,334 @@
+{
+ "date": "2026-12-06",
+ "mmdd": "12.06",
+ "lang": "en",
+ "person": "Joseph Louis Gay-Lussac",
+ "event": "born (1778, Saint-Léonard-de-Noblat, France)",
+ "title": "Gay-Lussac: He Rode a Balloon Alone to 7,000 Meters | Born 248 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He flew a balloon alone, seven thousand meters into the sky!",
+    [
+     "Who changed the world today? December 6.",
+     "Who changed the world today? December sixth."
+    ],
+    [
+     "On this day in 1778,",
+     "On this day in seventeen seventy-eight,"
+    ],
+    "in a small town in central France,",
+    "the chemist Gay-Lussac was born."
+   ],
+   "data": {
+    "hook": "Alone in a balloon,\n7,000 meters up",
+    "sub": "1778  ──  2026",
+    "sub_at": 2,
+    "name": "Gay-Lussac",
+    "name_years": "Joseph Louis Gay-Lussac · 1778 – 1850",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The curious boy",
+   "lines": [
+    [
+     "In 1797, he entered the École Polytechnique in Paris.",
+     "In seventeen ninety-seven, he entered the École Polytechnique in Paris;"
+    ],
+    [
+     "What he wanted most was to unlock the secrets of air and gases.",
+     "what he wanted most was to unlock the secrets of air and gases."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A small town in central France"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "Gases",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "The secret he chased",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Into the sky",
+   "lines": [
+    [
+     "In 1804, scientists were asking:",
+     "In eighteen oh four, scientists were asking:"
+    ],
+    "is the air high above the same as the air down here?",
+    [
+     "In August, he and Biot rose to about 4,000 meters,",
+     "In August, he and his friend Biot rose to about four thousand meters,"
+    ],
+    "but he wanted to go higher."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1804: lifting off in Paris"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1804",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Experiments in a balloon",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  Seven thousand meters",
+   "lines": [
+    [
+     "On September 16, he went up again, alone.",
+     "On September sixteenth, he went up again, alone;"
+    ],
+    [
+     "The higher he flew, the colder it got, and the harder to breathe.",
+     "the higher he flew, the colder it got, and the harder to breathe;"
+    ],
+    [
+     "To climb higher, he reportedly threw out his chair.",
+     "to climb a little more, he reportedly threw out his own chair;"
+    ],
+    [
+     "He reached about seven thousand meters,",
+     "he reached about seven thousand meters,"
+    ],
+    [
+     "and filled a flask with the high air.",
+     "and filled a flask with the high air;"
+    ],
+    [
+     "His height record stood for almost fifty years.",
+     "his height record stood for almost fifty years."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A hydrogen balloon above the clouds"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "7016",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "meters up",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Simple numbers",
+   "lines": [
+    [
+     "Back down, the high air proved almost the same as ours.",
+     "Back on the ground, the high air turned out almost the same as ours;"
+    ],
+    [
+     "In 1808, he found something more:",
+     "in eighteen oh eight, he found something more:"
+    ],
+    [
+     "Combining gases form simple whole-number volume ratios.",
+     "when gases combine, their volumes form simple whole-number ratios;"
+    ],
+    [
+     "Two parts hydrogen and one part oxygen make water vapor.",
+     "two parts hydrogen and one part oxygen make water vapor;"
+    ],
+    [
+     "This helped later scientists understand molecules.",
+     "this helped later scientists understand molecules;"
+    ],
+    [
+     "He even named a new element: iodine.",
+     "he even named a new element: iodine."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Gas tubes on a lab bench"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "2 : 1",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Whole-number ratios",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "He died in Paris in 1850.",
+     "He died in Paris in eighteen fifty;"
+    ],
+    [
+     "Today, his name is engraved on the Eiffel Tower,",
+     "today, his name is engraved on the Eiffel Tower,"
+    ],
+    [
+     "and the gas laws in your chemistry book owe him a share.",
+     "and the gas laws in your chemistry book owe him a share;"
+    ],
+    [
+     "His question for you:",
+     "his question for you:"
+    ],
+    "How far would you go to find an answer?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The Eiffel Tower bears his name"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "How far would you go",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "to find an answer?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on December 6, we remember Joseph Louis Gay-Lussac.",
+     "and on December sixth, we remember Joseph Louis Gay-Lussac."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Gay-Lussac",
+    "years": "1778 – 1850"
+   }
+  }
+ ]
+}

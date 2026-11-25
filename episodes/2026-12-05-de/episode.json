@@ -1,0 +1,343 @@
+{
+ "date": "2026-12-05",
+ "mmdd": "12.05",
+ "lang": "de",
+ "person": "Wolfgang Amadeus Mozart",
+ "event": "Todestag (1791, Wien)",
+ "title": "Mozart: 35 Jahre Leben, über 600 Werke | Heute vor 235 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er lebte nur fünfunddreißig Jahre, und schuf über sechshundert Werke!",
+    [
+     "Wer hat heute die Welt verändert? Der 5. Dezember.",
+     "Wer hat heute die Welt verändert? Der fünfte Dezember."
+    ],
+    [
+     "Heute vor 235 Jahren,",
+     "Heute vor genau zweihundertfünfunddreißig Jahren,"
+    ],
+    "starb in Wien",
+    "der Komponist Wolfgang Amadeus Mozart."
+   ],
+   "data": {
+    "hook": "Nur 35 Jahre,\nüber 600 Werke",
+    "sub": "1791  ──  2026",
+    "sub_at": 2,
+    "name": "Mozart",
+    "name_years": "Wolfgang Amadeus Mozart · 1756 – 1791",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Das Wunderkind",
+   "lines": [
+    [
+     "Sein Vater Leopold war Hofmusiker in Salzburg.",
+     "Sein Vater Leopold war Hofmusiker in Salzburg,"
+    ],
+    [
+     "Schon mit fünf schrieb der Junge kleine Stücke.",
+     "schon mit fünf schrieb der Junge kleine Stücke,"
+    ],
+    [
+     "Ab sechs reiste er an die Fürstenhöfe Europas.",
+     "ab sechs reiste er an die Fürstenhöfe Europas,"
+    ],
+    [
+     "Mit einem Tuch über den Tasten spielte er fehlerfrei.",
+     "mit einem Tuch über den Tasten spielte er fehlerfrei,"
+    ],
+    [
+     "Mit acht schrieb er in London seine erste Sinfonie.",
+     "mit acht schrieb er in London seine erste Sinfonie."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein Kind am Fürstenhof"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "8 Jahre",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Erste Sinfonie",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Einmal gehört",
+   "lines": [
+    [
+     "1770, mit vierzehn, war er in der Sixtinischen Kapelle,",
+     "Siebzehnhundertsiebzig, mit vierzehn, war er in der Sixtinischen Kapelle in Rom,"
+    ],
+    [
+     "und hörte ein Stück, das niemand abschreiben durfte.",
+     "und hörte ein Stück, das niemand abschreiben durfte,"
+    ],
+    [
+     "Zurück in der Unterkunft schrieb er es aus dem Kopf auf.",
+     "zurück in der Unterkunft schrieb er es aus dem Kopf auf."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Rom, 1770: die päpstliche Kapelle"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Einmal gehört",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Aus dem Kopf notiert",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Ein freier Musiker",
+   "lines": [
+    [
+     "In Salzburg behandelte ihn sein Dienstherr,",
+     "In Salzburg behandelte ihn sein Dienstherr,"
+    ],
+    [
+     "der Erzbischof, wie einen Diener.",
+     "der Erzbischof, wie einen Diener,"
+    ],
+    [
+     "1781 kündigte er und zog nach Wien,",
+     "also kündigte er siebzehnhunderteinundachtzig und zog nach Wien,"
+    ],
+    [
+     "und lebte frei von Unterricht, Konzerten und Opern.",
+     "und lebte dort frei von Unterricht, Konzerten und Opern."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "1781: der Weg nach Wien"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1781",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Ein freier Musiker",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Das letzte Jahr",
+   "lines": [
+    [
+     "In Wien schrieb er Figaro und Don Giovanni,",
+     "In Wien schrieb er Figaro und Don Giovanni,"
+    ],
+    [
+     "und 1791 füllte Die Zauberflöte das Theater.",
+     "und siebzehnhunderteinundneunzig füllte Die Zauberflöte das Theater,"
+    ],
+    [
+     "Im selben Jahr bestellte ein Unbekannter ein Requiem,",
+     "im selben Jahr bestellte ein Unbekannter ein Requiem,"
+    ],
+    [
+     "doch er wurde krank,",
+     "doch er wurde krank,"
+    ],
+    [
+     "und am 5. Dezember starb er in Wien, mit nur 35.",
+     "und am fünften Dezember starb er in Wien, mit nur fünfunddreißig."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Wien, 1791: Die Zauberflöte"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1791",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Das Requiem bleibt unvollendet",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Sein Schüler vollendete das Requiem.",
+     "Sein Schüler vollendete das Requiem,"
+    ],
+    [
+     "Heute erklingt seine Musik auf der ganzen Welt,",
+     "heute erklingt seine Musik auf der ganzen Welt,"
+    ],
+    [
+     "und sogar die Voyager-Platte, jenseits des Sonnensystems,",
+     "und sogar die Voyager-Platte, jenseits des Sonnensystems,"
+    ],
+    [
+     "trägt eine Arie aus der Zauberflöte.",
+     "trägt eine Arie aus der Zauberflöte."
+    ],
+    [
+     "Seine Frage an dich:",
+     "Seine Frage an dich:"
+    ],
+    [
+     "Hättest du nur 35 Jahre, was würdest du hinterlassen?",
+     "Hättest du nur fünfunddreißig Jahre, was würdest du hinterlassen?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Das unvollendete Requiem"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Hättest du nur 35 Jahre,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "was würdest du hinterlassen?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 5. Dezember erinnern wir an Wolfgang Amadeus Mozart.",
+     "und am fünften Dezember erinnern wir an Wolfgang Amadeus Mozart."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Mozart",
+    "years": "1756 – 1791"
+   }
+  }
+ ]
+}

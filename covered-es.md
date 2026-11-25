@@ -45,3 +45,4 @@
 | 2026-12-01 | Rosa Parks | se negó a ceder su asiento (1955, Montgomery, Alabama) |
 | 2026-12-02 | Georges Seurat | nacimiento (1859, París, Francia) |
 | 2026-12-03 | Ellen Swallow Richards | nacimiento (1842, Dunstable, Massachusetts) |
+| 2026-12-04 | Wassily Kandinsky | nacimiento (1866, Moscú, Rusia) |

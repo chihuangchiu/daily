@@ -45,3 +45,4 @@
 | 2026-12-01 | Rosa Parks | refused to give up her bus seat (1955, Montgomery, Alabama) | yes |
 | 2026-12-02 | Georges Seurat | born (1859, Paris, France) | yes |
 | 2026-12-03 | Ellen Swallow Richards | born (1842, Dunstable, Massachusetts) | yes |
+| 2026-12-04 | Wassily Kandinsky | born (1866, Moscow, Russia) | yes |

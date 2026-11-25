@@ -1,0 +1,328 @@
+{
+ "date": "2026-12-04",
+ "mmdd": "12.04",
+ "lang": "en",
+ "person": "Wassily Kandinsky",
+ "event": "born (1866, Moscow, Russia)",
+ "title": "Wassily Kandinsky: The Painter Who Heard Colours | Born 160 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "When he heard music, he saw colours!",
+    [
+     "Who changed the world today? December 4.",
+     "Who changed the world today? December fourth."
+    ],
+    [
+     "On this day in 1866,",
+     "On this day in eighteen sixty-six,"
+    ],
+    "in Moscow, Russia,",
+    "the painter Wassily Kandinsky was born."
+   ],
+   "data": {
+    "hook": "When he heard music,\nhe saw colours!",
+    "sub": "1866  ──  2026",
+    "sub_at": 2,
+    "name": "Kandinsky",
+    "name_years": "Wassily Kandinsky · 1866 – 1944",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A turn at thirty",
+   "lines": [
+    "He studied law and economics in Moscow,",
+    "and taught at the university.",
+    [
+     "In 1896, a university offered him a professorship.",
+     "In eighteen ninety-six, a university offered him a professorship."
+    ],
+    "But at thirty, he said no,",
+    "moved to Munich in Germany, and started over, learning to paint."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "A law lecture in Moscow"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Age 30",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Starting over",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Hearing colours",
+   "lines": [
+    "He later wrote that at a Wagner opera at the Bolshoi Theatre,",
+    "he saw all the colours in his mind.",
+    "To him, colours could sing,",
+    "and shapes had voices of their own.",
+    "That same year, Monet's painting Haystacks enchanted him too."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "The Bolshoi Theatre, Moscow"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Colours sing",
+        "style": "huge",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "Shapes have voices",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The sideways painting",
+   "lines": [
+    "He told how one evening, he walked into his studio,",
+    "and saw a beautiful painting of only shapes and colours.",
+    "Up close, it was his own painting, just turned on its side!",
+    "He realized a painting didn't have to show anything at all."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A studio in Munich at dusk"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "No objects",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Still moving",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Abstract art is born",
+   "lines": [
+    [
+     "In 1911, he wrote Concerning the Spiritual in Art:",
+     "In nineteen eleven, he wrote a book, Concerning the Spiritual in Art:"
+    ],
+    "art must express the inner life.",
+    "He also formed The Blue Rider with friends,",
+    "and began painting only lines, circles and patches of colour,",
+    "becoming one of the first abstract painters.",
+    "Later, he taught at the Bauhaus school,",
+    "using circles, triangles and squares."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1911",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The Blue Rider",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "Abstract",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Only lines and colour",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A Bauhaus classroom, 1920s"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1933, the Nazis shut the Bauhaus, and he moved to France.",
+     "In nineteen thirty-three, the Nazis shut the Bauhaus, and he moved to France."
+    ],
+    [
+     "In 1937, they branded his art degenerate.",
+     "In nineteen thirty-seven, they called his art degenerate, and pulled it from German museums."
+    ],
+    [
+     "He died near Paris in 1944, at seventy-seven.",
+     "He died near Paris in nineteen forty-four, at the age of seventy-seven."
+    ],
+    "Today, his paintings hang in museums all over the world,",
+    "and shape posters, design and countless artists.",
+    "His question for you:",
+    "When you listen to music, what colours do you see?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Degenerate",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "A Nazi label",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A museum today"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "When you listen to music,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "what colours do you see?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on December 4, we remember Wassily Kandinsky.",
+     "and on December fourth, we remember Wassily Kandinsky."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Kandinsky",
+    "years": "1866 – 1944"
+   }
+  }
+ ]
+}

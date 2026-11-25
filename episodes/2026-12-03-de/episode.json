@@ -1,0 +1,331 @@
+{
+ "date": "2026-12-03",
+ "mmdd": "12.03",
+ "lang": "de",
+ "person": "Ellen Swallow Richards",
+ "event": "Geburtstag (1842, Dunstable, Massachusetts)",
+ "title": "Ellen Swallow Richards: Erste MIT-Absolventin und Pionierin für sauberes Wasser",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    [
+     "Sie kam ans MIT, doch man sagte, sie sei keine Studentin!",
+     "Sie kam ans Emm Ih Teh, doch man sagte, sie sei keine Studentin!"
+    ],
+    [
+     "Wer hat heute die Welt verändert? Der 3. Dezember.",
+     "Wer hat heute die Welt verändert? Der dritte Dezember."
+    ],
+    [
+     "Heute vor genau 184 Jahren,",
+     "Heute vor genau hundertvierundachtzig Jahren,"
+    ],
+    "kam auf einem Bauernhof in Massachusetts",
+    [
+     "die Chemikerin Ellen Swallow Richards zur Welt.",
+     "die Chemikerin Ellen Swollo Ritschards zur Welt."
+    ]
+   ],
+   "data": {
+    "hook": "Am MIT, aber\nkeine Studentin?",
+    "sub": "1842  ──  2026",
+    "sub_at": 2,
+    "name": "Richards",
+    "name_years": "Ellen Swallow Richards · 1842 – 1911",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.4,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Sparen fürs Studium",
+   "lines": [
+    [
+     "Sie wuchs auf einem Bauernhof auf.",
+     "Sie wuchs auf einem Bauernhof auf;"
+    ],
+    [
+     "Damals studierten kaum Mädchen.",
+     "damals studierten kaum Mädchen,"
+    ],
+    [
+     "Sie unterrichtete und sparte jahrelang.",
+     "also unterrichtete sie und sparte jahrelang."
+    ],
+    [
+     "1868, mit fünfundzwanzig, kam sie ans Vassar College,",
+     "Achtzehnhundertachtundsechzig, mit fünfundzwanzig, kam sie ans Wässar College,"
+    ],
+    [
+     "Sie verliebte sich in die Chemie.",
+     "und verliebte sich dort in die Chemie."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Vassar College, 1860er-Jahre"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Mit 25",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Endlich im College",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Die Studentin, die nicht zählte",
+   "lines": [
+    [
+     "Sie wollte Chemikerin werden, doch niemand nahm Frauen.",
+     "Sie wollte Chemikerin werden, doch keine Firma stellte eine Frau ein."
+    ],
+    [
+     "1871 nahm das MIT sie auf, ohne Studiengebühren.",
+     "Achtzehnhunderteinundsiebzig nahm das Emm Ih Teh sie auf, ohne Studiengebühren."
+    ],
+    "Später erfuhr sie den Grund: Ohne Gebühren",
+    [
+     "konnte der Präsident sagen, sie sei keine echte Studentin.",
+     "konnte der Präsident sagen, sie sei keine echte Studentin;"
+    ],
+    [
+     "1873 wurde sie die erste Absolventin des MIT.",
+     "achtzehnhundertdreiundsiebzig wurde sie die erste Absolventin des Emm Ih Teh."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Chemievorlesung, 1870er-Jahre"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Erste",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Absolventin des MIT",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Die Tür öffnen",
+   "lines": [
+    [
+     "Einen Doktortitel bekam sie dort nie.",
+     "Einen Doktortitel bekam sie dort nie;"
+    ],
+    [
+     "1876 gründete sie am MIT ein Frauenlabor,",
+     "doch achtzehnhundertsechsundsiebzig gründete sie dort ein Frauenlabor,"
+    ],
+    "damit mehr Frauen Chemie lernen konnten.",
+    "Sie ging nicht nur durch die Tür, sie hielt sie für andere offen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Das Frauenlabor am MIT"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Offen",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Eine Tür für Frauen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Vierzigtausend Flaschen",
+   "lines": [
+    [
+     "1887 wollte Massachusetts sein Wasser prüfen.",
+     "Achtzehnhundertsiebenundachtzig wollte Massachusetts sein Wasser prüfen."
+    ],
+    [
+     "In zwei Jahren prüfte ihr Team rund 40.000 Wasserproben",
+     "In zwei Jahren prüfte ihr Team rund vierzigtausend Wasserproben"
+    ],
+    "aus Flüssen, Seen und Brunnen,",
+    "und zeichnete auf, wo das Wasser verschmutzt war.",
+    [
+     "Danach gab es die ersten Wasserstandards der USA.",
+     "Danach setzte Massachusetts die ersten Wasserqualitätsstandards der USA."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Wasseruntersuchung, 1887"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "40.000",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Wasserproben",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    "Sie brachte die Wissenschaft auch ins Zuhause",
+    "und gilt als Mutter der Hauswirtschaftslehre.",
+    [
+     "1908 wurde sie erste Präsidentin ihres Fachverbands.",
+     "Im Jahr neunzehnhundertacht wurde sie die erste Präsidentin des amerikanischen Hauswirtschaftsverbands."
+    ],
+    [
+     "1911 starb sie in Boston, mit achtundsechzig.",
+     "Neunzehnhundertelf starb sie in Boston, mit achtundsechzig Jahren."
+    ],
+    "Sauberes Leitungswasser verdankt ihr bis heute viel.",
+    "Ihre Frage an dich:",
+    "Öffnet sich eine Tür einen Spalt, stößt du sie ganz auf?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Sauberes Wasser aus dem Hahn"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Öffnet sich eine Tür einen Spalt,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "stößt du sie ganz auf?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 3. Dezember erinnern wir an Ellen Swallow Richards.",
+     "und am dritten Dezember erinnern wir an Ellen Swollo Ritschards."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Richards",
+    "years": "1842 – 1911"
+   }
+  }
+ ]
+}

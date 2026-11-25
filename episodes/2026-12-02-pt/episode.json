@@ -1,0 +1,272 @@
+{
+ "date": "2026-12-02",
+ "mmdd": "12.02",
+ "lang": "pt",
+ "person": "Georges Seurat",
+ "event": "nascimento (1859, Paris)",
+ "title": "Georges Seurat: pintou um domingo inteiro com pontinhos | Há 167 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele pintou um domingo inteiro só com pontinhos!",
+    [
+     "Quem mudou o mundo hoje? 2 de dezembro.",
+     "Quem mudou o mundo hoje? Dois de dezembro."
+    ],
+    [
+     "Num dia como hoje, em 1859,",
+     "Num dia como hoje, em mil oitocentos e cinquenta e nove,"
+    ],
+    "em Paris,",
+    "nascia o pintor Georges Seurat."
+   ],
+   "data": {
+    "hook": "Um domingo inteiro,\nfeito de pontinhos",
+    "sub": "1859  ──  2026",
+    "sub_at": 2,
+    "name": "Seurat",
+    "name_years": "Georges Seurat · 1859 – 1891",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Olhos de cientista",
+   "lines": [
+    "Estudou na Escola de Belas-Artes de Paris,",
+    "mas também lia os cientistas que escreviam sobre a cor.",
+    "Duas cores lado a lado, vistas de longe,",
+    "se misturam dentro do olho,",
+    "então por que não deixar o olho de quem vê misturar?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Um jovem pintor estuda a cor"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Cor",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "misturada no olho",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Recusado",
+   "lines": [
+    [
+     "Em 1884, mandou seu primeiro quadro grande ao Salão oficial:",
+     "Em mil oitocentos e oitenta e quatro, mandou seu primeiro quadro grande ao Salão oficial:"
+    ],
+    [
+     "jovens operários à beira do rio. O júri recusou.",
+     "jovens operários à beira do rio. O júri recusou."
+    ],
+    "Ele não desistiu: com outros artistas, fez a própria exposição,",
+    "para que obras recusadas também fossem vistas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Banhistas em Asnières"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Recusado",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "então fizeram a própria mostra",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Um domingo de dois anos",
+   "lines": [
+    "Naquele ano, começou a pintar a ilha de La Grande Jatte, no Sena.",
+    "Voltou lá muitas vezes, fez uns sessenta estudos,",
+    "e trabalhou no quadro por dois anos.",
+    "A tela tem dois metros de altura e três de largura,",
+    "toda coberta de pontinhos de cor."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Domingo em La Grande Jatte"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Ponto por ponto"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Paris se espanta",
+   "lines": [
+    [
+     "Em 1886, o quadro foi exposto na última mostra impressionista.",
+     "Em mil oitocentos e oitenta e seis, o quadro foi exposto na última mostra impressionista."
+    ],
+    "Nascia um estilo novo, o pontilhismo,",
+    "e mais tarde até Van Gogh pintou com pontinhos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "nasce o pontilhismo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1891, morreu de repente, com só trinta e um anos.",
+     "Em mil oitocentos e noventa e um, morreu de repente, com só trinta e um anos."
+    ],
+    [
+     "Em 1924, o Instituto de Arte de Chicago comprou o quadro.",
+     "Em mil novecentos e vinte e quatro, o Instituto de Arte de Chicago comprou o quadro."
+    ],
+    "Ele continua lá,",
+    "e seus pontinhos lembram os pixels das nossas telas.",
+    "A pergunta dele:",
+    "Se algo levasse dois anos, você continuaria?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Instituto de Arte de Chicago"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Se algo levasse dois anos,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "você continuaria?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 2 de dezembro, lembramos de Georges Seurat.",
+     "e neste dois de dezembro, lembramos de Georges Seurat."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Seurat",
+    "years": "1859 – 1891"
+   }
+  }
+ ]
+}

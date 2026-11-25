@@ -43,3 +43,4 @@
 | 2026-11-29 | Christian Doppler | nascimento (1803, Salzburgo, Áustria) |
 | 2026-11-30 | Mark Twain | nascimento (1835, Florida, Missouri, EUA) |
 | 2026-12-01 | Rosa Parks | recusou-se a ceder o assento (1955, Montgomery, Alabama) |
+| 2026-12-02 | Georges Seurat | nascimento (1859, Paris, França) |

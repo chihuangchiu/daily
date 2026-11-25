@@ -1,0 +1,281 @@
+{
+ "date": "2026-12-02",
+ "mmdd": "12.02",
+ "lang": "de",
+ "person": "Georges Seurat",
+ "event": "Geburtstag (1859, Paris, Frankreich)",
+ "title": "Georges Seurat: Ein ganzer Sonntag aus winzigen Punkten | Vor 167 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er malte einen ganzen Sonntag, nur mit winzigen Punkten!",
+    [
+     "Wer hat heute die Welt verändert? Der 2. Dezember.",
+     "Wer hat heute die Welt verändert? Der zweite Dezember."
+    ],
+    [
+     "Heute vor 167 Jahren,",
+     "Heute vor hundertsiebenundsechzig Jahren,"
+    ],
+    "kam in Paris,",
+    "der Maler Georges Seurat zur Welt."
+   ],
+   "data": {
+    "hook": "Ein ganzer Sonntag\naus winzigen Punkten",
+    "sub": "1859  ──  2026",
+    "sub_at": 2,
+    "name": "Seurat",
+    "name_years": "Georges Seurat · 1859 – 1891",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Augen eines Forschers",
+   "lines": [
+    "Er lernte Malerei in Paris,",
+    "las aber auch, was Forscher über Farben schrieben.",
+    "Zwei Farben nebeneinander mischen sich, mit etwas Abstand,",
+    "im Auge von selbst,",
+    "also warum nicht das Auge des Betrachters mischen lassen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein junger Maler studiert Farben"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Farbe",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "mischt sich im Auge",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Abgelehnt",
+   "lines": [
+    [
+     "1884 schickte er sein erstes großes Bild an den Pariser Salon.",
+     "Achtzehnhundertvierundachtzig schickte er sein erstes großes Bild an den Salon,"
+    ],
+    [
+     "Es zeigte junge Arbeiter am Fluss, die Jury lehnte es ab.",
+     "es zeigte junge Arbeiter am Fluss, die Jury lehnte es ab."
+    ],
+    [
+     "Er gab nicht auf und gründete eine eigene Ausstellung,",
+     "Er gab nicht auf und gründete mit anderen Künstlern eine eigene Ausstellung,"
+    ],
+    "damit auch abgelehnte Werke gesehen wurden."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Badende in Asnières"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Abgelehnt",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "also eine eigene Ausstellung",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Ein Sonntag, zwei Jahre",
+   "lines": [
+    [
+     "Im selben Jahr begann er La Grande Jatte, Insel in der Seine.",
+     "Im selben Jahr begann er La Grande Jatte, eine Insel in der Seine."
+    ],
+    "Immer wieder fuhr er hin, machte etwa sechzig Studien,",
+    "und arbeitete zwei ganze Jahre daran.",
+    "Die Leinwand ist zwei mal drei Meter groß,",
+    "ganz aus winzigen Farbpunkten."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Sonntag auf La Grande Jatte"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Punkt für Punkt"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Paris staunt",
+   "lines": [
+    [
+     "1886 hing es in der letzten Impressionisten-Ausstellung.",
+     "Achtzehnhundertsechsundachtzig hing es in der letzten Impressionisten-Ausstellung,"
+    ],
+    [
+     "Ein ganz neuer Stil war geboren: der Pointillismus,",
+     "ein ganz neuer Stil war geboren: der Pointillismus,"
+    ],
+    "und später malte sogar Van Gogh mit kleinen Punkten."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Der Pointillismus",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1891 starb er an einer Krankheit, mit nur 31 Jahren.",
+     "Achtzehnhunderteinundneunzig starb er an einer Krankheit, mit nur einunddreißig Jahren;"
+    ],
+    [
+     "1924 kaufte das Art Institute of Chicago das Bild.",
+     "neunzehnhundertvierundzwanzig kaufte das Art Institute of Chicago das Bild."
+    ],
+    "Dort hängt es bis heute,",
+    "und seine Punkte wirken wie die Pixel unserer Bildschirme.",
+    "Seine Frage an dich:",
+    "Wenn etwas zwei Jahre dauert, würdest du dranbleiben?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Art Institute of Chicago"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn etwas zwei Jahre dauert,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "würdest du dranbleiben?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 2. Dezember erinnern wir an Georges Seurat.",
+     "und am zweiten Dezember erinnern wir an Georges Seurat."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Seurat",
+    "years": "1859 – 1891"
+   }
+  }
+ ]
+}

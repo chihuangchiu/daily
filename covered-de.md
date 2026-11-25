@@ -43,3 +43,4 @@
 | 2026-11-29 | Christian Doppler | Geburtstag (1803, Salzburg, Österreich) |
 | 2026-11-30 | Mark Twain | Geburtstag (1835, Florida, Missouri, USA) |
 | 2026-12-01 | Rosa Parks | blieb im Bus sitzen (1955, Montgomery, Alabama) |
+| 2026-12-02 | Georges Seurat | Geburtstag (1859, Paris, Frankreich) |

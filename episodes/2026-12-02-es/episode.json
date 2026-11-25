@@ -1,0 +1,311 @@
+{
+ "date": "2026-12-02",
+ "mmdd": "12.02",
+ "lang": "es",
+ "person": "Georges Seurat",
+ "event": "nacimiento (1859, París)",
+ "title": "Georges Seurat: pintó un domingo entero con puntitos | Hace 167 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "¡Pintó un domingo entero solo con puntitos!",
+    [
+     "¿Quién cambió el mundo hoy? 2 de diciembre.",
+     "¿Quién cambió el mundo hoy? Dos de diciembre,"
+    ],
+    [
+     "Un día como hoy, en 1859,",
+     "un día como hoy, en mil ochocientos cincuenta y nueve,"
+    ],
+    "en París,",
+    "nació el pintor Georges Seurat."
+   ],
+   "data": {
+    "hook": "Un domingo entero,\npintado con puntitos",
+    "sub": "1859  ──  2026",
+    "sub_at": 2,
+    "name": "Seurat",
+    "name_years": "Georges Seurat · 1859 – 1891",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Ojos de científico",
+   "lines": [
+    "Estudió en la Escuela de Bellas Artes de París,",
+    [
+     "pero también leía lo que la ciencia decía sobre el color.",
+     "pero también leía lo que la ciencia decía sobre el color,"
+    ],
+    [
+     "Si pones dos colores juntos y te alejas,",
+     "si pones dos colores juntos y te alejas,"
+    ],
+    [
+     "se mezclan en tu ojo.",
+     "se mezclan en tu ojo,"
+    ],
+    "¿Y si dejaba que el ojo del público hiciera la mezcla?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Un joven pintor estudia el color"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Color",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "mezclado en el ojo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Rechazado",
+   "lines": [
+    [
+     "En 1884 envió su primer gran cuadro al Salón oficial.",
+     "En mil ochocientos ochenta y cuatro envió su primer gran cuadro al Salón oficial,"
+    ],
+    [
+     "Mostraba a jóvenes obreros junto al río, y el jurado lo rechazó.",
+     "mostraba a jóvenes obreros descansando junto al río, y el jurado lo rechazó,"
+    ],
+    [
+     "No se rindió: con otros artistas creó su propia exposición,",
+     "no se rindió: con otros artistas creó su propia exposición,"
+    ],
+    "para mostrar también las obras rechazadas."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Bañistas en Asnières"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Rechazado",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "y crearon su propia muestra",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Un domingo de dos años",
+   "lines": [
+    [
+     "Ese año empezó a pintar La Grande Jatte, una isla del Sena.",
+     "Ese mismo año empezó a pintar La Grande Jatte, una isla en el río Sena,"
+    ],
+    [
+     "Volvió una y otra vez, hizo unos sesenta estudios,",
+     "volvió una y otra vez, hizo unos sesenta estudios,"
+    ],
+    [
+     "y trabajó en él dos años enteros.",
+     "y trabajó en él dos años enteros,"
+    ],
+    [
+     "El lienzo mide dos metros de alto y tres de ancho,",
+     "el lienzo mide dos metros de alto y tres de ancho,"
+    ],
+    "y está hecho por completo de diminutos puntos de color."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Domingo en La Grande Jatte"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Punto a punto"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  París queda asombrado",
+   "lines": [
+    [
+     "En 1886 se exhibió en la última exposición impresionista.",
+     "En mil ochocientos ochenta y seis se exhibió en la última exposición impresionista,"
+    ],
+    [
+     "Nacía un estilo nuevo, el puntillismo,",
+     "nacía un estilo nuevo, el puntillismo,"
+    ],
+    "y más tarde, hasta Van Gogh pintó con puntos."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Nace el puntillismo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1891 murió de repente, enfermo, con solo 31 años.",
+     "En mil ochocientos noventa y uno murió de repente, enfermo, con solo treinta y un años,"
+    ],
+    [
+     "En 1924, el Instituto de Arte de Chicago compró el cuadro.",
+     "en mil novecientos veinticuatro, el Instituto de Arte de Chicago compró el cuadro,"
+    ],
+    [
+     "Todavía cuelga allí,",
+     "todavía cuelga allí,"
+    ],
+    [
+     "y sus puntitos se parecen a los píxeles de nuestras pantallas.",
+     "y sus puntitos se parecen a los píxeles de nuestras pantallas,"
+    ],
+    [
+     "Su pregunta para ti:",
+     "su pregunta para ti:"
+    ],
+    "Si algo tardara dos años, ¿seguirías adelante?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Instituto de Arte de Chicago"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si algo tardara dos años,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "¿seguirías adelante?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 2 de diciembre, recordamos a Georges Seurat.",
+     "y este dos de diciembre, recordamos a Georges Seurat,"
+    ],
+    [
+     "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!",
+     "si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+    ]
+   ],
+   "data": {
+    "name": "Seurat",
+    "years": "1859 – 1891"
+   }
+  }
+ ]
+}

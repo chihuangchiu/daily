@@ -1,0 +1,326 @@
+{
+ "date": "2026-12-01",
+ "mmdd": "12.01",
+ "lang": "de",
+ "person": "Rosa Parks",
+ "event": "weigerte sich, ihren Sitzplatz im Bus aufzugeben (1955, Montgomery, Alabama)",
+ "title": "Rosa Parks: Sie blieb sitzen und veränderte ein Land | Vor 71 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Sie blieb einfach sitzen, und veränderte ein ganzes Land!",
+    [
+     "Wer hat heute die Welt verändert? Der 1. Dezember.",
+     "Wer hat heute die Welt verändert? Der erste Dezember."
+    ],
+    [
+     "Heute vor genau 71 Jahren,",
+     "Heute vor genau einundsiebzig Jahren,"
+    ],
+    "in Montgomery, Alabama,",
+    "stieg die Näherin Rosa Parks in einen Bus."
+   ],
+   "data": {
+    "hook": "Sie blieb sitzen und\nveränderte ein Land",
+    "sub": "1955  ──  2026",
+    "sub_at": 2,
+    "name": "Parks",
+    "name_years": "Rosa Parks · 1913 – 2005",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.28,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Eine Linie im Bus",
+   "lines": [
+    "Damals waren die vorderen Sitze nur für Weiße,",
+    "und Schwarze mussten hinten sitzen.",
+    "Parks, zweiundvierzig, war Näherin",
+    "und Sekretärin der örtlichen NAACP."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Ein Stadtbus in den 1950ern"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "GETRENNT",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Vorne: nur für Weiße",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Sie stand nicht auf",
+   "lines": [
+    "An jenem Abend saß sie in der ersten Reihe für Schwarze;",
+    "als der Bus voll wurde, sollten sie und drei andere aufstehen;",
+    "die drei standen auf, sie aber nicht.",
+    [
+     "Später: Sie war nicht körperlich müde, nur müde, nachzugeben,",
+     "Später sagte sie, sie war nicht körperlich müde, sondern müde, nachzugeben,"
+    ],
+    "und sie wurde sofort verhaftet."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Abend des 1. Dezember 1955"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "NEIN",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Sofort verhaftet",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  381 Tage",
+   "lines": [
+    "Die Nachricht verbreitete sich, Schwarze mieden die Busse;",
+    [
+     "den Boykott führte Pfarrer Martin Luther King an, 26 Jahre alt;",
+     "den Boykott führte Pfarrer Martin Luther King an, sechsundzwanzig Jahre alt;"
+    ],
+    "die Menschen gingen zu Fuß oder fuhren gemeinsam,",
+    [
+     "381 Tage lang.",
+     "dreihunderteinundachtzig Tage lang."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Eine Kirchenversammlung"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Zu Fuß zur Arbeit"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "381 Tage",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Keine Busse",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die vorderen Sitze",
+   "lines": [
+    [
+     "1956 bestätigte das Oberste Gericht ein Urteil",
+     "Neunzehnhundertsechsundfünfzig bestätigte das Oberste Gericht ein Urteil"
+    ],
+    "gegen die Trennung im Bus; im Dezember saßen Schwarze vorne;",
+    "doch sie verlor ihre Arbeit und wurde bedroht,",
+    "also zog sie nach Detroit und kämpfte weiter für Bürgerrechte."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Dezember 1956: ein Platz vorne"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "AUFGEHOBEN",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Getrennte Busse enden",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1999 verlieh ihr der Kongress seine Goldmedaille;",
+     "Neunzehnhundertneunundneunzig verlieh ihr der Kongress seine Goldmedaille;"
+    ],
+    [
+     "als sie 2005 starb,",
+     "als sie zweitausendfünf starb,"
+    ],
+    "wurde sie als erste Frau in der Rotunde des Kapitols aufgebahrt;",
+    "heute nennt man sie die Mutter der Bürgerrechtsbewegung.",
+    "Ihre Frage an dich:",
+    "Wenn eine Regel ungerecht ist, würdest du Nein sagen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1999",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Goldmedaille des Kongresses",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 4,
+      "items": [
+       {
+        "text": "2005",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Rotunde des Kapitols",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Ihre Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn eine Regel ungerecht ist,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "würdest du Nein sagen?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 1. Dezember erinnern wir an Rosa Parks.",
+     "und am ersten Dezember erinnern wir an Rosa Parks."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Rosa Parks",
+    "years": "1913 – 2005"
+   }
+  }
+ ]
+}

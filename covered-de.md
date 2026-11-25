@@ -42,3 +42,4 @@
 | 2026-11-28 | William Blake | Geburtstag (1757, London, England) |
 | 2026-11-29 | Christian Doppler | Geburtstag (1803, Salzburg, Österreich) |
 | 2026-11-30 | Mark Twain | Geburtstag (1835, Florida, Missouri, USA) |
+| 2026-12-01 | Rosa Parks | blieb im Bus sitzen (1955, Montgomery, Alabama) |

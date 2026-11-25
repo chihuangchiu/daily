@@ -47,3 +47,4 @@
 | 2026-12-03 | Ellen Swallow Richards | 誕生（1842年、マサチューセッツ州ダンスタブル） |
 | 2026-12-04 | Wassily Kandinsky | 誕生（1866年、ロシア・モスクワ） |
 | 2026-12-05 | Wolfgang Amadeus Mozart | 死去（1791年、オーストリア・ウィーン） |
+| 2026-12-06 | Joseph Louis Gay-Lussac | 誕生（1778年、フランス・サン＝レオナール＝ド＝ノブラ） |

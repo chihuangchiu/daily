@@ -1,0 +1,327 @@
+{
+ "date": "2026-12-06",
+ "mmdd": "12.06",
+ "lang": "pt",
+ "person": "Joseph Louis Gay-Lussac",
+ "event": "born (1778, Saint-Léonard-de-Noblat, France)",
+ "title": "Gay-Lussac: subiu sozinho de balão a 7.000 metros | Há 248 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele subiu sozinho num balão, a sete mil metros de altura!",
+    [
+     "Quem mudou o mundo hoje? 6 de dezembro.",
+     "Quem mudou o mundo hoje? Seis de dezembro."
+    ],
+    [
+     "Num dia como hoje, em 1778,",
+     "Num dia como hoje, em mil setecentos e setenta e oito,"
+    ],
+    "numa pequena cidade do centro da França,",
+    "nascia o químico Gay-Lussac."
+   ],
+   "data": {
+    "hook": "Sozinho num balão,\na 7.000 metros",
+    "sub": "1778  ──  2026",
+    "sub_at": 2,
+    "name": "Gay-Lussac",
+    "name_years": "Joseph Louis Gay-Lussac · 1778 – 1850",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O garoto curioso",
+   "lines": [
+    [
+     "Em 1797, ele entrou na Escola Politécnica de Paris.",
+     "Em mil setecentos e noventa e sete, ele entrou na Escola Politécnica de Paris;"
+    ],
+    "o que mais queria era desvendar os segredos do ar e dos gases."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Uma cidadezinha no centro da França"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "Gases",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "O segredo que ele buscava",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Rumo ao céu",
+   "lines": [
+    [
+     "Em 1804, os cientistas se perguntavam:",
+     "Em mil oitocentos e quatro, os cientistas se perguntavam:"
+    ],
+    "o ar lá no alto é igual ao ar aqui embaixo?",
+    [
+     "Em agosto, ele e Biot subiram a uns 4.000 metros,",
+     "Em agosto, ele e Biot subiram a uns quatro mil metros,"
+    ],
+    "mas ele queria ir mais alto."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1804: decolagem em Paris"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1804",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Experimentos num balão",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Sete mil metros",
+   "lines": [
+    [
+     "Em 16 de setembro, ele subiu de novo, sozinho.",
+     "Em dezesseis de setembro, ele subiu de novo, sozinho;"
+    ],
+    [
+     "Quanto mais alto, mais frio e mais difícil respirar.",
+     "quanto mais alto subia, mais frio fazia, e mais difícil era respirar;"
+    ],
+    [
+     "Dizem que ele jogou fora até a cadeira.",
+     "dizem que ele jogou fora até a própria cadeira;"
+    ],
+    [
+     "Chegou a cerca de sete mil metros",
+     "chegou a cerca de sete mil metros"
+    ],
+    [
+     "e encheu um frasco com o ar lá do alto.",
+     "e encheu um frasco com o ar lá do alto;"
+    ],
+    [
+     "Seu recorde de altura durou quase cinquenta anos.",
+     "seu recorde de altura durou quase cinquenta anos."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Um balão de hidrogênio sobre as nuvens"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "7016",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "metros de altura",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Números simples",
+   "lines": [
+    [
+     "De volta, o ar do alto era quase igual ao nosso.",
+     "De volta ao chão, o ar do alto era quase igual ao nosso;"
+    ],
+    [
+     "Em 1808, ele descobriu algo mais:",
+     "em mil oitocentos e oito, ele descobriu algo mais:"
+    ],
+    [
+     "Gases se combinam em proporções simples de volume.",
+     "quando os gases se combinam, seus volumes formam proporções simples;"
+    ],
+    [
+     "Dois de hidrogênio e um de oxigênio dão vapor d'água.",
+     "dois volumes de hidrogênio e um de oxigênio formam vapor d'água;"
+    ],
+    [
+     "Ele ainda deu nome a um novo elemento: o iodo.",
+     "ele ainda deu nome a um novo elemento: o iodo."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Tubos de gás numa bancada"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "2 : 1",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Proporções simples",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  A sua resposta",
+   "lines": [
+    [
+     "Ele morreu em Paris, em 1850.",
+     "Ele morreu em Paris, em mil oitocentos e cinquenta;"
+    ],
+    [
+     "Hoje, seu nome está gravado na Torre Eiffel,",
+     "hoje, seu nome está gravado na Torre Eiffel,"
+    ],
+    [
+     "e as leis dos gases dos livros devem algo a ele.",
+     "e as leis dos gases dos livros devem algo a ele;"
+    ],
+    [
+     "A pergunta dele:",
+     "a pergunta dele:"
+    ],
+    "Até onde você iria para encontrar uma resposta?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "A Torre Eiffel leva o nome dele"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Até onde você iria",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "para encontrar uma resposta?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 6 de dezembro, lembramos de Gay-Lussac.",
+     "e neste seis de dezembro, lembramos de Gay-Lussac."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Gay-Lussac",
+    "years": "1778 – 1850"
+   }
+  }
+ ]
+}

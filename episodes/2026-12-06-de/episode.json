@@ -1,0 +1,331 @@
+{
+ "date": "2026-12-06",
+ "mmdd": "12.06",
+ "lang": "de",
+ "person": "Joseph Louis Gay-Lussac",
+ "event": "Geburtstag (1778, Saint-Léonard-de-Noblat, Frankreich)",
+ "title": "Gay-Lussac: Allein im Ballon auf 7.000 Meter | Vor 248 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er flog allein mit einem Ballon, siebentausend Meter hoch in den Himmel!",
+    [
+     "Wer hat heute die Welt verändert? Der 6. Dezember.",
+     "Wer hat heute die Welt verändert? Der sechste Dezember."
+    ],
+    [
+     "Heute vor 248 Jahren,",
+     "Heute vor zweihundertachtundvierzig Jahren,"
+    ],
+    "kam in einer kleinen Stadt in Mittelfrankreich",
+    "der Chemiker Gay-Lussac zur Welt."
+   ],
+   "data": {
+    "hook": "Allein im Ballon,\n7.000 Meter hoch",
+    "sub": "1778  ──  2026",
+    "sub_at": 2,
+    "name": "Gay-Lussac",
+    "name_years": "Joseph Louis Gay-Lussac · 1778 – 1850",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der neugierige Junge",
+   "lines": [
+    [
+     "1797 ging er an die École Polytechnique in Paris.",
+     "Siebzehnhundertsiebenundneunzig ging er an die École Polytechnique in Paris,"
+    ],
+    [
+     "Er wollte die Geheimnisse der Gase verstehen.",
+     "und am meisten wollte er die Geheimnisse von Luft und Gasen verstehen."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine Kleinstadt in Mittelfrankreich"
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "items": [
+       {
+        "text": "Gase",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Sein großes Rätsel",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Hinauf in den Himmel",
+   "lines": [
+    [
+     "1804 fragten sich die Forscher:",
+     "Achtzehnhundertvier fragten sich die Forscher:"
+    ],
+    [
+     "Ist die Luft hoch oben dieselbe wie hier unten?",
+     "Ist die Luft hoch oben dieselbe wie hier unten?"
+    ],
+    [
+     "Im August stieg er mit Biot auf etwa 4.000 Meter,",
+     "Im August stieg er mit Biot auf etwa viertausend Meter,"
+    ],
+    [
+     "doch er wollte noch höher hinaus.",
+     "doch er wollte noch höher hinaus."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1804: Ballonstart in Paris"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1804",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Versuche im Ballon",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Siebentausend Meter",
+   "lines": [
+    [
+     "Am 16. September stieg er wieder auf, diesmal allein.",
+     "Am sechzehnten September stieg er wieder auf, diesmal allein,"
+    ],
+    [
+     "Je höher, desto kälter, und das Atmen fiel schwer.",
+     "je höher er kam, desto kälter wurde es, und das Atmen fiel schwer,"
+    ],
+    [
+     "Um höher zu steigen, warf er angeblich seinen Stuhl hinaus.",
+     "um noch höher zu steigen, warf er angeblich seinen Stuhl hinaus,"
+    ],
+    [
+     "Er erreichte etwa siebentausend Meter,",
+     "er erreichte etwa siebentausend Meter,"
+    ],
+    [
+     "Sein Höhenrekord hielt fast fünfzig Jahre.",
+     "sein Höhenrekord hielt fast fünfzig Jahre."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Ein Wasserstoffballon über den Wolken"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "7016",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Meter hoch",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Einfache Zahlen",
+   "lines": [
+    [
+     "1808 entdeckte er noch mehr:",
+     "Achtzehnhundertacht entdeckte er noch mehr:"
+    ],
+    [
+     "Gase verbinden sich in einfachen ganzzahligen Volumen.",
+     "Wenn Gase sich verbinden, stehen ihre Volumen in einfachen ganzen Zahlen zueinander,"
+    ],
+    [
+     "Zwei Teile Wasserstoff, ein Teil Sauerstoff: Wasserdampf.",
+     "zwei Teile Wasserstoff und ein Teil Sauerstoff ergeben Wasserdampf,"
+    ],
+    [
+     "Er gab sogar einem neuen Element den Namen: Iod.",
+     "und er gab sogar einem neuen Element seinen Namen: Iod."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Gasröhren auf dem Labortisch"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "2 : 1",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Ganze Zahlen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1850 starb er in Paris.",
+     "Achtzehnhundertfünfzig starb er in Paris,"
+    ],
+    [
+     "Heute steht sein Name auf dem Eiffelturm,",
+     "heute steht sein Name auf dem Eiffelturm,"
+    ],
+    [
+     "und die Gasgesetze im Chemiebuch verdanken ihm viel.",
+     "und die Gasgesetze im Chemiebuch verdanken ihm viel."
+    ],
+    [
+     "Seine Frage an dich:",
+     "Seine Frage an dich:"
+    ],
+    [
+     "Wie weit würdest du gehen, um eine Antwort zu finden?",
+     "Wie weit würdest du gehen, um eine Antwort zu finden?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Sein Name am Eiffelturm"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wie weit würdest du gehen,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "um eine Antwort zu finden?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 6. Dezember erinnern wir an Joseph Louis Gay-Lussac.",
+     "und am sechsten Dezember erinnern wir an Joseph Louis Gay-Lussac."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Gay-Lussac",
+    "years": "1778 – 1850"
+   }
+  }
+ ]
+}

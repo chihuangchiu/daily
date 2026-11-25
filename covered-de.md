@@ -47,3 +47,4 @@
 | 2026-12-03 | Ellen Swallow Richards | Geburtstag (1842, Dunstable, Massachusetts, USA) |
 | 2026-12-04 | Wassily Kandinsky | Geburtstag (1866, Moskau, Russland) |
 | 2026-12-05 | Wolfgang Amadeus Mozart | Todestag (1791, Wien, Österreich) |
+| 2026-12-06 | Joseph Louis Gay-Lussac | Geburtstag (1778, Saint-Léonard-de-Noblat, Frankreich) |

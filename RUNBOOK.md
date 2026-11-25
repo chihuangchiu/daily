@@ -266,6 +266,17 @@ same time as the Japanese YouTube post (Tokyo 07:00; slots.py lists it as "ja YT
   Commons: Special:FilePath/Christian_Doppler.jpg (with or without ?width, and the upload.wikimedia.org URL) returned non-200 to Image MCP;
   Special:FilePath/Christian_Andreas_Doppler.jpg?width=800 worked. William_Blake_by_Thomas_Phillips.jpg?width=800 worked.
   YouTube rejects titles over 100 characters including " #Shorts": the en Blake title had to be shortened.
+- **2026-11-25 weekly run (11/30–12/06: Twain, Parks, Seurat, Richards, Kandinsky, Mozart, Gay-Lussac; 42 videos):** done with parallel
+  forks (one video each). zh with the fast body style 「明快的台灣紀錄片旁白，語速快。」: 436 spoken chars → 108.3 s (too short), 472 → 116.7 s;
+  Seurat 456 → 111.3 s, ~470 → 115.3 s; Richards/Kandinsky/Mozart/Gay-Lussac ~480–495 → 114.6–117.5 s (aim ~480 with the fast style).
+  Gemini (scene-joined chunks, short styles): en ~1490–1530 → 124–125.4 s; es ~1555–1610 → 123.2–125.4 s; pt ~1470–1500 → 117.6–125 s;
+  ja ~695–720 → 115.7–122.3 s; de ~1477–1560 → 118.6–125.9 s. **Gemini TTS has a small shared concurrency limit**: with 4–8 forks
+  synthesizing at once it answered "speech concurrency limit is reached" / 180 s timeouts for 20–40 min at a time (even later with only
+  one caller, 01:15–01:50 and 02:15–02:45 Taipei), so 12 of the 42 videos fell back to the local voice (11/30 en+pt, 12/01 zh, 12/03 es+pt+de,
+  12/04 en+pt+ja+de, 12/05 en+es, 12/06 es). Send ONE call at a time, join each scene into one chunk (commas) to cut calls to ~10, wait
+  60–120 s on busy; reusing an identical, already-checked chunk (e.g. the subscribe line) from an earlier episode of the same language is fine.
+  Calywood MiniMax: all 7 clips clean on the first accepted try (Richards: 1 RENDER_FAILED, free); queue ~5–40 min this run.
+  The media branch has no README.md now, only other projects' mp4s (qi-bu-shi-post.mp4, you-zi-yin-post.mp4): add/remove only our own file.
 - A subtitle-only fix (spoken text unchanged) can be patched in both episode.json and timeline.json without
   re-running narrate.py.
 

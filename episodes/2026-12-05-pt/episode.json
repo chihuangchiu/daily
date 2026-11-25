@@ -1,0 +1,336 @@
+{
+ "date": "2026-12-05",
+ "mmdd": "12.05",
+ "lang": "pt",
+ "person": "Wolfgang Amadeus Mozart",
+ "event": "morte (1791, Viena)",
+ "title": "Mozart: 35 anos de vida, mais de 600 obras | Há 235 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Ele viveu só trinta e cinco anos, e deixou mais de seiscentas obras!",
+    [
+     "Quem mudou o mundo hoje? 5 de dezembro.",
+     "Quem mudou o mundo hoje? Cinco de dezembro."
+    ],
+    [
+     "Num dia como hoje, em 1791,",
+     "Num dia como hoje, em mil setecentos e noventa e um,"
+    ],
+    "em Viena, na Áustria,",
+    "morria o compositor Wolfgang Amadeus Mozart."
+   ],
+   "data": {
+    "hook": "Só 35 anos de vida,\nmais de 600 obras",
+    "sub": "1791  ──  2026",
+    "sub_at": 2,
+    "name": "Mozart",
+    "name_years": "Wolfgang Amadeus Mozart · 1756 – 1791",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  O menino compositor",
+   "lines": [
+    [
+     "Nascido em Salzburgo, compunha aos cinco anos.",
+     "Ele nasceu em Salzburgo e compunha aos cinco anos,"
+    ],
+    [
+     "Aos seis, já tocava nas cortes da Europa.",
+     "aos seis, já tocava nas cortes da Europa,"
+    ],
+    [
+     "Tocava sem errar com o teclado coberto por um pano,",
+     "tocava sem errar com o teclado coberto por um pano,"
+    ],
+    [
+     "e os nobres ficavam de boca aberta.",
+     "e os nobres ficavam de boca aberta,"
+    ],
+    [
+     "Aos oito anos, em Londres, escreveu sua primeira sinfonia.",
+     "e aos oito anos, em Londres, escreveu sua primeira sinfonia."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Um pequeno músico na corte"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "8 anos",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "A primeira sinfonia",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Ouvir uma vez",
+   "lines": [
+    [
+     "Em 1770, aos catorze, ele foi à Capela Sistina, em Roma,",
+     "Em mil setecentos e setenta, aos catorze anos, ele foi à Capela Sistina, em Roma,"
+    ],
+    [
+     "e ouviu um canto que era proibido copiar.",
+     "e ouviu um canto que era proibido copiar,"
+    ],
+    [
+     "De volta ao quarto, escreveu a obra inteira de memória.",
+     "e de volta ao quarto, escreveu a obra inteira de memória."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1770, uma capela em Roma"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1 vez",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Escrito de memória",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  Um músico livre",
+   "lines": [
+    [
+     "Adulto, trabalhava para o arcebispo, tratado como criado.",
+     "Adulto, trabalhava para o arcebispo, mas era tratado como criado,"
+    ],
+    [
+     "Em 1781, pediu demissão e foi para Viena,",
+     "então, em mil setecentos e oitenta e um, pediu demissão e foi para Viena,"
+    ],
+    [
+     "vivendo de aulas, concertos e óperas.",
+     "para viver de aulas, concertos e óperas,"
+    ],
+    [
+     "Foi uma escolha muito ousada.",
+     "uma escolha muito ousada."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "1781, a caminho de Viena"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1781",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Um músico livre",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  O último ano",
+   "lines": [
+    [
+     "Escreveu «As Bodas de Fígaro» e «Don Giovanni»,",
+     "Ele escreveu As Bodas de Fígaro e Don Giovanni,"
+    ],
+    [
+     "e em 1791, «A Flauta Mágica» lotou o teatro.",
+     "e em mil setecentos e noventa e um, A Flauta Mágica lotou o teatro,"
+    ],
+    [
+     "No mesmo ano, pediram-lhe em segredo um «Réquiem».",
+     "no mesmo ano, pediram-lhe em segredo um Réquiem,"
+    ],
+    [
+     "Mas adoeceu antes de terminar,",
+     "mas ele adoeceu antes de terminar,"
+    ],
+    [
+     "e morreu em 5 de dezembro, com só trinta e cinco anos.",
+     "e morreu em cinco de dezembro, com apenas trinta e cinco anos."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "1791, um teatro em Viena"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1791",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "A Flauta Mágica e o Réquiem",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "O «Réquiem» foi terminado por um aluno dele.",
+     "O Réquiem inacabado foi terminado por um aluno dele,"
+    ],
+    [
+     "Hoje, sua música ainda toca no mundo inteiro,",
+     "hoje, sua música ainda toca no mundo inteiro,"
+    ],
+    [
+     "e até o Disco de Ouro da Voyager leva «A Flauta Mágica».",
+     "e até o Disco de Ouro da sonda Voyager leva A Flauta Mágica."
+    ],
+    "A pergunta dele para você:",
+    [
+     "Se a vida durasse só 35 anos, o que você deixaria?",
+     "Se a vida durasse só trinta e cinco anos, o que você deixaria?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "O «Réquiem» inacabado"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Se a vida durasse só 35 anos,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "o que você deixaria?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 5 de dezembro, lembramos de Mozart.",
+     "e neste cinco de dezembro, lembramos de Mozart."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Mozart",
+    "years": "1756 – 1791"
+   }
+  }
+ ]
+}

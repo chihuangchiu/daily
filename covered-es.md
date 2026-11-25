@@ -46,3 +46,4 @@
 | 2026-12-02 | Georges Seurat | nacimiento (1859, París, Francia) |
 | 2026-12-03 | Ellen Swallow Richards | nacimiento (1842, Dunstable, Massachusetts) |
 | 2026-12-04 | Wassily Kandinsky | nacimiento (1866, Moscú, Rusia) |
+| 2026-12-05 | Wolfgang Amadeus Mozart | muerte (1791, Viena, Austria) |

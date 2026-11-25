@@ -1,0 +1,312 @@
+{
+ "date": "2026-12-05",
+ "mmdd": "12.05",
+ "lang": "en",
+ "person": "Wolfgang Amadeus Mozart",
+ "event": "died (1791, Vienna, Austria)",
+ "title": "Mozart: 35 Years of Life, Over 600 Works | Died 235 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He lived just thirty-five years, and left over six hundred works!",
+    [
+     "Who changed the world today? December 5.",
+     "Who changed the world today? December fifth."
+    ],
+    [
+     "On this day in 1791,",
+     "On this day in seventeen ninety-one,"
+    ],
+    "in Vienna, Austria,",
+    "the composer Mozart passed away."
+   ],
+   "data": {
+    "hook": "Just 35 years,\nover 600 works",
+    "sub": "1791  ──  2026",
+    "sub_at": 2,
+    "name": "Mozart",
+    "name_years": "Wolfgang Amadeus Mozart · 1756 – 1791",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The child composer",
+   "lines": [
+    "His father, Leopold, was a court musician in Salzburg.",
+    [
+     "Born in 1756, he was writing music at five.",
+     "Born in seventeen fifty-six, he was writing music at the age of five."
+    ],
+    [
+     "From six, his father took him and his sister to royal courts.",
+     "From the age of six, his father took him and his sister to royal courts across Europe."
+    ],
+    "With a cloth over the keys, he still played without a mistake,",
+    "and the nobles stared in amazement.",
+    "At eight, in London, he wrote his first symphony."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A child musician at a European court"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Age 8",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "His first symphony",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Heard once",
+   "lines": [
+    [
+     "In 1770, at fourteen, he visited the Sistine Chapel in Rome,",
+     "In seventeen seventy, at fourteen, he visited the Sistine Chapel in Rome,"
+    ],
+    [
+     "and heard a sacred piece no one was allowed to copy.",
+     "and heard a sacred piece no one was allowed to copy,"
+    ],
+    "Back at his lodgings, he wrote the whole piece down from memory,",
+    "and the chapel's secret was out."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Rome, 1770: the papal chapel"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Heard once",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Written from memory",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A free musician",
+   "lines": [
+    [
+     "In Salzburg, his archbishop employer",
+     "In Salzburg, his employer, the archbishop,"
+    ],
+    [
+     "treated him like a servant.",
+     "treated him like a servant,"
+    ],
+    [
+     "In 1781, he quit and moved to Vienna.",
+     "So in seventeen eighty-one, he quit and moved to Vienna."
+    ],
+    "He would no longer serve a single noble patron,",
+    "but live by teaching, giving concerts and writing operas,",
+    "a daring choice for his time."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "1781: the road to Vienna"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "1781",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "A free musician",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The final year",
+   "lines": [
+    "In Vienna he wrote The Marriage of Figaro and Don Giovanni,",
+    [
+     "and in 1791, The Magic Flute packed the theater.",
+     "and in seventeen ninety-one, The Magic Flute packed the theater,"
+    ],
+    "That same year, a stranger asked him for a Requiem,",
+    "but before he could finish it, he fell ill,",
+    [
+     "and on December 5, he died in Vienna, at just 35.",
+     "and on December fifth, he died in Vienna, at the age of thirty-five."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Vienna, 1791: The Magic Flute"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "1791",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The Requiem, unfinished",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "His student completed the unfinished Requiem.",
+     "His student completed the unfinished Requiem."
+    ],
+    "He left more than six hundred works.",
+    "Today, his music still plays all over the world,",
+    "and even the Voyager Golden Record, beyond our solar system,",
+    "carries an aria from The Magic Flute.",
+    "His question for you:",
+    [
+     "If life gave you just 35 years, what would you leave behind?",
+     "If life gave you just thirty-five years, what would you leave behind?"
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "The unfinished Requiem"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If life gave you just 35 years,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "what would you leave behind?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on December 5, we remember Wolfgang Amadeus Mozart.",
+     "and on December fifth, we remember Wolfgang Amadeus Mozart."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Mozart",
+    "years": "1756 – 1791"
+   }
+  }
+ ]
+}

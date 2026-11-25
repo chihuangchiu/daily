@@ -45,3 +45,4 @@
 | 2026-12-01 | Rosa Parks | blieb im Bus sitzen (1955, Montgomery, Alabama) |
 | 2026-12-02 | Georges Seurat | Geburtstag (1859, Paris, Frankreich) |
 | 2026-12-03 | Ellen Swallow Richards | Geburtstag (1842, Dunstable, Massachusetts, USA) |
+| 2026-12-04 | Wassily Kandinsky | Geburtstag (1866, Moskau, Russland) |

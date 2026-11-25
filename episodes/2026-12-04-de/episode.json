@@ -1,0 +1,329 @@
+{
+ "date": "2026-12-04",
+ "mmdd": "12.04",
+ "lang": "de",
+ "person": "Wassily Kandinsky",
+ "event": "Geburtstag (1866, Moskau)",
+ "title": "Wassily Kandinsky: Der Maler, der Farben hörte | Vor 160 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Wenn er Musik hörte, sah er Farben!",
+    [
+     "Wer hat heute die Welt verändert? Der 4. Dezember.",
+     "Wer hat heute die Welt verändert? Der vierte Dezember."
+    ],
+    [
+     "Heute vor 160 Jahren,",
+     "Heute vor hundertsechzig Jahren,"
+    ],
+    "kam in Moskau,",
+    "der Maler Wassily Kandinsky zur Welt."
+   ],
+   "data": {
+    "hook": "Wenn er Musik hörte,\nsah er Farben",
+    "sub": "1866  ──  2026",
+    "sub_at": 2,
+    "name": "Kandinsky",
+    "name_years": "Wassily Kandinsky · 1866 – 1944",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Neustart mit dreißig",
+   "lines": [
+    "Er studierte Jura in Moskau und lehrte dort.",
+    [
+     "1896 bot man ihm eine Professur in Dorpat an,",
+     "Achtzehnhundertsechsundneunzig bot man ihm eine Professur in Dorpat an,"
+    ],
+    "doch mit dreißig sagte er Nein,",
+    "zog nach München und lernte von vorn: Malen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Jura-Vorlesung in Moskau"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "30",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Neustart als Maler",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Farben hören",
+   "lines": [
+    "Später schrieb er: Bei Wagners Lohengrin in Moskau",
+    "sah er im Geist alle Farben vor sich,",
+    "für ihn konnten Farben singen,",
+    "und Formen hatten eine eigene Stimme.",
+    "Im selben Jahr verzauberten ihn Monets Heuhaufen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Bolschoi-Theater, Moskau"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Farben singen",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Formen haben eine Stimme",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Das gekippte Bild",
+   "lines": [
+    "Eines Abends kam er in der Dämmerung ins Atelier",
+    "und sah ein wunderschönes Bild, nur Formen und Farben,",
+    "von Nahem war es sein eigenes Bild, auf die Seite gekippt!",
+    "Da verstand er: Ein Bild muss keinen Gegenstand zeigen."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Atelier in München, Dämmerung"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Ohne Gegenstand",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "und trotzdem bewegend",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Die Abstraktion",
+   "lines": [
+    [
+     "1911 schrieb er „Über das Geistige in der Kunst“:",
+     "Neunzehnhundertelf schrieb er Über das Geistige in der Kunst:"
+    ],
+    "Kunst soll das Innere des Menschen ausdrücken,",
+    "mit Franz Marc gründete er den Blauen Reiter.",
+    "Er malte nur noch Linien, Kreise und Farbflecken",
+    "und wurde einer der ersten abstrakten Maler.",
+    [
+     "Ab 1922 lehrte er am Bauhaus, mit Kreis, Dreieck, Quadrat.",
+     "Ab neunzehnhundertzweiundzwanzig lehrte er am Bauhaus, mit Kreis, Dreieck und Quadrat."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "text": "1911",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Der Blaue Reiter",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "until": 5,
+      "items": [
+       {
+        "text": "Abstrakt",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "nur Linien und Farbflecken",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Am Bauhaus in den 1920ern"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "1933 schlossen die Nazis das Bauhaus, er zog nach Frankreich,",
+     "Neunzehnhundertdreiunddreißig schlossen die Nazis das Bauhaus, er zog nach Frankreich,"
+    ],
+    [
+     "1937: »entartete Kunst«, aus Museen entfernt.",
+     "Neunzehnhundertsiebenunddreißig nannten sie seine Bilder entartete Kunst und holten sie aus deutschen Museen."
+    ],
+    [
+     "1944 starb er bei Paris, mit 77 Jahren.",
+     "Neunzehnhundertvierundvierzig starb er bei Paris, mit siebenundsiebzig Jahren."
+    ],
+    "Heute hängen seine Bilder in Museen der ganzen Welt",
+    "und prägen Plakate, Design und unzählige Künstler.",
+    "Seine Frage an dich:",
+    "Wenn du Musik hörst, welche Farben siehst du?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Entartet?",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Das Etikett der Nazis",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Im Museum, heute"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn du Musik hörst,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "welche Farben siehst du?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 4. Dezember erinnern wir an Wassily Kandinsky.",
+     "und am vierten Dezember erinnern wir an Wassily Kandinsky."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Kandinsky",
+    "years": "1866 – 1944"
+   }
+  }
+ ]
+}

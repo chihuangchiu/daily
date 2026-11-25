@@ -1,0 +1,355 @@
+{
+ "date": "2026-12-04",
+ "mmdd": "12.04",
+ "lang": "pt",
+ "person": "Wassily Kandinsky",
+ "event": "nascimento (1866, Moscou, Rússia)",
+ "title": "Kandinsky: o pintor que ouvia as cores | Há 160 anos",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Quando ouvia música, ele via cores!",
+    [
+     "Quem mudou o mundo hoje? 4 de dezembro.",
+     "Quem mudou o mundo hoje? Quatro de dezembro."
+    ],
+    [
+     "Num dia como hoje, em 1866,",
+     "Num dia como hoje, em mil oitocentos e sessenta e seis,"
+    ],
+    "em Moscou,",
+    "nasceu o pintor Wassily Kandinsky."
+   ],
+   "data": {
+    "hook": "Quando ouvia música,\nele via cores!",
+    "sub": "1866  ──  2026",
+    "sub_at": 2,
+    "name": "Kandinsky",
+    "name_years": "Wassily Kandinsky · 1866 – 1944",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.38,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  Uma virada aos trinta",
+   "lines": [
+    "Ele estudou direito e economia em Moscou,",
+    [
+     "e dava aulas na universidade.",
+     "e dava aulas na universidade,"
+    ],
+    [
+     "Em 1896, recusou um cargo de professor.",
+     "mas em mil oitocentos e noventa e seis, recusou um cargo de professor,"
+    ],
+    [
+     "Aos trinta anos, mudou-se para Munique, e foi aprender a pintar.",
+     "e, aos trinta anos, mudou-se para Munique, e foi aprender a pintar."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Uma aula de direito em Moscou"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "30 anos",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Recomeçar do zero",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Ouvir as cores",
+   "lines": [
+    [
+     "Ele escreveu: numa ópera de Wagner no Bolshoi,",
+     "Mais tarde, ele escreveu que, numa ópera de Vágner no Teatro Bolchói,"
+    ],
+    [
+     "viu todas as cores na sua mente.",
+     "viu todas as cores na sua mente,"
+    ],
+    "para ele, as cores podiam cantar,",
+    "e as formas tinham voz própria."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "O Teatro Bolshoi, em Moscou"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "As cores cantam",
+        "style": "huge",
+        "size": 90,
+        "color": "red"
+       },
+       {
+        "text": "As formas têm voz",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  O quadro de lado",
+   "lines": [
+    "Certa noite, ele viu no seu ateliê",
+    [
+     "um quadro lindo, só de formas e cores.",
+     "um quadro lindo, só de formas e cores,"
+    ],
+    [
+     "De perto, era um quadro dele, virado de lado!",
+     "de perto, era um quadro dele, virado de lado,"
+    ],
+    "e percebeu: uma pintura não precisa mostrar nada."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Um ateliê em Munique ao entardecer"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Sem objetos",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "E ainda emociona",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Nasce a arte abstrata",
+   "lines": [
+    [
+     "Em 1911, escreveu Do Espiritual na Arte:",
+     "Em mil novecentos e onze, escreveu o livro Do Espiritual na Arte:"
+    ],
+    [
+     "a arte deve expressar a vida interior.",
+     "a arte deve expressar a vida interior,"
+    ],
+    [
+     "Passou a pintar só linhas, círculos e manchas de cor,",
+     "e passou a pintar só linhas, círculos e manchas de cor,"
+    ],
+    "tornando-se um dos primeiros pintores abstratos.",
+    [
+     "Depois, ensinou na escola Bauhaus,",
+     "Depois, ensinou na escola Báuhaus,"
+    ],
+    "com círculos, triângulos e quadrados."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "1911",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Do Espiritual na Arte",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 4,
+      "items": [
+       {
+        "text": "Abstrato",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Só linhas e cor",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Uma sala da Bauhaus, anos 1920"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Sua resposta",
+   "lines": [
+    [
+     "Em 1933, os nazistas fecharam a Bauhaus, e ele foi para a França.",
+     "Em mil novecentos e trinta e três, os nazistas fecharam a Báuhaus, e ele foi para a França,"
+    ],
+    [
+     "Em 1937, chamaram sua arte de degenerada.",
+     "em mil novecentos e trinta e sete, chamaram sua arte de degenerada, e a tiraram dos museus alemães,"
+    ],
+    [
+     "Morreu perto de Paris em 1944, aos 77 anos.",
+     "e morreu perto de Paris em mil novecentos e quarenta e quatro, aos setenta e sete anos."
+    ],
+    "Hoje, seus quadros estão em museus do mundo todo,",
+    [
+     "e inspiram cartazes, design e muitos artistas.",
+     "e inspiram cartazes, design e muitos artistas,"
+    ],
+    "a pergunta dele para você:",
+    "Quando você ouve música, que cores você vê?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "text": "Degenerada",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Um rótulo nazista",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Um museu hoje"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "A pergunta dele",
+        "style": "kicker"
+       },
+       {
+        "text": "Quando você ouve música,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "que cores você vê?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Aqui é Quem mudou o mundo hoje,",
+    [
+     "e neste 4 de dezembro, lembramos de Wassily Kandinsky.",
+     "e neste quatro de dezembro, lembramos de Wassily Kandinsky."
+    ],
+    "Se gostou, inscreva-se e compartilhe. Até amanhã!"
+   ],
+   "data": {
+    "name": "Kandinsky",
+    "years": "1866 – 1944"
+   }
+  }
+ ]
+}

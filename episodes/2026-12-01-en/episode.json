@@ -1,0 +1,326 @@
+{
+ "date": "2026-12-01",
+ "mmdd": "12.01",
+ "lang": "en",
+ "person": "Rosa Parks",
+ "event": "refused to give up her bus seat (1955, Montgomery, Alabama)",
+ "title": "Rosa Parks: She Stayed in Her Seat and Changed a Nation | 71 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "She stayed in her seat, and changed a nation!",
+    [
+     "Who changed the world today? December 1.",
+     "Who changed the world today? December first."
+    ],
+    [
+     "On this day in 1955,",
+     "On this day in nineteen fifty-five,"
+    ],
+    "in Montgomery, Alabama,",
+    "a seamstress, Rosa Parks, boarded a bus."
+   ],
+   "data": {
+    "hook": "She stayed in her seat\nand changed a nation",
+    "sub": "1955  ──  2026",
+    "sub_at": 2,
+    "name": "Parks",
+    "name_years": "Rosa Parks · 1913 – 2005",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.28,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  A line on the bus",
+   "lines": [
+    "Back then, the front seats were for white riders only,",
+    "and Black riders had to sit in the back.",
+    "Parks, forty-two, was a seamstress",
+    "and the secretary of the local NAACP."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A city bus in the 1950s"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "SEGREGATED",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Front seats: whites only",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  She did not stand up",
+   "lines": [
+    "That evening, after work, she sat in the first row of the Black section.",
+    "As the bus filled, the driver told her and three others to move;",
+    "the other three stood up, but she did not.",
+    "Later she said she was not tired in body, but tired of giving in,",
+    "and she was arrested on the spot."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Evening, December 1, 1955"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "NO",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Arrested on the spot",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  381 days",
+   "lines": [
+    [
+     "The news spread; Black residents quit the buses.",
+     "The news spread, and Black residents stopped riding the buses."
+    ],
+    [
+     "The boycott was led by a pastor of 26, Martin Luther King Jr.",
+     "The boycott was led by a twenty-six-year-old pastor, Martin Luther King Jr."
+    ],
+    "People walked or shared rides,",
+    "for three hundred eighty-one days."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A church meeting in Montgomery"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Walking to work"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "381 days",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "No buses",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  The front seats",
+   "lines": [
+    [
+     "In 1956, the Supreme Court upheld a ruling",
+     "In nineteen fifty-six, the Supreme Court upheld a ruling"
+    ],
+    [
+     "against bus segregation. That December, Black riders sat in front.",
+     "against bus segregation. That December, Black riders sat up front."
+    ],
+    "But she lost her job and got threats,",
+    "so she moved to Detroit and kept fighting for civil rights."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "December 1956, a seat up front"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "STRUCK DOWN",
+        "style": "huge",
+        "size": 100,
+        "color": "red"
+       },
+       {
+        "text": "Bus segregation ends",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1999, Congress gave her its Gold Medal.",
+     "In nineteen ninety-nine, Congress gave her its Gold Medal."
+    ],
+    [
+     "When she died in 2005,",
+     "When she died in two thousand five,"
+    ],
+    "she was the first woman to lie in honor in the Capitol Rotunda.",
+    "Today, she is called the mother of the civil rights movement.",
+    "Her question for you:",
+    "When a rule is unfair, would you dare to say no?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1999",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Congressional Gold Medal",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 4,
+      "items": [
+       {
+        "text": "2005",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "The Capitol Rotunda",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "？",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Her question",
+        "style": "kicker"
+       },
+       {
+        "text": "When a rule is unfair,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "would you dare to say no?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on December 1, we remember Rosa Parks.",
+     "and on December first, we remember Rosa Parks."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Rosa Parks",
+    "years": "1913 – 2005"
+   }
+  }
+ ]
+}

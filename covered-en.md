@@ -42,3 +42,5 @@
 | 2026-11-28 | William Blake | born (1757, London, England) | yes |
 | 2026-11-29 | Christian Doppler | born (1803, Salzburg, Austria) | yes |
 | 2026-11-30 | Mark Twain | born (1835, Florida, Missouri) | yes |
+| 2026-12-01 | Rosa Parks | refused to give up her bus seat (1955, Montgomery, Alabama) | yes |
+| 2026-12-02 | Georges Seurat | born (1859, Paris, France) | yes |

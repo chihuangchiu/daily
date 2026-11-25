@@ -1,0 +1,272 @@
+{
+ "date": "2026-12-02",
+ "mmdd": "12.02",
+ "lang": "en",
+ "person": "Georges Seurat",
+ "event": "born (1859, Paris)",
+ "title": "Georges Seurat: He Painted a Whole Sunday With Tiny Dots | Born 167 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He painted a whole Sunday with nothing but tiny dots!",
+    [
+     "Who changed the world today? December 2.",
+     "Who changed the world today? December second."
+    ],
+    [
+     "On this day in 1859,",
+     "On this day in eighteen fifty-nine,"
+    ],
+    "in Paris,",
+    "the painter Georges Seurat was born."
+   ],
+   "data": {
+    "hook": "A whole Sunday,\npainted in tiny dots",
+    "sub": "1859  ──  2026",
+    "sub_at": 2,
+    "name": "Seurat",
+    "name_years": "Georges Seurat · 1859 – 1891",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.31,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  Eyes of a scientist",
+   "lines": [
+    "He trained at the School of Fine Arts in Paris,",
+    "but he also read what scientists wrote about color.",
+    "Put two colors side by side, step back,",
+    "and they blend inside your eye,",
+    "so why not let the viewer's eye do the mixing?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A young painter studies color"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Color",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "mixed in the eye",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Rejected",
+   "lines": [
+    [
+     "In 1884, he sent his first big painting to the official Salon.",
+     "In eighteen eighty-four, he sent his first big painting to the official Salon."
+    ],
+    "It showed young workers resting by the river; the judges rejected it.",
+    "He didn't give up: he and other artists started their own show,",
+    "so rejected work could be seen too."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Bathers at Asnières"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Rejected",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "so they made their own show",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  A two-year Sunday",
+   "lines": [
+    [
+     "That year, he began painting La Grande Jatte, in the Seine.",
+     "That same year, he began painting La Grande Jatte, an island in the Seine."
+    ],
+    "He went back again and again, made about sixty studies,",
+    "and worked on it for two whole years.",
+    "The canvas is two meters high and three meters wide,",
+    "covered entirely in tiny dots of color."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Sunday on La Grande Jatte"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Dot by dot"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Paris is stunned",
+   "lines": [
+    [
+     "In 1886, it was shown at the last Impressionist exhibition.",
+     "In eighteen eighty-six, it was shown at the last Impressionist exhibition."
+    ],
+    "A brand-new style, Pointillism, was born,",
+    "and later, even Van Gogh tried painting with dots."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "items": [
+       {
+        "text": "1886",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Pointillism is born",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    [
+     "In 1891, he died suddenly of illness, at just thirty-one.",
+     "In eighteen ninety-one, he died suddenly of illness, at just thirty-one."
+    ],
+    [
+     "In 1924, the Art Institute of Chicago bought the painting.",
+     "In nineteen twenty-four, the Art Institute of Chicago bought the painting."
+    ],
+    "It still hangs there,",
+    "and its dots look a lot like the pixels on our screens.",
+    "His question for you:",
+    "If something took two years to finish, would you keep going?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Art Institute of Chicago"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If something took two years,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "would you keep going?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on December 2, we remember Georges Seurat.",
+     "and on December second, we remember Georges Seurat."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Seurat",
+    "years": "1859 – 1891"
+   }
+  }
+ ]
+}

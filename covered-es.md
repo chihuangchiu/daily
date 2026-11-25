@@ -42,3 +42,4 @@
 | 2026-11-28 | William Blake | nacimiento (1757, Londres, Inglaterra) |
 | 2026-11-29 | Christian Doppler | nacimiento (1803, Salzburgo, Austria) |
 | 2026-11-30 | Mark Twain | nacimiento (1835, Florida, Misuri, EE. UU.) |
+| 2026-12-01 | Rosa Parks | se negó a ceder su asiento (1955, Montgomery, Alabama) |

@@ -1,0 +1,321 @@
+{
+ "date": "2026-12-01",
+ "mmdd": "12.01",
+ "lang": "es",
+ "person": "Rosa Parks",
+ "event": "se negó a ceder su asiento (1955, Montgomery, Alabama)",
+ "title": "Rosa Parks: se quedó sentada y cambió un país | Hace 71 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "¡Solo se quedó sentada, y cambió todo un país!",
+    [
+     "¿Quién cambió el mundo hoy? 1 de diciembre.",
+     "¿Quién cambió el mundo hoy? Uno de diciembre."
+    ],
+    [
+     "Un día como hoy, en 1955,",
+     "Un día como hoy, en mil novecientos cincuenta y cinco,"
+    ],
+    "en Montgomery, Alabama,",
+    "la costurera Rosa Parks subió a un autobús."
+   ],
+   "data": {
+    "hook": "Solo se quedó sentada\ny cambió un país",
+    "sub": "1955  ──  2026",
+    "sub_at": 2,
+    "name": "Parks",
+    "name_years": "Rosa Parks · 1913 – 2005",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.28,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  La línea del autobús",
+   "lines": [
+    "En esos autobuses, adelante solo se sentaban blancos,",
+    "y si faltaba sitio, un pasajero negro debía ceder el suyo.",
+    "Rosa, de cuarenta y dos años, era costurera",
+    "y secretaria de un grupo de derechos civiles."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Un autobús de los años 50"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Segregación",
+        "style": "huge",
+        "size": 96,
+        "color": "red"
+       },
+       {
+        "text": "Adelante, solo blancos",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  No se levantó",
+   "lines": [
+    "Esa tarde se sentó en la primera fila para negros.",
+    "Subieron más blancos, y el conductor ordenó",
+    "a ella y a otros tres pasajeros negros que se levantaran.",
+    "Los otros tres obedecieron, pero ella no:",
+    "no estaba cansada del cuerpo, sino cansada de ceder,",
+    "y la policía la arrestó allí mismo."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "1 de diciembre de 1955"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "No cedió",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Arrestada en el acto",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  381 días",
+   "lines": [
+    "La comunidad negra decidió no volver a usar los autobuses,",
+    "guiada por un pastor de veintiséis años: Martin Luther King.",
+    "Caminaban o compartían coche para ir a trabajar,",
+    "durante trescientos ochenta y un días."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Reunión en una iglesia"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Caminando al trabajo"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "381 días",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "Sin subir al autobús",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Hasta la primera fila",
+   "lines": [
+    [
+     "En 1956, la Corte Suprema confirmó que esa segregación",
+     "En mil novecientos cincuenta y seis, la Corte Suprema confirmó que esa segregación"
+    ],
+    [
+     "era inconstitucional; en diciembre, ya iban adelante.",
+     "era inconstitucional, y en diciembre pudieron sentarse adelante."
+    ],
+    "Pero Rosa perdió su trabajo y recibió amenazas,",
+    "así que se mudó a Detroit y siguió luchando."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Diciembre de 1956, adelante"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Inconstitucional",
+        "style": "huge",
+        "size": 80,
+        "color": "red"
+       },
+       {
+        "text": "Fin de la segregación",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "En 1999 recibió la Medalla de Oro del Congreso.",
+     "En mil novecientos noventa y nueve recibió la Medalla de Oro del Congreso."
+    ],
+    [
+     "Y al morir, en 2005,",
+     "Y al morir, en dos mil cinco,"
+    ],
+    "fue la primera mujer honrada en la Rotonda del Capitolio.",
+    "Hoy la llaman la madre de los derechos civiles.",
+    "Su pregunta:",
+    "Cuando una regla es injusta, ¿te atreves a decir que no?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 1,
+      "items": [
+       {
+        "text": "1999",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Medalla de Oro del Congreso",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 1,
+      "until": 4,
+      "items": [
+       {
+        "text": "2005",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Rotonda del Capitolio",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Cuando una regla es injusta,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       },
+       {
+        "text": "¿te atreves a decir que no?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 5
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 1 de diciembre, recordamos a Rosa Parks.",
+     "y este primero de diciembre, recordamos a Rosa Parks."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Parks",
+    "years": "1913 – 2005"
+   }
+  }
+ ]
+}

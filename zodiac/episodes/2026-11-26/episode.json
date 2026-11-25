@@ -1,0 +1,52 @@
+{
+ "date": "2026-11-26",
+ "weather": {
+  "city": "台北",
+  "summary": "東北季風減弱，陰時多雲有短暫雨，降雨機率 60%，氣溫約 19–21°C"
+ },
+ "sky": "月亮在雙子座與天秤座金星三分相，晚上走進巨蟹座，火星進入處女座",
+ "opening": "哈囉大家早安，我是卡卡夫人！今天是感恩節，台北有短暫雨，最高二十一度，記得帶把傘。你最想感謝誰？留言告訴我！今天月亮在雙子座，十二星座運勢，從第十二名倒數！",
+ "open_scene": "雙手放鬆交疊在桌上，身體微微前傾，說到感謝時溫暖地微笑點頭",
+ "signs": [
+  {"rank": 12, "key": "virgo", "love": 1, "work": 2, "money": 1, "color": "奶茶色", "hex": "#c8a97e", "num": "6",
+   "tip": "火星帶來衝勁，一件一件慢慢做。", "say": "一件一件，慢慢來。"},
+  {"rank": 11, "key": "pisces", "love": 2, "work": 1, "money": 2, "color": "海水藍", "hex": "#4fa3c7", "num": "9",
+   "tip": "容易想太多，先做眼前的事。", "say": "想太多，不如先做。"},
+  {"rank": 10, "key": "capricorn", "love": 2, "work": 2, "money": 1, "color": "深咖啡", "hex": "#6b4430", "num": "17",
+   "tip": "工作量偏多，行程記得留空檔。", "say": "排程留白，比較輕鬆。"},
+  {"rank": 9, "key": "scorpio", "love": 2, "work": 3, "money": 2, "color": "深紫", "hex": "#5a2d82", "num": "27",
+   "tip": "直覺很準，但先別急著下結論。", "say": "相信直覺，再確認一次。"},
+  {"rank": 8, "key": "taurus", "love": 3, "work": 2, "money": 3, "color": "苔綠", "hex": "#6b8e4e", "num": "15",
+   "tip": "花錢前想一想，荷包會感謝你。", "say": "想一想，再買單。"},
+  {"rank": 7, "key": "cancer", "love": 3, "work": 3, "money": 3, "color": "月光銀", "hex": "#d9dde3", "num": "2",
+   "tip": "晚上月亮回家，好好寵愛自己。", "say": "月亮回家，好好放鬆。"},
+  {"rank": 6, "key": "sagittarius", "love": 3, "work": 4, "money": 3, "color": "寶藍", "hex": "#2a4fbf", "num": "33",
+   "tip": "太陽給你能量，計畫可以大膽些。", "say": "大膽計畫，好運跟著來！"},
+  {"rank": 5, "key": "aries", "love": 3, "work": 5, "money": 4, "color": "正紅", "hex": "#d62828", "num": "11",
+   "tip": "工作衝勁十足，先把話說清楚。", "say": "衝勁十足，溝通先行。"},
+  {"rank": 4, "key": "aquarius", "love": 5, "work": 4, "money": 4, "color": "天空藍", "hex": "#6fb7e8", "num": "7",
+   "tip": "好友帶來好消息，主動聯絡吧！", "say": "主動聯絡，好消息來！"},
+  {"rank": 3, "key": "gemini", "love": 5, "work": 4, "money": 5, "color": "蜜桃橘", "hex": "#ffad80", "num": "5",
+   "tip": "人氣還在高點，把握機會表現！", "say": "人氣正旺，大方表現！"},
+  {"rank": 2, "key": "leo", "love": 4, "work": 5, "money": 5, "color": "琥珀橘", "hex": "#e69a28", "num": "10",
+   "tip": "木星幫你撐腰，好運直接上門！", "say": "木星撐腰，好運上門！"},
+  {"rank": 1, "key": "libra", "love": 5, "work": 5, "money": 5, "color": "粉藍", "hex": "#a7c7e7", "num": "18",
+   "tip": "金星月亮同心，愛情人緣大豐收！", "say": "愛情人緣，一起豐收！"}
+ ],
+ "bonus": [
+  {
+   "chip": "今日開運美食",
+   "title": "暖暖海鮮粥",
+   "lines": ["月亮進巨蟹，水象海味開運", "微涼又有雨，暖胃剛剛好"],
+   "say": "最後是卡卡夫人的開運推薦！今晚月亮走進巨蟹座，來碗暖暖海鮮粥，暖胃又開運！",
+   "img_prompt": "a steaming ceramic bowl of Taiwanese seafood congee with plump shrimp, clams, sliced fish and chopped scallions, a porcelain spoon resting beside it on a cozy wooden table, a window behind showing gentle rain and a soft glowing crescent moon over calm ocean waves. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  },
+  {
+   "chip": "今日開運穿搭",
+   "title": "粉嫩色系針織衫",
+   "lines": ["金星月亮合拍，柔和色加分", "有短暫雨，加件防潑水外套"],
+   "say": "穿搭就選柔和的粉色針織衫，金星和月亮幫你加分，記得加件防潑水外套喔！",
+   "img_prompt": "a soft pastel pink cable-knit sweater neatly folded on a velvet armchair, a light blue water-resistant hooded jacket hanging on a wooden coat stand beside it, a small folded umbrella leaning against the chair, a window with gentle raindrops and a tiny glowing star above. Square illustration for a horoscope video card. Cute, friendly modern 2D illustration with soft cel shading, crisp clean outlines, rich jewel tones (royal blue, purple, teal, gold), cozy mood, a few tiny sparkles. No people, no text, no letters, no logos."
+  }
+ ]
+}

@@ -41,3 +41,4 @@
 | 2026-11-27 | Anders Celsius | born (1701, Uppsala, Sweden) | yes |
 | 2026-11-28 | William Blake | born (1757, London, England) | yes |
 | 2026-11-29 | Christian Doppler | born (1803, Salzburg, Austria) | yes |
+| 2026-11-30 | Mark Twain | born (1835, Florida, Missouri) | yes |

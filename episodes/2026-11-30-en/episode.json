@@ -1,0 +1,302 @@
+{
+ "date": "2026-11-30",
+ "mmdd": "11.30",
+ "lang": "en",
+ "person": "Mark Twain",
+ "event": "born (1835, Florida, Missouri)",
+ "title": "Mark Twain: He Came In With Halley's Comet, and Left With It | Born 191 Years Ago Today",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "He arrived with Halley's Comet, and left with it!",
+    [
+     "Who changed the world today? November 30.",
+     "Who changed the world today? November thirtieth."
+    ],
+    [
+     "On this day in 1835,",
+     "On this day in eighteen thirty-five,"
+    ],
+    "in a tiny village in Missouri,",
+    "the writer Mark Twain was born."
+   ],
+   "data": {
+    "hook": "He came with a comet,\nand left with it",
+    "sub": "1835  ──  2026",
+    "sub_at": 2,
+    "name": "Twain",
+    "name_years": "Mark Twain · 1835 – 1910",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 1  The river boy",
+   "lines": [
+    "His real name was Samuel Clemens.",
+    "He grew up in a small town on the Mississippi River.",
+    "When he was eleven, his father died,",
+    "and he went to work for a printer.",
+    "Whenever a steamboat docked, the whole town ran to see it.",
+    "His biggest dream was to pilot one of those boats.",
+    [
+     "In 1859, at twenty-three, he got his pilot's license.",
+     "In eighteen fifty-nine, at twenty-three, he got his pilot's license."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "A town on the Mississippi"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "items": [
+       {
+        "text": "Pilot",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "A boy's dream",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 2  Two fathoms deep",
+   "lines": [
+    "When crews measured the river's depth,",
+    "they called out: \"Mark twain!\"",
+    "It meant two fathoms, about twelve feet deep:",
+    "safe water for the boat.",
+    [
+     "In 1863, he took that call as his pen name.",
+     "In eighteen sixty-three, he took that call as his pen name."
+    ],
+    "And the world never forgot it."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Sounding the river's depth"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Two fathoms",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Safe water",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 3  The raft",
+   "lines": [
+    [
+     "In 1876, he published The Adventures of Tom Sawyer.",
+     "In eighteen seventy-six, he published The Adventures of Tom Sawyer."
+    ],
+    "Then came Adventures of Huckleberry Finn:",
+    "a boy and Jim, a man escaping slavery,",
+    "drift down the great river on a raft.",
+    "In the end, Huck decides: \"All right, then, I'll go to hell,\"",
+    "and he helps his friend reach freedom.",
+    [
+     "Hemingway said all modern American literature",
+     "Hemingway said all modern American literature"
+    ],
+    "comes from that one book."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 4,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "A raft on the Mississippi"
+       }
+      ]
+     },
+     {
+      "at": 4,
+      "items": [
+       {
+        "text": "Freedom",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "A boy's choice",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 4  Every last dollar",
+   "lines": [
+    [
+     "But bad investments left him bankrupt in 1894.",
+     "But bad investments left him bankrupt in eighteen ninety-four."
+    ],
+    "He was nearly sixty, but he didn't run from his debts.",
+    "Instead, he set off on a lecture tour around the world,",
+    "giving talk after talk, city after city.",
+    "A few years later, he had paid back every dollar."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "A lecture hall in the 1890s"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Paid back",
+        "style": "huge",
+        "size": 120,
+        "color": "red"
+       },
+       {
+        "text": "A world lecture tour",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Chapter 5  Your answer",
+   "lines": [
+    "He once said: I came in with Halley's Comet,",
+    "and I expect to go out with it.",
+    [
+     "In 1910, the comet returned, and he died the next day.",
+     "In nineteen ten, the comet returned, and he died the next day."
+    ],
+    "Today, his books are read in many languages,",
+    "and they still make readers laugh.",
+    "His question for you:",
+    "If you alone saw an injustice, would you stand up?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 5,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Halley's Comet, 1910"
+       }
+      ]
+     },
+     {
+      "at": 5,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "His question",
+        "style": "kicker"
+       },
+       {
+        "text": "If you alone saw an injustice,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       },
+       {
+        "text": "would you stand up?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 6
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "This is Who Changed the World Today,",
+    [
+     "and on November 30, we remember Mark Twain.",
+     "and on November thirtieth, we remember Mark Twain."
+    ],
+    "If you enjoyed this story, subscribe and share. See you tomorrow!"
+   ],
+   "data": {
+    "name": "Twain",
+    "years": "1835 – 1910"
+   }
+  }
+ ]
+}

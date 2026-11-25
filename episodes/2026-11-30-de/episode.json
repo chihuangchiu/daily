@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-30",
+ "mmdd": "11.30",
+ "lang": "de",
+ "person": "Mark Twain",
+ "event": "Geburtstag (1835, Florida, Missouri, USA)",
+ "title": "Mark Twain: Mit dem Halleyschen Kometen gekommen und gegangen | Vor 191 Jahren",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "Er kam mit dem Halleyschen Kometen und ging mit ihm!",
+    [
+     "Wer hat heute die Welt verändert? Der 30. November.",
+     "Wer hat heute die Welt verändert? Der dreißigste November."
+    ],
+    [
+     "Heute vor 191 Jahren,",
+     "Heute vor hunderteinundneunzig Jahren,"
+    ],
+    "in einem Dorf in Missouri, USA,",
+    "wurde der Schriftsteller Mark Twain geboren."
+   ],
+   "data": {
+    "hook": "Mit dem Kometen kam er,\nmit ihm ging er",
+    "sub": "1835  ──  2026",
+    "sub_at": 2,
+    "name": "Twain",
+    "name_years": "Mark Twain · 1835 – 1910",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 1  Der Junge am Fluss",
+   "lines": [
+    "Er hieß Samuel Clemens und wuchs am Mississippi auf.",
+    "Sein größter Traum: Lotse auf einem Dampfschiff zu werden.",
+    [
+     "1859, mit 23, bekam er sein Lotsenpatent.",
+     "Achtzehnhundertneunundfünfzig, mit dreiundzwanzig, bekam er sein Lotsenpatent."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Eine Kleinstadt am Mississippi"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Lotse",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Der Traum des Jungen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 2  Zwei Faden tief",
+   "lines": [
+    [
+     "Beim Loten riefen die Matrosen: „Mark Twain!“",
+     "Beim Loten riefen die Matrosen: Mark Twain!"
+    ],
+    "Das hieß: zwei Faden, etwa dreieinhalb Meter, sicheres Wasser.",
+    [
+     "1863 machte er diesen Ruf zu seinem Künstlernamen.",
+     "Achtzehnhundertdreiundsechzig machte er diesen Ruf zu seinem Künstlernamen."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Loten auf einem Dampfschiff"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Zwei Faden",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Sicheres Wasser",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 3  Das Floß",
+   "lines": [
+    [
+     "1876 erschien „Tom Sawyer“.",
+     "Achtzehnhundertsechsundsiebzig erschien Tom Sawyer."
+    ],
+    [
+     "Später schrieb er „Huckleberry Finn“:",
+     "Später schrieb er Huckleberry Finn:"
+    ],
+    "Ein Junge und der geflohene Sklave Jim treiben auf einem Floß.",
+    "Huck will Jim befreien, auch wenn er dafür in die Hölle kommt.",
+    [
+     "Hemingway: Alle US-Literatur von heute stammt aus diesem Buch.",
+     "Laut Hemingway stammt alle moderne amerikanische Literatur aus diesem Buch."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Ein Floß auf dem Mississippi"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Freiheit",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Die Wahl eines Jungen",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 4  Jeder Cent zurück",
+   "lines": [
+    [
+     "Doch Fehlinvestitionen machten ihn 1894 bankrott.",
+     "Doch Fehlinvestitionen machten ihn achtzehnhundertvierundneunzig bankrott."
+    ],
+    "Mit fast sechzig floh er nicht,",
+    "sondern hielt Vorträge rund um die Welt.",
+    "Ein paar Jahre später hatte er alle Schulden zurückgezahlt."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Ein Vortragssaal der 1890er"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Bezahlt",
+        "style": "huge",
+        "size": 150,
+        "color": "red"
+       },
+       {
+        "text": "Vorträge rund um die Welt",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Kapitel 5  Deine Antwort",
+   "lines": [
+    [
+     "Mit dem Kometen kam er, mit ihm wollte er gehen.",
+     "Er kam mit dem Halleyschen Kometen und wollte mit ihm gehen."
+    ],
+    [
+     "1910 kam der Komet wieder, und am Tag danach starb er.",
+     "Neunzehnhundertzehn kam der Komet wieder, und am Tag danach starb er."
+    ],
+    "Bis heute bringen seine Bücher die Welt zum Lachen.",
+    "Seine Frage an dich:",
+    "Wenn nur du das Unrecht siehst, würdest du dagegen aufstehen?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "Der Halleysche Komet, 1910"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Seine Frage",
+        "style": "kicker"
+       },
+       {
+        "text": "Wenn nur du das Unrecht siehst,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "würdest du dagegen aufstehen?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Das ist Wer hat heute die Welt verändert,",
+    [
+     "und am 30. November erinnern wir an Mark Twain.",
+     "und am dreißigsten November erinnern wir an Mark Twain."
+    ],
+    "Wenn's dir gefällt, abonniere und teile. Bis morgen!"
+   ],
+   "data": {
+    "name": "Twain",
+    "years": "1835 – 1910"
+   }
+  }
+ ]
+}

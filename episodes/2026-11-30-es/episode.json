@@ -1,0 +1,314 @@
+{
+ "date": "2026-11-30",
+ "mmdd": "11.30",
+ "lang": "es",
+ "person": "Mark Twain",
+ "event": "nacimiento (1835, Florida, Misuri, EE. UU.)",
+ "title": "Mark Twain: llegó con el cometa Halley y se fue con él | Hace 191 años",
+ "footer": "",
+ "scenes": [
+  {
+   "template": "title",
+   "lines": [
+    "¡Llegó al mundo con el cometa Halley, y se fue con él!",
+    [
+     "¿Quién cambió el mundo hoy? 30 de noviembre.",
+     "¿Quién cambió el mundo hoy? Treinta de noviembre."
+    ],
+    [
+     "Un día como hoy, en 1835,",
+     "Un día como hoy, en mil ochocientos treinta y cinco,"
+    ],
+    "en un pueblito de Misuri,",
+    "nació el escritor Mark Twain."
+   ],
+   "data": {
+    "hook": "Llegó con el cometa\ny se fue con él",
+    "sub": "1835  ──  2026",
+    "sub_at": 2,
+    "name": "Twain",
+    "name_years": "Mark Twain · 1835 – 1910",
+    "name_at": 4,
+    "image": "opening.png",
+    "image_shift": 0.3,
+    "video": "opening.mp4",
+    "video_secs": 5,
+    "video_align": "end"
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 1  El chico del río",
+   "lines": [
+    "Se llamaba Samuel Clemens y creció junto al río Misisipi.",
+    [
+     "Cuando llegaba un barco de vapor, todo el pueblo corría a verlo.",
+     "Cuando llegaba un barco de vapor, todo el pueblo corría a verlo,"
+    ],
+    [
+     "Su gran sueño era ser piloto de esos barcos.",
+     "Su gran sueño era ser piloto de esos barcos,"
+    ],
+    [
+     "En 1859, a los veintitrés años, logró su licencia de piloto.",
+     "En mil ochocientos cincuenta y nueve, a los veintitrés años, logró su licencia de piloto."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img1.png",
+        "caption": "Un pueblo a orillas del Misisipi"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Piloto",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "El sueño de un chico",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 2  Dos brazas",
+   "lines": [
+    [
+     "Al medir el fondo, los marineros gritaban: ¡Mark twain!",
+     "Al medir el fondo, los marineros gritaban: Mark twain,"
+    ],
+    [
+     "Significaba dos brazas, unos tres metros y medio: agua segura.",
+     "Significaba dos brazas, unos tres metros y medio: agua segura,"
+    ],
+    [
+     "En 1863, convirtió ese grito en su seudónimo.",
+     "En mil ochocientos sesenta y tres, convirtió ese grito en su seudónimo."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img2.png",
+        "caption": "Midiendo la profundidad del río"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Dos brazas",
+        "style": "huge",
+        "size": 110,
+        "color": "red"
+       },
+       {
+        "text": "Agua segura",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 3  La balsa",
+   "lines": [
+    [
+     "En 1876 escribió Las aventuras de Tom Sawyer.",
+     "En mil ochocientos setenta y seis escribió Las aventuras de Tom Sawyer,"
+    ],
+    "Después vino Huckleberry Finn:",
+    "un chico y Jim, un esclavo fugitivo, bajan el río en balsa.",
+    [
+     "Al final, el chico decide ayudar a su amigo a ser libre.",
+     "Al final, el chico decide ayudar a su amigo a ser libre,"
+    ],
+    [
+     "Hemingway: de ahí viene la literatura moderna de EE. UU.",
+     "Hemingway dijo que toda la literatura moderna de Estados Unidos viene de ese libro."
+    ]
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img3.png",
+        "caption": "Una balsa en el Misisipi"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "items": [
+       {
+        "text": "Libertad",
+        "style": "huge",
+        "size": 130,
+        "color": "red"
+       },
+       {
+        "text": "La decisión de un chico",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 4  Pagar cada dólar",
+   "lines": [
+    [
+     "Pero sus inversiones fracasaron: en 1894 quedó en bancarrota.",
+     "Pero sus inversiones fracasaron: en mil ochocientos noventa y cuatro quedó en bancarrota,"
+    ],
+    "Con casi sesenta años, no huyó:",
+    [
+     "dio conferencias por todo el mundo.",
+     "dio conferencias por todo el mundo,"
+    ],
+    "Unos años después, había pagado todo lo que debía."
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 2,
+      "items": [
+       {
+        "type": "image",
+        "src": "img4.png",
+        "caption": "Una sala de conferencias, 1890"
+       }
+      ]
+     },
+     {
+      "at": 2,
+      "items": [
+       {
+        "text": "Pagado",
+        "style": "huge",
+        "size": 140,
+        "color": "red"
+       },
+       {
+        "text": "Conferencias por el mundo",
+        "style": "head",
+        "delay": 0.4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "stack",
+   "chapter": "Capítulo 5  Tu respuesta",
+   "lines": [
+    [
+     "Decía que llegó con el cometa Halley, y que se iría con él.",
+     "Decía que llegó con el cometa Halley, y que se iría con él,"
+    ],
+    [
+     "En 1910, el cometa volvió, y él murió al día siguiente.",
+     "En mil novecientos diez, el cometa volvió, y él murió al día siguiente,"
+    ],
+    [
+     "Hoy, sus libros siguen haciendo reír en muchos idiomas.",
+     "Hoy, sus libros siguen haciendo reír en muchos idiomas,"
+    ],
+    "Su pregunta para ti:",
+    "Si solo tú vieras una injusticia, ¿te atreverías a hablar?"
+   ],
+   "data": {
+    "phases": [
+     {
+      "at": 0,
+      "until": 3,
+      "items": [
+       {
+        "type": "image",
+        "src": "img5.png",
+        "caption": "El cometa Halley en 1910"
+       }
+      ]
+     },
+     {
+      "at": 3,
+      "bg": {
+       "char": "?",
+       "color": "red"
+      },
+      "items": [
+       {
+        "text": "Su pregunta",
+        "style": "kicker"
+       },
+       {
+        "text": "Si solo tú vieras una injusticia,",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       },
+       {
+        "text": "¿te atreverías a hablar?",
+        "style": "head",
+        "size": 34,
+        "color": "red",
+        "at": 4
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "template": "end",
+   "lines": [
+    "Esto es Quién cambió el mundo hoy,",
+    [
+     "y este 30 de noviembre, recordamos a Mark Twain.",
+     "y este treinta de noviembre, recordamos a Mark Twain."
+    ],
+    "Si te gustó, suscríbete y compártela. ¡Nos vemos mañana!"
+   ],
+   "data": {
+    "name": "Twain",
+    "years": "1835 – 1910"
+   }
+  }
+ ]
+}
